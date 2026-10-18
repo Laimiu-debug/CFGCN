@@ -1,0 +1,17 @@
+{
+  "name": "@cfgcn/sanguo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.tsx",
+    "./world": "./src/world.ts"
+  },
+  "dependencies": {
+    "@cfgcn/shared": "*",
+    "@cfgcn/ui": "*"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0"
+  }
+}

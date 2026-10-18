@@ -1,0 +1,23 @@
+{
+  "name": "@cfgcn/website",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "dependencies": {
+    "@cfgcn/shared": "*",
+    "@cfgcn/ui": "*",
+    "@cfgcn/xiyou": "*",
+    "@cfgcn/shuihu": "*",
+    "@cfgcn/sanguo": "*",
+    "@cfgcn/honglou": "*",
+    "@fontsource-variable/noto-serif-sc": "5.3.1",
+    "@fontsource-variable/noto-sans-sc": "5.3.1",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  }
+}

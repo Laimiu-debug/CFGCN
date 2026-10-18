@@ -1,0 +1,43 @@
+# Dependencies and local runtimes
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Build output and caches
+dist/
+build/
+coverage/
+.cache/
+.next/
+.nuxt/
+.turbo/
+*.tsbuildinfo
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.dpapi.json
+*.ccowner
+id_rsa*
+id_ed25519*
+credentials*.json
+secrets/
+.secrets/
+
+# Logs, editors, and OS files
+*.log
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo

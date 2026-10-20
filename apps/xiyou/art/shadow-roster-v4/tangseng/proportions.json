@@ -1,0 +1,54 @@
+{
+  "shape": "修长端正，窄肩、长袍，步幅克制",
+  "head": [
+    52,
+    29
+  ],
+  "chest": [
+    72,
+    50
+  ],
+  "abdomen": [
+    77,
+    47
+  ],
+  "pelvis": [
+    70,
+    52
+  ],
+  "upper": [
+    40,
+    16
+  ],
+  "fore": [
+    38,
+    13
+  ],
+  "thigh": [
+    53,
+    25
+  ],
+  "shin": [
+    55,
+    20
+  ],
+  "foot": [
+    12,
+    32
+  ],
+  "lean": -0.015,
+  "crouch": 0.045,
+  "stride": 0.2,
+  "lift": 0.065,
+  "period": 1.22,
+  "arm_swing": 0.09,
+  "fore_angle": -0.35,
+  "weapon_tilt": 0.05,
+  "idle_crouch": 0.004,
+  "hip_span": 14,
+  "duty": 0.64,
+  "idle_compression": 0.004,
+  "extra_compression": 0.0,
+  "idle_stance": 0.045,
+  "foot_anchor_y": 0.38
+}

@@ -1,0 +1,54 @@
+{
+  "shape": "清瘦少年，肩胯窄、腿最长，步态轻快",
+  "head": [
+    46,
+    32
+  ],
+  "chest": [
+    63,
+    48
+  ],
+  "abdomen": [
+    60,
+    42
+  ],
+  "pelvis": [
+    48,
+    45
+  ],
+  "upper": [
+    36,
+    12
+  ],
+  "fore": [
+    35,
+    11
+  ],
+  "thigh": [
+    63,
+    25
+  ],
+  "shin": [
+    60,
+    18
+  ],
+  "foot": [
+    12,
+    30
+  ],
+  "lean": 0.015,
+  "crouch": 0.065,
+  "stride": 0.29,
+  "lift": 0.095,
+  "period": 1.1,
+  "arm_swing": 0.18,
+  "fore_angle": -0.43,
+  "weapon_tilt": -0.72,
+  "idle_crouch": 0.004,
+  "hip_span": 14,
+  "duty": 0.62,
+  "idle_compression": 0.004,
+  "extra_compression": 0.0,
+  "idle_stance": 0.045,
+  "foot_anchor_y": 0.38
+}

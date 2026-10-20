@@ -1,0 +1,73 @@
+{
+  "width": 2048,
+  "height": 3072,
+  "parts": [
+    {
+      "id": "cottage",
+      "rect": [
+        16,
+        16,
+        1008,
+        498
+      ],
+      "anchorX": 512,
+      "metres": 6.8,
+      "source": "cottage-source-v1.png",
+      "source_sha256": "63c8b9f5dc34c86c366b51ae0003afa928c5a6d4ed1c528ddf8fc2a1cbdcb2d3"
+    },
+    {
+      "id": "mountain_house",
+      "rect": [
+        1040,
+        16,
+        2032,
+        883
+      ],
+      "anchorX": 1536,
+      "metres": 6,
+      "source": "mountain_house-source-v1.png",
+      "source_sha256": "15c75150308c2f24d7c8f1de1b7bf04671cfc0b2b88642968354bef0f73e8f91"
+    },
+    {
+      "id": "riverside_house",
+      "rect": [
+        16,
+        1040,
+        1008,
+        1474
+      ],
+      "anchorX": 512,
+      "metres": 9,
+      "source": "riverside_house-source-v1.png",
+      "source_sha256": "5b89063e95ba292bbb92fd21049d36f07855981ef5a03a98a7118a9b1dc5f2f4"
+    },
+    {
+      "id": "elm",
+      "rect": [
+        1040,
+        1040,
+        2032,
+        1984
+      ],
+      "anchorX": 1725.4485360572316,
+      "metres": 6.5,
+      "source": "elm-source-v1.png",
+      "source_sha256": "47b72c366bbf3d1ac7f68d9ea29fec3fd849495ef10974faed4ac7ddda3658ca"
+    },
+    {
+      "id": "bamboo",
+      "rect": [
+        16,
+        2064,
+        1008,
+        3051
+      ],
+      "anchorX": 567.9189304706647,
+      "metres": 4.8,
+      "source": "bamboo-source-v1.png",
+      "source_sha256": "77b6fb513ac17ae6eb3af46a75f5bd35bf009173e6aa8f784ffab534a3c47f66"
+    }
+  ],
+  "bytes": 8174886,
+  "runtime_sha256": "ca94ed0f0d4556d6b8098d2827c20ef30b8f03c30aead58a6289364de39b41c1"
+}

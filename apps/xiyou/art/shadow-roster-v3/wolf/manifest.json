@@ -1,0 +1,93 @@
+{
+  "id": "wolf",
+  "name": "狼妖",
+  "status": "resource study; visual review pending",
+  "source": "OpenAI built-in image_gen; original art",
+  "source_image": "parts-source.png",
+  "source_sha256": "e1f7d9206d1190761ed1cf2dfdc83f627ad0bc10b0f5097dbd90c8ef55ab8db7",
+  "prompt": "prompt.txt",
+  "woop": "wolf.woop",
+  "editable": "wolf.blend",
+  "runtime": "wolf.glb",
+  "runtime_sha256": "8acf3504cd09ad41d90eccc1bbb6b8b4ff0315fe1bed4b6b2bbf9b9e3d42ec63",
+  "runtime_bytes": 1085572,
+  "texture_size": [
+    1024,
+    1024
+  ],
+  "source_texture_size": [
+    1254,
+    1254
+  ],
+  "parts": 16,
+  "joints": 15,
+  "bones": 16,
+  "anatomy": "chest -> abdomen -> pelvis -> thighs",
+  "triangles": 32,
+  "materials": 1,
+  "clips": [
+    "Idle",
+    "Walk",
+    "RestPose"
+  ],
+  "importer": "Official WooooShadow 0.8.13, loaded locally in an isolated Blender process",
+  "importer_sha256": "d05e8f74c00d40c1dd1e043e5d9bc5f70b86c1c0abd6a181cba7c2d94e6b4c60",
+  "blender": "5.2.2 LTS",
+  "directions": [
+    "side-right",
+    "mirrored-side-left"
+  ],
+  "tripo": "Not used: direct original 2D puppet artwork",
+  "in_game": false,
+  "version": 3,
+  "nominal_body_height": 1.98,
+  "proportions": {
+    "shape": "前倾佝偻，长嘴、窄腰、长臂，低身探步",
+    "head": [
+      54,
+      61
+    ],
+    "chest": [
+      56,
+      48
+    ],
+    "abdomen": [
+      50,
+      39
+    ],
+    "pelvis": [
+      34,
+      44
+    ],
+    "upper": [
+      47,
+      20
+    ],
+    "fore": [
+      44,
+      17
+    ],
+    "thigh": [
+      54,
+      24
+    ],
+    "shin": [
+      48,
+      17
+    ],
+    "foot": [
+      24,
+      32
+    ],
+    "lean": 0.25,
+    "crouch": 0.19,
+    "stride": 0.34,
+    "lift": 0.18,
+    "period": 0.84,
+    "arm_swing": 0.31,
+    "fore_angle": -0.62,
+    "weapon_tilt": 0.1,
+    "idle_crouch": 0.14
+  },
+  "revision": "Native Blender part dimensions, distinct anatomical ratios and gait; source paintings preserved"
+}

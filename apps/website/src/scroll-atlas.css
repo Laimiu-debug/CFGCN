@@ -1,0 +1,103 @@
+.scroll-atlas {
+  background: var(--paper-raised);
+}
+.scroll-atlas::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(
+    transparent 60%,
+    color-mix(in srgb, var(--paper-raised) 14%, transparent)
+  );
+}
+.scroll-town {
+  transform: translate(-50%, -80%);
+}
+.scroll-town .series-button {
+  position: relative;
+  padding: 10px 8px;
+  background: color-mix(in srgb, var(--paper-raised) 90%, transparent);
+  border: 1px solid color-mix(in srgb, var(--gold) 25%, transparent);
+  color: var(--ink);
+  box-shadow: 0 2px 8px color-mix(in srgb, var(--gold-ink) 8%, transparent);
+}
+.scroll-town .series-button > span {
+  writing-mode: vertical-rl;
+  letter-spacing: 0.15em;
+  font-size: 22px;
+  line-height: 1.2;
+}
+.scroll-town small {
+  position: absolute;
+  top: 0;
+  left: calc(100% + 5px);
+  background: var(--paper-overlay);
+  padding: 10px;
+  writing-mode: horizontal-tb;
+  font-size: 11px;
+  line-height: 1.5;
+  pointer-events: none;
+}
+.scroll-town small {
+  max-width: min(220px, 76vw);
+  white-space: normal;
+}
+.scroll-town--honglou small,
+.scroll-town--shuihu small {
+  left: auto;
+  right: calc(100% + 5px);
+}
+.scroll-town[data-active='true'] .series-button {
+  color: var(--vermilion);
+}
+[data-locale='en'] .scroll-town .series-button > span {
+  writing-mode: horizontal-tb;
+  font-family: var(--font-latin);
+  font-size: 17px;
+  letter-spacing: 0;
+}
+[data-locale='en'] .atlas-live-controls .series-button {
+  font-family: var(--font-latin);
+  letter-spacing: 0;
+}
+.scroll-atlas .living-view-controls {
+  background: color-mix(in srgb, var(--paper-raised) 88%, transparent);
+  border: 0;
+  right: 18px;
+}
+.app:has(.scroll-atlas) .site-header {
+  background: none;
+}
+.app:has(.scroll-atlas) .site-header::before {
+  content: '';
+  position: absolute;
+  left: calc((100vw - 100%) / -2);
+  right: calc((100vw - 100%) / -2);
+  inset-block: 0 -20px;
+  background: linear-gradient(
+    color-mix(in srgb, var(--paper-raised) 84%, transparent),
+    transparent
+  );
+  pointer-events: none;
+  z-index: -1;
+}
+@media (max-width: 700px) {
+  .scroll-town .series-button > span {
+    font-size: 18px;
+  }
+  .scroll-atlas .living-view-controls {
+    right: 10px;
+    top: 100px;
+  }
+  .scroll-town small {
+    top: 100%;
+    left: 0;
+    padding: 6px;
+  }
+  .scroll-town--honglou small,
+  .scroll-town--shuihu small {
+    left: auto;
+    right: 0;
+  }
+}

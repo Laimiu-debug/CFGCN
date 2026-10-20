@@ -1,0 +1,341 @@
+{
+  "characters": [
+    {
+      "id": "tangseng",
+      "name": "唐僧",
+      "status": "resource study; visual review pending",
+      "source": "OpenAI built-in image_gen; original art",
+      "source_image": "parts-source.png",
+      "source_sha256": "dc323a11c333051e64f4e8ebeedb8edf888269a5241efc5cc1aceee0d8cfeefa",
+      "prompt": "prompt.txt",
+      "woop": "tangseng.woop",
+      "editable": "tangseng.blend",
+      "runtime": "tangseng.glb",
+      "runtime_sha256": "3e7bb8438521616509b9ac74872cecfcb71aa5a4a6bbf584518cf772acd82262",
+      "runtime_bytes": 1161164,
+      "texture_size": [
+        1024,
+        1024
+      ],
+      "source_texture_size": [
+        1254,
+        1254
+      ],
+      "parts": 16,
+      "joints": 15,
+      "bones": 16,
+      "anatomy": "chest -> abdomen -> pelvis -> thighs",
+      "triangles": 32,
+      "materials": 1,
+      "clips": [
+        "Idle",
+        "Walk",
+        "RestPose"
+      ],
+      "importer": "Official WooooShadow 0.8.13, loaded locally in an isolated Blender process",
+      "importer_sha256": "d05e8f74c00d40c1dd1e043e5d9bc5f70b86c1c0abd6a181cba7c2d94e6b4c60",
+      "blender": "5.2.2 LTS",
+      "directions": [
+        "side-right",
+        "mirrored-side-left"
+      ],
+      "tripo": "Not used: direct original 2D puppet artwork",
+      "in_game": false
+    },
+    {
+      "id": "wukong",
+      "name": "孙悟空",
+      "status": "resource study; visual review pending",
+      "source": "OpenAI built-in image_gen; original art",
+      "source_image": "parts-source.png",
+      "source_sha256": "92992b882fc1b9edee10139b6ce06b79fdfd6fad00a69d0b4708116b6b0bcff0",
+      "prompt": "prompt.txt",
+      "woop": "wukong.woop",
+      "editable": "wukong.blend",
+      "runtime": "wukong.glb",
+      "runtime_sha256": "0784802d6bb58532cd9d7284a0cd06e561933a47502469947092a2e4e477cbcb",
+      "runtime_bytes": 1039092,
+      "texture_size": [
+        1024,
+        1024
+      ],
+      "source_texture_size": [
+        1254,
+        1254
+      ],
+      "parts": 16,
+      "joints": 15,
+      "bones": 16,
+      "anatomy": "chest -> abdomen -> pelvis -> thighs",
+      "triangles": 32,
+      "materials": 1,
+      "clips": [
+        "Idle",
+        "Walk",
+        "RestPose"
+      ],
+      "importer": "Official WooooShadow 0.8.13, loaded locally in an isolated Blender process",
+      "importer_sha256": "d05e8f74c00d40c1dd1e043e5d9bc5f70b86c1c0abd6a181cba7c2d94e6b4c60",
+      "blender": "5.2.2 LTS",
+      "directions": [
+        "side-right",
+        "mirrored-side-left"
+      ],
+      "tripo": "Not used: direct original 2D puppet artwork",
+      "in_game": false
+    },
+    {
+      "id": "bajie",
+      "name": "猪八戒",
+      "status": "resource study; visual review pending",
+      "source": "OpenAI built-in image_gen; original art",
+      "source_image": "parts-source.png",
+      "source_sha256": "7361d8de801441438d6f8db90f77c58044d09a7485a0c35a98a5379d9aceaee6",
+      "prompt": "prompt.txt",
+      "woop": "bajie.woop",
+      "editable": "bajie.blend",
+      "runtime": "bajie.glb",
+      "runtime_sha256": "60fd57f7dacf1b160ec15408edb0ed1dbeff7e65a0b206ed188afc2960b302f8",
+      "runtime_bytes": 1178280,
+      "texture_size": [
+        1024,
+        1024
+      ],
+      "source_texture_size": [
+        1254,
+        1254
+      ],
+      "parts": 16,
+      "joints": 15,
+      "bones": 16,
+      "anatomy": "chest -> abdomen -> pelvis -> thighs",
+      "triangles": 32,
+      "materials": 1,
+      "clips": [
+        "Idle",
+        "Walk",
+        "RestPose"
+      ],
+      "importer": "Official WooooShadow 0.8.13, loaded locally in an isolated Blender process",
+      "importer_sha256": "d05e8f74c00d40c1dd1e043e5d9bc5f70b86c1c0abd6a181cba7c2d94e6b4c60",
+      "blender": "5.2.2 LTS",
+      "directions": [
+        "side-right",
+        "mirrored-side-left"
+      ],
+      "tripo": "Not used: direct original 2D puppet artwork",
+      "in_game": false
+    },
+    {
+      "id": "shaseng",
+      "name": "沙悟净",
+      "status": "resource study; visual review pending",
+      "source": "OpenAI built-in image_gen; original art",
+      "source_image": "parts-source.png",
+      "source_sha256": "240b94b935568af68cab4fd57421e508e72f36e666c563afa209f034aaae19ac",
+      "prompt": "prompt.txt",
+      "woop": "shaseng.woop",
+      "editable": "shaseng.blend",
+      "runtime": "shaseng.glb",
+      "runtime_sha256": "1fce10ed9355bebd9675e55dd08500f5c810728dd475e7066afe776cab87dd1c",
+      "runtime_bytes": 1053344,
+      "texture_size": [
+        1024,
+        1024
+      ],
+      "source_texture_size": [
+        1254,
+        1254
+      ],
+      "parts": 16,
+      "joints": 15,
+      "bones": 16,
+      "anatomy": "chest -> abdomen -> pelvis -> thighs",
+      "triangles": 32,
+      "materials": 1,
+      "clips": [
+        "Idle",
+        "Walk",
+        "RestPose"
+      ],
+      "importer": "Official WooooShadow 0.8.13, loaded locally in an isolated Blender process",
+      "importer_sha256": "d05e8f74c00d40c1dd1e043e5d9bc5f70b86c1c0abd6a181cba7c2d94e6b4c60",
+      "blender": "5.2.2 LTS",
+      "directions": [
+        "side-right",
+        "mirrored-side-left"
+      ],
+      "tripo": "Not used: direct original 2D puppet artwork",
+      "in_game": false
+    },
+    {
+      "id": "xiaobailong",
+      "name": "小白龙（人形）",
+      "status": "resource study; visual review pending",
+      "source": "OpenAI built-in image_gen; original art",
+      "source_image": "parts-source.png",
+      "source_sha256": "1b4991db11dc1b50c1fe8332aa1c2878059ddd9e6ce2fba78696c7ba9d8f475c",
+      "prompt": "prompt.txt",
+      "woop": "xiaobailong.woop",
+      "editable": "xiaobailong.blend",
+      "runtime": "xiaobailong.glb",
+      "runtime_sha256": "52d4b5b6eaa596d22d01e706f0136a07819c324f42460a431a0fee146e8caedf",
+      "runtime_bytes": 1249600,
+      "texture_size": [
+        1024,
+        1024
+      ],
+      "source_texture_size": [
+        1254,
+        1254
+      ],
+      "parts": 16,
+      "joints": 15,
+      "bones": 16,
+      "anatomy": "chest -> abdomen -> pelvis -> thighs",
+      "triangles": 32,
+      "materials": 1,
+      "clips": [
+        "Idle",
+        "Walk",
+        "RestPose"
+      ],
+      "importer": "Official WooooShadow 0.8.13, loaded locally in an isolated Blender process",
+      "importer_sha256": "d05e8f74c00d40c1dd1e043e5d9bc5f70b86c1c0abd6a181cba7c2d94e6b4c60",
+      "blender": "5.2.2 LTS",
+      "directions": [
+        "side-right",
+        "mirrored-side-left"
+      ],
+      "tripo": "Not used: direct original 2D puppet artwork",
+      "in_game": false
+    },
+    {
+      "id": "wolf",
+      "name": "狼妖",
+      "status": "resource study; visual review pending",
+      "source": "OpenAI built-in image_gen; original art",
+      "source_image": "parts-source.png",
+      "source_sha256": "e1f7d9206d1190761ed1cf2dfdc83f627ad0bc10b0f5097dbd90c8ef55ab8db7",
+      "prompt": "prompt.txt",
+      "woop": "wolf.woop",
+      "editable": "wolf.blend",
+      "runtime": "wolf.glb",
+      "runtime_sha256": "25222ac1cfd2bb491f96410606295de8926e1dead040d672f8c4477aa4fbe32a",
+      "runtime_bytes": 1070768,
+      "texture_size": [
+        1024,
+        1024
+      ],
+      "source_texture_size": [
+        1254,
+        1254
+      ],
+      "parts": 16,
+      "joints": 15,
+      "bones": 16,
+      "anatomy": "chest -> abdomen -> pelvis -> thighs",
+      "triangles": 32,
+      "materials": 1,
+      "clips": [
+        "Idle",
+        "Walk",
+        "RestPose"
+      ],
+      "importer": "Official WooooShadow 0.8.13, loaded locally in an isolated Blender process",
+      "importer_sha256": "d05e8f74c00d40c1dd1e043e5d9bc5f70b86c1c0abd6a181cba7c2d94e6b4c60",
+      "blender": "5.2.2 LTS",
+      "directions": [
+        "side-right",
+        "mirrored-side-left"
+      ],
+      "tripo": "Not used: direct original 2D puppet artwork",
+      "in_game": false
+    },
+    {
+      "id": "tiger",
+      "name": "虎妖",
+      "status": "resource study; visual review pending",
+      "source": "OpenAI built-in image_gen; original art",
+      "source_image": "parts-source.png",
+      "source_sha256": "dd2ea95795784414afaf3bf9c0a1c96edb3ac66a8737db9ebcc7c8e7676e6f14",
+      "prompt": "prompt.txt",
+      "woop": "tiger.woop",
+      "editable": "tiger.blend",
+      "runtime": "tiger.glb",
+      "runtime_sha256": "b884fe6258461c21540ae1006849745a3eccd26bcf36b3b88658a50b16d54d9e",
+      "runtime_bytes": 1142684,
+      "texture_size": [
+        1024,
+        1024
+      ],
+      "source_texture_size": [
+        1254,
+        1254
+      ],
+      "parts": 16,
+      "joints": 15,
+      "bones": 16,
+      "anatomy": "chest -> abdomen -> pelvis -> thighs",
+      "triangles": 32,
+      "materials": 1,
+      "clips": [
+        "Idle",
+        "Walk",
+        "RestPose"
+      ],
+      "importer": "Official WooooShadow 0.8.13, loaded locally in an isolated Blender process",
+      "importer_sha256": "d05e8f74c00d40c1dd1e043e5d9bc5f70b86c1c0abd6a181cba7c2d94e6b4c60",
+      "blender": "5.2.2 LTS",
+      "directions": [
+        "side-right",
+        "mirrored-side-left"
+      ],
+      "tripo": "Not used: direct original 2D puppet artwork",
+      "in_game": false
+    },
+    {
+      "id": "baigufuren",
+      "name": "白骨夫人",
+      "status": "resource study; visual review pending",
+      "source": "OpenAI built-in image_gen; original art",
+      "source_image": "parts-source.png",
+      "source_sha256": "7dc21e0fe13dce63ffd571e0d9a6e3451558d5c8248edfdceb5dec65f84166c3",
+      "prompt": "prompt.txt",
+      "woop": "baigufuren.woop",
+      "editable": "baigufuren.blend",
+      "runtime": "baigufuren.glb",
+      "runtime_sha256": "62fd9ab530be9427f4d6d5749ac87dd2db4aa2fb63dc670f81d744da1ab5abae",
+      "runtime_bytes": 1118936,
+      "texture_size": [
+        1024,
+        1024
+      ],
+      "source_texture_size": [
+        1254,
+        1254
+      ],
+      "parts": 16,
+      "joints": 15,
+      "bones": 16,
+      "anatomy": "chest -> abdomen -> pelvis -> thighs",
+      "triangles": 32,
+      "materials": 1,
+      "clips": [
+        "Idle",
+        "Walk",
+        "RestPose"
+      ],
+      "importer": "Official WooooShadow 0.8.13, loaded locally in an isolated Blender process",
+      "importer_sha256": "d05e8f74c00d40c1dd1e043e5d9bc5f70b86c1c0abd6a181cba7c2d94e6b4c60",
+      "blender": "5.2.2 LTS",
+      "directions": [
+        "side-right",
+        "mirrored-side-left"
+      ],
+      "tripo": "Not used: direct original 2D puppet artwork",
+      "in_game": false
+    }
+  ],
+  "status": "resource studies; review pending"
+}

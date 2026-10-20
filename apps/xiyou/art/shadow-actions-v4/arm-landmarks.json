@@ -1,0 +1,133 @@
+{
+  "method": "Source hinge interior centers measured from unchanged PNGs, with visual corrections for brown wolf caps and the Shaseng elbow; native geometry landmarks only",
+  "actors": {
+    "wukong": {
+      "upper_arm.front": {
+        "pivot": [109.769, 33.372],
+        "distal": [52.934, 192.358]
+      },
+      "forearm.front": {
+        "pivot": [51.981, 30.401]
+      },
+      "upper_arm.back": {
+        "pivot": [35.298, 32.206],
+        "distal": [100.435, 214.149]
+      },
+      "forearm.back": {
+        "pivot": [35.659, 30.868]
+      }
+    },
+    "tangseng": {
+      "upper_arm.front": {
+        "pivot": [109.42, 30.225],
+        "distal": [46.436, 179.162]
+      },
+      "forearm.front": {
+        "pivot": [39.775, 30.008]
+      },
+      "upper_arm.back": {
+        "pivot": [31.034, 29.768],
+        "distal": [87.43, 173.774]
+      },
+      "forearm.back": {
+        "pivot": [34.134, 29.121]
+      }
+    },
+    "bajie": {
+      "upper_arm.front": {
+        "pivot": [97.827, 30.957],
+        "distal": [47.958, 196.008]
+      },
+      "forearm.front": {
+        "pivot": [69.964, 31.146]
+      },
+      "upper_arm.back": {
+        "pivot": [33.084, 33.704],
+        "distal": [110.493, 207.701]
+      },
+      "forearm.back": {
+        "pivot": [32.77, 30.025]
+      }
+    },
+    "shaseng": {
+      "upper_arm.front": {
+        "pivot": [96.965, 29.361],
+        "distal": [40.5, 163.5]
+      },
+      "forearm.front": {
+        "pivot": [38.183, 29.951]
+      },
+      "upper_arm.back": {
+        "pivot": [31.882, 32.299],
+        "distal": [111.016, 188.452]
+      },
+      "forearm.back": {
+        "pivot": [35.24, 30.136]
+      }
+    },
+    "xiaobailong": {
+      "upper_arm.front": {
+        "pivot": [110.31, 28.598],
+        "distal": [49.065, 193.325]
+      },
+      "forearm.front": {
+        "pivot": [60.731, 28.166]
+      },
+      "upper_arm.back": {
+        "pivot": [32.684, 30.872],
+        "distal": [103.266, 207.242]
+      },
+      "forearm.back": {
+        "pivot": [33.52, 31.794]
+      }
+    },
+    "wolf": {
+      "upper_arm.front": {
+        "pivot": [103, 32],
+        "distal": [45.739, 191.243]
+      },
+      "forearm.front": {
+        "pivot": [63, 32]
+      },
+      "upper_arm.back": {
+        "pivot": [36, 33],
+        "distal": [109.27, 197.96]
+      },
+      "forearm.back": {
+        "pivot": [42, 33]
+      }
+    },
+    "tiger": {
+      "upper_arm.front": {
+        "pivot": [108.692, 31.669],
+        "distal": [65.232, 186.306]
+      },
+      "forearm.front": {
+        "pivot": [43.658, 32.432]
+      },
+      "upper_arm.back": {
+        "pivot": [37.935, 34.353],
+        "distal": [112.68, 187.805]
+      },
+      "forearm.back": {
+        "pivot": [33.697, 30.769]
+      }
+    },
+    "baigufuren": {
+      "upper_arm.front": {
+        "pivot": [95.813, 28.724],
+        "distal": [35.837, 180.216]
+      },
+      "forearm.front": {
+        "pivot": [65.231, 29.516]
+      },
+      "upper_arm.back": {
+        "pivot": [34.533, 31.205],
+        "distal": [89.352, 185.1]
+      },
+      "forearm.back": {
+        "pivot": [33.064, 29.529]
+      }
+    }
+  }
+}

@@ -1,0 +1,3757 @@
+{
+  "version": 6,
+  "date": "2026-10-20",
+  "status": "四槽手动、五人主动大招与统一水墨界面，最终表现待审",
+  "counts": {
+    "hero_active": 60,
+    "hero_passive": 20,
+    "enemy": 18,
+    "combo": 12,
+    "total": 110,
+    "actor_skill_actions": 78
+  },
+  "loadout": "五位主角各 12 招，每人自由选择 4 个不同技能；兵器招式占槽，被动与连携另计。",
+  "enemy_loadout": "普通敌人选择 1 普攻 + 1 特技，精英选择 2 特技，首领按阶段选招。六招是招式库，不同时无间隔释放。",
+  "balance": "本轮不确定最终伤害、冷却、半径与成长数值；动作时长为演练数据，不能代替实战平衡。",
+  "entries": [
+    {
+      "id": "wukong.StaffSweep",
+      "actor": "wukong",
+      "clip": "StaffSweep",
+      "name": "如意棍法",
+      "kind": "active",
+      "role": "近战清群",
+      "target": "面前扇形",
+      "trigger": "装备为自动兵器技",
+      "effect": "连贯横扫近身敌人；同一挥击每目标只结算一次。",
+      "limit": "背后不受保护；起手中转向受限，不能全向擦伤。",
+      "branches": [
+        "长棍：扇形外沿更远，内圈伤害降低",
+        "快棍：动作更快，击退减弱"
+      ],
+      "synergy": "接倒耙牵敌或定身咒；保留聚怪后的扇形空隙",
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "motion": {
+        "clip": "StaffSweep",
+        "upper_clip": "StaffSweep_Upper",
+        "duration": 0.9,
+        "windup_end": 0.387,
+        "release_end": 0.504,
+        "events": [
+          {
+            "time": 0.387,
+            "type": "hit",
+            "socket": "weapon.tip"
+          }
+        ],
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "wukong/thumbnails/StaffSweep.png"
+      },
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 3,
+      "ultimate": false
+    },
+    {
+      "id": "wukong.FreezeSeal",
+      "actor": "wukong",
+      "clip": "FreezeSeal",
+      "name": "定身咒",
+      "kind": "active",
+      "role": "控场打断",
+      "target": "前方小群优先危险施法者",
+      "trigger": "主动释放",
+      "effect": "短暂止步并打断普通敌人蓄势；首领积累破势而非完全定身。",
+      "limit": "同目标连续控制递减；控制期间仍保留已生成的弹道危险。",
+      "branches": [
+        "点穴：缩小范围，延长单体控制",
+        "散咒：增加目标，缩短控制"
+      ],
+      "synergy": "点将直捣沿定住的精英穿刺",
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "motion": {
+        "clip": "FreezeSeal",
+        "upper_clip": "FreezeSeal_Upper",
+        "duration": 1.05,
+        "windup_end": 0.504,
+        "release_end": 0.6405,
+        "events": [
+          {
+            "time": 0.504,
+            "type": "freeze",
+            "socket": "hand.back"
+          }
+        ],
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "wukong/thumbnails/FreezeSeal.png"
+      },
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 5,
+      "ultimate": false
+    },
+    {
+      "id": "wukong.HairClone",
+      "actor": "wukong",
+      "clip": "HairClone",
+      "name": "毫毛分身",
+      "kind": "active",
+      "role": "牵制布置",
+      "target": "指定近处可走位置",
+      "trigger": "主动释放",
+      "effect": "留分身吸引部分普通敌人，复现一段弱化棍击。",
+      "limit": "分身不递归生成分身，不触发治疗或连携循环；首领不强制转目标。",
+      "branches": [
+        "护路：分身耐久更高，少一次攻击",
+        "闹阵：多一个脆弱分身，持续更短"
+      ],
+      "synergy": "与筋斗闪身留下的诱饵共用数量上限",
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "motion": {
+        "clip": "HairClone",
+        "upper_clip": "HairClone_Upper",
+        "duration": 1.2,
+        "windup_end": 0.636,
+        "release_end": 0.792,
+        "events": [
+          {
+            "time": 0.636,
+            "type": "spawn_clone",
+            "socket": "hand.back"
+          }
+        ],
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "wukong/thumbnails/HairClone.png"
+      },
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 5,
+      "ultimate": false
+    },
+    {
+      "id": "wukong.StaffThrust",
+      "actor": "wukong",
+      "clip": "StaffThrust",
+      "name": "点将直捣",
+      "kind": "active",
+      "role": "穿线破甲",
+      "target": "面向方向的窄直线",
+      "trigger": "主动释放",
+      "effect": "收棍后直捣，贯穿前排并给首个精英留下破绽。",
+      "limit": "线窄，施放后短收势；不能自动追踪拐弯。",
+      "branches": [
+        "贯阵：多穿目标，末端伤害递减",
+        "点将：只命中首敌，强化破绽"
+      ],
+      "synergy": "配火眼照妖优先处理危险目标",
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "motion": {
+        "clip": "StaffThrust",
+        "upper_clip": "StaffThrust_Upper",
+        "duration": 0.9,
+        "windup_end": 0.432,
+        "release_end": 0.549,
+        "events": [
+          {
+            "time": 0.432,
+            "type": "hit",
+            "socket": "weapon.tip"
+          }
+        ],
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "wukong/thumbnails/StaffThrust.png"
+      },
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 5,
+      "ultimate": false
+    },
+    {
+      "id": "wukong.BackSweep",
+      "actor": "wukong",
+      "clip": "BackSweep",
+      "name": "回身挑棍",
+      "kind": "active",
+      "role": "解围反击",
+      "target": "身后近距到前方上挑弧",
+      "trigger": "主动释放",
+      "effect": "转肩回挑背后近敌，轻敌短暂失衡，打出逃离缺口。",
+      "limit": "重型敌人仅破势；攻击弧不会覆盖整个周身。",
+      "branches": [
+        "回护：扩大身后弧，前方变短",
+        "挑空：更强失衡，目标数减少"
+      ],
+      "synergy": "解围后接筋斗闪身或队友护持",
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "motion": {
+        "clip": "BackSweep",
+        "upper_clip": "BackSweep_Upper",
+        "duration": 1.05,
+        "windup_end": 0.546,
+        "release_end": 0.6825,
+        "events": [
+          {
+            "time": 0.546,
+            "type": "hit",
+            "socket": "weapon.tip"
+          }
+        ],
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "wukong/thumbnails/BackSweep.png"
+      },
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 5,
+      "ultimate": false
+    },
+    {
+      "id": "wukong.CrashingCloud",
+      "actor": "wukong",
+      "clip": "CrashingCloud",
+      "name": "金箍镇岳",
+      "kind": "active",
+      "role": "破阵 · 重击与余震",
+      "target": "面前宽扇区与身边",
+      "trigger": "四槽装备后主动按键 / 图标释放；伙伴按条件施法",
+      "effect": "沉肩擎棍后砸下巨棍虚影，正面重击破势，第二次短余震震开身边追敌。",
+      "limit": "巨棍是法术虚影，不改变身体碰撞；两段各只命中一次，闪避取消未释放段落。",
+      "branches": [
+        "震阵：冲击更宽，短跃更短",
+        "破军：落点更集中，强化精英破势"
+      ],
+      "synergy": "先倒耙聚怪再落棍，沙僧可挑铲承接",
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "motion": {
+        "clip": "CrashingCloud",
+        "upper_clip": "CrashingCloud_Upper",
+        "duration": 1.8,
+        "windup_end": 1.044,
+        "release_end": 1.458,
+        "events": [
+          {
+            "time": 1.044,
+            "type": "mountain_hit",
+            "socket": "weapon.tip"
+          },
+          {
+            "time": 1.296,
+            "type": "mountain_echo",
+            "socket": "weapon.tip"
+          }
+        ],
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "wukong/thumbnails/CrashingCloud.png"
+      },
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 20.0,
+      "ultimate": true
+    },
+    {
+      "id": "wukong.CloudFeint",
+      "actor": "wukong",
+      "clip": "CloudFeint",
+      "name": "筋斗闪身",
+      "kind": "active",
+      "role": "后撤欺敌",
+      "target": "背后短距可走地面",
+      "trigger": "主动释放",
+      "effect": "换手虚晃，身侧留下短暂棍影牵制普通敌人；脚步仍由玩家控制。",
+      "limit": "不自动后撤或起跳；棍影不保证拉走首领，不能递归生成分身。",
+      "branches": [
+        "留影：诱饵更久，后撤更短",
+        "借势：后撤更远，失去诱饵"
+      ],
+      "synergy": "与毫毛分身共用上限；接回身挑棍",
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "motion": {
+        "clip": "CloudFeint",
+        "upper_clip": "CloudFeint_Upper",
+        "duration": 0.8833333333333333,
+        "windup_end": 0.4063,
+        "release_end": 0.5212,
+        "events": [
+          {
+            "time": 0.4063,
+            "type": "decoy",
+            "socket": "actor",
+            "space": "cast-origin"
+          }
+        ],
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "wukong/thumbnails/CloudFeint.png"
+      },
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 5,
+      "ultimate": false
+    },
+    {
+      "id": "wukong.FlameGaze",
+      "actor": "wukong",
+      "clip": "FlameGaze",
+      "name": "火眼照妖",
+      "kind": "active",
+      "role": "识破标记",
+      "target": "前方可见精英 / 幻影",
+      "trigger": "主动释放",
+      "effect": "点亮真实本体与一名危险目标的破绽，队伍首次针对命中受益。",
+      "limit": "标记不是持续自动增伤；同一破绽只能被消费一次。",
+      "branches": [
+        "照形：扩大识破范围，标记更短",
+        "破妄：标记更久，只能选单体"
+      ],
+      "synergy": "识破白骨夫人画皮，接穿云疾剑",
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "motion": {
+        "clip": "FlameGaze",
+        "upper_clip": "FlameGaze_Upper",
+        "duration": 1.0833333333333333,
+        "windup_end": 0.5308,
+        "release_end": 0.6717,
+        "events": [
+          {
+            "time": 0.5308,
+            "type": "reveal",
+            "socket": "hand.back"
+          }
+        ],
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "wukong/thumbnails/FlameGaze.png"
+      },
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 5,
+      "ultimate": false
+    },
+    {
+      "id": "tangseng.Chant",
+      "actor": "tangseng",
+      "clip": "Chant",
+      "name": "梵音退敌",
+      "kind": "active",
+      "role": "近身解围",
+      "target": "自身前方短扇形",
+      "trigger": "装备为自动兵器技",
+      "effect": "抬臂诵经，推退靠近的普通敌人并削减其蓄势。",
+      "limit": "不会穿过墙推敌；首领仅减破势，不提供常驻安全圈。",
+      "branches": [
+        "洪音：更宽，推力更小",
+        "定音：更窄，打断更强"
+      ],
+      "synergy": "让八戒重新架耙或沙僧接管前排",
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "motion": {
+        "clip": "Chant",
+        "upper_clip": "Chant_Upper",
+        "duration": 1.05,
+        "windup_end": 0.4935,
+        "release_end": 0.63,
+        "events": [
+          {
+            "time": 0.4935,
+            "type": "chant",
+            "socket": "hand.back"
+          }
+        ],
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "tangseng/thumbnails/Chant.png"
+      },
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 3,
+      "ultimate": false
+    },
+    {
+      "id": "tangseng.RobeWard",
+      "actor": "tangseng",
+      "clip": "RobeWard",
+      "name": "锦襕护持",
+      "kind": "active",
+      "role": "限量护盾",
+      "target": "自身与附近最危险一名队友",
+      "trigger": "主动释放",
+      "effect": "展开锦襕，为受威胁者附限量护盾；盾破时给出清楚反馈。",
+      "limit": "护盾同源不叠无限层，不转化成无限治疗。",
+      "branches": [
+        "护众：分给多人，每人更薄",
+        "守一：只护最低气血者，盾更厚"
+      ],
+      "synergy": "配同心愿契减轻代偿风险",
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "motion": {
+        "clip": "RobeWard",
+        "upper_clip": "RobeWard_Upper",
+        "duration": 1.3,
+        "windup_end": 0.546,
+        "release_end": 0.715,
+        "events": [
+          {
+            "time": 0.546,
+            "type": "ward",
+            "socket": "hand.back"
+          }
+        ],
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "tangseng/thumbnails/RobeWard.png"
+      },
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 5,
+      "ultimate": false
+    },
+    {
+      "id": "tangseng.HealingVow",
+      "actor": "tangseng",
+      "clip": "HealingVow",
+      "name": "回春愿",
+      "kind": "active",
+      "role": "救急治疗",
+      "target": "范围内实际缺血最多的队友",
+      "trigger": "主动释放",
+      "effect": "托举祝愿，延迟一次治疗；选择缺失量而非永远追主控。",
+      "limit": "起手可被打断；满血不会消耗触发链，不能复活。",
+      "branches": [
+        "甘露：改为缓慢续疗，首跳减少",
+        "急愿：更快落下，总治疗降低"
+      ],
+      "synergy": "与八戒厚皮、沙僧护法站位配合",
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "motion": {
+        "clip": "HealingVow",
+        "upper_clip": "HealingVow_Upper",
+        "duration": 1.4,
+        "windup_end": 0.784,
+        "release_end": 0.966,
+        "events": [
+          {
+            "time": 0.784,
+            "type": "heal",
+            "socket": "hand.back"
+          }
+        ],
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "tangseng/thumbnails/HealingVow.png"
+      },
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 5,
+      "ultimate": false
+    },
+    {
+      "id": "tangseng.LotusPulse",
+      "actor": "tangseng",
+      "clip": "LotusPulse",
+      "name": "莲华推障",
+      "kind": "active",
+      "role": "方向清路",
+      "target": "面前移动的短莲瓣波",
+      "trigger": "主动释放",
+      "effect": "向前送出莲瓣波，轻推小怪，命中预警敌人时可中断蓄势。",
+      "limit": "只清一条出口；重型敌人不被搬移，弹道沿地形处理。",
+      "branches": [
+        "开路：波更宽，打断下降",
+        "清障：窄波更远，侧面留空"
+      ],
+      "synergy": "配穿云疾剑打开突破通道",
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "motion": {
+        "clip": "LotusPulse",
+        "upper_clip": "LotusPulse_Upper",
+        "duration": 1.1166666666666667,
+        "windup_end": 0.5472,
+        "release_end": 0.6923,
+        "events": [
+          {
+            "time": 0.5472,
+            "type": "push",
+            "socket": "hand.back"
+          }
+        ],
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "tangseng/thumbnails/LotusPulse.png"
+      },
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 5,
+      "ultimate": false
+    },
+    {
+      "id": "tangseng.BellChime",
+      "actor": "tangseng",
+      "clip": "BellChime",
+      "name": "振杖清音",
+      "kind": "active",
+      "role": "定点打断",
+      "target": "视野内最近蓄势敌人",
+      "trigger": "主动释放",
+      "effect": "振杖发清音，优先压制正在蓄势的敌人并标出被打断者。",
+      "limit": "没有蓄势目标时仅轻伤；同一敌人短期反复打断收益递减。",
+      "branches": [
+        "连音：跳到第二蓄势目标，破势降低",
+        "定钟：单目标破势提高，范围变小"
+      ],
+      "synergy": "狼嚎与招魂出现时有明确应对",
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "motion": {
+        "clip": "BellChime",
+        "upper_clip": "BellChime_Upper",
+        "duration": 0.95,
+        "windup_end": 0.4085,
+        "release_end": 0.532,
+        "events": [
+          {
+            "time": 0.4085,
+            "type": "interrupt",
+            "socket": "hand.back"
+          }
+        ],
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "tangseng/thumbnails/BellChime.png"
+      },
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 5,
+      "ultimate": false
+    },
+    {
+      "id": "tangseng.VowLink",
+      "actor": "tangseng",
+      "clip": "VowLink",
+      "name": "同心愿契",
+      "kind": "active",
+      "role": "分担保护",
+      "target": "一名队友与唐僧之间",
+      "trigger": "主动释放",
+      "effect": "以愿契分担队友的一部分有效伤害，超过距离则断开。",
+      "limit": "唐僧承担量有上限且保留最低安全余量；不代偿代偿伤害。",
+      "branches": [
+        "同心：连接更远，分担更少",
+        "舍护：近距分担更多，自身移动变慢"
+      ],
+      "synergy": "配锦襕护持或沙僧护法担责，禁止循环转伤",
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "motion": {
+        "clip": "VowLink",
+        "upper_clip": "VowLink_Upper",
+        "duration": 1.3,
+        "windup_end": 0.663,
+        "release_end": 0.832,
+        "events": [
+          {
+            "time": 0.663,
+            "type": "tether",
+            "socket": "hand.back"
+          }
+        ],
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "tangseng/thumbnails/VowLink.png"
+      },
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 5,
+      "ultimate": false
+    },
+    {
+      "id": "tangseng.PureSeal",
+      "actor": "tangseng",
+      "clip": "PureSeal",
+      "name": "清心破妄",
+      "kind": "active",
+      "role": "净化驱散",
+      "target": "自身与近处一名异常队友",
+      "trigger": "主动释放",
+      "effect": "清除可净化减速 / 恐惧，并驱散一层敌方幻影护持。",
+      "limit": "不能清除地形阻挡与首领全部机制；没有异常时不生成虚假治疗。",
+      "branches": [
+        "护心：净化后短暂抗同类异常，总量更低",
+        "破妄：优先驱散敌方幻影，友方范围减小"
+      ],
+      "synergy": "对摄魂牵引与画皮有直接价值",
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "motion": {
+        "clip": "PureSeal",
+        "upper_clip": "PureSeal_Upper",
+        "duration": 1.0333333333333334,
+        "windup_end": 0.4857,
+        "release_end": 0.62,
+        "events": [
+          {
+            "time": 0.4857,
+            "type": "cleanse",
+            "socket": "hand.back"
+          }
+        ],
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "tangseng/thumbnails/PureSeal.png"
+      },
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 5,
+      "ultimate": false
+    },
+    {
+      "id": "tangseng.Mandala",
+      "actor": "tangseng",
+      "clip": "Mandala",
+      "name": "经幡结界",
+      "kind": "active",
+      "role": "区域守护",
+      "target": "指定可见地面的狭长护持区",
+      "trigger": "主动释放",
+      "effect": "举杖布置可穿行经纹带，队伍在带内获得有限抗冲击。",
+      "limit": "区域不会硬挡角色；同时仅一个，离开就失去护持。",
+      "branches": [
+        "行愿：区域延长，抗冲击变弱",
+        "守愿：更短更稳，放置距离变近"
+      ],
+      "synergy": "沙僧据此截阵；不是脚下常驻圆圈",
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "motion": {
+        "clip": "Mandala",
+        "upper_clip": "Mandala_Upper",
+        "duration": 1.6,
+        "windup_end": 0.928,
+        "release_end": 1.136,
+        "events": [
+          {
+            "time": 0.928,
+            "type": "zone",
+            "socket": "hand.back"
+          }
+        ],
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "tangseng/thumbnails/Mandala.png"
+      },
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 5,
+      "ultimate": false
+    },
+    {
+      "id": "bajie.RakeSweep",
+      "actor": "bajie",
+      "clip": "RakeSweep",
+      "name": "钉耙横扫",
+      "kind": "active",
+      "role": "宽弧清群",
+      "target": "面前宽扇形",
+      "trigger": "装备为自动兵器技",
+      "effect": "沉腹转肩横耙，将轻敌推向同一侧，为队伍留空间。",
+      "limit": "挥动偏慢，背后空；不能把所有敌人吸到主角脚下。",
+      "branches": [
+        "横阵：范围更宽，破势降低",
+        "断阵：范围变窄，击退更强"
+      ],
+      "synergy": "与泥涧筑垒构成可通行减速带",
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "motion": {
+        "clip": "RakeSweep",
+        "upper_clip": "RakeSweep_Upper",
+        "duration": 1.1166666666666667,
+        "windup_end": 0.5248,
+        "release_end": 0.67,
+        "events": [
+          {
+            "time": 0.5248,
+            "type": "hit",
+            "socket": "weapon.tip"
+          }
+        ],
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "bajie/thumbnails/RakeSweep.png"
+      },
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 3,
+      "ultimate": false
+    },
+    {
+      "id": "bajie.RakeSlam",
+      "actor": "bajie",
+      "clip": "RakeSlam",
+      "name": "举耙重落",
+      "kind": "active",
+      "role": "蓄力破势",
+      "target": "面前地面短矩形",
+      "trigger": "主动释放",
+      "effect": "双手举耙重落，集中打断正面重敌，给出明确落点。",
+      "limit": "长起手，可被侧击；同一落点不多次结算。",
+      "branches": [
+        "裂地：落点向前延长，起手更长",
+        "崩甲：缩小落点，强化精英破势"
+      ],
+      "synergy": "接倒耙牵敌或沙僧镇魂",
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "motion": {
+        "clip": "RakeSlam",
+        "upper_clip": "RakeSlam_Upper",
+        "duration": 1.4,
+        "windup_end": 0.784,
+        "release_end": 0.966,
+        "events": [
+          {
+            "time": 0.784,
+            "type": "hit",
+            "socket": "weapon.tip"
+          }
+        ],
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "bajie/thumbnails/RakeSlam.png"
+      },
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 5,
+      "ultimate": false
+    },
+    {
+      "id": "bajie.BellyBrace",
+      "actor": "bajie",
+      "clip": "BellyBrace",
+      "name": "收腹架耙",
+      "kind": "active",
+      "role": "方向格挡",
+      "target": "正前方受击弧",
+      "trigger": "主动释放",
+      "effect": "收腹架耙承接正面一次重击并稳住站位。",
+      "limit": "侧后攻击绕过格挡；没有受击就不会凭空反震。",
+      "branches": [
+        "铁腹：可承更多轻击，移动更慢",
+        "卸力：成功后恢复移动，减伤更低"
+      ],
+      "synergy": "给唐僧回春愿创造施法时间",
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "motion": {
+        "clip": "BellyBrace",
+        "upper_clip": "BellyBrace_Upper",
+        "duration": 1.2,
+        "windup_end": 0.528,
+        "release_end": 0.684,
+        "events": [
+          {
+            "time": 0.528,
+            "type": "guard",
+            "socket": "hand.back"
+          }
+        ],
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "bajie/thumbnails/BellyBrace.png"
+      },
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 5,
+      "ultimate": false
+    },
+    {
+      "id": "bajie.RakeHook",
+      "actor": "bajie",
+      "clip": "RakeHook",
+      "name": "倒耙牵敌",
+      "kind": "active",
+      "role": "定向牵引",
+      "target": "前方窄带首批敌人",
+      "trigger": "主动释放",
+      "effect": "先伸耙再收耙，把轻敌牵到面前安全距离，重敌减速。",
+      "limit": "不能拉过墙、深水或队友身体；首领不被瞬移。",
+      "branches": [
+        "拢阵：多牵目标，拉距更短",
+        "擒首：只牵一名精英，提高破势"
+      ],
+      "synergy": "悟空坠云压阵或横扫承接",
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "motion": {
+        "clip": "RakeHook",
+        "upper_clip": "RakeHook_Upper",
+        "duration": 1.25,
+        "windup_end": 0.675,
+        "release_end": 0.8375,
+        "events": [
+          {
+            "time": 0.675,
+            "type": "pull",
+            "socket": "weapon.tip"
+          }
+        ],
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "bajie/thumbnails/RakeHook.png"
+      },
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 5,
+      "ultimate": false
+    },
+    {
+      "id": "bajie.RakeTrip",
+      "actor": "bajie",
+      "clip": "RakeTrip",
+      "name": "横耙绊足",
+      "kind": "active",
+      "role": "封线减速",
+      "target": "前方贴地横线",
+      "trigger": "主动释放",
+      "effect": "低耙扫足，让跨过线的小怪失衡，重敌缓速。",
+      "limit": "贴地判定不命中高飞敌；不是永久绊倒锁。",
+      "branches": [
+        "留痕：线留得更久，伤害下降",
+        "绊阵：瞬间失衡更强，持续更短"
+      ],
+      "synergy": "配点将直捣穿过被放慢的队列",
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "motion": {
+        "clip": "RakeTrip",
+        "upper_clip": "RakeTrip_Upper",
+        "duration": 1.15,
+        "windup_end": 0.5635,
+        "release_end": 0.713,
+        "events": [
+          {
+            "time": 0.5635,
+            "type": "trip",
+            "socket": "weapon.tip"
+          }
+        ],
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "bajie/thumbnails/RakeTrip.png"
+      },
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 5,
+      "ultimate": false
+    },
+    {
+      "id": "bajie.MudWall",
+      "actor": "bajie",
+      "clip": "MudWall",
+      "name": "泥涧筑垒",
+      "kind": "active",
+      "role": "软地形控场",
+      "target": "前方可穿行泥带",
+      "trigger": "主动释放",
+      "effect": "落耙掀起可见泥脊，降低敌人穿行速度并打散冲锋。",
+      "limit": "这是减速地带，绝不生成无形硬墙；同源地带不叠乘。",
+      "branches": [
+        "宽垒：更宽更浅，减速弱",
+        "深涧：更窄更慢，持续短"
+      ],
+      "synergy": "沙僧流沙回旋或小白龙寒息交汇",
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "motion": {
+        "clip": "MudWall",
+        "upper_clip": "MudWall_Upper",
+        "duration": 1.45,
+        "windup_end": 0.8265,
+        "release_end": 1.015,
+        "events": [
+          {
+            "time": 0.8265,
+            "type": "terrain_slow",
+            "socket": "weapon.tip"
+          }
+        ],
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "bajie/thumbnails/MudWall.png"
+      },
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 5,
+      "ultimate": false
+    },
+    {
+      "id": "bajie.RollingCharge",
+      "actor": "bajie",
+      "clip": "RollingCharge",
+      "name": "挺腹冲阵",
+      "kind": "active",
+      "role": "短距冲阵",
+      "target": "正面可走短直线",
+      "trigger": "主动释放",
+      "effect": "架耙挺腹连步前进，碰到普通敌人则挤开，遇实体地形立即停。",
+      "limit": "不穿怪海无限延伸；冲后收势，侧面仍可受伤。",
+      "branches": [
+        "开阵：能挤开更多轻敌，冲距短",
+        "护阵：冲时护前方，撞击更弱"
+      ],
+      "synergy": "救出被包围的唐僧，接收腹架耙",
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "motion": {
+        "clip": "RollingCharge",
+        "upper_clip": "RollingCharge_Upper",
+        "duration": 1.1,
+        "windup_end": 0.616,
+        "release_end": 0.759,
+        "events": [
+          {
+            "time": 0.616,
+            "type": "charge",
+            "socket": "actor"
+          }
+        ],
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "bajie/thumbnails/RollingCharge.png"
+      },
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 5,
+      "ultimate": false
+    },
+    {
+      "id": "bajie.FeastBreath",
+      "actor": "bajie",
+      "clip": "FeastBreath",
+      "name": "纳气回元",
+      "kind": "active",
+      "role": "自我恢复",
+      "target": "自身",
+      "trigger": "主动释放",
+      "effect": "停步纳气后分段回复，第一段较小，完整收势奖励更高。",
+      "limit": "受击会损失后续回复；不在满血时刷被动，不提供全程霸体。",
+      "branches": [
+        "细嚼：可慢走，总回复减少",
+        "饱腹：必须站定，完整回复更多"
+      ],
+      "synergy": "由唐僧护持或沙僧截阵争取空档",
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "motion": {
+        "clip": "FeastBreath",
+        "upper_clip": "FeastBreath_Upper",
+        "duration": 1.8,
+        "windup_end": 1.08,
+        "release_end": 1.314,
+        "events": [
+          {
+            "time": 1.08,
+            "type": "self_heal",
+            "socket": "hand.back"
+          }
+        ],
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "bajie/thumbnails/FeastBreath.png"
+      },
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 5,
+      "ultimate": false
+    },
+    {
+      "id": "shaseng.SpadeSweep",
+      "actor": "shaseng",
+      "clip": "SpadeSweep",
+      "name": "沉身横扫",
+      "kind": "active",
+      "role": "稳定清线",
+      "target": "前方中宽弧",
+      "trigger": "装备为自动兵器技",
+      "effect": "沉身横铲把敌人推离后排，攻击过程中维持后脚支撑。",
+      "limit": "起手中不能无限追转；对侧后留缺口。",
+      "branches": [
+        "护线：弧更宽，射程短",
+        "断流：弧更窄，推力强"
+      ],
+      "synergy": "配唐僧经幡维持队伍阵地",
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "motion": {
+        "clip": "SpadeSweep",
+        "upper_clip": "SpadeSweep_Upper",
+        "duration": 1.1166666666666667,
+        "windup_end": 0.5137,
+        "release_end": 0.6588,
+        "events": [
+          {
+            "time": 0.5137,
+            "type": "hit",
+            "socket": "weapon.tip"
+          }
+        ],
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "shaseng/thumbnails/SpadeSweep.png"
+      },
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 3,
+      "ultimate": false
+    },
+    {
+      "id": "shaseng.SpadeThrust",
+      "actor": "shaseng",
+      "clip": "SpadeThrust",
+      "name": "平铲前送",
+      "kind": "active",
+      "role": "定线拦截",
+      "target": "前方细长铲线",
+      "trigger": "主动释放",
+      "effect": "平铲前送，首个冲锋敌人被截停，后排受到较弱波及。",
+      "limit": "只拦一次可拦截冲锋；首领变成破势。",
+      "branches": [
+        "穿流：多穿目标，拦截更弱",
+        "截锋：首目标拦截强，不能贯穿"
+      ],
+      "synergy": "衔接八戒倒耙，把直线留给悟空",
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "motion": {
+        "clip": "SpadeThrust",
+        "upper_clip": "SpadeThrust_Upper",
+        "duration": 1.0333333333333334,
+        "windup_end": 0.496,
+        "release_end": 0.6303,
+        "events": [
+          {
+            "time": 0.496,
+            "type": "hit",
+            "socket": "weapon.tip"
+          }
+        ],
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "shaseng/thumbnails/SpadeThrust.png"
+      },
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 5,
+      "ultimate": false
+    },
+    {
+      "id": "shaseng.RiverWard",
+      "actor": "shaseng",
+      "clip": "RiverWard",
+      "name": "竖铲护河",
+      "kind": "active",
+      "role": "正面抗弹",
+      "target": "面前窄护持面",
+      "trigger": "主动释放",
+      "effect": "竖铲引水，削弱穿过面的一批普通弹道，保留可见消散。",
+      "limit": "不吞首领全部射线；有总次数上限，侧后弹道仍可达。",
+      "branches": [
+        "宽河：面更宽，承受次数少",
+        "深流：面更窄，耐久提高"
+      ],
+      "synergy": "保护回春愿、纳气回元的起手",
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "motion": {
+        "clip": "RiverWard",
+        "upper_clip": "RiverWard_Upper",
+        "duration": 1.35,
+        "windup_end": 0.6345,
+        "release_end": 0.81,
+        "events": [
+          {
+            "time": 0.6345,
+            "type": "ward",
+            "socket": "hand.back"
+          }
+        ],
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "shaseng/thumbnails/RiverWard.png"
+      },
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 5,
+      "ultimate": false
+    },
+    {
+      "id": "shaseng.SpadeLift",
+      "actor": "shaseng",
+      "clip": "SpadeLift",
+      "name": "挑铲断势",
+      "kind": "active",
+      "role": "挑击打断",
+      "target": "面前首个重目标与少量轻敌",
+      "trigger": "主动释放",
+      "effect": "由低到高挑铲，轻敌被抬离站位，重敌增加破势。",
+      "limit": "不会把首领长时间浮空；动作结束前难以追转。",
+      "branches": [
+        "挑阵：更多轻敌，单体破势低",
+        "断势：锁首敌，强化打断"
+      ],
+      "synergy": "接坠云压阵组成铲托云击",
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "motion": {
+        "clip": "SpadeLift",
+        "upper_clip": "SpadeLift_Upper",
+        "duration": 1.15,
+        "windup_end": 0.575,
+        "release_end": 0.7245,
+        "events": [
+          {
+            "time": 0.575,
+            "type": "lift",
+            "socket": "weapon.tip"
+          }
+        ],
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "shaseng/thumbnails/SpadeLift.png"
+      },
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 5,
+      "ultimate": false
+    },
+    {
+      "id": "shaseng.SandVortex",
+      "actor": "shaseng",
+      "clip": "SandVortex",
+      "name": "流沙回旋",
+      "kind": "active",
+      "role": "持续聚拢",
+      "target": "铲弧外缘的小片流沙",
+      "trigger": "主动释放",
+      "effect": "两段回铲生成局部缓慢牵引，让外围小怪靠向交战区。",
+      "limit": "牵引有速度上限且不会穿墙；不把所有敌人压成一像素。",
+      "branches": [
+        "回旋：范围更宽，牵引更弱",
+        "沉沙：范围更小，减速更强"
+      ],
+      "synergy": "泥涧减速后衔接横扫，不与同源牵引无限叠加",
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "motion": {
+        "clip": "SandVortex",
+        "upper_clip": "SandVortex_Upper",
+        "duration": 1.5,
+        "windup_end": 0.795,
+        "release_end": 0.99,
+        "events": [
+          {
+            "time": 0.795,
+            "type": "vortex",
+            "socket": "weapon.tip"
+          }
+        ],
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "shaseng/thumbnails/SandVortex.png"
+      },
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 5,
+      "ultimate": false
+    },
+    {
+      "id": "shaseng.RiverDrag",
+      "actor": "shaseng",
+      "clip": "RiverDrag",
+      "name": "退步引流",
+      "kind": "active",
+      "role": "撤步控制",
+      "target": "前方短带到自身旧站位",
+      "trigger": "主动释放",
+      "effect": "边收铲边两步后撤，留下缓速水流并让队伍退线。",
+      "limit": "不把敌人直接拉到背后；后撤受地形阻挡，不附全程无敌。",
+      "branches": [
+        "长流：水痕更久，后撤短",
+        "回护：后撤更稳，牵引减弱"
+      ],
+      "synergy": "护唐僧退到经幡区域",
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "motion": {
+        "clip": "RiverDrag",
+        "upper_clip": "RiverDrag_Upper",
+        "duration": 1.2166666666666666,
+        "windup_end": 0.657,
+        "release_end": 0.8152,
+        "events": [
+          {
+            "time": 0.657,
+            "type": "drag",
+            "socket": "weapon.tip"
+          }
+        ],
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "shaseng/thumbnails/RiverDrag.png"
+      },
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 5,
+      "ultimate": false
+    },
+    {
+      "id": "shaseng.PrayerBeads",
+      "actor": "shaseng",
+      "clip": "PrayerBeads",
+      "name": "念珠镇魂",
+      "kind": "active",
+      "role": "远程压制",
+      "target": "前方一名蓄势 / 施法敌人",
+      "trigger": "主动释放",
+      "effect": "从胸前取势后送出念珠光影，短暂压制技能蓄势。",
+      "limit": "只降低本次蓄势，不永久沉默；珠串不作为可递归召唤物。",
+      "branches": [
+        "散珠：跳到次目标，压制变短",
+        "镇魂：单目标压制更强，距离缩短"
+      ],
+      "synergy": "对白骨招魂和狼嚎作中距应对",
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "motion": {
+        "clip": "PrayerBeads",
+        "upper_clip": "PrayerBeads_Upper",
+        "duration": 1.1166666666666667,
+        "windup_end": 0.536,
+        "release_end": 0.6812,
+        "events": [
+          {
+            "time": 0.536,
+            "type": "beads",
+            "socket": "hand.back"
+          }
+        ],
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "shaseng/thumbnails/PrayerBeads.png"
+      },
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 5,
+      "ultimate": false
+    },
+    {
+      "id": "shaseng.RiverTread",
+      "actor": "shaseng",
+      "clip": "RiverTread",
+      "name": "踏浪截阵",
+      "kind": "active",
+      "role": "前移救援",
+      "target": "短直线可达地面",
+      "trigger": "主动释放",
+      "effect": "持铲连步前移至队友附近，抵住首个轻敌并建立短暂正面抗冲击。",
+      "limit": "先按碰撞找可达点；不是传送或全队瞬间集合。",
+      "branches": [
+        "援步：移动更远，护持短",
+        "截阵：移动更短，护持稳"
+      ],
+      "synergy": "接同心愿契守住受威胁后排",
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "motion": {
+        "clip": "RiverTread",
+        "upper_clip": "RiverTread_Upper",
+        "duration": 1.1,
+        "windup_end": 0.594,
+        "release_end": 0.737,
+        "events": [
+          {
+            "time": 0.594,
+            "type": "intercept",
+            "socket": "weapon.tip"
+          }
+        ],
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "shaseng/thumbnails/RiverTread.png"
+      },
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 5,
+      "ultimate": false
+    },
+    {
+      "id": "xiaobailong.JianCut",
+      "actor": "xiaobailong",
+      "clip": "JianCut",
+      "name": "人形剑势",
+      "kind": "active",
+      "role": "快速斜斩",
+      "target": "面前窄弧",
+      "trigger": "装备为自动兵器技",
+      "effect": "抽身斜劈，优先贴近侧面的敌人，突出短剑锋线。",
+      "limit": "清群弱于长兵器，不能以剑鞘充当出鞘剑刃。",
+      "branches": [
+        "飞锋：更快，破势低",
+        "凝锋：更慢，首目标伤害高"
+      ],
+      "synergy": "在悟空标记后切入精英侧面",
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "motion": {
+        "clip": "JianCut",
+        "upper_clip": "JianCut_Upper",
+        "duration": 0.8666666666666667,
+        "windup_end": 0.3727,
+        "release_end": 0.4853,
+        "events": [
+          {
+            "time": 0.3727,
+            "type": "hit",
+            "socket": "weapon.tip"
+          }
+        ],
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "xiaobailong/thumbnails/JianCut.png"
+      },
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 3,
+      "ultimate": false
+    },
+    {
+      "id": "xiaobailong.WaveStep",
+      "actor": "xiaobailong",
+      "clip": "WaveStep",
+      "name": "进身送剑",
+      "kind": "active",
+      "role": "水波贯线",
+      "target": "前方细长剑波",
+      "trigger": "主动释放",
+      "effect": "上身进势送剑并推出窄水波；本招不负责角色长距位移。",
+      "limit": "仍可走动施法；水波命中沿实际弹道，不自动绕过障碍。",
+      "branches": [
+        "分流：双窄波，每道更弱",
+        "凝流：单波更远，宽度变小"
+      ],
+      "synergy": "定身后穿线；与穿云疾剑分工",
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "motion": {
+        "clip": "WaveStep",
+        "upper_clip": "WaveStep_Upper",
+        "duration": 1.0,
+        "windup_end": 0.52,
+        "release_end": 0.65,
+        "events": [
+          {
+            "time": 0.52,
+            "type": "wave",
+            "socket": "weapon.tip"
+          }
+        ],
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "xiaobailong/thumbnails/WaveStep.png"
+      },
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 5,
+      "ultimate": false
+    },
+    {
+      "id": "xiaobailong.ScaleWard",
+      "actor": "xiaobailong",
+      "clip": "ScaleWard",
+      "name": "龙鳞护佑",
+      "kind": "active",
+      "role": "承伤护持",
+      "target": "自身与最近受威胁队友",
+      "trigger": "主动释放",
+      "effect": "举臂覆鳞，抵消一次较轻的冲击并减少后续短暂伤害。",
+      "limit": "同源护持不叠，不能抵消所有首领机制。",
+      "branches": [
+        "分鳞：多护一人，每层更薄",
+        "凝鳞：只护自身，允许反击窗口"
+      ],
+      "synergy": "配唐僧愿契与沙僧截阵，避免连锁反射",
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "motion": {
+        "clip": "ScaleWard",
+        "upper_clip": "ScaleWard_Upper",
+        "duration": 1.2,
+        "windup_end": 0.54,
+        "release_end": 0.696,
+        "events": [
+          {
+            "time": 0.54,
+            "type": "ward",
+            "socket": "hand.back"
+          }
+        ],
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "xiaobailong/thumbnails/ScaleWard.png"
+      },
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 5,
+      "ultimate": false
+    },
+    {
+      "id": "xiaobailong.RisingSlash",
+      "actor": "xiaobailong",
+      "clip": "RisingSlash",
+      "name": "游龙挑锋",
+      "kind": "active",
+      "role": "快速上挑",
+      "target": "近身前上方弧",
+      "trigger": "主动释放",
+      "effect": "由低锋挑起，打断轻敌近身攻击并让开一条侧向出口。",
+      "limit": "重敌只破势；对后方无效，不能无限浮空。",
+      "branches": [
+        "挑月：上挑范围更高，前距短",
+        "断浪：前距更长，失衡短"
+      ],
+      "synergy": "接回澜折剑重整距离",
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "motion": {
+        "clip": "RisingSlash",
+        "upper_clip": "RisingSlash_Upper",
+        "duration": 0.95,
+        "windup_end": 0.456,
+        "release_end": 0.5795,
+        "events": [
+          {
+            "time": 0.456,
+            "type": "lift",
+            "socket": "weapon.tip"
+          }
+        ],
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "xiaobailong/thumbnails/RisingSlash.png"
+      },
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 5,
+      "ultimate": false
+    },
+    {
+      "id": "xiaobailong.TideReturn",
+      "actor": "xiaobailong",
+      "clip": "TideReturn",
+      "name": "回澜折剑",
+      "kind": "active",
+      "role": "后撤反击",
+      "target": "正面来袭与背后可走短距",
+      "trigger": "主动释放",
+      "effect": "折剑退步，短窗口内接住正面一次可格挡攻击，再送出弱剑波。",
+      "limit": "没有成功格挡就无反击波；背后与不可格挡攻击例外。",
+      "branches": [
+        "借浪：窗口更宽，反击弱",
+        "逆鳞：窗口更窄，破势强"
+      ],
+      "synergy": "配龙鳞护佑承接失败风险，禁止反射递归",
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "motion": {
+        "clip": "TideReturn",
+        "upper_clip": "TideReturn_Upper",
+        "duration": 1.1,
+        "windup_end": 0.561,
+        "release_end": 0.704,
+        "events": [
+          {
+            "time": 0.561,
+            "type": "parry",
+            "socket": "weapon.tip"
+          }
+        ],
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "xiaobailong/thumbnails/TideReturn.png"
+      },
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 5,
+      "ultimate": false
+    },
+    {
+      "id": "xiaobailong.FrostBreath",
+      "actor": "xiaobailong",
+      "clip": "FrostBreath",
+      "name": "寒息引流",
+      "kind": "active",
+      "role": "持续缓速",
+      "target": "掌前窄扇形冷雾",
+      "trigger": "主动释放",
+      "effect": "人形抬掌引寒息，持续放慢前方；对已湿目标提高破势。",
+      "limit": "不是龙嘴喷吐；通道中转身慢，减速有上限，不永久冻结。",
+      "branches": [
+        "寒川：更宽，减速较弱",
+        "霜线：更窄，逐步积寒更强"
+      ],
+      "synergy": "与沙僧水流、八戒泥带形成双流控场",
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "motion": {
+        "clip": "FrostBreath",
+        "upper_clip": "FrostBreath_Upper",
+        "duration": 1.4833333333333334,
+        "windup_end": 0.7417,
+        "release_end": 0.9345,
+        "events": [
+          {
+            "time": 0.7417,
+            "type": "frost",
+            "socket": "hand.back"
+          }
+        ],
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "xiaobailong/thumbnails/FrostBreath.png"
+      },
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 5,
+      "ultimate": false
+    },
+    {
+      "id": "xiaobailong.DragonDash",
+      "actor": "xiaobailong",
+      "clip": "DragonDash",
+      "name": "穿云疾剑",
+      "kind": "active",
+      "role": "直线突进",
+      "target": "面向的可走短直线",
+      "trigger": "主动释放",
+      "effect": "后收剑势再向前送出窄线剑潮，移动由玩家控制。",
+      "limit": "剑潮受地形阻挡；不会自动冲刺或穿过地形。",
+      "branches": [
+        "破云：更远，终点收势更长",
+        "游龙：更短，允许更快转向"
+      ],
+      "synergy": "唐僧莲华先清路，火眼标记后切入",
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "motion": {
+        "clip": "DragonDash",
+        "upper_clip": "DragonDash_Upper",
+        "duration": 0.9,
+        "windup_end": 0.441,
+        "release_end": 0.558,
+        "events": [
+          {
+            "time": 0.441,
+            "type": "dash",
+            "socket": "weapon.tip"
+          }
+        ],
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "xiaobailong/thumbnails/DragonDash.png"
+      },
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 5,
+      "ultimate": false
+    },
+    {
+      "id": "xiaobailong.RainBlessing",
+      "actor": "xiaobailong",
+      "clip": "RainBlessing",
+      "name": "甘霖普降",
+      "kind": "active",
+      "role": "区域续疗",
+      "target": "指定附近可见地面",
+      "trigger": "主动释放",
+      "effect": "举剑引细雨，队友在雨幕内获得几次小额恢复并洗去积尘减速。",
+      "limit": "离区失去后续恢复；不复活，不与同源雨叠疗。",
+      "branches": [
+        "润物：区域宽，总量减少",
+        "凝露：区域小，单人恢复更强"
+      ],
+      "synergy": "唐僧急疗救命，雨幕负责战后回稳",
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "motion": {
+        "clip": "RainBlessing",
+        "upper_clip": "RainBlessing_Upper",
+        "duration": 1.55,
+        "windup_end": 0.868,
+        "release_end": 1.0695,
+        "events": [
+          {
+            "time": 0.868,
+            "type": "rain",
+            "socket": "hand.back"
+          }
+        ],
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "xiaobailong/thumbnails/RainBlessing.png"
+      },
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 5,
+      "ultimate": false
+    },
+    {
+      "id": "wolf.SaberSlash",
+      "actor": "wolf",
+      "clip": "SaberSlash",
+      "name": "抽刀斩",
+      "kind": "enemy",
+      "role": "近战压力",
+      "target": "面前短扇形",
+      "trigger": "接近玩家后，预警完释放",
+      "effect": "显出抬刀起手，再向前下斩。",
+      "limit": "出刀方向锁定后可从侧面避开；落刀后有反击空档。",
+      "branches": [
+        "凶刃：精英出刀更重，起手更长",
+        "游猎：普通版收势快，范围小"
+      ],
+      "synergy": "与群猎点名配合但不追踪扫满周身",
+      "status": "Blender / GLB 动作已制作；妖怪演武目前使用基础攻击，完整招式 AI 待接入",
+      "motion": {
+        "clip": "SaberSlash",
+        "upper_clip": "SaberSlash_Upper",
+        "duration": 0.7833333333333333,
+        "windup_end": 0.3212,
+        "release_end": 0.423,
+        "events": [
+          {
+            "time": 0.3212,
+            "type": "hit",
+            "socket": "weapon.tip"
+          }
+        ],
+        "mode": "站立全身 + 移动上身遮罩",
+        "thumbnail": "wolf/thumbnails/SaberSlash.png"
+      }
+    },
+    {
+      "id": "wolf.LowLunge",
+      "actor": "wolf",
+      "clip": "LowLunge",
+      "name": "低身突刺",
+      "kind": "enemy",
+      "role": "窄线惩罚",
+      "target": "面前短线",
+      "trigger": "距离合适时，预警完释放",
+      "effect": "先沉身后低刺，惩罚持续直线后退。",
+      "limit": "命中线窄，方向提前锁；遇墙立即停止，动作不代表远距冲刺。",
+      "branches": [
+        "穿心：精英直线长，收势长",
+        "伏爪：更短更快，伤害低"
+      ],
+      "synergy": "配合虎妖宽弧形成方向选择",
+      "status": "Blender / GLB 动作已制作；妖怪演武目前使用基础攻击，完整招式 AI 待接入",
+      "motion": {
+        "clip": "LowLunge",
+        "upper_clip": "LowLunge_Upper",
+        "duration": 0.8833333333333333,
+        "windup_end": 0.4328,
+        "release_end": 0.5477,
+        "events": [
+          {
+            "time": 0.4328,
+            "type": "hit",
+            "socket": "weapon.tip"
+          }
+        ],
+        "mode": "站立全身 + 移动上身遮罩",
+        "thumbnail": "wolf/thumbnails/LowLunge.png"
+      }
+    },
+    {
+      "id": "wolf.WolfHowl",
+      "actor": "wolf",
+      "clip": "WolfHowl",
+      "name": "仰首呼啸",
+      "kind": "enemy",
+      "role": "群体强化",
+      "target": "附近同族",
+      "trigger": "有同族且不在重复号令期时",
+      "effect": "仰首呼啸给附近少量狼妖一次进攻增势。",
+      "limit": "起手可打断；同源号令不叠，不无限召怪。",
+      "branches": [
+        "集猎：覆盖更多狼，增势弱",
+        "狂嚎：覆盖少，起手长且增势强"
+      ],
+      "synergy": "清音或镇魂可打断",
+      "status": "Blender / GLB 动作已制作；妖怪演武目前使用基础攻击，完整招式 AI 待接入",
+      "motion": {
+        "clip": "WolfHowl",
+        "upper_clip": "WolfHowl_Upper",
+        "duration": 1.25,
+        "windup_end": 0.6125,
+        "release_end": 0.775,
+        "events": [
+          {
+            "time": 0.6125,
+            "type": "howl",
+            "socket": "hand.back"
+          }
+        ],
+        "mode": "站立全身 + 移动上身遮罩",
+        "thumbnail": "wolf/thumbnails/WolfHowl.png"
+      }
+    },
+    {
+      "id": "wolf.TwinCut",
+      "actor": "wolf",
+      "clip": "TwinCut",
+      "name": "双势连斩",
+      "kind": "enemy",
+      "role": "节奏陷阱",
+      "target": "前方两次独立刀弧",
+      "trigger": "精英蓄势完进入两段动作",
+      "effect": "先斩停顿再第二斩，两次接触点分别结算。",
+      "limit": "两次方向均有预示；第二斩不追着玩家瞬间转满。",
+      "branches": [
+        "追刃：第二斩前进更小步，停顿长",
+        "交刃：刀弧更宽，单段较弱"
+      ],
+      "synergy": "玩家可格挡一段后退或打断第二段",
+      "status": "Blender / GLB 动作已制作；妖怪演武目前使用基础攻击，完整招式 AI 待接入",
+      "motion": {
+        "clip": "TwinCut",
+        "upper_clip": "TwinCut_Upper",
+        "duration": 1.2,
+        "windup_end": 0.432,
+        "release_end": 0.588,
+        "events": [
+          {
+            "time": 0.432,
+            "type": "hit",
+            "socket": "weapon.tip"
+          },
+          {
+            "time": 0.768,
+            "type": "hit",
+            "socket": "weapon.tip"
+          }
+        ],
+        "mode": "站立全身 + 移动上身遮罩",
+        "thumbnail": "wolf/thumbnails/TwinCut.png"
+      }
+    },
+    {
+      "id": "wolf.LateralPounce",
+      "actor": "wolf",
+      "clip": "LateralPounce",
+      "name": "侧跃扑袭",
+      "kind": "enemy",
+      "role": "短跃落点",
+      "target": "可见落点与短前弧",
+      "trigger": "精英拉开距离后，落点预警完",
+      "effect": "压腿后短跃扑向锁定落点，落地出刀。",
+      "limit": "落点在腾空前锁定且可见；不可翻越实体墙，落地硬直明显。",
+      "branches": [
+        "远扑：落点更远，预警长",
+        "伏扑：落点近，落地弧更宽"
+      ],
+      "synergy": "定身要在起跳前，落地后可反击",
+      "status": "Blender / GLB 动作已制作；妖怪演武目前使用基础攻击，完整招式 AI 待接入",
+      "motion": {
+        "clip": "LateralPounce",
+        "upper_clip": null,
+        "duration": 1.15,
+        "windup_end": 0.828,
+        "release_end": 0.9775,
+        "events": [
+          {
+            "time": 0.828,
+            "type": "hit",
+            "socket": "weapon.tip"
+          }
+        ],
+        "root_motion": {
+          "axis": "facing-x",
+          "distance": 0.4716,
+          "keys": [
+            [
+              0,
+              0
+            ],
+            [
+              0.18,
+              0
+            ],
+            [
+              0.72,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "application": "external collision-aware displacement; never teleport through terrain"
+        },
+        "airborne": {
+          "start": 0.18,
+          "end": 0.72,
+          "height_ratio": 0.14,
+          "landing_phase": 0.72
+        },
+        "mode": "完整身体 / 碰撞位移",
+        "thumbnail": "wolf/thumbnails/LateralPounce.png"
+      }
+    },
+    {
+      "id": "wolf.PackMark",
+      "actor": "wolf",
+      "clip": "PackMark",
+      "name": "群猎点名",
+      "kind": "enemy",
+      "role": "仇恨组织",
+      "target": "视野内一名队员",
+      "trigger": "存在可见队员且没有有效同源标记时",
+      "effect": "指向被盯目标，附近少量狼短暂偏向该目标。",
+      "limit": "标记可见可净化；每只狼仍遵循避让，不同时强制贴身。",
+      "branches": [
+        "追猎：标记更久，参与少",
+        "围猎：参与更多，标记短"
+      ],
+      "synergy": "玩家用分身分担普通狼，唐僧净化",
+      "status": "Blender / GLB 动作已制作；妖怪演武目前使用基础攻击，完整招式 AI 待接入",
+      "motion": {
+        "clip": "PackMark",
+        "upper_clip": "PackMark_Upper",
+        "duration": 1.2,
+        "windup_end": 0.588,
+        "release_end": 0.744,
+        "events": [
+          {
+            "time": 0.588,
+            "type": "mark",
+            "socket": "hand.back"
+          }
+        ],
+        "mode": "站立全身 + 移动上身遮罩",
+        "thumbnail": "wolf/thumbnails/PackMark.png"
+      }
+    },
+    {
+      "id": "tiger.AxeCleave",
+      "actor": "tiger",
+      "clip": "AxeCleave",
+      "name": "举斧重劈",
+      "kind": "enemy",
+      "role": "重击破阵",
+      "target": "前方明显短矩形",
+      "trigger": "接近并完成落点预警后",
+      "effect": "高举斧后落劈，压制正面站桩。",
+      "limit": "起手长，落点锁定；首轮不夹带无预警周身震波。",
+      "branches": [
+        "裂斧：精英落点长，收势长",
+        "镇斧：落点窄，破防强"
+      ],
+      "synergy": "玩家横移或打断蓄势",
+      "status": "Blender / GLB 动作已制作；妖怪演武目前使用基础攻击，完整招式 AI 待接入",
+      "motion": {
+        "clip": "AxeCleave",
+        "upper_clip": "AxeCleave_Upper",
+        "duration": 1.2,
+        "windup_end": 0.648,
+        "release_end": 0.804,
+        "events": [
+          {
+            "time": 0.648,
+            "type": "hit",
+            "socket": "weapon.tip"
+          }
+        ],
+        "mode": "站立全身 + 移动上身遮罩",
+        "thumbnail": "tiger/thumbnails/AxeCleave.png"
+      }
+    },
+    {
+      "id": "tiger.AxeSweep",
+      "actor": "tiger",
+      "clip": "AxeSweep",
+      "name": "横斧破阵",
+      "kind": "enemy",
+      "role": "宽弧逼位",
+      "target": "面前宽扇形",
+      "trigger": "正面聚集多个队员时",
+      "effect": "转肩横斧，对直贴前方的队伍施压。",
+      "limit": "背后和弧外留安全面；不会每帧旋转追身。",
+      "branches": [
+        "阔斧：弧宽，起手长",
+        "断阵：弧窄，击退强"
+      ],
+      "synergy": "与狼突刺形成快慢节奏",
+      "status": "Blender / GLB 动作已制作；妖怪演武目前使用基础攻击，完整招式 AI 待接入",
+      "motion": {
+        "clip": "AxeSweep",
+        "upper_clip": "AxeSweep_Upper",
+        "duration": 1.0833333333333333,
+        "windup_end": 0.4983,
+        "release_end": 0.6392,
+        "events": [
+          {
+            "time": 0.4983,
+            "type": "hit",
+            "socket": "weapon.tip"
+          }
+        ],
+        "mode": "站立全身 + 移动上身遮罩",
+        "thumbnail": "tiger/thumbnails/AxeSweep.png"
+      }
+    },
+    {
+      "id": "tiger.TigerRoar",
+      "actor": "tiger",
+      "clip": "TigerRoar",
+      "name": "震身怒吼",
+      "kind": "enemy",
+      "role": "近身驱散",
+      "target": "自身附近有限半径",
+      "trigger": "被近身围住且完成可见预警后",
+      "effect": "沉身后怒吼，推开近处轻单位并短暂扰乱站位。",
+      "limit": "半径与实际命中相同，不能全屏恐惧；起手可打断。",
+      "branches": [
+        "震林：范围大，推力小",
+        "镇山：范围小，破势强"
+      ],
+      "synergy": "净化对恐惧有效，已生成斧击不会消失",
+      "status": "Blender / GLB 动作已制作；妖怪演武目前使用基础攻击，完整招式 AI 待接入",
+      "motion": {
+        "clip": "TigerRoar",
+        "upper_clip": "TigerRoar_Upper",
+        "duration": 1.3166666666666667,
+        "windup_end": 0.632,
+        "release_end": 0.8032,
+        "events": [
+          {
+            "time": 0.632,
+            "type": "roar",
+            "socket": "hand.back"
+          }
+        ],
+        "mode": "站立全身 + 移动上身遮罩",
+        "thumbnail": "tiger/thumbnails/TigerRoar.png"
+      }
+    },
+    {
+      "id": "tiger.ShoulderRush",
+      "actor": "tiger",
+      "clip": "ShoulderRush",
+      "name": "虎肩冲阵",
+      "kind": "enemy",
+      "role": "短距冲撞",
+      "target": "前方窄可达线",
+      "trigger": "精英有足够可达距离时",
+      "effect": "架斧沉肩连步冲撞，遇见实体即停止。",
+      "limit": "方向提前锁、侧面可避；不把队员穿过墙或永久带走。",
+      "branches": [
+        "撼阵：冲得更远，预警长",
+        "铁肩：冲得短，抗打断强"
+      ],
+      "synergy": "玩家横移后攻击收势背面",
+      "status": "Blender / GLB 动作已制作；妖怪演武目前使用基础攻击，完整招式 AI 待接入",
+      "motion": {
+        "clip": "ShoulderRush",
+        "upper_clip": null,
+        "duration": 1.25,
+        "windup_end": 0.675,
+        "release_end": 0.8375,
+        "events": [
+          {
+            "time": 0.675,
+            "type": "charge",
+            "socket": "actor"
+          }
+        ],
+        "root_motion": {
+          "axis": "facing-x",
+          "distance": 0.4984,
+          "keys": [
+            [
+              0,
+              0
+            ],
+            [
+              0.14,
+              0
+            ],
+            [
+              0.88,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "application": "external collision-aware displacement; never teleport through terrain"
+        },
+        "mode": "完整身体 / 碰撞位移",
+        "thumbnail": "tiger/thumbnails/ShoulderRush.png"
+      }
+    },
+    {
+      "id": "tiger.GroundStomp",
+      "actor": "tiger",
+      "clip": "GroundStomp",
+      "name": "虎踞踏地",
+      "kind": "enemy",
+      "role": "延迟震地",
+      "target": "抬脚附近的实际地面范围",
+      "trigger": "精英近身且落脚预警完",
+      "effect": "一脚抬起，另一脚支撑，落脚时震出一圈短地浪。",
+      "limit": "只有脚落地才结算；边缘准确，范围外无伤害。",
+      "branches": [
+        "裂纹：地浪更远，传播更慢",
+        "顿足：范围近，破势高"
+      ],
+      "synergy": "与斧劈错开，不能同时无间隔覆盖出口",
+      "status": "Blender / GLB 动作已制作；妖怪演武目前使用基础攻击，完整招式 AI 待接入",
+      "motion": {
+        "clip": "GroundStomp",
+        "upper_clip": null,
+        "duration": 1.35,
+        "windup_end": 0.7425,
+        "release_end": 0.918,
+        "events": [
+          {
+            "time": 0.7425,
+            "type": "stomp",
+            "socket": "foot.front"
+          }
+        ],
+        "mode": "完整身体 / 碰撞位移",
+        "thumbnail": "tiger/thumbnails/GroundStomp.png"
+      }
+    },
+    {
+      "id": "tiger.AxeGuard",
+      "actor": "tiger",
+      "clip": "AxeGuard",
+      "name": "架斧反震",
+      "kind": "enemy",
+      "role": "有条件反击",
+      "target": "正面可格挡攻击",
+      "trigger": "精英受正面压力且格挡冷却结束时",
+      "effect": "架斧守住短窗口，成功承接后才反震正前方。",
+      "limit": "没接到攻击就只收斧；侧后和标记不可格挡攻击绕过。",
+      "branches": [
+        "坚守：窗口宽，反震弱",
+        "凶返：窗口窄，收势长但反震强"
+      ],
+      "synergy": "诱出格挡再侧击；反射不互相递归",
+      "status": "Blender / GLB 动作已制作；妖怪演武目前使用基础攻击，完整招式 AI 待接入",
+      "motion": {
+        "clip": "AxeGuard",
+        "upper_clip": "AxeGuard_Upper",
+        "duration": 1.4,
+        "windup_end": 0.686,
+        "release_end": 0.868,
+        "events": [
+          {
+            "time": 0.686,
+            "type": "parry",
+            "socket": "weapon.tip"
+          }
+        ],
+        "mode": "站立全身 + 移动上身遮罩",
+        "thumbnail": "tiger/thumbnails/AxeGuard.png"
+      }
+    },
+    {
+      "id": "baigufuren.BoneBolt",
+      "actor": "baigufuren",
+      "clip": "BoneBolt",
+      "name": "送杖飞矢",
+      "kind": "enemy",
+      "role": "远程点射",
+      "target": "释放时锁定方向的弹道",
+      "trigger": "维持中距，瞄准线预警后",
+      "effect": "送杖射出白骨矢，沿真实路径飞行并可被躲开。",
+      "limit": "发射后不急转追踪；实体遮挡按同一碰撞规则。",
+      "branches": [
+        "骨扇：更多散矢，每根弱",
+        "骨针：单矢更快，起手更长"
+      ],
+      "synergy": "沙僧护河能削弱普通骨矢",
+      "status": "Blender / GLB 动作已制作；妖怪演武目前使用基础攻击，完整招式 AI 待接入",
+      "motion": {
+        "clip": "BoneBolt",
+        "upper_clip": "BoneBolt_Upper",
+        "duration": 1.0333333333333334,
+        "windup_end": 0.4753,
+        "release_end": 0.6097,
+        "events": [
+          {
+            "time": 0.4753,
+            "type": "projectile",
+            "socket": "weapon.tip"
+          }
+        ],
+        "mode": "站立全身 + 移动上身遮罩",
+        "thumbnail": "baigufuren/thumbnails/BoneBolt.png"
+      }
+    },
+    {
+      "id": "baigufuren.SleeveSweep",
+      "actor": "baigufuren",
+      "clip": "SleeveSweep",
+      "name": "拂袖",
+      "kind": "enemy",
+      "role": "近身自保",
+      "target": "前方袖风扇形",
+      "trigger": "队员过近且完成袖风预警后",
+      "effect": "甩袖推出近身敌人，为法术收势留空。",
+      "limit": "不是全向无敌；袖风后有重新举杖时间。",
+      "branches": [
+        "长袖：范围宽，推力弱",
+        "厉袖：范围窄，推力强"
+      ],
+      "synergy": "玩家可从身后打断下一法术",
+      "status": "Blender / GLB 动作已制作；妖怪演武目前使用基础攻击，完整招式 AI 待接入",
+      "motion": {
+        "clip": "SleeveSweep",
+        "upper_clip": "SleeveSweep_Upper",
+        "duration": 1.1666666666666667,
+        "windup_end": 0.5367,
+        "release_end": 0.6883,
+        "events": [
+          {
+            "time": 0.5367,
+            "type": "sleeve",
+            "socket": "hand.back"
+          }
+        ],
+        "mode": "站立全身 + 移动上身遮罩",
+        "thumbnail": "baigufuren/thumbnails/SleeveSweep.png"
+      }
+    },
+    {
+      "id": "baigufuren.SpiritCall",
+      "actor": "baigufuren",
+      "clip": "SpiritCall",
+      "name": "招魂",
+      "kind": "enemy",
+      "role": "限量召唤",
+      "target": "附近可走地面的可见召唤点",
+      "trigger": "首领阶段或精英配置启用，召唤上限未满时",
+      "effect": "举杖招出有总数限制的骨影，点位先显形再实体化。",
+      "limit": "起手能被打断；不在队员脚底无预警出生，不无限补满。",
+      "branches": [
+        "众骨：数量多，每个脆",
+        "厉骨：数量少，召唤慢"
+      ],
+      "synergy": "清音、念珠优先处理招魂",
+      "status": "Blender / GLB 动作已制作；妖怪演武目前使用基础攻击，完整招式 AI 待接入",
+      "motion": {
+        "clip": "SpiritCall",
+        "upper_clip": "SpiritCall_Upper",
+        "duration": 1.5,
+        "windup_end": 0.87,
+        "release_end": 1.065,
+        "events": [
+          {
+            "time": 0.87,
+            "type": "summon",
+            "socket": "hand.back"
+          }
+        ],
+        "mode": "站立全身 + 移动上身遮罩",
+        "thumbnail": "baigufuren/thumbnails/SpiritCall.png"
+      }
+    },
+    {
+      "id": "baigufuren.BoneCage",
+      "actor": "baigufuren",
+      "clip": "BoneCage",
+      "name": "白骨囚笼",
+      "kind": "enemy",
+      "role": "分区逼位",
+      "target": "可见地面上的留缺口骨纹",
+      "trigger": "首领完成地面形状预警后",
+      "effect": "地面先显骨纹，再升起短暂危险弧，迫使队伍换位。",
+      "limit": "一定保留可走缺口；不生成隐形硬墙，不取消四向探索。",
+      "branches": [
+        "围骨：弧更多，显形更慢",
+        "噬骨：弧较少，触碰惩罚高"
+      ],
+      "synergy": "莲华清路与位移可沿缺口逃出",
+      "status": "Blender / GLB 动作已制作；妖怪演武目前使用基础攻击，完整招式 AI 待接入",
+      "motion": {
+        "clip": "BoneCage",
+        "upper_clip": "BoneCage_Upper",
+        "duration": 1.65,
+        "windup_end": 0.9405,
+        "release_end": 1.155,
+        "events": [
+          {
+            "time": 0.9405,
+            "type": "cage",
+            "socket": "hand.back"
+          }
+        ],
+        "mode": "站立全身 + 移动上身遮罩",
+        "thumbnail": "baigufuren/thumbnails/BoneCage.png"
+      }
+    },
+    {
+      "id": "baigufuren.FalseSkin",
+      "actor": "baigufuren",
+      "clip": "FalseSkin",
+      "name": "画皮移形",
+      "kind": "enemy",
+      "role": "后撤幻影",
+      "target": "旧站位与背后可走地面",
+      "trigger": "受到近身压力且幻影数量未满时",
+      "effect": "两步后撤并留一个假身，假身仅作诱导，不继承召唤链。",
+      "limit": "本体始终存在且可被火眼识破；不能穿墙传送。",
+      "branches": [
+        "叠皮：假身更久，后撤短",
+        "退影：后撤远，假身不攻击"
+      ],
+      "synergy": "火眼照妖或清心驱散直接辨真",
+      "status": "Blender / GLB 动作已制作；妖怪演武目前使用基础攻击，完整招式 AI 待接入",
+      "motion": {
+        "clip": "FalseSkin",
+        "upper_clip": null,
+        "duration": 1.2,
+        "windup_end": 0.588,
+        "release_end": 0.744,
+        "events": [
+          {
+            "time": 0.588,
+            "type": "illusion",
+            "socket": "actor",
+            "space": "cast-origin"
+          }
+        ],
+        "root_motion": {
+          "axis": "facing-x",
+          "distance": -0.4743,
+          "keys": [
+            [
+              0,
+              0
+            ],
+            [
+              0.14,
+              0
+            ],
+            [
+              0.88,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "application": "external collision-aware displacement; never teleport through terrain"
+        },
+        "mode": "完整身体 / 碰撞位移",
+        "thumbnail": "baigufuren/thumbnails/FalseSkin.png"
+      }
+    },
+    {
+      "id": "baigufuren.SoulSiphon",
+      "actor": "baigufuren",
+      "clip": "SoulSiphon",
+      "name": "摄魂牵引",
+      "kind": "enemy",
+      "role": "持续牵制",
+      "target": "与一名队员之间的可见连线",
+      "trigger": "首领锁定目标、连线预警结束后",
+      "effect": "抬杖牵魂，连线未断时缓慢拉近并积累伤害。",
+      "limit": "拉力封顶且受碰撞限制；离距、遮挡、净化或打断可断线。",
+      "branches": [
+        "摄魂：线更长，拉力弱",
+        "缚魄：线较短，起手长但拉力强"
+      ],
+      "synergy": "唐僧净化、沙僧镇魂或横移到遮挡",
+      "status": "Blender / GLB 动作已制作；妖怪演武目前使用基础攻击，完整招式 AI 待接入",
+      "motion": {
+        "clip": "SoulSiphon",
+        "upper_clip": "SoulSiphon_Upper",
+        "duration": 1.8,
+        "windup_end": 0.864,
+        "release_end": 1.098,
+        "events": [
+          {
+            "time": 0.864,
+            "type": "siphon",
+            "socket": "hand.back"
+          }
+        ],
+        "mode": "站立全身 + 移动上身遮罩",
+        "thumbnail": "baigufuren/thumbnails/SoulSiphon.png"
+      }
+    },
+    {
+      "id": "wukong.FlowingStaff",
+      "actor": "wukong",
+      "clip": null,
+      "name": "棍势连章",
+      "kind": "passive",
+      "role": "成长被动",
+      "target": "自身 / 条件目标",
+      "trigger": "交替使用不同棍招命中",
+      "effect": "积攒有限棍势，下一次重招消费，鼓励横扫 / 直捣 / 挑棍轮换。",
+      "limit": "同一招连刷不叠；分身命中不叠。",
+      "branches": [
+        "连章：需要更多不同招式，回报高",
+        "熟势：较易触发，回报低"
+      ],
+      "synergy": "如意棍法→点将直捣→坠云压阵",
+      "status": "机制设计候选；使用触发招式动作，无独立完成动作"
+    },
+    {
+      "id": "wukong.TrueSight",
+      "actor": "wukong",
+      "clip": null,
+      "name": "破妄灵目",
+      "kind": "passive",
+      "role": "成长被动",
+      "target": "自身 / 条件目标",
+      "trigger": "亲自消费识破目标的破绽",
+      "effect": "返还一小段火眼准备，并揭示附近一个假身。",
+      "limit": "被动不自行消费破绽，返还有间隔与上限。",
+      "branches": [
+        "明心：更易识破，返还少",
+        "锐目：只对精英，返还多"
+      ],
+      "synergy": "火眼照妖、画皮敌人",
+      "status": "机制设计候选；使用触发招式动作，无独立完成动作"
+    },
+    {
+      "id": "wukong.EchoShadow",
+      "actor": "wukong",
+      "clip": null,
+      "name": "借影续势",
+      "kind": "passive",
+      "role": "成长被动",
+      "target": "自身 / 条件目标",
+      "trigger": "分身第一次命中已有标记目标",
+      "effect": "延长一次该标记，给本人留追击机会。",
+      "limit": "同一标记仅延长一次；分身不能触发新分身。",
+      "branches": [
+        "留影：延长多，分身数量少",
+        "叠影：更多分身可受益，每次延长短"
+      ],
+      "synergy": "毫毛分身、火眼照妖",
+      "status": "机制设计候选；使用触发招式动作，无独立完成动作"
+    },
+    {
+      "id": "wukong.BraveOpening",
+      "actor": "wukong",
+      "clip": null,
+      "name": "斗战余勇",
+      "kind": "passive",
+      "role": "成长被动",
+      "target": "自身 / 条件目标",
+      "trigger": "成功避开有预警攻击后命中",
+      "effect": "下一次本人棍击增强破势，鼓励主动判断。",
+      "limit": "不是残血常驻增伤；一次躲避只奖励一次命中。",
+      "branches": [
+        "破势：对精英更强，对群弱",
+        "护身：命中给薄盾，失去部分破势"
+      ],
+      "synergy": "筋斗闪身、回身挑棍",
+      "status": "机制设计候选；使用触发招式动作，无独立完成动作"
+    },
+    {
+      "id": "tangseng.GentleVow",
+      "actor": "tangseng",
+      "clip": null,
+      "name": "戒杀善愿",
+      "kind": "passive",
+      "role": "成长被动",
+      "target": "自身 / 条件目标",
+      "trigger": "成功推开敌人并保护队友免于本次近击",
+      "effect": "下一次护持获得少量额外容量。",
+      "limit": "只按实际威胁触发；空地反复施法不获益。",
+      "branches": [
+        "广愿：多人薄盾",
+        "深愿：单人厚盾"
+      ],
+      "synergy": "梵音退敌、锦襕护持",
+      "status": "机制设计候选；使用触发招式动作，无独立完成动作"
+    },
+    {
+      "id": "tangseng.CalmChant",
+      "actor": "tangseng",
+      "clip": null,
+      "name": "净心梵息",
+      "kind": "passive",
+      "role": "成长被动",
+      "target": "自身 / 条件目标",
+      "trigger": "短时间未受击且完成一次诵经",
+      "effect": "下一次清音或净化起手更稳。",
+      "limit": "受击重置；不变成永久霸体。",
+      "branches": [
+        "定心：更快准备，稳定较少",
+        "沉心：准备更久，稳定较多"
+      ],
+      "synergy": "清心破妄、振杖清音",
+      "status": "机制设计候选；使用触发招式动作，无独立完成动作"
+    },
+    {
+      "id": "tangseng.MercyOverflow",
+      "actor": "tangseng",
+      "clip": null,
+      "name": "慈悲为怀",
+      "kind": "passive",
+      "role": "成长被动",
+      "target": "自身 / 条件目标",
+      "trigger": "真实治疗出现少量溢出",
+      "effect": "部分溢出化为短暂薄盾，帮助满血队友过渡。",
+      "limit": "每次施法有盾量封顶；护盾不能再次算治疗。",
+      "branches": [
+        "众慈：均分薄盾",
+        "守慈：只给受威胁者"
+      ],
+      "synergy": "回春愿、甘霖普降；同源不递归",
+      "status": "机制设计候选；使用触发招式动作，无独立完成动作"
+    },
+    {
+      "id": "tangseng.WarmRobe",
+      "actor": "tangseng",
+      "clip": null,
+      "name": "袈裟余温",
+      "kind": "passive",
+      "role": "成长被动",
+      "target": "自身 / 条件目标",
+      "trigger": "锦襕护盾被正常击破",
+      "effect": "队友获得一次短暂抗冲击，留出撤离时间。",
+      "limit": "主动取消 / 自然到期不触发；同源有间隔。",
+      "branches": [
+        "温护：更久但较弱",
+        "坚护：更短但更稳"
+      ],
+      "synergy": "锦襕护持、同心愿契",
+      "status": "机制设计候选；使用触发招式动作，无独立完成动作"
+    },
+    {
+      "id": "bajie.ThickHide",
+      "actor": "bajie",
+      "clip": null,
+      "name": "厚皮硬骨",
+      "kind": "passive",
+      "role": "成长被动",
+      "target": "自身 / 条件目标",
+      "trigger": "短时间内承受首个正面重击",
+      "effect": "降低该次冲击并积累有限架势。",
+      "limit": "不对每颗弹丸独立重复减免；侧后较弱。",
+      "branches": [
+        "硬骨：抗冲击强，移速暂降",
+        "厚皮：移动正常，减免少"
+      ],
+      "synergy": "收腹架耙、挺腹冲阵",
+      "status": "机制设计候选；使用触发招式动作，无独立完成动作"
+    },
+    {
+      "id": "bajie.RakeMarks",
+      "actor": "bajie",
+      "clip": null,
+      "name": "耙痕留伤",
+      "kind": "passive",
+      "role": "成长被动",
+      "target": "自身 / 条件目标",
+      "trigger": "不同耙招命中同一目标",
+      "effect": "留下有限耙痕，重落可一次性消费以破势。",
+      "limit": "耙痕总层数封顶，持续伤害不再叠痕。",
+      "branches": [
+        "裂痕：层数少，消费强",
+        "深痕：更易维持，单层弱"
+      ],
+      "synergy": "横扫 / 倒耙→举耙重落",
+      "status": "机制设计候选；使用触发招式动作，无独立完成动作"
+    },
+    {
+      "id": "bajie.WellFed",
+      "actor": "bajie",
+      "clip": null,
+      "name": "饱食蓄力",
+      "kind": "passive",
+      "role": "成长被动",
+      "target": "自身 / 条件目标",
+      "trigger": "获得有效治疗",
+      "effect": "存下有限饱食，下次重落消费换破势。",
+      "limit": "仅实际补回的气血有效，满血 / 护盾 / 代偿不刷层。",
+      "branches": [
+        "饱力：需要更多治疗，消费强",
+        "余味：门槛低，回报小"
+      ],
+      "synergy": "纳气回元、回春愿",
+      "status": "机制设计候选；使用触发招式动作，无独立完成动作"
+    },
+    {
+      "id": "bajie.ProtectiveCourage",
+      "actor": "bajie",
+      "clip": null,
+      "name": "憨勇护主",
+      "kind": "passive",
+      "role": "成长被动",
+      "target": "自身 / 条件目标",
+      "trigger": "附近低血队友受到新的近战威胁",
+      "effect": "下一次冲阵优先救援方向并给自己短暂抗冲击。",
+      "limit": "不自动传送或强拉主控；触发有冷却。",
+      "branches": [
+        "近护：距离短，抗冲击强",
+        "援护：距离宽，抗冲击弱"
+      ],
+      "synergy": "挺腹冲阵、收腹架耙",
+      "status": "机制设计候选；使用触发招式动作，无独立完成动作"
+    },
+    {
+      "id": "shaseng.SteadyHeart",
+      "actor": "shaseng",
+      "clip": null,
+      "name": "定海沉心",
+      "kind": "passive",
+      "role": "成长被动",
+      "target": "自身 / 条件目标",
+      "trigger": "原地或缓移保持正面护持",
+      "effect": "逐渐稳住铲势，下一次截击更难被打断。",
+      "limit": "高速移动会衰减，不增加全向无敌。",
+      "branches": [
+        "沉心：稳得慢，抗冲击强",
+        "定心：稳得快，抗冲击少"
+      ],
+      "synergy": "竖铲护河、平铲前送",
+      "status": "机制设计候选；使用触发招式动作，无独立完成动作"
+    },
+    {
+      "id": "shaseng.FollowingCurrent",
+      "actor": "shaseng",
+      "clip": null,
+      "name": "铲势接流",
+      "kind": "passive",
+      "role": "成长被动",
+      "target": "自身 / 条件目标",
+      "trigger": "在水流 / 流沙边缘命中敌人",
+      "effect": "下一招更快衔接收势，奖励把敌人留在控制边缘。",
+      "limit": "只缩短收势，不能跳过起手或反复取消命中。",
+      "branches": [
+        "接流：衔接更快，控制弱",
+        "续流：控制更久，衔接小"
+      ],
+      "synergy": "流沙回旋、退步引流",
+      "status": "机制设计候选；使用触发招式动作，无独立完成动作"
+    },
+    {
+      "id": "shaseng.GuardianDuty",
+      "actor": "shaseng",
+      "clip": null,
+      "name": "护法担责",
+      "kind": "passive",
+      "role": "成长被动",
+      "target": "自身 / 条件目标",
+      "trigger": "截停逼向后排的敌人",
+      "effect": "被保护队友获得一次微弱护持，沙僧承受短暂注意。",
+      "limit": "伤害分担不能反复相互转移；不强制首领转目标。",
+      "branches": [
+        "守近：近距队友盾厚",
+        "守众：更多人薄盾"
+      ],
+      "synergy": "踏浪截阵、同心愿契",
+      "status": "机制设计候选；使用触发招式动作，无独立完成动作"
+    },
+    {
+      "id": "shaseng.SandTrace",
+      "actor": "shaseng",
+      "clip": null,
+      "name": "流沙留痕",
+      "kind": "passive",
+      "role": "成长被动",
+      "target": "自身 / 条件目标",
+      "trigger": "普通敌人离开自己流沙区域",
+      "effect": "留下短暂减速尾迹，方便队伍重新拉开。",
+      "limit": "同源减速不相乘；首领只保留微弱影响。",
+      "branches": [
+        "长痕：时间长，减速弱",
+        "沉痕：时间短，减速强"
+      ],
+      "synergy": "流沙回旋、泥涧筑垒",
+      "status": "机制设计候选；使用触发招式动作，无独立完成动作"
+    },
+    {
+      "id": "xiaobailong.SwordTide",
+      "actor": "xiaobailong",
+      "clip": null,
+      "name": "剑潮叠势",
+      "kind": "passive",
+      "role": "成长被动",
+      "target": "自身 / 条件目标",
+      "trigger": "剑招与水系招交替命中",
+      "effect": "积攒有限潮势，下次送剑消费为较窄的穿透波。",
+      "limit": "同招连刷和雨幕治疗不叠；不能永久累存。",
+      "branches": [
+        "急潮：易触发，波短",
+        "深潮：需更多交替，波远"
+      ],
+      "synergy": "人形剑势→寒息→进身送剑",
+      "status": "机制设计候选；使用触发招式动作，无独立完成动作"
+    },
+    {
+      "id": "xiaobailong.ScaleEcho",
+      "actor": "xiaobailong",
+      "clip": null,
+      "name": "龙鳞回响",
+      "kind": "passive",
+      "role": "成长被动",
+      "target": "自身 / 条件目标",
+      "trigger": "龙鳞成功抵消一次有效冲击",
+      "effect": "下一次反击附轻微破势，强化承接后出剑。",
+      "limit": "反射 / 护盾破裂不能彼此触发无穷连锁。",
+      "branches": [
+        "护鳞：反击给薄盾，破势弱",
+        "逆鳞：破势强，护盾少"
+      ],
+      "synergy": "龙鳞护佑、回澜折剑",
+      "status": "机制设计候选；使用触发招式动作，无独立完成动作"
+    },
+    {
+      "id": "xiaobailong.FlowingFootwork",
+      "actor": "xiaobailong",
+      "clip": null,
+      "name": "流波借势",
+      "kind": "passive",
+      "role": "成长被动",
+      "target": "自身 / 条件目标",
+      "trigger": "在友方水流区域完成实际位移",
+      "effect": "下次转向和收势更顺，鼓励沿队友铺出的水线移动。",
+      "limit": "站着抖动不触发；不增加无限移动速度。",
+      "branches": [
+        "行波：更宽容，收益低",
+        "借浪：需要完整位移，收益高"
+      ],
+      "synergy": "踏浪截阵、穿云疾剑",
+      "status": "机制设计候选；使用触发招式动作，无独立完成动作"
+    },
+    {
+      "id": "xiaobailong.FrostEcho",
+      "actor": "xiaobailong",
+      "clip": null,
+      "name": "寒潮余韵",
+      "kind": "passive",
+      "role": "成长被动",
+      "target": "自身 / 条件目标",
+      "trigger": "寒息击中已湿的敌人",
+      "effect": "积累一次有限寒意，下一剑提高破势。",
+      "limit": "寒意封顶且有控制递减，不无限冻结首领。",
+      "branches": [
+        "薄霜：更多目标，破势弱",
+        "凝寒：单个精英，积累慢且破势强"
+      ],
+      "synergy": "沙僧水流→寒息→游龙挑锋",
+      "status": "机制设计候选；使用触发招式动作，无独立完成动作"
+    },
+    {
+      "id": "combo.VajraBreak",
+      "actor": null,
+      "actors": [
+        "tangseng",
+        "wukong"
+      ],
+      "clip": null,
+      "name": "金刚破阵",
+      "kind": "combo",
+      "role": "队伍连携",
+      "target": "条件区域 / 触发目标",
+      "trigger": "清音打断后悟空棍招命中同一目标",
+      "effect": "消费一次打断标记，棍风沿该目标打开小扇形缺口。",
+      "limit": "一次标记仅触发一次，首领只增加破势。",
+      "branches": [
+        "破阵：扇形更宽，单体弱",
+        "破妄：只打精英，范围小"
+      ],
+      "synergy": "参与者维持自主站位；不瞬移叠在主控身上",
+      "sequence": [
+        "tangseng.BellChime",
+        "wukong.StaffThrust"
+      ],
+      "status": "旧三维样板已有同名连携；本皮影机制扩展仍为候选，未接入"
+    },
+    {
+      "id": "combo.PilgrimHeart",
+      "actor": null,
+      "actors": [
+        "tangseng",
+        "wukong",
+        "xiaobailong"
+      ],
+      "clip": null,
+      "name": "西行同心",
+      "kind": "combo",
+      "role": "队伍连携",
+      "target": "条件区域 / 触发目标",
+      "trigger": "一人实际承接危险后，另一人有效护持 / 治疗，第三人命中",
+      "effect": "给参与者一轮有限护持与一次追击机会，形成救援节奏。",
+      "limit": "不能由分身、溢出盾或自身转伤递归触发；不要求三人挤在同一点。",
+      "branches": [
+        "同行：覆盖较广，每人收益少",
+        "同心：靠近救援者收益高"
+      ],
+      "synergy": "参与者维持自主站位；不瞬移叠在主控身上",
+      "sequence": [
+        "tangseng.RobeWard",
+        "xiaobailong.ScaleWard",
+        "wukong.StaffSweep"
+      ],
+      "status": "旧三维样板已有同名连携；本皮影机制扩展仍为候选，未接入"
+    },
+    {
+      "id": "combo.DragonStaff",
+      "actor": null,
+      "actors": [
+        "wukong",
+        "xiaobailong"
+      ],
+      "clip": null,
+      "name": "龙腾棍势",
+      "kind": "combo",
+      "role": "队伍连携",
+      "target": "条件区域 / 触发目标",
+      "trigger": "剑波给敌人挂湿后棍击命中",
+      "effect": "沿棍势带出短水浪，把附近轻敌向外分开。",
+      "limit": "一层湿记仅消费一次；水浪不能再触发自身连携。",
+      "branches": [
+        "腾浪：更宽更浅",
+        "龙锋：更窄更远"
+      ],
+      "synergy": "参与者维持自主站位；不瞬移叠在主控身上",
+      "sequence": [
+        "xiaobailong.WaveStep",
+        "wukong.StaffSweep"
+      ],
+      "status": "旧三维样板已有同名连携；本皮影机制扩展仍为候选，未接入"
+    },
+    {
+      "id": "combo.ClearVow",
+      "actor": null,
+      "actors": [
+        "tangseng",
+        "xiaobailong"
+      ],
+      "clip": null,
+      "name": "清流护愿",
+      "kind": "combo",
+      "role": "队伍连携",
+      "target": "条件区域 / 触发目标",
+      "trigger": "雨幕内完成一次有效治疗或净化",
+      "effect": "雨幕给受益者一次短抗冲击，帮助离开危险地带。",
+      "limit": "满血空放无收益，抗冲击同源不叠。",
+      "branches": [
+        "润愿：多人薄护",
+        "清愿：净化一人更稳"
+      ],
+      "synergy": "参与者维持自主站位；不瞬移叠在主控身上",
+      "sequence": [
+        "xiaobailong.RainBlessing",
+        "tangseng.PureSeal"
+      ],
+      "status": "旧三维样板已有同名连携；本皮影机制扩展仍为候选，未接入"
+    },
+    {
+      "id": "combo.RakeCloud",
+      "actor": null,
+      "actors": [
+        "bajie",
+        "wukong"
+      ],
+      "clip": null,
+      "name": "耙引棍落",
+      "kind": "combo",
+      "role": "队伍连携",
+      "target": "条件区域 / 触发目标",
+      "trigger": "倒耙确实拉动轻敌，悟空落棍命中牵引终点",
+      "effect": "落棍压住聚拢小群，重点增加破势而非无限吸怪。",
+      "limit": "必须有真实牵引结果；首领用减速标记代替位移。",
+      "branches": [
+        "拢阵：覆盖多，单体弱",
+        "破首：覆盖少，精英破势强"
+      ],
+      "synergy": "参与者维持自主站位；不瞬移叠在主控身上",
+      "sequence": [
+        "bajie.RakeHook",
+        "wukong.CrashingCloud"
+      ],
+      "status": "新连携设计候选；组合演员动作，不单列已完成动画"
+    },
+    {
+      "id": "combo.SpadeCloud",
+      "actor": null,
+      "actors": [
+        "shaseng",
+        "wukong"
+      ],
+      "clip": null,
+      "name": "铲托云击",
+      "kind": "combo",
+      "role": "队伍连携",
+      "target": "条件区域 / 触发目标",
+      "trigger": "挑铲制造轻敌失衡后悟空直捣 / 落棍命中",
+      "effect": "把一次失衡接成向前短冲击，保留可见击打方向。",
+      "limit": "不延长无限浮空；同目标短时间不能重复起连携。",
+      "branches": [
+        "托云：轻敌范围宽",
+        "断势：重敌破势高"
+      ],
+      "synergy": "参与者维持自主站位；不瞬移叠在主控身上",
+      "sequence": [
+        "shaseng.SpadeLift",
+        "wukong.StaffThrust"
+      ],
+      "status": "新连携设计候选；组合演员动作，不单列已完成动画"
+    },
+    {
+      "id": "combo.CalmBelly",
+      "actor": null,
+      "actors": [
+        "tangseng",
+        "bajie"
+      ],
+      "clip": null,
+      "name": "净心护腹",
+      "kind": "combo",
+      "role": "队伍连携",
+      "target": "条件区域 / 触发目标",
+      "trigger": "唐僧净化八戒后，八戒正面成功架耙",
+      "effect": "把被清除的异常转化为一次面前推拒。",
+      "limit": "必须先有可净化异常与有效格挡；无异常不刷盾。",
+      "branches": [
+        "安身：八戒短护持强",
+        "护众：附近队友获得微弱护持"
+      ],
+      "synergy": "参与者维持自主站位；不瞬移叠在主控身上",
+      "sequence": [
+        "tangseng.PureSeal",
+        "bajie.BellyBrace"
+      ],
+      "status": "新连携设计候选；组合演员动作，不单列已完成动画"
+    },
+    {
+      "id": "combo.DharmaSpade",
+      "actor": null,
+      "actors": [
+        "tangseng",
+        "shaseng"
+      ],
+      "clip": null,
+      "name": "禅铲护法",
+      "kind": "combo",
+      "role": "队伍连携",
+      "target": "条件区域 / 触发目标",
+      "trigger": "沙僧在经幡区截停朝向唐僧的敌人",
+      "effect": "沿护持区前沿推一道短清流，给后排留撤退线。",
+      "limit": "前沿方向明确，不能变成永久封闭墙。",
+      "branches": [
+        "护线：前沿宽，推力弱",
+        "截锋：前沿窄，破势高"
+      ],
+      "synergy": "参与者维持自主站位；不瞬移叠在主控身上",
+      "sequence": [
+        "tangseng.Mandala",
+        "shaseng.RiverTread"
+      ],
+      "status": "新连携设计候选；组合演员动作，不单列已完成动画"
+    },
+    {
+      "id": "combo.MudCurrent",
+      "actor": null,
+      "actors": [
+        "bajie",
+        "shaseng"
+      ],
+      "clip": null,
+      "name": "泥涧回旋",
+      "kind": "combo",
+      "role": "队伍连携",
+      "target": "条件区域 / 触发目标",
+      "trigger": "流沙与泥带局部重叠且敌人进入",
+      "effect": "形成移动慢、边缘清楚的软控制区，轻敌缓慢聚到边缘。",
+      "limit": "减速取受限组合值，不无限相乘；区域始终可穿行。",
+      "branches": [
+        "宽涧：区域大，聚拢弱",
+        "沉涧：区域小，维持短而强"
+      ],
+      "synergy": "参与者维持自主站位；不瞬移叠在主控身上",
+      "sequence": [
+        "bajie.MudWall",
+        "shaseng.SandVortex"
+      ],
+      "status": "新连携设计候选；组合演员动作，不单列已完成动画"
+    },
+    {
+      "id": "combo.RakeDragon",
+      "actor": null,
+      "actors": [
+        "bajie",
+        "xiaobailong"
+      ],
+      "clip": null,
+      "name": "耙锁游龙",
+      "kind": "combo",
+      "role": "队伍连携",
+      "target": "条件区域 / 触发目标",
+      "trigger": "绊足命中后小白龙直线送剑穿过",
+      "effect": "消耗绊足印记，剑波穿透一名额外后排敌人。",
+      "limit": "每个印记只消费一次；不自动转向全屏追击。",
+      "branches": [
+        "锁阵：多敌少伤",
+        "锁首：单精英强化破势"
+      ],
+      "synergy": "参与者维持自主站位；不瞬移叠在主控身上",
+      "sequence": [
+        "bajie.RakeTrip",
+        "xiaobailong.WaveStep"
+      ],
+      "status": "新连携设计候选；组合演员动作，不单列已完成动画"
+    },
+    {
+      "id": "combo.TwinStreams",
+      "actor": null,
+      "actors": [
+        "shaseng",
+        "xiaobailong"
+      ],
+      "clip": null,
+      "name": "双流合璧",
+      "kind": "combo",
+      "role": "队伍连携",
+      "target": "条件区域 / 触发目标",
+      "trigger": "退步水流中的目标受到寒息",
+      "effect": "水线边缘短暂凝寒，让队伍转身反打。",
+      "limit": "首领不完全冻结；同源控制递减，不封死地图。",
+      "branches": [
+        "霜河：更长更窄",
+        "回澜：更短更宽"
+      ],
+      "synergy": "参与者维持自主站位；不瞬移叠在主控身上",
+      "sequence": [
+        "shaseng.RiverDrag",
+        "xiaobailong.FrostBreath"
+      ],
+      "status": "新连携设计候选；组合演员动作，不单列已完成动画"
+    },
+    {
+      "id": "combo.FiveElements",
+      "actor": null,
+      "actors": [
+        "tangseng",
+        "wukong",
+        "bajie",
+        "shaseng",
+        "xiaobailong"
+      ],
+      "clip": null,
+      "name": "五行合围",
+      "kind": "combo",
+      "role": "队伍连携",
+      "target": "条件区域 / 触发目标",
+      "trigger": "五人分别在有效战斗中贡献护持、标记、牵引、截击与剑波",
+      "effect": "积攒一次全队合围资格；下次首领破势时各自从当前位置补一招。",
+      "limit": "长门槛、独立连携冷却；不拉人瞬移，不全屏清怪；每人不必挤在首领脚边。",
+      "branches": [
+        "护行：合围后给团队有限护持",
+        "破阵：集中首领破势，放弃护持"
+      ],
+      "synergy": "参与者维持自主站位；不瞬移叠在主控身上",
+      "sequence": [
+        "tangseng.RobeWard",
+        "wukong.FlameGaze",
+        "bajie.RakeHook",
+        "shaseng.SpadeThrust",
+        "xiaobailong.WaveStep"
+      ],
+      "status": "新连携设计候选；组合演员动作，不单列已完成动画"
+    },
+    {
+      "id": "wukong.StaffGuard",
+      "actor": "wukong",
+      "clip": "StaffGuard",
+      "name": "架棍听风",
+      "kind": "active",
+      "role": "条件格挡",
+      "target": "正面短格挡窗",
+      "trigger": "装备后释放，满足作用条件才触发收益",
+      "effect": "横棍承接一次可格挡攻击，成功后才送出棍风。",
+      "limit": "空架不反击；侧后与不可格挡攻击绕过。",
+      "branches": [
+        "宽窗低破势",
+        "窄窗高破势"
+      ],
+      "synergy": "筋斗闪身后转回正面",
+      "new_in": 3,
+      "motion": {
+        "clip": "StaffGuard",
+        "upper_clip": "StaffGuard_Upper",
+        "duration": 1.35,
+        "windup_end": 0.432,
+        "release_end": 0.945,
+        "events": [
+          {
+            "time": 0.432,
+            "type": "guard_open",
+            "socket": "weapon"
+          },
+          {
+            "time": 0.918,
+            "type": "guard_close",
+            "socket": "weapon"
+          }
+        ],
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "wukong/thumbnails/StaffGuard.png"
+      },
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 5,
+      "ultimate": false
+    },
+    {
+      "id": "wukong.ReturningStaff",
+      "actor": "wukong",
+      "clip": "ReturningStaff",
+      "name": "飞棍回环",
+      "kind": "active",
+      "role": "离手双程",
+      "target": "前方短距飞棍",
+      "trigger": "装备后释放，满足作用条件才触发收益",
+      "effect": "掷棍、飞出、回旋、接棍对应独立事件，去程与回程各可命中一次。",
+      "limit": "离手期间不能使用其他实体棍招；弹道受地形阻挡。",
+      "branches": [
+        "远抛慢回",
+        "近抛快回"
+      ],
+      "synergy": "定身后把两段留给同一目标",
+      "new_in": 3,
+      "motion": {
+        "clip": "ReturningStaff",
+        "upper_clip": "ReturningStaff_Upper",
+        "duration": 1.75,
+        "windup_end": 0.595,
+        "release_end": 1.4,
+        "events": [
+          {
+            "time": 0.595,
+            "type": "staff_out",
+            "socket": "weapon"
+          },
+          {
+            "time": 0.98,
+            "type": "staff_return",
+            "socket": "weapon"
+          },
+          {
+            "time": 1.365,
+            "type": "staff_catch",
+            "socket": "weapon"
+          }
+        ],
+        "weapon_flight": {
+          "start": 0.34,
+          "turn": 0.56,
+          "catch": 0.78,
+          "distance_height_ratio": 0.85,
+          "lift_height_ratio": 0.42
+        },
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "wukong/thumbnails/ReturningStaff.png"
+      },
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 5,
+      "ultimate": false
+    },
+    {
+      "id": "wukong.MonkeyCommand",
+      "actor": "wukong",
+      "clip": "MonkeyCommand",
+      "name": "猴王号令",
+      "kind": "active",
+      "role": "队伍集火",
+      "target": "一名可见威胁",
+      "trigger": "装备后释放，满足作用条件才触发收益",
+      "effect": "举棍点将，队友首次有效跟进各获得一次收益。",
+      "limit": "不强拉队友、不保证首领换目标；每人一次。",
+      "branches": [
+        "集火破势",
+        "援护退敌"
+      ],
+      "synergy": "火眼照妖后组织队友跟进",
+      "new_in": 3,
+      "motion": {
+        "clip": "MonkeyCommand",
+        "upper_clip": "MonkeyCommand_Upper",
+        "duration": 1.25,
+        "windup_end": 0.625,
+        "release_end": 0.7875,
+        "events": [
+          {
+            "time": 0.625,
+            "type": "command",
+            "socket": "hand.back"
+          }
+        ],
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "wukong/thumbnails/MonkeyCommand.png"
+      },
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 5,
+      "ultimate": false
+    },
+    {
+      "id": "wukong.StoneShell",
+      "actor": "wukong",
+      "clip": "StoneShell",
+      "name": "石身卸势",
+      "kind": "active",
+      "role": "站定卸力",
+      "target": "自身与近处碎石",
+      "trigger": "装备后释放，满足作用条件才触发收益",
+      "effect": "沉身持架减伤，收势释放部分实际承受的冲击；移动不中断控制。",
+      "limit": "储存与回击封顶，无长时间无敌；闪避会取消持架与蓄震。",
+      "branches": [
+        "稳身强护、少回击",
+        "蓄震回击、少减伤"
+      ],
+      "synergy": "架棍失败后的保底承接",
+      "new_in": 3,
+      "motion": {
+        "clip": "StoneShell",
+        "upper_clip": "StoneShell_Upper",
+        "duration": 1.7,
+        "windup_end": 0.527,
+        "release_end": 1.394,
+        "events": [
+          {
+            "time": 0.527,
+            "type": "stone_open",
+            "socket": "actor"
+          },
+          {
+            "time": 1.326,
+            "type": "stone_release",
+            "socket": "actor"
+          }
+        ],
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "wukong/thumbnails/StoneShell.png"
+      },
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 5,
+      "ultimate": false
+    },
+    {
+      "id": "tangseng.ScriptureRibbon",
+      "actor": "tangseng",
+      "clip": "ScriptureRibbon",
+      "name": "经卷缚灵",
+      "kind": "active",
+      "role": "弹道束缚",
+      "target": "首名可控敌人",
+      "trigger": "装备后释放，满足作用条件才触发收益",
+      "effect": "展卷送带，先触到的普通敌人短缚并打断本次蓄势。",
+      "limit": "可躲且受遮挡；首领只破势，硬控递减。",
+      "branches": [
+        "长卷远距短缚",
+        "短卷近距强缚"
+      ],
+      "synergy": "为窄线送剑争取一次时机",
+      "new_in": 3,
+      "motion": {
+        "clip": "ScriptureRibbon",
+        "upper_clip": "ScriptureRibbon_Upper",
+        "duration": 1.35,
+        "windup_end": 0.648,
+        "release_end": 0.8235,
+        "events": [
+          {
+            "time": 0.648,
+            "type": "ribbon",
+            "socket": "hand.back"
+          }
+        ],
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "tangseng/thumbnails/ScriptureRibbon.png"
+      },
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 5,
+      "ultimate": false
+    },
+    {
+      "id": "tangseng.PilgrimLantern",
+      "actor": "tangseng",
+      "clip": "PilgrimLantern",
+      "name": "心灯护行",
+      "kind": "active",
+      "role": "有限护持",
+      "target": "附近可见地面",
+      "trigger": "装备后释放，满足作用条件才触发收益",
+      "effect": "托灯安放，队友首次接近时获得护持。",
+      "limit": "灯有耐久与总次数；不是常驻安全区或导航路线。",
+      "branches": [
+        "广照多人薄护",
+        "守灯少人厚护"
+      ],
+      "synergy": "撤线前设置一个护持支点",
+      "new_in": 3,
+      "motion": {
+        "clip": "PilgrimLantern",
+        "upper_clip": "PilgrimLantern_Upper",
+        "duration": 1.55,
+        "windup_end": 0.961,
+        "release_end": 1.1625,
+        "events": [
+          {
+            "time": 0.682,
+            "type": "lantern_lift",
+            "socket": "hand.back"
+          },
+          {
+            "time": 0.961,
+            "type": "lantern_place",
+            "socket": "hand.back"
+          }
+        ],
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "tangseng/thumbnails/PilgrimLantern.png"
+      },
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 5,
+      "ultimate": false
+    },
+    {
+      "id": "tangseng.KarmicReflection",
+      "actor": "tangseng",
+      "clip": "KarmicReflection",
+      "name": "因果回响",
+      "kind": "active",
+      "role": "承伤后回响",
+      "target": "一名敌人",
+      "trigger": "装备后释放，满足作用条件才触发收益",
+      "effect": "结印标记；该敌下一次造成有效伤害后承受一次封顶回响。",
+      "limit": "无真实伤害则不触发；反射与代偿不递归。",
+      "branches": [
+        "慈护降低下一击",
+        "惩戒增强回响"
+      ],
+      "synergy": "配站定护持，但不能靠互相反伤刷伤害",
+      "new_in": 3,
+      "motion": {
+        "clip": "KarmicReflection",
+        "upper_clip": "KarmicReflection_Upper",
+        "duration": 1.3,
+        "windup_end": 0.637,
+        "release_end": 0.806,
+        "events": [
+          {
+            "time": 0.637,
+            "type": "karma_mark",
+            "socket": "hand.back"
+          }
+        ],
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "tangseng/thumbnails/KarmicReflection.png"
+      },
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 5,
+      "ultimate": false
+    },
+    {
+      "id": "tangseng.PurifyingVerse",
+      "actor": "tangseng",
+      "clip": "PurifyingVerse",
+      "name": "大乘梵音",
+      "kind": "active",
+      "role": "救场 · 三段梵音",
+      "target": "近处队友与敌人",
+      "trigger": "四槽装备后主动按键 / 图标释放；伙伴按条件施法",
+      "effect": "展掌诵经，三次莲音推开近敌、治疗附近存活队友并清除邪秽，末段补一层护持。",
+      "limit": "不复活倒地者；施法仍可移动，闪避会取消后续莲音，已消耗冷却保留。",
+      "branches": [
+        "长唱清得更宽",
+        "短唱清得更快"
+      ],
+      "synergy": "给治疗与撤步留出短暂出口",
+      "new_in": 3,
+      "motion": {
+        "clip": "PurifyingVerse",
+        "upper_clip": "PurifyingVerse_Upper",
+        "duration": 2.4,
+        "windup_end": 0.768,
+        "release_end": 1.992,
+        "events": [
+          {
+            "time": 0.768,
+            "type": "purify_start",
+            "socket": "hand.back"
+          },
+          {
+            "time": 1.248,
+            "type": "purify_pulse",
+            "socket": "hand.back"
+          },
+          {
+            "time": 1.776,
+            "type": "purify_end",
+            "socket": "hand.back"
+          }
+        ],
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "tangseng/thumbnails/PurifyingVerse.png"
+      },
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 24.0,
+      "ultimate": true
+    },
+    {
+      "id": "bajie.RakeVault",
+      "actor": "bajie",
+      "clip": "RakeVault",
+      "name": "腾耙破阵",
+      "kind": "active",
+      "role": "支耙压阵",
+      "target": "前方可见近敌",
+      "trigger": "装备后释放，满足作用条件才触发收益",
+      "effect": "支耙压腿后送耙下压，震开前方近敌；腿部继续响应移动。",
+      "limit": "不自动跳跃、冲刺或越墙；换位由玩家独立闪避。",
+      "branches": [
+        "轻跃远移少推拒",
+        "重落近移强推拒"
+      ],
+      "synergy": "从包围边缘换位后回耙",
+      "new_in": 3,
+      "motion": {
+        "clip": "RakeVault",
+        "upper_clip": "RakeVault_Upper",
+        "duration": 1.5,
+        "windup_end": 1.08,
+        "release_end": 1.275,
+        "events": [
+          {
+            "time": 0.27,
+            "type": "vault_takeoff",
+            "socket": "actor"
+          },
+          {
+            "time": 1.08,
+            "type": "vault_land",
+            "socket": "actor"
+          }
+        ],
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "bajie/thumbnails/RakeVault.png"
+      },
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 5,
+      "ultimate": false
+    },
+    {
+      "id": "bajie.GroundFurrow",
+      "actor": "bajie",
+      "clip": "GroundFurrow",
+      "name": "犁地断锋",
+      "kind": "active",
+      "role": "低位土浪",
+      "target": "前方贴地窄带",
+      "trigger": "装备后释放，满足作用条件才触发收益",
+      "effect": "双手压耙犁出两段土浪，削弱地面冲锋与低位地浪。",
+      "limit": "高位弹道绕过；不制造实体墙。",
+      "branches": [
+        "长犁窄线",
+        "短犁宽线"
+      ],
+      "synergy": "沙僧护高位、八戒截低位",
+      "new_in": 3,
+      "motion": {
+        "clip": "GroundFurrow",
+        "upper_clip": "GroundFurrow_Upper",
+        "duration": 1.65,
+        "windup_end": 0.7095,
+        "release_end": 1.122,
+        "events": [
+          {
+            "time": 0.7095,
+            "type": "furrow",
+            "socket": "weapon.tip"
+          },
+          {
+            "time": 1.0395,
+            "type": "furrow_follow",
+            "socket": "weapon.tip"
+          }
+        ],
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "bajie/thumbnails/GroundFurrow.png"
+      },
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 5,
+      "ultimate": false
+    },
+    {
+      "id": "bajie.BellyRebound",
+      "actor": "bajie",
+      "clip": "BellyRebound",
+      "name": "鼓腹反震",
+      "kind": "active",
+      "role": "近击蓄震",
+      "target": "正前方短扇形",
+      "trigger": "装备后释放，满足作用条件才触发收益",
+      "effect": "张臂鼓腹承接有效近击，再释放一次正面反震。",
+      "limit": "空放只弱推拒；蓄力封顶，不储存反射伤害。",
+      "branches": [
+        "厚腹多减伤少反震",
+        "震腹少减伤强推拒"
+      ],
+      "synergy": "用护持稳住承击，别把侧后当无敌",
+      "new_in": 3,
+      "motion": {
+        "clip": "BellyRebound",
+        "upper_clip": "BellyRebound_Upper",
+        "duration": 1.65,
+        "windup_end": 0.495,
+        "release_end": 1.3035,
+        "events": [
+          {
+            "time": 0.495,
+            "type": "belly_open",
+            "socket": "actor"
+          },
+          {
+            "time": 1.2375,
+            "type": "belly_release",
+            "socket": "actor"
+          }
+        ],
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "bajie/thumbnails/BellyRebound.png"
+      },
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 5,
+      "ultimate": false
+    },
+    {
+      "id": "bajie.RakePin",
+      "actor": "bajie",
+      "clip": "RakePin",
+      "name": "天蓬九重耙",
+      "kind": "active",
+      "role": "压制 · 三叠九齿",
+      "target": "面前逐渐扩展的扇区",
+      "trigger": "四槽装备后主动按键 / 图标释放；伙伴按条件施法",
+      "effect": "举耙蓄势，连续三段九齿耙浪向前压进；末段土浪更重，削减架势并推开近敌。",
+      "limit": "三段有空隙，不形成常驻伤害墙；首领只短暂破势，闪避取消后续段落。",
+      "branches": [
+        "压首单体破势",
+        "压阵兼顾轻敌"
+      ],
+      "synergy": "给悟空落棍留短窗口",
+      "new_in": 3,
+      "motion": {
+        "clip": "RakePin",
+        "upper_clip": "RakePin_Upper",
+        "duration": 2.1,
+        "windup_end": 0.714,
+        "release_end": 1.764,
+        "events": [
+          {
+            "time": 0.714,
+            "type": "pin_start",
+            "socket": "weapon.tip"
+          },
+          {
+            "time": 1.134,
+            "type": "pin_pulse",
+            "socket": "weapon.tip"
+          },
+          {
+            "time": 1.575,
+            "type": "pin_end",
+            "socket": "weapon.tip"
+          }
+        ],
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "bajie/thumbnails/RakePin.png"
+      },
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 22.0,
+      "ultimate": true
+    },
+    {
+      "id": "shaseng.WaterSplit",
+      "actor": "shaseng",
+      "clip": "WaterSplit",
+      "name": "流沙覆海",
+      "kind": "active",
+      "role": "控场 · 前浪与回潮",
+      "target": "前方宽水扇与后侧追敌",
+      "trigger": "四槽装备后主动按键 / 图标释放；伙伴按条件施法",
+      "effect": "铲开三叠前浪，再回身挑起回潮；命中敌人留下湿痕，短水带降低追击速度。",
+      "limit": "水带不推动队友，不封住道路；前后两段分别结算，闪避会取消未发回潮。",
+      "branches": [
+        "前锋正面更强",
+        "回护后方更宽"
+      ],
+      "synergy": "前线清开后回护唐僧",
+      "new_in": 3,
+      "motion": {
+        "clip": "WaterSplit",
+        "upper_clip": "WaterSplit_Upper",
+        "duration": 2.1,
+        "windup_end": 0.756,
+        "release_end": 1.554,
+        "events": [
+          {
+            "time": 0.756,
+            "type": "front_wave",
+            "socket": "weapon.tip"
+          },
+          {
+            "time": 1.365,
+            "type": "rear_wave",
+            "socket": "weapon.tip"
+          }
+        ],
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "shaseng/thumbnails/WaterSplit.png"
+      },
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 22.0,
+      "ultimate": true
+    },
+    {
+      "id": "shaseng.SandAnchor",
+      "actor": "shaseng",
+      "clip": "SandAnchor",
+      "name": "沉沙锚印",
+      "kind": "active",
+      "role": "有限拦截",
+      "target": "一片可通行地面",
+      "trigger": "装备后释放，满足作用条件才触发收益",
+      "effect": "竖铲点地放锚印，首次冲过的敌人失衡。",
+      "limit": "每敌一次、总次数有限；重敌只破势，地面始终通行。",
+      "branches": [
+        "宽锚低破势",
+        "窄锚高破势"
+      ],
+      "synergy": "撤退前截住一轮追击",
+      "new_in": 3,
+      "motion": {
+        "clip": "SandAnchor",
+        "upper_clip": "SandAnchor_Upper",
+        "duration": 1.45,
+        "windup_end": 0.812,
+        "release_end": 1.0005,
+        "events": [
+          {
+            "time": 0.812,
+            "type": "sand_anchor",
+            "socket": "actor"
+          }
+        ],
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "shaseng/thumbnails/SandAnchor.png"
+      },
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 5,
+      "ultimate": false
+    },
+    {
+      "id": "shaseng.BeadOrbit",
+      "actor": "shaseng",
+      "clip": "BeadOrbit",
+      "name": "念珠护阵",
+      "kind": "active",
+      "role": "限次护弹",
+      "target": "一名受威胁队友",
+      "trigger": "装备后释放，满足作用条件才触发收益",
+      "effect": "取珠展臂，用有限念珠分次削弱普通弹道。",
+      "limit": "总次数封顶；不吞首领全部射线。",
+      "branches": [
+        "分珠多人少次数",
+        "凝珠单人多次数"
+      ],
+      "synergy": "保护站定诵经或纳气",
+      "new_in": 3,
+      "motion": {
+        "clip": "BeadOrbit",
+        "upper_clip": "BeadOrbit_Upper",
+        "duration": 1.5,
+        "windup_end": 0.765,
+        "release_end": 0.96,
+        "events": [
+          {
+            "time": 0.57,
+            "type": "bead_lift",
+            "socket": "hand.back"
+          },
+          {
+            "time": 0.765,
+            "type": "bead_guard",
+            "socket": "hand.back"
+          }
+        ],
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "shaseng/thumbnails/BeadOrbit.png"
+      },
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 5,
+      "ultimate": false
+    },
+    {
+      "id": "shaseng.Undertow",
+      "actor": "shaseng",
+      "clip": "Undertow",
+      "name": "潜流换线",
+      "kind": "active",
+      "role": "换位援护",
+      "target": "一条短斜向水带",
+      "trigger": "装备后释放，满足作用条件才触发收益",
+      "effect": "斜铲引流，队友沿带移动获得抗冲击，敌人横穿略减速。",
+      "limit": "不强制位移或传送队友；仅一条，短时消散。",
+      "branches": [
+        "援流更长护持低",
+        "守流更短护持高"
+      ],
+      "synergy": "同心愿契下自主换线",
+      "new_in": 3,
+      "motion": {
+        "clip": "Undertow",
+        "upper_clip": "Undertow_Upper",
+        "duration": 1.45,
+        "windup_end": 0.6815,
+        "release_end": 0.87,
+        "events": [
+          {
+            "time": 0.6815,
+            "type": "undertow",
+            "socket": "weapon.tip"
+          }
+        ],
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "shaseng/thumbnails/Undertow.png"
+      },
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 5,
+      "ultimate": false
+    },
+    {
+      "id": "xiaobailong.TwinCrescent",
+      "actor": "xiaobailong",
+      "clip": "TwinCrescent",
+      "name": "双月回锋",
+      "kind": "active",
+      "role": "两段剑波",
+      "target": "两道交叉曲月",
+      "trigger": "装备后释放，满足作用条件才触发收益",
+      "effect": "斜劈后折锋上挑，送出两道有空隙的曲月。",
+      "limit": "两段方向和时刻可辨；不会全程追踪。",
+      "branches": [
+        "交月更宽单段弱",
+        "凝月更窄破势强"
+      ],
+      "synergy": "定身或绊足后交锋",
+      "new_in": 3,
+      "motion": {
+        "clip": "TwinCrescent",
+        "upper_clip": "TwinCrescent_Upper",
+        "duration": 1.35,
+        "windup_end": 0.4725,
+        "release_end": 0.972,
+        "events": [
+          {
+            "time": 0.4725,
+            "type": "moon_first",
+            "socket": "weapon.tip"
+          },
+          {
+            "time": 0.8775,
+            "type": "moon_second",
+            "socket": "weapon.tip"
+          }
+        ],
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "xiaobailong/thumbnails/TwinCrescent.png"
+      },
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 5,
+      "ultimate": false
+    },
+    {
+      "id": "xiaobailong.MistVeil",
+      "actor": "xiaobailong",
+      "clip": "MistVeil",
+      "name": "雾隐游身",
+      "kind": "active",
+      "role": "折步解锁",
+      "target": "自身周围短雾",
+      "trigger": "装备后释放，满足作用条件才触发收益",
+      "effect": "收锋扬袖，在短雾中打断普通敌人的重新锁定；换位由玩家移动或闪避。",
+      "limit": "无自动退步；既有弹道仍危险，不保证骗过首领。",
+      "branches": [
+        "轻雾更远更短",
+        "凝雾更近更稳"
+      ],
+      "synergy": "退到队友水线后重新送剑",
+      "new_in": 3,
+      "motion": {
+        "clip": "MistVeil",
+        "upper_clip": "MistVeil_Upper",
+        "duration": 1.2,
+        "windup_end": 0.516,
+        "release_end": 0.672,
+        "events": [
+          {
+            "time": 0.516,
+            "type": "mist",
+            "socket": "hand.back"
+          }
+        ],
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "xiaobailong/thumbnails/MistVeil.png"
+      },
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 5,
+      "ultimate": false
+    },
+    {
+      "id": "xiaobailong.TidePrison",
+      "actor": "xiaobailong",
+      "clip": "TidePrison",
+      "name": "水牢截影",
+      "kind": "active",
+      "role": "单体截击",
+      "target": "一名轻敌",
+      "trigger": "装备后释放，满足作用条件才触发收益",
+      "effect": "合掌束流，短困并打断该敌本次连招。",
+      "limit": "控制递减；首领只破势，不无限水牢。",
+      "branches": [
+        "深牢强缚短距",
+        "散流弱缚兼顾邻敌"
+      ],
+      "synergy": "沙僧锚印后错峰控制",
+      "new_in": 3,
+      "motion": {
+        "clip": "TidePrison",
+        "upper_clip": "TidePrison_Upper",
+        "duration": 1.5,
+        "windup_end": 0.78,
+        "release_end": 0.975,
+        "events": [
+          {
+            "time": 0.78,
+            "type": "tide_prison",
+            "socket": "hand.back"
+          }
+        ],
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "xiaobailong/thumbnails/TidePrison.png"
+      },
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 5,
+      "ultimate": false
+    },
+    {
+      "id": "xiaobailong.PearlPulse",
+      "actor": "xiaobailong",
+      "clip": "PearlPulse",
+      "name": "白龙破浪",
+      "kind": "active",
+      "role": "贯穿 · 龙形剑潮",
+      "target": "面前一条长线",
+      "trigger": "四槽装备后主动按键 / 图标释放；伙伴按条件施法",
+      "effect": "拢潮托珠后送剑，白龙虚影沿剑潮贯穿近敌；最多消耗三道附近友方水痕增强威力。",
+      "limit": "受地形阻挡，贯穿目标数封顶；不自动冲刺，无水痕仍能释放基础龙潮。",
+      "branches": [
+        "聚珠少痕强单体",
+        "散潮多痕宽波"
+      ],
+      "synergy": "沙僧潜流或自身剑潮后消费",
+      "new_in": 3,
+      "motion": {
+        "clip": "PearlPulse",
+        "upper_clip": "PearlPulse_Upper",
+        "duration": 1.9,
+        "windup_end": 0.684,
+        "release_end": 1.349,
+        "events": [
+          {
+            "time": 0.684,
+            "type": "pearl_gather",
+            "socket": "hand.back"
+          },
+          {
+            "time": 1.178,
+            "type": "pearl_release",
+            "socket": "weapon.tip"
+          }
+        ],
+        "mode": "站定全身 / 移动上身，玩家独立控制腿部；空格主动闪避可取消未释放事件",
+        "thumbnail": "xiaobailong/thumbnails/PearlPulse.png"
+      },
+      "status": "Blender / GLB 动作已制作，已接入五人地图演武初版；正式培养、战斗平衡与最终美术待验收",
+      "control_note": "普通技能不自动位移、起跳或锁住移动。空格 / 触屏闪避键独立触发，已花费的技能冷却不返还。",
+      "rehearsal_cooldown": 20.0,
+      "ultimate": true
+    }
+  ],
+  "defaults": {
+    "tangseng": [
+      "tangseng.RobeWard",
+      "tangseng.HealingVow",
+      "tangseng.PureSeal",
+      "tangseng.PurifyingVerse"
+    ],
+    "wukong": [
+      "wukong.StaffSweep",
+      "wukong.HairClone",
+      "wukong.FreezeSeal",
+      "wukong.CrashingCloud"
+    ],
+    "bajie": [
+      "bajie.RakeSweep",
+      "bajie.RakeHook",
+      "bajie.RakeSlam",
+      "bajie.RakePin"
+    ],
+    "shaseng": [
+      "shaseng.SpadeThrust",
+      "shaseng.PrayerBeads",
+      "shaseng.RiverWard",
+      "shaseng.WaterSplit"
+    ],
+    "xiaobailong": [
+      "xiaobailong.WaveStep",
+      "xiaobailong.DragonDash",
+      "xiaobailong.FrostBreath",
+      "xiaobailong.PearlPulse"
+    ]
+  },
+  "storage_key": "cfgcn:xiyou:shadow-loadouts:v1"
+}

@@ -1,0 +1,120 @@
+{
+  "origin": "original-builtin-imagegen",
+  "source": "apps/xiyou/art/source/skill-painting-v1.png",
+  "source_sha256": "cad416de29ecca2817b2c766068a403d1de53024f493be5cd7360043daae4b08",
+  "prompt": "apps/xiyou/art/skill-painting.json",
+  "assets": [
+    {
+      "name": "sutra",
+      "bytes": 24564,
+      "width": 192,
+      "height": 192,
+      "sha256": "bf4a5d205c437a3b945792b631d1921d2a4ecfe6a7caeb72d72e02c4b5b70b44"
+    },
+    {
+      "name": "kasaya",
+      "bytes": 21898,
+      "width": 192,
+      "height": 192,
+      "sha256": "6cced5181f4da55a37e650b5bc96e2574d11d3772a0a7660b139e549be28a076"
+    },
+    {
+      "name": "lotus",
+      "bytes": 23946,
+      "width": 192,
+      "height": 192,
+      "sha256": "9d9dc8623e6e154bb47f07bfa5814a7b7c06fafaf371692e0c79f0b55e8ecf6c"
+    },
+    {
+      "name": "lamp",
+      "bytes": 25038,
+      "width": 192,
+      "height": 192,
+      "sha256": "19797baa538a24539caf193f038e706893bcc0249f44992a976a51317c1d24a4"
+    },
+    {
+      "name": "staff",
+      "bytes": 31888,
+      "width": 192,
+      "height": 192,
+      "sha256": "5d7ad22fb37b8ae112364cb4e8a762d72b10820dd61f384b55d43cb7edfb8aed"
+    },
+    {
+      "name": "binding",
+      "bytes": 27214,
+      "width": 192,
+      "height": 192,
+      "sha256": "8f312a41cca8b72d47806b3dfb5dacdbe159b91879ace4f009c5f1d2afd24645"
+    },
+    {
+      "name": "clones",
+      "bytes": 27562,
+      "width": 192,
+      "height": 192,
+      "sha256": "c5486b2cd699ccbfa7908c3cd48a7b34bfbf7efa10ac5a40ebf4847198ca45ba"
+    },
+    {
+      "name": "eye",
+      "bytes": 21934,
+      "width": 192,
+      "height": 192,
+      "sha256": "6ce9080f424339f7f53ba4bcdfeebbc17c41f8d4709f892dc7a4cdb269c9872b"
+    },
+    {
+      "name": "hooves",
+      "bytes": 31150,
+      "width": 192,
+      "height": 192,
+      "sha256": "f2b5871f3fefbe6f5c9d68fd8b26767c0bf764e014643973201addcf287a00fc"
+    },
+    {
+      "name": "surge",
+      "bytes": 28676,
+      "width": 192,
+      "height": 192,
+      "sha256": "b49e477f2dc6a1fedc87cb98ba2e1fe6e2bcae7af431ff258e9e927f755b309d"
+    },
+    {
+      "name": "scales",
+      "bytes": 24238,
+      "width": 192,
+      "height": 192,
+      "sha256": "5cfc5026dcc55e3a4b45403f32a0fdc8caa932bd1267add310e7a060cb06403d"
+    },
+    {
+      "name": "spring",
+      "bytes": 25130,
+      "width": 192,
+      "height": 192,
+      "sha256": "106b4307e0f1e734dec856656850eeab20c5f0fac7fec408a50dfa7da1b20b94"
+    },
+    {
+      "name": "sutra-staff",
+      "bytes": 30090,
+      "width": 192,
+      "height": 192,
+      "sha256": "7019c298b421acd233292e5b9b7f311ae3d76f49d532101e230188ba6292751c"
+    },
+    {
+      "name": "three-companions",
+      "bytes": 28650,
+      "width": 192,
+      "height": 192,
+      "sha256": "d8f77927c4dcd2a6a3d56bbf6a1499e6cd33f1d1f6201f3687dbb3f25ba57ac8"
+    },
+    {
+      "name": "staff-tide",
+      "bytes": 32698,
+      "width": 192,
+      "height": 192,
+      "sha256": "4329bf3ad8f18e1c94a78c4e684b343c34aa1ce2ee5989e1302c2ee5acc40a9d"
+    },
+    {
+      "name": "lotus-spring",
+      "bytes": 26398,
+      "width": 192,
+      "height": 192,
+      "sha256": "6d097d32a03cfeced18cc1259d2cbfb17e382a2891448908cca9b197e1fc6c4b"
+    }
+  ]
+}

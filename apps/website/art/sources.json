@@ -1,0 +1,160 @@
+{
+  "hanzhong": {
+    "source": "apps/website/art/source/raw/hanzhong-studio-v31.glb",
+    "source_sha256": "bd13528974b9b3a025122e63ff1189096fe0775a92456647724345927b356fd7",
+    "studio_project": "526390e3-daba-4c30-a125-6f57a467bcea",
+    "width": 18,
+    "triangle_budget": 10000,
+    "byte_budget": 700000,
+    "texture_max": 768
+  },
+  "changan": {
+    "source": "apps/website/art/source/raw/changan-studio-v31.glb",
+    "source_sha256": "0fc0ab8e536ca9b9e37a631075459ffa63e1920e64ad6d865d838907bdbab59b",
+    "studio_project": "f52b6e5e-6dc2-493d-883a-334df4d5e975",
+    "width": 25,
+    "triangle_budget": 14000,
+    "byte_budget": 1000000,
+    "texture_max": 1024,
+    "rotation": 90
+  },
+  "liangshan": {
+    "source": "apps/website/art/source/raw/liangshan-studio-v31.glb",
+    "source_sha256": "93a9ed2efb41cc61d743f2996a6fbbde32638c5097408ee656b4fca9778270d2",
+    "studio_project": "4d271267-507d-4fc2-9c8d-6a6bf0baf3ac",
+    "width": 22,
+    "triangle_budget": 10000,
+    "byte_budget": 700000,
+    "texture_max": 768
+  },
+  "jinling": {
+    "source": "apps/website/art/source/raw/jinling-studio-v31.glb",
+    "source_sha256": "f9966b0e57e34bc62c3f1a82e9a8bc5aa7296a2d8cfa425ab5d6bd31ccac4f3b",
+    "studio_project": "6b36c734-2c19-44d9-8278-3a65a690dddc",
+    "width": 24,
+    "triangle_budget": 12000,
+    "byte_budget": 900000,
+    "texture_max": 1024
+  },
+  "village": {
+    "source": "apps/website/art/source/raw/village-studio-v31.glb",
+    "source_sha256": "09a85fffc1ea5c6eab1b7ff8a087128e746ed274bb8790e40950c9484707c168",
+    "studio_project": "c1197061-13d8-4b1f-ae6b-5caaec529fc7",
+    "width": 5,
+    "triangle_budget": 5000,
+    "byte_budget": 650000,
+    "texture_max": 768
+  },
+  "pine": {
+    "source": "apps/xiyou/art/source/raw/pine-rock-studio-v31-retopo.glb",
+    "source_sha256": "6571e32e2e98dd94d0ec8eac46b3b5a46bba57197f3b3a23e068a877a2f5c740",
+    "studio_project": "30cd4649-52ef-4130-b1eb-f80a2c61615b",
+    "width": 3,
+    "triangle_budget": 1500,
+    "byte_budget": 240000,
+    "texture_max": 512,
+    "usage": "shared existing Tripo pine-rock; website distant scenery LOD"
+  },
+  "ridge": {
+    "source": "apps/website/art/source/raw/ridge-studio-v31.glb",
+    "source_sha256": "ae178839a2588bccdc895d13fc2076ad61eb5fee3bcf23baec39ed27c728d27f",
+    "studio_project": "c78c57db-ee3f-4e5d-ad8e-ff6f43da09a9",
+    "width": 28,
+    "triangle_budget": 5000,
+    "byte_budget": 700000,
+    "texture_max": 768,
+    "skirt_compression": {
+      "height_fraction": 0.04,
+      "ratio": 0.08
+    },
+    "usage": "continuous ground-conforming world scenery; not a geographic source"
+  },
+  "woodland": {
+    "source": "apps/website/art/source/raw/woodland-studio-v31.glb",
+    "source_sha256": "5d9b5ffc62af5446c5a8604e9a2b3222ba303438498787d5d3d9a40a15819934",
+    "studio_project": "4d5e9a98-0e52-4350-8c66-ad8a1b621870",
+    "width": 28,
+    "triangle_budget": 24000,
+    "byte_budget": 1800000,
+    "texture_max": 768,
+    "skirt_compression": {
+      "height_fraction": 0.04,
+      "ratio": 0.08
+    },
+    "usage": "continuous ground-conforming world scenery; not a geographic source"
+  },
+  "farmland": {
+    "source": "apps/website/art/source/raw/farmland-studio-v31.glb",
+    "source_sha256": "292b2e0d383cde2a5ca3b88a0f59469ab2d64c5232a4d17f775062afcddfb419",
+    "studio_project": "ed76f177-9ae0-429c-aaf8-0cde6ee5cdf5",
+    "width": 26,
+    "triangle_budget": 12000,
+    "byte_budget": 1000000,
+    "texture_max": 768,
+    "skirt_compression": {
+      "height_fraction": 0.24,
+      "ratio": 0.08
+    },
+    "usage": "continuous ground-conforming world scenery; not a geographic source"
+  },
+  "riverbank": {
+    "source": "apps/website/art/source/raw/riverbank-studio-v31.glb",
+    "source_sha256": "d89514eb8a3cb086035f1a56085a871e5fd1f0ee4e0b4908f9be8ff8fa5f973e",
+    "studio_project": "42ff52bc-d6fa-4557-8d3c-afd9b8d0b62c",
+    "width": 24,
+    "triangle_budget": 16000,
+    "byte_budget": 1300000,
+    "texture_max": 768,
+    "skirt_compression": {
+      "height_fraction": 0.06,
+      "ratio": 0.15
+    },
+    "usage": "continuous ground-conforming river shore scenery; not a geographic source"
+  },
+  "marsh": {
+    "source": "apps/website/art/source/raw/marsh-studio-v31.glb",
+    "source_sha256": "8cd54f8cfb6c27bf4c19017068cc867a41810fdb5427ef0d64153c45a9378ef9",
+    "studio_project": "8b915347-1446-41fb-8d64-5abe7452860c",
+    "width": 26,
+    "triangle_budget": 5000,
+    "byte_budget": 700000,
+    "texture_max": 768,
+    "skirt_compression": {
+      "height_fraction": 0.03,
+      "ratio": 0.15
+    },
+    "usage": "Liangshan literary wetland scenery, not a surveyed ancient lake"
+  },
+  "jiangnan": {
+    "source": "apps/website/art/source/raw/jiangnan-studio-v31.glb",
+    "source_sha256": "ab4ee7419495a628c3190a2bbd732a271e693ad8b96c9d0886083960dee2d9b9",
+    "studio_project": "03143cd0-b852-4ed1-ae87-9bbcf4f0d6d6",
+    "width": 26,
+    "triangle_budget": 6000,
+    "byte_budget": 700000,
+    "texture_max": 768,
+    "skirt_compression": {
+      "height_fraction": 0.1,
+      "ratio": 0.1
+    },
+    "usage": "Jinling literary bamboo and garden landscape; not a reconstructed Daguanyuan site"
+  },
+  "canopy": {
+    "source": "apps/xiyou/art/source/raw/pine-tree-studio-v31-source.glb",
+    "source_sha256": "a5a504d34c95c7ad0f7e28d915a62d249d9fdc7fef13bea571e7f2e43ef51d66",
+    "studio_project": "87c9fabd-3ed8-4916-a29d-9d8107a6ce1e",
+    "triangle_budget": 1300,
+    "byte_budget": 300000,
+    "texture_max": 512,
+    "usage": "Shared Studio tree silhouette; atlas countryside connecting groves, field hedges and riverbanks. Botanical pine needles not claimed."
+  },
+  "shrub": {
+    "source": "apps/xiyou/art/source/raw/pine-tree-studio-v31-source.glb",
+    "source_sha256": "a5a504d34c95c7ad0f7e28d915a62d249d9fdc7fef13bea571e7f2e43ef51d66",
+    "studio_project": "87c9fabd-3ed8-4916-a29d-9d8107a6ce1e",
+    "triangle_budget": 500,
+    "byte_budget": 180000,
+    "texture_max": 512,
+    "usage": "Shared Studio tree silhouette; atlas countryside connecting groves, field hedges and riverbanks. Botanical pine needles not claimed."
+  }
+}

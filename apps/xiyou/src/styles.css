@@ -1,0 +1,1875 @@
+.xiyou-page {
+  --xy-paper: var(--paper);
+  --xy-ink: var(--ink);
+  --xy-gold: var(--gold);
+  color: var(--xy-ink);
+  padding: 0 24px 24px;
+  background: var(--paper-shade);
+}
+.xiyou-topline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  max-width: 1680px;
+  margin: auto;
+  min-height: 50px;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+}
+.xiyou-topline a,
+.xiyou-topline button {
+  min-height: var(--control-size);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: inherit;
+  text-decoration: none;
+}
+.xiyou-topline button {
+  border: 0;
+  background: none;
+  cursor: pointer;
+  padding: 10px 0;
+}
+.xiyou-stage {
+  position: relative;
+  max-width: 1680px;
+  height: min(820px, calc(100svh - 160px));
+  min-height: 540px;
+  margin: auto;
+  overflow: hidden;
+  border: 1px solid color-mix(in srgb, var(--muted) 31.4%, transparent);
+  background: var(--scene-mist);
+  isolation: isolate;
+  box-shadow: 0 16px 44px color-mix(in srgb, var(--ink) 11%, transparent);
+}
+.xiyou-stage iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.xiyou-vignette {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  box-shadow: inset 0 0 110px color-mix(in srgb, var(--ink) 14.1%, transparent);
+  z-index: 1;
+}
+[data-phase='menu'] .xiyou-vignette {
+  background: linear-gradient(
+    90deg,
+    color-mix(in srgb, var(--paper-raised) 96.1%, transparent),
+    color-mix(in srgb, var(--paper-raised) 86.3%, transparent) 25%,
+    color-mix(in srgb, var(--paper-raised) 25.1%, transparent) 55%,
+    transparent 80%
+  );
+}
+.xiyou-entry {
+  position: absolute;
+  top: 12%;
+  left: 6%;
+  width: min(370px, 42%);
+  z-index: 2;
+}
+.xiyou-kicker {
+  margin: 0 0 14px;
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  color: var(--gold-ink);
+}
+.xiyou-entry h1 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: clamp(40px, 4.7vw, 72px);
+  line-height: 1.2;
+  letter-spacing: 0.12em;
+  text-wrap: balance;
+}
+[data-locale='en'] .xiyou-entry h1 {
+  font-size: clamp(38px, 4vw, 62px);
+  letter-spacing: -0.025em;
+}
+.xiyou-rule {
+  width: 54px;
+  height: 2px;
+  background: var(--gold);
+  margin: 26px 0;
+}
+.xiyou-invitation {
+  font-family: var(--font-display);
+  font-size: 19px;
+  line-height: 1.8;
+}
+.xiyou-description {
+  color: var(--ink-secondary);
+  line-height: 1.9;
+  font-size: 14px;
+  margin: 14px 0 28px;
+}
+.xiyou-primary,
+.xiyou-secondary {
+  min-height: 48px;
+  padding: 12px 22px;
+  border: 1px solid var(--jade);
+  border-radius: var(--series-radius);
+  background: var(--jade);
+  color: var(--on-jade);
+  cursor: pointer;
+  font: inherit;
+  font-size: 14px;
+  letter-spacing: 0.06em;
+}
+.xiyou-primary:hover {
+  background: var(--jade-hover);
+}
+.xiyou-primary:disabled {
+  cursor: wait;
+  opacity: 0.55;
+}
+.xiyou-secondary {
+  background: transparent;
+  color: var(--jade);
+  border-color: var(--line-ink);
+}
+.xiyou-entry-links {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 22px;
+}
+.xiyou-entry-links button {
+  border: 0;
+  padding: 6px 0;
+  background: none;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  font-size: 13px;
+}
+.xiyou-controls-hint {
+  font-size: 11px;
+  color: var(--muted);
+  line-height: 1.8;
+  margin-top: 34px;
+  max-width: 310px;
+}
+.xiyou-loading {
+  position: absolute;
+  bottom: 26px;
+  left: 6%;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  z-index: 3;
+  font-size: 12px;
+  background: color-mix(in srgb, var(--paper-raised) 91.8%, transparent);
+  padding: 14px 20px;
+  max-width: calc(100% - 48px);
+}
+.xiyou-loading p {
+  margin: 5px 0 8px;
+  color: var(--muted);
+  font-size: 11px;
+}
+.xiyou-loading progress {
+  width: min(220px, 44vw);
+  height: 3px;
+}
+.xiyou-seal {
+  display: grid;
+  place-items: center;
+  width: 37px;
+  height: 43px;
+  color: var(--gold-ink);
+  font-family: var(--font-display);
+  font-size: 24px;
+  border: 1px solid currentColor;
+}
+.xiyou-page progress {
+  appearance: none;
+  background: var(--line);
+  accent-color: var(--gold);
+  border: 0;
+}
+.xiyou-page progress::-webkit-progress-bar {
+  background: var(--line);
+}
+.xiyou-page progress::-webkit-progress-value {
+  background: var(--jade);
+}
+.xiyou-page progress::-moz-progress-bar {
+  background: var(--jade);
+}
+.xiyou-error {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+  text-align: center;
+  background: color-mix(in srgb, var(--paper-raised) 94.9%, transparent);
+  z-index: 5;
+}
+.xiyou-error p {
+  max-width: 380px;
+  line-height: 1.9;
+  margin: 12px 0 25px;
+}
+.xiyou-hud {
+  position: absolute;
+  top: 22px;
+  left: 24px;
+  right: 24px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 18px;
+  z-index: 2;
+  pointer-events: none;
+}
+.xiyou-health {
+  width: 205px;
+  padding: 13px 16px;
+  background: transparent;
+}
+.xiyou-health span {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+.xiyou-health b {
+  font-size: 10px;
+  font-weight: 400;
+}
+.xiyou-health meter {
+  display: block;
+  width: 100%;
+  height: 10px;
+  margin: 3px 0 8px;
+}
+.xiyou-health meter:last-child {
+  margin-bottom: 0;
+}
+.xiyou-page meter::-webkit-meter-bar {
+  background: color-mix(in srgb, var(--jade-hover) 14.5%, transparent);
+  border: 0;
+  border-radius: 0;
+}
+.xiyou-page meter::-webkit-meter-optimum-value {
+  background: var(--gold);
+}
+.xiyou-page .xiyou-master::-webkit-meter-optimum-value {
+  background: var(--muted);
+}
+.xiyou-run-time {
+  background: transparent;
+  padding: 10px 22px;
+  text-align: center;
+  min-width: 150px;
+}
+.xiyou-run-time strong {
+  display: block;
+  font-size: 24px;
+  font-family: var(--font-display);
+  font-weight: 400;
+  line-height: 1.1;
+}
+.xiyou-run-time span {
+  display: block;
+  margin-top: 7px;
+  font-size: 11px;
+}
+.xiyou-pause {
+  pointer-events: auto;
+  padding: 12px 16px;
+  border: 0;
+  color: inherit;
+  font: inherit;
+  font-size: 12px;
+  cursor: pointer;
+}
+.xiyou-route {
+  position: absolute;
+  left: 24px;
+  top: 132px;
+  width: 205px;
+  z-index: 2;
+  padding: 0 16px;
+  background: transparent;
+}
+[data-party-size='3'] .xiyou-route {
+  top: 172px;
+}
+.xiyou-party-control {
+  position: absolute;
+  top: 92px;
+  right: 24px;
+  width: min(440px, 42%);
+  z-index: 2;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 7px;
+}
+.xiyou-party-control button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  padding: 10px 9px;
+  min-height: 58px;
+  font-size: 12px;
+  text-align: left;
+}
+.xiyou-party-control button:disabled {
+  cursor: default;
+}
+.xiyou-member-seal {
+  display: grid;
+  place-items: center;
+  flex: 0 0 25px;
+  height: 31px;
+  border: 1px solid var(--gold);
+  color: var(--gold-ink);
+  font-family: var(--font-display);
+  font-size: 18px;
+}
+.xiyou-party-control small {
+  display: block;
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 10px;
+  line-height: 1.4;
+}
+.xiyou-party-control p {
+  grid-column: 1 / -1;
+  margin: 0;
+  padding: 4px 8px;
+  color: var(--ink-secondary);
+  background: transparent;
+  font-size: 10px;
+  line-height: 1.6;
+}
+.xiyou-route span {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  padding: 6px 0;
+}
+.xiyou-route progress {
+  display: block;
+  width: 100%;
+  height: 3px;
+  margin: 0 0 10px;
+}
+.xiyou-boss {
+  position: absolute;
+  top: 105px;
+  left: 35%;
+  width: 30%;
+  z-index: 2;
+  text-align: center;
+  font-size: 12px;
+  color: var(--on-jade);
+  text-shadow: 0 1px 4px var(--ink);
+}
+.xiyou-boss meter {
+  width: 100%;
+  height: 12px;
+}
+.xiyou-bottom {
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+  right: 24px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 20px;
+  z-index: 2;
+  pointer-events: none;
+}
+.xiyou-spells {
+  display: flex;
+  gap: 12px;
+  pointer-events: auto;
+}
+.xiyou-spells button {
+  position: relative;
+  width: 124px;
+  padding: 12px 9px;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+}
+.xiyou-spell-seal {
+  width: 34px;
+  height: 34px;
+  border: 1px solid var(--gold);
+  display: grid;
+  place-items: center;
+  margin: 0 auto 8px;
+  font-family: var(--font-display);
+  font-size: 22px;
+  color: var(--gold-ink);
+}
+.xiyou-spells strong {
+  display: block;
+  font-size: 12px;
+  font-weight: 500;
+}
+.xiyou-spells small {
+  display: block;
+  font-size: 10px;
+  margin-top: 5px;
+  color: var(--muted);
+}
+.xiyou-spells button:disabled {
+  cursor: default;
+}
+.xiyou-spells button:disabled .xiyou-spell-seal {
+  opacity: 0.45;
+}
+.xiyou-wisdom {
+  margin: auto auto 0;
+  width: min(300px, 24vw);
+  font-size: 10px;
+  text-align: center;
+  background: transparent;
+  padding: 8px 14px;
+}
+.xiyou-wisdom progress {
+  display: block;
+  height: 4px;
+  width: 100%;
+  margin-top: 6px;
+}
+.xiyou-dialog {
+  width: min(680px, calc(100vw - 32px));
+  max-height: calc(100svh - 40px);
+  overflow: auto;
+  padding: 38px;
+  border: 1px solid var(--line-ink);
+  color: var(--xy-ink);
+  background: var(--xy-paper);
+  box-shadow: 0 22px 90px color-mix(in srgb, var(--ink) 33.3%, transparent);
+}
+.xiyou-dialog::backdrop {
+  background: color-mix(in srgb, var(--ink) 50.2%, transparent);
+  backdrop-filter: blur(4px);
+}
+.xiyou-dialog h2 {
+  font-family: var(--font-display);
+  font-size: 32px;
+  font-weight: 400;
+  margin: 0 0 18px;
+}
+.xiyou-dialog > p {
+  font-size: 13px;
+  line-height: 1.9;
+}
+.xiyou-dialog-close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  display: grid;
+  place-items: center;
+  background: none;
+  border: 0;
+  padding: 8px;
+  color: inherit;
+  cursor: pointer;
+}
+.xiyou-dialog-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  align-items: center;
+  margin-top: 28px;
+}
+.xiyou-dialog-actions a {
+  display: inline-flex;
+  min-height: var(--control-size);
+  align-items: center;
+  color: var(--ink-secondary);
+  font-size: 12px;
+  margin-left: 10px;
+}
+.xiyou-choices {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+  margin-top: 28px;
+}
+.xiyou-choices button {
+  padding: 24px 18px;
+  color: inherit;
+  text-align: left;
+  font: inherit;
+  background: var(--paper-shade);
+  border: 1px solid var(--scene-mist);
+  cursor: pointer;
+}
+.xiyou-choices button:hover {
+  border-color: var(--gold-ink);
+  background: var(--line);
+}
+.xiyou-talent-number {
+  color: var(--gold-ink);
+  font-size: 12px;
+  letter-spacing: 0.1em;
+}
+.xiyou-choices h3,
+.xiyou-talents h3 {
+  font-family: var(--font-display);
+  font-size: 19px;
+  font-weight: 500;
+  margin: 20px 0 10px;
+}
+.xiyou-choices p,
+.xiyou-talents p {
+  line-height: 1.8;
+  font-size: 12px;
+  color: var(--muted);
+}
+.xiyou-choices small {
+  display: block;
+  margin-top: 22px;
+  font-size: 11px;
+  color: var(--gold-ink);
+}
+.xiyou-talents {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 26px;
+}
+.xiyou-talents article {
+  border-top: 1px solid var(--scene-mist);
+  padding-top: 15px;
+}
+.xiyou-record-stats {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  padding: 22px 0;
+  border-top: 1px solid var(--scene-mist);
+  border-bottom: 1px solid var(--scene-mist);
+}
+.xiyou-record-stats span {
+  color: var(--muted);
+  font-size: 11px;
+}
+.xiyou-record-stats b {
+  display: block;
+  color: var(--ink);
+  font-family: var(--font-display);
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 8px;
+}
+.xiyou-records {
+  padding: 0;
+  list-style: none;
+  font-size: 11px;
+}
+.xiyou-records li {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 0;
+  border-bottom: 1px solid color-mix(in srgb, var(--scene-mist) 50.2%, transparent);
+}
+.xiyou-records strong {
+  font-weight: 500;
+}
+.xiyou-dialog .xiyou-muted {
+  color: var(--muted);
+  font-size: 11px;
+  margin: 24px 0 12px;
+}
+.xiyou-page :focus-visible {
+  outline: 2px solid var(--gold-ink);
+  outline-offset: 4px;
+}
+.xiyou-page[data-phase='menu'] .xiyou-stage {
+  min-height: 760px;
+}
+.xiyou-entry {
+  top: 6%;
+  width: min(440px, 48%);
+}
+.xiyou-entry-route {
+  list-style: none;
+  padding: 0;
+  margin: 22px 0;
+  display: grid;
+  gap: 0;
+  max-width: 340px;
+  border-top: 1px solid var(--line-ink);
+}
+.xiyou-entry-route li {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--line);
+  font-size: 13px;
+}
+.xiyou-entry-route span {
+  color: var(--gold-ink);
+  font-family: var(--font-latin);
+}
+.xiyou-entry-route [data-complete='true'] {
+  color: var(--jade);
+}
+.xiyou-entry-links {
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.xiyou-trial-link {
+  padding: 8px 0;
+  display: block;
+  color: var(--muted);
+  font-size: 11px;
+}
+.xiyou-checkpoint {
+  color: var(--jade);
+  font-size: 12px;
+}
+.xiyou-objective {
+  max-width: 230px;
+  font-size: 12px;
+  line-height: 1.8;
+  margin: 8px 0;
+  padding: 8px 10px;
+  background: transparent;
+  color: var(--ink);
+  border-left: 2px solid var(--gold);
+}
+.xiyou-rescue {
+  position: absolute;
+  left: 50%;
+  bottom: 155px;
+  transform: translateX(-50%);
+  padding: 15px 24px;
+  z-index: 3;
+  white-space: nowrap;
+}
+.xiyou-companions {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 16px;
+  margin: 24px 0;
+}
+.xiyou-companions > button,
+.xiyou-companions > article {
+  padding: 24px;
+  text-align: left;
+  border: 1px solid var(--line-ink);
+}
+.xiyou-companions h3,
+.xiyou-route-cards h3,
+.xiyou-party-catalogue > h3 {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: 20px;
+  margin: 14px 0 8px;
+}
+.xiyou-companions p,
+.xiyou-route-cards p {
+  font-size: 12px;
+  line-height: 1.8;
+  margin: 0;
+  color: var(--muted);
+}
+.xiyou-companions small {
+  display: block;
+  margin-top: 18px;
+  color: var(--gold-ink);
+}
+.xiyou-route-cards {
+  list-style: none;
+  padding: 0;
+  margin: 26px 0;
+}
+.xiyou-route-cards li {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-top: 1px solid var(--line-ink);
+  padding: 18px 0;
+}
+.xiyou-route-cards h3 {
+  margin-top: 0;
+}
+.xiyou-route-cards li > div {
+  flex: 1;
+}
+.xiyou-route-cards [data-complete='true'] > span {
+  color: var(--jade);
+}
+.xiyou-future {
+  color: var(--muted);
+}
+.xiyou-party-catalogue {
+  margin-top: 30px;
+}
+.xiyou-party-catalogue > h3 small {
+  display: block;
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.8;
+  margin-top: 8px;
+  color: var(--muted);
+}
+.xiyou-party-catalogue .xiyou-talents h3 {
+  margin-top: 0;
+}
+@media (max-width: 600px) {
+  .xiyou-entry {
+    width: calc(100% - 40px);
+  }
+  .xiyou-companions {
+    grid-template-columns: 1fr;
+  }
+  .xiyou-objective {
+    max-width: 190px;
+    font-size: 11px;
+  }
+}
+@media (max-width: 760px) {
+  .xiyou-page {
+    padding: 0 10px 16px;
+  }
+  .xiyou-topline {
+    font-size: 10px;
+    gap: 6px;
+    min-height: 44px;
+  }
+  .xiyou-topline > span {
+    display: none;
+  }
+  .xiyou-stage {
+    min-height: 640px;
+    height: calc(100svh - 145px);
+  }
+  [data-phase='menu'] .xiyou-vignette {
+    background: linear-gradient(
+      0deg,
+      color-mix(in srgb, var(--paper-shade) 97.3%, transparent),
+      color-mix(in srgb, var(--paper-shade) 90.2%, transparent) 35%,
+      color-mix(in srgb, var(--paper-shade) 12.5%, transparent) 80%
+    );
+  }
+  .xiyou-entry {
+    top: auto;
+    bottom: 40px;
+    left: 26px;
+    width: calc(100% - 52px);
+  }
+  .xiyou-entry h1 {
+    font-size: 45px;
+  }
+  .xiyou-entry .xiyou-rule {
+    margin: 18px 0;
+  }
+  .xiyou-invitation {
+    font-size: 17px;
+  }
+  .xiyou-description {
+    font-size: 13px;
+    max-width: 340px;
+    margin-bottom: 20px;
+  }
+  .xiyou-controls-hint {
+    display: none;
+  }
+  .xiyou-entry-links {
+    margin-top: 15px;
+  }
+  .xiyou-loading {
+    left: 18px;
+    right: 18px;
+    bottom: auto;
+    top: 24px;
+    max-width: none;
+  }
+  .xiyou-hud {
+    top: 12px;
+    left: 12px;
+    right: 12px;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  .xiyou-health {
+    width: 160px;
+    padding: 10px 12px;
+  }
+  .xiyou-health span {
+    font-size: 11px;
+  }
+  .xiyou-run-time {
+    order: 3;
+    min-width: 110px;
+    padding: 8px 12px;
+    margin-left: auto;
+  }
+  .xiyou-run-time strong {
+    font-size: 20px;
+  }
+  .xiyou-pause {
+    margin-left: auto;
+    padding: 11px 12px;
+    font-size: 11px;
+  }
+  .xiyou-route {
+    top: 114px;
+    left: 12px;
+    width: 160px;
+    padding: 0 12px;
+  }
+  .xiyou-boss {
+    top: 190px;
+    left: 20%;
+    width: 60%;
+  }
+  .xiyou-page[data-mode='journey'] .xiyou-boss {
+    top: 327px;
+  }
+  .xiyou-party-control {
+    top: 151px;
+    left: 12px;
+    right: 12px;
+    width: auto;
+    gap: 5px;
+  }
+  .xiyou-party-control button {
+    min-height: 55px;
+    padding: 7px 5px;
+    gap: 5px;
+    font-size: 10px;
+    overflow-wrap: anywhere;
+  }
+  .xiyou-party-control small {
+    font-size: 9px;
+  }
+  .xiyou-member-seal {
+    flex-basis: 20px;
+    height: 27px;
+    font-size: 16px;
+  }
+  .xiyou-page[data-mode='journey'] .xiyou-route {
+    top: 250px;
+    width: calc(100% - 24px);
+  }
+  .xiyou-page[data-mode='journey'] .xiyou-objective {
+    max-width: none;
+    margin: 4px 0 8px;
+    padding: 2px 8px;
+  }
+  .xiyou-bottom {
+    bottom: 16px;
+    left: 12px;
+    right: 12px;
+    gap: 12px;
+  }
+  .xiyou-spells {
+    gap: 7px;
+  }
+  .xiyou-spells button {
+    width: 78px;
+    padding: 9px 3px;
+  }
+  .xiyou-spells strong {
+    font-size: 10px;
+  }
+  .xiyou-spells small {
+    font-size: 9px;
+  }
+  .xiyou-wisdom {
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    left: 0;
+    bottom: 117px;
+  }
+  .xiyou-dialog {
+    padding: 28px 22px;
+  }
+  .xiyou-dialog h2 {
+    font-size: 26px;
+  }
+  .xiyou-choices {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-top: 18px;
+  }
+  .xiyou-choices button {
+    position: relative;
+    padding: 16px 18px 16px 42px;
+  }
+  .xiyou-choices h3 {
+    margin: 0 0 6px;
+  }
+  .xiyou-choices p {
+    margin: 0;
+  }
+  .xiyou-choices small {
+    margin-top: 6px;
+  }
+  .xiyou-choices .xiyou-talent-number {
+    position: absolute;
+    top: 18px;
+    left: 18px;
+  }
+  .xiyou-talents {
+    gap: 14px;
+  }
+  .xiyou-talents h3 {
+    font-size: 17px;
+    margin-top: 12px;
+  }
+  .xiyou-records li {
+    flex-wrap: wrap;
+    gap: 7px;
+  }
+  .xiyou-records span {
+    flex-basis: 100%;
+  }
+}
+@media (max-width: 360px) {
+  .xiyou-spells button {
+    width: 60px;
+  }
+  .xiyou-bottom {
+    gap: 8px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .xiyou-dialog::backdrop {
+    backdrop-filter: none;
+  }
+}
+[data-motion='reduced'] .xiyou-dialog::backdrop {
+  backdrop-filter: none;
+}
+
+/* The playable world occupies its own canvas; portal chrome returns on exit. */
+.app:has(.xiyou-page) > .site-header,
+.app:has(.xiyou-page) > .site-footer {
+  display: none;
+}
+.xiyou-page {
+  padding: 0;
+}
+.xiyou-topline {
+  min-height: 44px;
+  padding: 0 18px;
+  max-width: none;
+  gap: 12px;
+  font-size: 11px;
+}
+.xiyou-topline > span {
+  margin-right: auto;
+}
+.xiyou-topline select {
+  min-height: var(--control-size);
+  max-width: 112px;
+  color: var(--ink-secondary);
+  background: transparent;
+  border: 0;
+  font: inherit;
+}
+.xiyou-stage {
+  max-width: none;
+  height: calc(100svh - 44px);
+  min-height: 580px;
+  border: 0;
+  box-shadow: none;
+}
+.xiyou-health[hidden] {
+  display: none;
+}
+.xiyou-party-control {
+  top: 24px;
+  left: 24px;
+  right: auto;
+  width: 185px;
+  grid-template-columns: 1fr;
+  gap: 7px;
+}
+.xiyou-party-control button {
+  min-height: 62px;
+  gap: 10px;
+  padding: 5px 10px 5px 5px;
+}
+.xiyou-member-portrait {
+  display: block;
+  flex: 0 0 44px;
+  width: 44px;
+  height: 50px;
+  object-fit: contain;
+}
+.xiyou-party-control button:disabled .xiyou-member-portrait {
+  opacity: 0.35;
+}
+.xiyou-member-info {
+  min-width: 0;
+  flex: 1;
+}
+.xiyou-member-info > span {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  font-size: 11px;
+}
+.xiyou-member-info kbd {
+  font: inherit;
+  color: var(--gold-ink);
+}
+.xiyou-member-info meter {
+  display: block;
+  width: 100%;
+  height: 6px;
+  margin: 5px 0 2px;
+}
+.xiyou-party-control small {
+  margin-top: 2px;
+  font-size: 9px;
+}
+.xiyou-party-control .xiyou-control-description {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+}
+.xiyou-page[data-mode='journey'] .xiyou-route {
+  top: 24px;
+  left: 50%;
+  width: min(360px, 31%);
+  transform: translateX(-50%);
+  padding: 10px 14px 0;
+  background: transparent;
+}
+.xiyou-route > span {
+  font-family: var(--font-display);
+  font-size: 14px;
+}
+.xiyou-route > span b {
+  font-family: var(--font-latin);
+  color: var(--gold-ink);
+  font-weight: 400;
+  font-size: 11px;
+}
+.xiyou-page[data-mode='journey'] .xiyou-objective {
+  max-width: none;
+  margin: 8px 0 10px;
+  padding: 0;
+  font-size: 11px;
+  border: 0;
+  background: none;
+}
+.xiyou-page[data-mode='journey'] .xiyou-hud {
+  justify-content: flex-end;
+}
+.xiyou-run-time {
+  min-width: 120px;
+  padding: 8px 14px;
+  margin-left: auto;
+  margin-right: 54px;
+  background: transparent;
+}
+.xiyou-run-time strong {
+  font-size: 21px;
+}
+.xiyou-run-time span {
+  font-size: 10px;
+}
+.xiyou-pause {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  font-size: 20px;
+}
+.xiyou-boss {
+  top: 140px;
+}
+.xiyou-spells button {
+  width: 100px;
+  padding: 10px 8px;
+}
+.xiyou-spell-seal {
+  margin-bottom: 6px;
+}
+.xiyou-spells small {
+  font-size: 10px;
+}
+.xiyou-wisdom {
+  width: min(360px, 30vw);
+  padding: 8px 14px;
+  border-top: 1px solid var(--gold);
+}
+@media (max-width: 760px) {
+  .xiyou-topline {
+    padding: 0 10px;
+    gap: 8px;
+  }
+  .xiyou-topline > a {
+    margin-right: auto;
+  }
+  .xiyou-topline > button {
+    font-size: 10px;
+  }
+  .xiyou-stage {
+    height: calc(100svh - 44px);
+    min-height: 640px;
+  }
+  .xiyou-page[data-phase='menu'] .xiyou-stage {
+    min-height: 900px;
+  }
+  .xiyou-party-control {
+    top: 12px;
+    left: 12px;
+    right: 12px;
+    width: auto;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 5px;
+  }
+  .xiyou-party-control button {
+    min-height: 78px;
+    flex-direction: column;
+    gap: 0;
+    padding: 3px 5px 5px;
+  }
+  .xiyou-member-portrait {
+    width: 30px;
+    height: 34px;
+    flex: 0 0 34px;
+  }
+  .xiyou-member-info {
+    width: 100%;
+  }
+  .xiyou-member-info > span {
+    font-size: 10px;
+    line-height: 1.3;
+  }
+  .xiyou-member-info meter {
+    margin: 3px 0 0;
+    height: 5px;
+  }
+  .xiyou-member-info small {
+    font-size: 8px;
+  }
+  .xiyou-page[data-mode='journey'] .xiyou-run-time {
+    display: none;
+  }
+  .xiyou-page[data-mode='journey'] .xiyou-pause {
+    top: 96px;
+  }
+  .xiyou-page[data-mode='journey'] .xiyou-route {
+    top: 108px;
+    left: 12px;
+    width: calc(100% - 80px);
+    padding: 6px 10px 0;
+    transform: none;
+  }
+  .xiyou-route > span {
+    padding: 0 0 4px;
+    font-size: 12px;
+  }
+  .xiyou-page[data-mode='journey'] .xiyou-objective {
+    font-size: 10px;
+    line-height: 1.6;
+    margin: 5px 0 8px;
+  }
+  .xiyou-page[data-mode='journey'] .xiyou-boss {
+    top: 220px;
+    font-size: 10px;
+  }
+  .xiyou-wisdom {
+    width: 100%;
+  }
+  .xiyou-spells button {
+    width: 72px;
+    padding: 9px 4px;
+  }
+  .xiyou-spells small {
+    font-size: 9px;
+  }
+  .xiyou-spell-seal {
+    width: 28px;
+    height: 28px;
+    font-size: 19px;
+  }
+}
+.xiyou-skill-art {
+  width: 64px;
+  height: 64px;
+  flex: none;
+  color: var(--gold);
+  filter: drop-shadow(0 1px 1px var(--ink));
+}
+.xiyou-icon-wash {
+  fill: var(--jade);
+  stroke: var(--gold-ink);
+}
+.xiyou-icon-border {
+  stroke: var(--gold);
+  stroke-width: 0.8;
+  fill: none;
+}
+.xiyou-cooldown-mask {
+  fill: var(--ink);
+  opacity: 0.72;
+  stroke: none;
+}
+.xiyou-streaming {
+  position: absolute;
+  top: 260px;
+  right: 12px;
+  max-width: 210px;
+  padding: 10px;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  align-items: center;
+  background: transparent;
+  color: var(--ink);
+  font-size: 0.75rem;
+}
+.xiyou-streaming progress {
+  width: 80px;
+}
+.xiyou-save-warning {
+  position: absolute;
+  left: 12px;
+  top: 350px;
+  z-index: 4;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding: 6px 10px;
+  background: transparent;
+  color: var(--vermilion);
+  font-size: 0.75rem;
+}
+.xiyou-world-map {
+  position: absolute;
+  right: 22px;
+  top: 106px;
+  width: 210px;
+  pointer-events: none;
+  text-align: center;
+  color: var(--ink);
+  font-family: var(--font-display);
+}
+.xiyou-world-map svg {
+  width: 100%;
+  display: block;
+}
+.map-peaks {
+  fill: url(#xiyou-map-mineral);
+  stroke: var(--ink-secondary);
+  stroke-width: 0.7;
+  opacity: 0.85;
+}
+.map-ink-detail {
+  fill: none;
+  stroke: var(--ink-secondary);
+  stroke-width: 0.6;
+  opacity: 0.75;
+}
+.map-water-detail {
+  fill: none;
+  stroke: var(--paper-raised);
+  stroke-width: 0.8;
+  opacity: 0.8;
+}
+.map-stream {
+  fill: none;
+  stroke: var(--accent-shuihu);
+  stroke-width: 13;
+  opacity: 0.7;
+}
+.map-route {
+  fill: none;
+  stroke: var(--gold-ink);
+  stroke-width: 2;
+  stroke-dasharray: 4 3;
+}
+.map-camp {
+  fill: var(--paper-raised);
+  stroke: var(--gold-ink);
+}
+.map-camp-current {
+  fill: var(--gold);
+  stroke: var(--ink);
+}
+.map-player {
+  fill: var(--vermilion);
+  stroke: var(--paper-raised);
+  stroke-width: 2;
+}
+.map-event {
+  fill: none;
+  stroke: var(--vermilion);
+  stroke-width: 2;
+}
+.xiyou-links {
+  position: absolute;
+  left: 24px;
+  bottom: 158px;
+  width: 142px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+.xiyou-link-emblem {
+  position: relative;
+  width: 64px;
+}
+.xiyou-link-emblem small {
+  position: absolute;
+  right: 3px;
+  bottom: 0;
+  color: var(--paper-raised);
+  text-shadow: 0 1px var(--ink);
+}
+.xiyou-link-emblem[data-locked='true'] {
+  opacity: 0.3;
+  filter: grayscale(1);
+}
+.xiyou-link-emblem[data-active='true'] {
+  filter: drop-shadow(0 0 6px var(--gold));
+}
+.xiyou-links progress {
+  width: 132px;
+  height: 6px;
+  accent-color: var(--gold);
+}
+.xiyou-links progress,
+.xiyou-wisdom progress,
+.xiyou-route progress {
+  appearance: none;
+  border: 0;
+  border-radius: 0;
+  background: color-mix(in srgb, var(--paper-raised) 35%, transparent);
+  clip-path: polygon(0 35%, 3% 10%, 94% 0, 100% 30%, 98% 80%, 5% 100%, 0 65%);
+}
+.xiyou-links progress::-webkit-progress-bar,
+.xiyou-wisdom progress::-webkit-progress-bar,
+.xiyou-route progress::-webkit-progress-bar {
+  background: transparent;
+}
+.xiyou-links progress::-webkit-progress-value {
+  background: linear-gradient(90deg, var(--gold-ink), var(--gold), var(--paper-raised));
+}
+.xiyou-wisdom progress::-webkit-progress-value,
+.xiyou-route progress::-webkit-progress-value {
+  background: linear-gradient(90deg, var(--ink), var(--jade), var(--gold));
+}
+.xiyou-passive-arts {
+  display: flex;
+  gap: 4px;
+  align-self: end;
+}
+.xiyou-passive-arts > div {
+  position: relative;
+}
+.xiyou-passive-arts small {
+  position: absolute;
+  bottom: 4px;
+  right: 6px;
+  color: var(--paper-raised);
+  text-shadow: 0 1px var(--ink);
+}
+.xiyou-passive-arts .xiyou-skill-art {
+  width: 46px;
+  height: 46px;
+}
+.xiyou-spells .xiyou-skill-art {
+  grid-row: 1 / 3;
+  width: 58px;
+  height: 58px;
+}
+.xiyou-spells strong {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+}
+.xiyou-upgrade-portrait {
+  width: 108px;
+  height: 122px;
+  object-fit: contain;
+}
+.xiyou-companions .xiyou-upgrade-portrait {
+  margin-inline: auto;
+}
+.xiyou-choices .xiyou-skill-art {
+  width: 86px;
+  height: 86px;
+}
+.xiyou-party-catalogue .xiyou-skill-art {
+  float: left;
+  margin-inline-end: 12px;
+}
+.xiyou-touch-stick {
+  display: none;
+  position: absolute;
+  left: 0;
+  bottom: env(safe-area-inset-bottom, 0px);
+  width: 48%;
+  max-width: 320px;
+  height: 38%;
+  max-height: 250px;
+  z-index: 3;
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}
+.xiyou-touch-stick svg {
+  overflow: visible;
+  pointer-events: none;
+}
+.xiyou-stick-wash {
+  fill: var(--jade);
+  fill-opacity: 0.15;
+  stroke: var(--gold-ink);
+  stroke-opacity: 0.5;
+}
+.xiyou-stick-ring {
+  fill: none;
+  stroke: var(--gold);
+  stroke-opacity: 0.65;
+  stroke-dasharray: 3 5;
+}
+.xiyou-stick-thumb {
+  fill: var(--paper-raised);
+  fill-opacity: 0.65;
+  stroke: var(--gold-ink);
+  stroke-width: 2;
+}
+.xiyou-touch-stick[data-active='true'] .xiyou-stick-thumb {
+  fill: var(--jade);
+  fill-opacity: 0.9;
+  stroke: var(--gold);
+}
+@media (pointer: coarse), (max-width: 760px) {
+  .xiyou-button-caption,
+  .xiyou-controls-hint,
+  .xiyou-rescue kbd {
+    display: none;
+  }
+  .xiyou-topline .xiyou-bookmark {
+    width: 44px;
+    min-width: 44px;
+    justify-content: center;
+  }
+  .xiyou-page[data-mode='journey'] .xiyou-run-time {
+    display: none;
+  }
+  .xiyou-page .xiyou-stage,
+  .xiyou-page[data-phase='menu'] .xiyou-stage {
+    min-height: 0;
+    height: calc(100dvh - 44px);
+  }
+  .xiyou-entry {
+    top: auto;
+    bottom: 16px;
+    left: 16px;
+    width: calc(100% - 32px);
+    max-height: calc(100% - 32px);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
+  .xiyou-page[data-phase='menu'] .xiyou-entry h1 {
+    font-size: 34px;
+    line-height: 1.1;
+  }
+  .xiyou-entry .xiyou-description,
+  .xiyou-entry-route {
+    display: none;
+  }
+  .xiyou-entry .xiyou-rule {
+    margin: 12px 0;
+  }
+  .xiyou-entry .xiyou-invitation {
+    font-size: 14px;
+    line-height: 1.4;
+    margin: 12px 0;
+  }
+  .xiyou-touch-stick {
+    display: block;
+  }
+  .xiyou-party-control {
+    top: 8px;
+    left: max(10px, env(safe-area-inset-left, 0px));
+    right: auto;
+    width: auto;
+    display: flex;
+    gap: 6px;
+  }
+  .xiyou-party-control button {
+    width: 54px;
+    min-height: 58px;
+    padding: 3px 5px;
+    flex-direction: column;
+    gap: 0;
+    touch-action: manipulation;
+  }
+  .xiyou-party-control .xiyou-member-portrait {
+    width: 34px;
+    height: 40px;
+    flex: 0 0 40px;
+  }
+  .xiyou-member-info > span,
+  .xiyou-member-info small {
+    display: none;
+  }
+  .xiyou-member-info {
+    width: 100%;
+  }
+  .xiyou-member-info meter {
+    height: 4px;
+    margin-top: 3px;
+  }
+  .xiyou-page[data-mode='journey'] .xiyou-pause,
+  .xiyou-pause {
+    top: 8px;
+    right: max(10px, env(safe-area-inset-right, 0px));
+  }
+  .xiyou-page[data-mode='journey'] .xiyou-route {
+    top: 78px;
+    left: 10px;
+    width: min(250px, calc(100% - 20px));
+    padding: 5px 9px;
+    transform: none;
+  }
+  .xiyou-page[data-mode='journey'] .xiyou-objective {
+    margin: 4px 0 0;
+    font-size: 10px;
+    line-height: 1.35;
+  }
+  .xiyou-world-map {
+    top: 144px;
+    right: 8px;
+    width: 100px;
+    font-size: 9px;
+  }
+  .xiyou-page[data-mode='journey'] .xiyou-boss {
+    top: 145px;
+    width: min(220px, calc(100% - 124px));
+    left: 10px;
+    transform: none;
+  }
+  .xiyou-bottom {
+    bottom: calc(30px + env(safe-area-inset-bottom, 0px));
+    left: max(12px, env(safe-area-inset-left, 0px));
+    right: max(12px, env(safe-area-inset-right, 0px));
+    justify-content: flex-end;
+  }
+  .xiyou-spells {
+    gap: 8px;
+    align-items: flex-end;
+  }
+  .xiyou-spells button {
+    width: 64px;
+    height: 64px;
+    min-height: 64px;
+    padding: 4px;
+    border-radius: var(--series-pill-radius);
+    touch-action: manipulation;
+    user-select: none;
+  }
+  .xiyou-spells button:last-child {
+    width: 56px;
+    min-height: 56px;
+    height: 56px;
+    margin-bottom: 18px;
+  }
+  .xiyou-spells .xiyou-skill-art {
+    width: 50px;
+    height: 50px;
+    margin: 0;
+  }
+  .xiyou-spells button:last-child .xiyou-skill-art {
+    width: 42px;
+    height: 42px;
+  }
+  .xiyou-spells small {
+    position: absolute;
+    inset: auto 0 0;
+    margin: 0;
+    color: var(--ink);
+    font-size: 10px;
+    text-align: center;
+  }
+  .xiyou-spells small[data-ready='true'] {
+    display: none;
+  }
+  .xiyou-wisdom {
+    left: 0;
+    bottom: calc(-22px - env(safe-area-inset-bottom, 0px));
+    width: 100%;
+    padding: 2px 4px;
+    background: transparent;
+    border: 0;
+  }
+  .xiyou-wisdom > span {
+    display: none;
+  }
+  .xiyou-wisdom progress {
+    margin: 0;
+    height: 5px;
+  }
+  .xiyou-passive-arts {
+    right: 2px;
+    bottom: 90px;
+  }
+  .xiyou-passive-arts .xiyou-skill-art {
+    width: 30px;
+    height: 30px;
+  }
+  .xiyou-links {
+    left: 12px;
+    bottom: 156px;
+    width: 86px;
+    gap: 0;
+  }
+  .xiyou-link-emblem,
+  .xiyou-link-emblem .xiyou-skill-art {
+    width: 40px;
+    height: 40px;
+  }
+  .xiyou-links progress {
+    width: 80px;
+  }
+  .xiyou-rescue {
+    bottom: calc(48px + env(safe-area-inset-bottom, 0px));
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+@media (pointer: coarse) and (orientation: landscape) {
+  .xiyou-entry {
+    width: min(360px, calc(52% - 32px));
+  }
+  .xiyou-entry .xiyou-kicker,
+  .xiyou-entry .xiyou-invitation {
+    display: none;
+  }
+  .xiyou-page[data-phase='menu'] .xiyou-entry h1 {
+    font-size: 28px;
+  }
+  .xiyou-page[data-mode='journey'] .xiyou-route {
+    top: 8px;
+    left: 50%;
+    width: min(260px, calc(100% - 430px));
+    transform: translateX(-50%);
+  }
+  .xiyou-world-map {
+    top: 64px;
+  }
+  .xiyou-page[data-mode='journey'] .xiyou-boss {
+    left: 50%;
+    top: 80px;
+    transform: translateX(-50%);
+  }
+  .xiyou-links {
+    bottom: 32px;
+    left: 36%;
+    width: 170px;
+  }
+  .xiyou-links progress {
+    width: 160px;
+  }
+  .xiyou-touch-stick {
+    height: 65%;
+  }
+}
+.xiyou-objective {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.xiyou-objective .xiyou-skill-art {
+  width: 28px;
+  height: 28px;
+}
+
+/* Battle information sits directly over the world instead of paper cards. */
+.xiyou-page .xiyou-party-control {
+  top: 18px;
+  left: 18px;
+  right: auto;
+  width: max-content;
+  display: flex;
+  gap: 10px;
+}
+.xiyou-party-control button {
+  width: 64px;
+  height: 64px;
+  min-height: 64px;
+  padding: 5px;
+  flex-direction: column;
+  gap: 0;
+}
+.xiyou-party-control .xiyou-member-portrait {
+  width: 48px;
+  height: 48px;
+  flex: 0 0 48px;
+  object-fit: cover;
+  object-position: 50% 20%;
+  border-radius: var(--series-pill-radius);
+}
+.xiyou-party-control .xiyou-member-info {
+  position: absolute;
+  bottom: -5px;
+  left: 8px;
+  right: 8px;
+  width: auto;
+}
+.xiyou-party-control .xiyou-member-info > span,
+.xiyou-party-control .xiyou-member-info small {
+  display: none;
+}
+.xiyou-party-control .xiyou-member-info meter {
+  height: 3px;
+  margin: 0;
+}
+.xiyou-page .xiyou-route {
+  padding: 0;
+  border: 0;
+  pointer-events: none;
+  text-shadow: 0 1px 3px var(--paper);
+}
+.xiyou-route > span {
+  justify-content: center;
+}
+.xiyou-route > span b {
+  display: none;
+}
+.xiyou-route progress {
+  width: 110px;
+  height: 2px;
+  margin: 2px auto 0;
+  opacity: 0.5;
+}
+.xiyou-page .xiyou-objective {
+  padding: 0;
+  border: 0;
+  transition: opacity var(--control-ease);
+}
+.xiyou-objective[data-visible='false'] {
+  opacity: 0;
+  visibility: hidden;
+}
+.xiyou-world-map > span {
+  display: none;
+}
+.xiyou-page .xiyou-wisdom {
+  border: 0;
+}
+.xiyou-run-time,
+.xiyou-health,
+.xiyou-streaming,
+.xiyou-save-warning {
+  text-shadow: 0 1px 3px var(--paper);
+}
+.xiyou-rescue {
+  width: 48px;
+  height: 48px;
+  padding: 0;
+}
+.xiyou-rescue .xiyou-button-caption,
+.xiyou-rescue kbd {
+  display: none;
+}
+.xiyou-spells button {
+  width: 78px;
+  height: 78px;
+  min-height: 78px;
+  padding: 5px;
+}
+.xiyou-spells .xiyou-skill-art {
+  width: 64px;
+  height: 64px;
+}
+.xiyou-spells small {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  text-align: center;
+  text-shadow: 0 1px 3px var(--paper);
+}
+.xiyou-spells small[data-ready='true'] {
+  display: none;
+}
+@media (pointer: coarse), (max-width: 760px) {
+  .xiyou-spells button {
+    width: 64px;
+    height: 64px;
+    min-height: 64px;
+    padding: 4px;
+  }
+  .xiyou-spells button:last-child {
+    width: 56px;
+    height: 56px;
+    min-height: 56px;
+  }
+  .xiyou-spells .xiyou-skill-art {
+    width: 50px;
+    height: 50px;
+  }
+  .xiyou-spells button:last-child .xiyou-skill-art {
+    width: 42px;
+    height: 42px;
+  }
+  .xiyou-page .xiyou-party-control {
+    top: 8px;
+    left: max(10px, env(safe-area-inset-left, 0px));
+    gap: 7px;
+  }
+  .xiyou-party-control button {
+    width: 54px;
+    height: 54px;
+    min-height: 54px;
+    padding: 4px;
+  }
+  .xiyou-party-control .xiyou-member-portrait {
+    width: 42px;
+    height: 42px;
+    flex: 0 0 42px;
+  }
+  .xiyou-party-control .xiyou-member-info {
+    left: 6px;
+    right: 6px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .xiyou-objective {
+    transition: none;
+  }
+}
+[data-motion='reduced'] .xiyou-objective {
+  transition: none;
+}

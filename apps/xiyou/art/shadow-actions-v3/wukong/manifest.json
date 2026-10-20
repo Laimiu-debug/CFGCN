@@ -1,0 +1,1294 @@
+{
+  "id": "wukong",
+  "name": "孙悟空",
+  "height": 1.74,
+  "source": "apps/xiyou/art/shadow-roster-v4/wukong/wukong.blend",
+  "source_sha256": "70e236eb7797b1315a9669fc88b329aefbe2cf6c607d210a3f28ff3c8a8b86fd",
+  "runtime": "wukong-actions.glb",
+  "runtime_bytes": 1419736,
+  "runtime_sha256": "725786d94550259f6f0cd0eb249f7747c4f2c8d1e5f22ef25eb9bff9b0cb37fa",
+  "editable": "wukong-actions.blend",
+  "clips": [
+    "Idle",
+    "Walk",
+    "StaffSweep",
+    "FreezeSeal",
+    "HairClone",
+    "StaffThrust",
+    "BackSweep",
+    "CrashingCloud",
+    "CloudFeint",
+    "FlameGaze",
+    "StaffGuard",
+    "ReturningStaff",
+    "MonkeyCommand",
+    "StoneShell",
+    "HitRecoil",
+    "DodgeBack",
+    "WalkLower",
+    "StaffSweep_Upper",
+    "FreezeSeal_Upper",
+    "HairClone_Upper",
+    "StaffThrust_Upper",
+    "BackSweep_Upper",
+    "FlameGaze_Upper",
+    "StaffGuard_Upper",
+    "ReturningStaff_Upper",
+    "MonkeyCommand_Upper",
+    "RestPose"
+  ],
+  "modules": [
+    {
+      "clip": "StaffSweep",
+      "label": "如意棍法 · 横扫",
+      "duration": 0.9,
+      "windup_end": 0.387,
+      "release_end": 0.504,
+      "events": [
+        {
+          "time": 0.387,
+          "type": "hit",
+          "socket": "weapon.tip"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.3,
+          "lean": -0.14,
+          "hand": [
+            -0.025,
+            0.7
+          ],
+          "weapon": -0.85,
+          "back_hand": [
+            0.06,
+            0.65
+          ],
+          "compression": 0.035
+        },
+        {
+          "t": 0.43,
+          "lean": 0.18,
+          "hand": [
+            0.24,
+            0.6
+          ],
+          "weapon": 1.35,
+          "back_hand": [
+            0.1,
+            0.6
+          ],
+          "compression": 0.025
+        },
+        {
+          "t": 0.59,
+          "lean": 0.24,
+          "hand": [
+            0.24,
+            0.53
+          ],
+          "weapon": 1.95,
+          "back_hand": [
+            0.08,
+            0.57
+          ],
+          "compression": 0.04
+        }
+      ],
+      "two_hand": true,
+      "upper_clip": "StaffSweep_Upper",
+      "skill_id": "wukong.StaffSweep"
+    },
+    {
+      "clip": "FreezeSeal",
+      "label": "定身咒 · 举臂发诀",
+      "duration": 1.05,
+      "windup_end": 0.504,
+      "release_end": 0.6405,
+      "events": [
+        {
+          "time": 0.504,
+          "type": "freeze",
+          "socket": "hand.back"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.3,
+          "lean": -0.06,
+          "hand": [
+            0.12,
+            0.58
+          ],
+          "weapon": 0.04,
+          "back_hand": [
+            -0.04,
+            0.67
+          ],
+          "compression": 0.015
+        },
+        {
+          "t": 0.48,
+          "lean": 0.08,
+          "hand": [
+            0.16,
+            0.58
+          ],
+          "weapon": 0.12,
+          "back_hand": [
+            0.25,
+            0.72
+          ],
+          "compression": 0.015
+        },
+        {
+          "t": 0.68,
+          "lean": 0.04,
+          "hand": [
+            0.16,
+            0.6
+          ],
+          "weapon": 0.1,
+          "back_hand": [
+            0.24,
+            0.72
+          ],
+          "compression": 0.015
+        }
+      ],
+      "two_hand": false,
+      "upper_clip": "FreezeSeal_Upper",
+      "skill_id": "wukong.FreezeSeal"
+    },
+    {
+      "clip": "HairClone",
+      "label": "毫毛分身 · 拈毫吹化",
+      "duration": 1.2,
+      "windup_end": 0.636,
+      "release_end": 0.792,
+      "events": [
+        {
+          "time": 0.636,
+          "type": "spawn_clone",
+          "socket": "hand.back"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.25,
+          "lean": -0.08,
+          "hand": [
+            0.12,
+            0.58
+          ],
+          "weapon": 0.08,
+          "back_hand": [
+            0.02,
+            0.84
+          ],
+          "compression": 0.015
+        },
+        {
+          "t": 0.43,
+          "lean": -0.1,
+          "hand": [
+            0.12,
+            0.58
+          ],
+          "weapon": 0.08,
+          "back_hand": [
+            0.08,
+            0.83
+          ],
+          "compression": 0.015
+        },
+        {
+          "t": 0.53,
+          "lean": 0.08,
+          "hand": [
+            0.15,
+            0.59
+          ],
+          "weapon": 0.15,
+          "back_hand": [
+            0.27,
+            0.77
+          ],
+          "compression": 0.015
+        },
+        {
+          "t": 0.7,
+          "lean": 0.05,
+          "hand": [
+            0.15,
+            0.59
+          ],
+          "weapon": 0.12,
+          "back_hand": [
+            0.23,
+            0.73
+          ],
+          "compression": 0.015
+        }
+      ],
+      "two_hand": false,
+      "upper_clip": "HairClone_Upper",
+      "skill_id": "wukong.HairClone"
+    },
+    {
+      "clip": "StaffThrust",
+      "label": "点将直捣",
+      "duration": 0.9,
+      "windup_end": 0.432,
+      "release_end": 0.549,
+      "events": [
+        {
+          "time": 0.432,
+          "type": "hit",
+          "socket": "weapon.tip"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.28,
+          "lean": -0.1,
+          "hand": [
+            -0.03,
+            0.62
+          ],
+          "weapon": 1.47,
+          "back_hand": [
+            0.01,
+            0.62
+          ],
+          "compression": 0.03
+        },
+        {
+          "t": 0.48,
+          "lean": 0.22,
+          "hand": [
+            0.28,
+            0.63
+          ],
+          "weapon": 1.54,
+          "back_hand": [
+            0.13,
+            0.63
+          ],
+          "compression": 0.035
+        },
+        {
+          "t": 0.62,
+          "lean": 0.16,
+          "hand": [
+            0.26,
+            0.62
+          ],
+          "weapon": 1.54,
+          "back_hand": [
+            0.12,
+            0.62
+          ],
+          "compression": 0.03
+        }
+      ],
+      "two_hand": true,
+      "upper_clip": "StaffThrust_Upper",
+      "skill_id": "wukong.StaffThrust"
+    },
+    {
+      "clip": "BackSweep",
+      "label": "回身挑棍",
+      "duration": 1.05,
+      "windup_end": 0.546,
+      "release_end": 0.6825,
+      "events": [
+        {
+          "time": 0.546,
+          "type": "hit",
+          "socket": "weapon.tip"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.26,
+          "lean": 0.13,
+          "hand": [
+            0.21,
+            0.55
+          ],
+          "weapon": 1.74,
+          "back_hand": [
+            0.08,
+            0.56
+          ],
+          "compression": 0.04
+        },
+        {
+          "t": 0.42,
+          "lean": -0.14,
+          "hand": [
+            -0.02,
+            0.65
+          ],
+          "weapon": -0.72,
+          "back_hand": [
+            0.01,
+            0.65
+          ],
+          "compression": 0.025
+        },
+        {
+          "t": 0.52,
+          "lean": -0.1,
+          "hand": [
+            0.04,
+            0.77
+          ],
+          "weapon": -0.26,
+          "back_hand": [
+            0.02,
+            0.7
+          ],
+          "compression": 0.02
+        },
+        {
+          "t": 0.7,
+          "lean": 0.09,
+          "hand": [
+            0.18,
+            0.65
+          ],
+          "weapon": 0.78,
+          "back_hand": [
+            0.09,
+            0.63
+          ],
+          "compression": 0.03
+        }
+      ],
+      "two_hand": true,
+      "upper_clip": "BackSweep_Upper",
+      "skill_id": "wukong.BackSweep"
+    },
+    {
+      "clip": "CrashingCloud",
+      "label": "坠云压阵",
+      "duration": 1.4,
+      "windup_end": 1.008,
+      "release_end": 1.19,
+      "events": [
+        {
+          "time": 1.008,
+          "type": "hit",
+          "socket": "weapon.tip"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.18,
+          "lean": 0.16,
+          "hand": [
+            0.14,
+            0.66
+          ],
+          "weapon": -0.24,
+          "back_hand": [
+            0.02,
+            0.69
+          ],
+          "compression": 0.06
+        },
+        {
+          "t": 0.37,
+          "lean": -0.12,
+          "hand": [
+            0.05,
+            0.78
+          ],
+          "weapon": -0.28,
+          "back_hand": [
+            0.03,
+            0.72
+          ],
+          "compression": 0.015
+        },
+        {
+          "t": 0.58,
+          "lean": -0.07,
+          "hand": [
+            0.07,
+            0.77
+          ],
+          "weapon": 0.05,
+          "back_hand": [
+            0.05,
+            0.73
+          ],
+          "compression": 0.01
+        },
+        {
+          "t": 0.72,
+          "lean": 0.24,
+          "hand": [
+            0.24,
+            0.53
+          ],
+          "weapon": 1.38,
+          "back_hand": [
+            0.1,
+            0.57
+          ],
+          "compression": 0.06
+        },
+        {
+          "t": 0.82,
+          "lean": 0.17,
+          "hand": [
+            0.22,
+            0.53
+          ],
+          "weapon": 1.5,
+          "back_hand": [
+            0.1,
+            0.54
+          ],
+          "compression": 0.05
+        }
+      ],
+      "two_hand": true,
+      "upper_clip": null,
+      "footwork": "leap",
+      "travel_height_ratio": 0.24,
+      "airborne": {
+        "start": 0.18,
+        "end": 0.72,
+        "height_ratio": 0.14,
+        "landing_phase": 0.72
+      },
+      "root_motion": {
+        "axis": "facing-x",
+        "distance": 0.4176,
+        "keys": [
+          [
+            0,
+            0
+          ],
+          [
+            0.18,
+            0
+          ],
+          [
+            0.72,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "application": "external collision-aware displacement; never teleport through terrain"
+      },
+      "skill_id": "wukong.CrashingCloud"
+    },
+    {
+      "clip": "CloudFeint",
+      "label": "筋斗闪身",
+      "duration": 0.8833333333333333,
+      "windup_end": 0.4063,
+      "release_end": 0.5212,
+      "events": [
+        {
+          "time": 0.4063,
+          "type": "decoy",
+          "socket": "actor",
+          "space": "cast-origin"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.22,
+          "lean": 0.08,
+          "hand": [
+            0.11,
+            0.61
+          ],
+          "weapon": -0.15,
+          "back_hand": [
+            0.0,
+            0.68
+          ],
+          "compression": 0.04
+        },
+        {
+          "t": 0.46,
+          "lean": -0.16,
+          "hand": [
+            0.09,
+            0.68
+          ],
+          "weapon": -0.3,
+          "back_hand": [
+            0.2,
+            0.73
+          ],
+          "compression": 0.05
+        },
+        {
+          "t": 0.71,
+          "lean": -0.05,
+          "hand": [
+            0.13,
+            0.63
+          ],
+          "weapon": -0.05,
+          "back_hand": [
+            0.12,
+            0.68
+          ],
+          "compression": 0.025
+        }
+      ],
+      "two_hand": false,
+      "upper_clip": null,
+      "footwork": "two_step",
+      "travel_height_ratio": -0.24,
+      "root_motion": {
+        "axis": "facing-x",
+        "distance": -0.4176,
+        "keys": [
+          [
+            0,
+            0
+          ],
+          [
+            0.14,
+            0
+          ],
+          [
+            0.88,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "application": "external collision-aware displacement; never teleport through terrain"
+      },
+      "skill_id": "wukong.CloudFeint"
+    },
+    {
+      "clip": "FlameGaze",
+      "label": "火眼照妖",
+      "duration": 1.0833333333333333,
+      "windup_end": 0.5308,
+      "release_end": 0.6717,
+      "events": [
+        {
+          "time": 0.5308,
+          "type": "reveal",
+          "socket": "hand.back"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.25,
+          "lean": -0.03,
+          "hand": [
+            0.12,
+            0.6
+          ],
+          "weapon": 0.04,
+          "back_hand": [
+            0.03,
+            0.85
+          ],
+          "compression": 0.015
+        },
+        {
+          "t": 0.49,
+          "lean": 0.1,
+          "hand": [
+            0.15,
+            0.62
+          ],
+          "weapon": 0.12,
+          "back_hand": [
+            0.23,
+            0.83
+          ],
+          "compression": 0.015
+        },
+        {
+          "t": 0.72,
+          "lean": 0.08,
+          "hand": [
+            0.14,
+            0.62
+          ],
+          "weapon": 0.1,
+          "back_hand": [
+            0.25,
+            0.78
+          ],
+          "compression": 0.015
+        }
+      ],
+      "two_hand": false,
+      "upper_clip": "FlameGaze_Upper",
+      "skill_id": "wukong.FlameGaze"
+    },
+    {
+      "clip": "StaffGuard",
+      "label": "架棍听风 · 横棍候击",
+      "duration": 1.35,
+      "windup_end": 0.432,
+      "release_end": 0.945,
+      "events": [
+        {
+          "time": 0.432,
+          "type": "guard_open",
+          "socket": "weapon"
+        },
+        {
+          "time": 0.918,
+          "type": "guard_close",
+          "socket": "weapon"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.22,
+          "lean": 0.06,
+          "hand": [
+            0.09,
+            0.69
+          ],
+          "weapon": 1.25,
+          "back_hand": [
+            0.05,
+            0.65
+          ],
+          "compression": 0.04
+        },
+        {
+          "t": 0.32,
+          "lean": 0.12,
+          "hand": [
+            0.14,
+            0.69
+          ],
+          "weapon": 1.48,
+          "back_hand": [
+            0.04,
+            0.68
+          ],
+          "compression": 0.045
+        },
+        {
+          "t": 0.66,
+          "lean": 0.12,
+          "hand": [
+            0.14,
+            0.69
+          ],
+          "weapon": 1.48,
+          "back_hand": [
+            0.04,
+            0.68
+          ],
+          "compression": 0.045
+        },
+        {
+          "t": 0.82,
+          "lean": -0.035,
+          "hand": [
+            0.1,
+            0.68
+          ],
+          "weapon": 1.12,
+          "back_hand": [
+            0.04,
+            0.64
+          ],
+          "compression": 0.02
+        }
+      ],
+      "two_hand": true,
+      "upper_clip": "StaffGuard_Upper",
+      "skill_id": "wukong.StaffGuard"
+    },
+    {
+      "clip": "ReturningStaff",
+      "label": "飞棍回环 · 掷棍接棍",
+      "duration": 1.75,
+      "windup_end": 0.595,
+      "release_end": 1.4,
+      "events": [
+        {
+          "time": 0.595,
+          "type": "staff_out",
+          "socket": "weapon"
+        },
+        {
+          "time": 0.98,
+          "type": "staff_return",
+          "socket": "weapon"
+        },
+        {
+          "time": 1.365,
+          "type": "staff_catch",
+          "socket": "weapon"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.2,
+          "lean": -0.16,
+          "hand": [
+            0.02,
+            0.76
+          ],
+          "weapon": -0.72,
+          "back_hand": [
+            -0.04,
+            0.68
+          ],
+          "compression": 0.025
+        },
+        {
+          "t": 0.34,
+          "lean": 0.17,
+          "hand": [
+            0.26,
+            0.71
+          ],
+          "weapon": 1.4,
+          "back_hand": [
+            -0.08,
+            0.64
+          ],
+          "compression": 0.035
+        },
+        {
+          "t": 0.54,
+          "lean": 0.12,
+          "hand": [
+            0.23,
+            0.68
+          ],
+          "weapon": 1.4,
+          "back_hand": [
+            -0.06,
+            0.66
+          ],
+          "compression": 0.025
+        },
+        {
+          "t": 0.76,
+          "lean": -0.06,
+          "hand": [
+            0.18,
+            0.72
+          ],
+          "weapon": 0.35,
+          "back_hand": [
+            0.04,
+            0.66
+          ],
+          "compression": 0.02
+        },
+        {
+          "t": 0.87,
+          "lean": 0.04,
+          "hand": [
+            0.12,
+            0.64
+          ],
+          "weapon": 0.12,
+          "back_hand": [
+            0.08,
+            0.63
+          ],
+          "compression": 0.025
+        }
+      ],
+      "two_hand": false,
+      "upper_clip": "ReturningStaff_Upper",
+      "weapon_flight": {
+        "start": 0.34,
+        "turn": 0.56,
+        "catch": 0.78,
+        "distance_height_ratio": 0.85,
+        "lift_height_ratio": 0.42
+      },
+      "skill_id": "wukong.ReturningStaff"
+    },
+    {
+      "clip": "MonkeyCommand",
+      "label": "猴王号令 · 举棍点将",
+      "duration": 1.25,
+      "windup_end": 0.625,
+      "release_end": 0.7875,
+      "events": [
+        {
+          "time": 0.625,
+          "type": "command",
+          "socket": "hand.back"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.24,
+          "lean": -0.08,
+          "hand": [
+            0.08,
+            0.78
+          ],
+          "weapon": -0.28,
+          "back_hand": [
+            -0.03,
+            0.69
+          ],
+          "compression": 0.015
+        },
+        {
+          "t": 0.5,
+          "lean": 0.08,
+          "hand": [
+            0.2,
+            0.79
+          ],
+          "weapon": 0.18,
+          "back_hand": [
+            0.27,
+            0.76
+          ],
+          "compression": 0.02
+        },
+        {
+          "t": 0.72,
+          "lean": 0.06,
+          "hand": [
+            0.2,
+            0.77
+          ],
+          "weapon": 0.18,
+          "back_hand": [
+            0.27,
+            0.76
+          ],
+          "compression": 0.02
+        }
+      ],
+      "two_hand": false,
+      "upper_clip": "MonkeyCommand_Upper",
+      "skill_id": "wukong.MonkeyCommand"
+    },
+    {
+      "clip": "StoneShell",
+      "label": "石身卸势 · 沉身蓄震",
+      "duration": 1.7,
+      "windup_end": 0.527,
+      "release_end": 1.394,
+      "events": [
+        {
+          "time": 0.527,
+          "type": "stone_open",
+          "socket": "actor"
+        },
+        {
+          "time": 1.326,
+          "type": "stone_release",
+          "socket": "actor"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.2,
+          "lean": 0.15,
+          "hand": [
+            0.07,
+            0.55
+          ],
+          "weapon": 0.32,
+          "back_hand": [
+            0.02,
+            0.6
+          ],
+          "compression": 0.065
+        },
+        {
+          "t": 0.31,
+          "lean": 0.24,
+          "hand": [
+            0.07,
+            0.54
+          ],
+          "weapon": 0.46,
+          "back_hand": [
+            0.07,
+            0.59
+          ],
+          "compression": 0.08
+        },
+        {
+          "t": 0.67,
+          "lean": 0.24,
+          "hand": [
+            0.07,
+            0.54
+          ],
+          "weapon": 0.46,
+          "back_hand": [
+            0.07,
+            0.59
+          ],
+          "compression": 0.08
+        },
+        {
+          "t": 0.79,
+          "lean": -0.1,
+          "hand": [
+            0.2,
+            0.71
+          ],
+          "weapon": 0.16,
+          "back_hand": [
+            0.21,
+            0.74
+          ],
+          "compression": 0.025
+        }
+      ],
+      "two_hand": false,
+      "upper_clip": null,
+      "stationary": true,
+      "skill_id": "wukong.StoneShell"
+    },
+    {
+      "clip": "HitRecoil",
+      "label": "受击 · 后仰缓冲",
+      "duration": 0.55,
+      "windup_end": 0.066,
+      "release_end": 0.1375,
+      "events": [
+        {
+          "time": 0.066,
+          "type": "hurt",
+          "socket": "actor"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.12,
+          "lean": -0.18,
+          "hand": [
+            0.09,
+            0.62
+          ],
+          "weapon": -0.1,
+          "back_hand": [
+            -0.04,
+            0.66
+          ],
+          "compression": 0.035
+        },
+        {
+          "t": 0.35,
+          "lean": 0.08,
+          "hand": [
+            0.13,
+            0.61
+          ],
+          "weapon": 0.1,
+          "back_hand": [
+            0.02,
+            0.65
+          ],
+          "compression": 0.045
+        },
+        {
+          "t": 0.65,
+          "lean": 0.04,
+          "hand": [
+            0.13,
+            0.61
+          ],
+          "weapon": 0.08,
+          "back_hand": [
+            0.02,
+            0.64
+          ],
+          "compression": 0.02
+        }
+      ],
+      "two_hand": false,
+      "upper_clip": null,
+      "skill_id": null
+    },
+    {
+      "clip": "DodgeBack",
+      "label": "闪避 · 后撤换步",
+      "duration": 0.8333333333333334,
+      "windup_end": 0.3333,
+      "release_end": 0.4417,
+      "events": [
+        {
+          "time": 0.3333,
+          "type": "dodge",
+          "socket": "actor"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.24,
+          "lean": -0.1,
+          "hand": [
+            0.1,
+            0.61
+          ],
+          "weapon": -0.12,
+          "back_hand": [
+            -0.02,
+            0.66
+          ],
+          "compression": 0.045
+        },
+        {
+          "t": 0.45,
+          "lean": -0.13,
+          "hand": [
+            0.11,
+            0.64
+          ],
+          "weapon": -0.16,
+          "back_hand": [
+            0.04,
+            0.68
+          ],
+          "compression": 0.06
+        },
+        {
+          "t": 0.72,
+          "lean": -0.03,
+          "hand": [
+            0.12,
+            0.62
+          ],
+          "weapon": 0.0,
+          "back_hand": [
+            0.02,
+            0.65
+          ],
+          "compression": 0.025
+        }
+      ],
+      "two_hand": false,
+      "upper_clip": null,
+      "root_motion": {
+        "axis": "facing-x",
+        "distance": -0.4872,
+        "keys": [
+          [
+            0,
+            0
+          ],
+          [
+            0.14,
+            0
+          ],
+          [
+            0.88,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "application": "external collision-aware displacement; not baked into bone translation"
+      },
+      "skill_id": null
+    }
+  ],
+  "upper_mask": [
+    "abdomen",
+    "body",
+    "head",
+    "upper_arm.back",
+    "forearm.back",
+    "upper_arm.front",
+    "forearm.front",
+    "weapon",
+    "accessory"
+  ],
+  "lower_mask": [
+    "pelvis",
+    "thigh.back",
+    "shin.back",
+    "foot.back",
+    "thigh.front",
+    "shin.front",
+    "foot.front"
+  ],
+  "offhand_ik_max_error": 3.5886748369909214e-07,
+  "back_hand_surface_marker": [
+    0.6590909090909091,
+    0.17000000000000004
+  ],
+  "weapon_grip_surface_marker": [
+    0.5,
+    0.2877548635005951
+  ],
+  "surface_sockets": {
+    "hand.back": {
+      "part": "forearm.back",
+      "uv": [
+        0.6590909090909091,
+        0.17000000000000004
+      ]
+    },
+    "weapon": {
+      "part": "weapon",
+      "uv": [
+        0.5,
+        0.2877548635005951
+      ]
+    },
+    "weapon.tip": {
+      "part": "weapon",
+      "uv": [
+        0.6849315166473389,
+        0.9972451329231262
+      ]
+    },
+    "actor": {
+      "bone": "pelvis",
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    "foot.front": {
+      "bone": "foot.front",
+      "offset": [
+        0,
+        0,
+        0
+      ],
+      "meaning": "ankle; resolve terrain contact externally"
+    },
+    "hand.front": {
+      "part": "forearm.front",
+      "uv": [
+        0.5689655172413793,
+        0.17000000000000004
+      ]
+    }
+  },
+  "walk_period": 0.8833333333333333,
+  "walk_distance": 0.6566195414641174,
+  "status": "used in five-person map trial; final art and campaign integration pending",
+  "in_game": true,
+  "arm_width_factors": [
+    1.65,
+    1.6
+  ],
+  "arm_review_status": "v2 widened arms and stable layers retained; user review pending",
+  "inspection_bounds": {
+    "StaffSweep": [
+      -1.1549600958824158,
+      -0.020704098045825958,
+      1.880380392074585,
+      2.614081382751465
+    ],
+    "FreezeSeal": [
+      -0.6171469688415527,
+      -0.00882982462644577,
+      0.5389407873153687,
+      2.5016822814941406
+    ],
+    "HairClone": [
+      -0.6453271508216858,
+      -0.008829314261674881,
+      0.5567356944084167,
+      2.4818575382232666
+    ],
+    "StaffThrust": [
+      -0.7735472321510315,
+      -0.018923118710517883,
+      1.9495601654052734,
+      2.1989493370056152
+    ],
+    "BackSweep": [
+      -1.0035638213157654,
+      -0.020037375390529633,
+      1.8277839422225952,
+      2.7672510147094727
+    ],
+    "CrashingCloud": [
+      -0.6487976312637329,
+      -0.025785312056541443,
+      1.858579397201538,
+      3.0448014736175537
+    ],
+    "CloudFeint": [
+      -0.6657671332359314,
+      -0.0284971222281456,
+      0.5389407873153687,
+      2.589935779571533
+    ],
+    "FlameGaze": [
+      -0.6100861728191376,
+      -0.008966103196144104,
+      0.5389407873153687,
+      2.536717653274536
+    ],
+    "StaffGuard": [
+      -0.6133043766021729,
+      -0.021540328860282898,
+      1.7025667428970337,
+      2.2056639194488525
+    ],
+    "ReturningStaff": [
+      -0.9510921835899353,
+      -0.018633604049682617,
+      3.3246960639953613,
+      3.1133334636688232
+    ],
+    "MonkeyCommand": [
+      -0.6195801794528961,
+      -0.01166459172964096,
+      0.6835778951644897,
+      2.831742763519287
+    ],
+    "StoneShell": [
+      -0.626284122467041,
+      -0.0295490100979805,
+      0.7967888116836548,
+      2.682159185409546
+    ],
+    "HitRecoil": [
+      -0.6583667099475861,
+      -0.021254852414131165,
+      0.5389407873153687,
+      2.5370683670043945
+    ],
+    "DodgeBack": [
+      -0.6568452417850494,
+      -0.03024613857269287,
+      0.5677918791770935,
+      2.5618507862091064
+    ]
+  },
+  "integration": {
+    "mode": "five-person map trial",
+    "asset": "shadow/wukong.glb",
+    "hero_skills": 12,
+    "enemy_basic_attacks": 0,
+    "campaign": false
+  }
+}

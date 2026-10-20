@@ -1,0 +1,22 @@
+{
+  "sourceRaw": "apps\\shuihu\\art\\pieces\\source\\raw\\ls006.glb",
+  "sourceRawSha256": "286661d55f3cecbcc84b0e3a89fcb239338fba7d6d16ce7e8b6f0893c6d3f73b",
+  "studioProjectId": "39920c45-8dbb-4414-975d-ee9d071d604f",
+  "method": "Existing Tripo geometry plus Blender two-BSDF glaze / matte clay procedural material study",
+  "geometryChanged": false,
+  "newTripoGeneration": false,
+  "blendFile": "apps\\shuihu\\art\\pieces\\source\\ceramic\\ls006-first-source-glaze-study.blend",
+  "previewImages": [
+    ".local\\qa\\shuihu-pieces\\ceramic\\ls006-first-source-glaze-front.png",
+    ".local\\qa\\shuihu-pieces\\ceramic\\ls006-first-source-glaze-back.png"
+  ],
+  "normalization": "Full equipment bounding height 100 mm for inspection, not final body dimension",
+  "webMaterialBaked": false,
+  "glbExported": false,
+  "approved": false,
+  "limitations": [
+    "Skin region mask is procedural and needs manual refinement",
+    "Old spear shape and pose are unchanged",
+    "Study shader has not been baked or validated in the web viewer"
+  ]
+}

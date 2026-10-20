@@ -53,6 +53,6 @@ export const world = {
       'Discover stories woven through relationships and seasons',
     ],
   },
-  accent: '#a07479',
+  accent: 'var(--accent-honglou)',
   image: '/art/honglou.webp',
 } satisfies WorldDefinition;

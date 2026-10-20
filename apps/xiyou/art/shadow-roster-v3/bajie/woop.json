@@ -1,0 +1,1006 @@
+{
+  "schemaVersion": 1,
+  "projectId": "cfgcn-original-bajie",
+  "name": "猪八戒",
+  "parts": [
+    {
+      "id": "accessory",
+      "width": 236,
+      "height": 236,
+      "image": "parts/accessory.png",
+      "anchors": [
+        {
+          "id": "pivot",
+          "partPx": [
+            118.0,
+            28.32
+          ]
+        }
+      ],
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          352,
+          992
+        ],
+        "zIndex": 0
+      },
+      "sourceRect": [
+        352,
+        992,
+        588,
+        1228
+      ],
+      "rest": {
+        "matrix": [
+          0.1652542372881356,
+          0.0,
+          -0.0,
+          0.1652542372881356,
+          -51.900000000000006,
+          -164.68
+        ],
+        "zIndex": 0
+      }
+    },
+    {
+      "id": "upper_arm.back",
+      "width": 152,
+      "height": 328,
+      "image": "parts/upper_arm.back.png",
+      "anchors": [
+        {
+          "id": "pivot",
+          "partPx": [
+            42.2636761487965,
+            32.800000000000004
+          ]
+        },
+        {
+          "id": "to_forearm.back",
+          "partPx": [
+            93.44249521115482,
+            209.9200000000001
+          ]
+        }
+      ],
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          748,
+          12
+        ],
+        "zIndex": 1
+      },
+      "sourceRect": [
+        748,
+        12,
+        900,
+        340
+      ],
+      "rest": {
+        "matrix": [
+          0.16927938263547093,
+          0.05382813812393118,
+          -0.04891327289345346,
+          0.15382305475661526,
+          -36.330013655468484,
+          -173.92037119337948
+        ],
+        "zIndex": 1
+      }
+    },
+    {
+      "id": "forearm.back",
+      "width": 140,
+      "height": 332,
+      "image": "parts/forearm.back.png",
+      "anchors": [
+        {
+          "id": "pivot",
+          "partPx": [
+            35.28802153432032,
+            33.2
+          ]
+        }
+      ],
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          1060,
+          12
+        ],
+        "zIndex": 2
+      },
+      "sourceRect": [
+        1060,
+        12,
+        1200,
+        344
+      ],
+      "rest": {
+        "matrix": [
+          0.17359580354673254,
+          0.041859910332023624,
+          -0.026327562819213855,
+          0.10918213600500956,
+          -36.03177736822684,
+          -141.70200033258746
+        ],
+        "zIndex": 2
+      }
+    },
+    {
+      "id": "thigh.back",
+      "width": 168,
+      "height": 300,
+      "image": "parts/thigh.back.png",
+      "anchors": [
+        {
+          "id": "pivot",
+          "partPx": [
+            71.82666666666667,
+            30.0
+          ]
+        },
+        {
+          "id": "to_shin.back",
+          "partPx": [
+            65.97349214698504,
+            270.0
+          ]
+        }
+      ],
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          728,
+          348
+        ],
+        "zIndex": 3
+      },
+      "sourceRect": [
+        728,
+        348,
+        896,
+        648
+      ],
+      "rest": {
+        "matrix": [
+          0.19626290517861245,
+          -0.008065712883580994,
+          0.004786504315625627,
+          0.11646995822861148,
+          -42.95050539876458,
+          -74.83476547614033
+        ],
+        "zIndex": 3
+      }
+    },
+    {
+      "id": "shin.back",
+      "width": 132,
+      "height": 312,
+      "image": "parts/shin.back.png",
+      "anchors": [
+        {
+          "id": "pivot",
+          "partPx": [
+            58.01462904911181,
+            31.200000000000003
+          ]
+        },
+        {
+          "id": "to_foot.back",
+          "partPx": [
+            58.76272336120756,
+            280.8
+          ]
+        }
+      ],
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          1048,
+          348
+        ],
+        "zIndex": 4
+      },
+      "sourceRect": [
+        1048,
+        348,
+        1180,
+        660
+      ],
+      "rest": {
+        "matrix": [
+          0.21969181815172772,
+          0.0015045036455284791,
+          -0.0006584543252134581,
+          0.09614933689655548,
+          -41.434795560250755,
+          -47.0071425320709
+        ],
+        "zIndex": 4
+      }
+    },
+    {
+      "id": "foot.back",
+      "width": 232,
+      "height": 168,
+      "image": "parts/foot.back.png",
+      "anchors": [
+        {
+          "id": "pivot",
+          "partPx": [
+            54.95454545454545,
+            28.560000000000002
+          ]
+        }
+      ],
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          56,
+          752
+        ],
+        "zIndex": 5
+      },
+      "sourceRect": [
+        56,
+        752,
+        288,
+        920
+      ],
+      "rest": {
+        "matrix": [
+          0.14655172413793102,
+          0.0,
+          -0.0,
+          0.14285714285714285,
+          -36.76368338557994,
+          -24.0
+        ],
+        "zIndex": 5
+      }
+    },
+    {
+      "id": "thigh.front",
+      "width": 192,
+      "height": 296,
+      "image": "parts/thigh.front.png",
+      "anchors": [
+        {
+          "id": "pivot",
+          "partPx": [
+            88.2375,
+            29.6
+          ]
+        },
+        {
+          "id": "to_shin.front",
+          "partPx": [
+            114.64338042958919,
+            266.40000000000003
+          ]
+        }
+      ],
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          384,
+          660
+        ],
+        "zIndex": 6
+      },
+      "sourceRect": [
+        384,
+        660,
+        576,
+        956
+      ],
+      "rest": {
+        "matrix": [
+          0.16960213069662788,
+          0.027859161655799134,
+          -0.018912557363930372,
+          0.11513663137013667,
+          15.174543690628635,
+          -77.78626706515962
+        ],
+        "zIndex": 6
+      }
+    },
+    {
+      "id": "shin.front",
+      "width": 132,
+      "height": 296,
+      "image": "parts/shin.front.png",
+      "anchors": [
+        {
+          "id": "pivot",
+          "partPx": [
+            57.734426229508195,
+            29.6
+          ]
+        },
+        {
+          "id": "to_foot.front",
+          "partPx": [
+            61.42050037306507,
+            266.40000000000003
+          ]
+        }
+      ],
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          740,
+          660
+        ],
+        "zIndex": 7
+      },
+      "sourceRect": [
+        740,
+        660,
+        872,
+        956
+      ],
+      "rest": {
+        "matrix": [
+          0.21957186560243602,
+          0.007413118769922981,
+          -0.003417897704601687,
+          0.1012359573250805,
+          17.004314095356875,
+          -47.34457649557508
+        ],
+        "zIndex": 7
+      }
+    },
+    {
+      "id": "foot.front",
+      "width": 228,
+      "height": 172,
+      "image": "parts/foot.front.png",
+      "anchors": [
+        {
+          "id": "pivot",
+          "partPx": [
+            52.90974358974359,
+            29.240000000000002
+          ]
+        }
+      ],
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          992,
+          748
+        ],
+        "zIndex": 8
+      },
+      "sourceRect": [
+        992,
+        748,
+        1220,
+        920
+      ],
+      "rest": {
+        "matrix": [
+          0.14912280701754385,
+          0.0,
+          -0.0,
+          0.13953488372093023,
+          21.689950517318938,
+          -24.0
+        ],
+        "zIndex": 8
+      }
+    },
+    {
+      "id": "abdomen",
+      "width": 304,
+      "height": 286,
+      "image": "parts/abdomen.png",
+      "anchors": [
+        {
+          "id": "pivot",
+          "partPx": [
+            152.0,
+            194.48000000000002
+          ]
+        },
+        {
+          "id": "to_body",
+          "partPx": [
+            152.0,
+            57.20000000000005
+          ]
+        }
+      ],
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          624,
+          968
+        ],
+        "zIndex": 9
+      },
+      "sourceRect": [
+        624,
+        968,
+        928,
+        1254
+      ],
+      "rest": {
+        "matrix": [
+          0.4144736842105264,
+          0.0,
+          -0.0,
+          0.3706293706293706,
+          -63.00000000000001,
+          -144.0
+        ],
+        "zIndex": 9
+      }
+    },
+    {
+      "id": "body",
+      "width": 316,
+      "height": 288,
+      "image": "parts/body.png",
+      "anchors": [
+        {
+          "id": "pivot",
+          "partPx": [
+            158.0,
+            264.96000000000004
+          ]
+        },
+        {
+          "id": "to_head",
+          "partPx": [
+            158.0,
+            48.959999999999944
+          ]
+        },
+        {
+          "id": "to_upper_arm.back",
+          "partPx": [
+            37.919999999999995,
+            54.72000000000003
+          ]
+        },
+        {
+          "id": "to_upper_arm.front",
+          "partPx": [
+            271.76,
+            54.72000000000003
+          ]
+        },
+        {
+          "id": "to_accessory",
+          "partPx": [
+            31.600000000000005,
+            86.4
+          ]
+        }
+      ],
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          364,
+          20
+        ],
+        "zIndex": 10
+      },
+      "sourceRect": [
+        364,
+        20,
+        680,
+        308
+      ],
+      "rest": {
+        "matrix": [
+          0.25632911392405067,
+          0.0,
+          -0.0,
+          0.20833333333333334,
+          -40.50000000000001,
+          -178.0
+        ],
+        "zIndex": 10
+      }
+    },
+    {
+      "id": "pelvis",
+      "width": 296,
+      "height": 190,
+      "image": "parts/pelvis.png",
+      "anchors": [
+        {
+          "id": "pivot",
+          "partPx": [
+            148.0,
+            -40.303030303030305
+          ]
+        },
+        {
+          "id": "to_abdomen",
+          "partPx": [
+            148.0,
+            10.363636363636479
+          ]
+        },
+        {
+          "id": "to_thigh.back",
+          "partPx": [
+            50.31999999999998,
+            10.363636363636388
+          ]
+        },
+        {
+          "id": "to_thigh.front",
+          "partPx": [
+            248.64,
+            10.363636363636388
+          ]
+        }
+      ],
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          944,
+          1050
+        ],
+        "zIndex": 11
+      },
+      "sourceRect": [
+        944,
+        1050,
+        1240,
+        1240
+      ],
+      "rest": {
+        "matrix": [
+          0.2939189189189189,
+          0.0,
+          -0.0,
+          0.15789473684210525,
+          -43.5,
+          -73.55636363636364
+        ],
+        "zIndex": 11
+      }
+    },
+    {
+      "id": "head",
+      "width": 324,
+      "height": 304,
+      "image": "parts/head.png",
+      "anchors": [
+        {
+          "id": "pivot",
+          "partPx": [
+            155.51999999999998,
+            285.76
+          ]
+        }
+      ],
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          28,
+          20
+        ],
+        "zIndex": 12
+      },
+      "sourceRect": [
+        28,
+        20,
+        352,
+        324
+      ],
+      "rest": {
+        "matrix": [
+          0.19753086419753088,
+          0.0,
+          -0.0,
+          0.16447368421052633,
+          -30.72,
+          -214.8
+        ],
+        "zIndex": 12
+      }
+    },
+    {
+      "id": "upper_arm.front",
+      "width": 136,
+      "height": 300,
+      "image": "parts/upper_arm.front.png",
+      "anchors": [
+        {
+          "id": "pivot",
+          "partPx": [
+            91.88601645123384,
+            30.0
+          ]
+        },
+        {
+          "id": "to_forearm.front",
+          "partPx": [
+            58.34124558725533,
+            191.99999999999994
+          ]
+        }
+      ],
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          80,
+          348
+        ],
+        "zIndex": 13
+      },
+      "sourceRect": [
+        80,
+        348,
+        216,
+        648
+      ],
+      "rest": {
+        "matrix": [
+          0.19357600802421934,
+          -0.04407103871078494,
+          0.04008310391318585,
+          0.1760595500290691,
+          10.170578624726833,
+          -167.8322743128699
+        ],
+        "zIndex": 13
+      }
+    },
+    {
+      "id": "forearm.front",
+      "width": 112,
+      "height": 304,
+      "image": "parts/forearm.front.png",
+      "anchors": [
+        {
+          "id": "pivot",
+          "partPx": [
+            66.66624040920716,
+            30.400000000000002
+          ]
+        },
+        {
+          "id": "to_weapon",
+          "partPx": [
+            55.13569800658157,
+            252.32000000000008
+          ]
+        }
+      ],
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          428,
+          348
+        ],
+        "zIndex": 14
+      },
+      "sourceRect": [
+        428,
+        348,
+        540,
+        652
+      ],
+      "rest": {
+        "matrix": [
+          0.2222692685868425,
+          -0.02051803082190971,
+          0.011548689736126367,
+          0.12510551539108505,
+          13.991063336832681,
+          -139.03534769239204
+        ],
+        "zIndex": 14
+      }
+    },
+    {
+      "id": "weapon",
+      "width": 208,
+      "height": 324,
+      "image": "parts/weapon.png",
+      "anchors": [
+        {
+          "id": "pivot",
+          "partPx": [
+            104.0,
+            243.0
+          ]
+        }
+      ],
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          52,
+          924
+        ],
+        "zIndex": 15
+      },
+      "sourceRect": [
+        52,
+        924,
+        260,
+        1248
+      ],
+      "rest": {
+        "matrix": [
+          0.4,
+          0.0,
+          -0.0,
+          0.5555555555555556,
+          -12.439999999999998,
+          -243.6
+        ],
+        "zIndex": 15
+      }
+    }
+  ],
+  "joints": [
+    {
+      "parent": {
+        "partId": "body",
+        "anchorId": "to_head"
+      },
+      "child": {
+        "partId": "head",
+        "anchorId": "pivot"
+      }
+    },
+    {
+      "parent": {
+        "partId": "abdomen",
+        "anchorId": "to_body"
+      },
+      "child": {
+        "partId": "body",
+        "anchorId": "pivot"
+      }
+    },
+    {
+      "parent": {
+        "partId": "pelvis",
+        "anchorId": "to_abdomen"
+      },
+      "child": {
+        "partId": "abdomen",
+        "anchorId": "pivot"
+      }
+    },
+    {
+      "parent": {
+        "partId": "body",
+        "anchorId": "to_upper_arm.back"
+      },
+      "child": {
+        "partId": "upper_arm.back",
+        "anchorId": "pivot"
+      }
+    },
+    {
+      "parent": {
+        "partId": "upper_arm.back",
+        "anchorId": "to_forearm.back"
+      },
+      "child": {
+        "partId": "forearm.back",
+        "anchorId": "pivot"
+      }
+    },
+    {
+      "parent": {
+        "partId": "pelvis",
+        "anchorId": "to_thigh.back"
+      },
+      "child": {
+        "partId": "thigh.back",
+        "anchorId": "pivot"
+      }
+    },
+    {
+      "parent": {
+        "partId": "thigh.back",
+        "anchorId": "to_shin.back"
+      },
+      "child": {
+        "partId": "shin.back",
+        "anchorId": "pivot"
+      }
+    },
+    {
+      "parent": {
+        "partId": "shin.back",
+        "anchorId": "to_foot.back"
+      },
+      "child": {
+        "partId": "foot.back",
+        "anchorId": "pivot"
+      }
+    },
+    {
+      "parent": {
+        "partId": "body",
+        "anchorId": "to_upper_arm.front"
+      },
+      "child": {
+        "partId": "upper_arm.front",
+        "anchorId": "pivot"
+      }
+    },
+    {
+      "parent": {
+        "partId": "upper_arm.front",
+        "anchorId": "to_forearm.front"
+      },
+      "child": {
+        "partId": "forearm.front",
+        "anchorId": "pivot"
+      }
+    },
+    {
+      "parent": {
+        "partId": "pelvis",
+        "anchorId": "to_thigh.front"
+      },
+      "child": {
+        "partId": "thigh.front",
+        "anchorId": "pivot"
+      }
+    },
+    {
+      "parent": {
+        "partId": "thigh.front",
+        "anchorId": "to_shin.front"
+      },
+      "child": {
+        "partId": "shin.front",
+        "anchorId": "pivot"
+      }
+    },
+    {
+      "parent": {
+        "partId": "shin.front",
+        "anchorId": "to_foot.front"
+      },
+      "child": {
+        "partId": "foot.front",
+        "anchorId": "pivot"
+      }
+    },
+    {
+      "parent": {
+        "partId": "forearm.front",
+        "anchorId": "to_weapon"
+      },
+      "child": {
+        "partId": "weapon",
+        "anchorId": "pivot"
+      }
+    },
+    {
+      "parent": {
+        "partId": "body",
+        "anchorId": "to_accessory"
+      },
+      "child": {
+        "partId": "accessory",
+        "anchorId": "pivot"
+      }
+    }
+  ],
+  "provenance": "Original OpenAI built-in imagegen artwork; mechanically cropped for texture packing",
+  "directions": [
+    "side-right",
+    "mirrored-side-left"
+  ],
+  "proportions": {
+    "shape": "圆厚，腹部最宽、短腿粗臂，重心低",
+    "head": [
+      50,
+      64
+    ],
+    "chest": [
+      60,
+      81
+    ],
+    "abdomen": [
+      106,
+      126
+    ],
+    "pelvis": [
+      30,
+      87
+    ],
+    "upper": [
+      30,
+      27
+    ],
+    "fore": [
+      28,
+      25
+    ],
+    "thigh": [
+      28,
+      33
+    ],
+    "shin": [
+      24,
+      29
+    ],
+    "foot": [
+      24,
+      34
+    ],
+    "lean": -0.025,
+    "crouch": 0.05,
+    "stride": 0.135,
+    "lift": 0.075,
+    "period": 1.36,
+    "arm_swing": 0.13,
+    "fore_angle": -0.38,
+    "weapon_tilt": 0.02,
+    "idle_crouch": 0.008
+  },
+  "status": "v3 distinct body proportions; visual review pending"
+}

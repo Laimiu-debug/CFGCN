@@ -1,0 +1,54 @@
+{
+  "shape": "纤长冷峻，细腰细臂、长手足，缓步少摆",
+  "head": [
+    49,
+    29
+  ],
+  "chest": [
+    60,
+    44
+  ],
+  "abdomen": [
+    76,
+    35
+  ],
+  "pelvis": [
+    57,
+    49
+  ],
+  "upper": [
+    43,
+    11
+  ],
+  "fore": [
+    42,
+    10
+  ],
+  "thigh": [
+    61,
+    23
+  ],
+  "shin": [
+    58,
+    16
+  ],
+  "foot": [
+    11,
+    28
+  ],
+  "lean": -0.025,
+  "crouch": 0.035,
+  "stride": 0.18,
+  "lift": 0.06,
+  "period": 1.42,
+  "arm_swing": 0.055,
+  "fore_angle": -0.31,
+  "weapon_tilt": 0.12,
+  "idle_crouch": 0.002,
+  "hip_span": 13,
+  "duty": 0.66,
+  "idle_compression": 0.003,
+  "extra_compression": 0.0,
+  "idle_stance": 0.045,
+  "foot_anchor_y": 0.38
+}

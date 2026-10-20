@@ -1,0 +1,176 @@
+{
+  "status": "local settlement scenery sample; actual game and visual review pending",
+  "references": [
+    {
+      "asset": "village",
+      "source": {
+        "source": "apps/website/art/source/raw/village-studio-v31.glb",
+        "source_sha256": "09a85fffc1ea5c6eab1b7ff8a087128e746ed274bb8790e40950c9484707c168",
+        "studio_project": "c1197061-13d8-4b1f-ae6b-5caaec529fc7",
+        "width": 5,
+        "triangle_budget": 5000,
+        "byte_budget": 650000,
+        "texture_max": 768,
+        "asset": "village",
+        "origin": "tripo-studio-blender",
+        "bytes": 393964,
+        "triangles": 4988,
+        "primitives": 1,
+        "runtime_sha256": "94cf8ae86f0b49c20d3f22b369bb5e996301ed75bb94a9f259ad451a58b43ad2",
+        "editable_source": "apps/website/art/source/terrain-v2/village.blend",
+        "ground_refinement": {
+          "version": 2,
+          "cut_height": 0.06,
+          "input_kind": "studio-raw",
+          "foundation_profile": null,
+          "input_blend": "apps/website/art/source/village.blend",
+          "input_sha256": "471535b16d6efe0e2352eb4b66fcf2a672928a6f62e40cc6bbdadcafb022c00f",
+          "weld_tolerance": 5e-05,
+          "vertices_before_weld": 1019770,
+          "vertices_after_weld": 939688,
+          "script": "apps/website/art/refine_atlas_ground.py"
+        }
+      },
+      "runtime_sha256": "94cf8ae86f0b49c20d3f22b369bb5e996301ed75bb94a9f259ad451a58b43ad2",
+      "projection": "village-reference.png",
+      "purpose": "original ink redraw reference, original asset left unchanged"
+    },
+    {
+      "asset": "riverbank",
+      "source": {
+        "source": "apps/website/art/source/raw/riverbank-studio-v31.glb",
+        "source_sha256": "d89514eb8a3cb086035f1a56085a871e5fd1f0ee4e0b4908f9be8ff8fa5f973e",
+        "studio_project": "42ff52bc-d6fa-4557-8d3c-afd9b8d0b62c",
+        "width": 24,
+        "triangle_budget": 16000,
+        "byte_budget": 1300000,
+        "texture_max": 768,
+        "skirt_compression": {
+          "height_fraction": 0.06,
+          "ratio": 0.15
+        },
+        "usage": "continuous ground-conforming river shore scenery; not a geographic source",
+        "asset": "riverbank",
+        "origin": "tripo-studio-blender",
+        "bytes": 842404,
+        "triangles": 15988,
+        "primitives": 1,
+        "runtime_sha256": "29e34e5a55e19f6a4c173ab59c9c5029801cf428fc1148f47097338bcfff1c29",
+        "editable_source": "apps/website/art/source/terrain-v2/riverbank.blend",
+        "ground_refinement": {
+          "version": 2,
+          "cut_height": 0.5,
+          "input_kind": "studio-raw",
+          "foundation_profile": null,
+          "input_blend": "apps/website/art/source/riverbank.blend",
+          "input_sha256": "ffdc3a8085737038790f7a09ff5ae8176f1c43e82034524de6e08a48dc30afbf",
+          "weld_tolerance": 5e-05,
+          "vertices_before_weld": 1035510,
+          "vertices_after_weld": 946117,
+          "script": "apps/website/art/refine_atlas_ground.py"
+        }
+      },
+      "runtime_sha256": "29e34e5a55e19f6a4c173ab59c9c5029801cf428fc1148f47097338bcfff1c29",
+      "projection": "riverbank-reference.png",
+      "purpose": "original ink redraw reference, original asset left unchanged"
+    }
+  ],
+  "packing": {
+    "width": 2048,
+    "height": 3072,
+    "parts": [
+      {
+        "id": "cottage",
+        "rect": [
+          16,
+          16,
+          1008,
+          498
+        ],
+        "anchorX": 512,
+        "metres": 6.8,
+        "source": "cottage-source-v1.png",
+        "source_sha256": "63c8b9f5dc34c86c366b51ae0003afa928c5a6d4ed1c528ddf8fc2a1cbdcb2d3"
+      },
+      {
+        "id": "mountain_house",
+        "rect": [
+          1040,
+          16,
+          2032,
+          883
+        ],
+        "anchorX": 1536,
+        "metres": 6,
+        "source": "mountain_house-source-v1.png",
+        "source_sha256": "15c75150308c2f24d7c8f1de1b7bf04671cfc0b2b88642968354bef0f73e8f91"
+      },
+      {
+        "id": "riverside_house",
+        "rect": [
+          16,
+          1040,
+          1008,
+          1474
+        ],
+        "anchorX": 512,
+        "metres": 9,
+        "source": "riverside_house-source-v1.png",
+        "source_sha256": "5b89063e95ba292bbb92fd21049d36f07855981ef5a03a98a7118a9b1dc5f2f4"
+      },
+      {
+        "id": "elm",
+        "rect": [
+          1040,
+          1040,
+          2032,
+          1984
+        ],
+        "anchorX": 1725.4485360572316,
+        "metres": 6.5,
+        "source": "elm-source-v1.png",
+        "source_sha256": "47b72c366bbf3d1ac7f68d9ea29fec3fd849495ef10974faed4ac7ddda3658ca"
+      },
+      {
+        "id": "bamboo",
+        "rect": [
+          16,
+          2064,
+          1008,
+          3051
+        ],
+        "anchorX": 567.9189304706647,
+        "metres": 4.8,
+        "source": "bamboo-source-v1.png",
+        "source_sha256": "77b6fb513ac17ae6eb3af46a75f5bd35bf009173e6aa8f784ffab534a3c47f66"
+      }
+    ],
+    "bytes": 8174886,
+    "runtime_sha256": "ca94ed0f0d4556d6b8098d2827c20ef30b8f03c30aead58a6289364de39b41c1"
+  },
+  "runtime": {
+    "asset": "ink_settlement",
+    "origin": "tripo-projection-imagegen-blender",
+    "source_file": "ink-settlement/runtime.png",
+    "source_sha256": "ca94ed0f0d4556d6b8098d2827c20ef30b8f03c30aead58a6289364de39b41c1",
+    "source_blend": "ink_settlement.blend",
+    "triangles": 10,
+    "bones": 0,
+    "clips": [],
+    "bytes": 8179820,
+    "triangle_budget": 10,
+    "byte_budget": 24000000,
+    "texture_max": 3072,
+    "joint_budget": 0,
+    "primitive_budget": 5,
+    "runtime_sha256": "e5ceb258283bb684a35ca683b60d0c8e2bc7c281588b562fbcb1a2f2cb0b3f2e"
+  },
+  "scenes": [
+    "Ink scenery settlement cottage",
+    "Ink scenery settlement mountain_house",
+    "Ink scenery settlement riverside_house",
+    "Ink scenery settlement elm",
+    "Ink scenery settlement bamboo"
+  ],
+  "process": "Accepted Studio rural-building / woodland category references retained; five original style variants; no new Studio generation or credits; not botanical or historical reconstruction"
+}

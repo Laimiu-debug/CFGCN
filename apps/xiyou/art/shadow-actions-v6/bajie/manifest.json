@@ -1,0 +1,1411 @@
+{
+  "id": "bajie",
+  "name": "猪八戒",
+  "height": 1.60416,
+  "source": "apps/xiyou/art/shadow-roster-v4/bajie/bajie.blend",
+  "source_sha256": "26a5328648da213c34cde710507fccda92d42b6ae9201856cbd30b77b790babf",
+  "runtime": "bajie-actions.glb",
+  "runtime_bytes": 1985056,
+  "runtime_sha256": "b97323524072e02acbb36238c33072f51db879c83a20d6732fb4f84e064aeda7",
+  "editable": "bajie-actions.blend",
+  "clips": [
+    "Idle",
+    "Walk",
+    "RakeSweep",
+    "RakeSlam",
+    "BellyBrace",
+    "RakeHook",
+    "RakeTrip",
+    "MudWall",
+    "RollingCharge",
+    "FeastBreath",
+    "RakeVault",
+    "GroundFurrow",
+    "BellyRebound",
+    "RakePin",
+    "HitRecoil",
+    "DodgeBack",
+    "WalkLower",
+    "RakeSweep_Upper",
+    "RakeSlam_Upper",
+    "BellyBrace_Upper",
+    "RakeHook_Upper",
+    "RakeTrip_Upper",
+    "MudWall_Upper",
+    "RollingCharge_Upper",
+    "FeastBreath_Upper",
+    "RakeVault_Upper",
+    "GroundFurrow_Upper",
+    "BellyRebound_Upper",
+    "RakePin_Upper",
+    "RestPose"
+  ],
+  "modules": [
+    {
+      "clip": "RakeSweep",
+      "label": "钉耙横扫",
+      "duration": 1.1166666666666667,
+      "windup_end": 0.5248,
+      "release_end": 0.67,
+      "events": [
+        {
+          "time": 0.5248,
+          "type": "hit",
+          "socket": "weapon.tip"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.32,
+          "lean": -0.18,
+          "hand": [
+            0.0,
+            0.67
+          ],
+          "weapon": -0.65,
+          "back_hand": [
+            0.02,
+            0.65
+          ],
+          "compression": 0.035
+        },
+        {
+          "t": 0.47,
+          "lean": 0.19,
+          "hand": [
+            0.23,
+            0.57
+          ],
+          "weapon": 1.32,
+          "back_hand": [
+            0.1,
+            0.57
+          ],
+          "compression": 0.025
+        },
+        {
+          "t": 0.64,
+          "lean": 0.24,
+          "hand": [
+            0.23,
+            0.51
+          ],
+          "weapon": 1.72,
+          "back_hand": [
+            0.09,
+            0.53
+          ],
+          "compression": 0.035
+        }
+      ],
+      "two_hand": true,
+      "upper_clip": "RakeSweep_Upper",
+      "proposal": true,
+      "skill_id": "bajie.RakeSweep"
+    },
+    {
+      "clip": "RakeSlam",
+      "label": "举耙重落",
+      "duration": 1.4,
+      "windup_end": 0.784,
+      "release_end": 0.966,
+      "events": [
+        {
+          "time": 0.784,
+          "type": "hit",
+          "socket": "weapon.tip"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.34,
+          "lean": -0.16,
+          "hand": [
+            0.04,
+            0.79
+          ],
+          "weapon": -0.24,
+          "back_hand": [
+            0.02,
+            0.7
+          ],
+          "compression": 0.018
+        },
+        {
+          "t": 0.47,
+          "lean": -0.13,
+          "hand": [
+            0.04,
+            0.8
+          ],
+          "weapon": 0.02,
+          "back_hand": [
+            0.04,
+            0.73
+          ],
+          "compression": 0.01
+        },
+        {
+          "t": 0.56,
+          "lean": 0.24,
+          "hand": [
+            0.23,
+            0.53
+          ],
+          "weapon": 1.38,
+          "back_hand": [
+            0.09,
+            0.57
+          ],
+          "compression": 0.045
+        },
+        {
+          "t": 0.68,
+          "lean": 0.22,
+          "hand": [
+            0.23,
+            0.5
+          ],
+          "weapon": 1.55,
+          "back_hand": [
+            0.1,
+            0.53
+          ],
+          "compression": 0.05
+        }
+      ],
+      "two_hand": true,
+      "upper_clip": "RakeSlam_Upper",
+      "proposal": true,
+      "skill_id": "bajie.RakeSlam"
+    },
+    {
+      "clip": "BellyBrace",
+      "label": "收腹架耙 · 防守",
+      "duration": 1.2,
+      "windup_end": 0.528,
+      "release_end": 0.684,
+      "events": [
+        {
+          "time": 0.528,
+          "type": "guard",
+          "socket": "hand.back"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.24,
+          "lean": 0.08,
+          "hand": [
+            0.07,
+            0.57
+          ],
+          "weapon": 0.2,
+          "back_hand": [
+            -0.02,
+            0.61
+          ],
+          "compression": 0.035
+        },
+        {
+          "t": 0.44,
+          "lean": 0.18,
+          "hand": [
+            0.12,
+            0.63
+          ],
+          "weapon": 0.5,
+          "back_hand": [
+            0.1,
+            0.63
+          ],
+          "compression": 0.05
+        },
+        {
+          "t": 0.76,
+          "lean": 0.13,
+          "hand": [
+            0.12,
+            0.63
+          ],
+          "weapon": 0.5,
+          "back_hand": [
+            0.1,
+            0.63
+          ],
+          "compression": 0.045
+        }
+      ],
+      "two_hand": false,
+      "upper_clip": "BellyBrace_Upper",
+      "proposal": true,
+      "skill_id": "bajie.BellyBrace"
+    },
+    {
+      "clip": "RakeHook",
+      "label": "倒耙牵敌",
+      "duration": 1.25,
+      "windup_end": 0.675,
+      "release_end": 0.8375,
+      "events": [
+        {
+          "time": 0.675,
+          "type": "pull",
+          "socket": "weapon.tip"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.28,
+          "lean": 0.19,
+          "hand": [
+            0.27,
+            0.63
+          ],
+          "weapon": 1.48,
+          "back_hand": [
+            0.12,
+            0.63
+          ],
+          "compression": 0.03
+        },
+        {
+          "t": 0.43,
+          "lean": 0.15,
+          "hand": [
+            0.27,
+            0.59
+          ],
+          "weapon": 1.61,
+          "back_hand": [
+            0.13,
+            0.59
+          ],
+          "compression": 0.035
+        },
+        {
+          "t": 0.54,
+          "lean": -0.15,
+          "hand": [
+            0.02,
+            0.63
+          ],
+          "weapon": 1.08,
+          "back_hand": [
+            0.02,
+            0.63
+          ],
+          "compression": 0.04
+        },
+        {
+          "t": 0.72,
+          "lean": -0.12,
+          "hand": [
+            0.02,
+            0.66
+          ],
+          "weapon": 0.73,
+          "back_hand": [
+            0.02,
+            0.64
+          ],
+          "compression": 0.025
+        }
+      ],
+      "two_hand": true,
+      "upper_clip": "RakeHook_Upper",
+      "skill_id": "bajie.RakeHook"
+    },
+    {
+      "clip": "RakeTrip",
+      "label": "横耙绊足",
+      "duration": 1.15,
+      "windup_end": 0.5635,
+      "release_end": 0.713,
+      "events": [
+        {
+          "time": 0.5635,
+          "type": "trip",
+          "socket": "weapon.tip"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.27,
+          "lean": -0.12,
+          "hand": [
+            0.02,
+            0.63
+          ],
+          "weapon": 1.18,
+          "back_hand": [
+            0.02,
+            0.61
+          ],
+          "compression": 0.035
+        },
+        {
+          "t": 0.49,
+          "lean": 0.23,
+          "hand": [
+            0.24,
+            0.51
+          ],
+          "weapon": 1.76,
+          "back_hand": [
+            0.11,
+            0.54
+          ],
+          "compression": 0.065
+        },
+        {
+          "t": 0.66,
+          "lean": 0.19,
+          "hand": [
+            0.22,
+            0.5
+          ],
+          "weapon": 1.88,
+          "back_hand": [
+            0.1,
+            0.52
+          ],
+          "compression": 0.06
+        }
+      ],
+      "two_hand": true,
+      "upper_clip": "RakeTrip_Upper",
+      "skill_id": "bajie.RakeTrip"
+    },
+    {
+      "clip": "MudWall",
+      "label": "泥涧筑垒",
+      "duration": 1.45,
+      "windup_end": 0.8265,
+      "release_end": 1.015,
+      "events": [
+        {
+          "time": 0.8265,
+          "type": "terrain_slow",
+          "socket": "weapon.tip"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.3,
+          "lean": -0.13,
+          "hand": [
+            0.04,
+            0.78
+          ],
+          "weapon": -0.2,
+          "back_hand": [
+            0.02,
+            0.7
+          ],
+          "compression": 0.02
+        },
+        {
+          "t": 0.43,
+          "lean": -0.09,
+          "hand": [
+            0.06,
+            0.77
+          ],
+          "weapon": 0.03,
+          "back_hand": [
+            0.04,
+            0.72
+          ],
+          "compression": 0.015
+        },
+        {
+          "t": 0.57,
+          "lean": 0.23,
+          "hand": [
+            0.23,
+            0.52
+          ],
+          "weapon": 1.48,
+          "back_hand": [
+            0.1,
+            0.56
+          ],
+          "compression": 0.06
+        },
+        {
+          "t": 0.75,
+          "lean": 0.15,
+          "hand": [
+            0.22,
+            0.53
+          ],
+          "weapon": 1.5,
+          "back_hand": [
+            0.1,
+            0.54
+          ],
+          "compression": 0.05
+        }
+      ],
+      "two_hand": true,
+      "upper_clip": "MudWall_Upper",
+      "skill_id": "bajie.MudWall"
+    },
+    {
+      "clip": "RollingCharge",
+      "label": "挺腹冲阵",
+      "duration": 1.1,
+      "windup_end": 0.616,
+      "release_end": 0.759,
+      "events": [
+        {
+          "time": 0.616,
+          "type": "charge",
+          "socket": "actor"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.23,
+          "lean": -0.1,
+          "hand": [
+            0.07,
+            0.59
+          ],
+          "weapon": 0.3,
+          "back_hand": [
+            0.01,
+            0.64
+          ],
+          "compression": 0.06
+        },
+        {
+          "t": 0.44,
+          "lean": 0.22,
+          "hand": [
+            0.15,
+            0.61
+          ],
+          "weapon": 0.58,
+          "back_hand": [
+            0.1,
+            0.65
+          ],
+          "compression": 0.06
+        },
+        {
+          "t": 0.56,
+          "lean": 0.3,
+          "hand": [
+            0.17,
+            0.6
+          ],
+          "weapon": 0.65,
+          "back_hand": [
+            0.11,
+            0.64
+          ],
+          "compression": 0.065
+        },
+        {
+          "t": 0.78,
+          "lean": 0.14,
+          "hand": [
+            0.14,
+            0.6
+          ],
+          "weapon": 0.43,
+          "back_hand": [
+            0.08,
+            0.64
+          ],
+          "compression": 0.04
+        }
+      ],
+      "two_hand": false,
+      "upper_clip": "RollingCharge_Upper",
+      "skill_id": "bajie.RollingCharge"
+    },
+    {
+      "clip": "FeastBreath",
+      "label": "纳气回元",
+      "duration": 1.8,
+      "windup_end": 1.08,
+      "release_end": 1.314,
+      "events": [
+        {
+          "time": 1.08,
+          "type": "self_heal",
+          "socket": "hand.back"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.22,
+          "lean": 0.15,
+          "hand": [
+            0.12,
+            0.56
+          ],
+          "weapon": 0.2,
+          "back_hand": [
+            0.02,
+            0.52
+          ],
+          "compression": 0.055
+        },
+        {
+          "t": 0.43,
+          "lean": 0.02,
+          "hand": [
+            0.12,
+            0.65
+          ],
+          "weapon": -0.03,
+          "back_hand": [
+            0.05,
+            0.67
+          ],
+          "compression": 0.03
+        },
+        {
+          "t": 0.6,
+          "lean": -0.06,
+          "hand": [
+            0.13,
+            0.7
+          ],
+          "weapon": -0.1,
+          "back_hand": [
+            0.09,
+            0.75
+          ],
+          "compression": 0.015
+        },
+        {
+          "t": 0.8,
+          "lean": -0.02,
+          "hand": [
+            0.13,
+            0.68
+          ],
+          "weapon": -0.04,
+          "back_hand": [
+            0.09,
+            0.72
+          ],
+          "compression": 0.02
+        }
+      ],
+      "two_hand": false,
+      "upper_clip": "FeastBreath_Upper",
+      "skill_id": "bajie.FeastBreath"
+    },
+    {
+      "clip": "RakeVault",
+      "label": "腾耙越阵 · 支耙短跃",
+      "duration": 1.5,
+      "windup_end": 1.08,
+      "release_end": 1.275,
+      "events": [
+        {
+          "time": 0.27,
+          "type": "vault_takeoff",
+          "socket": "actor"
+        },
+        {
+          "time": 1.08,
+          "type": "vault_land",
+          "socket": "actor"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.14,
+          "lean": 0.22,
+          "hand": [
+            0.14,
+            0.56
+          ],
+          "weapon": 0.38,
+          "back_hand": [
+            0.06,
+            0.6
+          ],
+          "compression": 0.065
+        },
+        {
+          "t": 0.24,
+          "lean": 0.17,
+          "hand": [
+            0.12,
+            0.67
+          ],
+          "weapon": 0.4,
+          "back_hand": [
+            0.06,
+            0.63
+          ],
+          "compression": 0.04
+        },
+        {
+          "t": 0.46,
+          "lean": -0.06,
+          "hand": [
+            0.11,
+            0.72
+          ],
+          "weapon": 0.65,
+          "back_hand": [
+            0.02,
+            0.66
+          ],
+          "compression": 0.02
+        },
+        {
+          "t": 0.64,
+          "lean": 0.17,
+          "hand": [
+            0.19,
+            0.58
+          ],
+          "weapon": 1.25,
+          "back_hand": [
+            0.1,
+            0.59
+          ],
+          "compression": 0.055
+        },
+        {
+          "t": 0.72,
+          "lean": 0.26,
+          "hand": [
+            0.23,
+            0.52
+          ],
+          "weapon": 1.48,
+          "back_hand": [
+            0.1,
+            0.54
+          ],
+          "compression": 0.075
+        },
+        {
+          "t": 0.85,
+          "lean": 0.12,
+          "hand": [
+            0.16,
+            0.58
+          ],
+          "weapon": 0.6,
+          "back_hand": [
+            0.07,
+            0.62
+          ],
+          "compression": 0.04
+        }
+      ],
+      "two_hand": true,
+      "upper_clip": "RakeVault_Upper",
+      "skill_id": "bajie.RakeVault",
+      "name": "腾耙破阵 · 支耙下压"
+    },
+    {
+      "clip": "GroundFurrow",
+      "label": "犁地断锋 · 压耙犁地",
+      "duration": 1.65,
+      "windup_end": 0.7095,
+      "release_end": 1.122,
+      "events": [
+        {
+          "time": 0.7095,
+          "type": "furrow",
+          "socket": "weapon.tip"
+        },
+        {
+          "time": 1.0395,
+          "type": "furrow_follow",
+          "socket": "weapon.tip"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.25,
+          "lean": 0.14,
+          "hand": [
+            0.12,
+            0.54
+          ],
+          "weapon": 1.52,
+          "back_hand": [
+            0.03,
+            0.56
+          ],
+          "compression": 0.055
+        },
+        {
+          "t": 0.43,
+          "lean": 0.28,
+          "hand": [
+            0.25,
+            0.43
+          ],
+          "weapon": 1.74,
+          "back_hand": [
+            0.11,
+            0.47
+          ],
+          "compression": 0.075
+        },
+        {
+          "t": 0.66,
+          "lean": 0.22,
+          "hand": [
+            0.28,
+            0.44
+          ],
+          "weapon": 1.68,
+          "back_hand": [
+            0.14,
+            0.48
+          ],
+          "compression": 0.07
+        },
+        {
+          "t": 0.79,
+          "lean": 0.09,
+          "hand": [
+            0.2,
+            0.55
+          ],
+          "weapon": 1.18,
+          "back_hand": [
+            0.1,
+            0.56
+          ],
+          "compression": 0.035
+        }
+      ],
+      "two_hand": true,
+      "upper_clip": "GroundFurrow_Upper",
+      "skill_id": "bajie.GroundFurrow"
+    },
+    {
+      "clip": "BellyRebound",
+      "label": "鼓腹反震 · 张臂承击",
+      "duration": 1.65,
+      "windup_end": 0.495,
+      "release_end": 1.3035,
+      "events": [
+        {
+          "time": 0.495,
+          "type": "belly_open",
+          "socket": "actor"
+        },
+        {
+          "time": 1.2375,
+          "type": "belly_release",
+          "socket": "actor"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.2,
+          "lean": -0.1,
+          "hand": [
+            0.08,
+            0.67
+          ],
+          "weapon": -0.2,
+          "back_hand": [
+            -0.1,
+            0.69
+          ],
+          "compression": 0.025
+        },
+        {
+          "t": 0.3,
+          "lean": -0.15,
+          "hand": [
+            0.08,
+            0.69
+          ],
+          "weapon": -0.25,
+          "back_hand": [
+            -0.13,
+            0.73
+          ],
+          "compression": 0.02
+        },
+        {
+          "t": 0.62,
+          "lean": -0.15,
+          "hand": [
+            0.08,
+            0.69
+          ],
+          "weapon": -0.25,
+          "back_hand": [
+            -0.13,
+            0.73
+          ],
+          "compression": 0.02
+        },
+        {
+          "t": 0.76,
+          "lean": 0.23,
+          "hand": [
+            0.18,
+            0.59
+          ],
+          "weapon": 0.45,
+          "back_hand": [
+            0.23,
+            0.62
+          ],
+          "compression": 0.065
+        }
+      ],
+      "two_hand": false,
+      "upper_clip": "BellyRebound_Upper",
+      "skill_id": "bajie.BellyRebound"
+    },
+    {
+      "clip": "RakePin",
+      "label": "天蓬九重耙",
+      "duration": 2.1,
+      "windup_end": 0.714,
+      "release_end": 1.764,
+      "events": [
+        {
+          "time": 0.714,
+          "type": "pin_start",
+          "socket": "weapon.tip"
+        },
+        {
+          "time": 1.134,
+          "type": "pin_pulse",
+          "socket": "weapon.tip"
+        },
+        {
+          "time": 1.575,
+          "type": "pin_end",
+          "socket": "weapon.tip"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.2,
+          "lean": -0.16,
+          "hand": [
+            0.04,
+            0.8
+          ],
+          "weapon": -0.22,
+          "back_hand": [
+            0.02,
+            0.72
+          ],
+          "compression": 0.02
+        },
+        {
+          "t": 0.34,
+          "lean": 0.23,
+          "hand": [
+            0.23,
+            0.57
+          ],
+          "weapon": 1.35,
+          "back_hand": [
+            0.1,
+            0.59
+          ],
+          "compression": 0.055
+        },
+        {
+          "t": 0.43,
+          "lean": -0.06,
+          "hand": [
+            0.08,
+            0.76
+          ],
+          "weapon": -0.08,
+          "back_hand": [
+            0.03,
+            0.7
+          ],
+          "compression": 0.025
+        },
+        {
+          "t": 0.54,
+          "lean": 0.25,
+          "hand": [
+            0.24,
+            0.55
+          ],
+          "weapon": 1.42,
+          "back_hand": [
+            0.11,
+            0.57
+          ],
+          "compression": 0.065
+        },
+        {
+          "t": 0.64,
+          "lean": -0.08,
+          "hand": [
+            0.07,
+            0.78
+          ],
+          "weapon": -0.16,
+          "back_hand": [
+            0.02,
+            0.72
+          ],
+          "compression": 0.02
+        },
+        {
+          "t": 0.75,
+          "lean": 0.27,
+          "hand": [
+            0.23,
+            0.56
+          ],
+          "weapon": 1.4,
+          "back_hand": [
+            0.1,
+            0.58
+          ],
+          "compression": 0.06
+        },
+        {
+          "t": 0.86,
+          "lean": 0.08,
+          "hand": [
+            0.15,
+            0.63
+          ],
+          "weapon": 0.4,
+          "back_hand": [
+            0.06,
+            0.64
+          ],
+          "compression": 0.03
+        }
+      ],
+      "two_hand": true,
+      "upper_clip": "RakePin_Upper",
+      "skill_id": "bajie.RakePin",
+      "ultimate": true
+    },
+    {
+      "clip": "HitRecoil",
+      "label": "受击 · 后仰缓冲",
+      "duration": 0.55,
+      "windup_end": 0.066,
+      "release_end": 0.1375,
+      "events": [
+        {
+          "time": 0.066,
+          "type": "hurt",
+          "socket": "actor"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.12,
+          "lean": -0.18,
+          "hand": [
+            0.09,
+            0.62
+          ],
+          "weapon": -0.1,
+          "back_hand": [
+            -0.04,
+            0.66
+          ],
+          "compression": 0.035
+        },
+        {
+          "t": 0.35,
+          "lean": 0.08,
+          "hand": [
+            0.13,
+            0.61
+          ],
+          "weapon": 0.1,
+          "back_hand": [
+            0.02,
+            0.65
+          ],
+          "compression": 0.045
+        },
+        {
+          "t": 0.65,
+          "lean": 0.04,
+          "hand": [
+            0.13,
+            0.61
+          ],
+          "weapon": 0.08,
+          "back_hand": [
+            0.02,
+            0.64
+          ],
+          "compression": 0.02
+        }
+      ],
+      "two_hand": false,
+      "upper_clip": null,
+      "skill_id": null
+    },
+    {
+      "clip": "DodgeBack",
+      "label": "闪避 · 后撤换步",
+      "duration": 0.45,
+      "windup_end": 0.08,
+      "release_end": 0.32,
+      "events": [
+        {
+          "time": 0.08,
+          "type": "dodge",
+          "socket": "actor"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.24,
+          "lean": -0.1,
+          "hand": [
+            0.1,
+            0.61
+          ],
+          "weapon": -0.12,
+          "back_hand": [
+            -0.02,
+            0.66
+          ],
+          "compression": 0.045
+        },
+        {
+          "t": 0.45,
+          "lean": -0.13,
+          "hand": [
+            0.11,
+            0.64
+          ],
+          "weapon": -0.16,
+          "back_hand": [
+            0.04,
+            0.68
+          ],
+          "compression": 0.06
+        },
+        {
+          "t": 0.72,
+          "lean": -0.03,
+          "hand": [
+            0.12,
+            0.62
+          ],
+          "weapon": 0.0,
+          "back_hand": [
+            0.02,
+            0.65
+          ],
+          "compression": 0.025
+        }
+      ],
+      "two_hand": false,
+      "upper_clip": null,
+      "root_motion": {
+        "axis": "facing-x",
+        "distance": -0.3529,
+        "keys": [
+          [
+            0,
+            0
+          ],
+          [
+            0.14,
+            0
+          ],
+          [
+            0.88,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "application": "external collision-aware displacement; not baked into bone translation"
+      },
+      "skill_id": null,
+      "airborne": {
+        "start": 0.16,
+        "end": 0.8,
+        "height_ratio": 0.07
+      }
+    }
+  ],
+  "upper_mask": [
+    "abdomen",
+    "body",
+    "head",
+    "upper_arm.back",
+    "forearm.back",
+    "upper_arm.front",
+    "forearm.front",
+    "weapon",
+    "accessory"
+  ],
+  "lower_mask": [
+    "pelvis",
+    "thigh.back",
+    "shin.back",
+    "foot.back",
+    "thigh.front",
+    "shin.front",
+    "foot.front"
+  ],
+  "offhand_ik_max_error": 3.0719530773294425e-07,
+  "back_hand_surface_marker": [
+    0.6714285714285714,
+    0.17000000000000004
+  ],
+  "weapon_grip_surface_marker": [
+    0.5009862184524536,
+    0.36982738971710205
+  ],
+  "surface_sockets": {
+    "hand.back": {
+      "part": "forearm.back",
+      "uv": [
+        0.6714285714285714,
+        0.17000000000000004
+      ]
+    },
+    "weapon": {
+      "part": "weapon",
+      "uv": [
+        0.5009862184524536,
+        0.36982738971710205
+      ]
+    },
+    "weapon.tip": {
+      "part": "weapon",
+      "uv": [
+        0.4940711557865143,
+        0.9979605674743652
+      ]
+    },
+    "actor": {
+      "bone": "pelvis",
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    "foot.front": {
+      "bone": "foot.front",
+      "offset": [
+        0,
+        0,
+        0
+      ],
+      "meaning": "ankle; resolve terrain contact externally"
+    },
+    "hand.front": {
+      "part": "forearm.front",
+      "uv": [
+        0.4107142857142857,
+        0.17000000000000004
+      ]
+    }
+  },
+  "walk_period": 1.4,
+  "walk_distance": 0.4148220498653382,
+  "status": "used in five-person map trial; final art and campaign integration pending",
+  "in_game": true,
+  "arm_width_factors": [
+    1.45,
+    1.4
+  ],
+  "arm_review_status": "v5 compact body, grounded skills and explicit dodge; visual review pending",
+  "body_proportions": {
+    "leg_scale": 0.82,
+    "torso_scale": 0.92,
+    "body_width": 1.14,
+    "weapon_length": 0.79
+  },
+  "original_height": 1.8,
+  "grip_distance_ratio": 0.18,
+  "arm_surface_markers": {
+    "front": {
+      "upper_arm": [
+        0.3526323437690735,
+        0.13243155181407928
+      ],
+      "forearm": [
+        0.6246784925460815,
+        0.8975460529327393
+      ],
+      "body": [
+        0.7753164768218994,
+        0.7812499403953552
+      ],
+      "shoulder": [
+        0.7193161845207214,
+        0.8629785180091858
+      ]
+    },
+    "back": {
+      "upper_arm": [
+        0.7269275188446045,
+        0.13867422938346863
+      ],
+      "forearm": [
+        0.23407141864299774,
+        0.9095633029937744
+      ],
+      "body": [
+        0.1509493738412857,
+        0.7475694417953491
+      ],
+      "shoulder": [
+        0.2176579087972641,
+        0.8602311611175537
+      ]
+    }
+  },
+  "elbow_caps": {
+    "upper_arm.front": {
+      "source_height": 300,
+      "elbow_pixel": [
+        47.958,
+        196.008
+      ],
+      "visible_end": 225.928
+    },
+    "upper_arm.back": {
+      "source_height": 328,
+      "elbow_pixel": [
+        110.493,
+        207.701
+      ],
+      "visible_end": 241.141
+    }
+  },
+  "arm_structure_revision": "upper sleeve native quad/UV trimmed beyond elbow; original raster unchanged",
+  "arm_cross_axis_aspect": [
+    0.88,
+    0.88
+  ],
+  "shoulder_source_pixels": {
+    "back": [
+      47.7,
+      72.7
+    ],
+    "front": [
+      245,
+      63
+    ]
+  },
+  "native_export_hz": 120,
+  "inspection_bounds": {
+    "RakeSweep": [
+      -0.9971419397043064,
+      -0.0628494992852211,
+      1.4427017745329067,
+      2.170340061187744
+    ],
+    "RakeSlam": [
+      -0.6922013583825901,
+      -0.07611832767724991,
+      1.4390389499021694,
+      2.344754934310913
+    ],
+    "BellyBrace": [
+      -0.6404577317880467,
+      -0.08086234331130981,
+      0.9572597917867824,
+      2.0634584426879883
+    ],
+    "RakeHook": [
+      -0.6757010045694187,
+      -0.07225315272808075,
+      1.4867915686918423,
+      2.068662166595459
+    ],
+    "RakeTrip": [
+      -0.6745624366449192,
+      -0.0940113216638565,
+      1.4552340087248012,
+      2.0426723957061768
+    ],
+    "MudWall": [
+      -0.6780648055719212,
+      -0.0900578498840332,
+      1.4235038337064907,
+      2.3277406692504883
+    ],
+    "RollingCharge": [
+      -0.6627660217927769,
+      -0.09609788656234741,
+      1.1416040238691494,
+      2.0282070636749268
+    ],
+    "FeastBreath": [
+      -0.655575794284232,
+      -0.08076827228069305,
+      0.6994539675069973,
+      2.1789371967315674
+    ],
+    "RakeVault": [
+      -0.6564219418214634,
+      -0.10031725466251373,
+      1.4266095933271572,
+      2.164306163787842
+    ],
+    "GroundFurrow": [
+      -0.640395027701743,
+      -0.10169361531734467,
+      1.444718795712106,
+      1.9969121217727661
+    ],
+    "BellyRebound": [
+      -0.6768462482141331,
+      -0.09115956723690033,
+      1.0137797173811123,
+      2.181670904159546
+    ],
+    "RakePin": [
+      -0.6860995116876438,
+      -0.0922037810087204,
+      1.4500070390058681,
+      2.3568828105926514
+    ],
+    "HitRecoil": [
+      -0.6849289956735447,
+      -0.06899714469909668,
+      0.6768385943723843,
+      2.0505151748657227
+    ],
+    "DodgeBack": [
+      -0.6710652533220127,
+      -0.050747282803058624,
+      0.6768385943723843,
+      2.204298496246338
+    ]
+  },
+  "integration": {
+    "mode": "five-person map trial",
+    "asset": "shadow/bajie.glb",
+    "hero_skills": 12,
+    "enemy_basic_attacks": 0,
+    "campaign": false
+  }
+}

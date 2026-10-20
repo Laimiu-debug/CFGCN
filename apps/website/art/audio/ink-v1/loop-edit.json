@@ -1,0 +1,80 @@
+{
+  "menu": {
+    "source": ".local/audio/runway-ink-v1/music/01-menu.mp3",
+    "sourceSha256": "f8901cae21b957de888ba628bebcb6339b6ef80c7697c0b4ef1bfeffeeb5cc2b",
+    "originalSha256": "2739b013661dac26817d5145505e2df4019fa764ca6494109c391aa94347d6c4",
+    "headFrame": 9600,
+    "periodFrames": 508235,
+    "crossfadeFrames": 76800,
+    "method": "one-time intro, raised-cosine tail/head overlap, PCM sample loop",
+    "joinQA": {
+      "wrapDelta": 0.015382260084152222,
+      "nearbyAdjacentP99": 0.04416410252451897,
+      "rmsBefore100ms": 0.057762664335448397,
+      "rmsAfter100ms": 0.16461554503393785,
+      "zeroFramesAtJoin": 0
+    }
+  },
+  "exploration": {
+    "source": ".local/audio/runway-ink-v1/music/02-exploration.mp3",
+    "sourceSha256": "2a9cfae954c2819c700ef375ede49302fcfb2d344e6389631c597db10a70b8f4",
+    "originalSha256": "711335990d2c03e898ef81e12d5187df8169b1765690185766ee25c6c8c7d6d0",
+    "headFrame": 14400,
+    "periodFrames": 1047273,
+    "crossfadeFrames": 65280,
+    "method": "one-time intro, raised-cosine tail/head overlap, PCM sample loop",
+    "joinQA": {
+      "wrapDelta": 0.0030444879084825516,
+      "nearbyAdjacentP99": 0.01683461293578148,
+      "rmsBefore100ms": 0.08203360554780366,
+      "rmsAfter100ms": 0.07774655113644136,
+      "zeroFramesAtJoin": 0
+    }
+  },
+  "battle": {
+    "source": ".local/audio/runway-ink-v1/music/03-battle.mp3",
+    "sourceSha256": "23c8c7fbf5bbc33dadb381c3a60f2015d17141708e9bcb7b0f6c7e84089e9e76",
+    "originalSha256": "2f390beceff71e3d98e6a084fef6606b7e1c77b4d9531dc865f38de22e38064f",
+    "headFrame": 12000,
+    "periodFrames": 1171525,
+    "crossfadeFrames": 48960,
+    "method": "one-time intro, raised-cosine tail/head overlap, PCM sample loop",
+    "joinQA": {
+      "wrapDelta": 0.0026554688811302185,
+      "nearbyAdjacentP99": 0.06455262005329132,
+      "rmsBefore100ms": 0.13375789955914777,
+      "rmsAfter100ms": 0.09597232823992984,
+      "zeroFramesAtJoin": 0
+    }
+  },
+  "environment-wind": {
+    "sourceSha256": "3f65daba9d9d64dc219d48dc0bf8ad55e86aea9dd01c5538fb00e0987ab4f717",
+    "joinQA": {
+      "wrapDelta": 0.0032553570345044136,
+      "nearbyAdjacentP99": 0.003815119620412588,
+      "rmsBefore100ms": 0.01870283588816712,
+      "rmsAfter100ms": 0.01851070486068518,
+      "zeroFramesAtJoin": 0
+    }
+  },
+  "environment-water": {
+    "sourceSha256": "431302326d99860ba2f51ec361ea222fcbafb59d9ba58c0c4bdd74b20b426ea5",
+    "joinQA": {
+      "wrapDelta": 0.00960824266076088,
+      "nearbyAdjacentP99": 0.022746017202734947,
+      "rmsBefore100ms": 0.017238486132621668,
+      "rmsAfter100ms": 0.017369052006640708,
+      "zeroFramesAtJoin": 0
+    }
+  },
+  "environment-birds": {
+    "sourceSha256": "0ebe3e6e516aba769004310a851c8f3406474a4f20fad2384a447df0220b4592",
+    "joinQA": {
+      "wrapDelta": 0.0,
+      "nearbyAdjacentP99": 0.0,
+      "rmsBefore100ms": 0.0,
+      "rmsAfter100ms": 0.0,
+      "zeroFramesAtJoin": 9600
+    }
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "version": 1,
+  "date": "2026-10-20",
+  "music": {
+    "menu": {
+      "url": "/audio/ink-v1/menu-913070495ec5.wav",
+      "sha256": "913070495ec58d58be90c6e142be534a138b081fa268c7f84d0b41a2ab8b640f",
+      "bytes": 2378584,
+      "duration": 12.388229166666667,
+      "sampleRate": 48000,
+      "frames": 594635,
+      "peak": 0.4716330454420606,
+      "loopStart": 1.8,
+      "loopEnd": 12.388229166666667,
+      "loopStartFrame": 86400,
+      "loopEndFrame": 594635,
+      "periodFrames": 508235
+    },
+    "exploration": {
+      "url": "/audio/ink-v1/exploration-4bf76654e71e.wav",
+      "sha256": "4bf76654e71e36c9b923b219e097c3bd14a9132c98a73a43c88aa77356ff9678",
+      "bytes": 4507856,
+      "duration": 23.4781875,
+      "sampleRate": 48000,
+      "frames": 1126953,
+      "peak": 0.46128727072969755,
+      "loopStart": 1.66,
+      "loopEnd": 23.4781875,
+      "loopStartFrame": 79680,
+      "loopEndFrame": 1126953,
+      "periodFrames": 1047273
+    },
+    "battle": {
+      "url": "/audio/ink-v1/battle-371dea217d0d.wav",
+      "sha256": "371dea217d0d17005bd7ecae5b1adaa51b701b980c0e75cf2f9c40af5a273a96",
+      "bytes": 4929984,
+      "duration": 25.676770833333332,
+      "sampleRate": 48000,
+      "frames": 1232485,
+      "peak": 0.5243995483260597,
+      "loopStart": 1.27,
+      "loopEnd": 25.676770833333332,
+      "loopStartFrame": 60960,
+      "loopEndFrame": 1232485,
+      "periodFrames": 1171525
+    }
+  },
+  "environment": {
+    "wind": {
+      "url": "/audio/ink-v1/environment-wind-58f7fa966131.wav",
+      "sha256": "58f7fa966131a4a716905470e9b079da563c3f33da261d1c8294c169fda6305e",
+      "bytes": 4608044,
+      "duration": 24.0,
+      "sampleRate": 48000,
+      "frames": 1152000,
+      "peak": 0.10345774712363048,
+      "loopStart": 0,
+      "loopEnd": 24.0
+    },
+    "water": {
+      "url": "/audio/ink-v1/environment-water-a591840d21e6.wav",
+      "sha256": "a591840d21e6f9f4c983e3ec75d6ba9c777e9a846cf9d56b163595c67ef9a521",
+      "bytes": 4608044,
+      "duration": 24.0,
+      "sampleRate": 48000,
+      "frames": 1152000,
+      "peak": 0.09094515823847163,
+      "loopStart": 0,
+      "loopEnd": 24.0
+    },
+    "birds": {
+      "url": "/audio/ink-v1/environment-birds-f7694c8e02e0.wav",
+      "sha256": "f7694c8e02e0f3ab9d81d51fe10c5f32f8d84273b72e93f66352cddd7a0e4470",
+      "bytes": 4608044,
+      "duration": 24.0,
+      "sampleRate": 48000,
+      "frames": 1152000,
+      "peak": 0.012115848261970886,
+      "loopStart": 0,
+      "loopEnd": 24.0
+    }
+  },
+  "effects": {
+    "defeat": {
+      "url": "/audio/ink-v1/defeat-ca2af72dea2d.mp3",
+      "sha256": "ca2af72dea2d3d222acb9439fb86a282d6e0ce3a89f44d2e27534e2531c93202",
+      "bytes": 71041
+    },
+    "footstep-earth": {
+      "url": "/audio/ink-v1/footstep-earth-09bc352e412a.mp3",
+      "sha256": "09bc352e412addf6212028a6786dc240d37284a21f1e4155a63fb846a063ea08",
+      "bytes": 11721
+    },
+    "footstep-stone": {
+      "url": "/audio/ink-v1/footstep-stone-12d6ca966f06.mp3",
+      "sha256": "12d6ca966f0617a3f85f7f7dfaddf125afff36fe53685d7d8c65f08879322bb7",
+      "bytes": 10569
+    },
+    "ink-spell": {
+      "url": "/audio/ink-v1/ink-spell-bfd475e7770a.mp3",
+      "sha256": "bfd475e7770ad831bf57e0c07bfe2b64682667cda8066c35a240df167e5ed11a",
+      "bytes": 35332
+    },
+    "metal-impact": {
+      "url": "/audio/ink-v1/metal-impact-fd78f347a60f.mp3",
+      "sha256": "fd78f347a60fa04c2bafc84708f32d6623bc66055f261751b9397d5001f93f8b",
+      "bytes": 27847
+    },
+    "pickup": {
+      "url": "/audio/ink-v1/pickup-a78caba30644.mp3",
+      "sha256": "a78caba306444e01fb1957837071ebf41629331b05a459e034fe09b90b20b23c",
+      "bytes": 28993
+    },
+    "piece-place": {
+      "url": "/audio/ink-v1/piece-place-2894890d7b10.mp3",
+      "sha256": "2894890d7b1014647bf82f5719f6c0a4c8903e16c99a599c8fbc8be7d315a9b4",
+      "bytes": 12294
+    },
+    "ui-cancel": {
+      "url": "/audio/ink-v1/ui-cancel-4827de53d699.mp3",
+      "sha256": "4827de53d699ad384404f78f5d212627cd19cd681b526e8b66fda35a67fe6693",
+      "bytes": 9988
+    },
+    "ui-confirm": {
+      "url": "/audio/ink-v1/ui-confirm-a5200a9b881c.mp3",
+      "sha256": "a5200a9b881cd45fc3d11b8f598a925716a94577a951f22caf58b96c1cb3069e",
+      "bytes": 15749
+    },
+    "ui-hover": {
+      "url": "/audio/ink-v1/ui-hover-f002e3686696.mp3",
+      "sha256": "f002e368669624aedc4ca49ec4c242cf0ed7291dd5105b3c7755db25ef23b39b",
+      "bytes": 7107
+    },
+    "victory": {
+      "url": "/audio/ink-v1/victory-e4b02a939733.mp3",
+      "sha256": "e4b02a9397330756e0190e4a2e65df18e94a68b2d2a08f3bd7e3cfe45992a97a",
+      "bytes": 68738
+    },
+    "warning": {
+      "url": "/audio/ink-v1/warning-e07740746a60.mp3",
+      "sha256": "e07740746a60d33f3ba24f4a5140948afa10c1ee9472a6ca61647e7c25e2466d",
+      "bytes": 27842
+    },
+    "water-spell": {
+      "url": "/audio/ink-v1/water-spell-a814df0adda6.mp3",
+      "sha256": "a814df0adda676cc7131209dbcc9a2f84110b66ae627a70c25f3065bf9d2704f",
+      "bytes": 33030
+    },
+    "weapon-whoosh": {
+      "url": "/audio/ink-v1/weapon-whoosh-cd151dbe2655.mp3",
+      "sha256": "cd151dbe2655e9193682d51ecd3cbeaa9e1e47dfd7ec92eaf5878b5ed692abde",
+      "bytes": 16328
+    },
+    "wood-impact": {
+      "url": "/audio/ink-v1/wood-impact-2fe0bbe324b1.mp3",
+      "sha256": "2fe0bbe324b15f81321f52d486d5ee08bc76eaebac437512ffa977f049db56d2",
+      "bytes": 18630
+    }
+  }
+}

@@ -1,5 +1,24 @@
 import type { Locale, WorldDefinition } from '@cfgcn/shared';
-import type { CSSProperties } from 'react';
+import { portalHref } from '@cfgcn/shared';
+import type { ButtonHTMLAttributes, CSSProperties } from 'react';
+
+type ButtonVariant = 'primary' | 'secondary' | 'quiet' | 'icon' | 'portrait' | 'choice' | 'control';
+export function Button({
+  variant = 'quiet',
+  className = '',
+  type = 'button',
+  disabled,
+  ...props
+}: ButtonHTMLAttributes<HTMLButtonElement> & { variant?: ButtonVariant }) {
+  return (
+    <button
+      {...props}
+      type={type}
+      disabled={disabled || props['aria-busy'] === true || props['aria-busy'] === 'true'}
+      className={`series-button series-button--${variant} ${className}`}
+    />
+  );
+}
 
 type IconName =
   | 'arrow'
@@ -73,7 +92,7 @@ export function WorldPreview({
       className="world-page"
       style={{ '--world-accent': world.accent } as CSSProperties}
     >
-      <a className="world-back" href="#/">
+      <a className="world-back" href={portalHref(window.location.hostname, locale)}>
         <span aria-hidden="true">←</span>{' '}
         {english ? 'The four worlds' : traditional ? '返回四方天地' : '返回四方天地'}
       </a>
@@ -94,7 +113,7 @@ export function WorldPreview({
         <p className="world-english">{world.englishTitle}</p>
         <p className="world-invitation">{world.invitation[locale]}</p>
         <p className="world-description">{world.description[locale]}</p>
-        <button className="button primary" onClick={onBookmark}>
+        <Button variant="primary" className="button primary" onClick={onBookmark}>
           <Icon name={bookmarked ? 'check' : 'bookmark'} size={17} />
           {english
             ? bookmarked
@@ -107,7 +126,7 @@ export function WorldPreview({
               : bookmarked
                 ? '已记入旅人手记'
                 : '记下此境'}
-        </button>
+        </Button>
       </div>
       <section
         className="world-notes container"

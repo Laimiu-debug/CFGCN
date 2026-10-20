@@ -1,0 +1,14 @@
+{
+  "version": "fine-ink-painted-study-v1",
+  "tool": "Built-in image_gen",
+  "purpose": "AI-assisted static composition and fine-brush art study, not hand-painted SVG or Blender modeling",
+  "source": "C:/Users/25647/.codex/generated_images/01a152a0-8e42-7971-8f0f-073a468e7dd7/exec-75825243-8e67-4ecc-ac32-3fcaffdcce0a.png",
+  "reference": ".local/art/ink-home-study-v1.png",
+  "source_sha256": "1f35b3e175adf6b7f120313d526aff81ddcb0ab9d3a18d008870a6f7ffc62bdc",
+  "runtime_sha256": "11206c10738de0c0ab250cb4b41bb484c80ee9c43f6177d3d28eea62ec9e2bf4",
+  "runtime_bytes": 848136,
+  "width": 1586,
+  "height": 992,
+  "failed_vector_studies": ".local/fine-ink/rejected-vector/",
+  "date": "2026-10-20"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "bajie",
+  "name": "猪八戒",
+  "status": "resource study; visual review pending",
+  "source": "OpenAI built-in image_gen; original art",
+  "source_image": "parts-source.png",
+  "source_sha256": "7361d8de801441438d6f8db90f77c58044d09a7485a0c35a98a5379d9aceaee6",
+  "prompt": "prompt.txt",
+  "woop": "bajie.woop",
+  "editable": "bajie.blend",
+  "runtime": "bajie.glb",
+  "runtime_sha256": "60fd57f7dacf1b160ec15408edb0ed1dbeff7e65a0b206ed188afc2960b302f8",
+  "runtime_bytes": 1178280,
+  "texture_size": [
+    1024,
+    1024
+  ],
+  "source_texture_size": [
+    1254,
+    1254
+  ],
+  "parts": 16,
+  "joints": 15,
+  "bones": 16,
+  "anatomy": "chest -> abdomen -> pelvis -> thighs",
+  "triangles": 32,
+  "materials": 1,
+  "clips": [
+    "Idle",
+    "Walk",
+    "RestPose"
+  ],
+  "importer": "Official WooooShadow 0.8.13, loaded locally in an isolated Blender process",
+  "importer_sha256": "d05e8f74c00d40c1dd1e043e5d9bc5f70b86c1c0abd6a181cba7c2d94e6b4c60",
+  "blender": "5.2.2 LTS",
+  "directions": [
+    "side-right",
+    "mirrored-side-left"
+  ],
+  "tripo": "Not used: direct original 2D puppet artwork",
+  "in_game": false
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "asset": "pine_tree",
+    "runtime_sha256": "0de7ddd79af32c19a70e92b204667630b38e2d544fd288ed7aa4cef23b494326"
+  },
+  {
+    "asset": "seal_stone",
+    "runtime_sha256": "3e37de64cf5a048a2bc6cb1fde9846e9fad6cdbdeae0c72f5f628b4594edd125"
+  },
+  {
+    "asset": "pine_rock",
+    "runtime_sha256": "0ddfefac6681419a1761a2f6f179874bf3ca3ec89aa891fd88bab48d7c23a450"
+  },
+  {
+    "asset": "mountain_shrub",
+    "runtime_sha256": "94acb4c6e7f5e6670e2516bbac86e4519a67fefd0f7556ae9956ce19bdbe9894"
+  }
+]

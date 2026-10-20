@@ -1,0 +1,3648 @@
+{
+  "version": 1,
+  "characters": [
+    {
+      "id": "tangseng",
+      "name": "唐僧",
+      "height": 2.32,
+      "source": "apps/xiyou/art/shadow-roster-v4/tangseng/tangseng.blend",
+      "source_sha256": "8ae0241d7b9e95029a1b472d7dd75f598208d91fb8d9e62c89c27479a5f80f93",
+      "runtime": "tangseng-actions.glb",
+      "runtime_bytes": 1403672,
+      "runtime_sha256": "57250430896d4656fd83fd88c6238b02ffaf4c932e1bd60c089022637c5fc7e6",
+      "editable": "tangseng-actions.blend",
+      "clips": [
+        "Idle",
+        "Walk",
+        "Chant",
+        "RobeWard",
+        "HealingVow",
+        "HitRecoil",
+        "DodgeBack",
+        "WalkLower",
+        "Chant_Upper",
+        "RobeWard_Upper",
+        "HealingVow_Upper",
+        "RestPose"
+      ],
+      "modules": [
+        {
+          "clip": "Chant",
+          "label": "梵音退敌 · 抬臂诵经",
+          "duration": 1.05,
+          "windup_end": 0.4935,
+          "release_end": 0.63,
+          "events": [
+            {
+              "time": 0.4935,
+              "type": "chant",
+              "socket": "hand.back"
+            }
+          ],
+          "poses": [
+            {
+              "t": 0.27,
+              "lean": -0.035,
+              "hand": [
+                0.13,
+                0.58
+              ],
+              "weapon": 0.015,
+              "back_hand": [
+                0.03,
+                0.68
+              ],
+              "compression": 0.015
+            },
+            {
+              "t": 0.47,
+              "lean": 0.06,
+              "hand": [
+                0.15,
+                0.59
+              ],
+              "weapon": 0.02,
+              "back_hand": [
+                0.2,
+                0.7
+              ],
+              "compression": 0.015
+            },
+            {
+              "t": 0.66,
+              "lean": 0.04,
+              "hand": [
+                0.15,
+                0.59
+              ],
+              "weapon": 0.02,
+              "back_hand": [
+                0.16,
+                0.72
+              ],
+              "compression": 0.015
+            }
+          ],
+          "two_hand": false,
+          "upper_clip": "Chant_Upper"
+        },
+        {
+          "clip": "RobeWard",
+          "label": "锦襕护持 · 展臂护身",
+          "duration": 1.3,
+          "windup_end": 0.546,
+          "release_end": 0.715,
+          "events": [
+            {
+              "time": 0.546,
+              "type": "ward",
+              "socket": "hand.back"
+            }
+          ],
+          "poses": [
+            {
+              "t": 0.24,
+              "lean": -0.05,
+              "hand": [
+                0.1,
+                0.65
+              ],
+              "weapon": -0.12,
+              "back_hand": [
+                -0.05,
+                0.67
+              ],
+              "compression": 0.01
+            },
+            {
+              "t": 0.42,
+              "lean": -0.035,
+              "hand": [
+                0.21,
+                0.72
+              ],
+              "weapon": -0.2,
+              "back_hand": [
+                0.19,
+                0.72
+              ],
+              "compression": 0.018
+            },
+            {
+              "t": 0.75,
+              "lean": -0.025,
+              "hand": [
+                0.21,
+                0.72
+              ],
+              "weapon": -0.2,
+              "back_hand": [
+                0.19,
+                0.72
+              ],
+              "compression": 0.018
+            }
+          ],
+          "two_hand": false,
+          "upper_clip": "RobeWard_Upper"
+        },
+        {
+          "clip": "HealingVow",
+          "label": "回春愿 · 托举祝愿",
+          "duration": 1.4,
+          "windup_end": 0.784,
+          "release_end": 0.966,
+          "events": [
+            {
+              "time": 0.784,
+              "type": "heal",
+              "socket": "hand.back"
+            }
+          ],
+          "poses": [
+            {
+              "t": 0.26,
+              "lean": 0.06,
+              "hand": [
+                0.12,
+                0.62
+              ],
+              "weapon": -0.06,
+              "back_hand": [
+                0.04,
+                0.63
+              ],
+              "compression": 0.025
+            },
+            {
+              "t": 0.56,
+              "lean": -0.055,
+              "hand": [
+                0.13,
+                0.73
+              ],
+              "weapon": -0.06,
+              "back_hand": [
+                0.1,
+                0.8
+              ],
+              "compression": 0.01
+            },
+            {
+              "t": 0.78,
+              "lean": -0.04,
+              "hand": [
+                0.13,
+                0.72
+              ],
+              "weapon": -0.04,
+              "back_hand": [
+                0.1,
+                0.79
+              ],
+              "compression": 0.01
+            }
+          ],
+          "two_hand": false,
+          "upper_clip": "HealingVow_Upper"
+        },
+        {
+          "clip": "HitRecoil",
+          "label": "受击 · 后仰缓冲",
+          "duration": 0.55,
+          "windup_end": 0.066,
+          "release_end": 0.1375,
+          "events": [
+            {
+              "time": 0.066,
+              "type": "hurt",
+              "socket": "actor"
+            }
+          ],
+          "poses": [
+            {
+              "t": 0.12,
+              "lean": -0.18,
+              "hand": [
+                0.09,
+                0.62
+              ],
+              "weapon": -0.1,
+              "back_hand": [
+                -0.04,
+                0.66
+              ],
+              "compression": 0.035
+            },
+            {
+              "t": 0.35,
+              "lean": 0.08,
+              "hand": [
+                0.13,
+                0.61
+              ],
+              "weapon": 0.1,
+              "back_hand": [
+                0.02,
+                0.65
+              ],
+              "compression": 0.045
+            },
+            {
+              "t": 0.65,
+              "lean": 0.04,
+              "hand": [
+                0.13,
+                0.61
+              ],
+              "weapon": 0.08,
+              "back_hand": [
+                0.02,
+                0.64
+              ],
+              "compression": 0.02
+            }
+          ],
+          "two_hand": false,
+          "upper_clip": null
+        },
+        {
+          "clip": "DodgeBack",
+          "label": "闪避 · 后撤换步",
+          "duration": 0.8333333333333334,
+          "windup_end": 0.3333,
+          "release_end": 0.4417,
+          "events": [
+            {
+              "time": 0.3333,
+              "type": "dodge",
+              "socket": "actor"
+            }
+          ],
+          "poses": [
+            {
+              "t": 0.24,
+              "lean": -0.1,
+              "hand": [
+                0.1,
+                0.61
+              ],
+              "weapon": -0.12,
+              "back_hand": [
+                -0.02,
+                0.66
+              ],
+              "compression": 0.045
+            },
+            {
+              "t": 0.45,
+              "lean": -0.13,
+              "hand": [
+                0.11,
+                0.64
+              ],
+              "weapon": -0.16,
+              "back_hand": [
+                0.04,
+                0.68
+              ],
+              "compression": 0.06
+            },
+            {
+              "t": 0.72,
+              "lean": -0.03,
+              "hand": [
+                0.12,
+                0.62
+              ],
+              "weapon": 0.0,
+              "back_hand": [
+                0.02,
+                0.65
+              ],
+              "compression": 0.025
+            }
+          ],
+          "two_hand": false,
+          "upper_clip": null,
+          "root_motion": {
+            "axis": "facing-x",
+            "distance": -0.6496,
+            "keys": [
+              [
+                0,
+                0
+              ],
+              [
+                0.14,
+                0
+              ],
+              [
+                0.88,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "application": "external collision-aware displacement; not baked into bone translation"
+          }
+        }
+      ],
+      "upper_mask": [
+        "abdomen",
+        "body",
+        "head",
+        "upper_arm.back",
+        "forearm.back",
+        "upper_arm.front",
+        "forearm.front",
+        "weapon",
+        "accessory"
+      ],
+      "lower_mask": [
+        "pelvis",
+        "thigh.back",
+        "shin.back",
+        "foot.back",
+        "thigh.front",
+        "shin.front",
+        "foot.front"
+      ],
+      "offhand_ik_max_error": 0.0,
+      "back_hand_surface_marker": [
+        0.7416666666666667,
+        0.17000000000000015
+      ],
+      "weapon_grip_surface_marker": [
+        0.49790793657302856,
+        0.4468573331832886
+      ],
+      "surface_sockets": {
+        "hand.back": {
+          "part": "forearm.back",
+          "uv": [
+            0.7416666666666667,
+            0.17000000000000015
+          ]
+        },
+        "weapon": {
+          "part": "weapon",
+          "uv": [
+            0.49790793657302856,
+            0.4468573331832886
+          ]
+        },
+        "weapon.tip": {
+          "part": "weapon",
+          "uv": [
+            0.5210083723068237,
+            0.9971750974655151
+          ]
+        },
+        "actor": {
+          "bone": "pelvis",
+          "offset": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "walk_period": 1.2166666666666666,
+      "walk_distance": 0.567764156485502,
+      "status": "action resource candidate; not connected to game damage/collision",
+      "in_game": false,
+      "inspection_bounds": {
+        "Chant": [
+          -0.46045640110969543,
+          -0.015218978747725487,
+          0.5468040406703949,
+          2.7430691719055176
+        ],
+        "RobeWard": [
+          -0.6392993628978729,
+          -0.015880342572927475,
+          0.8063424527645111,
+          3.0356228351593018
+        ],
+        "HealingVow": [
+          -0.43108102679252625,
+          -0.017930757254362106,
+          0.5069737136363983,
+          3.069594383239746
+        ],
+        "HitRecoil": [
+          -0.574353963136673,
+          -0.021132729947566986,
+          0.5386670529842377,
+          2.8140480518341064
+        ],
+        "DodgeBack": [
+          -0.5789411962032318,
+          -0.023690521717071533,
+          0.6934984028339386,
+          2.8557310104370117
+        ]
+      }
+    },
+    {
+      "id": "wukong",
+      "name": "孙悟空",
+      "height": 1.74,
+      "source": "apps/xiyou/art/shadow-roster-v4/wukong/wukong.blend",
+      "source_sha256": "70e236eb7797b1315a9669fc88b329aefbe2cf6c607d210a3f28ff3c8a8b86fd",
+      "runtime": "wukong-actions.glb",
+      "runtime_bytes": 1166076,
+      "runtime_sha256": "7d7a83fe25971c69beecf03b738cdb8683ee31ba60ccbde62d1fcc7804b7b040",
+      "editable": "wukong-actions.blend",
+      "clips": [
+        "Idle",
+        "Walk",
+        "StaffSweep",
+        "FreezeSeal",
+        "HairClone",
+        "HitRecoil",
+        "DodgeBack",
+        "WalkLower",
+        "StaffSweep_Upper",
+        "FreezeSeal_Upper",
+        "HairClone_Upper",
+        "RestPose"
+      ],
+      "modules": [
+        {
+          "clip": "StaffSweep",
+          "label": "如意棍法 · 横扫",
+          "duration": 0.9,
+          "windup_end": 0.387,
+          "release_end": 0.504,
+          "events": [
+            {
+              "time": 0.387,
+              "type": "hit",
+              "socket": "weapon.tip"
+            }
+          ],
+          "poses": [
+            {
+              "t": 0.3,
+              "lean": -0.14,
+              "hand": [
+                -0.025,
+                0.7
+              ],
+              "weapon": -0.85,
+              "back_hand": [
+                0.06,
+                0.65
+              ],
+              "compression": 0.035
+            },
+            {
+              "t": 0.43,
+              "lean": 0.18,
+              "hand": [
+                0.24,
+                0.6
+              ],
+              "weapon": 1.35,
+              "back_hand": [
+                0.1,
+                0.6
+              ],
+              "compression": 0.025
+            },
+            {
+              "t": 0.59,
+              "lean": 0.24,
+              "hand": [
+                0.24,
+                0.53
+              ],
+              "weapon": 1.95,
+              "back_hand": [
+                0.08,
+                0.57
+              ],
+              "compression": 0.04
+            }
+          ],
+          "two_hand": true,
+          "upper_clip": "StaffSweep_Upper"
+        },
+        {
+          "clip": "FreezeSeal",
+          "label": "定身咒 · 举臂发诀",
+          "duration": 1.05,
+          "windup_end": 0.504,
+          "release_end": 0.6405,
+          "events": [
+            {
+              "time": 0.504,
+              "type": "freeze",
+              "socket": "hand.back"
+            }
+          ],
+          "poses": [
+            {
+              "t": 0.3,
+              "lean": -0.06,
+              "hand": [
+                0.12,
+                0.58
+              ],
+              "weapon": 0.04,
+              "back_hand": [
+                -0.04,
+                0.67
+              ],
+              "compression": 0.015
+            },
+            {
+              "t": 0.48,
+              "lean": 0.08,
+              "hand": [
+                0.16,
+                0.58
+              ],
+              "weapon": 0.12,
+              "back_hand": [
+                0.25,
+                0.72
+              ],
+              "compression": 0.015
+            },
+            {
+              "t": 0.68,
+              "lean": 0.04,
+              "hand": [
+                0.16,
+                0.6
+              ],
+              "weapon": 0.1,
+              "back_hand": [
+                0.24,
+                0.72
+              ],
+              "compression": 0.015
+            }
+          ],
+          "two_hand": false,
+          "upper_clip": "FreezeSeal_Upper"
+        },
+        {
+          "clip": "HairClone",
+          "label": "毫毛分身 · 拈毫吹化",
+          "duration": 1.2,
+          "windup_end": 0.636,
+          "release_end": 0.792,
+          "events": [
+            {
+              "time": 0.636,
+              "type": "spawn_clone",
+              "socket": "hand.back"
+            }
+          ],
+          "poses": [
+            {
+              "t": 0.25,
+              "lean": -0.08,
+              "hand": [
+                0.12,
+                0.58
+              ],
+              "weapon": 0.08,
+              "back_hand": [
+                0.02,
+                0.84
+              ],
+              "compression": 0.015
+            },
+            {
+              "t": 0.43,
+              "lean": -0.1,
+              "hand": [
+                0.12,
+                0.58
+              ],
+              "weapon": 0.08,
+              "back_hand": [
+                0.08,
+                0.83
+              ],
+              "compression": 0.015
+            },
+            {
+              "t": 0.53,
+              "lean": 0.08,
+              "hand": [
+                0.15,
+                0.59
+              ],
+              "weapon": 0.15,
+              "back_hand": [
+                0.27,
+                0.77
+              ],
+              "compression": 0.015
+            },
+            {
+              "t": 0.7,
+              "lean": 0.05,
+              "hand": [
+                0.15,
+                0.59
+              ],
+              "weapon": 0.12,
+              "back_hand": [
+                0.23,
+                0.73
+              ],
+              "compression": 0.015
+            }
+          ],
+          "two_hand": false,
+          "upper_clip": "HairClone_Upper"
+        },
+        {
+          "clip": "HitRecoil",
+          "label": "受击 · 后仰缓冲",
+          "duration": 0.55,
+          "windup_end": 0.066,
+          "release_end": 0.1375,
+          "events": [
+            {
+              "time": 0.066,
+              "type": "hurt",
+              "socket": "actor"
+            }
+          ],
+          "poses": [
+            {
+              "t": 0.12,
+              "lean": -0.18,
+              "hand": [
+                0.09,
+                0.62
+              ],
+              "weapon": -0.1,
+              "back_hand": [
+                -0.04,
+                0.66
+              ],
+              "compression": 0.035
+            },
+            {
+              "t": 0.35,
+              "lean": 0.08,
+              "hand": [
+                0.13,
+                0.61
+              ],
+              "weapon": 0.1,
+              "back_hand": [
+                0.02,
+                0.65
+              ],
+              "compression": 0.045
+            },
+            {
+              "t": 0.65,
+              "lean": 0.04,
+              "hand": [
+                0.13,
+                0.61
+              ],
+              "weapon": 0.08,
+              "back_hand": [
+                0.02,
+                0.64
+              ],
+              "compression": 0.02
+            }
+          ],
+          "two_hand": false,
+          "upper_clip": null
+        },
+        {
+          "clip": "DodgeBack",
+          "label": "闪避 · 后撤换步",
+          "duration": 0.8333333333333334,
+          "windup_end": 0.3333,
+          "release_end": 0.4417,
+          "events": [
+            {
+              "time": 0.3333,
+              "type": "dodge",
+              "socket": "actor"
+            }
+          ],
+          "poses": [
+            {
+              "t": 0.24,
+              "lean": -0.1,
+              "hand": [
+                0.1,
+                0.61
+              ],
+              "weapon": -0.12,
+              "back_hand": [
+                -0.02,
+                0.66
+              ],
+              "compression": 0.045
+            },
+            {
+              "t": 0.45,
+              "lean": -0.13,
+              "hand": [
+                0.11,
+                0.64
+              ],
+              "weapon": -0.16,
+              "back_hand": [
+                0.04,
+                0.68
+              ],
+              "compression": 0.06
+            },
+            {
+              "t": 0.72,
+              "lean": -0.03,
+              "hand": [
+                0.12,
+                0.62
+              ],
+              "weapon": 0.0,
+              "back_hand": [
+                0.02,
+                0.65
+              ],
+              "compression": 0.025
+            }
+          ],
+          "two_hand": false,
+          "upper_clip": null,
+          "root_motion": {
+            "axis": "facing-x",
+            "distance": -0.4872,
+            "keys": [
+              [
+                0,
+                0
+              ],
+              [
+                0.14,
+                0
+              ],
+              [
+                0.88,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "application": "external collision-aware displacement; not baked into bone translation"
+          }
+        }
+      ],
+      "upper_mask": [
+        "abdomen",
+        "body",
+        "head",
+        "upper_arm.back",
+        "forearm.back",
+        "upper_arm.front",
+        "forearm.front",
+        "weapon",
+        "accessory"
+      ],
+      "lower_mask": [
+        "pelvis",
+        "thigh.back",
+        "shin.back",
+        "foot.back",
+        "thigh.front",
+        "shin.front",
+        "foot.front"
+      ],
+      "offhand_ik_max_error": 2.8115454709698567e-07,
+      "back_hand_surface_marker": [
+        0.6590909090909091,
+        0.17000000000000004
+      ],
+      "weapon_grip_surface_marker": [
+        0.5,
+        0.2877548635005951
+      ],
+      "surface_sockets": {
+        "hand.back": {
+          "part": "forearm.back",
+          "uv": [
+            0.6590909090909091,
+            0.17000000000000004
+          ]
+        },
+        "weapon": {
+          "part": "weapon",
+          "uv": [
+            0.5,
+            0.2877548635005951
+          ]
+        },
+        "weapon.tip": {
+          "part": "weapon",
+          "uv": [
+            0.6849315166473389,
+            0.9972451329231262
+          ]
+        },
+        "actor": {
+          "bone": "pelvis",
+          "offset": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "walk_period": 0.8833333333333333,
+      "walk_distance": 0.6566195414641174,
+      "status": "action resource candidate; not connected to game damage/collision",
+      "in_game": false,
+      "inspection_bounds": {
+        "StaffSweep": [
+          -1.1549600958824158,
+          -0.020704098045825958,
+          1.880380392074585,
+          2.614081382751465
+        ],
+        "FreezeSeal": [
+          -0.6171469688415527,
+          -0.00882982462644577,
+          0.5389407873153687,
+          2.5016820430755615
+        ],
+        "HairClone": [
+          -0.6453271508216858,
+          -0.008829314261674881,
+          0.5407722592353821,
+          2.4818575382232666
+        ],
+        "HitRecoil": [
+          -0.6583667099475861,
+          -0.021254852414131165,
+          0.5389407873153687,
+          2.5370681285858154
+        ],
+        "DodgeBack": [
+          -0.6568452417850494,
+          -0.03024613857269287,
+          0.5677918791770935,
+          2.5618507862091064
+        ]
+      }
+    },
+    {
+      "id": "bajie",
+      "name": "猪八戒",
+      "height": 1.8,
+      "source": "apps/xiyou/art/shadow-roster-v4/bajie/bajie.blend",
+      "source_sha256": "26a5328648da213c34cde710507fccda92d42b6ae9201856cbd30b77b790babf",
+      "runtime": "bajie-actions.glb",
+      "runtime_bytes": 1392828,
+      "runtime_sha256": "1597a3f6e391f899bc1af0ac5d1bf9280b912a7b31e352cf70e4884e5d384b74",
+      "editable": "bajie-actions.blend",
+      "clips": [
+        "Idle",
+        "Walk",
+        "RakeSweep",
+        "RakeSlam",
+        "BellyBrace",
+        "HitRecoil",
+        "DodgeBack",
+        "WalkLower",
+        "RakeSweep_Upper",
+        "RakeSlam_Upper",
+        "BellyBrace_Upper",
+        "RestPose"
+      ],
+      "modules": [
+        {
+          "clip": "RakeSweep",
+          "label": "钉耙横扫",
+          "duration": 1.1166666666666667,
+          "windup_end": 0.5248,
+          "release_end": 0.67,
+          "events": [
+            {
+              "time": 0.5248,
+              "type": "hit",
+              "socket": "weapon.tip"
+            }
+          ],
+          "poses": [
+            {
+              "t": 0.32,
+              "lean": -0.18,
+              "hand": [
+                0.0,
+                0.67
+              ],
+              "weapon": -0.65,
+              "back_hand": [
+                0.02,
+                0.65
+              ],
+              "compression": 0.035
+            },
+            {
+              "t": 0.47,
+              "lean": 0.19,
+              "hand": [
+                0.23,
+                0.57
+              ],
+              "weapon": 1.32,
+              "back_hand": [
+                0.1,
+                0.57
+              ],
+              "compression": 0.025
+            },
+            {
+              "t": 0.64,
+              "lean": 0.24,
+              "hand": [
+                0.23,
+                0.51
+              ],
+              "weapon": 1.72,
+              "back_hand": [
+                0.09,
+                0.53
+              ],
+              "compression": 0.035
+            }
+          ],
+          "two_hand": true,
+          "upper_clip": "RakeSweep_Upper",
+          "proposal": true
+        },
+        {
+          "clip": "RakeSlam",
+          "label": "举耙重落",
+          "duration": 1.4,
+          "windup_end": 0.784,
+          "release_end": 0.966,
+          "events": [
+            {
+              "time": 0.784,
+              "type": "hit",
+              "socket": "weapon.tip"
+            }
+          ],
+          "poses": [
+            {
+              "t": 0.34,
+              "lean": -0.16,
+              "hand": [
+                0.04,
+                0.79
+              ],
+              "weapon": -0.24,
+              "back_hand": [
+                0.02,
+                0.7
+              ],
+              "compression": 0.018
+            },
+            {
+              "t": 0.47,
+              "lean": -0.13,
+              "hand": [
+                0.04,
+                0.8
+              ],
+              "weapon": 0.02,
+              "back_hand": [
+                0.04,
+                0.73
+              ],
+              "compression": 0.01
+            },
+            {
+              "t": 0.56,
+              "lean": 0.24,
+              "hand": [
+                0.23,
+                0.53
+              ],
+              "weapon": 1.38,
+              "back_hand": [
+                0.09,
+                0.57
+              ],
+              "compression": 0.045
+            },
+            {
+              "t": 0.68,
+              "lean": 0.22,
+              "hand": [
+                0.23,
+                0.5
+              ],
+              "weapon": 1.55,
+              "back_hand": [
+                0.1,
+                0.53
+              ],
+              "compression": 0.05
+            }
+          ],
+          "two_hand": true,
+          "upper_clip": "RakeSlam_Upper",
+          "proposal": true
+        },
+        {
+          "clip": "BellyBrace",
+          "label": "收腹架耙 · 防守",
+          "duration": 1.2,
+          "windup_end": 0.528,
+          "release_end": 0.684,
+          "events": [
+            {
+              "time": 0.528,
+              "type": "guard",
+              "socket": "hand.back"
+            }
+          ],
+          "poses": [
+            {
+              "t": 0.24,
+              "lean": 0.08,
+              "hand": [
+                0.07,
+                0.57
+              ],
+              "weapon": 0.2,
+              "back_hand": [
+                -0.02,
+                0.61
+              ],
+              "compression": 0.035
+            },
+            {
+              "t": 0.44,
+              "lean": 0.18,
+              "hand": [
+                0.12,
+                0.63
+              ],
+              "weapon": 0.5,
+              "back_hand": [
+                0.1,
+                0.63
+              ],
+              "compression": 0.05
+            },
+            {
+              "t": 0.76,
+              "lean": 0.13,
+              "hand": [
+                0.12,
+                0.63
+              ],
+              "weapon": 0.5,
+              "back_hand": [
+                0.1,
+                0.63
+              ],
+              "compression": 0.045
+            }
+          ],
+          "two_hand": false,
+          "upper_clip": "BellyBrace_Upper",
+          "proposal": true
+        },
+        {
+          "clip": "HitRecoil",
+          "label": "受击 · 后仰缓冲",
+          "duration": 0.55,
+          "windup_end": 0.066,
+          "release_end": 0.1375,
+          "events": [
+            {
+              "time": 0.066,
+              "type": "hurt",
+              "socket": "actor"
+            }
+          ],
+          "poses": [
+            {
+              "t": 0.12,
+              "lean": -0.18,
+              "hand": [
+                0.09,
+                0.62
+              ],
+              "weapon": -0.1,
+              "back_hand": [
+                -0.04,
+                0.66
+              ],
+              "compression": 0.035
+            },
+            {
+              "t": 0.35,
+              "lean": 0.08,
+              "hand": [
+                0.13,
+                0.61
+              ],
+              "weapon": 0.1,
+              "back_hand": [
+                0.02,
+                0.65
+              ],
+              "compression": 0.045
+            },
+            {
+              "t": 0.65,
+              "lean": 0.04,
+              "hand": [
+                0.13,
+                0.61
+              ],
+              "weapon": 0.08,
+              "back_hand": [
+                0.02,
+                0.64
+              ],
+              "compression": 0.02
+            }
+          ],
+          "two_hand": false,
+          "upper_clip": null
+        },
+        {
+          "clip": "DodgeBack",
+          "label": "闪避 · 后撤换步",
+          "duration": 0.8333333333333334,
+          "windup_end": 0.3333,
+          "release_end": 0.4417,
+          "events": [
+            {
+              "time": 0.3333,
+              "type": "dodge",
+              "socket": "actor"
+            }
+          ],
+          "poses": [
+            {
+              "t": 0.24,
+              "lean": -0.1,
+              "hand": [
+                0.1,
+                0.61
+              ],
+              "weapon": -0.12,
+              "back_hand": [
+                -0.02,
+                0.66
+              ],
+              "compression": 0.045
+            },
+            {
+              "t": 0.45,
+              "lean": -0.13,
+              "hand": [
+                0.11,
+                0.64
+              ],
+              "weapon": -0.16,
+              "back_hand": [
+                0.04,
+                0.68
+              ],
+              "compression": 0.06
+            },
+            {
+              "t": 0.72,
+              "lean": -0.03,
+              "hand": [
+                0.12,
+                0.62
+              ],
+              "weapon": 0.0,
+              "back_hand": [
+                0.02,
+                0.65
+              ],
+              "compression": 0.025
+            }
+          ],
+          "two_hand": false,
+          "upper_clip": null,
+          "root_motion": {
+            "axis": "facing-x",
+            "distance": -0.504,
+            "keys": [
+              [
+                0,
+                0
+              ],
+              [
+                0.14,
+                0
+              ],
+              [
+                0.88,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "application": "external collision-aware displacement; not baked into bone translation"
+          }
+        }
+      ],
+      "upper_mask": [
+        "abdomen",
+        "body",
+        "head",
+        "upper_arm.back",
+        "forearm.back",
+        "upper_arm.front",
+        "forearm.front",
+        "weapon",
+        "accessory"
+      ],
+      "lower_mask": [
+        "pelvis",
+        "thigh.back",
+        "shin.back",
+        "foot.back",
+        "thigh.front",
+        "shin.front",
+        "foot.front"
+      ],
+      "offhand_ik_max_error": 2.602375924076584e-07,
+      "back_hand_surface_marker": [
+        0.6714285714285714,
+        0.17000000000000004
+      ],
+      "weapon_grip_surface_marker": [
+        0.5009862184524536,
+        0.36982738971710205
+      ],
+      "surface_sockets": {
+        "hand.back": {
+          "part": "forearm.back",
+          "uv": [
+            0.6714285714285714,
+            0.17000000000000004
+          ]
+        },
+        "weapon": {
+          "part": "weapon",
+          "uv": [
+            0.5009862184524536,
+            0.36982738971710205
+          ]
+        },
+        "weapon.tip": {
+          "part": "weapon",
+          "uv": [
+            0.4940711259841919,
+            0.9979605674743652
+          ]
+        },
+        "actor": {
+          "bone": "pelvis",
+          "offset": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "walk_period": 1.4,
+      "walk_distance": 0.28608417232092287,
+      "status": "action resource candidate; not connected to game damage/collision",
+      "in_game": false,
+      "inspection_bounds": {
+        "RakeSweep": [
+          -1.0503687032032758,
+          -0.036943286657333374,
+          1.7348894707392901,
+          2.5289106369018555
+        ],
+        "RakeSlam": [
+          -0.6075929172802716,
+          -0.047657713294029236,
+          1.7325070730876178,
+          2.763676643371582
+        ],
+        "BellyBrace": [
+          -0.5628952153492719,
+          -0.04879280924797058,
+          1.10678466479294,
+          2.424328327178955
+        ],
+        "HitRecoil": [
+          -0.613486445741728,
+          -0.04207581281661987,
+          0.7201701037120074,
+          2.4437761306762695
+        ],
+        "DodgeBack": [
+          -0.5978874929714948,
+          -0.056243568658828735,
+          0.7201701037120074,
+          2.487736225128174
+        ]
+      }
+    },
+    {
+      "id": "shaseng",
+      "name": "沙悟净",
+      "height": 2.5,
+      "source": "apps/xiyou/art/shadow-roster-v4/shaseng/shaseng.blend",
+      "source_sha256": "6cd009604b810a4e43c7a8293a97bba323f80fdad2df7166e0d903a29223d431",
+      "runtime": "shaseng-actions.glb",
+      "runtime_bytes": 1412028,
+      "runtime_sha256": "fbaa28cb6b3e40b54e72a681ec3b34dd7c9a8070358591a10ab15431c4ba538e",
+      "editable": "shaseng-actions.blend",
+      "clips": [
+        "Idle",
+        "Walk",
+        "SpadeSweep",
+        "SpadeThrust",
+        "RiverWard",
+        "HitRecoil",
+        "DodgeBack",
+        "WalkLower",
+        "SpadeSweep_Upper",
+        "SpadeThrust_Upper",
+        "RiverWard_Upper",
+        "RestPose"
+      ],
+      "modules": [
+        {
+          "clip": "SpadeSweep",
+          "label": "月牙铲 · 沉身横扫",
+          "duration": 1.1166666666666667,
+          "windup_end": 0.5137,
+          "release_end": 0.6588,
+          "events": [
+            {
+              "time": 0.5137,
+              "type": "hit",
+              "socket": "weapon.tip"
+            }
+          ],
+          "poses": [
+            {
+              "t": 0.3,
+              "lean": -0.12,
+              "hand": [
+                -0.01,
+                0.68
+              ],
+              "weapon": -0.7,
+              "back_hand": [
+                0.01,
+                0.66
+              ],
+              "compression": 0.025
+            },
+            {
+              "t": 0.46,
+              "lean": 0.16,
+              "hand": [
+                0.22,
+                0.59
+              ],
+              "weapon": 1.28,
+              "back_hand": [
+                0.08,
+                0.6
+              ],
+              "compression": 0.035
+            },
+            {
+              "t": 0.65,
+              "lean": 0.2,
+              "hand": [
+                0.24,
+                0.53
+              ],
+              "weapon": 1.63,
+              "back_hand": [
+                0.09,
+                0.57
+              ],
+              "compression": 0.04
+            }
+          ],
+          "two_hand": true,
+          "upper_clip": "SpadeSweep_Upper",
+          "proposal": true
+        },
+        {
+          "clip": "SpadeThrust",
+          "label": "月牙铲 · 平铲前送",
+          "duration": 1.0333333333333334,
+          "windup_end": 0.496,
+          "release_end": 0.6303,
+          "events": [
+            {
+              "time": 0.496,
+              "type": "hit",
+              "socket": "weapon.tip"
+            }
+          ],
+          "poses": [
+            {
+              "t": 0.29,
+              "lean": -0.07,
+              "hand": [
+                -0.025,
+                0.62
+              ],
+              "weapon": 1.45,
+              "back_hand": [
+                0.02,
+                0.63
+              ],
+              "compression": 0.025
+            },
+            {
+              "t": 0.48,
+              "lean": 0.2,
+              "hand": [
+                0.27,
+                0.61
+              ],
+              "weapon": 1.54,
+              "back_hand": [
+                0.13,
+                0.61
+              ],
+              "compression": 0.035
+            },
+            {
+              "t": 0.62,
+              "lean": 0.15,
+              "hand": [
+                0.26,
+                0.6
+              ],
+              "weapon": 1.54,
+              "back_hand": [
+                0.12,
+                0.6
+              ],
+              "compression": 0.03
+            }
+          ],
+          "two_hand": true,
+          "upper_clip": "SpadeThrust_Upper",
+          "proposal": true
+        },
+        {
+          "clip": "RiverWard",
+          "label": "竖铲护河",
+          "duration": 1.35,
+          "windup_end": 0.6345,
+          "release_end": 0.81,
+          "events": [
+            {
+              "time": 0.6345,
+              "type": "ward",
+              "socket": "hand.back"
+            }
+          ],
+          "poses": [
+            {
+              "t": 0.28,
+              "lean": -0.04,
+              "hand": [
+                0.13,
+                0.62
+              ],
+              "weapon": -0.08,
+              "back_hand": [
+                0.01,
+                0.65
+              ],
+              "compression": 0.015
+            },
+            {
+              "t": 0.47,
+              "lean": 0.02,
+              "hand": [
+                0.15,
+                0.68
+              ],
+              "weapon": 0.04,
+              "back_hand": [
+                0.2,
+                0.76
+              ],
+              "compression": 0.015
+            },
+            {
+              "t": 0.76,
+              "lean": 0.02,
+              "hand": [
+                0.15,
+                0.68
+              ],
+              "weapon": 0.04,
+              "back_hand": [
+                0.2,
+                0.76
+              ],
+              "compression": 0.015
+            }
+          ],
+          "two_hand": false,
+          "upper_clip": "RiverWard_Upper",
+          "proposal": true
+        },
+        {
+          "clip": "HitRecoil",
+          "label": "受击 · 后仰缓冲",
+          "duration": 0.55,
+          "windup_end": 0.066,
+          "release_end": 0.1375,
+          "events": [
+            {
+              "time": 0.066,
+              "type": "hurt",
+              "socket": "actor"
+            }
+          ],
+          "poses": [
+            {
+              "t": 0.12,
+              "lean": -0.18,
+              "hand": [
+                0.09,
+                0.62
+              ],
+              "weapon": -0.1,
+              "back_hand": [
+                -0.04,
+                0.66
+              ],
+              "compression": 0.035
+            },
+            {
+              "t": 0.35,
+              "lean": 0.08,
+              "hand": [
+                0.13,
+                0.61
+              ],
+              "weapon": 0.1,
+              "back_hand": [
+                0.02,
+                0.65
+              ],
+              "compression": 0.045
+            },
+            {
+              "t": 0.65,
+              "lean": 0.04,
+              "hand": [
+                0.13,
+                0.61
+              ],
+              "weapon": 0.08,
+              "back_hand": [
+                0.02,
+                0.64
+              ],
+              "compression": 0.02
+            }
+          ],
+          "two_hand": false,
+          "upper_clip": null
+        },
+        {
+          "clip": "DodgeBack",
+          "label": "闪避 · 后撤换步",
+          "duration": 0.8333333333333334,
+          "windup_end": 0.3333,
+          "release_end": 0.4417,
+          "events": [
+            {
+              "time": 0.3333,
+              "type": "dodge",
+              "socket": "actor"
+            }
+          ],
+          "poses": [
+            {
+              "t": 0.24,
+              "lean": -0.1,
+              "hand": [
+                0.1,
+                0.61
+              ],
+              "weapon": -0.12,
+              "back_hand": [
+                -0.02,
+                0.66
+              ],
+              "compression": 0.045
+            },
+            {
+              "t": 0.45,
+              "lean": -0.13,
+              "hand": [
+                0.11,
+                0.64
+              ],
+              "weapon": -0.16,
+              "back_hand": [
+                0.04,
+                0.68
+              ],
+              "compression": 0.06
+            },
+            {
+              "t": 0.72,
+              "lean": -0.03,
+              "hand": [
+                0.12,
+                0.62
+              ],
+              "weapon": 0.0,
+              "back_hand": [
+                0.02,
+                0.65
+              ],
+              "compression": 0.025
+            }
+          ],
+          "two_hand": false,
+          "upper_clip": null,
+          "root_motion": {
+            "axis": "facing-x",
+            "distance": -0.7,
+            "keys": [
+              [
+                0,
+                0
+              ],
+              [
+                0.14,
+                0
+              ],
+              [
+                0.88,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "application": "external collision-aware displacement; not baked into bone translation"
+          }
+        }
+      ],
+      "upper_mask": [
+        "abdomen",
+        "body",
+        "head",
+        "upper_arm.back",
+        "forearm.back",
+        "upper_arm.front",
+        "forearm.front",
+        "weapon",
+        "accessory"
+      ],
+      "lower_mask": [
+        "pelvis",
+        "thigh.back",
+        "shin.back",
+        "foot.back",
+        "thigh.front",
+        "shin.front",
+        "foot.front"
+      ],
+      "offhand_ik_max_error": 6.258487701416016e-07,
+      "back_hand_surface_marker": [
+        0.7121212121212122,
+        0.17000000000000004
+      ],
+      "weapon_grip_surface_marker": [
+        0.4999999701976776,
+        0.3771023750305176
+      ],
+      "surface_sockets": {
+        "hand.back": {
+          "part": "forearm.back",
+          "uv": [
+            0.7121212121212122,
+            0.17000000000000004
+          ]
+        },
+        "weapon": {
+          "part": "weapon",
+          "uv": [
+            0.4999999701976776,
+            0.3771023750305176
+          ]
+        },
+        "weapon.tip": {
+          "part": "weapon",
+          "uv": [
+            0.8013936877250671,
+            0.9972565174102783
+          ]
+        },
+        "actor": {
+          "bone": "pelvis",
+          "offset": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "walk_period": 1.2666666666666666,
+      "walk_distance": 0.8180016453518811,
+      "status": "action resource candidate; not connected to game damage/collision",
+      "in_game": false,
+      "inspection_bounds": {
+        "SpadeSweep": [
+          -1.3084232145920396,
+          -0.03776939585804939,
+          2.3831352656707168,
+          3.417600631713867
+        ],
+        "SpadeThrust": [
+          -1.1510599190369248,
+          -0.035772595554590225,
+          2.4549352591857314,
+          3.094670057296753
+        ],
+        "RiverWard": [
+          -0.6907037431374192,
+          -0.023099057376384735,
+          0.8933951323851943,
+          3.481487274169922
+        ],
+        "HitRecoil": [
+          -0.7742060953751206,
+          -0.03875170648097992,
+          0.8933951323851943,
+          3.335299015045166
+        ],
+        "DodgeBack": [
+          -0.7586690718308091,
+          -0.04920705035328865,
+          0.8933951323851943,
+          3.3828725814819336
+        ]
+      }
+    },
+    {
+      "id": "xiaobailong",
+      "name": "小白龙（人形）",
+      "height": 2.22,
+      "source": "apps/xiyou/art/shadow-roster-v4/xiaobailong/xiaobailong.blend",
+      "source_sha256": "74bcadda23fbc8bc387183f752d91fbcf6e45403c0482748e949eff73771a10b",
+      "runtime": "xiaobailong-actions.glb",
+      "runtime_bytes": 1381160,
+      "runtime_sha256": "0d933bf522ab26f1c19b5fa86cbb8787dd97c16789837ae1fed40d35fc7710a2",
+      "editable": "xiaobailong-actions.blend",
+      "clips": [
+        "Idle",
+        "Walk",
+        "JianCut",
+        "WaveStep",
+        "ScaleWard",
+        "HitRecoil",
+        "DodgeBack",
+        "WalkLower",
+        "JianCut_Upper",
+        "WaveStep_Upper",
+        "ScaleWard_Upper",
+        "RestPose"
+      ],
+      "modules": [
+        {
+          "clip": "JianCut",
+          "label": "人形剑势 · 斜劈",
+          "duration": 0.8666666666666667,
+          "windup_end": 0.3727,
+          "release_end": 0.4853,
+          "events": [
+            {
+              "time": 0.3727,
+              "type": "hit",
+              "socket": "weapon.tip"
+            }
+          ],
+          "poses": [
+            {
+              "t": 0.28,
+              "lean": -0.09,
+              "hand": [
+                0.03,
+                0.78
+              ],
+              "weapon": -3.25,
+              "back_hand": [
+                0.0,
+                0.66
+              ],
+              "compression": 0.018
+            },
+            {
+              "t": 0.43,
+              "lean": 0.13,
+              "hand": [
+                0.28,
+                0.67
+              ],
+              "weapon": -1.65,
+              "back_hand": [
+                -0.04,
+                0.62
+              ],
+              "compression": 0.025
+            },
+            {
+              "t": 0.6,
+              "lean": 0.17,
+              "hand": [
+                0.26,
+                0.56
+              ],
+              "weapon": -0.95,
+              "back_hand": [
+                -0.08,
+                0.62
+              ],
+              "compression": 0.03
+            }
+          ],
+          "two_hand": false,
+          "upper_clip": "JianCut_Upper",
+          "proposal": true
+        },
+        {
+          "clip": "WaveStep",
+          "label": "人形腾浪 · 进身送剑",
+          "duration": 1.0,
+          "windup_end": 0.52,
+          "release_end": 0.65,
+          "events": [
+            {
+              "time": 0.52,
+              "type": "wave",
+              "socket": "weapon.tip"
+            }
+          ],
+          "poses": [
+            {
+              "t": 0.28,
+              "lean": -0.06,
+              "hand": [
+                0.08,
+                0.65
+              ],
+              "weapon": -1.25,
+              "back_hand": [
+                0.02,
+                0.67
+              ],
+              "compression": 0.035
+            },
+            {
+              "t": 0.52,
+              "lean": 0.15,
+              "hand": [
+                0.29,
+                0.65
+              ],
+              "weapon": -1.57,
+              "back_hand": [
+                -0.05,
+                0.66
+              ],
+              "compression": 0.025
+            },
+            {
+              "t": 0.68,
+              "lean": 0.1,
+              "hand": [
+                0.27,
+                0.63
+              ],
+              "weapon": -1.57,
+              "back_hand": [
+                -0.05,
+                0.64
+              ],
+              "compression": 0.02
+            }
+          ],
+          "two_hand": false,
+          "upper_clip": "WaveStep_Upper",
+          "proposal": true
+        },
+        {
+          "clip": "ScaleWard",
+          "label": "龙鳞护佑 · 举臂护持",
+          "duration": 1.2,
+          "windup_end": 0.54,
+          "release_end": 0.696,
+          "events": [
+            {
+              "time": 0.54,
+              "type": "ward",
+              "socket": "hand.back"
+            }
+          ],
+          "poses": [
+            {
+              "t": 0.27,
+              "lean": -0.05,
+              "hand": [
+                0.15,
+                0.62
+              ],
+              "weapon": -0.66,
+              "back_hand": [
+                0.0,
+                0.66
+              ],
+              "compression": 0.015
+            },
+            {
+              "t": 0.45,
+              "lean": -0.03,
+              "hand": [
+                0.14,
+                0.7
+              ],
+              "weapon": -0.35,
+              "back_hand": [
+                0.14,
+                0.79
+              ],
+              "compression": 0.015
+            },
+            {
+              "t": 0.76,
+              "lean": -0.02,
+              "hand": [
+                0.14,
+                0.7
+              ],
+              "weapon": -0.35,
+              "back_hand": [
+                0.14,
+                0.79
+              ],
+              "compression": 0.015
+            }
+          ],
+          "two_hand": false,
+          "upper_clip": "ScaleWard_Upper",
+          "proposal": true
+        },
+        {
+          "clip": "HitRecoil",
+          "label": "受击 · 后仰缓冲",
+          "duration": 0.55,
+          "windup_end": 0.066,
+          "release_end": 0.1375,
+          "events": [
+            {
+              "time": 0.066,
+              "type": "hurt",
+              "socket": "actor"
+            }
+          ],
+          "poses": [
+            {
+              "t": 0.12,
+              "lean": -0.18,
+              "hand": [
+                0.09,
+                0.62
+              ],
+              "weapon": -0.1,
+              "back_hand": [
+                -0.04,
+                0.66
+              ],
+              "compression": 0.035
+            },
+            {
+              "t": 0.35,
+              "lean": 0.08,
+              "hand": [
+                0.13,
+                0.61
+              ],
+              "weapon": 0.1,
+              "back_hand": [
+                0.02,
+                0.65
+              ],
+              "compression": 0.045
+            },
+            {
+              "t": 0.65,
+              "lean": 0.04,
+              "hand": [
+                0.13,
+                0.61
+              ],
+              "weapon": 0.08,
+              "back_hand": [
+                0.02,
+                0.64
+              ],
+              "compression": 0.02
+            }
+          ],
+          "two_hand": false,
+          "upper_clip": null
+        },
+        {
+          "clip": "DodgeBack",
+          "label": "闪避 · 后撤换步",
+          "duration": 0.8333333333333334,
+          "windup_end": 0.3333,
+          "release_end": 0.4417,
+          "events": [
+            {
+              "time": 0.3333,
+              "type": "dodge",
+              "socket": "actor"
+            }
+          ],
+          "poses": [
+            {
+              "t": 0.24,
+              "lean": -0.1,
+              "hand": [
+                0.1,
+                0.61
+              ],
+              "weapon": -0.12,
+              "back_hand": [
+                -0.02,
+                0.66
+              ],
+              "compression": 0.045
+            },
+            {
+              "t": 0.45,
+              "lean": -0.13,
+              "hand": [
+                0.11,
+                0.64
+              ],
+              "weapon": -0.16,
+              "back_hand": [
+                0.04,
+                0.68
+              ],
+              "compression": 0.06
+            },
+            {
+              "t": 0.72,
+              "lean": -0.03,
+              "hand": [
+                0.12,
+                0.62
+              ],
+              "weapon": 0.0,
+              "back_hand": [
+                0.02,
+                0.65
+              ],
+              "compression": 0.025
+            }
+          ],
+          "two_hand": false,
+          "upper_clip": null,
+          "root_motion": {
+            "axis": "facing-x",
+            "distance": -0.6216,
+            "keys": [
+              [
+                0,
+                0
+              ],
+              [
+                0.14,
+                0
+              ],
+              [
+                0.88,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "application": "external collision-aware displacement; not baked into bone translation"
+          }
+        }
+      ],
+      "upper_mask": [
+        "abdomen",
+        "body",
+        "head",
+        "upper_arm.back",
+        "forearm.back",
+        "upper_arm.front",
+        "forearm.front",
+        "weapon",
+        "accessory"
+      ],
+      "lower_mask": [
+        "pelvis",
+        "thigh.back",
+        "shin.back",
+        "foot.back",
+        "thigh.front",
+        "shin.front",
+        "foot.front"
+      ],
+      "offhand_ik_max_error": 0.0,
+      "back_hand_surface_marker": [
+        0.7421875,
+        0.17000000000000004
+      ],
+      "weapon_grip_surface_marker": [
+        0.49791666865348816,
+        0.8700000643730164
+      ],
+      "surface_sockets": {
+        "hand.back": {
+          "part": "forearm.back",
+          "uv": [
+            0.7421875,
+            0.17000000000000004
+          ]
+        },
+        "weapon": {
+          "part": "weapon",
+          "uv": [
+            0.49791666865348816,
+            0.8700000643730164
+          ]
+        },
+        "weapon.tip": {
+          "part": "weapon",
+          "uv": [
+            0.5271967053413391,
+            0.0027604892384260893
+          ]
+        },
+        "actor": {
+          "bone": "pelvis",
+          "offset": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "walk_period": 1.1,
+      "walk_distance": 0.8311161681619328,
+      "status": "action resource candidate; not connected to game damage/collision",
+      "in_game": false,
+      "inspection_bounds": {
+        "JianCut": [
+          -0.5455979281105101,
+          -0.027896946296095848,
+          1.781116349156946,
+          2.8887338638305664
+        ],
+        "WaveStep": [
+          -0.5613048248924315,
+          -0.028330907225608826,
+          1.8017574376426637,
+          2.2162890434265137
+        ],
+        "ScaleWard": [
+          -0.4257413917221129,
+          -0.022209983319044113,
+          1.14719353383407,
+          2.2162890434265137
+        ],
+        "HitRecoil": [
+          -0.5135942869819701,
+          -0.030735839158296585,
+          1.14719353383407,
+          2.2162890434265137
+        ],
+        "DodgeBack": [
+          -0.5576230459846556,
+          -0.03538966551423073,
+          1.14719353383407,
+          2.2162890434265137
+        ]
+      }
+    },
+    {
+      "id": "wolf",
+      "name": "狼妖",
+      "height": 1.98,
+      "source": "apps/xiyou/art/shadow-roster-v4/wolf/wolf.blend",
+      "source_sha256": "f466e6f50e58a45a55f9dc3b1d8550d8f0ac595f19b25604a0bb582f2aa5cec2",
+      "runtime": "wolf-actions.glb",
+      "runtime_bytes": 1497884,
+      "runtime_sha256": "08d76baacd9a9e2672e36e65053075ad52c23470da3dad77dc7e67041da961fe",
+      "editable": "wolf-actions.blend",
+      "clips": [
+        "Idle",
+        "Walk",
+        "SaberSlash",
+        "LowLunge",
+        "WolfHowl",
+        "HitRecoil",
+        "DodgeBack",
+        "WalkLower",
+        "SaberSlash_Upper",
+        "LowLunge_Upper",
+        "WolfHowl_Upper",
+        "RestPose"
+      ],
+      "modules": [
+        {
+          "clip": "SaberSlash",
+          "label": "狼妖 · 抽刀斩",
+          "duration": 0.7833333333333333,
+          "windup_end": 0.3212,
+          "release_end": 0.423,
+          "events": [
+            {
+              "time": 0.3212,
+              "type": "hit",
+              "socket": "weapon.tip"
+            }
+          ],
+          "poses": [
+            {
+              "t": 0.27,
+              "lean": -0.02,
+              "hand": [
+                0.02,
+                0.76
+              ],
+              "weapon": -0.65,
+              "back_hand": [
+                -0.02,
+                0.63
+              ],
+              "compression": 0.04
+            },
+            {
+              "t": 0.41,
+              "lean": 0.32,
+              "hand": [
+                0.29,
+                0.58
+              ],
+              "weapon": 1.38,
+              "back_hand": [
+                -0.05,
+                0.63
+              ],
+              "compression": 0.045
+            },
+            {
+              "t": 0.58,
+              "lean": 0.36,
+              "hand": [
+                0.26,
+                0.47
+              ],
+              "weapon": 1.9,
+              "back_hand": [
+                -0.09,
+                0.57
+              ],
+              "compression": 0.055
+            }
+          ],
+          "two_hand": false,
+          "upper_clip": "SaberSlash_Upper",
+          "proposal": true
+        },
+        {
+          "clip": "LowLunge",
+          "label": "狼妖 · 低身突刺",
+          "duration": 0.8833333333333333,
+          "windup_end": 0.4328,
+          "release_end": 0.5477,
+          "events": [
+            {
+              "time": 0.4328,
+              "type": "hit",
+              "socket": "weapon.tip"
+            }
+          ],
+          "poses": [
+            {
+              "t": 0.28,
+              "lean": 0.14,
+              "hand": [
+                0.06,
+                0.57
+              ],
+              "weapon": 1.05,
+              "back_hand": [
+                0.0,
+                0.6
+              ],
+              "compression": 0.055
+            },
+            {
+              "t": 0.49,
+              "lean": 0.38,
+              "hand": [
+                0.31,
+                0.56
+              ],
+              "weapon": 1.55,
+              "back_hand": [
+                -0.06,
+                0.6
+              ],
+              "compression": 0.07
+            },
+            {
+              "t": 0.64,
+              "lean": 0.31,
+              "hand": [
+                0.27,
+                0.55
+              ],
+              "weapon": 1.5,
+              "back_hand": [
+                -0.04,
+                0.6
+              ],
+              "compression": 0.065
+            }
+          ],
+          "two_hand": false,
+          "upper_clip": "LowLunge_Upper",
+          "proposal": true
+        },
+        {
+          "clip": "WolfHowl",
+          "label": "狼妖 · 仰首呼啸",
+          "duration": 1.25,
+          "windup_end": 0.6125,
+          "release_end": 0.775,
+          "events": [
+            {
+              "time": 0.6125,
+              "type": "howl",
+              "socket": "hand.back"
+            }
+          ],
+          "poses": [
+            {
+              "t": 0.28,
+              "lean": 0.13,
+              "hand": [
+                0.12,
+                0.56
+              ],
+              "weapon": 0.25,
+              "back_hand": [
+                0.0,
+                0.66
+              ],
+              "compression": 0.05
+            },
+            {
+              "t": 0.49,
+              "lean": -0.12,
+              "hand": [
+                0.1,
+                0.63
+              ],
+              "weapon": -0.12,
+              "back_hand": [
+                0.06,
+                0.77
+              ],
+              "compression": 0.02
+            },
+            {
+              "t": 0.73,
+              "lean": -0.1,
+              "hand": [
+                0.1,
+                0.63
+              ],
+              "weapon": -0.12,
+              "back_hand": [
+                0.06,
+                0.77
+              ],
+              "compression": 0.02
+            }
+          ],
+          "two_hand": false,
+          "upper_clip": "WolfHowl_Upper",
+          "proposal": true
+        },
+        {
+          "clip": "HitRecoil",
+          "label": "受击 · 后仰缓冲",
+          "duration": 0.55,
+          "windup_end": 0.066,
+          "release_end": 0.1375,
+          "events": [
+            {
+              "time": 0.066,
+              "type": "hurt",
+              "socket": "actor"
+            }
+          ],
+          "poses": [
+            {
+              "t": 0.12,
+              "lean": -0.18,
+              "hand": [
+                0.09,
+                0.62
+              ],
+              "weapon": -0.1,
+              "back_hand": [
+                -0.04,
+                0.66
+              ],
+              "compression": 0.035
+            },
+            {
+              "t": 0.35,
+              "lean": 0.08,
+              "hand": [
+                0.13,
+                0.61
+              ],
+              "weapon": 0.1,
+              "back_hand": [
+                0.02,
+                0.65
+              ],
+              "compression": 0.045
+            },
+            {
+              "t": 0.65,
+              "lean": 0.04,
+              "hand": [
+                0.13,
+                0.61
+              ],
+              "weapon": 0.08,
+              "back_hand": [
+                0.02,
+                0.64
+              ],
+              "compression": 0.02
+            }
+          ],
+          "two_hand": false,
+          "upper_clip": null
+        },
+        {
+          "clip": "DodgeBack",
+          "label": "闪避 · 后撤换步",
+          "duration": 0.8333333333333334,
+          "windup_end": 0.3333,
+          "release_end": 0.4417,
+          "events": [
+            {
+              "time": 0.3333,
+              "type": "dodge",
+              "socket": "actor"
+            }
+          ],
+          "poses": [
+            {
+              "t": 0.24,
+              "lean": -0.1,
+              "hand": [
+                0.1,
+                0.61
+              ],
+              "weapon": -0.12,
+              "back_hand": [
+                -0.02,
+                0.66
+              ],
+              "compression": 0.045
+            },
+            {
+              "t": 0.45,
+              "lean": -0.13,
+              "hand": [
+                0.11,
+                0.64
+              ],
+              "weapon": -0.16,
+              "back_hand": [
+                0.04,
+                0.68
+              ],
+              "compression": 0.06
+            },
+            {
+              "t": 0.72,
+              "lean": -0.03,
+              "hand": [
+                0.12,
+                0.62
+              ],
+              "weapon": 0.0,
+              "back_hand": [
+                0.02,
+                0.65
+              ],
+              "compression": 0.025
+            }
+          ],
+          "two_hand": false,
+          "upper_clip": null,
+          "root_motion": {
+            "axis": "facing-x",
+            "distance": -0.5544,
+            "keys": [
+              [
+                0,
+                0
+              ],
+              [
+                0.14,
+                0
+              ],
+              [
+                0.88,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "application": "external collision-aware displacement; not baked into bone translation"
+          }
+        }
+      ],
+      "upper_mask": [
+        "abdomen",
+        "body",
+        "head",
+        "upper_arm.back",
+        "forearm.back",
+        "upper_arm.front",
+        "forearm.front",
+        "weapon",
+        "accessory"
+      ],
+      "lower_mask": [
+        "pelvis",
+        "thigh.back",
+        "shin.back",
+        "foot.back",
+        "thigh.front",
+        "shin.front",
+        "foot.front"
+      ],
+      "offhand_ik_max_error": 0.0,
+      "back_hand_surface_marker": [
+        0.65,
+        0.16999999999999993
+      ],
+      "weapon_grip_surface_marker": [
+        0.4946618974208832,
+        0.14000000059604645
+      ],
+      "surface_sockets": {
+        "hand.back": {
+          "part": "forearm.back",
+          "uv": [
+            0.65,
+            0.16999999999999993
+          ]
+        },
+        "weapon": {
+          "part": "weapon",
+          "uv": [
+            0.4946618974208832,
+            0.14000000059604645
+          ]
+        },
+        "weapon.tip": {
+          "part": "weapon",
+          "uv": [
+            0.021428536623716354,
+            0.9971428513526917
+          ]
+        },
+        "actor": {
+          "bone": "pelvis",
+          "offset": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "walk_period": 0.9666666666666667,
+      "walk_distance": 0.7582290402006061,
+      "status": "action resource candidate; not connected to game damage/collision",
+      "in_game": false,
+      "inspection_bounds": {
+        "SaberSlash": [
+          -0.721400573849678,
+          -0.01247674971818924,
+          1.3062893003225327,
+          2.1870994567871094
+        ],
+        "LowLunge": [
+          -0.7078389078378677,
+          -0.013211295008659363,
+          1.3471585363149643,
+          1.9676381349563599
+        ],
+        "WolfHowl": [
+          -0.6558159738779068,
+          -0.01854713074862957,
+          0.6539878100156784,
+          1.9831197261810303
+        ],
+        "HitRecoil": [
+          -0.6558159738779068,
+          -0.016712157055735588,
+          0.6539878100156784,
+          1.967635154724121
+        ],
+        "DodgeBack": [
+          -0.6558159738779068,
+          -0.013562791049480438,
+          0.6539878100156784,
+          2.001570701599121
+        ]
+      }
+    },
+    {
+      "id": "tiger",
+      "name": "虎妖",
+      "height": 2.24,
+      "source": "apps/xiyou/art/shadow-roster-v4/tiger/tiger.blend",
+      "source_sha256": "6767dec9731c8bcb68e98f75d20775ecf784a4ba11aa2d30cd971f19f7bb78dc",
+      "runtime": "tiger-actions.glb",
+      "runtime_bytes": 1487544,
+      "runtime_sha256": "7101249e5b3722bd48a936646a2012872830545cdd7c47b30baa9dc0b6867e5b",
+      "editable": "tiger-actions.blend",
+      "clips": [
+        "Idle",
+        "Walk",
+        "AxeCleave",
+        "AxeSweep",
+        "TigerRoar",
+        "HitRecoil",
+        "DodgeBack",
+        "WalkLower",
+        "AxeCleave_Upper",
+        "AxeSweep_Upper",
+        "TigerRoar_Upper",
+        "RestPose"
+      ],
+      "modules": [
+        {
+          "clip": "AxeCleave",
+          "label": "虎妖 · 举斧重劈",
+          "duration": 1.2,
+          "windup_end": 0.648,
+          "release_end": 0.804,
+          "events": [
+            {
+              "time": 0.648,
+              "type": "hit",
+              "socket": "weapon.tip"
+            }
+          ],
+          "poses": [
+            {
+              "t": 0.34,
+              "lean": -0.14,
+              "hand": [
+                0.04,
+                0.8
+              ],
+              "weapon": -0.32,
+              "back_hand": [
+                0.0,
+                0.72
+              ],
+              "compression": 0.02
+            },
+            {
+              "t": 0.45,
+              "lean": -0.11,
+              "hand": [
+                0.03,
+                0.81
+              ],
+              "weapon": -0.18,
+              "back_hand": [
+                0.01,
+                0.74
+              ],
+              "compression": 0.015
+            },
+            {
+              "t": 0.54,
+              "lean": 0.23,
+              "hand": [
+                0.24,
+                0.54
+              ],
+              "weapon": 1.33,
+              "back_hand": [
+                0.11,
+                0.59
+              ],
+              "compression": 0.055
+            },
+            {
+              "t": 0.7,
+              "lean": 0.25,
+              "hand": [
+                0.24,
+                0.49
+              ],
+              "weapon": 1.62,
+              "back_hand": [
+                0.1,
+                0.54
+              ],
+              "compression": 0.06
+            }
+          ],
+          "two_hand": true,
+          "upper_clip": "AxeCleave_Upper",
+          "proposal": true
+        },
+        {
+          "clip": "AxeSweep",
+          "label": "虎妖 · 横斧破阵",
+          "duration": 1.0833333333333333,
+          "windup_end": 0.4983,
+          "release_end": 0.6392,
+          "events": [
+            {
+              "time": 0.4983,
+              "type": "hit",
+              "socket": "weapon.tip"
+            }
+          ],
+          "poses": [
+            {
+              "t": 0.3,
+              "lean": -0.13,
+              "hand": [
+                -0.01,
+                0.69
+              ],
+              "weapon": -0.73,
+              "back_hand": [
+                0.02,
+                0.65
+              ],
+              "compression": 0.03
+            },
+            {
+              "t": 0.46,
+              "lean": 0.18,
+              "hand": [
+                0.25,
+                0.59
+              ],
+              "weapon": 1.32,
+              "back_hand": [
+                0.1,
+                0.6
+              ],
+              "compression": 0.045
+            },
+            {
+              "t": 0.66,
+              "lean": 0.23,
+              "hand": [
+                0.26,
+                0.52
+              ],
+              "weapon": 1.72,
+              "back_hand": [
+                0.1,
+                0.56
+              ],
+              "compression": 0.05
+            }
+          ],
+          "two_hand": true,
+          "upper_clip": "AxeSweep_Upper",
+          "proposal": true
+        },
+        {
+          "clip": "TigerRoar",
+          "label": "虎妖 · 震身怒吼",
+          "duration": 1.3166666666666667,
+          "windup_end": 0.632,
+          "release_end": 0.8032,
+          "events": [
+            {
+              "time": 0.632,
+              "type": "roar",
+              "socket": "hand.back"
+            }
+          ],
+          "poses": [
+            {
+              "t": 0.28,
+              "lean": 0.12,
+              "hand": [
+                0.13,
+                0.57
+              ],
+              "weapon": 0.18,
+              "back_hand": [
+                -0.02,
+                0.64
+              ],
+              "compression": 0.055
+            },
+            {
+              "t": 0.48,
+              "lean": -0.12,
+              "hand": [
+                0.13,
+                0.7
+              ],
+              "weapon": -0.2,
+              "back_hand": [
+                0.19,
+                0.72
+              ],
+              "compression": 0.02
+            },
+            {
+              "t": 0.7,
+              "lean": -0.08,
+              "hand": [
+                0.13,
+                0.7
+              ],
+              "weapon": -0.2,
+              "back_hand": [
+                0.19,
+                0.72
+              ],
+              "compression": 0.02
+            }
+          ],
+          "two_hand": false,
+          "upper_clip": "TigerRoar_Upper",
+          "proposal": true
+        },
+        {
+          "clip": "HitRecoil",
+          "label": "受击 · 后仰缓冲",
+          "duration": 0.55,
+          "windup_end": 0.066,
+          "release_end": 0.1375,
+          "events": [
+            {
+              "time": 0.066,
+              "type": "hurt",
+              "socket": "actor"
+            }
+          ],
+          "poses": [
+            {
+              "t": 0.12,
+              "lean": -0.18,
+              "hand": [
+                0.09,
+                0.62
+              ],
+              "weapon": -0.1,
+              "back_hand": [
+                -0.04,
+                0.66
+              ],
+              "compression": 0.035
+            },
+            {
+              "t": 0.35,
+              "lean": 0.08,
+              "hand": [
+                0.13,
+                0.61
+              ],
+              "weapon": 0.1,
+              "back_hand": [
+                0.02,
+                0.65
+              ],
+              "compression": 0.045
+            },
+            {
+              "t": 0.65,
+              "lean": 0.04,
+              "hand": [
+                0.13,
+                0.61
+              ],
+              "weapon": 0.08,
+              "back_hand": [
+                0.02,
+                0.64
+              ],
+              "compression": 0.02
+            }
+          ],
+          "two_hand": false,
+          "upper_clip": null
+        },
+        {
+          "clip": "DodgeBack",
+          "label": "闪避 · 后撤换步",
+          "duration": 0.8333333333333334,
+          "windup_end": 0.3333,
+          "release_end": 0.4417,
+          "events": [
+            {
+              "time": 0.3333,
+              "type": "dodge",
+              "socket": "actor"
+            }
+          ],
+          "poses": [
+            {
+              "t": 0.24,
+              "lean": -0.1,
+              "hand": [
+                0.1,
+                0.61
+              ],
+              "weapon": -0.12,
+              "back_hand": [
+                -0.02,
+                0.66
+              ],
+              "compression": 0.045
+            },
+            {
+              "t": 0.45,
+              "lean": -0.13,
+              "hand": [
+                0.11,
+                0.64
+              ],
+              "weapon": -0.16,
+              "back_hand": [
+                0.04,
+                0.68
+              ],
+              "compression": 0.06
+            },
+            {
+              "t": 0.72,
+              "lean": -0.03,
+              "hand": [
+                0.12,
+                0.62
+              ],
+              "weapon": 0.0,
+              "back_hand": [
+                0.02,
+                0.65
+              ],
+              "compression": 0.025
+            }
+          ],
+          "two_hand": false,
+          "upper_clip": null,
+          "root_motion": {
+            "axis": "facing-x",
+            "distance": -0.6272,
+            "keys": [
+              [
+                0,
+                0
+              ],
+              [
+                0.14,
+                0
+              ],
+              [
+                0.88,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "application": "external collision-aware displacement; not baked into bone translation"
+          }
+        }
+      ],
+      "upper_mask": [
+        "abdomen",
+        "body",
+        "head",
+        "upper_arm.back",
+        "forearm.back",
+        "upper_arm.front",
+        "forearm.front",
+        "weapon",
+        "accessory"
+      ],
+      "lower_mask": [
+        "pelvis",
+        "thigh.back",
+        "shin.back",
+        "foot.back",
+        "thigh.front",
+        "shin.front",
+        "foot.front"
+      ],
+      "offhand_ik_max_error": 3.819467311494439e-07,
+      "back_hand_surface_marker": [
+        0.6644736842105263,
+        0.17000000000000004
+      ],
+      "weapon_grip_surface_marker": [
+        0.15724815428256989,
+        0.14000000059604645
+      ],
+      "surface_sockets": {
+        "hand.back": {
+          "part": "forearm.back",
+          "uv": [
+            0.6644736842105263,
+            0.17000000000000004
+          ]
+        },
+        "weapon": {
+          "part": "weapon",
+          "uv": [
+            0.15724815428256989,
+            0.14000000059604645
+          ]
+        },
+        "weapon.tip": {
+          "part": "weapon",
+          "uv": [
+            0.7389162182807922,
+            0.9861686825752258
+          ]
+        },
+        "actor": {
+          "bone": "pelvis",
+          "offset": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "walk_period": 1.1833333333333333,
+      "walk_distance": 0.5795181720341088,
+      "status": "action resource candidate; not connected to game damage/collision",
+      "in_game": false,
+      "inspection_bounds": {
+        "AxeCleave": [
+          -0.6864222809672356,
+          -0.02170475572347641,
+          1.9736811593174934,
+          3.2403414249420166
+        ],
+        "AxeSweep": [
+          -0.9910038039088249,
+          -0.01891186088323593,
+          2.0062291100621223,
+          2.922215461730957
+        ],
+        "TigerRoar": [
+          -0.7696933671832085,
+          -0.03749098256230354,
+          1.2097280696034431,
+          2.995725393295288
+        ],
+        "HitRecoil": [
+          -0.7836001440882683,
+          -0.029722366482019424,
+          1.2097280696034431,
+          2.8028066158294678
+        ],
+        "DodgeBack": [
+          -0.7815912291407585,
+          -0.025048717856407166,
+          1.2097280696034431,
+          2.857414960861206
+        ]
+      }
+    },
+    {
+      "id": "baigufuren",
+      "name": "白骨夫人",
+      "height": 2.29,
+      "source": "apps/xiyou/art/shadow-roster-v4/baigufuren/baigufuren.blend",
+      "source_sha256": "57f09120e8ef2c2e6b37311d8bdfb179e645a2dac267a5b49be1a6e890d5897f",
+      "runtime": "baigufuren-actions.glb",
+      "runtime_bytes": 1291880,
+      "runtime_sha256": "5c08ae6dee1006446146557cb4738d3da73255759c4ae5fea51db2acb28c2176",
+      "editable": "baigufuren-actions.blend",
+      "clips": [
+        "Idle",
+        "Walk",
+        "BoneBolt",
+        "SleeveSweep",
+        "SpiritCall",
+        "HitRecoil",
+        "DodgeBack",
+        "WalkLower",
+        "BoneBolt_Upper",
+        "SleeveSweep_Upper",
+        "SpiritCall_Upper",
+        "RestPose"
+      ],
+      "modules": [
+        {
+          "clip": "BoneBolt",
+          "label": "白骨夫人 · 送杖飞矢",
+          "duration": 1.0333333333333334,
+          "windup_end": 0.4753,
+          "release_end": 0.6097,
+          "events": [
+            {
+              "time": 0.4753,
+              "type": "projectile",
+              "socket": "weapon.tip"
+            }
+          ],
+          "poses": [
+            {
+              "t": 0.28,
+              "lean": -0.07,
+              "hand": [
+                0.05,
+                0.69
+              ],
+              "weapon": -0.26,
+              "back_hand": [
+                -0.02,
+                0.67
+              ],
+              "compression": 0.01
+            },
+            {
+              "t": 0.46,
+              "lean": 0.06,
+              "hand": [
+                0.25,
+                0.71
+              ],
+              "weapon": 1.04,
+              "back_hand": [
+                0.14,
+                0.7
+              ],
+              "compression": 0.012
+            },
+            {
+              "t": 0.65,
+              "lean": 0.05,
+              "hand": [
+                0.25,
+                0.7
+              ],
+              "weapon": 1.12,
+              "back_hand": [
+                0.12,
+                0.69
+              ],
+              "compression": 0.012
+            }
+          ],
+          "two_hand": false,
+          "upper_clip": "BoneBolt_Upper",
+          "proposal": true
+        },
+        {
+          "clip": "SleeveSweep",
+          "label": "白骨夫人 · 拂袖",
+          "duration": 1.1666666666666667,
+          "windup_end": 0.5367,
+          "release_end": 0.6883,
+          "events": [
+            {
+              "time": 0.5367,
+              "type": "sleeve",
+              "socket": "hand.back"
+            }
+          ],
+          "poses": [
+            {
+              "t": 0.27,
+              "lean": -0.06,
+              "hand": [
+                0.11,
+                0.63
+              ],
+              "weapon": 0.08,
+              "back_hand": [
+                -0.03,
+                0.78
+              ],
+              "compression": 0.01
+            },
+            {
+              "t": 0.46,
+              "lean": 0.07,
+              "hand": [
+                0.14,
+                0.64
+              ],
+              "weapon": 0.2,
+              "back_hand": [
+                0.25,
+                0.72
+              ],
+              "compression": 0.014
+            },
+            {
+              "t": 0.66,
+              "lean": 0.1,
+              "hand": [
+                0.15,
+                0.61
+              ],
+              "weapon": 0.25,
+              "back_hand": [
+                0.27,
+                0.61
+              ],
+              "compression": 0.02
+            }
+          ],
+          "two_hand": false,
+          "upper_clip": "SleeveSweep_Upper",
+          "proposal": true
+        },
+        {
+          "clip": "SpiritCall",
+          "label": "白骨夫人 · 招魂",
+          "duration": 1.5,
+          "windup_end": 0.87,
+          "release_end": 1.065,
+          "events": [
+            {
+              "time": 0.87,
+              "type": "summon",
+              "socket": "hand.back"
+            }
+          ],
+          "poses": [
+            {
+              "t": 0.24,
+              "lean": 0.07,
+              "hand": [
+                0.11,
+                0.61
+              ],
+              "weapon": 0.02,
+              "back_hand": [
+                0.03,
+                0.62
+              ],
+              "compression": 0.02
+            },
+            {
+              "t": 0.44,
+              "lean": -0.06,
+              "hand": [
+                0.13,
+                0.76
+              ],
+              "weapon": -0.16,
+              "back_hand": [
+                0.09,
+                0.78
+              ],
+              "compression": 0.01
+            },
+            {
+              "t": 0.58,
+              "lean": -0.1,
+              "hand": [
+                0.14,
+                0.81
+              ],
+              "weapon": -0.25,
+              "back_hand": [
+                0.09,
+                0.85
+              ],
+              "compression": 0.005
+            },
+            {
+              "t": 0.78,
+              "lean": -0.06,
+              "hand": [
+                0.14,
+                0.79
+              ],
+              "weapon": -0.18,
+              "back_hand": [
+                0.09,
+                0.82
+              ],
+              "compression": 0.008
+            }
+          ],
+          "two_hand": false,
+          "upper_clip": "SpiritCall_Upper",
+          "proposal": true
+        },
+        {
+          "clip": "HitRecoil",
+          "label": "受击 · 后仰缓冲",
+          "duration": 0.55,
+          "windup_end": 0.066,
+          "release_end": 0.1375,
+          "events": [
+            {
+              "time": 0.066,
+              "type": "hurt",
+              "socket": "actor"
+            }
+          ],
+          "poses": [
+            {
+              "t": 0.12,
+              "lean": -0.18,
+              "hand": [
+                0.09,
+                0.62
+              ],
+              "weapon": -0.1,
+              "back_hand": [
+                -0.04,
+                0.66
+              ],
+              "compression": 0.035
+            },
+            {
+              "t": 0.35,
+              "lean": 0.08,
+              "hand": [
+                0.13,
+                0.61
+              ],
+              "weapon": 0.1,
+              "back_hand": [
+                0.02,
+                0.65
+              ],
+              "compression": 0.045
+            },
+            {
+              "t": 0.65,
+              "lean": 0.04,
+              "hand": [
+                0.13,
+                0.61
+              ],
+              "weapon": 0.08,
+              "back_hand": [
+                0.02,
+                0.64
+              ],
+              "compression": 0.02
+            }
+          ],
+          "two_hand": false,
+          "upper_clip": null
+        },
+        {
+          "clip": "DodgeBack",
+          "label": "闪避 · 后撤换步",
+          "duration": 0.8333333333333334,
+          "windup_end": 0.3333,
+          "release_end": 0.4417,
+          "events": [
+            {
+              "time": 0.3333,
+              "type": "dodge",
+              "socket": "actor"
+            }
+          ],
+          "poses": [
+            {
+              "t": 0.24,
+              "lean": -0.1,
+              "hand": [
+                0.1,
+                0.61
+              ],
+              "weapon": -0.12,
+              "back_hand": [
+                -0.02,
+                0.66
+              ],
+              "compression": 0.045
+            },
+            {
+              "t": 0.45,
+              "lean": -0.13,
+              "hand": [
+                0.11,
+                0.64
+              ],
+              "weapon": -0.16,
+              "back_hand": [
+                0.04,
+                0.68
+              ],
+              "compression": 0.06
+            },
+            {
+              "t": 0.72,
+              "lean": -0.03,
+              "hand": [
+                0.12,
+                0.62
+              ],
+              "weapon": 0.0,
+              "back_hand": [
+                0.02,
+                0.65
+              ],
+              "compression": 0.025
+            }
+          ],
+          "two_hand": false,
+          "upper_clip": null,
+          "root_motion": {
+            "axis": "facing-x",
+            "distance": -0.6412,
+            "keys": [
+              [
+                0,
+                0
+              ],
+              [
+                0.14,
+                0
+              ],
+              [
+                0.88,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "application": "external collision-aware displacement; not baked into bone translation"
+          }
+        }
+      ],
+      "upper_mask": [
+        "abdomen",
+        "body",
+        "head",
+        "upper_arm.back",
+        "forearm.back",
+        "upper_arm.front",
+        "forearm.front",
+        "weapon",
+        "accessory"
+      ],
+      "lower_mask": [
+        "pelvis",
+        "thigh.back",
+        "shin.back",
+        "foot.back",
+        "thigh.front",
+        "shin.front",
+        "foot.front"
+      ],
+      "offhand_ik_max_error": 0.0,
+      "back_hand_surface_marker": [
+        0.6693548387096774,
+        0.17000000000000004
+      ],
+      "weapon_grip_surface_marker": [
+        0.3316326439380646,
+        0.13999997079372406
+      ],
+      "surface_sockets": {
+        "hand.back": {
+          "part": "forearm.back",
+          "uv": [
+            0.6693548387096774,
+            0.17000000000000004
+          ]
+        },
+        "weapon": {
+          "part": "weapon",
+          "uv": [
+            0.3316326439380646,
+            0.13999997079372406
+          ]
+        },
+        "weapon.tip": {
+          "part": "weapon",
+          "uv": [
+            0.14358973503112793,
+            0.9979324340820312
+          ]
+        },
+        "actor": {
+          "bone": "pelvis",
+          "offset": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "walk_period": 1.4166666666666667,
+      "walk_distance": 0.49100217160256665,
+      "status": "action resource candidate; not connected to game damage/collision",
+      "in_game": false,
+      "inspection_bounds": {
+        "BoneBolt": [
+          -0.5954848984256387,
+          -0.019177565351128578,
+          1.4862994691357017,
+          2.5713741779327393
+        ],
+        "SleeveSweep": [
+          -0.6221843818202615,
+          -0.022432541474699974,
+          0.7226053019985557,
+          2.433793544769287
+        ],
+        "SpiritCall": [
+          -0.4582088449969888,
+          -0.022325677797198296,
+          0.7202370902523398,
+          2.8227219581604004
+        ],
+        "HitRecoil": [
+          -0.6262194374576211,
+          -0.027730142697691917,
+          0.6790865799412131,
+          2.402662992477417
+        ],
+        "DodgeBack": [
+          -0.588446662761271,
+          -0.031156940385699272,
+          0.6648654481396079,
+          2.4450674057006836
+        ]
+      }
+    }
+  ],
+  "status": "action candidates; visual review pending"
+}

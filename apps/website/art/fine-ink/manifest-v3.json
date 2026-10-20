@@ -1,0 +1,130 @@
+{
+  "version": "fine-ink-depth-scene-v3",
+  "date": "2026-10-20",
+  "accepted_paint": "plate-v1.png",
+  "cutout_source": "plate-v2-clean.png",
+  "cutout_source_sha256": "4f2a0170c69e3cdc5f75d829ac514ce4410ffff44e149cdb58414dc61a2e8943",
+  "hidden_ground": "underpaint-v3.png",
+  "hidden_ground_sha256": "d477e46d92f3bed39a34802d778a1467725af89d7a1d70955c093329983ac41e",
+  "hidden_ground_source": "C:/Users/25647/.codex/generated_images/01a152a0-8e42-7971-8f0f-073a468e7dd7/exec-c1b114da-fb64-479e-8c8f-e4cb323c4ff3.png",
+  "prompts": [
+    "prompt-v3-underpaint.txt",
+    "prompt-v3-bridges.txt"
+  ],
+  "preparation": "node scripts/prepare-depth-ink.mjs <hidden-ground-source.png>",
+  "config": "depth-layout-v3.json",
+  "runtime_art_bytes": 1450928,
+  "assets": [
+    {
+      "name": "bridge-0.webp",
+      "bytes": 3028,
+      "sha256": "3975812f45f4aef46fedf65bcbf10094ecfea20b9022c3ccac08ff151e3900c0"
+    },
+    {
+      "name": "bridge-1.webp",
+      "bytes": 3020,
+      "sha256": "064e4482e8656bcdb9c20bd4389b8c31c6249e3c15e2f4b6e6c70aa59bbb1efc"
+    },
+    {
+      "name": "bridge-2.webp",
+      "bytes": 2366,
+      "sha256": "aa0465f92591cdfb23f2b6e9a7cafbdbcd96accff1bff410376f0e9b76329eb9"
+    },
+    {
+      "name": "changan-city.webp",
+      "bytes": 48302,
+      "sha256": "2c43cc0a8000d266263536ed5170b18821053fe33d0fca2383faf09daf3fd440"
+    },
+    {
+      "name": "changan-front-wall.webp",
+      "bytes": 17356,
+      "sha256": "6d002c6cbac673d2d1f5c0a05dfa0916107d6f758846bf0adf15ee9d08b3c44a"
+    },
+    {
+      "name": "connected-western-landform.webp",
+      "bytes": 219944,
+      "sha256": "a253c71a5fff8939e94d31aac1302a04ec861b1e82f42b497bfa300ebf52bf22"
+    },
+    {
+      "name": "far-horizon.webp",
+      "bytes": 88120,
+      "sha256": "854fefe8886e876425ac1c97507dc6f6f7846c18e1bf958f504cdb6d5f497f92"
+    },
+    {
+      "name": "foreground-ridge.webp",
+      "bytes": 77836,
+      "sha256": "e8a82752c9cb25546105b9d26cfed22dd67356c815c7638e4f0e7a2c18dd6252"
+    },
+    {
+      "name": "ground.webp",
+      "bytes": 644792,
+      "sha256": "4b2d8e80d682a9728846086b16c82d642fc4e57755e3d31b635e331e6d32a13e"
+    },
+    {
+      "name": "han-near-bank.webp",
+      "bytes": 21420,
+      "sha256": "f763c53801d437d1d6664bb03dab552d2fad050a04cd6972ebab7a90ff7b0fc5"
+    },
+    {
+      "name": "hanzhong-city.webp",
+      "bytes": 22468,
+      "sha256": "e6b74d8fe320ff5c6485e9c92acf5232bb400fec46f46de5aa2164742f1079c7"
+    },
+    {
+      "name": "hanzhong-front-wall.webp",
+      "bytes": 13408,
+      "sha256": "62966392d81419f4d6ec5d88abfb7b5df3d7b2e57a16a9a8b4711f122e790998"
+    },
+    {
+      "name": "jinling-garden-city.webp",
+      "bytes": 55722,
+      "sha256": "649c15fd6a8530a995e7e1feb7d160229bbcb5f82298248b7dd6a9fbf3e2db50"
+    },
+    {
+      "name": "jinling-near-shore.webp",
+      "bytes": 36138,
+      "sha256": "98f7f42ba888b1531154e7e9c72f531eb4b328877f14f34fab1effbf3bdba9fd"
+    },
+    {
+      "name": "liangshan-town.webp",
+      "bytes": 16708,
+      "sha256": "0ea516ffbab5b557bf1a45f919e956bc482dd5b29799c51eb3fb410d8dc3044f"
+    },
+    {
+      "name": "qinling-main-spine.webp",
+      "bytes": 65242,
+      "sha256": "8e397f1c6413b41676a59ffe4961a7f20bb374b626ada69612a7981d3e6708d6"
+    },
+    {
+      "name": "west-front-rocks.webp",
+      "bytes": 18296,
+      "sha256": "5dcb6e8cf46ec7650a7e08e8ac6d8784a33b174dc52aeab3fa3df2067b7ca1e3"
+    },
+    {
+      "name": "west-lower-foothills.webp",
+      "bytes": 27322,
+      "sha256": "9e8f914ab15a6139a8a9c82274402a044a1db27c8c3153e6494d0682fbe4c332"
+    },
+    {
+      "name": "west-middle-cliff.webp",
+      "bytes": 33250,
+      "sha256": "4b0a2ad484afd60cb4d0b8bf502f57cff2a67bd49ea28828b7b453615aedfe34"
+    },
+    {
+      "name": "west-upper-range.webp",
+      "bytes": 36190,
+      "sha256": "79a0a0096231b4d97ef5b25f441f8764b87d19a5a003a1a6e999319ba783a03b"
+    }
+  ],
+  "geometry_sources": [
+    {
+      "file": "apps/website/src/ink-depth.ts",
+      "sha256": "a3c6d480b89015d1f90c6ce8f60b3cf09fc176e9a1aca05a6aa7aee9f0b79e04"
+    },
+    {
+      "file": "apps/website/src/FineInkDepth.tsx",
+      "sha256": "0b2718ff4948ff35eae8d89eb0e73f8a20db8408fae06b17e8eb97b91739525e"
+    }
+  ],
+  "scope": "Separate alpha cutouts and relief meshes reconstructed from the accepted painting, plus inpainted hidden ground; controlled perspective camera. Not a free-orbit complete 3D reconstruction or Blender model."
+}

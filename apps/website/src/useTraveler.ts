@@ -1,11 +1,25 @@
 import { useCallback, useEffect, useState } from 'react';
-import { browserStorage, detectLocale, readTraveler, writeTraveler } from '@cfgcn/shared';
+import {
+  browserStorage,
+  detectLocale,
+  readTraveler,
+  siteLocale,
+  writeTraveler,
+} from '@cfgcn/shared';
 import type { GameId, Traveler } from '@cfgcn/shared';
 
 export function useTraveler() {
-  const [traveler, setTraveler] = useState(() =>
-    readTraveler(browserStorage(), detectLocale(navigator.languages)),
-  );
+  const [traveler, setTraveler] = useState(() => {
+    const saved = readTraveler(browserStorage(), detectLocale(navigator.languages));
+    return { ...saved, locale: siteLocale(location.search) ?? saved.locale };
+  });
+  useEffect(() => {
+    if (siteLocale(location.search)) {
+      const url = new URL(location.href);
+      url.searchParams.delete('lang');
+      history.replaceState(history.state, '', url);
+    }
+  }, []);
   const [persisted, setPersisted] = useState(true);
   useEffect(() => {
     setPersisted(writeTraveler(browserStorage(), traveler));

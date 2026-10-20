@@ -1,0 +1,57 @@
+{
+  "created": "2026-10-20",
+  "generator": "Built-in image_gen",
+  "transformations": "Resize and encode only; no repainting",
+  "entries": [
+    {
+      "id": "wukong",
+      "original": "wukong-original.png",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "source_sha256": "3c30226e403703a812e52ca389dad1c601cb6f2ff9146d3ebfdcb9d083964775",
+      "runtime_sha256": "e9e4871aef0cfd0c4c8fd49a0ef40471744cf4ed60ba065894c1f58f3d066c76",
+      "runtime_bytes": 53332
+    },
+    {
+      "id": "tangseng",
+      "original": "tangseng-original.png",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "source_sha256": "047895a715f14d5cc6f0dac90c0ad610d6f3bed58117cd7cba9b96de9657f895",
+      "runtime_sha256": "3b51babdd79483e977c59db063f4b60b6f904650efa9dc571908fb62c6e10f04",
+      "runtime_bytes": 52296
+    },
+    {
+      "id": "bajie",
+      "original": "bajie-original.png",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "source_sha256": "b439b3a1b42974b8f0ecdad948b6e7cc1949950ae34b89ac3e61170be2bbc4d9",
+      "runtime_sha256": "adf56ffe0613097ea9fb714b32f7c74ce529c25d16407f43ad58172237812d42",
+      "runtime_bytes": 58512
+    },
+    {
+      "id": "shaseng",
+      "original": "shaseng-original.png",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "source_sha256": "f3c0a9342797675d0aa2b9763d9c08d04fda510a707239b1f045fb95cd568e86",
+      "runtime_sha256": "09ef2b9871b893df07772c91b8858e91afbe8416d79d29d5b965dc7202da57fa",
+      "runtime_bytes": 53900
+    },
+    {
+      "id": "xiaobailong",
+      "original": "xiaobailong-original.png",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "source_sha256": "b763fc55244fdf154554a187164a5c63c344ae43e65d0be1e00ee7f13bd9f0a4",
+      "runtime_sha256": "a358acbcf7c7ac092d74790bd069fee335ca827e0016df0c45baa6e1b67ed3c9",
+      "runtime_bytes": 60054
+    }
+  ]
+}

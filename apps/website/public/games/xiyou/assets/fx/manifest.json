@@ -1,0 +1,36 @@
+{
+  "origin": "original-builtin-imagegen",
+  "source": "apps/xiyou/art/source/spell-painting-v1.png",
+  "source_sha256": "2c7ffe1e41d30f517e9f42e094eb939c8a012ff14ffa3fd40ab81c3773435d95",
+  "assets": [
+    {
+      "name": "lotus",
+      "bytes": 40749,
+      "width": 256,
+      "height": 256,
+      "sha256": "8d133660aa3f2ebeceba262e6ccbbee247964d662710f3f86b751bed50a7643a"
+    },
+    {
+      "name": "staff",
+      "bytes": 32727,
+      "width": 256,
+      "height": 256,
+      "sha256": "71b04ef57d825eb4d6d7db1f001f719e6b8cb6298b743ce1e449731739575c94"
+    },
+    {
+      "name": "tide",
+      "bytes": 42313,
+      "width": 256,
+      "height": 256,
+      "sha256": "0aa14cf64eb782391454c5b8e018fe06508855c1a1a49155cba3d9a2b241a378"
+    },
+    {
+      "name": "warning",
+      "bytes": 29099,
+      "width": 256,
+      "height": 256,
+      "sha256": "d2cc4408b4ae14197a74278294ec46a54a16007f656021e613553bef3791ee95"
+    }
+  ],
+  "geometry": "Warning uses a shader-clipped exact gameplay radius; painting is its inner wash only."
+}

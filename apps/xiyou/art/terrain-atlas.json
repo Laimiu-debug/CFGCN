@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "origin": "original builtin imagegen",
+  "source": "source/terrain-atlas-v2.png",
+  "runtime": "source/terrain-atlas-runtime.jpg",
+  "layout": [
+    "grass: top left",
+    "earth: top right",
+    "limestone: bottom left",
+    "river shingle: bottom right"
+  ],
+  "runtime_size": [
+    768,
+    768
+  ],
+  "prompt": "Use case: illustration. Asset type: ONE square production albedo texture ATLAS for the walkable terrain of an original Journey to the West 3D browser survivor game. Entire image exactly four equal square quadrants, touching with NO gaps or borders, a 2 by 2 material sheet. Flat orthographic overhead texture only, no scene or perspective. TOP LEFT: healthy muted malachite-jade meadow, broad dense short painted grass tufts and irregular quiet moss, dark pine-green recesses, subtle directional gouache brushwork. TOP RIGHT: pale warm ivory-ochre packed earth ancient trail, small soft brush dabs and sparse pine needles, low contrast walkable surface, no path shape. BOTTOM LEFT: cool pale blue-grey limestone, large irregular layered mineral facets with restrained dark ink fissures and jade patina, no huge cracks or holes. BOTTOM RIGHT: damp river shingle, small rounded pale grey stones embedded in warm grey sand, subdued moss, no water. Style: Chinese gongbi zhongcai illustrated game textures, confident clean painted shapes and fine restrained ink accents, malachite mineral pigments and silk grain, NOT pixel art, NOT photographs, NOT blurry watercolor. Palette strictly from jade #37594a, malachite #4d7056, water stone #426e78, ivory #e8e4d5, antique gold #a78046 and ink #263c34; use lighter mineral washes of those. All four panels have even neutral diffuse light, no cast shadows or highlights, mid to light values for readable characters. Each quadrant should individually tile at all four edges; detail has consistent small scale and survives being reduced to a 384px tile. No text, names, numbers, grid lines, white divider, frame, vignette, objects, trees, flowers, characters, icons, landscape, lighting gradient, giant stone slab or black voids. This atlas will be mapped onto actual 3D ground, never used as a flat scene background."
+}

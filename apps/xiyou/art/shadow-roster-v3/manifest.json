@@ -1,0 +1,749 @@
+{
+  "characters": [
+    {
+      "id": "tangseng",
+      "name": "唐僧",
+      "status": "resource study; visual review pending",
+      "source": "OpenAI built-in image_gen; original art",
+      "source_image": "parts-source.png",
+      "source_sha256": "dc323a11c333051e64f4e8ebeedb8edf888269a5241efc5cc1aceee0d8cfeefa",
+      "prompt": "prompt.txt",
+      "woop": "tangseng.woop",
+      "editable": "tangseng.blend",
+      "runtime": "tangseng.glb",
+      "runtime_sha256": "1e3bc36712039622ae56638ff22f7e07762f9a397d2d5113ce1291c5bee1e94f",
+      "runtime_bytes": 1179672,
+      "texture_size": [
+        1024,
+        1024
+      ],
+      "source_texture_size": [
+        1254,
+        1254
+      ],
+      "parts": 16,
+      "joints": 15,
+      "bones": 16,
+      "anatomy": "chest -> abdomen -> pelvis -> thighs",
+      "triangles": 32,
+      "materials": 1,
+      "clips": [
+        "Idle",
+        "Walk",
+        "RestPose"
+      ],
+      "importer": "Official WooooShadow 0.8.13, loaded locally in an isolated Blender process",
+      "importer_sha256": "d05e8f74c00d40c1dd1e043e5d9bc5f70b86c1c0abd6a181cba7c2d94e6b4c60",
+      "blender": "5.2.2 LTS",
+      "directions": [
+        "side-right",
+        "mirrored-side-left"
+      ],
+      "tripo": "Not used: direct original 2D puppet artwork",
+      "in_game": false,
+      "version": 3,
+      "nominal_body_height": 2.32,
+      "proportions": {
+        "shape": "修长端正，窄肩、长袍，步幅克制",
+        "head": [
+          52,
+          29
+        ],
+        "chest": [
+          72,
+          50
+        ],
+        "abdomen": [
+          77,
+          47
+        ],
+        "pelvis": [
+          95,
+          52
+        ],
+        "upper": [
+          40,
+          16
+        ],
+        "fore": [
+          38,
+          13
+        ],
+        "thigh": [
+          53,
+          20
+        ],
+        "shin": [
+          55,
+          13
+        ],
+        "foot": [
+          20,
+          23
+        ],
+        "lean": -0.015,
+        "crouch": 0.045,
+        "stride": 0.22,
+        "lift": 0.095,
+        "period": 1.22,
+        "arm_swing": 0.09,
+        "fore_angle": -0.35,
+        "weapon_tilt": 0.025,
+        "idle_crouch": 0.004
+      },
+      "revision": "Native Blender part dimensions, distinct anatomical ratios and gait; source paintings preserved"
+    },
+    {
+      "id": "wukong",
+      "name": "孙悟空",
+      "status": "resource study; visual review pending",
+      "source": "OpenAI built-in image_gen; original art",
+      "source_image": "parts-source.png",
+      "source_sha256": "92992b882fc1b9edee10139b6ce06b79fdfd6fad00a69d0b4708116b6b0bcff0",
+      "prompt": "prompt.txt",
+      "woop": "wukong.woop",
+      "editable": "wukong.blend",
+      "runtime": "wukong.glb",
+      "runtime_sha256": "f503cd8b9d0326faf58aabac4e3a271faebde98d09350afcd00dcb3a9a120b57",
+      "runtime_bytes": 1052792,
+      "texture_size": [
+        1024,
+        1024
+      ],
+      "source_texture_size": [
+        1254,
+        1254
+      ],
+      "parts": 16,
+      "joints": 15,
+      "bones": 16,
+      "anatomy": "chest -> abdomen -> pelvis -> thighs",
+      "triangles": 32,
+      "materials": 1,
+      "clips": [
+        "Idle",
+        "Walk",
+        "RestPose"
+      ],
+      "importer": "Official WooooShadow 0.8.13, loaded locally in an isolated Blender process",
+      "importer_sha256": "d05e8f74c00d40c1dd1e043e5d9bc5f70b86c1c0abd6a181cba7c2d94e6b4c60",
+      "blender": "5.2.2 LTS",
+      "directions": [
+        "side-right",
+        "mirrored-side-left"
+      ],
+      "tripo": "Not used: direct original 2D puppet artwork",
+      "in_game": false,
+      "version": 3,
+      "nominal_body_height": 1.74,
+      "proportions": {
+        "shape": "矮捷，头略大、腰短、长臂，屈膝蓄势",
+        "head": [
+          46,
+          38
+        ],
+        "chest": [
+          50,
+          49
+        ],
+        "abdomen": [
+          56,
+          43
+        ],
+        "pelvis": [
+          32,
+          48
+        ],
+        "upper": [
+          37,
+          14
+        ],
+        "fore": [
+          36,
+          12
+        ],
+        "thigh": [
+          38,
+          21
+        ],
+        "shin": [
+          35,
+          16
+        ],
+        "foot": [
+          18,
+          24
+        ],
+        "lean": 0.15,
+        "crouch": 0.12,
+        "stride": 0.255,
+        "lift": 0.19,
+        "period": 0.76,
+        "arm_swing": 0.27,
+        "fore_angle": -0.52,
+        "weapon_tilt": 0.15,
+        "idle_crouch": 0.08
+      },
+      "revision": "Native Blender part dimensions, distinct anatomical ratios and gait; source paintings preserved"
+    },
+    {
+      "id": "bajie",
+      "name": "猪八戒",
+      "status": "resource study; visual review pending",
+      "source": "OpenAI built-in image_gen; original art",
+      "source_image": "parts-source.png",
+      "source_sha256": "7361d8de801441438d6f8db90f77c58044d09a7485a0c35a98a5379d9aceaee6",
+      "prompt": "prompt.txt",
+      "woop": "bajie.woop",
+      "editable": "bajie.blend",
+      "runtime": "bajie.glb",
+      "runtime_sha256": "cd025818c37e244afe4753b8e40e25fa618d3eb70d49a36e850804510b79ab05",
+      "runtime_bytes": 1199364,
+      "texture_size": [
+        1024,
+        1024
+      ],
+      "source_texture_size": [
+        1254,
+        1254
+      ],
+      "parts": 16,
+      "joints": 15,
+      "bones": 16,
+      "anatomy": "chest -> abdomen -> pelvis -> thighs",
+      "triangles": 32,
+      "materials": 1,
+      "clips": [
+        "Idle",
+        "Walk",
+        "RestPose"
+      ],
+      "importer": "Official WooooShadow 0.8.13, loaded locally in an isolated Blender process",
+      "importer_sha256": "d05e8f74c00d40c1dd1e043e5d9bc5f70b86c1c0abd6a181cba7c2d94e6b4c60",
+      "blender": "5.2.2 LTS",
+      "directions": [
+        "side-right",
+        "mirrored-side-left"
+      ],
+      "tripo": "Not used: direct original 2D puppet artwork",
+      "in_game": false,
+      "version": 3,
+      "nominal_body_height": 1.8,
+      "proportions": {
+        "shape": "圆厚，腹部最宽、短腿粗臂，重心低",
+        "head": [
+          50,
+          64
+        ],
+        "chest": [
+          60,
+          81
+        ],
+        "abdomen": [
+          106,
+          126
+        ],
+        "pelvis": [
+          30,
+          87
+        ],
+        "upper": [
+          30,
+          27
+        ],
+        "fore": [
+          28,
+          25
+        ],
+        "thigh": [
+          28,
+          33
+        ],
+        "shin": [
+          24,
+          29
+        ],
+        "foot": [
+          24,
+          34
+        ],
+        "lean": -0.025,
+        "crouch": 0.05,
+        "stride": 0.135,
+        "lift": 0.075,
+        "period": 1.36,
+        "arm_swing": 0.13,
+        "fore_angle": -0.38,
+        "weapon_tilt": 0.02,
+        "idle_crouch": 0.008
+      },
+      "revision": "Native Blender part dimensions, distinct anatomical ratios and gait; source paintings preserved"
+    },
+    {
+      "id": "shaseng",
+      "name": "沙悟净",
+      "status": "resource study; visual review pending",
+      "source": "OpenAI built-in image_gen; original art",
+      "source_image": "parts-source.png",
+      "source_sha256": "240b94b935568af68cab4fd57421e508e72f36e666c563afa209f034aaae19ac",
+      "prompt": "prompt.txt",
+      "woop": "shaseng.woop",
+      "editable": "shaseng.blend",
+      "runtime": "shaseng.glb",
+      "runtime_sha256": "59a566390beecb4418c5cfdae0c28f3e055bb970b32b39eeaba80b6c1a4e03d2",
+      "runtime_bytes": 1070672,
+      "texture_size": [
+        1024,
+        1024
+      ],
+      "source_texture_size": [
+        1254,
+        1254
+      ],
+      "parts": 16,
+      "joints": 15,
+      "bones": 16,
+      "anatomy": "chest -> abdomen -> pelvis -> thighs",
+      "triangles": 32,
+      "materials": 1,
+      "clips": [
+        "Idle",
+        "Walk",
+        "RestPose"
+      ],
+      "importer": "Official WooooShadow 0.8.13, loaded locally in an isolated Blender process",
+      "importer_sha256": "d05e8f74c00d40c1dd1e043e5d9bc5f70b86c1c0abd6a181cba7c2d94e6b4c60",
+      "blender": "5.2.2 LTS",
+      "directions": [
+        "side-right",
+        "mirrored-side-left"
+      ],
+      "tripo": "Not used: direct original 2D puppet artwork",
+      "in_game": false,
+      "version": 3,
+      "nominal_body_height": 2.5,
+      "proportions": {
+        "shape": "最高壮，宽肩长躯、长臂长腿，落步沉稳",
+        "head": [
+          47,
+          43
+        ],
+        "chest": [
+          88,
+          93
+        ],
+        "abdomen": [
+          72,
+          75
+        ],
+        "pelvis": [
+          65,
+          74
+        ],
+        "upper": [
+          52,
+          27
+        ],
+        "fore": [
+          48,
+          22
+        ],
+        "thigh": [
+          58,
+          28
+        ],
+        "shin": [
+          56,
+          23
+        ],
+        "foot": [
+          22,
+          31
+        ],
+        "lean": 0.035,
+        "crouch": 0.09,
+        "stride": 0.34,
+        "lift": 0.12,
+        "period": 1.12,
+        "arm_swing": 0.15,
+        "fore_angle": -0.42,
+        "weapon_tilt": -0.06,
+        "idle_crouch": 0.008
+      },
+      "revision": "Native Blender part dimensions, distinct anatomical ratios and gait; source paintings preserved"
+    },
+    {
+      "id": "xiaobailong",
+      "name": "小白龙（人形）",
+      "status": "resource study; visual review pending",
+      "source": "OpenAI built-in image_gen; original art",
+      "source_image": "parts-source.png",
+      "source_sha256": "1b4991db11dc1b50c1fe8332aa1c2878059ddd9e6ce2fba78696c7ba9d8f475c",
+      "prompt": "prompt.txt",
+      "woop": "xiaobailong.woop",
+      "editable": "xiaobailong.blend",
+      "runtime": "xiaobailong.glb",
+      "runtime_sha256": "e89b92d0ca65c9a536a1cd42345bce3205173a9565b7b9edfbde98aaf58477eb",
+      "runtime_bytes": 1264600,
+      "texture_size": [
+        1024,
+        1024
+      ],
+      "source_texture_size": [
+        1254,
+        1254
+      ],
+      "parts": 16,
+      "joints": 15,
+      "bones": 16,
+      "anatomy": "chest -> abdomen -> pelvis -> thighs",
+      "triangles": 32,
+      "materials": 1,
+      "clips": [
+        "Idle",
+        "Walk",
+        "RestPose"
+      ],
+      "importer": "Official WooooShadow 0.8.13, loaded locally in an isolated Blender process",
+      "importer_sha256": "d05e8f74c00d40c1dd1e043e5d9bc5f70b86c1c0abd6a181cba7c2d94e6b4c60",
+      "blender": "5.2.2 LTS",
+      "directions": [
+        "side-right",
+        "mirrored-side-left"
+      ],
+      "tripo": "Not used: direct original 2D puppet artwork",
+      "in_game": false,
+      "version": 3,
+      "nominal_body_height": 2.22,
+      "proportions": {
+        "shape": "清瘦少年，肩胯窄、腿最长，步态轻快",
+        "head": [
+          46,
+          32
+        ],
+        "chest": [
+          63,
+          48
+        ],
+        "abdomen": [
+          60,
+          42
+        ],
+        "pelvis": [
+          67,
+          45
+        ],
+        "upper": [
+          36,
+          12
+        ],
+        "fore": [
+          35,
+          11
+        ],
+        "thigh": [
+          63,
+          16
+        ],
+        "shin": [
+          60,
+          12
+        ],
+        "foot": [
+          19,
+          22
+        ],
+        "lean": 0.015,
+        "crouch": 0.065,
+        "stride": 0.32,
+        "lift": 0.16,
+        "period": 0.94,
+        "arm_swing": 0.18,
+        "fore_angle": -0.43,
+        "weapon_tilt": 0.1,
+        "idle_crouch": 0.004
+      },
+      "revision": "Native Blender part dimensions, distinct anatomical ratios and gait; source paintings preserved"
+    },
+    {
+      "id": "wolf",
+      "name": "狼妖",
+      "status": "resource study; visual review pending",
+      "source": "OpenAI built-in image_gen; original art",
+      "source_image": "parts-source.png",
+      "source_sha256": "e1f7d9206d1190761ed1cf2dfdc83f627ad0bc10b0f5097dbd90c8ef55ab8db7",
+      "prompt": "prompt.txt",
+      "woop": "wolf.woop",
+      "editable": "wolf.blend",
+      "runtime": "wolf.glb",
+      "runtime_sha256": "8acf3504cd09ad41d90eccc1bbb6b8b4ff0315fe1bed4b6b2bbf9b9e3d42ec63",
+      "runtime_bytes": 1085572,
+      "texture_size": [
+        1024,
+        1024
+      ],
+      "source_texture_size": [
+        1254,
+        1254
+      ],
+      "parts": 16,
+      "joints": 15,
+      "bones": 16,
+      "anatomy": "chest -> abdomen -> pelvis -> thighs",
+      "triangles": 32,
+      "materials": 1,
+      "clips": [
+        "Idle",
+        "Walk",
+        "RestPose"
+      ],
+      "importer": "Official WooooShadow 0.8.13, loaded locally in an isolated Blender process",
+      "importer_sha256": "d05e8f74c00d40c1dd1e043e5d9bc5f70b86c1c0abd6a181cba7c2d94e6b4c60",
+      "blender": "5.2.2 LTS",
+      "directions": [
+        "side-right",
+        "mirrored-side-left"
+      ],
+      "tripo": "Not used: direct original 2D puppet artwork",
+      "in_game": false,
+      "version": 3,
+      "nominal_body_height": 1.98,
+      "proportions": {
+        "shape": "前倾佝偻，长嘴、窄腰、长臂，低身探步",
+        "head": [
+          54,
+          61
+        ],
+        "chest": [
+          56,
+          48
+        ],
+        "abdomen": [
+          50,
+          39
+        ],
+        "pelvis": [
+          34,
+          44
+        ],
+        "upper": [
+          47,
+          20
+        ],
+        "fore": [
+          44,
+          17
+        ],
+        "thigh": [
+          54,
+          24
+        ],
+        "shin": [
+          48,
+          17
+        ],
+        "foot": [
+          24,
+          32
+        ],
+        "lean": 0.25,
+        "crouch": 0.19,
+        "stride": 0.34,
+        "lift": 0.18,
+        "period": 0.84,
+        "arm_swing": 0.31,
+        "fore_angle": -0.62,
+        "weapon_tilt": 0.1,
+        "idle_crouch": 0.14
+      },
+      "revision": "Native Blender part dimensions, distinct anatomical ratios and gait; source paintings preserved"
+    },
+    {
+      "id": "tiger",
+      "name": "虎妖",
+      "status": "resource study; visual review pending",
+      "source": "OpenAI built-in image_gen; original art",
+      "source_image": "parts-source.png",
+      "source_sha256": "dd2ea95795784414afaf3bf9c0a1c96edb3ac66a8737db9ebcc7c8e7676e6f14",
+      "prompt": "prompt.txt",
+      "woop": "tiger.woop",
+      "editable": "tiger.blend",
+      "runtime": "tiger.glb",
+      "runtime_sha256": "9e0169464f167dd4fa6b9443eeaf261f262505006111c225bbc0f55e97768003",
+      "runtime_bytes": 1159892,
+      "texture_size": [
+        1024,
+        1024
+      ],
+      "source_texture_size": [
+        1254,
+        1254
+      ],
+      "parts": 16,
+      "joints": 15,
+      "bones": 16,
+      "anatomy": "chest -> abdomen -> pelvis -> thighs",
+      "triangles": 32,
+      "materials": 1,
+      "clips": [
+        "Idle",
+        "Walk",
+        "RestPose"
+      ],
+      "importer": "Official WooooShadow 0.8.13, loaded locally in an isolated Blender process",
+      "importer_sha256": "d05e8f74c00d40c1dd1e043e5d9bc5f70b86c1c0abd6a181cba7c2d94e6b4c60",
+      "blender": "5.2.2 LTS",
+      "directions": [
+        "side-right",
+        "mirrored-side-left"
+      ],
+      "tripo": "Not used: direct original 2D puppet artwork",
+      "in_game": false,
+      "version": 3,
+      "nominal_body_height": 2.24,
+      "proportions": {
+        "shape": "倒三角壮硕，肩背宽、粗臂大掌，低沉有力",
+        "head": [
+          60,
+          59
+        ],
+        "chest": [
+          86,
+          108
+        ],
+        "abdomen": [
+          62,
+          70
+        ],
+        "pelvis": [
+          42,
+          70
+        ],
+        "upper": [
+          48,
+          32
+        ],
+        "fore": [
+          43,
+          28
+        ],
+        "thigh": [
+          44,
+          34
+        ],
+        "shin": [
+          37,
+          29
+        ],
+        "foot": [
+          26,
+          36
+        ],
+        "lean": 0.08,
+        "crouch": 0.1,
+        "stride": 0.235,
+        "lift": 0.13,
+        "period": 1.04,
+        "arm_swing": 0.23,
+        "fore_angle": -0.46,
+        "weapon_tilt": 0.08,
+        "idle_crouch": 0.025
+      },
+      "revision": "Native Blender part dimensions, distinct anatomical ratios and gait; source paintings preserved"
+    },
+    {
+      "id": "baigufuren",
+      "name": "白骨夫人",
+      "status": "resource study; visual review pending",
+      "source": "OpenAI built-in image_gen; original art",
+      "source_image": "parts-source.png",
+      "source_sha256": "7dc21e0fe13dce63ffd571e0d9a6e3451558d5c8248edfdceb5dec65f84166c3",
+      "prompt": "prompt.txt",
+      "woop": "baigufuren.woop",
+      "editable": "baigufuren.blend",
+      "runtime": "baigufuren.glb",
+      "runtime_sha256": "462862a279411dedda857169d53b6a89eec031f551d3cc6d2ff561a792d6c597",
+      "runtime_bytes": 1138992,
+      "texture_size": [
+        1024,
+        1024
+      ],
+      "source_texture_size": [
+        1254,
+        1254
+      ],
+      "parts": 16,
+      "joints": 15,
+      "bones": 16,
+      "anatomy": "chest -> abdomen -> pelvis -> thighs",
+      "triangles": 32,
+      "materials": 1,
+      "clips": [
+        "Idle",
+        "Walk",
+        "RestPose"
+      ],
+      "importer": "Official WooooShadow 0.8.13, loaded locally in an isolated Blender process",
+      "importer_sha256": "d05e8f74c00d40c1dd1e043e5d9bc5f70b86c1c0abd6a181cba7c2d94e6b4c60",
+      "blender": "5.2.2 LTS",
+      "directions": [
+        "side-right",
+        "mirrored-side-left"
+      ],
+      "tripo": "Not used: direct original 2D puppet artwork",
+      "in_game": false,
+      "version": 3,
+      "nominal_body_height": 2.29,
+      "proportions": {
+        "shape": "纤长冷峻，细腰细臂、长手足，缓步少摆",
+        "head": [
+          49,
+          29
+        ],
+        "chest": [
+          60,
+          44
+        ],
+        "abdomen": [
+          76,
+          35
+        ],
+        "pelvis": [
+          77,
+          49
+        ],
+        "upper": [
+          43,
+          11
+        ],
+        "fore": [
+          42,
+          10
+        ],
+        "thigh": [
+          61,
+          17
+        ],
+        "shin": [
+          58,
+          11
+        ],
+        "foot": [
+          17,
+          20
+        ],
+        "lean": -0.025,
+        "crouch": 0.035,
+        "stride": 0.2,
+        "lift": 0.08,
+        "period": 1.38,
+        "arm_swing": 0.055,
+        "fore_angle": -0.31,
+        "weapon_tilt": 0.035,
+        "idle_crouch": 0.002
+      },
+      "revision": "Native Blender part dimensions, distinct anatomical ratios and gait; source paintings preserved"
+    }
+  ],
+  "status": "resource studies; review pending"
+}

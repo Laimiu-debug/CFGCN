@@ -1,0 +1,158 @@
+{
+  "status": "local Gao hamlet scenery sample; actual game and visual review pending",
+  "references": [
+    [
+      {
+        "asset": "village",
+        "source": {
+          "source": "apps/website/art/source/raw/village-studio-v31.glb",
+          "source_sha256": "09a85fffc1ea5c6eab1b7ff8a087128e746ed274bb8790e40950c9484707c168",
+          "studio_project": "c1197061-13d8-4b1f-ae6b-5caaec529fc7",
+          "width": 5,
+          "triangle_budget": 5000,
+          "byte_budget": 650000,
+          "texture_max": 768,
+          "asset": "village",
+          "origin": "tripo-studio-blender",
+          "bytes": 393964,
+          "triangles": 4988,
+          "primitives": 1,
+          "runtime_sha256": "94cf8ae86f0b49c20d3f22b369bb5e996301ed75bb94a9f259ad451a58b43ad2",
+          "editable_source": "apps/website/art/source/terrain-v2/village.blend",
+          "ground_refinement": {
+            "version": 2,
+            "cut_height": 0.06,
+            "input_kind": "studio-raw",
+            "foundation_profile": null,
+            "input_blend": "apps/website/art/source/village.blend",
+            "input_sha256": "471535b16d6efe0e2352eb4b66fcf2a672928a6f62e40cc6bbdadcafb022c00f",
+            "weld_tolerance": 5e-05,
+            "vertices_before_weld": 1019770,
+            "vertices_after_weld": 939688,
+            "script": "apps/website/art/refine_atlas_ground.py"
+          }
+        },
+        "runtime_sha256": "94cf8ae86f0b49c20d3f22b369bb5e996301ed75bb94a9f259ad451a58b43ad2",
+        "projection": "village-reference.png",
+        "purpose": "original ink redraw reference, original asset left unchanged"
+      },
+      {
+        "asset": "riverbank",
+        "source": {
+          "source": "apps/website/art/source/raw/riverbank-studio-v31.glb",
+          "source_sha256": "d89514eb8a3cb086035f1a56085a871e5fd1f0ee4e0b4908f9be8ff8fa5f973e",
+          "studio_project": "42ff52bc-d6fa-4557-8d3c-afd9b8d0b62c",
+          "width": 24,
+          "triangle_budget": 16000,
+          "byte_budget": 1300000,
+          "texture_max": 768,
+          "skirt_compression": {
+            "height_fraction": 0.06,
+            "ratio": 0.15
+          },
+          "usage": "continuous ground-conforming river shore scenery; not a geographic source",
+          "asset": "riverbank",
+          "origin": "tripo-studio-blender",
+          "bytes": 842404,
+          "triangles": 15988,
+          "primitives": 1,
+          "runtime_sha256": "29e34e5a55e19f6a4c173ab59c9c5029801cf428fc1148f47097338bcfff1c29",
+          "editable_source": "apps/website/art/source/terrain-v2/riverbank.blend",
+          "ground_refinement": {
+            "version": 2,
+            "cut_height": 0.5,
+            "input_kind": "studio-raw",
+            "foundation_profile": null,
+            "input_blend": "apps/website/art/source/riverbank.blend",
+            "input_sha256": "ffdc3a8085737038790f7a09ff5ae8176f1c43e82034524de6e08a48dc30afbf",
+            "weld_tolerance": 5e-05,
+            "vertices_before_weld": 1035510,
+            "vertices_after_weld": 946117,
+            "script": "apps/website/art/refine_atlas_ground.py"
+          }
+        },
+        "runtime_sha256": "29e34e5a55e19f6a4c173ab59c9c5029801cf428fc1148f47097338bcfff1c29",
+        "projection": "riverbank-reference.png",
+        "purpose": "original ink redraw reference, original asset left unchanged"
+      }
+    ],
+    {
+      "source": "ink-hamlet/house-source-v1.png",
+      "sha256": "dbdc5cbe9226b64dd9080b7fb11a0055ab1f79624b8bfdeb2e618b1b276b9965"
+    },
+    {
+      "source": "ink-settlement/elm-source-v1.png",
+      "sha256": "47b72c366bbf3d1ac7f68d9ea29fec3fd849495ef10974faed4ac7ddda3658ca"
+    }
+  ],
+  "packing": {
+    "width": 2048,
+    "height": 2048,
+    "parts": [
+      {
+        "id": "estate_gate",
+        "metres": 11,
+        "source": "estate_gate-source-v1.png",
+        "source_sha256": "0483b938e431e4e8fad6a85c6d0760437d1f7f030ff64f3de158c6141f0694b2",
+        "rect": [
+          16,
+          16,
+          1008,
+          530
+        ],
+        "anchorX": 512
+      },
+      {
+        "id": "bamboo_fence",
+        "metres": 6,
+        "source": "bamboo_fence-source-v1.png",
+        "source_sha256": "e51ebbb9c8dab9b0ca2830d55b14ef4cd37c502b2552a818007bcd5bc6d75353",
+        "rect": [
+          1040,
+          16,
+          2032,
+          290
+        ],
+        "anchorX": 1536
+      },
+      {
+        "id": "apricot",
+        "metres": 6.4,
+        "source": "apricot-source-v1.png",
+        "source_sha256": "01d7efe041958a818f0841c23579bb03004e9e600d968a723493551c243b3b73",
+        "rect": [
+          16,
+          1040,
+          1008,
+          2008
+        ],
+        "anchorX": 732.2999870929508
+      }
+    ],
+    "bytes": 3428140,
+    "runtime_sha256": "e6d683cceafad2919e8743c1b6bc3fabb6848a61d054260c2a1af11d1506077e"
+  },
+  "runtime": {
+    "asset": "ink_gaolao",
+    "origin": "tripo-projection-imagegen-blender",
+    "source_file": "ink-gaolao/runtime.png",
+    "source_sha256": "e6d683cceafad2919e8743c1b6bc3fabb6848a61d054260c2a1af11d1506077e",
+    "source_blend": "ink_gaolao.blend",
+    "triangles": 6,
+    "bones": 0,
+    "clips": [],
+    "bytes": 3431368,
+    "triangle_budget": 6,
+    "byte_budget": 24000000,
+    "texture_max": 2048,
+    "joint_budget": 0,
+    "primitive_budget": 3,
+    "runtime_sha256": "eb74c9cc61f7fcb4fb08aa7222fbf2f53343bf24f76288d16d2de12b006e55ea"
+  },
+  "scenes": [
+    "Ink scenery gaolao estate_gate",
+    "Ink scenery gaolao bamboo_fence",
+    "Ink scenery gaolao apricot"
+  ],
+  "process": "Accepted Studio village / vegetation category prototypes retained; three original imagegen ink redraws; no new Studio generation or credits; no modelling software installed; literary game exterior, not a historical reconstruction"
+}

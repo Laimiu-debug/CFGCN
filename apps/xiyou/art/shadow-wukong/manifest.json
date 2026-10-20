@@ -1,0 +1,31 @@
+{
+  "status": "movement sample; visual review pending",
+  "source": "OpenAI built-in image_gen; original generated flat artwork",
+  "source_file": "parts-source.png",
+  "source_sha256": "796852eccc5ebef3921770e4bd8867b47e31ef0819d231727e0fd05eff9a32bb",
+  "prompt_file": "prompt.txt",
+  "editable": "shadow-wukong.blend",
+  "generator": "Blender 5.2.2 LTS",
+  "runtime": "shadow_wukong.glb",
+  "runtime_sha256": "cae7741e549b28f6c80f844f1e4fb882afcbd647c2675d4b67a81885ccdf4fc2",
+  "bytes": 618032,
+  "triangles": 28,
+  "rigid_parts": 14,
+  "bones": 15,
+  "materials": 1,
+  "animations": [
+    "Idle",
+    "Walk",
+    "RestPose"
+  ],
+  "source_texture_size": [
+    1448,
+    1086
+  ],
+  "texture_size": [
+    1024,
+    768
+  ],
+  "tripo": "Not used: this is original 2D artwork with rigid planar parts",
+  "third_party_addons": "None"
+}

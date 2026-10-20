@@ -1,0 +1,168 @@
+{
+  "version": 1,
+  "status": "local game sample validated; final visual review pending",
+  "validation": {
+    "document": "docs/xiyou-map-landmarks.md",
+    "date": "2026-10-20",
+    "client": "client-714da6c968f1.wasm",
+    "scope": "Blender reimport, map movement and visible feet, desktop and emulated touch, cache and resource reuse; not final art or phone hardware acceptance"
+  },
+  "source_projection_sha256": "846952a35d0f51edc2b4ad9f515f69a8baf1e226ffc37d48531ca2d8f1cc712c",
+  "upstream": [
+    {
+      "asset": "pine_rock",
+      "origin": "tripo-studio-blender",
+      "studio_project": "30cd4649-52ef-4130-b1eb-f80a2c61615b",
+      "source_file": "pine-rock-studio-v31-retopo.glb",
+      "source_sha256": "6571e32e2e98dd94d0ec8eac46b3b5a46bba57197f3b3a23e068a877a2f5c740",
+      "source_blend": "pine_rock.blend",
+      "triangles": 1500,
+      "bones": 0,
+      "clips": [],
+      "bytes": 139284,
+      "triangle_budget": 1500,
+      "byte_budget": 250000,
+      "texture_max": 512,
+      "joint_budget": 16,
+      "primitive_budget": 1,
+      "projection_runtime_sha256": "0ddfefac6681419a1761a2f6f179874bf3ca3ec89aa891fd88bab48d7c23a450"
+    },
+    {
+      "asset": "pine_tree",
+      "origin": "tripo-studio-blender",
+      "studio_project": "87c9fabd-3ed8-4916-a29d-9d8107a6ce1e",
+      "source_file": "pine-tree-studio-v31-source.glb",
+      "source_sha256": "a5a504d34c95c7ad0f7e28d915a62d249d9fdc7fef13bea571e7f2e43ef51d66",
+      "source_blend": "pine_tree.blend",
+      "triangles": 3367,
+      "bones": 0,
+      "clips": [],
+      "bytes": 293700,
+      "triangle_budget": 3500,
+      "byte_budget": 450000,
+      "texture_max": 768,
+      "joint_budget": 0,
+      "primitive_budget": 1,
+      "runtime_sha256": "0de7ddd79af32c19a70e92b204667630b38e2d544fd288ed7aa4cef23b494326",
+      "projection_runtime_sha256": "0de7ddd79af32c19a70e92b204667630b38e2d544fd288ed7aa4cef23b494326"
+    },
+    {
+      "asset": "mountain_shrub",
+      "origin": "tripo-studio-blender",
+      "studio_project": "87c9fabd-3ed8-4916-a29d-9d8107a6ce1e",
+      "source_file": "pine-tree-studio-v31-source.glb",
+      "source_sha256": "a5a504d34c95c7ad0f7e28d915a62d249d9fdc7fef13bea571e7f2e43ef51d66",
+      "source_blend": "mountain_shrub.blend",
+      "triangles": 876,
+      "bones": 0,
+      "clips": [],
+      "bytes": 158744,
+      "triangle_budget": 900,
+      "byte_budget": 450000,
+      "texture_max": 768,
+      "joint_budget": 0,
+      "primitive_budget": 1,
+      "runtime_sha256": "94acb4c6e7f5e6670e2516bbac86e4519a67fefd0f7556ae9956ce19bdbe9894",
+      "projection_runtime_sha256": "94acb4c6e7f5e6670e2516bbac86e4519a67fefd0f7556ae9956ce19bdbe9894"
+    },
+    {
+      "asset": "seal_stone",
+      "origin": "tripo-studio-blender",
+      "studio_project": "aa5ee5e0-2162-4ac1-88a3-a295938b3808",
+      "source_file": "seal-stone-studio-v31-retopo.glb",
+      "source_sha256": "57797201e7fcc53e501294e5c028952f2f9187d9a69ff0358a3f8478aa9b13c6",
+      "source_blend": "seal_stone.blend",
+      "triangles": 996,
+      "bones": 0,
+      "clips": [],
+      "bytes": 71352,
+      "triangle_budget": 1000,
+      "byte_budget": 200000,
+      "texture_max": 512,
+      "joint_budget": 16,
+      "primitive_budget": 1,
+      "sculpt": "tapered mineral crown; original Studio base footprint preserved",
+      "projection_runtime_sha256": "3e37de64cf5a048a2bc6cb1fde9846e9fad6cdbdeae0c72f5f628b4594edd125"
+    },
+    {
+      "asset": "roadside_shrine",
+      "origin": "tripo-studio-blender",
+      "studio_project": "c059207d-1ab2-42d2-9b18-8cd9ade0dcd9",
+      "source_file": "roadside-shrine-studio-v31-source-meshopt.glb",
+      "source_sha256": "9f170c338ecd3b60a8f5485e0824577074ac34deed37e8c930d58342cdc2dca5",
+      "decoded_file": "roadside-shrine-studio-v31-decoded.glb",
+      "decoded_sha256": "ec5019a10a1ee477dfefa26a58a9583b4f73fe81b7f6c10e15c9e45ea03ac86e",
+      "source_blend": "roadside_shrine.blend",
+      "triangles": 2190,
+      "source_triangles": 1855306,
+      "bones": 0,
+      "clips": [],
+      "bytes": 183912,
+      "triangle_budget": 2200,
+      "byte_budget": 250000,
+      "texture_max": 512,
+      "joint_budget": 0,
+      "primitive_budget": 1,
+      "bounds_blender": [
+        [-1.6103594303131104, 1.6079823970794678],
+        [-1.2747530937194824, 1.281955361366272],
+        [0.0035756619181483984, 3.316406726837158]
+      ],
+      "runtime_sha256": "c1f35cebd12c84e52db4d7a1bfbb4c1b47dee4da96c550676c0fc9712e8821c4",
+      "projection_runtime_sha256": "c1f35cebd12c84e52db4d7a1bfbb4c1b47dee4da96c550676c0fc9712e8821c4"
+    }
+  ],
+  "packing": {
+    "width": 1254,
+    "height": 1254,
+    "parts": [
+      {
+        "id": "way_pavilion",
+        "rect": [44, 88, 607, 592],
+        "anchorX": 325
+      },
+      {
+        "id": "stone_gate",
+        "rect": [642, 47, 1239, 584],
+        "anchorX": 972.5
+      },
+      {
+        "id": "five_peaks",
+        "rect": [14, 633, 691, 1219],
+        "anchorX": 352
+      },
+      {
+        "id": "ford_stele",
+        "rect": [715, 736, 1207, 1191],
+        "anchorX": 960.5
+      }
+    ],
+    "bytes": 97238,
+    "source_sha256": "7d35192c7ec4ec2a4e5d77bd6d3a9d032570c6d86d926c8a52524e605be29ab0",
+    "runtime_sha256": "57661a8db9e5245c8d46c54c9be2f1343130243c95d8582f834dd1e8cf6d99c4"
+  },
+  "runtime": {
+    "asset": "ink_landmarks",
+    "origin": "tripo-projection-imagegen-blender",
+    "source_file": "ink-landmarks/source-v1.png",
+    "source_sha256": "7d35192c7ec4ec2a4e5d77bd6d3a9d032570c6d86d926c8a52524e605be29ab0",
+    "source_blend": "ink_landmarks.blend",
+    "triangles": 8,
+    "bones": 0,
+    "clips": [],
+    "bytes": 101372,
+    "triangle_budget": 8,
+    "byte_budget": 160000,
+    "texture_max": 768,
+    "joint_budget": 0,
+    "primitive_budget": 4,
+    "runtime_sha256": "6970988d00146047bde736f5277e0803076c36202cc1289f9dac9929354b6d51"
+  },
+  "scenes": [
+    "Ink scenery landmark way_pavilion",
+    "Ink scenery landmark stone_gate",
+    "Ink scenery landmark five_peaks",
+    "Ink scenery landmark ford_stele"
+  ],
+  "process": "Existing accepted Studio modules -> Blender orthographic projection -> original ink redraw -> shared depth-writing cards; no new Studio generation or credit consumption"
+}

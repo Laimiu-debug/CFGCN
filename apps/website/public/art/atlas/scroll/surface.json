@@ -1,0 +1,18 @@
+{
+  "method": "Planar rock masses with cross-face bedding, continuous talus and scrub; complete valley fields clipped per pixel against the real slopes and banks, shared raised-bank normal channel and crop rows; code-authored surface, no parcel-centre cutoff or generated background.",
+  "width": 4096,
+  "height": 3263,
+  "fieldCount": 8559,
+  "rockBrushPaths": 9081,
+  "bankMarks": 2160,
+  "buildingFootprints": 225,
+  "bounds": {
+    "west": -430,
+    "east": 430,
+    "north": -330,
+    "south": 355
+  },
+  "textureBytes": 577928,
+  "routeMaskBytes": 267442,
+  "roads": "One ground material; R=routes, G=field-bank relief. No coplanar road geometry."
+}

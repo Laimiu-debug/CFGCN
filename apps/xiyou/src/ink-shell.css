@@ -1,0 +1,320 @@
+.xiyou-page {
+  background: var(--paper);
+  padding: 0 18px 18px;
+}
+.xiyou-topline {
+  color: var(--ink-secondary);
+  letter-spacing: 0.06em;
+  gap: 16px;
+}
+.xiyou-topline > .series-button {
+  gap: 6px;
+  font: 12px var(--font-display);
+}
+.xiyou-topline .ink-glyph {
+  width: 18px;
+  height: 18px;
+}
+.xiyou-topline select {
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  color: var(--muted);
+  background: transparent;
+  font: 11px var(--font-body);
+  padding: 7px 2px;
+}
+.xiyou-stage {
+  border: 0;
+  box-shadow: none;
+}
+.xiyou-entry {
+  top: 10%;
+  width: min(380px, 45%);
+}
+.xiyou-entry .xiyou-kicker {
+  font: 11px var(--font-display);
+  letter-spacing: 0.25em;
+}
+.xiyou-entry h1 {
+  font-weight: 500;
+  letter-spacing: 0.15em;
+}
+.xiyou-entry .xiyou-invitation {
+  font: 20px/1.7 var(--font-display);
+  letter-spacing: 0.06em;
+  margin: 20px 0 8px;
+}
+.xiyou-entry .xiyou-description {
+  font-size: 12px;
+  line-height: 1.9;
+  max-width: 310px;
+  color: var(--muted);
+}
+.xiyou-entry-route {
+  border: 0;
+  margin: 18px 0;
+  padding: 0;
+  gap: 14px;
+}
+.xiyou-entry-route li {
+  font: 11px var(--font-display);
+  gap: 6px;
+}
+.xiyou-entry .xiyou-primary,
+.xiyou-entry .xiyou-secondary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  width: min(300px, 100%);
+  min-height: 50px;
+  margin: 10px 0;
+  padding: 11px 18px;
+  border-radius: var(--series-radius);
+  font: 15px var(--font-display);
+  letter-spacing: 0.07em;
+}
+.xiyou-entry .xiyou-primary {
+  border: 1px solid var(--jade);
+  background: var(--jade);
+  color: var(--on-jade);
+}
+.xiyou-entry .xiyou-primary:hover {
+  background: var(--jade-hover);
+}
+.xiyou-entry .xiyou-primary .ink-glyph {
+  transform: rotate(180deg);
+}
+.xiyou-entry .xiyou-secondary {
+  color: var(--ink);
+  background: color-mix(in srgb, var(--paper) 45%, transparent);
+  border: 1px solid color-mix(in srgb, var(--ink) 32%, transparent);
+}
+.xiyou-entry-links {
+  margin-top: 20px;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+.xiyou-entry-links .series-button {
+  color: var(--ink-secondary);
+  font: 11px var(--font-display);
+}
+.xiyou-entry .xiyou-controls-hint {
+  font-size: 10px;
+  margin-top: 18px;
+  color: var(--muted);
+}
+.xiyou-dialog {
+  border: 0;
+  background: var(--paper);
+  box-shadow: 0 20px 80px color-mix(in srgb, var(--ink) 20%, transparent);
+}
+.xiyou-dialog::backdrop {
+  background: color-mix(in srgb, var(--paper-shade) 62%, transparent);
+}
+.xiyou-dialog h2 {
+  font-weight: 500;
+  letter-spacing: 0.12em;
+}
+.xiyou-dialog-actions {
+  align-items: center;
+  gap: 16px;
+}
+.xiyou-dialog-actions .series-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font: 15px var(--font-display);
+}
+.xiyou-hud .xiyou-health {
+  padding: 5px 0;
+}
+.xiyou-hud .xiyou-health meter {
+  height: 5px;
+}
+.xiyou-run-time {
+  padding-top: 5px;
+}
+.xiyou-run-time strong {
+  font-size: 23px;
+}
+.xiyou-run-time span {
+  font-size: 10px;
+}
+.xiyou-page .expedition-tools .series-button {
+  border: 0;
+  border-radius: var(--series-pill-radius);
+  width: 46px;
+  height: 46px;
+  padding: 8px;
+  background: radial-gradient(
+    circle,
+    color-mix(in srgb, var(--paper) 72%, transparent),
+    transparent 74%
+  );
+}
+.xiyou-page .expedition-tools .ink-glyph {
+  width: 28px;
+  height: 28px;
+}
+.xiyou-page .expedition-paused {
+  gap: 17px;
+  backdrop-filter: none;
+  background: radial-gradient(
+    ellipse,
+    color-mix(in srgb, var(--paper) 96%, transparent),
+    color-mix(in srgb, var(--paper) 76%, transparent) 42%,
+    color-mix(in srgb, var(--paper) 38%, transparent)
+  );
+}
+.expedition-paused .ink-heading {
+  text-align: center;
+  margin-bottom: 14px;
+}
+.expedition-paused .ink-heading > svg {
+  margin: auto;
+}
+.expedition-paused .series-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  min-width: 190px;
+  padding: 10px 24px;
+  font: 16px var(--font-display);
+}
+.expedition-paused .ink-glyph {
+  width: 21px;
+  height: 21px;
+}
+.xiyou-page .expedition-atlas {
+  background: var(--paper);
+}
+.expedition-atlas header {
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 8px;
+}
+.expedition-atlas header .series-button {
+  color: var(--ink);
+}
+.expedition-atlas .expedition-map-views {
+  padding: 8px 0;
+  gap: 7px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.expedition-atlas .expedition-map-views .series-button {
+  font-size: 11px;
+  min-height: 38px;
+  padding: 7px 12px;
+}
+.expedition-atlas .expedition-map-views .series-button[aria-pressed='true'] {
+  text-decoration: none;
+  box-shadow: inset 0 -2px var(--vermilion);
+  color: var(--ink);
+}
+.expedition-atlas .expedition-map-legend {
+  padding: 9px 0 0;
+  border-top: 1px solid var(--line);
+  font-size: 10px;
+}
+@media (max-width: 650px) {
+  .xiyou-page {
+    padding: 0;
+  }
+  .xiyou-topline {
+    padding: 0 12px;
+    gap: 12px;
+  }
+  .xiyou-topline > span {
+    display: none;
+  }
+  .xiyou-topline > .series-button {
+    font-size: 10px;
+  }
+  .xiyou-topline > a {
+    font-size: 10px;
+  }
+  .xiyou-topline select {
+    max-width: 78px;
+    font-size: 10px;
+  }
+  .xiyou-entry {
+    top: 10%;
+    width: 75%;
+    left: 7%;
+  }
+  .xiyou-entry h1 {
+    font-size: 44px;
+  }
+  .xiyou-entry .xiyou-description {
+    font-size: 11px;
+    max-width: 260px;
+  }
+  .xiyou-entry .xiyou-invitation {
+    font-size: 18px;
+    margin-top: 15px;
+  }
+  .xiyou-entry-route {
+    gap: 9px;
+    margin: 12px 0;
+  }
+  .xiyou-entry-route li {
+    font-size: 10px;
+  }
+  .xiyou-entry .xiyou-primary,
+  .xiyou-entry .xiyou-secondary {
+    font-size: 13px;
+    min-height: 46px;
+    max-width: 270px;
+  }
+  .xiyou-entry-links {
+    gap: 12px;
+  }
+  .xiyou-page .expedition-tools .series-button {
+    width: 44px;
+  }
+  .xiyou-page .expedition-atlas {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .expedition-atlas .expedition-map-views {
+    gap: 3px;
+  }
+  .expedition-atlas .expedition-map-views .series-button {
+    padding: 6px;
+    font-size: 10px;
+    min-height: 44px;
+  }
+  .expedition-paused .ink-heading h2 {
+    font-size: 30px;
+  }
+}
+@media (max-height: 540px) and (min-width: 651px) {
+  .xiyou-entry {
+    top: 5%;
+    width: 50%;
+  }
+  .xiyou-entry h1 {
+    font-size: 38px;
+  }
+  .xiyou-entry .xiyou-description,
+  .xiyou-entry-route {
+    display: none;
+  }
+  .xiyou-entry .xiyou-invitation {
+    font-size: 15px;
+    margin: 10px 0;
+  }
+  .xiyou-entry .xiyou-primary,
+  .xiyou-entry .xiyou-secondary {
+    min-height: 44px;
+    padding: 8px 15px;
+    font-size: 12px;
+    width: 260px;
+  }
+  .xiyou-entry-links {
+    margin-top: 8px;
+  }
+}

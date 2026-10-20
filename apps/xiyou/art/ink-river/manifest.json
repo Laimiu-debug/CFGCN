@@ -1,0 +1,85 @@
+{
+  "status": "local riverside scenery sample integrated and checked; final art review pending",
+  "validation": {
+    "date": "2026-10-20",
+    "document": "docs/xiyou-riverbanks.md",
+    "client": "client-6139a31f4c42.wasm",
+    "scope": "Fresh Blender import, 23 assets, source hashes, actual reed walking and slate approach / bypass, viewport layouts and exploration map; final art, terrain polish, touch hardware and horde remain pending"
+  },
+  "references": [
+    [
+      {
+        "asset": "pine_tree",
+        "runtime_sha256": "0de7ddd79af32c19a70e92b204667630b38e2d544fd288ed7aa4cef23b494326"
+      },
+      {
+        "asset": "seal_stone",
+        "runtime_sha256": "3e37de64cf5a048a2bc6cb1fde9846e9fad6cdbdeae0c72f5f628b4594edd125"
+      },
+      {
+        "asset": "pine_rock",
+        "runtime_sha256": "0ddfefac6681419a1761a2f6f179874bf3ca3ec89aa891fd88bab48d7c23a450"
+      },
+      {
+        "asset": "mountain_shrub",
+        "runtime_sha256": "94acb4c6e7f5e6670e2516bbac86e4519a67fefd0f7556ae9956ce19bdbe9894"
+      }
+    ],
+    {
+      "source": "ink-hamlet/willow-source-v1.png",
+      "sha256": "bd44f546e7588a220eacbdbad25af829623423b12886c8f65915dde0aceecc76",
+      "provenance": "ink-hamlet/manifest.json"
+    }
+  ],
+  "packing": {
+    "width": 2048,
+    "height": 2048,
+    "parts": [
+      {
+        "id": "willow",
+        "metres": 7,
+        "source": "willow-source-v1.png",
+        "source_sha256": "016147f556b80be32ac84ec0e776664797dcd98a8be4440775cf8aabeb4a25aa",
+        "rect": [16, 16, 1008, 912],
+        "anchorX": 783.673397145744
+      },
+      {
+        "id": "reeds",
+        "metres": 2.8,
+        "source": "reeds-source-v1.png",
+        "source_sha256": "8a65b27e0319d410c1a4f573c03f06b075eee91565ca44426d1d42e77d9b6327",
+        "rect": [1040, 16, 2032, 671],
+        "anchorX": 1550.917743899277
+      },
+      {
+        "id": "slate",
+        "metres": 3.6,
+        "source": "slate-source-v1.png",
+        "source_sha256": "1ac2f5e5a489895d1abe8e53a1d186bc7645717add1a06c7e0c08ec518efebe3",
+        "rect": [16, 1040, 1008, 1336],
+        "anchorX": 597.6340791374098
+      }
+    ],
+    "bytes": 3495735,
+    "runtime_sha256": "2e90e8bacb60cd0ded0dbe5bc63155f9a14e5850884a555dc42366c06d1271da"
+  },
+  "runtime": {
+    "asset": "ink_river",
+    "origin": "tripo-projection-imagegen-blender",
+    "source_file": "ink-river/runtime.png",
+    "source_sha256": "2e90e8bacb60cd0ded0dbe5bc63155f9a14e5850884a555dc42366c06d1271da",
+    "source_blend": "ink_river.blend",
+    "triangles": 6,
+    "bones": 0,
+    "clips": [],
+    "bytes": 3498976,
+    "triangle_budget": 6,
+    "byte_budget": 24000000,
+    "texture_max": 2048,
+    "joint_budget": 0,
+    "primitive_budget": 3,
+    "runtime_sha256": "14ed1cc33378c3cd740f193cfceae2906e14cfef9e95a5ade3a2db8ab0b4031a"
+  },
+  "scenes": ["Ink scenery river willow", "Ink scenery river reeds", "Ink scenery river slate"],
+  "process": "Existing accepted Studio vegetation / stone category prototypes retained; three original imagegen ink drawings; no new Studio generation or credits; no modelling software installed"
+}

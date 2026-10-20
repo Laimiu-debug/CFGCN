@@ -1,0 +1,128 @@
+{
+  "path": "ink-map-symbols.png",
+  "size": [
+    512,
+    896
+  ],
+  "cell": 128,
+  "sha256": "1e53aeaafeeda08dd959d31f1055ea04b83b1499f53d98d3c998a7b8d0856f27",
+  "inputs": [
+    {
+      "path": "ink-world/scenery-source-v2.png",
+      "rect": [
+        656,
+        353,
+        1200,
+        633
+      ]
+    },
+    {
+      "path": "ink-world/scenery-source-v2.png",
+      "rect": [
+        89,
+        81,
+        608,
+        625
+      ]
+    },
+    {
+      "path": "ink-world/scenery-source-v2.png",
+      "rect": [
+        109,
+        719,
+        557,
+        1175
+      ]
+    },
+    {
+      "path": "ink-hamlet/willow-source-v1.png"
+    },
+    {
+      "path": "ink-settlement/elm-source-v1.png"
+    },
+    {
+      "path": "ink-settlement/bamboo-source-v1.png"
+    },
+    {
+      "path": "ink-hamlet/house-source-v1.png"
+    },
+    {
+      "path": "ink-settlement/cottage-source-v1.png"
+    },
+    {
+      "path": "ink-settlement/mountain_house-source-v1.png"
+    },
+    {
+      "path": "ink-settlement/riverside_house-source-v1.png"
+    },
+    {
+      "path": "ink-landmarks/source-v1.png",
+      "rect": [
+        44,
+        88,
+        607,
+        592
+      ]
+    },
+    {
+      "path": "ink-landmarks/source-v1.png",
+      "rect": [
+        642,
+        47,
+        1239,
+        584
+      ]
+    },
+    {
+      "path": "ink-landmarks/source-v1.png",
+      "rect": [
+        14,
+        633,
+        691,
+        1219
+      ]
+    },
+    {
+      "path": "ink-landmarks/source-v1.png",
+      "rect": [
+        715,
+        736,
+        1207,
+        1191
+      ]
+    },
+    {
+      "path": "ink-heifeng/temple_gate-source-v1.png"
+    },
+    {
+      "path": "ink-heifeng/temple_hall-source-v1.png"
+    },
+    {
+      "path": "ink-heifeng/bell_pavilion-source-v1.png"
+    },
+    {
+      "path": "ink-heifeng/sealed_cave-source-v1.png"
+    },
+    {
+      "path": "ink-heifeng/court_wall-source-v2.png"
+    },
+    {
+      "path": "ink-river/willow-source-v1.png"
+    },
+    {
+      "path": "ink-river/reeds-source-v1.png"
+    },
+    {
+      "path": "ink-river/slate-source-v1.png"
+    },
+    {
+      "path": "ink-gaolao/estate_gate-source-v1.png"
+    },
+    {
+      "path": "ink-gaolao/bamboo_fence-source-v1.png"
+    },
+    {
+      "path": "ink-gaolao/apricot-source-v1.png"
+    }
+  ]
+}

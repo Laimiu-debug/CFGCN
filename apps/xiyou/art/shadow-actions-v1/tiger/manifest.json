@@ -1,0 +1,463 @@
+{
+  "id": "tiger",
+  "name": "虎妖",
+  "height": 2.24,
+  "source": "apps/xiyou/art/shadow-roster-v4/tiger/tiger.blend",
+  "source_sha256": "6767dec9731c8bcb68e98f75d20775ecf784a4ba11aa2d30cd971f19f7bb78dc",
+  "runtime": "tiger-actions.glb",
+  "runtime_bytes": 1487544,
+  "runtime_sha256": "7101249e5b3722bd48a936646a2012872830545cdd7c47b30baa9dc0b6867e5b",
+  "editable": "tiger-actions.blend",
+  "clips": [
+    "Idle",
+    "Walk",
+    "AxeCleave",
+    "AxeSweep",
+    "TigerRoar",
+    "HitRecoil",
+    "DodgeBack",
+    "WalkLower",
+    "AxeCleave_Upper",
+    "AxeSweep_Upper",
+    "TigerRoar_Upper",
+    "RestPose"
+  ],
+  "modules": [
+    {
+      "clip": "AxeCleave",
+      "label": "虎妖 · 举斧重劈",
+      "duration": 1.2,
+      "windup_end": 0.648,
+      "release_end": 0.804,
+      "events": [
+        {
+          "time": 0.648,
+          "type": "hit",
+          "socket": "weapon.tip"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.34,
+          "lean": -0.14,
+          "hand": [
+            0.04,
+            0.8
+          ],
+          "weapon": -0.32,
+          "back_hand": [
+            0.0,
+            0.72
+          ],
+          "compression": 0.02
+        },
+        {
+          "t": 0.45,
+          "lean": -0.11,
+          "hand": [
+            0.03,
+            0.81
+          ],
+          "weapon": -0.18,
+          "back_hand": [
+            0.01,
+            0.74
+          ],
+          "compression": 0.015
+        },
+        {
+          "t": 0.54,
+          "lean": 0.23,
+          "hand": [
+            0.24,
+            0.54
+          ],
+          "weapon": 1.33,
+          "back_hand": [
+            0.11,
+            0.59
+          ],
+          "compression": 0.055
+        },
+        {
+          "t": 0.7,
+          "lean": 0.25,
+          "hand": [
+            0.24,
+            0.49
+          ],
+          "weapon": 1.62,
+          "back_hand": [
+            0.1,
+            0.54
+          ],
+          "compression": 0.06
+        }
+      ],
+      "two_hand": true,
+      "upper_clip": "AxeCleave_Upper",
+      "proposal": true
+    },
+    {
+      "clip": "AxeSweep",
+      "label": "虎妖 · 横斧破阵",
+      "duration": 1.0833333333333333,
+      "windup_end": 0.4983,
+      "release_end": 0.6392,
+      "events": [
+        {
+          "time": 0.4983,
+          "type": "hit",
+          "socket": "weapon.tip"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.3,
+          "lean": -0.13,
+          "hand": [
+            -0.01,
+            0.69
+          ],
+          "weapon": -0.73,
+          "back_hand": [
+            0.02,
+            0.65
+          ],
+          "compression": 0.03
+        },
+        {
+          "t": 0.46,
+          "lean": 0.18,
+          "hand": [
+            0.25,
+            0.59
+          ],
+          "weapon": 1.32,
+          "back_hand": [
+            0.1,
+            0.6
+          ],
+          "compression": 0.045
+        },
+        {
+          "t": 0.66,
+          "lean": 0.23,
+          "hand": [
+            0.26,
+            0.52
+          ],
+          "weapon": 1.72,
+          "back_hand": [
+            0.1,
+            0.56
+          ],
+          "compression": 0.05
+        }
+      ],
+      "two_hand": true,
+      "upper_clip": "AxeSweep_Upper",
+      "proposal": true
+    },
+    {
+      "clip": "TigerRoar",
+      "label": "虎妖 · 震身怒吼",
+      "duration": 1.3166666666666667,
+      "windup_end": 0.632,
+      "release_end": 0.8032,
+      "events": [
+        {
+          "time": 0.632,
+          "type": "roar",
+          "socket": "hand.back"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.28,
+          "lean": 0.12,
+          "hand": [
+            0.13,
+            0.57
+          ],
+          "weapon": 0.18,
+          "back_hand": [
+            -0.02,
+            0.64
+          ],
+          "compression": 0.055
+        },
+        {
+          "t": 0.48,
+          "lean": -0.12,
+          "hand": [
+            0.13,
+            0.7
+          ],
+          "weapon": -0.2,
+          "back_hand": [
+            0.19,
+            0.72
+          ],
+          "compression": 0.02
+        },
+        {
+          "t": 0.7,
+          "lean": -0.08,
+          "hand": [
+            0.13,
+            0.7
+          ],
+          "weapon": -0.2,
+          "back_hand": [
+            0.19,
+            0.72
+          ],
+          "compression": 0.02
+        }
+      ],
+      "two_hand": false,
+      "upper_clip": "TigerRoar_Upper",
+      "proposal": true
+    },
+    {
+      "clip": "HitRecoil",
+      "label": "受击 · 后仰缓冲",
+      "duration": 0.55,
+      "windup_end": 0.066,
+      "release_end": 0.1375,
+      "events": [
+        {
+          "time": 0.066,
+          "type": "hurt",
+          "socket": "actor"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.12,
+          "lean": -0.18,
+          "hand": [
+            0.09,
+            0.62
+          ],
+          "weapon": -0.1,
+          "back_hand": [
+            -0.04,
+            0.66
+          ],
+          "compression": 0.035
+        },
+        {
+          "t": 0.35,
+          "lean": 0.08,
+          "hand": [
+            0.13,
+            0.61
+          ],
+          "weapon": 0.1,
+          "back_hand": [
+            0.02,
+            0.65
+          ],
+          "compression": 0.045
+        },
+        {
+          "t": 0.65,
+          "lean": 0.04,
+          "hand": [
+            0.13,
+            0.61
+          ],
+          "weapon": 0.08,
+          "back_hand": [
+            0.02,
+            0.64
+          ],
+          "compression": 0.02
+        }
+      ],
+      "two_hand": false,
+      "upper_clip": null
+    },
+    {
+      "clip": "DodgeBack",
+      "label": "闪避 · 后撤换步",
+      "duration": 0.8333333333333334,
+      "windup_end": 0.3333,
+      "release_end": 0.4417,
+      "events": [
+        {
+          "time": 0.3333,
+          "type": "dodge",
+          "socket": "actor"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.24,
+          "lean": -0.1,
+          "hand": [
+            0.1,
+            0.61
+          ],
+          "weapon": -0.12,
+          "back_hand": [
+            -0.02,
+            0.66
+          ],
+          "compression": 0.045
+        },
+        {
+          "t": 0.45,
+          "lean": -0.13,
+          "hand": [
+            0.11,
+            0.64
+          ],
+          "weapon": -0.16,
+          "back_hand": [
+            0.04,
+            0.68
+          ],
+          "compression": 0.06
+        },
+        {
+          "t": 0.72,
+          "lean": -0.03,
+          "hand": [
+            0.12,
+            0.62
+          ],
+          "weapon": 0.0,
+          "back_hand": [
+            0.02,
+            0.65
+          ],
+          "compression": 0.025
+        }
+      ],
+      "two_hand": false,
+      "upper_clip": null,
+      "root_motion": {
+        "axis": "facing-x",
+        "distance": -0.6272,
+        "keys": [
+          [
+            0,
+            0
+          ],
+          [
+            0.14,
+            0
+          ],
+          [
+            0.88,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "application": "external collision-aware displacement; not baked into bone translation"
+      }
+    }
+  ],
+  "upper_mask": [
+    "abdomen",
+    "body",
+    "head",
+    "upper_arm.back",
+    "forearm.back",
+    "upper_arm.front",
+    "forearm.front",
+    "weapon",
+    "accessory"
+  ],
+  "lower_mask": [
+    "pelvis",
+    "thigh.back",
+    "shin.back",
+    "foot.back",
+    "thigh.front",
+    "shin.front",
+    "foot.front"
+  ],
+  "offhand_ik_max_error": 3.819467311494439e-07,
+  "back_hand_surface_marker": [
+    0.6644736842105263,
+    0.17000000000000004
+  ],
+  "weapon_grip_surface_marker": [
+    0.15724815428256989,
+    0.14000000059604645
+  ],
+  "surface_sockets": {
+    "hand.back": {
+      "part": "forearm.back",
+      "uv": [
+        0.6644736842105263,
+        0.17000000000000004
+      ]
+    },
+    "weapon": {
+      "part": "weapon",
+      "uv": [
+        0.15724815428256989,
+        0.14000000059604645
+      ]
+    },
+    "weapon.tip": {
+      "part": "weapon",
+      "uv": [
+        0.7389162182807922,
+        0.9861686825752258
+      ]
+    },
+    "actor": {
+      "bone": "pelvis",
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "walk_period": 1.1833333333333333,
+  "walk_distance": 0.5795181720341088,
+  "status": "action resource candidate; not connected to game damage/collision",
+  "in_game": false,
+  "inspection_bounds": {
+    "AxeCleave": [
+      -0.6864222809672356,
+      -0.02170475572347641,
+      1.9736811593174934,
+      3.2403414249420166
+    ],
+    "AxeSweep": [
+      -0.9910038039088249,
+      -0.01891186088323593,
+      2.0062291100621223,
+      2.922215461730957
+    ],
+    "TigerRoar": [
+      -0.7696933671832085,
+      -0.03749098256230354,
+      1.2097280696034431,
+      2.995725393295288
+    ],
+    "HitRecoil": [
+      -0.7836001440882683,
+      -0.029722366482019424,
+      1.2097280696034431,
+      2.8028066158294678
+    ],
+    "DodgeBack": [
+      -0.7815912291407585,
+      -0.025048717856407166,
+      1.2097280696034431,
+      2.857414960861206
+    ]
+  }
+}

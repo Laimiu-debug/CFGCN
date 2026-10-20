@@ -1,0 +1,112 @@
+{
+  "version": "fine-ink-living-world-v2",
+  "date": "2026-10-20",
+  "tool": "Built-in image_gen precise-object-edit + deterministic Sharp compression / cutouts",
+  "source": "C:/Users/25647/.codex/generated_images/01a152a0-8e42-7971-8f0f-073a468e7dd7/exec-d05c6269-a7a4-4cd4-bac9-2742d882d39b.png",
+  "accepted_reference": "plate-v1.png",
+  "source_dimensions": [
+    1584,
+    993
+  ],
+  "runtime_dimensions": [
+    1586,
+    992
+  ],
+  "source_sha256": "4f2a0170c69e3cdc5f75d829ac514ce4410ffff44e149cdb58414dc61a2e8943",
+  "runtime_sha256": "a4cb117a1b56aadb3ddae1788412332fd3e3525b17852b28a5da908d08271963",
+  "runtime_bytes": 772136,
+  "clean_plate": "plate-v2-clean.png",
+  "occluders": [
+    {
+      "image": "/art/atlas/fine-ink/han-bridge-front-v2.webp",
+      "x": 717.2761664564944,
+      "y": 1110.718789407314,
+      "width": 195.20807061790669,
+      "height": 62.042875157629254
+    },
+    {
+      "image": "/art/atlas/fine-ink/garden-bridge-front-v2.webp",
+      "x": 1738.7137452711224,
+      "y": 959.3947036569988,
+      "width": 201.2610340479193,
+      "height": 65.06935687263557
+    },
+    {
+      "image": "/art/atlas/fine-ink/jinling-bridge-front-v2.webp",
+      "x": 1890.0378310214376,
+      "y": 1195.4602774274906,
+      "width": 137.70491803278688,
+      "height": 77.17528373266079
+    }
+  ],
+  "independent_layers": [
+    "water surface / ripple",
+    "route-based vessels / wakes / oars",
+    "extracted bridge fronts",
+    "joint-animated residents / pilgrims",
+    "flags / smoke / birds",
+    "drifting mist / pointer depth"
+  ],
+  "editable_runtime_source": [
+    "apps/website/src/fine-ink-life.ts",
+    "apps/website/src/FineInkLife.tsx",
+    "scripts/prepare-living-ink.mjs"
+  ],
+  "scope": "2.5D painted homepage world. Static terrain remains painted; moving vessels and residents are independent runtime entities. Not a full 3D world or per-building interior simulation.",
+  "water_surface": {
+    "method": "Color extraction within authored channel regions; small isolated flecks excluded; feathered alpha edge.",
+    "mask": {
+      "bytes": 25822,
+      "sha256": "c78f23aea98390aafe783c35b59dcf6aea1888f051490041ed6e20e779fcc2ce"
+    },
+    "near_bank_cutout": {
+      "bytes": 209998,
+      "sha256": "4c6a78138b48bdd7f6b1e6fb395d8f34b8dcab873bb6f6cf3315fcccbf781647"
+    }
+  },
+  "water_navigation": {
+    "source": "water-routes-source.json",
+    "prepared": "apps/website/src/fine-ink-water-routes.json",
+    "grid_source_pixels": 4,
+    "components": 19,
+    "bridge_portals": [
+      [
+        [
+          524,
+          738
+        ],
+        [
+          537,
+          770
+        ]
+      ],
+      [
+        [
+          1194,
+          634
+        ],
+        [
+          1198,
+          679
+        ]
+      ],
+      [
+        [
+          1275,
+          791
+        ],
+        [
+          1290,
+          844
+        ]
+      ]
+    ],
+    "route_count": 6,
+    "scope": "Prepared paint-space routes; not historical hydrology or full river physics."
+  },
+  "preparation": [
+    "node scripts/prepare-living-ink.mjs <clean-source.png>",
+    "node scripts/prepare-living-water.mjs"
+  ],
+  "runtime_v2_art_bytes": 1022556
+}

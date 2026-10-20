@@ -53,6 +53,6 @@ export const world = {
       'Regional strategy and asynchronous formations are being explored',
     ],
   },
-  accent: '#9a703b',
+  accent: 'var(--accent-sanguo)',
   image: '/art/sanguo.webp',
 } satisfies WorldDefinition;

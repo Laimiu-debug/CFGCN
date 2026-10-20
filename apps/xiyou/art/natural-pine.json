@@ -1,0 +1,48 @@
+{
+  "origin": "Tripo Studio v3.1, existing membership",
+  "studio_project": "87c9fabd-3ed8-4916-a29d-9d8107a6ce1e",
+  "studio_credits": 50,
+  "prompt": "One living mature Chinese mountain pine tree, height 5 meters, environment asset for a stylized Journey to the West real time game. Complete strong twisting brown trunk, three main branches, five large dense broad umbrella foliage canopies. Foliage is SOLID cohesive overlapping dark pine green and muted malachite leaf masses, broad scalloped soft silhouettes, clearly full and healthy, never bare branches. Simple organic forms preserving a recognizable lush silhouette at 3500 triangles. Small roots only; bottom sits on ground. Matte hand painted Chinese illustrated 3D style with restrained ink accents and warm bark. Balanced asymmetrical tree, not bonsai. Isolated full tree. No rock pedestal, no ground disk, no vase, no carved ornaments, no disconnected tiny leaves, no needle geometry, no micro branches, no yellow leaves, no text, no shiny plastic. One coherent reusable natural tree model.",
+  "source_file": "pine-tree-studio-v31-source.glb",
+  "review": "Living broadleaf mountain tree; Tripo did not reproduce pine needles. Voxel canopy LOD and original albedo bake preserve full foliage; shrubs derived from its crown. Botanical pine detail remains a refinement item.",
+  "source_sha256": "a5a504d34c95c7ad0f7e28d915a62d249d9fdc7fef13bea571e7f2e43ef51d66",
+  "source_bytes": 14033972,
+  "runtime": [
+    {
+      "asset": "pine_tree",
+      "origin": "tripo-studio-blender",
+      "studio_project": "87c9fabd-3ed8-4916-a29d-9d8107a6ce1e",
+      "source_file": "pine-tree-studio-v31-source.glb",
+      "source_sha256": "a5a504d34c95c7ad0f7e28d915a62d249d9fdc7fef13bea571e7f2e43ef51d66",
+      "source_blend": "pine_tree.blend",
+      "triangles": 3367,
+      "bones": 0,
+      "clips": [],
+      "bytes": 293700,
+      "triangle_budget": 3500,
+      "byte_budget": 450000,
+      "texture_max": 768,
+      "joint_budget": 0,
+      "primitive_budget": 1,
+      "runtime_sha256": "0de7ddd79af32c19a70e92b204667630b38e2d544fd288ed7aa4cef23b494326"
+    },
+    {
+      "asset": "mountain_shrub",
+      "origin": "tripo-studio-blender",
+      "studio_project": "87c9fabd-3ed8-4916-a29d-9d8107a6ce1e",
+      "source_file": "pine-tree-studio-v31-source.glb",
+      "source_sha256": "a5a504d34c95c7ad0f7e28d915a62d249d9fdc7fef13bea571e7f2e43ef51d66",
+      "source_blend": "mountain_shrub.blend",
+      "triangles": 876,
+      "bones": 0,
+      "clips": [],
+      "bytes": 158744,
+      "triangle_budget": 900,
+      "byte_budget": 450000,
+      "texture_max": 768,
+      "joint_budget": 0,
+      "primitive_budget": 1,
+      "runtime_sha256": "94acb4c6e7f5e6670e2516bbac86e4519a67fefd0f7556ae9956ce19bdbe9894"
+    }
+  ]
+}

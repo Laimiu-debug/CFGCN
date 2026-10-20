@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "width": 1254,
+  "height": 1254,
+  "parts": [
+    {
+      "name": "pine",
+      "rect": [
+        89,
+        81,
+        608,
+        625
+      ],
+      "solidPixels": 128176
+    },
+    {
+      "name": "boulder",
+      "rect": [
+        656,
+        353,
+        1200,
+        633
+      ],
+      "solidPixels": 94924
+    },
+    {
+      "name": "young_pine",
+      "rect": [
+        109,
+        719,
+        557,
+        1175
+      ],
+      "solidPixels": 79502
+    },
+    {
+      "name": "shrub",
+      "rect": [
+        675,
+        834,
+        1196,
+        1170
+      ],
+      "solidPixels": 105526
+    }
+  ],
+  "art": "Tripo Studio silhouettes projected in Blender; original imagegen ink redraw, hand-reviewed atlas layout",
+  "source_sha256": "6b8730632454b2a4975f48542ed7490f5ec67b8ef819a70d74aac158e00092e9",
+  "runtime_sha256": "21d8eced8199060fbeced4a1bf0325ffd41768c319928135c7bc9163f412d352",
+  "terrain_source_sha256": "be35dae2151ea605d604cf26dc16fe0711f7f1daf9980d7f4b36ac09da092f34",
+  "terrain_runtime_sha256": "8d6b7f51ccb93385553c654ec2a04e9bb3db4d3945f04475ff2764a4a4d5f89a",
+  "atlasBytes": 109937,
+  "terrainBytes": 106000,
+  "runtimeSize": [
+    1024,
+    1024
+  ],
+  "terrainRuntimeSize": [
+    768,
+    768
+  ]
+}

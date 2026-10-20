@@ -1,0 +1,335 @@
+{
+  "version": "fine-ink-depth-scene-v3",
+  "width": 2400,
+  "height": 1501,
+  "ground": "/art/atlas/fine-ink/depth-v3/ground.webp",
+  "layers": [
+    {
+      "id": "far-horizon",
+      "kind": "far",
+      "amplitude": 190,
+      "bounds": [
+        0,
+        0,
+        2400,
+        272.38335435056746
+      ],
+      "image": "/art/atlas/fine-ink/depth-v3/far-horizon.webp",
+      "occupiedPixels": 63792
+    },
+    {
+      "id": "connected-western-landform",
+      "kind": "mountain",
+      "amplitude": 300,
+      "bounds": [
+        0,
+        62.042875157629254,
+        1765.952080706179,
+        1439.0920554854981
+      ],
+      "image": "/art/atlas/fine-ink/depth-v3/connected-western-landform.webp",
+      "occupiedPixels": 290354
+    },
+    {
+      "id": "west-upper-range",
+      "kind": "mountain",
+      "amplitude": 245,
+      "bounds": [
+        0,
+        105.92686002522069,
+        579.5712484237074,
+        340.47919293820934
+      ],
+      "image": "/art/atlas/fine-ink/depth-v3/west-upper-range.webp",
+      "occupiedPixels": 51804
+    },
+    {
+      "id": "west-middle-cliff",
+      "kind": "mountain",
+      "amplitude": 300,
+      "bounds": [
+        0,
+        302.6481715006305,
+        511.4754098360656,
+        505.422446406053
+      ],
+      "image": "/art/atlas/fine-ink/depth-v3/west-middle-cliff.webp",
+      "occupiedPixels": 44980
+    },
+    {
+      "id": "liangshan-town",
+      "kind": "city",
+      "town": "shuihu",
+      "amplitude": 35,
+      "bounds": [
+        1554.0983606557377,
+        369.2307692307692,
+        562.9255989911728,
+        204.2875157629256
+      ],
+      "image": "/art/atlas/fine-ink/depth-v3/liangshan-town.webp",
+      "occupiedPixels": 21391
+    },
+    {
+      "id": "changan-city",
+      "kind": "city",
+      "town": "xiyou",
+      "amplitude": 38,
+      "bounds": [
+        425.2206809583859,
+        331.39974779319044,
+        877.6796973518285,
+        345.0189155107188
+      ],
+      "image": "/art/atlas/fine-ink/depth-v3/changan-city.webp",
+      "occupiedPixels": 62493
+    },
+    {
+      "id": "qinling-main-spine",
+      "kind": "mountain",
+      "amplitude": 370,
+      "bounds": [
+        370.7440100882724,
+        541.7402269861286,
+        1168.2219419924338,
+        612.8625472887768
+      ],
+      "image": "/art/atlas/fine-ink/depth-v3/qinling-main-spine.webp",
+      "occupiedPixels": 89074
+    },
+    {
+      "id": "west-lower-foothills",
+      "kind": "mountain",
+      "amplitude": 290,
+      "bounds": [
+        0,
+        605.296343001261,
+        384.3631778058008,
+        446.40605296343
+      ],
+      "image": "/art/atlas/fine-ink/depth-v3/west-lower-foothills.webp",
+      "occupiedPixels": 36814
+    },
+    {
+      "id": "jinling-garden-city",
+      "kind": "city",
+      "town": "honglou",
+      "amplitude": 42,
+      "bounds": [
+        1712.9886506935688,
+        898.8650693568727,
+        687.0113493064313,
+        444.89281210592685
+      ],
+      "image": "/art/atlas/fine-ink/depth-v3/jinling-garden-city.webp",
+      "occupiedPixels": 83391
+    },
+    {
+      "id": "hanzhong-city",
+      "kind": "city",
+      "town": "sanguo",
+      "amplitude": 32,
+      "bounds": [
+        261.7906683480454,
+        912.484237074401,
+        590.1639344262295,
+        226.9861286254729
+      ],
+      "image": "/art/atlas/fine-ink/depth-v3/hanzhong-city.webp",
+      "occupiedPixels": 25209
+    },
+    {
+      "id": "han-near-bank",
+      "kind": "bank",
+      "amplitude": 48,
+      "bounds": [
+        709.7099621689786,
+        1165.1954602774276,
+        668.8524590163935,
+        192.1815889029004
+      ],
+      "image": "/art/atlas/fine-ink/depth-v3/han-near-bank.webp",
+      "occupiedPixels": 24387
+    },
+    {
+      "id": "west-front-rocks",
+      "kind": "mountain",
+      "amplitude": 210,
+      "bounds": [
+        0,
+        963.9344262295082,
+        284.4892812105927,
+        348.0453972257251
+      ],
+      "image": "/art/atlas/fine-ink/depth-v3/west-front-rocks.webp",
+      "occupiedPixels": 25843
+    },
+    {
+      "id": "jinling-near-shore",
+      "kind": "bank",
+      "amplitude": 75,
+      "bounds": [
+        1549.5586380832283,
+        1265.0693568726356,
+        850.4413619167718,
+        236.06557377049182
+      ],
+      "image": "/art/atlas/fine-ink/depth-v3/jinling-near-shore.webp",
+      "occupiedPixels": 52993
+    },
+    {
+      "id": "foreground-ridge",
+      "kind": "mountain",
+      "amplitude": 230,
+      "bounds": [
+        0,
+        1237.8310214375788,
+        1729.6343001261034,
+        263.30390920554856
+      ],
+      "image": "/art/atlas/fine-ink/depth-v3/foreground-ridge.webp",
+      "occupiedPixels": 121879
+    },
+    {
+      "id": "hanzhong-front-wall",
+      "kind": "facade",
+      "town": "sanguo",
+      "amplitude": 72,
+      "bounds": [
+        263.30390920554856,
+        1000.2522068095839,
+        581.0844892812106,
+        137.70491803278688
+      ],
+      "image": "/art/atlas/fine-ink/depth-v3/hanzhong-front-wall.webp",
+      "occupiedPixels": 15939
+    },
+    {
+      "id": "changan-front-wall",
+      "kind": "facade",
+      "town": "xiyou",
+      "amplitude": 100,
+      "bounds": [
+        455.48549810844895,
+        512.9886506935687,
+        841.3619167717528,
+        163.4300126103405
+      ],
+      "image": "/art/atlas/fine-ink/depth-v3/changan-front-wall.webp",
+      "occupiedPixels": 20814
+    },
+    {
+      "id": "bridge-2",
+      "kind": "bridge",
+      "amplitude": 55,
+      "bounds": [
+        1890.0378310214376,
+        1195.4602774274906,
+        137.70491803278688,
+        77.17528373266079
+      ],
+      "image": "/art/atlas/fine-ink/depth-v3/bridge-2.webp",
+      "occupiedPixels": 1551
+    },
+    {
+      "id": "bridge-1",
+      "kind": "bridge",
+      "amplitude": 55,
+      "bounds": [
+        1738.7137452711224,
+        959.3947036569988,
+        201.2610340479193,
+        65.06935687263557
+      ],
+      "image": "/art/atlas/fine-ink/depth-v3/bridge-1.webp",
+      "occupiedPixels": 2309
+    },
+    {
+      "id": "bridge-0",
+      "kind": "bridge",
+      "amplitude": 55,
+      "bounds": [
+        717.2761664564944,
+        1110.718789407314,
+        195.20807061790669,
+        62.042875157629254
+      ],
+      "image": "/art/atlas/fine-ink/depth-v3/bridge-0.webp",
+      "occupiedPixels": 2532
+    }
+  ],
+  "referenceDistance": 2600,
+  "places": {
+    "xiyou": {
+      "x": 899,
+      "y": 543,
+      "labelX": 923,
+      "labelY": 295,
+      "hitWidth": 696.0907944514502,
+      "hitHeight": 332.9129886506936
+    },
+    "sanguo": {
+      "x": 539,
+      "y": 1040,
+      "labelX": 749,
+      "labelY": 941,
+      "hitWidth": 423.70744010088276,
+      "hitHeight": 226.9861286254729
+    },
+    "shuihu": {
+      "x": 1736,
+      "y": 462,
+      "labelX": 1846,
+      "labelY": 363,
+      "hitWidth": 393.44262295081967,
+      "hitHeight": 196.72131147540983
+    },
+    "honglou": {
+      "x": 2028,
+      "y": 1164,
+      "labelX": 2270,
+      "labelY": 984,
+      "hitWidth": 529.6343001261034,
+      "hitHeight": 317.78058007566204
+    }
+  },
+  "life": {
+    "water": [
+      "M980.6,234.6L1130.4,248.2L1278.7,279.9L1517.8,313.2L1735.7,342.0L1933.9,355.6L2157.9,358.6L2165.4,396.5L1973.3,401.0L1711.5,381.3L1511.7,355.6L1293.8,322.3L1125.9,287.5L983.6,269.4Z",
+      "M1667.6,514.5L1784.1,538.7L1926.4,558.4L2088.3,550.8L2238.1,537.2L2248.7,582.6L2074.7,600.8L1929.4,608.3L1776.5,585.6L1664.6,552.3Z",
+      "M2095.8,606.8L2229.0,606.8L2400.0,631.0L2400.0,677.9L2244.1,656.7L2103.4,644.6Z",
+      "M765.7,1071.4L806.6,1086.5L785.4,1125.9L820.2,1148.5L895.8,1174.3L1004.8,1184.9L1115.3,1174.3L1251.5,1142.5L1269.6,1178.8L1124.3,1219.7L1007.8,1233.3L886.8,1219.7L782.3,1189.4L729.4,1139.5L738.5,1100.1Z",
+      "M1522.3,1193.9L1690.3,1248.4L1815.9,1274.1L1965.7,1312.0L2135.2,1337.7L2306.2,1349.8L2400.0,1343.8L2400.0,1396.7L2285.0,1401.3L2121.6,1386.1L1943.0,1358.9L1796.2,1328.6L1667.6,1295.3L1517.8,1243.9Z",
+      "M1750.8,936.7L1847.7,927.6L1943.0,903.4L2041.4,865.6L2115.5,832.3L2141.2,861.0L2065.6,901.9L1967.2,939.7L1873.4,965.4L1779.6,980.6Z"
+    ],
+    "waterMask": "/art/atlas/fine-ink/water-mask-v2.webp",
+    "shoreFront": "/art/atlas/fine-ink/shore-front-v2.webp",
+    "occluders": []
+  },
+  "probes": [
+    {
+      "id": "far",
+      "layer": "far-horizon",
+      "x": 756.6204287515764,
+      "y": 80.20176544766709
+    },
+    {
+      "id": "city",
+      "layer": "changan-city",
+      "x": 939.7225725094578,
+      "y": 523.5813366960908
+    },
+    {
+      "id": "ridge",
+      "layer": "qinling-main-spine",
+      "x": 1007.8184110970997,
+      "y": 786.8852459016393
+    },
+    {
+      "id": "bank",
+      "layer": "jinling-near-shore",
+      "x": 1634.3001261034049,
+      "y": 1324.0857503152586
+    }
+  ]
+}

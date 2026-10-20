@@ -1,0 +1,133 @@
+.ink-glyph {
+  width: 28px;
+  height: 28px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  flex: 0 0 auto;
+}
+.ink-rim {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  pointer-events: none;
+}
+.ink-rim-wash {
+  fill: var(--paper);
+  opacity: 0.76;
+}
+.ink-rim-brush {
+  fill: none;
+  stroke: var(--ink);
+  stroke-width: 1.5;
+  opacity: 0.55;
+}
+.ink-rim-track {
+  fill: none;
+  stroke: var(--ink);
+  stroke-width: 1;
+  opacity: 0.18;
+}
+.ink-rim-value {
+  fill: none;
+  stroke: var(--jade);
+  stroke-width: 2.2;
+  stroke-linecap: round;
+}
+.ink-rim-gold {
+  fill: var(--gold-ink);
+}
+.ink-heading > span {
+  color: var(--gold-ink);
+  font-size: 10px;
+  letter-spacing: 0.24em;
+}
+.ink-heading h2 {
+  font: 500 clamp(26px, 3vw, 38px)/1.4 var(--font-display);
+  letter-spacing: 0.16em;
+  margin: 6px 0 10px;
+}
+.ink-heading > svg {
+  display: block;
+  width: 150px;
+  height: 12px;
+  fill: none;
+  stroke: var(--gold);
+  stroke-width: 1;
+}
+.ink-dialog {
+  color: var(--ink);
+  font-family: var(--font-body);
+  border: 0;
+  border-radius: var(--series-radius);
+  background: var(--paper);
+  box-shadow: 0 20px 80px color-mix(in srgb, var(--ink) 20%, transparent);
+}
+.ink-dialog::backdrop {
+  background: color-mix(in srgb, var(--paper-shade) 62%, transparent);
+}
+.ink-dialog .series-button {
+  gap: 8px;
+}
+.ink-seal {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 42px;
+  border: 1px solid var(--vermilion);
+  color: var(--vermilion);
+  font: 18px var(--font-display);
+  writing-mode: vertical-rl;
+  letter-spacing: 0.15em;
+}
+.shadow-ability-paint {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  pointer-events: none;
+}
+.ability-water {
+  fill: var(--accent-shuihu);
+  opacity: 0.68;
+}
+.ability-earth {
+  fill: var(--gold);
+  opacity: 0.58;
+}
+.ability-ink {
+  fill: none;
+  stroke: var(--ink);
+  stroke-width: 1.6;
+  stroke-linecap: round;
+}
+.ability-gesture {
+  fill: none;
+  stroke: var(--gold-ink);
+  stroke-width: 1.7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.ink-main-action {
+  min-width: 210px;
+  min-height: 48px;
+  font: 18px var(--font-display);
+  letter-spacing: 0.14em;
+}
+.shadow-trial kbd {
+  font-family: var(--font-body);
+  font-size: 10px;
+  font-weight: 500;
+}
+.shadow-trial [data-ultimate='true'] .ink-rim-value {
+  stroke: var(--gold-ink);
+}
+.shadow-trial[data-reduced='true'] * {
+  animation: none !important;
+  transition: none !important;
+}

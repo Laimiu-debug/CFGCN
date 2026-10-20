@@ -1,0 +1,333 @@
+{
+  "schemaVersion": 1,
+  "style": "amber-sugar-miniature-v2",
+  "status": "design-proposal-not-generated",
+  "units": "length relative to the owner's body height H; geometry in meters",
+  "sourcePolicy": "Original visual designs. A signature association is not proof of a unique historical shape; chapter checks remain separate.",
+  "items": [
+    {
+      "id": "dao",
+      "name": "朴刀",
+      "lengthH": 0.95,
+      "description": "one Chinese pudao, broad single-edged blade on a stout medium wooden haft, clear blade socket and wrapped grip, plain practical silhouette"
+    },
+    {
+      "id": "sabre",
+      "name": "腰刀",
+      "lengthH": 0.52,
+      "description": "one practical Chinese single-edged waist sabre, gently curved blade, small disc guard, wrapped oval grip and separate simple scabbard"
+    },
+    {
+      "id": "spear",
+      "name": "步战长枪",
+      "lengthH": 1.32,
+      "description": "one straight Chinese infantry spear, leaf-shaped narrow steel head, sturdy cylindrical shaft, restrained short tassel below the socket"
+    },
+    {
+      "id": "snake-spear",
+      "name": "林冲蛇矛样式",
+      "lengthH": 1.4,
+      "description": "one long spear for Lin Chong, a single broad sinuous spearhead with two bends, straight sturdy haft, small tassel and blunt unbladed tail, no second blade"
+    },
+    {
+      "id": "crescent-blade",
+      "name": "关胜大刀样式",
+      "lengthH": 1.38,
+      "description": "one Chinese long-handled crescent blade for Guan Sheng, broad curved cutting edge, thick blade back, clear collar, restrained engraved cloud border"
+    },
+    {
+      "id": "wolf-mace",
+      "name": "秦明狼牙棒",
+      "lengthH": 1.02,
+      "description": "one heavy Chinese wolf-tooth mace, tapered elongated solid head with a few rows of large blunt spikes, thick straight haft and clear two-hand grip"
+    },
+    {
+      "id": "twin-whips",
+      "name": "呼延灼双鞭",
+      "lengthH": 0.54,
+      "description": "a matched pair of rigid Chinese metal fighting whips, segmented squared bars with tapered tips, small guards and separate wrapped handles, not flexible lashes"
+    },
+    {
+      "id": "bow",
+      "name": "长弓与箭囊",
+      "lengthH": 0.7,
+      "description": "one compact recurved Chinese bow, continuous thick limbs and visible taut string, plus a separate small quiver with three sturdy arrow shafts"
+    },
+    {
+      "id": "flying-knives",
+      "name": "李应飞刀组",
+      "lengthH": 0.22,
+      "description": "five small Chinese throwing knives and one simple belt sheath rack, clear leaf-shaped blades and wrapped grips, closed compact arrangement"
+    },
+    {
+      "id": "monk-staff",
+      "name": "鲁智深铁禅杖",
+      "lengthH": 1.2,
+      "description": "one heavy Chinese monk spade staff for Lu Zhishen, broad shovel blade at one end and open crescent at the other, thick straight shaft, clear two-hand grip"
+    },
+    {
+      "id": "monk-knives",
+      "name": "武松双戒刀",
+      "lengthH": 0.57,
+      "description": "two Chinese monk fighting knives for Wu Song, long single-edged blades with blunt spines, simple disc guards and wrapped grips, no fantasy saw teeth"
+    },
+    {
+      "id": "twin-spears",
+      "name": "董平双枪",
+      "lengthH": 1.15,
+      "description": "two matching straight Chinese spears, slim leaf heads and sturdy shafts, short restrained tassels, separated full-length silhouettes"
+    },
+    {
+      "id": "stone-pouch",
+      "name": "张清飞石囊",
+      "lengthH": 0.2,
+      "description": "one soft belt pouch with five smooth palm-size throwing pebbles beside it, intact rounded stones, no sling, no written symbols"
+    },
+    {
+      "id": "hook-spear",
+      "name": "徐宁钩镰枪",
+      "lengthH": 1.3,
+      "description": "one Chinese hooked spear for Xu Ning, straight central spearhead with a short backward-facing side hook, long sturdy shaft, simple reinforced collar"
+    },
+    {
+      "id": "broad-axe",
+      "name": "索超宣花斧",
+      "lengthH": 1.05,
+      "description": "one Chinese long-handled broad axe, single wide petal-shaped axe blade with thick back and practical haft, no double fantasy crescent"
+    },
+    {
+      "id": "twin-axes",
+      "name": "李逵双板斧",
+      "lengthH": 0.45,
+      "description": "two Chinese short-handled broad axes for Li Kui, large rectangular-fan blades and thick short wooden grips, independent left and right weapons"
+    },
+    {
+      "id": "staff",
+      "name": "齐眉棍",
+      "lengthH": 1.03,
+      "description": "one straight Chinese hardwood fighting staff with slightly capped ends, smooth continuous shaft, visible simple wrapped two-hand grip"
+    },
+    {
+      "id": "river-knife",
+      "name": "水军短刀",
+      "lengthH": 0.4,
+      "description": "one sturdy short Chinese river-fighter knife, broad single-edged blade and compact wrapped grip, simple belt sheath, no anchor ornament"
+    },
+    {
+      "id": "oar",
+      "name": "舟桨",
+      "lengthH": 1.15,
+      "description": "one practical narrow Chinese wooden river oar, broad flat paddle blade and thick oval handle, minimal carved joinery, no boat"
+    },
+    {
+      "id": "hunting-fork",
+      "name": "猎叉",
+      "lengthH": 1.22,
+      "description": "one Chinese mountain hunting fork with three thick practical prongs, stout long wood shaft, visible socket and no fragile barbs"
+    },
+    {
+      "id": "crossbow",
+      "name": "小弩",
+      "lengthH": 0.36,
+      "description": "one compact Chinese handheld crossbow, sturdy wood stock, short transverse bow and visible string, one blunt-ended bolt, no modern gun parts"
+    },
+    {
+      "id": "halberd",
+      "name": "画戟",
+      "lengthH": 1.35,
+      "description": "one Chinese long halberd, central spearhead with two restrained side crescent blades, straight wood haft and modest collar, no oversized tassels"
+    },
+    {
+      "id": "twin-sabres",
+      "name": "扈三娘日月双刀",
+      "lengthH": 0.58,
+      "description": "two Chinese curved single-edged sabres for Hu Sanniang, complementary sun and crescent guard details without letters, sturdy separate grips and clean cutting edges"
+    },
+    {
+      "id": "broad-sword",
+      "name": "阔剑",
+      "lengthH": 0.75,
+      "description": "one heavy straight Chinese double-edged sword, broad tapered blade with central ridge, modest guard and wrapped two-hand grip, practical compact pommel"
+    },
+    {
+      "id": "flail",
+      "name": "铁链与锤",
+      "lengthH": 0.65,
+      "description": "one compact Chinese chain weapon, thick separated oval links joining a small solid striking weight to a short grip, arranged in a stable shallow curve"
+    },
+    {
+      "id": "rattan-shield",
+      "name": "团牌",
+      "lengthH": 0.42,
+      "description": "one round Chinese rattan fighting shield, broad woven bands in shallow relief, strong rim and readable rear hand strap, no coat of arms"
+    },
+    {
+      "id": "javelins",
+      "name": "投枪束",
+      "lengthH": 0.72,
+      "description": "three short Chinese throwing spears, compact leaf heads and thick straight shafts, clearly separated and bound by one removable simple carrying strap"
+    },
+    {
+      "id": "sword",
+      "name": "直剑",
+      "lengthH": 0.61,
+      "description": "one Chinese straight double-edged sword, narrow ridged blade, modest cross guard, plain pommel and wrapped grip, plus a simple separate sheath"
+    },
+    {
+      "id": "short-staff",
+      "name": "短棒",
+      "lengthH": 0.55,
+      "description": "one short practical hardwood club, slightly tapered solid cylindrical body, clear rounded handle and simple wrist loop"
+    },
+    {
+      "id": "forked-blade",
+      "name": "三尖两刃刀",
+      "lengthH": 1.28,
+      "description": "one Chinese three-pointed pole blade, broad central point and two short side points sharing a solid blade body, straight strong haft, minimal decoration"
+    },
+    {
+      "id": "cleaver",
+      "name": "屠刀与刀鞘",
+      "lengthH": 0.3,
+      "description": "one practical Chinese butcher knife, broad heavy blade with thick spine, plain wood grip, separate compact sheath, clean surface without gore"
+    },
+    {
+      "id": "execution-sword",
+      "name": "行刑大刀",
+      "lengthH": 0.82,
+      "description": "one broad Chinese executioner's sabre, long slightly flared single-edged blade, thick spine, simple sturdy two-hand handle, clean and without blood"
+    },
+    {
+      "id": "fan",
+      "name": "折扇",
+      "lengthH": 0.23,
+      "description": "one opened Chinese folding fan with thick visible ribs and a continuous paper leaf, shallow carved cloud border, no painted text"
+    },
+    {
+      "id": "scroll",
+      "name": "书卷与文书",
+      "lengthH": 0.25,
+      "description": "one partly opened Chinese manuscript scroll with solid rolled ends and a few unlettered tied documents, thick continuous paper surface, no readable text"
+    },
+    {
+      "id": "brush",
+      "name": "笔砚",
+      "lengthH": 0.24,
+      "description": "one Chinese calligraphy brush and one small shallow inkstone, sturdy tapered brush tip and bamboo handle, simple inkstone well, no wet splashes"
+    },
+    {
+      "id": "abacus",
+      "name": "算盘",
+      "lengthH": 0.25,
+      "description": "one traditional Chinese rectangular abacus, robust wood frame and clear separated rows of thick beads, small tied ledger beside it, no text"
+    },
+    {
+      "id": "medicine",
+      "name": "医药箱",
+      "lengthH": 0.28,
+      "description": "one Chinese physician's portable medicine chest, small square wood case with drawers and cloth strap, two closed medicine jars, no modern cross symbol"
+    },
+    {
+      "id": "veterinary",
+      "name": "兽医药囊",
+      "lengthH": 0.24,
+      "description": "one compact Chinese veterinarian's leather medicine satchel, visible buckle and closed herb packets, small hoof-care tool, no syringes or labels"
+    },
+    {
+      "id": "carving-tools",
+      "name": "凿锤与印石",
+      "lengthH": 0.25,
+      "description": "one short stone-carving chisel, one small wood mallet and one rectangular blank seal stone, sturdy distinct tools, no engraved letters"
+    },
+    {
+      "id": "sewing",
+      "name": "针线与布卷",
+      "lengthH": 0.24,
+      "description": "one compact cloth roll with thick thread spool and tailor's blunt shears, needle represented as shallow relief rather than a fragile floating strand"
+    },
+    {
+      "id": "hammer",
+      "name": "锻锤",
+      "lengthH": 0.42,
+      "description": "one Chinese blacksmith's compact forging hammer, heavy rectangular head with rounded edges, sturdy short wood handle, simple collar and no anvil"
+    },
+    {
+      "id": "shovel",
+      "name": "铁锹",
+      "lengthH": 0.95,
+      "description": "one practical Chinese earth shovel, broad rounded rectangular iron blade and straight thick wood shaft, clear hand grip, no garden scene"
+    },
+    {
+      "id": "wine",
+      "name": "酒壶与酒碗",
+      "lengthH": 0.23,
+      "description": "one small Chinese earthenware wine jug with thick loop handle and tied cloth stopper, one shallow bowl beside it, no liquid or writing"
+    },
+    {
+      "id": "flute",
+      "name": "铁笛",
+      "lengthH": 0.43,
+      "description": "one straight thick Chinese flute with shallow clearly spaced finger holes and capped ends, restrained ring bands, no musical notes or floating ribbons"
+    },
+    {
+      "id": "banner",
+      "name": "帅旗",
+      "lengthH": 1.5,
+      "description": "one Chinese command banner, strong upright pole and compact thick cloth panel with shallow cloud relief and unlettered central seal shape, no readable words"
+    },
+    {
+      "id": "rope",
+      "name": "盘绳",
+      "lengthH": 0.32,
+      "description": "one thick coiled hemp rope with a small simple hook, stable joined coil with readable strands, no dangling fragile threads"
+    },
+    {
+      "id": "horsetack",
+      "name": "马鞭与缰绳",
+      "lengthH": 0.45,
+      "description": "one short Chinese riding crop and one compact coiled bridle, solid leather straps and large practical rings, no horse or saddle scene"
+    },
+    {
+      "id": "cannon-kit",
+      "name": "火炮工匠器具",
+      "lengthH": 0.35,
+      "description": "one small early Chinese powder horn, one short solid rammer and one thick unlit fuse coil, craft tools only, no modern firearm or smoke"
+    },
+    {
+      "id": "ceremony-tablet",
+      "name": "笏板",
+      "lengthH": 0.3,
+      "description": "one narrow curved Chinese ceremonial court tablet, smooth solid ivory-toned surface and rounded upper edge, shallow plain border, no letters"
+    },
+    {
+      "id": "bamboo-basket",
+      "name": "竹篮",
+      "lengthH": 0.28,
+      "description": "one compact Chinese woven bamboo carrying basket with thick arched handle, broad weave relief and closed simple cloth contents, no fruit scene"
+    },
+    {
+      "id": "lute",
+      "name": "琵琶",
+      "lengthH": 0.52,
+      "description": "one Chinese pear-shaped four-string pipa lute, sturdy curved neck and shallow frets, thick strings in relief, no musical notes or stand"
+    },
+    {
+      "id": "prayer-beads",
+      "name": "念珠",
+      "lengthH": 0.3,
+      "description": "one closed loop of large Buddhist prayer beads, thick beads with joined inner cord and a compact tassel in relief, no text or sacred statue"
+    },
+    {
+      "id": "flywhisk",
+      "name": "拂尘",
+      "lengthH": 0.45,
+      "description": "one Chinese Daoist flywhisk, slender stout handle and solid carved flowing tuft with a few broad grooves, no individual thin hair strands"
+    },
+    {
+      "id": "sickle",
+      "name": "短镰刀",
+      "lengthH": 0.35,
+      "description": "one practical Chinese short sickle, continuous crescent iron blade attached to a stout wood handle, rounded carved edge with clear socket"
+    }
+  ]
+}

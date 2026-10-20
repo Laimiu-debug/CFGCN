@@ -1,0 +1,5 @@
+{
+  "origin": "original builtin imagegen",
+  "prompt": "One seamless tileable square diffuse albedo texture for the walkable ground of a Chinese gongbi zhongcai illustrated 3D Journey to the West game. Strict flat orthographic top-down material texture, no perspective, no cast shadows or directional lighting. Soft pale ivory ochre compacted earth, muted celadon mineral-pigment washes and irregular very subtle moss at the edges of small natural patches, tiny sparse pine needles and soft dry-brush flecks. Layered hand-painted fine-grain brushwork on silk, not paper with writing. The overall texture is very light, low contrast, approximately 85 percent pale warm ivory, so character silhouettes and accurate danger markers remain legible. No path shape, no visible grid, no stones larger than a tiny pebble, no large cracks, no branches, no trees, no modeled objects, no symbols, no text, no frame, no vignette, no black areas. All four edges should tile naturally. Designed to be tinted by shared jade and warm-earth vertex colors in the game, not a landscape picture.",
+  "source": "source/ground-painting-v1.png"
+}

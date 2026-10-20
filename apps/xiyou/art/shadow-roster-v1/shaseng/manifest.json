@@ -1,0 +1,37 @@
+{
+  "id": "shaseng",
+  "name": "沙悟净",
+  "status": "resource study; visual review pending",
+  "source": "OpenAI built-in image_gen; original art",
+  "source_image": "parts-source.png",
+  "source_sha256": "aa065e404721bed945ce6d4480dd18dec7ecaf5cf94c9d3abbab9370dd51d79d",
+  "prompt": "prompt.txt",
+  "woop": "shaseng.woop",
+  "editable": "shaseng.blend",
+  "runtime": "shaseng.glb",
+  "runtime_sha256": "630429ed21152af92cbdeaaf73d373c7f127a680477aac0cadf72de2b684f193",
+  "runtime_bytes": 1293828,
+  "texture_size": [
+    1254,
+    1254
+  ],
+  "parts": 14,
+  "joints": 13,
+  "bones": 14,
+  "triangles": 28,
+  "materials": 1,
+  "clips": [
+    "Idle",
+    "Walk",
+    "RestPose"
+  ],
+  "importer": "Official WooooShadow 0.8.13, loaded locally in an isolated Blender process",
+  "importer_sha256": "d05e8f74c00d40c1dd1e043e5d9bc5f70b86c1c0abd6a181cba7c2d94e6b4c60",
+  "blender": "5.2.2 LTS",
+  "directions": [
+    "side-right",
+    "mirrored-side-left"
+  ],
+  "tripo": "Not used: direct original 2D puppet artwork",
+  "in_game": false
+}

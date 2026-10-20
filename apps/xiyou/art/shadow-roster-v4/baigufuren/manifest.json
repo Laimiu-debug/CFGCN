@@ -1,0 +1,110 @@
+{
+  "id": "baigufuren",
+  "name": "白骨夫人",
+  "status": "resource study; visual review pending",
+  "source": "OpenAI built-in image_gen; original art",
+  "source_image": "parts-source.png",
+  "source_sha256": "7dc21e0fe13dce63ffd571e0d9a6e3451558d5c8248edfdceb5dec65f84166c3",
+  "prompt": "prompt.txt",
+  "woop": "baigufuren.woop",
+  "editable": "baigufuren.blend",
+  "runtime": "baigufuren.glb",
+  "runtime_sha256": "4c672fe1358a2b4d34c6867d126b0c4debed4eeadaca45bd3ade9c2a2b413eed",
+  "runtime_bytes": 1141712,
+  "texture_size": [
+    1024,
+    1024
+  ],
+  "source_texture_size": [
+    1254,
+    1254
+  ],
+  "parts": 16,
+  "joints": 15,
+  "bones": 16,
+  "anatomy": "chest -> abdomen -> pelvis -> thighs",
+  "triangles": 32,
+  "materials": 1,
+  "clips": [
+    "Idle",
+    "Walk",
+    "RestPose"
+  ],
+  "importer": "Official WooooShadow 0.8.13, loaded locally in an isolated Blender process",
+  "importer_sha256": "d05e8f74c00d40c1dd1e043e5d9bc5f70b86c1c0abd6a181cba7c2d94e6b4c60",
+  "blender": "5.2.2 LTS",
+  "directions": [
+    "side-right",
+    "mirrored-side-left"
+  ],
+  "tripo": "Not used: direct original 2D puppet artwork",
+  "in_game": false,
+  "version": 4,
+  "nominal_body_height": 2.29,
+  "proportions": {
+    "shape": "纤长冷峻，细腰细臂、长手足，缓步少摆",
+    "head": [
+      49,
+      29
+    ],
+    "chest": [
+      60,
+      44
+    ],
+    "abdomen": [
+      76,
+      35
+    ],
+    "pelvis": [
+      57,
+      49
+    ],
+    "upper": [
+      43,
+      11
+    ],
+    "fore": [
+      42,
+      10
+    ],
+    "thigh": [
+      61,
+      23
+    ],
+    "shin": [
+      58,
+      16
+    ],
+    "foot": [
+      11,
+      28
+    ],
+    "lean": -0.025,
+    "crouch": 0.035,
+    "stride": 0.18,
+    "lift": 0.06,
+    "period": 1.42,
+    "arm_swing": 0.055,
+    "fore_angle": -0.31,
+    "weapon_tilt": 0.12,
+    "idle_crouch": 0.002,
+    "hip_span": 13,
+    "duty": 0.66,
+    "idle_compression": 0.003,
+    "extra_compression": 0.0,
+    "idle_stance": 0.045,
+    "foot_anchor_y": 0.38
+  },
+  "weapon_source": "weapon-source.png",
+  "weapon_prompt": "weapon-prompt.txt",
+  "weapon_source_sha256": "6f84c174ea91c87043ffa947a6f983f129668b9f57cdfb86c8b2f235a6f019aa",
+  "lower_body_source": "lower-body-source.png",
+  "lower_body_prompt": "lower-body-prompt.txt",
+  "lower_body_source_sha256": "d60a1ac458938d157eeb485ce713a65d00f1d076ee576ca16cb63fd05743fae9",
+  "weapon_body_ratio": 0.5,
+  "runtime_atlas": "runtime-atlas.png",
+  "walk_distance": 0.49100217160256665,
+  "walk_duty": 0.66,
+  "walk_period": 1.4166666666666667,
+  "revision": "Exact longitudinal joint mapping, forward knees, double support, heel/toe roll and individually redrawn weapons"
+}

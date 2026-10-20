@@ -1,0 +1,838 @@
+{
+  "schemaVersion": 1,
+  "projectId": "cfgcn-original-xiaobailong",
+  "name": "小白龙（人形）",
+  "parts": [
+    {
+      "id": "accessory",
+      "width": 216,
+      "height": 284,
+      "image": "parts/accessory.png",
+      "anchors": [
+        {
+          "id": "pivot",
+          "partPx": [
+            28.080000000000002,
+            28.400000000000002
+          ]
+        }
+      ],
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          388,
+          956
+        ],
+        "zIndex": 0
+      },
+      "sourceRect": [
+        388,
+        956,
+        604,
+        1240
+      ],
+      "rest": {
+        "matrix": [
+          -0.15845070422535212,
+          -0.0,
+          -0.0,
+          0.15845070422535212,
+          4.449295774647888,
+          -167.46
+        ],
+        "zIndex": 0
+      }
+    },
+    {
+      "id": "upper_arm.back",
+      "width": 156,
+      "height": 340,
+      "image": "parts/upper_arm.back.png",
+      "anchors": [
+        {
+          "id": "pivot",
+          "partPx": [
+            42.25,
+            34.0
+          ]
+        },
+        {
+          "id": "to_forearm.back",
+          "partPx": [
+            97.63816604708799,
+            217.60000000000005
+          ]
+        }
+      ],
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          756,
+          16
+        ],
+        "zIndex": 1
+      },
+      "sourceRect": [
+        756,
+        16,
+        912,
+        356
+      ],
+      "rest": {
+        "matrix": [
+          0.19969106108060944,
+          0.06024249264298464,
+          -0.06024249264298464,
+          0.19969106108060944,
+          -29.35970258079427,
+          -170.53474139090685
+        ],
+        "zIndex": 1
+      }
+    },
+    {
+      "id": "forearm.back",
+      "width": 128,
+      "height": 344,
+      "image": "parts/forearm.back.png",
+      "anchors": [
+        {
+          "id": "pivot",
+          "partPx": [
+            34.096181046676094,
+            34.4
+          ]
+        }
+      ],
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          1052,
+          12
+        ],
+        "zIndex": 2
+      },
+      "sourceRect": [
+        1052,
+        12,
+        1180,
+        356
+      ],
+      "rest": {
+        "matrix": [
+          0.13571711769282546,
+          0.032201949905160066,
+          -0.032201949905160066,
+          0.13571711769282546,
+          -26.490688339250116,
+          -126.96663236265553
+        ],
+        "zIndex": 2
+      }
+    },
+    {
+      "id": "thigh.back",
+      "width": 156,
+      "height": 308,
+      "image": "parts/thigh.back.png",
+      "anchors": [
+        {
+          "id": "pivot",
+          "partPx": [
+            44.846486486486484,
+            30.8
+          ]
+        },
+        {
+          "id": "to_shin.back",
+          "partPx": [
+            87.09076682316118,
+            277.2
+          ]
+        }
+      ],
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          752,
+          372
+        ],
+        "zIndex": 3
+      },
+      "sourceRect": [
+        752,
+        372,
+        908,
+        680
+      ],
+      "rest": {
+        "matrix": [
+          0.17347243003655266,
+          0.02974114433907597,
+          -0.02974114433907597,
+          0.17347243003655266,
+          -26.20760174376869,
+          -107.15673667282086
+        ],
+        "zIndex": 3
+      }
+    },
+    {
+      "id": "shin.back",
+      "width": 88,
+      "height": 308,
+      "image": "parts/shin.back.png",
+      "anchors": [
+        {
+          "id": "pivot",
+          "partPx": [
+            37.959944751381215,
+            30.8
+          ]
+        },
+        {
+          "id": "to_foot.back",
+          "partPx": [
+            51.954828660436156,
+            277.20000000000005
+          ]
+        }
+      ],
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          1064,
+          372
+        ],
+        "zIndex": 4
+      },
+      "sourceRect": [
+        1064,
+        372,
+        1152,
+        680
+      ],
+      "rest": {
+        "matrix": [
+          0.15372487097379625,
+          0.008731175824726968,
+          -0.008731175824726968,
+          0.15372487097379625,
+          -24.910467393676925,
+          -61.54616097791418
+        ],
+        "zIndex": 4
+      }
+    },
+    {
+      "id": "foot.back",
+      "width": 200,
+      "height": 192,
+      "image": "parts/foot.back.png",
+      "anchors": [
+        {
+          "id": "pivot",
+          "partPx": [
+            47.17987421383648,
+            32.64
+          ]
+        }
+      ],
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          68,
+          752
+        ],
+        "zIndex": 5
+      },
+      "sourceRect": [
+        68,
+        752,
+        268,
+        944
+      ],
+      "rest": {
+        "matrix": [
+          0.10416666666666667,
+          0.0,
+          -0.0,
+          0.10416666666666667,
+          -24.25857023060797,
+          -21.880000000000017
+        ],
+        "zIndex": 5
+      }
+    },
+    {
+      "id": "body",
+      "width": 260,
+      "height": 352,
+      "image": "parts/body.png",
+      "anchors": [
+        {
+          "id": "pivot",
+          "partPx": [
+            130.0,
+            295.68
+          ]
+        },
+        {
+          "id": "to_head",
+          "partPx": [
+            130.0,
+            59.84000000000003
+          ]
+        },
+        {
+          "id": "to_upper_arm.back",
+          "partPx": [
+            31.200000000000003,
+            66.88
+          ]
+        },
+        {
+          "id": "to_thigh.back",
+          "partPx": [
+            46.8,
+            309.76
+          ]
+        },
+        {
+          "id": "to_upper_arm.front",
+          "partPx": [
+            223.6,
+            66.88000000000011
+          ]
+        },
+        {
+          "id": "to_thigh.front",
+          "partPx": [
+            218.4,
+            309.76
+          ]
+        }
+      ],
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          392,
+          12
+        ],
+        "zIndex": 6
+      },
+      "sourceRect": [
+        392,
+        12,
+        652,
+        364
+      ],
+      "rest": {
+        "matrix": [
+          0.2325,
+          0.0,
+          -0.0,
+          0.25,
+          -30.225,
+          -177.92000000000002
+        ],
+        "zIndex": 6
+      }
+    },
+    {
+      "id": "thigh.front",
+      "width": 132,
+      "height": 268,
+      "image": "parts/thigh.front.png",
+      "anchors": [
+        {
+          "id": "pivot",
+          "partPx": [
+            50.37722419928826,
+            26.8
+          ]
+        },
+        {
+          "id": "to_shin.front",
+          "partPx": [
+            66.18257956448912,
+            241.20000000000005
+          ]
+        }
+      ],
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          424,
+          692
+        ],
+        "zIndex": 7
+      },
+      "sourceRect": [
+        424,
+        692,
+        556,
+        960
+      ],
+      "rest": {
+        "matrix": [
+          0.204114621284862,
+          0.01504712744701788,
+          -0.01504712744701788,
+          0.204114621284862,
+          10.673534976759775,
+          -106.70830436338801
+        ],
+        "zIndex": 7
+      }
+    },
+    {
+      "id": "shin.front",
+      "width": 88,
+      "height": 260,
+      "image": "parts/shin.front.png",
+      "anchors": [
+        {
+          "id": "pivot",
+          "partPx": [
+            44.32142857142857,
+            26.0
+          ]
+        },
+        {
+          "id": "to_foot.front",
+          "partPx": [
+            39.68070175438595,
+            234.0
+          ]
+        }
+      ],
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          748,
+          696
+        ],
+        "zIndex": 8
+      },
+      "sourceRect": [
+        748,
+        696,
+        836,
+        956
+      ],
+      "rest": {
+        "matrix": [
+          0.1826014107098321,
+          -0.004074054151494858,
+          0.004074054151494858,
+          0.1826014107098321,
+          12.353919210243223,
+          -61.047068778384045
+        ],
+        "zIndex": 8
+      }
+    },
+    {
+      "id": "foot.front",
+      "width": 200,
+      "height": 192,
+      "image": "parts/foot.front.png",
+      "anchors": [
+        {
+          "id": "pivot",
+          "partPx": [
+            40.72460220318237,
+            32.64
+          ]
+        }
+      ],
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          1012,
+          752
+        ],
+        "zIndex": 9
+      },
+      "sourceRect": [
+        1012,
+        752,
+        1212,
+        944
+      ],
+      "rest": {
+        "matrix": [
+          0.10416666666666667,
+          0.0,
+          -0.0,
+          0.10416666666666667,
+          16.310853937168506,
+          -21.880000000000017
+        ],
+        "zIndex": 9
+      }
+    },
+    {
+      "id": "head",
+      "width": 304,
+      "height": 332,
+      "image": "parts/head.png",
+      "anchors": [
+        {
+          "id": "pivot",
+          "partPx": [
+            145.92,
+            312.08
+          ]
+        },
+        {
+          "id": "to_accessory",
+          "partPx": [
+            145.92,
+            312.0799999999999
+          ]
+        }
+      ],
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          32,
+          20
+        ],
+        "zIndex": 10
+      },
+      "sourceRect": [
+        32,
+        20,
+        336,
+        352
+      ],
+      "rest": {
+        "matrix": [
+          0.19879518072289157,
+          0.0,
+          -0.0,
+          0.19879518072289157,
+          -29.008192771084335,
+          -225.0
+        ],
+        "zIndex": 10
+      }
+    },
+    {
+      "id": "upper_arm.front",
+      "width": 144,
+      "height": 316,
+      "image": "parts/upper_arm.front.png",
+      "anchors": [
+        {
+          "id": "pivot",
+          "partPx": [
+            101.1660516605166,
+            31.6
+          ]
+        },
+        {
+          "id": "to_forearm.front",
+          "partPx": [
+            52.39895013123356,
+            202.24000000000004
+          ]
+        }
+      ],
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          88,
+          372
+        ],
+        "zIndex": 11
+      },
+      "sourceRect": [
+        88,
+        372,
+        232,
+        688
+      ],
+      "rest": {
+        "matrix": [
+          0.21671158351504047,
+          -0.06193387128369477,
+          0.06193387128369477,
+          0.21671158351504047,
+          -2.1189655858796943,
+          -161.78248081725323
+        ],
+        "zIndex": 11
+      }
+    },
+    {
+      "id": "forearm.front",
+      "width": 104,
+      "height": 320,
+      "image": "parts/forearm.front.png",
+      "anchors": [
+        {
+          "id": "pivot",
+          "partPx": [
+            56.586776859504134,
+            32.0
+          ]
+        },
+        {
+          "id": "to_weapon",
+          "partPx": [
+            54.13309352517986,
+            265.5999999999999
+          ]
+        }
+      ],
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          444,
+          364
+        ],
+        "zIndex": 12
+      },
+      "sourceRect": [
+        444,
+        364,
+        548,
+        684
+      ],
+      "rest": {
+        "matrix": [
+          0.15409258809466506,
+          -0.0016185548602344743,
+          0.0016185548602344743,
+          0.15409258809466506,
+          12.990603346256202,
+          -126.03937401631833
+        ],
+        "zIndex": 12
+      }
+    },
+    {
+      "id": "weapon",
+      "width": 272,
+      "height": 304,
+      "image": "parts/weapon.png",
+      "anchors": [
+        {
+          "id": "pivot",
+          "partPx": [
+            59.84,
+            66.88
+          ]
+        }
+      ],
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          48,
+          940
+        ],
+        "zIndex": 13
+      },
+      "sourceRect": [
+        48,
+        940,
+        320,
+        1244
+      ],
+      "rest": {
+        "matrix": [
+          0.24013157894736842,
+          0.0,
+          -0.0,
+          0.24013157894736842,
+          7.392526315789473,
+          -101.26000000000002
+        ],
+        "zIndex": 13
+      }
+    }
+  ],
+  "joints": [
+    {
+      "parent": {
+        "partId": "body",
+        "anchorId": "to_head"
+      },
+      "child": {
+        "partId": "head",
+        "anchorId": "pivot"
+      }
+    },
+    {
+      "parent": {
+        "partId": "body",
+        "anchorId": "to_upper_arm.back"
+      },
+      "child": {
+        "partId": "upper_arm.back",
+        "anchorId": "pivot"
+      }
+    },
+    {
+      "parent": {
+        "partId": "upper_arm.back",
+        "anchorId": "to_forearm.back"
+      },
+      "child": {
+        "partId": "forearm.back",
+        "anchorId": "pivot"
+      }
+    },
+    {
+      "parent": {
+        "partId": "body",
+        "anchorId": "to_thigh.back"
+      },
+      "child": {
+        "partId": "thigh.back",
+        "anchorId": "pivot"
+      }
+    },
+    {
+      "parent": {
+        "partId": "thigh.back",
+        "anchorId": "to_shin.back"
+      },
+      "child": {
+        "partId": "shin.back",
+        "anchorId": "pivot"
+      }
+    },
+    {
+      "parent": {
+        "partId": "shin.back",
+        "anchorId": "to_foot.back"
+      },
+      "child": {
+        "partId": "foot.back",
+        "anchorId": "pivot"
+      }
+    },
+    {
+      "parent": {
+        "partId": "body",
+        "anchorId": "to_upper_arm.front"
+      },
+      "child": {
+        "partId": "upper_arm.front",
+        "anchorId": "pivot"
+      }
+    },
+    {
+      "parent": {
+        "partId": "upper_arm.front",
+        "anchorId": "to_forearm.front"
+      },
+      "child": {
+        "partId": "forearm.front",
+        "anchorId": "pivot"
+      }
+    },
+    {
+      "parent": {
+        "partId": "body",
+        "anchorId": "to_thigh.front"
+      },
+      "child": {
+        "partId": "thigh.front",
+        "anchorId": "pivot"
+      }
+    },
+    {
+      "parent": {
+        "partId": "thigh.front",
+        "anchorId": "to_shin.front"
+      },
+      "child": {
+        "partId": "shin.front",
+        "anchorId": "pivot"
+      }
+    },
+    {
+      "parent": {
+        "partId": "shin.front",
+        "anchorId": "to_foot.front"
+      },
+      "child": {
+        "partId": "foot.front",
+        "anchorId": "pivot"
+      }
+    },
+    {
+      "parent": {
+        "partId": "forearm.front",
+        "anchorId": "to_weapon"
+      },
+      "child": {
+        "partId": "weapon",
+        "anchorId": "pivot"
+      }
+    },
+    {
+      "parent": {
+        "partId": "head",
+        "anchorId": "to_accessory"
+      },
+      "child": {
+        "partId": "accessory",
+        "anchorId": "pivot"
+      }
+    }
+  ],
+  "provenance": "Original OpenAI built-in imagegen artwork; mechanically cropped for texture packing",
+  "directions": [
+    "side-right",
+    "mirrored-side-left"
+  ],
+  "status": "resource study; visual review pending"
+}

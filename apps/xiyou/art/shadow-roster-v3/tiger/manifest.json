@@ -1,0 +1,93 @@
+{
+  "id": "tiger",
+  "name": "虎妖",
+  "status": "resource study; visual review pending",
+  "source": "OpenAI built-in image_gen; original art",
+  "source_image": "parts-source.png",
+  "source_sha256": "dd2ea95795784414afaf3bf9c0a1c96edb3ac66a8737db9ebcc7c8e7676e6f14",
+  "prompt": "prompt.txt",
+  "woop": "tiger.woop",
+  "editable": "tiger.blend",
+  "runtime": "tiger.glb",
+  "runtime_sha256": "9e0169464f167dd4fa6b9443eeaf261f262505006111c225bbc0f55e97768003",
+  "runtime_bytes": 1159892,
+  "texture_size": [
+    1024,
+    1024
+  ],
+  "source_texture_size": [
+    1254,
+    1254
+  ],
+  "parts": 16,
+  "joints": 15,
+  "bones": 16,
+  "anatomy": "chest -> abdomen -> pelvis -> thighs",
+  "triangles": 32,
+  "materials": 1,
+  "clips": [
+    "Idle",
+    "Walk",
+    "RestPose"
+  ],
+  "importer": "Official WooooShadow 0.8.13, loaded locally in an isolated Blender process",
+  "importer_sha256": "d05e8f74c00d40c1dd1e043e5d9bc5f70b86c1c0abd6a181cba7c2d94e6b4c60",
+  "blender": "5.2.2 LTS",
+  "directions": [
+    "side-right",
+    "mirrored-side-left"
+  ],
+  "tripo": "Not used: direct original 2D puppet artwork",
+  "in_game": false,
+  "version": 3,
+  "nominal_body_height": 2.24,
+  "proportions": {
+    "shape": "倒三角壮硕，肩背宽、粗臂大掌，低沉有力",
+    "head": [
+      60,
+      59
+    ],
+    "chest": [
+      86,
+      108
+    ],
+    "abdomen": [
+      62,
+      70
+    ],
+    "pelvis": [
+      42,
+      70
+    ],
+    "upper": [
+      48,
+      32
+    ],
+    "fore": [
+      43,
+      28
+    ],
+    "thigh": [
+      44,
+      34
+    ],
+    "shin": [
+      37,
+      29
+    ],
+    "foot": [
+      26,
+      36
+    ],
+    "lean": 0.08,
+    "crouch": 0.1,
+    "stride": 0.235,
+    "lift": 0.13,
+    "period": 1.04,
+    "arm_swing": 0.23,
+    "fore_angle": -0.46,
+    "weapon_tilt": 0.08,
+    "idle_crouch": 0.025
+  },
+  "revision": "Native Blender part dimensions, distinct anatomical ratios and gait; source paintings preserved"
+}

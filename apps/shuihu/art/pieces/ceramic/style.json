@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-20",
+  "styleId": "glazed-ceramic-production-v1",
+  "approval": "User approved the ceramic trial for all characters and requires clearer eyebrows and eyes. This approves the direction and production, not every generated model or numerical body ratio.",
+  "material": "Hand-modelled glazed stoneware with matte slip-painted clay skin and pooled coloured garment glaze; zero metallic surfaces and no candy or resin.",
+  "faceAcceptance": [
+    "Eyebrows are individually readable and separate from the upper eyelid",
+    "Upper and lower eyelid form remains clear in a face close-up",
+    "White sclera, iris and pupil are readable without a black eye-socket blob",
+    "Nostrils, lip line, moustache and beard edges remain distinct",
+    "Preserve each character's age, face shape, skin slip, birthmarks and expression",
+    "Inspect front and both three-quarter face views under neutral light in Blender and the actual web viewer"
+  ],
+  "productionVariant": "clothed-body-plus-separate-equipment-no-skeleton",
+  "headRatioDraftMap": {"4.5": 5.6, "4.6": 5.8, "4.7": 5.9, "4.8": 6.0, "4.9": 6.1, "5": 6.2},
+  "headRatioOverrides": {"ls006": 6.0, "ls013": 5.8, "ls059": 6.0, "wm019": 5.6, "wm023": 5.8},
+  "appearanceOverrides": {
+    "ls006": {"paletteZh": "靛蓝衣帽釉、青釉衣片、铁红腰带、象牙白甲纹", "paletteEnglish": "indigo robe glaze, celadon panels, iron-red sash, ivory armour"},
+    "ls013": {"paletteZh": "赭褐僧衣釉、青绿束带、深褐念珠、干净素胎肤色", "paletteEnglish": "brown-ochre robe glaze, celadon sash, dark-brown beads, clean matte ivory skin"},
+    "ls059": {"paletteZh": "铁红上衣釉、青釉下摆、象牙白甲纹、靛蓝系带", "paletteEnglish": "iron-red jacket glaze, celadon lower robe, ivory armour, indigo ties"}
+  },
+  "numericalAcceptance": "Head ratios and existing millimetre targets are production drafts; measure and review the actual models. Never stretch a complete figure to fake a changed anatomy.",
+  "webPipeline": "Keep high-resolution source, editable Blender scene, portrait/inspector export and battlefield LOD separately. Preserve original Tripo model and hashes. No rig or skeletal animation is required."
+}

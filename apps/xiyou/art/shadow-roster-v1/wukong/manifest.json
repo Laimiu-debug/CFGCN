@@ -1,0 +1,37 @@
+{
+  "id": "wukong",
+  "name": "孙悟空",
+  "status": "resource study; visual review pending",
+  "source": "OpenAI built-in image_gen; original art",
+  "source_image": "parts-source.png",
+  "source_sha256": "3c0d40550099152f592adfc19d495b3a2df20352e43fa37c4dae561c2f3ae791",
+  "prompt": "prompt.txt",
+  "woop": "wukong.woop",
+  "editable": "wukong.blend",
+  "runtime": "wukong.glb",
+  "runtime_sha256": "0b989830ddc7c6acb80614134e4f24bce37bf5a76fab052b20b22472b55df682",
+  "runtime_bytes": 1216120,
+  "texture_size": [
+    1254,
+    1254
+  ],
+  "parts": 14,
+  "joints": 13,
+  "bones": 14,
+  "triangles": 28,
+  "materials": 1,
+  "clips": [
+    "Idle",
+    "Walk",
+    "RestPose"
+  ],
+  "importer": "Official WooooShadow 0.8.13, loaded locally in an isolated Blender process",
+  "importer_sha256": "d05e8f74c00d40c1dd1e043e5d9bc5f70b86c1c0abd6a181cba7c2d94e6b4c60",
+  "blender": "5.2.2 LTS",
+  "directions": [
+    "side-right",
+    "mirrored-side-left"
+  ],
+  "tripo": "Not used: direct original 2D puppet artwork",
+  "in_game": false
+}

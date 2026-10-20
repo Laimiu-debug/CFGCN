@@ -1,0 +1,42 @@
+{
+  "id": "tangseng",
+  "name": "唐僧",
+  "status": "resource study; visual review pending",
+  "source": "OpenAI built-in image_gen; original art",
+  "source_image": "parts-source.png",
+  "source_sha256": "dc323a11c333051e64f4e8ebeedb8edf888269a5241efc5cc1aceee0d8cfeefa",
+  "prompt": "prompt.txt",
+  "woop": "tangseng.woop",
+  "editable": "tangseng.blend",
+  "runtime": "tangseng.glb",
+  "runtime_sha256": "3e7bb8438521616509b9ac74872cecfcb71aa5a4a6bbf584518cf772acd82262",
+  "runtime_bytes": 1161164,
+  "texture_size": [
+    1024,
+    1024
+  ],
+  "source_texture_size": [
+    1254,
+    1254
+  ],
+  "parts": 16,
+  "joints": 15,
+  "bones": 16,
+  "anatomy": "chest -> abdomen -> pelvis -> thighs",
+  "triangles": 32,
+  "materials": 1,
+  "clips": [
+    "Idle",
+    "Walk",
+    "RestPose"
+  ],
+  "importer": "Official WooooShadow 0.8.13, loaded locally in an isolated Blender process",
+  "importer_sha256": "d05e8f74c00d40c1dd1e043e5d9bc5f70b86c1c0abd6a181cba7c2d94e6b4c60",
+  "blender": "5.2.2 LTS",
+  "directions": [
+    "side-right",
+    "mirrored-side-left"
+  ],
+  "tripo": "Not used: direct original 2D puppet artwork",
+  "in_game": false
+}

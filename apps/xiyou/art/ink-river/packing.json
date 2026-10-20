@@ -1,0 +1,47 @@
+{
+  "width": 2048,
+  "height": 2048,
+  "parts": [
+    {
+      "id": "willow",
+      "metres": 7,
+      "source": "willow-source-v1.png",
+      "source_sha256": "016147f556b80be32ac84ec0e776664797dcd98a8be4440775cf8aabeb4a25aa",
+      "rect": [
+        16,
+        16,
+        1008,
+        912
+      ],
+      "anchorX": 783.673397145744
+    },
+    {
+      "id": "reeds",
+      "metres": 2.8,
+      "source": "reeds-source-v1.png",
+      "source_sha256": "8a65b27e0319d410c1a4f573c03f06b075eee91565ca44426d1d42e77d9b6327",
+      "rect": [
+        1040,
+        16,
+        2032,
+        671
+      ],
+      "anchorX": 1550.917743899277
+    },
+    {
+      "id": "slate",
+      "metres": 3.6,
+      "source": "slate-source-v1.png",
+      "source_sha256": "1ac2f5e5a489895d1abe8e53a1d186bc7645717add1a06c7e0c08ec518efebe3",
+      "rect": [
+        16,
+        1040,
+        1008,
+        1336
+      ],
+      "anchorX": 597.6340791374098
+    }
+  ],
+  "bytes": 3495735,
+  "runtime_sha256": "2e90e8bacb60cd0ded0dbe5bc63155f9a14e5850884a555dc42366c06d1271da"
+}

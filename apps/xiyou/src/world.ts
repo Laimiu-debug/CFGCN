@@ -20,9 +20,11 @@ export const world = {
     en: 'Every great journey begins with a single step.',
   },
   description: {
-    'zh-CN': '踏过云海与仙山，与师徒一同西行。让七十二变、法宝与一场场奇遇，成就你自己的取经路。',
-    'zh-TW': '踏過雲海與仙山，與師徒一同西行。讓七十二變、法寶與一場場奇遇，成就你自己的取經路。',
-    en: 'Follow the mountain path beyond the clouds. Discover transformations, magical treasures and unexpected encounters on a journey west.',
+    'zh-CN':
+      '从唐僧独行启程，在五行山救出悟空。师徒自动协作、共享灵光，由你分配修习，沿着三段初程西行。',
+    'zh-TW':
+      '從唐僧獨行啟程，在五行山救出悟空。師徒自動協作、共享靈光，由你分配修習，沿著三段初程西行。',
+    en: 'Begin as Tang Sanzang and free Wukong beneath Five Elements Mountain. Lead the party, share wisdom and choose each companion’s arts across three stretches of the eastern road.',
   },
   genre: {
     'zh-CN': '动作 · 流派构筑',
@@ -36,21 +38,21 @@ export const world = {
   },
   features: {
     'zh-CN': [
-      '七十二变与法宝，组合自己的本领',
-      '护送师父，在清怪与守护之间取舍',
-      '一难一关，与山川洞府中的妖王相遇',
+      '唐僧独行起步，五行山解封悟空',
+      '单人带领整队，伙伴自动随行与迎敌',
+      '共享灵光，选择培养对象与角色本领',
     ],
     'zh-TW': [
-      '七十二變與法寶，組合自己的本領',
-      '護送師父，在清怪與守護之間取捨',
-      '一難一關，與山川洞府中的妖王相遇',
+      '唐僧獨行起步，五行山解封悟空',
+      '單人帶領整隊，夥伴自動隨行與迎敵',
+      '共享靈光，選擇培養對象與角色本領',
     ],
     en: [
-      'Discover your own combinations of transformations and treasures',
-      'Balance the fight ahead with protecting your companions',
-      'Explore a new trial, landscape and legendary foe in each chapter',
+      'Start alone as Sanzang and free Wukong at Five Elements Mountain',
+      'Lead the party while companions follow and fight automatically',
+      'Share wisdom and choose whom to train and which art to learn',
     ],
   },
-  accent: '#4d7056',
+  accent: 'var(--accent-xiyou)',
   image: '/art/xiyou.webp',
 } satisfies WorldDefinition;

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "sourceStudioProjectId": "76c1254a-f4e1-44ed-a7cb-217e2ba88396",
+  "sourceRawSha256": "df785616e3bbb862c3afd4f760e7b01d33446dedd3de42a31f75f3c68eb6edae",
+  "reference": ".local/qa/shuihu-pieces/ceramic-production/ls059-import-face-front.png",
+  "referenceWidth": 1000,
+  "referenceHeight": 1100,
+  "method": "Model-specific hand-authored front-view anchors projected onto the actual Tripo face in Blender; real separate ceramic paint geometry, no screen overlay or image editing.",
+  "scope": "Hu Sanniang source only. Other characters need their own facial landmarks, brows, age and expression.",
+  "brows": [
+    {"name": "right", "points": [[350,391,1],[375,383,2.5],[402,385,3],[425,391,3],[444,399,2]]},
+    {"name": "left", "points": [[553,399,2],[577,387,3],[603,381,3],[627,382,2.5],[650,389,1]]}
+  ],
+  "eyes": [
+    {"name": "right", "outline": [[357,445],[376,436],[399,439],[420,447],[434,455],[416,460],[392,459],[373,454]], "iris": [398,448,14,13], "upperLid": [[357,445],[376,436],[399,439],[420,447],[434,455]]},
+    {"name": "left", "outline": [[562,455],[580,442],[602,435],[623,434],[639,440],[625,450],[603,455],[581,459]], "iris": [602,445,14,13], "upperLid": [[562,455],[580,442],[602,435],[623,434],[639,440]]}
+  ],
+  "lipLine": [[440,626],[461,624],[486,625],[509,625],[533,626],[547,625]],
+  "approved": false
+}

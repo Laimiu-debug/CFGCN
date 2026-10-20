@@ -1,0 +1,490 @@
+[
+  {
+    "id": "tangseng",
+    "name": "唐僧",
+    "subject": "Tang Sanzang (Tripitaka), a calm slender adult Chinese monk, compassionate right-profile face, small five-petal pilgrim crown (not an enormous elaborate hat), warm pale-gold robe with restrained vermilion kasaya edging and dark jade small border motifs. White ankle wraps and simple black cloth monk shoes. Upper body robe ends at the hip; detached thigh panels and shins complete the long robe without a single solid unbendable skirt. Weapon in row4 cell1 is a simple slender Buddhist ring staff with six modest rings. Accessory in row4 cell2 is one oval cloth travel bundle with short tie, no extra limbs. Slim 6-head-high silhouette, no beard, no armor.",
+    "height": 2.32,
+    "weapon_height": 2.55,
+    "weapon_grip": [
+      0.5,
+      0.72
+    ],
+    "accessory": "bag",
+    "weapon_width": 0.4,
+    "proportions": {
+      "shape": "修长端正，窄肩、长袍，步幅克制",
+      "head": [
+        52,
+        29
+      ],
+      "chest": [
+        72,
+        50
+      ],
+      "abdomen": [
+        77,
+        47
+      ],
+      "pelvis": [
+        95,
+        52
+      ],
+      "upper": [
+        40,
+        16
+      ],
+      "fore": [
+        38,
+        13
+      ],
+      "thigh": [
+        53,
+        20
+      ],
+      "shin": [
+        55,
+        13
+      ],
+      "foot": [
+        20,
+        23
+      ],
+      "lean": -0.015,
+      "crouch": 0.045,
+      "stride": 0.22,
+      "lift": 0.095,
+      "period": 1.22,
+      "arm_swing": 0.09,
+      "fore_angle": -0.35,
+      "weapon_tilt": 0.025,
+      "idle_crouch": 0.004
+    }
+  },
+  {
+    "id": "wukong",
+    "name": "孙悟空",
+    "subject": "Sun Wukong, a nimble adult monkey pilgrim with alert right-profile face, unmistakable monkey muzzle, small round ear, ochre brown short fur, slim antique-gold circlet and small red tied ribbon. Ochre-yellow short martial tunic, restrained jade-green hip panels, vermilion sash, dark jade slim trousers, black cloth boots with gold toe-cloud trim. Compact agile adult proportions, not a mascot. Weapon in row4 cell1 is one complete straight slender red-brown staff with antique gold ends, no hand. Accessory in row4 cell2 is one intact gently curling monkey tail with overlap disc at its base. New separately booted puppet resource version; no extra tails or extra weapons.",
+    "height": 1.74,
+    "weapon_height": 2,
+    "weapon_grip": [
+      0.5,
+      0.7
+    ],
+    "accessory": "monkey_tail",
+    "weapon_width": 0.22,
+    "proportions": {
+      "shape": "矮捷，头略大、腰短、长臂，屈膝蓄势",
+      "head": [
+        46,
+        38
+      ],
+      "chest": [
+        50,
+        49
+      ],
+      "abdomen": [
+        56,
+        43
+      ],
+      "pelvis": [
+        32,
+        48
+      ],
+      "upper": [
+        37,
+        14
+      ],
+      "fore": [
+        36,
+        12
+      ],
+      "thigh": [
+        38,
+        21
+      ],
+      "shin": [
+        35,
+        16
+      ],
+      "foot": [
+        18,
+        24
+      ],
+      "lean": 0.15,
+      "crouch": 0.12,
+      "stride": 0.255,
+      "lift": 0.19,
+      "period": 0.76,
+      "arm_swing": 0.27,
+      "fore_angle": -0.52,
+      "weapon_tilt": 0.15,
+      "idle_crouch": 0.08
+    }
+  },
+  {
+    "id": "bajie",
+    "name": "猪八戒",
+    "subject": "Zhu Bajie, a stocky round-bellied anthropomorphic pig pilgrim, broad cheek, short distinct pig snout and one floppy ear in right profile, friendly roguish expression. Simple small black pilgrim cap, muted blue-gray sleeveless vest over warm ochre shirt, vermilion waist sash, loose dark jade trousers, black cloth boots. Torso is visibly wider than all other characters, head is broad but not chibi. Hands have five broad mitten-like fingers suited to the puppet style. Weapon in row4 cell1 is a SINGLE complete upright nine-tooth rake with wooden shaft and clearly nine modest teeth (not many spikes). Accessory in row4 cell2 is one small soft round cloth provisions sack. No monkey features, no tail.",
+    "height": 1.8,
+    "weapon_height": 1.8,
+    "weapon_grip": [
+      0.5,
+      0.75
+    ],
+    "accessory": "bag",
+    "weapon_width": 0.72,
+    "proportions": {
+      "shape": "圆厚，腹部最宽、短腿粗臂，重心低",
+      "head": [
+        50,
+        64
+      ],
+      "chest": [
+        60,
+        81
+      ],
+      "abdomen": [
+        106,
+        126
+      ],
+      "pelvis": [
+        30,
+        87
+      ],
+      "upper": [
+        30,
+        27
+      ],
+      "fore": [
+        28,
+        25
+      ],
+      "thigh": [
+        28,
+        33
+      ],
+      "shin": [
+        24,
+        29
+      ],
+      "foot": [
+        24,
+        34
+      ],
+      "lean": -0.025,
+      "crouch": 0.05,
+      "stride": 0.135,
+      "lift": 0.075,
+      "period": 1.36,
+      "arm_swing": 0.13,
+      "fore_angle": -0.38,
+      "weapon_tilt": 0.02,
+      "idle_crouch": 0.008
+    }
+  },
+  {
+    "id": "shaseng",
+    "name": "沙悟净",
+    "subject": "Sha Wujing, a tall broad-shouldered adult river pilgrim, solemn bearded right-profile face, reddish-brown swept-back hair tied in a simple small knot, dark jade headband, a modest dark bead necklace that stays attached to the torso. Main clothing MUST be muted DEEP JADE and DUSTY TEAL, NOT yellow: a teal sleeveless traveling tunic with dark jade edge, ochre small fasteners, vermilion waist tie, broad dark teal trousers and black boots. Strong forearms and shoulders, taller body ratio than the Wukong reference, no armor. Weapon in row4 cell1 is a SINGLE complete upright monk crescent spade with a crescent top and straight dark wooden shaft. Accessory in row4 cell2 is one oval gray cloth travel bundle tied at top.",
+    "height": 2.5,
+    "weapon_height": 2.65,
+    "weapon_grip": [
+      0.5,
+      0.75
+    ],
+    "accessory": "bag",
+    "weapon_width": 0.43,
+    "proportions": {
+      "shape": "最高壮，宽肩长躯、长臂长腿，落步沉稳",
+      "head": [
+        47,
+        43
+      ],
+      "chest": [
+        88,
+        93
+      ],
+      "abdomen": [
+        72,
+        75
+      ],
+      "pelvis": [
+        65,
+        74
+      ],
+      "upper": [
+        52,
+        27
+      ],
+      "fore": [
+        48,
+        22
+      ],
+      "thigh": [
+        58,
+        28
+      ],
+      "shin": [
+        56,
+        23
+      ],
+      "foot": [
+        22,
+        31
+      ],
+      "lean": 0.035,
+      "crouch": 0.09,
+      "stride": 0.34,
+      "lift": 0.12,
+      "period": 1.12,
+      "arm_swing": 0.15,
+      "fore_angle": -0.42,
+      "weapon_tilt": -0.06,
+      "idle_crouch": 0.008
+    }
+  },
+  {
+    "id": "xiaobailong",
+    "name": "小白龙（人形）",
+    "subject": "Original human-form design of the White Dragon Prince (Xiao Bailong), a poised slender adult Chinese male pilgrim-prince in right profile, pale face with alert dark eye, long silver-white hair gathered in a small topknot and two tiny restrained pearl-white dragon horns. Warm IVORY and SILVERY GRAY cloth robes with DARK JADE cloud trim, antique gold small fasteners, muted jade sash and light gray trousers, ivory cloth boots with dark soles. No modern fantasy plate armor, no giant wings, no horse body. Weapon in row4 cell1 is one complete straight slim sheathed Chinese sword with modest jade hilt and ivory scabbard. Accessory in row4 cell2 is one flowing white hair/ribbon lock detached for secondary animation, with small attachment overlap at top.",
+    "height": 2.22,
+    "weapon_height": 0.73,
+    "weapon_grip": [
+      0.22,
+      0.22
+    ],
+    "accessory": "hair",
+    "weapon_width": 1,
+    "proportions": {
+      "shape": "清瘦少年，肩胯窄、腿最长，步态轻快",
+      "head": [
+        46,
+        32
+      ],
+      "chest": [
+        63,
+        48
+      ],
+      "abdomen": [
+        60,
+        42
+      ],
+      "pelvis": [
+        67,
+        45
+      ],
+      "upper": [
+        36,
+        12
+      ],
+      "fore": [
+        35,
+        11
+      ],
+      "thigh": [
+        63,
+        16
+      ],
+      "shin": [
+        60,
+        12
+      ],
+      "foot": [
+        19,
+        22
+      ],
+      "lean": 0.015,
+      "crouch": 0.065,
+      "stride": 0.32,
+      "lift": 0.16,
+      "period": 0.94,
+      "arm_swing": 0.18,
+      "fore_angle": -0.43,
+      "weapon_tilt": 0.1,
+      "idle_crouch": 0.004
+    }
+  },
+  {
+    "id": "wolf",
+    "name": "狼妖",
+    "subject": "Original Journey-to-the-West wolf bandit demon, wiry adult anthropomorphic gray wolf in right profile, long narrow muzzle, pointed ears, gray-brown fur, small visible canine tooth and fierce alert eye, no gore. Muted INDIGO BLUE short patched traveling vest and sleeves with dark jade edging, gray linen underlayer, simple rust-red sash, charcoal trousers and dark cloth boots. Rough simple cloud cut patterns only, no gold crown, no monkey identity, not royal. Weapon in row4 cell1 is a SINGLE entire upright short broad Chinese dao saber with a dark handle, blade tip up; no blood. Accessory in row4 cell2 is one intact long shaggy gray wolf tail with overlap attachment disc at base. Thin predatory silhouette distinct from Wukong.",
+    "height": 1.98,
+    "weapon_height": 0.9,
+    "weapon_grip": [
+      0.5,
+      0.82
+    ],
+    "accessory": "wolf_tail",
+    "weapon_width": 1,
+    "proportions": {
+      "shape": "前倾佝偻，长嘴、窄腰、长臂，低身探步",
+      "head": [
+        54,
+        61
+      ],
+      "chest": [
+        56,
+        48
+      ],
+      "abdomen": [
+        50,
+        39
+      ],
+      "pelvis": [
+        34,
+        44
+      ],
+      "upper": [
+        47,
+        20
+      ],
+      "fore": [
+        44,
+        17
+      ],
+      "thigh": [
+        54,
+        24
+      ],
+      "shin": [
+        48,
+        17
+      ],
+      "foot": [
+        24,
+        32
+      ],
+      "lean": 0.25,
+      "crouch": 0.19,
+      "stride": 0.34,
+      "lift": 0.18,
+      "period": 0.84,
+      "arm_swing": 0.31,
+      "fore_angle": -0.62,
+      "weapon_tilt": 0.1,
+      "idle_crouch": 0.14
+    }
+  },
+  {
+    "id": "tiger",
+    "name": "虎妖",
+    "subject": "Original Journey-to-the-West tiger mountain bandit demon, powerful broad adult anthropomorphic tiger in right profile, ochre orange fur with clearly black tiger stripes, round ears and broad feline muzzle, strong square jaw, fierce dignified eye. DUSTY BLUE and DEEP JADE rough short vest/tunic with restrained ochre trim, red-brown belt, charcoal trousers and plain black boots. Stripes on exposed forearm/hands appropriate to tiger; not a monkey and no circlet. Broad chest, thick limbs, medium-large adult head, not chibi. Weapon in row4 cell1 is a SINGLE entire upright thick-handled Chinese mountain axe, one broad head only, no blood. Accessory in row4 cell2 is one curved thick striped tiger tail with one attachment disc at base.",
+    "height": 2.24,
+    "weapon_height": 1.2,
+    "weapon_grip": [
+      0.25,
+      0.78
+    ],
+    "accessory": "tiger_tail",
+    "weapon_width": 0.86,
+    "proportions": {
+      "shape": "倒三角壮硕，肩背宽、粗臂大掌，低沉有力",
+      "head": [
+        60,
+        59
+      ],
+      "chest": [
+        86,
+        108
+      ],
+      "abdomen": [
+        62,
+        70
+      ],
+      "pelvis": [
+        42,
+        70
+      ],
+      "upper": [
+        48,
+        32
+      ],
+      "fore": [
+        43,
+        28
+      ],
+      "thigh": [
+        44,
+        34
+      ],
+      "shin": [
+        37,
+        29
+      ],
+      "foot": [
+        26,
+        36
+      ],
+      "lean": 0.08,
+      "crouch": 0.1,
+      "stride": 0.235,
+      "lift": 0.13,
+      "period": 1.04,
+      "arm_swing": 0.23,
+      "fore_angle": -0.46,
+      "weapon_tilt": 0.08,
+      "idle_crouch": 0.025
+    }
+  },
+  {
+    "id": "baigufuren",
+    "name": "白骨夫人",
+    "subject": "Original White Bone Lady spirit design (Bai Gu Fu Ren) for Journey to the West, an elegant adult Chinese female in right profile, pale ivory face, arched ink eye and composed dangerous expression, long BLACK hair in a high restrained bun with one ivory bone-shaped hairpin. Main costume warm IVORY and DUSTY ASH GRAY with dark jade floral cut patterns, muted faded-rose waist sash and sleeve trim; slim long cloth tunic ending at hips, separate skirt-like upper-leg panels and narrow lower legs for animation, pale shoes with dark soles and small rose detail. Slender adult proportions, no revealing costume, no gore, no modern armor. Weapon in row4 cell1 is a SINGLE entire slender upright ivory ritual wand with one modest bone-shaped finial, NOT a giant skull. Accessory in row4 cell2 is one flowing narrow faded-rose cloth sleeve ribbon strip with attachment overlap at its top. Distinct identity from the male White Dragon Prince: black hair, slim feminine face, muted rose accents.",
+    "height": 2.29,
+    "weapon_height": 0.9,
+    "weapon_grip": [
+      0.5,
+      0.7
+    ],
+    "accessory": "ribbon",
+    "weapon_width": 0.75,
+    "proportions": {
+      "shape": "纤长冷峻，细腰细臂、长手足，缓步少摆",
+      "head": [
+        49,
+        29
+      ],
+      "chest": [
+        60,
+        44
+      ],
+      "abdomen": [
+        76,
+        35
+      ],
+      "pelvis": [
+        77,
+        49
+      ],
+      "upper": [
+        43,
+        11
+      ],
+      "fore": [
+        42,
+        10
+      ],
+      "thigh": [
+        61,
+        17
+      ],
+      "shin": [
+        58,
+        11
+      ],
+      "foot": [
+        17,
+        20
+      ],
+      "lean": -0.025,
+      "crouch": 0.035,
+      "stride": 0.2,
+      "lift": 0.08,
+      "period": 1.38,
+      "arm_swing": 0.055,
+      "fore_angle": -0.31,
+      "weapon_tilt": 0.035,
+      "idle_crouch": 0.002
+    }
+  }
+]

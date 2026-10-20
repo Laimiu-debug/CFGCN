@@ -1,0 +1,28 @@
+{
+  "origin": "Tripo Studio v3.1, existing membership",
+  "studio_project": "80a7fa01-664f-45ad-bdfd-ef108bd95e84",
+  "studio_credits": 50,
+  "prompt": "A single large natural limestone canyon wall environment mesh for a real time third person Chinese Journey to the West game. Believable geological formation, one continuous massive rugged wall with broad weathered layered strata, vertical fractures and a sloping rocky foot, asymmetric broken silhouette. Width 12 meters, height 8 meters, depth 4 meters relative to human scale. Muted warm grey stone and grey ochre, sparse dark green moss only in crevices. Matte hand painted albedo, broad quiet material planes, clear large forms readable from an elevated game camera. Complete object with clean solid underside and no miniature plinth. Natural geology is the priority. No carvings, no ribbon ornaments, no jade sculpture, no temples, no trees, no jewelry, no text, no tiny rubble, no shiny surfaces, no decorative base, no ground diorama. One isolated reusable canyon wall, not a collection of separate pillars.",
+  "source_file": "canyon-wall-studio-v31-source.glb",
+  "review": "Natural limestone wall candidate. Replaces rejected ornamental cliff in the battle scene; final in-game quality remains under review.",
+  "source_sha256": "802b60bacd5c6a4065259d6ecabeba3b5d58a0a85de826fa15e53da2f27cd222",
+  "source_bytes": 15227600,
+  "runtime": {
+    "asset": "canyon_wall",
+    "origin": "tripo-studio-blender",
+    "studio_project": "80a7fa01-664f-45ad-bdfd-ef108bd95e84",
+    "source_file": "canyon-wall-studio-v31-source.glb",
+    "source_sha256": "802b60bacd5c6a4065259d6ecabeba3b5d58a0a85de826fa15e53da2f27cd222",
+    "source_blend": "canyon_wall.blend",
+    "triangles": 5979,
+    "bones": 0,
+    "clips": [],
+    "bytes": 346968,
+    "triangle_budget": 6000,
+    "byte_budget": 600000,
+    "texture_max": 768,
+    "joint_budget": 0,
+    "primitive_budget": 1,
+    "runtime_sha256": "a62119fc1e250eceaf4a8642d607454ab3cbb723d0514a59192291905f5d107b"
+  }
+}

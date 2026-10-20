@@ -1,0 +1,1131 @@
+.app:has(.shadow-trial) > .site-header,
+.app:has(.shadow-trial) > .site-footer {
+  display: none;
+}
+.shadow-trial {
+  position: relative;
+  width: 100%;
+  height: 100dvh;
+  overflow: hidden;
+  color: var(--ink);
+  font-family: var(--font-body);
+  background: var(--paper);
+  isolation: isolate;
+}
+.shadow-trial > iframe {
+  position: absolute;
+  inset: 0;
+  border: 0;
+  width: 100%;
+  height: 100%;
+}
+.shadow-toolbar {
+  position: absolute;
+  z-index: 3;
+  top: max(22px, env(safe-area-inset-top));
+  left: max(30px, env(safe-area-inset-left));
+  right: max(30px, env(safe-area-inset-right));
+  display: flex;
+  align-items: flex-start;
+  gap: 28px;
+  pointer-events: none;
+}
+.shadow-title {
+  position: relative;
+  isolation: isolate;
+  text-shadow: 0 1px 8px var(--paper);
+}
+.shadow-title::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  inset: -20px -40px;
+  background: radial-gradient(
+    ellipse,
+    color-mix(in srgb, var(--paper) 85%, transparent),
+    transparent 72%
+  );
+}
+.shadow-title > span {
+  font-size: 10px;
+  letter-spacing: 0.25em;
+  color: var(--gold-ink);
+}
+.shadow-title h1 {
+  margin: 4px 0;
+  font: 500 31px/1.4 var(--font-display);
+  letter-spacing: 0.18em;
+}
+.shadow-tally {
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 17px;
+  font-size: 13px;
+  font-variant-numeric: tabular-nums;
+  text-shadow: 0 1px 5px var(--paper);
+}
+.shadow-tally::before {
+  content: '';
+  position: absolute;
+  inset: -12px -24px;
+  z-index: -1;
+  background: radial-gradient(
+    ellipse,
+    color-mix(in srgb, var(--paper) 80%, transparent),
+    transparent 74%
+  );
+}
+.shadow-menu-touch {
+  display: none;
+  font-size: 10px;
+  color: var(--muted);
+}
+@media (pointer: coarse), (max-width: 760px) {
+  .shadow-menu-keys {
+    display: none;
+  }
+  .shadow-menu-touch {
+    display: block;
+  }
+}
+.shadow-tally .ink-glyph {
+  width: 17px;
+  height: 17px;
+}
+.shadow-tally .ink-glyph:nth-of-type(2) {
+  margin-left: 14px;
+}
+.shadow-tally strong {
+  font-weight: 500;
+}
+.shadow-tools {
+  display: flex;
+  gap: 10px;
+  margin-left: auto;
+  pointer-events: auto;
+}
+.shadow-tools .series-button {
+  width: 44px;
+  height: 44px;
+  padding: 8px;
+  color: var(--ink);
+  background: radial-gradient(
+    circle,
+    color-mix(in srgb, var(--paper) 75%, transparent),
+    transparent 72%
+  );
+  border-color: transparent;
+}
+.shadow-party {
+  position: absolute;
+  z-index: 3;
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+  left: max(24px, env(safe-area-inset-left));
+  bottom: max(34px, env(safe-area-inset-bottom));
+  padding: 0 4px 12px;
+}
+.shadow-party .shadow-companion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 5px;
+  width: 54px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  transition: transform 0.18s ease;
+  color: var(--ink);
+}
+.shadow-portrait {
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+}
+.shadow-portrait img {
+  position: absolute;
+  width: 76%;
+  height: 86%;
+  left: 12%;
+  bottom: 11%;
+  object-fit: contain;
+}
+.shadow-companion[data-leader='true'] {
+  width: 82px;
+}
+.shadow-companion[data-leader='true'] .shadow-portrait {
+  width: 76px;
+  height: 76px;
+}
+.shadow-companion[data-leader='true'] .ink-rim-value {
+  stroke: var(--vermilion);
+  stroke-width: 2.8;
+}
+.shadow-hero-name {
+  font: 12px var(--font-display);
+  letter-spacing: 0.08em;
+  text-shadow:
+    0 0 6px var(--paper),
+    0 1px 2px var(--paper);
+}
+.shadow-hp {
+  width: 40px;
+  height: 3px;
+  overflow: visible;
+  fill: none;
+  stroke-width: 4;
+}
+.shadow-hp path:first-child {
+  stroke: var(--ink);
+  opacity: 0.2;
+}
+.shadow-hp path:last-child {
+  stroke: var(--vermilion);
+}
+.shadow-party-key {
+  position: absolute;
+  left: 5px;
+  bottom: -12px;
+  font-size: 10px;
+  letter-spacing: 0.16em;
+  color: var(--muted);
+}
+.shadow-party-key kbd {
+  color: var(--ink);
+  margin-right: 5px;
+}
+.shadow-combat-deck {
+  position: absolute;
+  z-index: 3;
+  right: max(28px, env(safe-area-inset-right));
+  bottom: max(25px, env(safe-area-inset-bottom));
+  display: flex;
+  align-items: flex-end;
+  gap: 16px;
+}
+.shadow-slots {
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+}
+.shadow-trial .shadow-skill,
+.shadow-trial .shadow-dodge {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-end;
+  width: 82px;
+  min-height: 108px;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  color: var(--ink);
+}
+.shadow-orb {
+  position: relative;
+  display: block;
+  width: 80px;
+  height: 80px;
+}
+.shadow-orb > .shadow-ability-paint {
+  position: absolute;
+  inset: 10%;
+  width: 80%;
+  height: 80%;
+}
+.shadow-orb > kbd {
+  position: absolute;
+  bottom: -2px;
+  left: 32px;
+  min-width: 17px;
+  height: 17px;
+  border: 1px solid color-mix(in srgb, var(--ink) 28%, transparent);
+  background: var(--paper);
+  border-radius: var(--series-pill-radius);
+  line-height: 15px;
+  color: var(--ink);
+}
+.shadow-orb > em {
+  position: absolute;
+  top: -8px;
+  right: -2px;
+  color: var(--gold-ink);
+  font: 10px var(--font-display);
+  letter-spacing: 0.1em;
+}
+.shadow-skill-name {
+  font: 13px var(--font-display);
+  letter-spacing: 0.06em;
+  white-space: nowrap;
+  text-shadow:
+    0 0 6px var(--paper),
+    0 1px 2px var(--paper);
+}
+.shadow-trial .shadow-skill:disabled,
+.shadow-trial .shadow-dodge:disabled {
+  opacity: 1;
+}
+.shadow-skill[data-cooling='true'] .shadow-ability-paint {
+  opacity: 0.42;
+  filter: saturate(0.45);
+}
+.shadow-skill[data-cooling='true'] .ink-rim-value {
+  stroke-width: 3;
+}
+.shadow-skill[data-casting='true'] .ink-rim-value {
+  stroke: var(--vermilion);
+  stroke-width: 3;
+}
+.shadow-cd,
+.shadow-casting {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-content: center;
+  color: var(--ink);
+  text-shadow:
+    0 0 6px var(--paper),
+    0 0 3px var(--paper);
+  font: 25px var(--font-display);
+}
+.shadow-casting {
+  font-size: 13px;
+  letter-spacing: 0.1em;
+}
+.shadow-trial .shadow-dodge {
+  width: 58px;
+  min-height: 88px;
+  margin-right: 3px;
+}
+.shadow-dodge .shadow-orb {
+  width: 54px;
+  height: 54px;
+}
+.shadow-dodge .ink-glyph {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: 11px;
+  top: 11px;
+}
+.shadow-key {
+  white-space: nowrap;
+  color: var(--ink-secondary);
+  font: 11px var(--font-display);
+  text-shadow: 0 0 4px var(--paper);
+}
+.shadow-key kbd {
+  font-size: 9px;
+}
+.shadow-movement {
+  position: absolute;
+  left: 31px;
+  bottom: 6px;
+  margin: 0;
+  font-size: 10px;
+  color: var(--muted);
+  display: none;
+}
+.shadow-movement kbd {
+  margin-right: 3px;
+}
+.shadow-movement span {
+  margin-left: 5px;
+}
+.shadow-loading {
+  position: absolute;
+  inset: 38% 12px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font: 20px var(--font-display);
+  letter-spacing: 0.1em;
+  text-shadow: 0 1px 5px var(--paper);
+}
+.shadow-loading .ink-glyph {
+  width: 48px;
+  height: 48px;
+  color: var(--gold-ink);
+}
+.shadow-save {
+  position: absolute;
+  bottom: 150px;
+  right: 28px;
+  font-size: 12px;
+  color: var(--vermilion);
+}
+.shadow-menu {
+  width: min(600px, calc(100vw - 30px));
+  max-height: calc(100dvh - 30px);
+  padding: 38px 42px 22px;
+  text-align: center;
+  overflow-y: auto;
+}
+.shadow-menu::before,
+.shadow-workshop::before {
+  content: '';
+  position: absolute;
+  left: 13px;
+  right: 13px;
+  top: 13px;
+  bottom: 13px;
+  border: 1px solid color-mix(in srgb, var(--gold) 25%, transparent);
+  pointer-events: none;
+}
+.shadow-menu .ink-seal {
+  position: absolute;
+  right: 28px;
+  top: 28px;
+}
+.shadow-menu .ink-heading > svg {
+  margin: auto;
+}
+.shadow-menu-intro {
+  color: var(--muted);
+  font: 13px var(--font-display);
+  letter-spacing: 0.1em;
+  margin: 13px 0 18px;
+}
+.shadow-menu-equipped {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+.shadow-menu-equipped > div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 9px;
+  font: 12px var(--font-display);
+}
+.shadow-menu-equipped .shadow-ability-paint {
+  width: 64px;
+  height: 64px;
+}
+.shadow-menu-equipped kbd {
+  margin-right: 6px;
+  font-size: 9px;
+  color: var(--muted);
+}
+.shadow-menu-equipped [data-ultimate='true'] > span {
+  color: var(--gold-ink);
+}
+.shadow-manual-hint {
+  margin: 21px 0;
+  color: var(--muted);
+  font-size: 11px;
+}
+.shadow-menu .ink-main-action {
+  margin: 0 auto 12px;
+}
+.shadow-menu-actions {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.shadow-menu-actions > .series-button {
+  font-size: 12px;
+  padding: 6px;
+}
+.shadow-menu-actions .ink-glyph {
+  width: 18px;
+  height: 18px;
+}
+.shadow-motion {
+  margin: 14px auto 4px;
+  padding: 6px;
+  font-size: 11px;
+  color: var(--muted);
+}
+.shadow-motion .ink-glyph {
+  width: 15px;
+  height: 15px;
+}
+.shadow-motion > span {
+  color: var(--jade);
+  margin-left: 10px;
+  border-bottom: 1px solid var(--line);
+}
+.shadow-menu-keys {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  font-size: 10px;
+  color: var(--muted);
+}
+.shadow-workshop {
+  width: min(1060px, calc(100vw - 36px));
+  max-height: calc(100dvh - 36px);
+  padding: 28px 34px 22px;
+  overflow: hidden;
+}
+.shadow-workshop[open] {
+  display: flex;
+  flex-direction: column;
+}
+.shadow-workshop-header,
+.shadow-choose-actor,
+.shadow-workshop-footer {
+  flex-shrink: 0;
+}
+.shadow-workshop-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.shadow-workshop-header > .series-button {
+  padding: 7px;
+  width: 44px;
+  height: 44px;
+  border: 0;
+}
+.shadow-workshop .ink-heading h2 {
+  font-size: 30px;
+  margin: 3px 0 5px;
+}
+.shadow-choose-actor {
+  display: flex;
+  gap: 22px;
+  margin: 13px 0 18px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--line);
+}
+.shadow-choose-actor .series-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  padding: 0 0 7px;
+  min-width: 90px;
+  border: 0;
+  border-bottom: 2px solid transparent;
+  border-radius: 0;
+  color: var(--muted);
+  font: 14px var(--font-display);
+}
+.shadow-choose-actor .series-button[aria-pressed='true'] {
+  color: var(--ink);
+  border-bottom-color: var(--vermilion);
+  background: transparent;
+}
+.shadow-choose-actor img {
+  width: 32px;
+  height: 39px;
+  object-fit: contain;
+}
+.shadow-book-body {
+  display: grid;
+  grid-template-columns: 240px minmax(0, 1fr);
+  gap: 25px;
+  min-height: 0;
+  overflow-y: auto;
+  scrollbar-color: var(--line-ink) transparent;
+}
+.shadow-figure {
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 15px;
+  border-right: 1px solid var(--line);
+  overflow: hidden;
+}
+.shadow-figure-watermark {
+  position: absolute;
+  top: 22px;
+  left: 0;
+  font: 92px var(--font-display);
+  writing-mode: vertical-rl;
+  opacity: 0.05;
+  letter-spacing: 0.16em;
+  pointer-events: none;
+}
+.shadow-standee {
+  position: relative;
+  width: 100%;
+  max-height: 340px;
+  object-fit: contain;
+}
+.shadow-figure h3 {
+  position: relative;
+  font: 25px var(--font-display);
+  letter-spacing: 0.2em;
+  margin: 8px 0;
+}
+.shadow-figure p {
+  font-size: 11px;
+  color: var(--muted);
+  letter-spacing: 0.05em;
+}
+.shadow-slot-caption {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  font: 12px var(--font-display);
+  color: var(--gold-ink);
+}
+.shadow-slot-caption small {
+  font: 10px var(--font-body);
+  color: var(--muted);
+}
+.shadow-edit-slots {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 6px;
+  margin: 7px 0 13px;
+}
+.shadow-edit-slots .series-button {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  padding: 7px 2px;
+  border: 1px solid var(--line);
+  background: transparent;
+  font: 11px var(--font-display);
+}
+.shadow-edit-slots .series-button[aria-pressed='true'] {
+  border-color: var(--gold);
+  background: color-mix(in srgb, var(--gold) 8%, transparent);
+}
+.shadow-edit-slots .shadow-ability-paint {
+  width: 34px;
+  height: 34px;
+}
+.shadow-edit-slots kbd {
+  position: absolute;
+  left: 7px;
+  top: 5px;
+  color: var(--muted);
+}
+.shadow-skill-pool {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 5px 8px;
+}
+.shadow-skill-pool .series-button {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: center;
+  padding: 5px 2px 9px;
+  border: 1px solid transparent;
+  background: transparent;
+  min-width: 0;
+  line-height: 1.3;
+  color: var(--ink);
+}
+.shadow-skill-pool .series-button[aria-pressed='true'] {
+  border-color: var(--line);
+  background: color-mix(in srgb, var(--jade) 4%, transparent);
+}
+.shadow-skill-pool .series-button:hover {
+  background: color-mix(in srgb, var(--gold) 8%, transparent);
+}
+.shadow-skill-pool strong {
+  font: 13px var(--font-display);
+}
+.shadow-skill-pool small {
+  font-size: 9px;
+  color: var(--muted);
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.shadow-pool-art {
+  position: relative;
+  width: 52px;
+  height: 52px;
+  display: block;
+}
+.shadow-pool-art em {
+  position: absolute;
+  right: -21px;
+  top: 0;
+  writing-mode: vertical-rl;
+  font: 9px var(--font-display);
+  color: var(--gold-ink);
+  letter-spacing: 0.1em;
+}
+.shadow-equipped-index {
+  position: absolute;
+  left: -6px;
+  bottom: 0;
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  background: var(--jade);
+  color: var(--on-jade);
+  border-radius: var(--series-pill-radius);
+  font-size: 9px;
+  font-weight: 500;
+}
+.shadow-skill-detail {
+  border-top: 1px solid var(--line);
+  margin-top: 9px;
+  padding-top: 10px;
+  min-height: 92px;
+}
+.shadow-skill-detail > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+}
+.shadow-skill-detail strong {
+  font: 16px var(--font-display);
+  letter-spacing: 0.08em;
+}
+.shadow-skill-detail span {
+  color: var(--gold-ink);
+  font-size: 10px;
+}
+.shadow-skill-detail p {
+  font-size: 11px;
+  line-height: 1.7;
+  margin: 6px 0 2px;
+}
+.shadow-skill-detail small {
+  color: var(--muted);
+  font-size: 10px;
+  line-height: 1.6;
+}
+.shadow-workshop-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 15px;
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+}
+.shadow-workshop-footer > span {
+  font-size: 10px;
+  color: var(--muted);
+}
+.shadow-workshop-footer .ink-glyph {
+  width: 18px;
+  height: 18px;
+  transform: rotate(180deg);
+}
+.shadow-recorder {
+  position: absolute;
+  z-index: 5;
+  top: 120px;
+  left: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-width: 240px;
+  font-size: 11px;
+}
+.shadow-recorder video {
+  width: 240px;
+  max-width: 100%;
+}
+.shadow-record-download {
+  color: var(--jade);
+  text-decoration: underline;
+}
+.shadow-frame-proof {
+  color: var(--ink);
+  text-shadow: 0 1px 3px var(--paper);
+}
+@media (pointer: fine) and (min-width: 801px) {
+  .shadow-movement {
+    display: flex;
+  }
+}
+@media (max-width: 800px) {
+  .shadow-toolbar {
+    top: max(14px, env(safe-area-inset-top));
+    left: 16px;
+    right: 14px;
+    gap: 15px;
+  }
+  .shadow-title h1 {
+    font-size: 25px;
+  }
+  .shadow-title > span {
+    font-size: 9px;
+  }
+  .shadow-tally {
+    margin-top: 13px;
+    font-size: 11px;
+    gap: 4px;
+  }
+  .shadow-tally .ink-glyph:nth-of-type(2) {
+    margin-left: 5px;
+  }
+  .shadow-tools {
+    gap: 0;
+  }
+  .shadow-tools .series-button {
+    width: 40px;
+    height: 44px;
+    padding: 8px;
+  }
+  .shadow-party {
+    left: 15px;
+    bottom: max(24px, env(safe-area-inset-bottom));
+    gap: 5px;
+  }
+  .shadow-party .shadow-companion {
+    width: 42px;
+  }
+  .shadow-portrait {
+    width: 40px;
+    height: 40px;
+  }
+  .shadow-companion[data-leader='true'] .shadow-portrait {
+    width: 56px;
+    height: 56px;
+  }
+  .shadow-companion[data-leader='true'] {
+    width: 58px;
+  }
+  .shadow-hero-name {
+    font-size: 10px;
+  }
+  .shadow-hp {
+    width: 30px;
+  }
+  .shadow-party-key {
+    font-size: 9px;
+  }
+  .shadow-combat-deck {
+    right: 16px;
+    bottom: max(24px, env(safe-area-inset-bottom));
+    gap: 7px;
+  }
+  .shadow-slots {
+    gap: 5px;
+  }
+  .shadow-trial .shadow-skill {
+    width: 60px;
+    min-height: 84px;
+    gap: 7px;
+  }
+  .shadow-orb {
+    width: 58px;
+    height: 58px;
+  }
+  .shadow-orb > kbd {
+    left: 22px;
+    width: 15px;
+    min-width: 15px;
+    height: 15px;
+    line-height: 13px;
+    font-size: 9px;
+  }
+  .shadow-skill-name {
+    font-size: 10px;
+  }
+  .shadow-orb > em {
+    font-size: 9px;
+    right: -3px;
+    top: -6px;
+  }
+  .shadow-trial .shadow-dodge {
+    width: 48px;
+    min-height: 77px;
+    margin: 0 1px 0 0;
+  }
+  .shadow-dodge .shadow-orb {
+    width: 46px;
+    height: 46px;
+  }
+  .shadow-dodge .ink-glyph {
+    width: 28px;
+    height: 28px;
+    left: 9px;
+    top: 9px;
+  }
+  .shadow-key {
+    font-size: 10px;
+  }
+  .shadow-key kbd {
+    display: none;
+  }
+  .shadow-workshop {
+    width: calc(100vw - 24px);
+    max-height: calc(100dvh - 24px);
+    padding: 23px 23px 18px;
+  }
+  .shadow-book-body {
+    grid-template-columns: 160px minmax(0, 1fr);
+    gap: 18px;
+  }
+  .shadow-choose-actor {
+    gap: 12px;
+  }
+  .shadow-choose-actor .series-button {
+    min-width: 80px;
+  }
+  .shadow-figure {
+    padding: 0 10px;
+  }
+  .shadow-standee {
+    max-height: 280px;
+  }
+  .shadow-figure h3 {
+    font-size: 22px;
+  }
+  .shadow-figure p {
+    text-align: center;
+    line-height: 1.8;
+  }
+}
+@media (max-width: 560px) {
+  .shadow-toolbar {
+    align-items: flex-start;
+    gap: 5px;
+  }
+  .shadow-title h1 {
+    font-size: 23px;
+  }
+  .shadow-title > span {
+    font-size: 8px;
+    letter-spacing: 0.14em;
+  }
+  .shadow-tally {
+    position: absolute;
+    left: 0;
+    top: 48px;
+    margin-top: 0;
+  }
+  .shadow-tools {
+    margin-top: -4px;
+  }
+  .shadow-party {
+    top: 95px;
+    bottom: auto;
+    gap: 6px;
+    left: 14px;
+    padding-bottom: 0;
+  }
+  .shadow-party .shadow-companion {
+    width: 35px;
+  }
+  .shadow-portrait {
+    width: 34px;
+    height: 34px;
+  }
+  .shadow-companion[data-leader='true'] {
+    width: 43px;
+  }
+  .shadow-companion[data-leader='true'] .shadow-portrait {
+    width: 43px;
+    height: 43px;
+  }
+  .shadow-hero-name {
+    font-size: 9px;
+  }
+  .shadow-hp {
+    width: 24px;
+  }
+  .shadow-party-key {
+    display: none;
+  }
+  .shadow-combat-deck {
+    right: max(15px, env(safe-area-inset-right));
+    bottom: max(23px, env(safe-area-inset-bottom));
+    display: block;
+  }
+  .shadow-slots {
+    display: grid;
+    grid-template-columns: repeat(2, 60px);
+    gap: 12px 11px;
+  }
+  .shadow-trial .shadow-dodge {
+    margin: 0 0 14px auto;
+  }
+  .shadow-skill-name {
+    font-size: 10px;
+  }
+  .shadow-menu {
+    padding: 35px 24px 19px;
+    width: calc(100vw - 24px);
+    max-height: calc(100dvh - 24px);
+  }
+  .shadow-menu .ink-seal {
+    right: 23px;
+    top: 22px;
+    width: 25px;
+    height: 33px;
+    font-size: 14px;
+  }
+  .shadow-menu .ink-heading h2 {
+    font-size: 28px;
+  }
+  .shadow-menu-equipped {
+    gap: 5px;
+  }
+  .shadow-menu-equipped .shadow-ability-paint {
+    width: 53px;
+    height: 53px;
+  }
+  .shadow-menu-equipped > div {
+    font-size: 10px;
+  }
+  .shadow-menu-equipped kbd {
+    display: none;
+  }
+  .shadow-manual-hint {
+    font-size: 10px;
+    line-height: 1.7;
+    margin: 20px 0;
+  }
+  .shadow-menu-keys {
+    gap: 9px;
+    font-size: 9px;
+  }
+  .shadow-workshop {
+    width: calc(100vw - 16px);
+    max-height: calc(100dvh - 16px);
+    padding: 23px 19px 18px;
+  }
+  .shadow-workshop::before {
+    inset: 8px;
+  }
+  .shadow-workshop .ink-heading h2 {
+    font-size: 25px;
+  }
+  .shadow-workshop .ink-heading > span {
+    font-size: 9px;
+  }
+  .shadow-choose-actor {
+    gap: 6px;
+    justify-content: space-between;
+    margin: 10px 0 12px;
+  }
+  .shadow-choose-actor .series-button {
+    min-width: var(--control-size);
+    font-size: 10px;
+    gap: 4px;
+    flex-direction: column;
+  }
+  .shadow-choose-actor img {
+    width: 28px;
+    height: 31px;
+  }
+  .shadow-book-body {
+    display: block;
+  }
+  .shadow-figure {
+    display: none;
+  }
+  .shadow-slot-caption {
+    font-size: 11px;
+  }
+  .shadow-slot-caption small {
+    font-size: 9px;
+  }
+  .shadow-edit-slots {
+    gap: 5px;
+  }
+  .shadow-edit-slots .series-button {
+    font-size: 9px;
+  }
+  .shadow-edit-slots kbd {
+    left: 4px;
+    top: 4px;
+    font-size: 8px;
+  }
+  .shadow-skill-pool {
+    gap: 4px;
+  }
+  .shadow-skill-pool .series-button {
+    padding: 3px 0 8px;
+  }
+  .shadow-pool-art {
+    width: 48px;
+    height: 48px;
+  }
+  .shadow-skill-pool strong {
+    font-size: 11px;
+  }
+  .shadow-skill-pool small {
+    font-size: 8px;
+  }
+  .shadow-pool-art em {
+    right: -10px;
+    font-size: 8px;
+  }
+  .shadow-equipped-index {
+    width: 14px;
+    height: 14px;
+    line-height: 14px;
+    font-size: 8px;
+  }
+  .shadow-skill-detail strong {
+    font-size: 14px;
+  }
+  .shadow-skill-detail span {
+    font-size: 9px;
+  }
+  .shadow-workshop-footer > span {
+    max-width: 165px;
+    line-height: 1.6;
+  }
+  .shadow-workshop-footer .series-button {
+    font-size: 12px;
+    padding: 8px;
+  }
+}
+@media (max-height: 540px) and (min-width: 561px) {
+  .shadow-party {
+    bottom: 20px;
+  }
+  .shadow-combat-deck {
+    bottom: 20px;
+  }
+  .shadow-menu {
+    padding-top: 22px;
+  }
+  .shadow-menu-equipped {
+    display: none;
+  }
+  .shadow-menu-intro {
+    margin-bottom: 10px;
+  }
+  .shadow-manual-hint {
+    margin: 12px 0;
+  }
+  .shadow-motion {
+    margin-top: 7px;
+  }
+  .shadow-menu .ink-heading h2 {
+    font-size: 26px;
+  }
+  .shadow-workshop {
+    padding-top: 18px;
+  }
+  .shadow-workshop .ink-heading h2 {
+    font-size: 23px;
+  }
+  .shadow-choose-actor {
+    margin: 8px 0 10px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .shadow-trial *,
+  .ink-dialog * {
+    animation: none !important;
+    transition: none !important;
+  }
+}

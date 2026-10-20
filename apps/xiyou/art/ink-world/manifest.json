@@ -1,0 +1,168 @@
+{
+  "version": 1,
+  "status": "local scenery sample, pending actual game and visual review",
+  "source_projection_sha256": "f601747776696dd1b10a65295974218a6b60a91114e174c8f2a6f1df837679c5",
+  "upstream": [
+    {
+      "asset": "pine_rock",
+      "origin": "tripo-studio-blender",
+      "studio_project": "30cd4649-52ef-4130-b1eb-f80a2c61615b",
+      "source_file": "pine-rock-studio-v31-retopo.glb",
+      "source_sha256": "6571e32e2e98dd94d0ec8eac46b3b5a46bba57197f3b3a23e068a877a2f5c740",
+      "source_blend": "pine_rock.blend",
+      "triangles": 1500,
+      "bones": 0,
+      "clips": [],
+      "bytes": 139284,
+      "triangle_budget": 1500,
+      "byte_budget": 250000,
+      "texture_max": 512,
+      "joint_budget": 16,
+      "primitive_budget": 1,
+      "projection_runtime_sha256": "0ddfefac6681419a1761a2f6f179874bf3ca3ec89aa891fd88bab48d7c23a450"
+    },
+    {
+      "asset": "pine_tree",
+      "origin": "tripo-studio-blender",
+      "studio_project": "87c9fabd-3ed8-4916-a29d-9d8107a6ce1e",
+      "source_file": "pine-tree-studio-v31-source.glb",
+      "source_sha256": "a5a504d34c95c7ad0f7e28d915a62d249d9fdc7fef13bea571e7f2e43ef51d66",
+      "source_blend": "pine_tree.blend",
+      "triangles": 3367,
+      "bones": 0,
+      "clips": [],
+      "bytes": 293700,
+      "triangle_budget": 3500,
+      "byte_budget": 450000,
+      "texture_max": 768,
+      "joint_budget": 0,
+      "primitive_budget": 1,
+      "runtime_sha256": "0de7ddd79af32c19a70e92b204667630b38e2d544fd288ed7aa4cef23b494326",
+      "projection_runtime_sha256": "0de7ddd79af32c19a70e92b204667630b38e2d544fd288ed7aa4cef23b494326"
+    },
+    {
+      "asset": "mountain_shrub",
+      "origin": "tripo-studio-blender",
+      "studio_project": "87c9fabd-3ed8-4916-a29d-9d8107a6ce1e",
+      "source_file": "pine-tree-studio-v31-source.glb",
+      "source_sha256": "a5a504d34c95c7ad0f7e28d915a62d249d9fdc7fef13bea571e7f2e43ef51d66",
+      "source_blend": "mountain_shrub.blend",
+      "triangles": 876,
+      "bones": 0,
+      "clips": [],
+      "bytes": 158744,
+      "triangle_budget": 900,
+      "byte_budget": 450000,
+      "texture_max": 768,
+      "joint_budget": 0,
+      "primitive_budget": 1,
+      "runtime_sha256": "94acb4c6e7f5e6670e2516bbac86e4519a67fefd0f7556ae9956ce19bdbe9894",
+      "projection_runtime_sha256": "94acb4c6e7f5e6670e2516bbac86e4519a67fefd0f7556ae9956ce19bdbe9894"
+    },
+    {
+      "asset": "seal_stone",
+      "origin": "tripo-studio-blender",
+      "studio_project": "aa5ee5e0-2162-4ac1-88a3-a295938b3808",
+      "source_file": "seal-stone-studio-v31-retopo.glb",
+      "source_sha256": "57797201e7fcc53e501294e5c028952f2f9187d9a69ff0358a3f8478aa9b13c6",
+      "source_blend": "seal_stone.blend",
+      "triangles": 996,
+      "bones": 0,
+      "clips": [],
+      "bytes": 71352,
+      "triangle_budget": 1000,
+      "byte_budget": 200000,
+      "texture_max": 512,
+      "joint_budget": 16,
+      "primitive_budget": 1,
+      "sculpt": "tapered mineral crown; original Studio base footprint preserved",
+      "projection_runtime_sha256": "3e37de64cf5a048a2bc6cb1fde9846e9fad6cdbdeae0c72f5f628b4594edd125"
+    }
+  ],
+  "packing": {
+    "version": 1,
+    "width": 1254,
+    "height": 1254,
+    "parts": [
+      {
+        "name": "pine",
+        "rect": [
+          89,
+          81,
+          608,
+          625
+        ],
+        "solidPixels": 128176
+      },
+      {
+        "name": "boulder",
+        "rect": [
+          656,
+          353,
+          1200,
+          633
+        ],
+        "solidPixels": 94924
+      },
+      {
+        "name": "young_pine",
+        "rect": [
+          109,
+          719,
+          557,
+          1175
+        ],
+        "solidPixels": 79502
+      },
+      {
+        "name": "shrub",
+        "rect": [
+          675,
+          834,
+          1196,
+          1170
+        ],
+        "solidPixels": 105526
+      }
+    ],
+    "art": "Tripo Studio silhouettes projected in Blender; original imagegen ink redraw, hand-reviewed atlas layout",
+    "source_sha256": "6b8730632454b2a4975f48542ed7490f5ec67b8ef819a70d74aac158e00092e9",
+    "runtime_sha256": "21d8eced8199060fbeced4a1bf0325ffd41768c319928135c7bc9163f412d352",
+    "terrain_source_sha256": "be35dae2151ea605d604cf26dc16fe0711f7f1daf9980d7f4b36ac09da092f34",
+    "terrain_runtime_sha256": "8d6b7f51ccb93385553c654ec2a04e9bb3db4d3945f04475ff2764a4a4d5f89a",
+    "atlasBytes": 109937,
+    "terrainBytes": 106000,
+    "runtimeSize": [
+      1024,
+      1024
+    ],
+    "terrainRuntimeSize": [
+      768,
+      768
+    ]
+  },
+  "runtime": {
+    "asset": "ink_scenery",
+    "origin": "tripo-projection-imagegen-blender",
+    "source_file": "ink-world/scenery-source-v2.png",
+    "source_sha256": "6b8730632454b2a4975f48542ed7490f5ec67b8ef819a70d74aac158e00092e9",
+    "source_blend": "ink_scenery.blend",
+    "triangles": 8,
+    "bones": 0,
+    "clips": [],
+    "bytes": 113916,
+    "triangle_budget": 8,
+    "byte_budget": 160000,
+    "texture_max": 1024,
+    "joint_budget": 0,
+    "primitive_budget": 4,
+    "runtime_sha256": "65d7681cda99609c18c784ecafcccb36261de4760021dfa49e72315ba74c6be7"
+  },
+  "scenes": [
+    "Ink scenery pine",
+    "Ink scenery boulder",
+    "Ink scenery young_pine",
+    "Ink scenery shrub"
+  ],
+  "process": "Existing accepted Studio modules -> Blender orthographic projection -> original ink redraw -> shared depth-writing cards; no new Studio generation or credit consumption"
+}

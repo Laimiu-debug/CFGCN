@@ -53,6 +53,6 @@ export const world = {
       'Choose when to risk everything for a companion',
     ],
   },
-  accent: '#426e78',
+  accent: 'var(--accent-shuihu)',
   image: '/art/shuihu.webp',
 } satisfies WorldDefinition;

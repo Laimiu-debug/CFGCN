@@ -1,0 +1,97 @@
+{
+  "method": "Existing Tripo Studio components, Blender silhouette LOD; runtime building structures and continuous terrain are authored geometry, not new Studio output.",
+  "reference": ".local/art/ink-home-study-v1.png",
+  "reference_sha256": "5446868861d8977d0837f8f55d2d17788d34f052af72000b46049413ff9be258",
+  "roof_source": {
+    "path": "apps/website/art/source/raw/changan-studio-v31.glb",
+    "sha256": "0fc0ab8e536ca9b9e37a631075459ffa63e1920e64ad6d865d838907bdbab59b",
+    "studio_project": "f52b6e5e-6dc2-493d-883a-334df4d5e975"
+  },
+  "tree_source": {
+    "path": "apps/xiyou/art/source/raw/pine-tree-studio-v31-source.glb",
+    "sha256": "a5a504d34c95c7ad0f7e28d915a62d249d9fdc7fef13bea571e7f2e43ef51d66",
+    "studio_project": "87c9fabd-3ed8-4916-a29d-9d8107a6ce1e"
+  },
+  "editable_source": "apps/website/art/source/scroll-modules.blend",
+  "assets": [
+    {
+      "name": "roof",
+      "triangles": 991,
+      "bytes": 20144,
+      "sha256": "fff06b9136dba7beebbdb9246a199f76e84aa7e3d077bc5df09121d658b7db38"
+    },
+    {
+      "name": "tree",
+      "triangles": 716,
+      "bytes": 14784,
+      "sha256": "aacc2f156da371ccaf48c30c63d5cd81b25529eefca9bac59cec49019d41a5c7"
+    },
+    {
+      "name": "tree-far",
+      "triangles": 215,
+      "bytes": 5788,
+      "sha256": "a83a2ab9764219e5d7a01e138217baa787bdb900ea50dd1a4e610ab11fcde3a0"
+    }
+  ],
+  "tree_component": {
+    "path": "apps/website/art/source/countryside/canopy.blend",
+    "sha256": "422142a53d6760601aec4000679af91d397cf50364bc431184c140c076588be6"
+  },
+  "component_source": "apps/website/art/source/scroll-component-sources.blend",
+  "component_source_sha256": "93d5604d7ea16b667858d60b88c9b99e97881390aacd96347359927aaaf8a96b",
+  "scene_sources": [
+    {
+      "path": "apps\\website\\src\\scroll-settlements.ts",
+      "sha256": "a8d1d0a5cb62861331f5b058f79dbc784bb1d30d36bd6c9bd64f5a5fcd2bbb20"
+    },
+    {
+      "path": "apps\\website\\src\\scroll-world.ts",
+      "sha256": "69e082bf98075e14edb6817e031d07e1c679dfbc5e6ddfe981453824c5736a49"
+    },
+    {
+      "path": "apps\\website\\src\\scroll-terrain.ts",
+      "sha256": "3777f0519225a3c593af1dde4fb0ff5c682274b3bfcd7fff6ace942514c252c4"
+    },
+    {
+      "path": "apps\\website\\src\\scroll-layout.json",
+      "sha256": "b3d6e3f4e47dbdf952bf30410c460fa9a58bb7733c35dd44b00c228956142de2"
+    },
+    {
+      "path": "apps\\website\\src\\ScrollAtlas.tsx",
+      "sha256": "82fbde71655bf5788fff26d1039a5d362f4b2cf33b7baa6fe25b241479043032"
+    },
+    {
+      "path": "apps\\website\\src\\scroll-view.ts",
+      "sha256": "cc1fc3d773f4db7cc9988439fe5d44d34cfbd9f7d9f7eed9f1be18e113931ab8"
+    },
+    {
+      "path": "scripts\\build-scroll-textures.mjs",
+      "sha256": "5dbdb22ae3a92cb7334cdf8fcb44c7ffdb389306fad2ab145f84ebf5f8747ea1"
+    },
+    {
+      "path": "scripts\\paint-scroll-surface.mjs",
+      "sha256": "1a8b222390d9352e907fee237c7f41d716e434672254053b675b442366157de9"
+    }
+  ],
+  "status": "Homepage implementation based on user-approved composition; actual 3D art requires visual review.",
+  "surface": {
+    "method": "Planar rock masses with cross-face bedding, continuous talus and scrub; complete valley fields clipped per pixel against the real slopes and banks, shared raised-bank normal channel and crop rows; code-authored surface, no parcel-centre cutoff or generated background.",
+    "width": 4096,
+    "height": 3263,
+    "fieldCount": 8559,
+    "rockBrushPaths": 9081,
+    "bankMarks": 2160,
+    "buildingFootprints": 225,
+    "bounds": {
+      "west": -430,
+      "east": 430,
+      "north": -330,
+      "south": 355
+    },
+    "textureBytes": 577928,
+    "routeMaskBytes": 267442,
+    "roads": "One ground material; R=routes, G=field-bank relief. No coplanar road geometry.",
+    "sha256": "5206334811a9bb81c0e75feaa8cd10f132fce8df040e858c3389ba7fcf4984a0",
+    "routes_sha256": "71f428d43b9605be0c72bdee6c8311dfc0db4070c1664f8e2336e5169eb4955a"
+  }
+}

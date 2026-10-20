@@ -1,0 +1,40 @@
+{
+  "geometry": [
+    {
+      "scene": "Ink scenery flora grass",
+      "dimensions": [
+        1.800000011920929,
+        0.0,
+        0.6205645203590393
+      ],
+      "foot_z": 0.0,
+      "triangles": 2
+    },
+    {
+      "scene": "Ink scenery flora flowers",
+      "dimensions": [
+        1.399999976158142,
+        0.0,
+        0.6040322780609131
+      ],
+      "foot_z": 0.0,
+      "triangles": 2
+    },
+    {
+      "scene": "Ink scenery flora fern",
+      "dimensions": [
+        1.399999976158142,
+        0.0,
+        0.6308467984199524
+      ],
+      "foot_z": 0.0,
+      "triangles": 2
+    }
+  ],
+  "source_hashes": "verified",
+  "studio_originals": "verified",
+  "prototype_hashes": "verified",
+  "texture": "verified",
+  "blend_sha256": "14dab18142f20f7171906cfbe731a4ff9d074ce2f77d1b6470209caa82096bfc",
+  "game_validation": "tracked in docs/xiyou-map-marks-and-flora.md; not implied by this script"
+}

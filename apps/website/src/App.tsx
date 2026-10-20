@@ -1,36 +1,51 @@
 import { Component, Suspense, lazy, useCallback, useEffect, useRef, useState } from 'react';
-import type { CSSProperties, ErrorInfo, ReactNode } from 'react';
-import { isGameId } from '@cfgcn/shared';
+import type { ErrorInfo, ReactNode } from 'react';
+import {
+  gameHref, isGameId, parseSiteRoute, portalHref,
+  audioToggleEvent, getAudioStatus, publishAudioStatus,
+} from '@cfgcn/shared';
 import type { GameId, Locale, Traveler } from '@cfgcn/shared';
-import { Icon } from '@cfgcn/ui';
+import { Button, Icon } from '@cfgcn/ui';
 import { world as xiyou } from '@cfgcn/xiyou/world';
 import { world as shuihu } from '@cfgcn/shuihu/world';
 import { world as sanguo } from '@cfgcn/sanguo/world';
 import { world as honglou } from '@cfgcn/honglou/world';
 import { copy } from './copy';
 import { useTraveler } from './useTraveler';
+import { useMotionPreference } from './useMotionPreference';
+import { initialArrival } from './arrival-state';
+import type { ArrivalStatus } from './arrival-state';
+
+const FineInkStudy = lazy(() =>
+  import('./fine-ink-home/FineInkStudy').then((page) => ({ default: page.FineInkStudy })),
+);
+const ChanganEntrance = lazy(() =>
+  import('./ChanganEntrance').then((page) => ({ default: page.ChanganEntrance })),
+);
 
 const worlds = [xiyou, shuihu, sanguo, honglou];
+const loadXiyou = () => import('@cfgcn/xiyou');
 const worldPages = {
-  xiyou: lazy(() => import('@cfgcn/xiyou')),
+  xiyou: lazy(loadXiyou),
   shuihu: lazy(() => import('@cfgcn/shuihu')),
   sanguo: lazy(() => import('@cfgcn/sanguo')),
   honglou: lazy(() => import('@cfgcn/honglou')),
 };
-const parseRoute = () => {
-  const hash = window.location.hash;
-  if (!hash || hash === '#' || hash === '#/') return 'home';
-  const match = /^#\/world\/([^/]+)$/.exec(hash);
-  return match && isGameId(match[1]) ? match[1] : 'not-found';
-};
+const parseRoute = () => parseSiteRoute(window.location.hash, window.location.hostname);
+const homeHref = (locale: Locale) => portalHref(window.location.hostname, locale);
+const worldHref = (id: GameId, locale: Locale) => gameHref(id, window.location.hostname, locale);
 
-class PageBoundary extends Component<{ children: ReactNode; locale: Locale }, { failed: boolean }> {
+class PageBoundary extends Component<
+  { children: ReactNode; locale: Locale; onFailure?: () => void },
+  { failed: boolean }
+> {
   state = { failed: false };
   static getDerivedStateFromError() {
     return { failed: true };
   }
   componentDidCatch(error: Error, info: ErrorInfo) {
     console.error('World preview failed', error.message, info.componentStack);
+    this.props.onFailure?.();
   }
   render() {
     const text = copy[this.props.locale];
@@ -38,9 +53,13 @@ class PageBoundary extends Component<{ children: ReactNode; locale: Locale }, { 
       <main id="main" className="empty-page">
         <Icon name="book" size={32} />
         <h1>{text.failure}</h1>
-        <button className="button primary" onClick={() => window.location.reload()}>
+        <Button
+          variant="primary"
+          className="button primary"
+          onClick={() => window.location.reload()}
+        >
           {text.retry}
-        </button>
+        </Button>
       </main>
     ) : (
       this.props.children
@@ -92,9 +111,14 @@ function Journal({
       }}
     >
       <div className="journal-sheet">
-        <button className="icon-button journal-close" aria-label={text.close} onClick={onClose}>
+        <Button
+          variant="icon"
+          className="icon-button journal-close"
+          aria-label={text.close}
+          onClick={onClose}
+        >
           <Icon name="close" />
-        </button>
+        </Button>
         <span className="journal-mark" aria-hidden="true">
           <Icon name="book" size={31} />
         </span>
@@ -118,9 +142,9 @@ function Journal({
               placeholder={text.namePlaceholder}
               autoComplete="off"
             />
-            <button type="submit" aria-label={text.saveName}>
+            <Button variant="quiet" type="submit" aria-label={text.saveName}>
               <Icon name="arrow" size={20} />
-            </button>
+            </Button>
           </div>
         </form>
         <section className="journal-bookmarks">
@@ -134,20 +158,21 @@ function Journal({
                 .filter((world) => traveler.bookmarks.includes(world.id))
                 .map((world) => (
                   <li key={world.id}>
-                    <a href={`#/world/${world.id}`} onClick={onClose}>
+                    <a href={worldHref(world.id, traveler.locale)} onClick={onClose}>
                       <img src={world.image.replace('.webp', '-card.webp')} alt="" />
                       <span>
                         {world.title[traveler.locale]}
                         <small>{world.genre[traveler.locale]}</small>
                       </span>
                     </a>
-                    <button
+                    <Button
+                      variant="icon"
                       className="icon-button"
                       onClick={() => onBookmark(world.id)}
                       aria-label={`${text.unsave} · ${world.title[traveler.locale]}`}
                     >
                       <Icon name="close" size={16} />
-                    </button>
+                    </Button>
                   </li>
                 ))}
             </ul>
@@ -167,10 +192,10 @@ function Journal({
           />
           <span className="switch" aria-hidden="true" />
         </label>
-        <button className="journal-export" onClick={exportJournal}>
+        <Button variant="quiet" className="journal-export" onClick={exportJournal}>
           <Icon name="download" size={16} />
           {text.download}
-        </button>
+        </Button>
         <p className={`local-note ${!persisted ? 'storage-warning' : ''}`}>
           {persisted ? text.localNote : text.storageWarning}
         </p>
@@ -184,15 +209,48 @@ export function App() {
   const locale = traveler.locale;
   const text = copy[locale];
   const [route, setRoute] = useState(parseRoute);
-  const [selected, setSelected] = useState<GameId>('xiyou');
   const [journal, setJournal] = useState(false);
   const [toast, setToast] = useState('');
   const [sound, setSound] = useState(false);
   const [soundBusy, setSoundBusy] = useState(false);
+  const [departing, setDeparting] = useState(false);
+  const [arrival, setArrival] = useState(
+    () =>
+      parseRoute() === 'xiyou' && new URLSearchParams(location.search).get('arrival') === 'changan',
+  );
+  const [arrivalDirect, setArrivalDirect] = useState(
+    () => new URLSearchParams(location.search).get('intro') === 'skip',
+  );
+  const [arrivalPlay, setArrivalPlay] = useState(false);
+  const [arrivalRuntime, setArrivalRuntime] = useState(false);
+  const [arrivalStatus, setArrivalStatus] = useState<ArrivalStatus>(initialArrival);
+  const [arrivalRevision, setArrivalRevision] = useState(0);
+  const departureTimer = useRef<ReturnType<typeof setTimeout> | undefined>(undefined);
   const stopSound = useRef<(() => Promise<void>) | null>(null);
   const audioRequest = useRef(0);
   const toastTimer = useRef<ReturnType<typeof setTimeout> | undefined>(undefined);
-  const current = worlds.find((world) => world.id === selected)!;
+  const [motionReduced, chooseMotion] = useMotionPreference(traveler.reducedMotion);
+  const reducedMotion = motionReduced;
+  const updatePreferences = (
+    patch: Partial<Pick<Traveler, 'name' | 'locale' | 'reducedMotion'>>,
+  ) => {
+    if (patch.reducedMotion !== undefined) {
+      chooseMotion(patch.reducedMotion);
+      const url = new URL(location.href);
+      url.searchParams.delete('motion');
+      history.replaceState(null, '', url);
+    }
+    update(patch);
+  };
+  const reportArrival = useCallback((status: ArrivalStatus) => setArrivalStatus(status), []);
+  const startArrival = useCallback(() => setArrivalPlay(true), []);
+  const loadArrivalRuntime = useCallback(() => setArrivalRuntime(true), []);
+  const completeArrival = useCallback(() => {
+    setArrival(false);
+    const url = new URL(location.href);
+    for (const name of ['arrival', 'intro', 'motion']) url.searchParams.delete(name);
+    history.replaceState(null, '', url);
+  }, []);
   const notify = useCallback((message: string) => {
     clearTimeout(toastTimer.current);
     setToast(message);
@@ -208,14 +266,43 @@ export function App() {
     document.title = text.pageTitle;
   }, [locale, text.pageTitle]);
   useEffect(() => {
+    if (route !== 'xiyou') return;
+    let active = true;
+    let dispose: (() => void) | undefined;
+    void import('./GameHomeReturn').then((module) => {
+      if (active) dispose = module.installGameHomeReturn();
+    });
+    return () => {
+      active = false;
+      dispose?.();
+    };
+  }, [route]);
+  useEffect(() => {
+    const incoming = new URLSearchParams(location.search).get('motion');
+    if (incoming === 'reduce' || incoming === 'full') {
+      chooseMotion(incoming === 'reduce');
+      update({ reducedMotion: incoming === 'reduce' });
+    }
+  }, [update, chooseMotion]);
+  useEffect(() => {
     window.scrollTo(0, 0);
+    if (route === 'home') {
+      clearTimeout(departureTimer.current);
+      setDeparting(false);
+      setArrival(false);
+      setArrivalPlay(false);
+    }
     if (isGameId(route)) visit(route);
+    if (route === 'home' && ['#worlds', '#our-story'].includes(location.hash))
+      document.getElementById(location.hash.slice(1))?.scrollIntoView();
   }, [route, visit]);
   useEffect(
     () => () => {
       clearTimeout(toastTimer.current);
+      clearTimeout(departureTimer.current);
       audioRequest.current++;
       void stopSound.current?.();
+      publishAudioStatus({ enabled: false, busy: false });
     },
     [],
   );
@@ -224,31 +311,67 @@ export function App() {
     notify(traveler.bookmarks.includes(id) ? text.removed : text.added);
     bookmark(id);
   };
+  const enterFromMap = (id: GameId, direct = false) => {
+    if (departing) return;
+    const href = worldHref(id, locale);
+    if (id !== 'xiyou') {
+      window.location.assign(href);
+      return;
+    }
+    if (href.startsWith('#')) void loadXiyou().catch(() => {});
+    setArrivalDirect(direct);
+    setDeparting(true);
+    departureTimer.current = setTimeout(
+      () => {
+        if (href.startsWith('#')) {
+          setArrivalStatus(initialArrival);
+          setArrivalPlay(false);
+          setArrivalRuntime(false);
+          setArrival(true);
+          window.location.hash = '/world/xiyou';
+        } else {
+          const url = new URL(href);
+          url.searchParams.set('arrival', 'changan');
+          if (direct) url.searchParams.set('intro', 'skip');
+          url.searchParams.set('motion', reducedMotion ? 'reduce' : 'full');
+          window.location.assign(url);
+        }
+      },
+      reducedMotion || direct ? 0 : 1050,
+    );
+  };
   const scrollTo = (id: string) => {
+    if (homeHref(locale) !== '#/') {
+      window.location.assign(`${homeHref(locale)}#${id}`);
+      return;
+    }
     const scroll = () =>
       document.getElementById(id)?.scrollIntoView({
-        behavior:
-          traveler.reducedMotion || matchMedia('(prefers-reduced-motion: reduce)').matches
-            ? 'auto'
-            : 'smooth',
+        behavior: reducedMotion ? 'auto' : 'smooth',
       });
     if (route !== 'home') {
       window.location.hash = '/';
       setTimeout(scroll, 100);
     } else scroll();
   };
-  async function toggleSound() {
-    if (soundBusy) return;
+  const toggleSound = useCallback(async () => {
+    if (getAudioStatus().busy) return;
     setSoundBusy(true);
+    publishAudioStatus({ enabled: !!stopSound.current, busy: true });
     const request = ++audioRequest.current;
+    let context: AudioContext | undefined;
     try {
       if (stopSound.current) {
         await stopSound.current();
         stopSound.current = null;
         setSound(false);
       } else {
+        // Unlock before the dynamic import/fetch, while still inside the click.
+        context = new AudioContext();
+        await context.resume();
+        if (context.state !== 'running') throw new Error('Audio gesture required');
         const { createAmbience } = await import('./ambient');
-        const stop = await createAmbience();
+        const stop = await createAmbience(context);
         if (request !== audioRequest.current) await stop();
         else {
           stopSound.current = stop;
@@ -256,18 +379,32 @@ export function App() {
         }
       }
     } catch {
+      if (context && context.state !== 'closed') await context.close();
       notify(text.soundUnavailable);
       setSound(false);
     } finally {
       setSoundBusy(false);
+      publishAudioStatus({ enabled: !!stopSound.current, busy: false });
     }
-  }
+  }, [notify, text.soundUnavailable]);
+  useEffect(() => {
+    const toggle = () => void toggleSound();
+    const failure = () => notify(text.soundUnavailable);
+    window.addEventListener(audioToggleEvent, toggle);
+    window.addEventListener('cfgcn:audio-failure', failure);
+    return () => {
+      window.removeEventListener(audioToggleEvent, toggle);
+      window.removeEventListener('cfgcn:audio-failure', failure);
+    };
+  }, [toggleSound, notify, text.soundUnavailable]);
   const WorldPage = isGameId(route) ? worldPages[route] : null;
   return (
     <div
       className="app"
-      data-motion={traveler.reducedMotion ? 'reduced' : 'full'}
+      data-motion={reducedMotion ? 'reduced' : 'full'}
+      data-audio={sound ? 'playing' : 'off'}
       data-locale={locale}
+      data-atlas-study={route === 'home' ? 'fine-ink' : undefined}
     >
       <a
         className="skip-link"
@@ -283,7 +420,7 @@ export function App() {
         {text.skip}
       </a>
       <header className="site-header container">
-        <a href="#/" className="brand" aria-label={text.brand}>
+        <a href={homeHref(locale)} className="brand" aria-label={text.brand}>
           <span className="brand-seal" aria-hidden="true">
             四
           </span>
@@ -293,8 +430,9 @@ export function App() {
           </span>
         </a>
         <nav className="main-nav" aria-label={locale === 'en' ? 'Main navigation' : '主导航'}>
-          <button onClick={() => scrollTo('worlds')}>{text.worlds}</button>
-          <button onClick={() => scrollTo('our-story')}>{text.about}</button>
+          <Button variant="quiet" onClick={() => scrollTo('worlds')}>
+            {text.worlds}
+          </Button>
         </nav>
         <div className="header-tools">
           <div className="language-control">
@@ -309,16 +447,21 @@ export function App() {
               <option value="en">English</option>
             </select>
           </div>
-          <button
+          <Button
+            variant="icon"
             className="icon-button sound-button"
+            data-audio-toggle
             aria-label={sound ? text.disableSound : text.enableSound}
             aria-pressed={sound}
+            aria-busy={soundBusy}
+            title={sound ? text.disableSound : text.enableSound}
             disabled={soundBusy}
             onClick={() => void toggleSound()}
           >
             <Icon name={sound ? 'volume' : 'mute'} size={18} />
-          </button>
-          <button
+          </Button>
+          <Button
+            variant="quiet"
             className="journal-trigger"
             aria-label={text.journal}
             onClick={() => setJournal(true)}
@@ -326,212 +469,62 @@ export function App() {
             <Icon name="book" size={18} />
             <span>{text.journal}</span>
             {traveler.bookmarks.length > 0 && <i className="journal-dot" />}
-          </button>
+          </Button>
         </div>
       </header>
       {route === 'home' ? (
         <main id="main">
-          <section
-            className="hero"
-            style={{ '--world-accent': current.accent } as CSSProperties}
-            onPointerMove={(event) => {
-              if (
-                traveler.reducedMotion ||
-                matchMedia('(prefers-reduced-motion: reduce), (pointer: coarse)').matches
-              )
-                return;
-              const box = event.currentTarget.getBoundingClientRect();
-              event.currentTarget.style.setProperty(
-                '--pan-x',
-                `${((event.clientX - box.left - box.width / 2) / box.width) * 9}px`,
-              );
-              event.currentTarget.style.setProperty(
-                '--pan-y',
-                `${((event.clientY - box.top - box.height / 2) / box.height) * 6}px`,
-              );
-            }}
-            onPointerLeave={(event) => {
-              event.currentTarget.style.setProperty('--pan-x', '0px');
-              event.currentTarget.style.setProperty('--pan-y', '0px');
-            }}
-          >
-            <div className="hero-art" key={selected}>
-              <img src={current.image} alt={current.place[locale]} fetchPriority="high" />
-              <div className="hero-art-wash" />
-            </div>
-            <div className="hero-copy container">
-              <p className="eyebrow hero-eyebrow">
-                <span />
-                {text.eyebrow}
-              </p>
-              <h1>
-                {text.hero1}
-                <br />
-                <span>{text.hero2}</span>
-              </h1>
-              <p className="hero-description">{text.heroDescription}</p>
-              <a className="button primary hero-cta" href={`#/world/${selected}`}>
-                {text.enter}
-                <Icon name="arrow" size={18} />
-              </a>
-              <button className="explore-link" onClick={() => scrollTo('worlds')}>
-                {text.explore}
-                <span aria-hidden="true">↓</span>
-              </button>
-            </div>
-            <div className="hero-side-note" aria-hidden="true">
-              {current.place[locale]}
-            </div>
-            <span className="hero-scene-caption">
-              {current.number}
-              <span />
-              {current.title[locale]} · {text.preview}
-            </span>
-            <div className="hero-bottom container">
-              <div className="hero-world-selector" role="group" aria-label={text.worlds}>
-                {worlds.map((world) => (
-                  <button
-                    key={world.id}
-                    aria-pressed={selected === world.id}
-                    className={selected === world.id ? 'is-selected' : ''}
-                    onClick={() => setSelected(world.id)}
-                  >
-                    <span className="world-number">{world.number}</span>
-                    <span className="world-selector-text">
-                      {world.title[locale]}
-                      <small>{world.genre[locale]}</small>
-                    </span>
-                    <span className="selector-dot" />
-                  </button>
-                ))}
-              </div>
-            </div>
-          </section>
-          <div className="chapter-divider container">
-            <span>{text.artNote}</span>
-            <Icon name="leaf" size={16} />
-            <span>THE FOUR CLASSICS</span>
-          </div>
-          <section id="worlds" className="worlds-section container">
-            <div className="section-heading">
-              <div>
-                <p className="eyebrow">CHOOSE YOUR CHAPTER</p>
-                <h2>
-                  {text.worldsHeading1}
-                  <br />
-                  {text.worldsHeading2}
-                </h2>
-              </div>
-              <p>{text.worldsDescription}</p>
-            </div>
-            <div className="world-grid">
-              {worlds.map((world) => (
-                <article
-                  className="world-card"
-                  key={world.id}
-                  style={{ '--card-accent': world.accent } as CSSProperties}
-                >
-                  <a
-                    href={`#/world/${world.id}`}
-                    className="world-card-image"
-                    aria-label={`${text.enter} · ${world.title[locale]}`}
-                  >
-                    <img
-                      src={world.image.replace('.webp', '-card.webp')}
-                      alt={world.place[locale]}
-                      loading="lazy"
-                      width="640"
-                      height="800"
-                    />
-                    <span className="card-chapter">
-                      {text.chapter} {world.number}
-                    </span>
-                    <span className="card-preview">{text.preview}</span>
-                    <span className="card-calligraphy" aria-hidden="true">
-                      {world.title[locale]}
-                    </span>
-                  </a>
-                  <button
-                    className={`card-bookmark ${traveler.bookmarks.includes(world.id) ? 'saved' : ''}`}
-                    onClick={() => toggleBookmark(world.id)}
-                    aria-label={`${traveler.bookmarks.includes(world.id) ? text.unsave : text.save} · ${world.title[locale]}`}
-                    aria-pressed={traveler.bookmarks.includes(world.id)}
-                  >
-                    <Icon
-                      name={traveler.bookmarks.includes(world.id) ? 'check' : 'bookmark'}
-                      size={16}
-                    />
-                  </button>
-                  <div className="card-meta">
-                    <span>{world.genre[locale]}</span>
-                    <span>{world.number}</span>
-                  </div>
-                  <a href={`#/world/${world.id}`} className="world-card-title">
-                    <h3>{world.title[locale]}</h3>
-                    <Icon name="arrow" size={19} />
-                  </a>
-                  <p className="card-invitation">{world.invitation[locale]}</p>
-                </article>
-              ))}
-            </div>
-          </section>
-          <section id="our-story" className="story-section container">
-            <div className="story-image">
-              <img
-                src={honglou.image}
-                alt={honglou.place[locale]}
-                loading="lazy"
-                width="800"
-                height="600"
-              />
-              <p>{text.gardenCaption}</p>
-              <span className="story-image-index" aria-hidden="true">
-                肆
-              </span>
-            </div>
-            <div className="story-copy">
-              <p className="eyebrow">{text.aboutEyebrow}</p>
-              <h2>
-                {text.aboutHeading1}
-                <br />
-                {text.aboutHeading2}
-              </h2>
-              <p>{text.aboutDescription}</p>
-              <p className="story-detail">{text.aboutDetail}</p>
-              <span className="story-seal" aria-hidden="true">
-                入<br />境
-              </span>
-            </div>
-          </section>
-        </main>
-      ) : WorldPage && isGameId(route) ? (
-        <PageBoundary key={route} locale={locale}>
-          <Suspense
-            fallback={
-              <main id="main" className="empty-page" role="status">
-                <Icon name="book" size={30} />
-                <p>{text.loading}</p>
-              </main>
-            }
-          >
-            <WorldPage
+          <Suspense fallback={<p role="status">{text.loading}</p>}>
+            <FineInkStudy
               locale={locale}
-              bookmarked={traveler.bookmarks.includes(route)}
-              onBookmark={() => toggleBookmark(route)}
+              reducedMotion={reducedMotion}
+              onMotionChange={(value) => updatePreferences({ reducedMotion: value })}
+              onEnter={enterFromMap}
             />
           </Suspense>
+        </main>
+      ) : WorldPage && isGameId(route) ? (
+        <PageBoundary
+          key={`${route}-${arrivalRevision}`}
+          locale={locale}
+          onFailure={() => setArrival(false)}
+        >
+          <div inert={arrival && route === 'xiyou'}>
+            {(!arrival || arrivalRuntime) && (
+              <Suspense
+                fallback={
+                  <main id="main" className="empty-page" role="status">
+                    <Icon name="book" size={30} />
+                    <p>{text.loading}</p>
+                  </main>
+                }
+              >
+                <WorldPage
+                  locale={locale}
+                  onLocaleChange={(next: Locale) => update({ locale: next })}
+                  arrival={
+                    arrival && route === 'xiyou'
+                      ? { play: arrivalPlay, onStatus: reportArrival }
+                      : undefined
+                  }
+                  bookmarked={traveler.bookmarks.includes(route)}
+                  onBookmark={() => toggleBookmark(route)}
+                />
+              </Suspense>
+            )}
+          </div>
         </PageBoundary>
       ) : (
         <main id="main" className="empty-page">
           <p className="eyebrow">404 / UNWRITTEN CHAPTER</p>
           <h1>{text.notFound}</h1>
-          <a className="button primary" href="#/">
+          <a className="button primary" href={homeHref(locale)}>
             {text.home}
           </a>
         </main>
       )}
       <footer className="site-footer container">
-        <a href="#/" className="footer-brand">
+        <a href={homeHref(locale)} className="footer-brand">
           {text.brand}
           <span>THE FOUR CLASSICS</span>
         </a>
@@ -539,17 +532,40 @@ export function App() {
           <p>{text.footer}</p>
           <small>{text.footerNote}</small>
         </div>
-        <button className="footer-journal" onClick={() => setJournal(true)}>
+        <Button variant="quiet" className="footer-journal" onClick={() => setJournal(true)}>
           {text.journal}
           <Icon name="arrow" size={16} />
-        </button>
+        </Button>
       </footer>
+      {arrival && route === 'xiyou' && (
+        <Suspense fallback={<p role="status">{text.loading}</p>}>
+          <ChanganEntrance
+            locale={locale}
+            reducedMotion={reducedMotion}
+            direct={arrivalDirect}
+            status={arrivalStatus}
+            onStart={startArrival}
+            onLoadGame={loadArrivalRuntime}
+            onComplete={completeArrival}
+            onReturn={() => {
+              setArrival(false);
+              setArrivalPlay(false);
+              window.location.assign(homeHref(locale));
+            }}
+            onRetry={() => {
+              setArrivalStatus(initialArrival);
+              setArrivalPlay(false);
+              setArrivalRevision((value) => value + 1);
+            }}
+          />
+        </Suspense>
+      )}
       {journal && (
         <Journal
-          traveler={traveler}
+          traveler={{ ...traveler, reducedMotion }}
           persisted={persisted}
           onClose={() => setJournal(false)}
-          onUpdate={update}
+          onUpdate={updatePreferences}
           onBookmark={toggleBookmark}
           notify={notify}
         />

@@ -1,0 +1,137 @@
+{
+  "version": "home-navigation-v1",
+  "sourceSize": [
+    1586,
+    992
+  ],
+  "waterMask": "apps/website/public/art/atlas/fine-ink/water-mask-v2.webp",
+  "waterMaskSha256": "c78f23aea98390aafe783c35b59dcf6aea1888f051490041ed6e20e779fcc2ce",
+  "hullFootprint": [
+    [
+      0,
+      0
+    ],
+    [
+      -9,
+      0
+    ],
+    [
+      9,
+      0
+    ],
+    [
+      -6,
+      -2
+    ],
+    [
+      6,
+      -2
+    ],
+    [
+      -6,
+      2
+    ],
+    [
+      6,
+      2
+    ],
+    [
+      0,
+      -3
+    ],
+    [
+      0,
+      3
+    ]
+  ],
+  "bridgeOpenings": [
+    [
+      [
+        524,
+        738
+      ],
+      [
+        537,
+        770
+      ]
+    ],
+    [
+      [
+        1194,
+        634
+      ],
+      [
+        1198,
+        679
+      ]
+    ],
+    [
+      [
+        1275,
+        791
+      ],
+      [
+        1290,
+        844
+      ]
+    ]
+  ],
+  "sourceSeeds": "water-routes-source.json",
+  "output": "apps/website/src/fine-ink-home/boat-routes.json",
+  "checks": [
+    {
+      "name": "north-trade-channel",
+      "points": 8,
+      "samples": 676,
+      "connectedSeeds": 4,
+      "sourceSeeds": 7,
+      "fullHullSafe": true,
+      "bridgePassages": 0
+    },
+    {
+      "name": "liangshan-ferry",
+      "points": 9,
+      "samples": 640,
+      "connectedSeeds": 5,
+      "sourceSeeds": 5,
+      "fullHullSafe": true,
+      "bridgePassages": 0
+    },
+    {
+      "name": "eastern-channel",
+      "points": 2,
+      "samples": 114,
+      "connectedSeeds": 2,
+      "sourceSeeds": 3,
+      "fullHullSafe": true,
+      "bridgePassages": 0
+    },
+    {
+      "name": "han-valley-ferry",
+      "points": 5,
+      "samples": 286,
+      "connectedSeeds": 5,
+      "sourceSeeds": 6,
+      "fullHullSafe": true,
+      "bridgePassages": 2
+    },
+    {
+      "name": "jinling-front-channel",
+      "points": 9,
+      "samples": 712,
+      "connectedSeeds": 5,
+      "sourceSeeds": 6,
+      "fullHullSafe": true,
+      "bridgePassages": 1
+    },
+    {
+      "name": "garden-ferry",
+      "points": 6,
+      "samples": 323,
+      "connectedSeeds": 4,
+      "sourceSeeds": 4,
+      "fullHullSafe": true,
+      "bridgePassages": 0
+    }
+  ]
+}

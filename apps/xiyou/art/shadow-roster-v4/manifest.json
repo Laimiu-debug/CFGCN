@@ -1,0 +1,885 @@
+{
+  "characters": [
+    {
+      "id": "tangseng",
+      "name": "唐僧",
+      "status": "resource study; visual review pending",
+      "source": "OpenAI built-in image_gen; original art",
+      "source_image": "parts-source.png",
+      "source_sha256": "dc323a11c333051e64f4e8ebeedb8edf888269a5241efc5cc1aceee0d8cfeefa",
+      "prompt": "prompt.txt",
+      "woop": "tangseng.woop",
+      "editable": "tangseng.blend",
+      "runtime": "tangseng.glb",
+      "runtime_sha256": "0938ec5f916b64243532f0a19fc1a18ccf20a89a415d93f9904dc58996532bc8",
+      "runtime_bytes": 1252376,
+      "texture_size": [
+        1024,
+        1024
+      ],
+      "source_texture_size": [
+        1254,
+        1254
+      ],
+      "parts": 16,
+      "joints": 15,
+      "bones": 16,
+      "anatomy": "chest -> abdomen -> pelvis -> thighs",
+      "triangles": 32,
+      "materials": 1,
+      "clips": [
+        "Idle",
+        "Walk",
+        "RestPose"
+      ],
+      "importer": "Official WooooShadow 0.8.13, loaded locally in an isolated Blender process",
+      "importer_sha256": "d05e8f74c00d40c1dd1e043e5d9bc5f70b86c1c0abd6a181cba7c2d94e6b4c60",
+      "blender": "5.2.2 LTS",
+      "directions": [
+        "side-right",
+        "mirrored-side-left"
+      ],
+      "tripo": "Not used: direct original 2D puppet artwork",
+      "in_game": false,
+      "version": 4,
+      "nominal_body_height": 2.32,
+      "proportions": {
+        "shape": "修长端正，窄肩、长袍，步幅克制",
+        "head": [
+          52,
+          29
+        ],
+        "chest": [
+          72,
+          50
+        ],
+        "abdomen": [
+          77,
+          47
+        ],
+        "pelvis": [
+          70,
+          52
+        ],
+        "upper": [
+          40,
+          16
+        ],
+        "fore": [
+          38,
+          13
+        ],
+        "thigh": [
+          53,
+          25
+        ],
+        "shin": [
+          55,
+          20
+        ],
+        "foot": [
+          12,
+          32
+        ],
+        "lean": -0.015,
+        "crouch": 0.045,
+        "stride": 0.2,
+        "lift": 0.065,
+        "period": 1.22,
+        "arm_swing": 0.09,
+        "fore_angle": -0.35,
+        "weapon_tilt": 0.05,
+        "idle_crouch": 0.004,
+        "hip_span": 14,
+        "duty": 0.64,
+        "idle_compression": 0.004,
+        "extra_compression": 0.0,
+        "idle_stance": 0.045,
+        "foot_anchor_y": 0.38
+      },
+      "weapon_source": "weapon-source.png",
+      "weapon_prompt": "weapon-prompt.txt",
+      "weapon_source_sha256": "eeb4686bcd4f81a489895cdd9561d036ec4fe56fe12ab6d93f663d1d160c2e5a",
+      "lower_body_source": "lower-body-source.png",
+      "lower_body_prompt": "lower-body-prompt.txt",
+      "lower_body_source_sha256": "95ec22988b2251d26f41fb3d0744d18d56b81a1de11b117250d821a045326fae",
+      "weapon_body_ratio": 1.07,
+      "runtime_atlas": "runtime-atlas.png",
+      "walk_distance": 0.567764156485502,
+      "walk_duty": 0.64,
+      "walk_period": 1.2166666666666666,
+      "revision": "Exact longitudinal joint mapping, forward knees, double support, heel/toe roll and individually redrawn weapons"
+    },
+    {
+      "id": "wukong",
+      "name": "孙悟空",
+      "status": "resource study; visual review pending",
+      "source": "OpenAI built-in image_gen; original art",
+      "source_image": "parts-source.png",
+      "source_sha256": "92992b882fc1b9edee10139b6ce06b79fdfd6fad00a69d0b4708116b6b0bcff0",
+      "prompt": "prompt.txt",
+      "woop": "wukong.woop",
+      "editable": "wukong.blend",
+      "runtime": "wukong.glb",
+      "runtime_sha256": "0565b1737c9094cbbe58faa22390509fa6723beca2ed60d6cb8332117e5c8a78",
+      "runtime_bytes": 1025720,
+      "texture_size": [
+        1024,
+        1024
+      ],
+      "source_texture_size": [
+        1254,
+        1254
+      ],
+      "parts": 16,
+      "joints": 15,
+      "bones": 16,
+      "anatomy": "chest -> abdomen -> pelvis -> thighs",
+      "triangles": 32,
+      "materials": 1,
+      "clips": [
+        "Idle",
+        "Walk",
+        "RestPose"
+      ],
+      "importer": "Official WooooShadow 0.8.13, loaded locally in an isolated Blender process",
+      "importer_sha256": "d05e8f74c00d40c1dd1e043e5d9bc5f70b86c1c0abd6a181cba7c2d94e6b4c60",
+      "blender": "5.2.2 LTS",
+      "directions": [
+        "side-right",
+        "mirrored-side-left"
+      ],
+      "tripo": "Not used: direct original 2D puppet artwork",
+      "in_game": false,
+      "version": 4,
+      "nominal_body_height": 1.74,
+      "proportions": {
+        "shape": "矮捷，头略大、腰短、长臂，屈膝蓄势",
+        "head": [
+          46,
+          38
+        ],
+        "chest": [
+          50,
+          49
+        ],
+        "abdomen": [
+          56,
+          43
+        ],
+        "pelvis": [
+          32,
+          48
+        ],
+        "upper": [
+          37,
+          14
+        ],
+        "fore": [
+          36,
+          12
+        ],
+        "thigh": [
+          38,
+          27
+        ],
+        "shin": [
+          35,
+          22
+        ],
+        "foot": [
+          12,
+          28
+        ],
+        "lean": 0.07,
+        "crouch": 0.12,
+        "stride": 0.22,
+        "lift": 0.075,
+        "period": 0.88,
+        "arm_swing": 0.27,
+        "fore_angle": -0.52,
+        "weapon_tilt": 0.1,
+        "idle_crouch": 0.08,
+        "hip_span": 16,
+        "duty": 0.62,
+        "idle_compression": 0.014,
+        "extra_compression": 0.012,
+        "idle_stance": 0.045,
+        "foot_anchor_y": 0.38
+      },
+      "weapon_source": "weapon-source.png",
+      "weapon_prompt": "weapon-prompt.txt",
+      "weapon_source_sha256": "9fe456639795c27725f3b55d0febf71d69f300e8d7c640d9045b1a39a4b84c0e",
+      "lower_body_source": "lower-body-source.png",
+      "lower_body_prompt": "lower-body-prompt.txt",
+      "lower_body_source_sha256": "6270d39e2576661e55c378256b8a50cd04246c68e00eedf67eafa2b8279a469c",
+      "weapon_body_ratio": 1.18,
+      "runtime_atlas": "runtime-atlas.png",
+      "walk_distance": 0.6566195414641174,
+      "walk_duty": 0.62,
+      "walk_period": 0.8833333333333333,
+      "revision": "Exact longitudinal joint mapping, forward knees, double support, heel/toe roll and individually redrawn weapons"
+    },
+    {
+      "id": "bajie",
+      "name": "猪八戒",
+      "status": "resource study; visual review pending",
+      "source": "OpenAI built-in image_gen; original art",
+      "source_image": "parts-source.png",
+      "source_sha256": "7361d8de801441438d6f8db90f77c58044d09a7485a0c35a98a5379d9aceaee6",
+      "prompt": "prompt.txt",
+      "woop": "bajie.woop",
+      "editable": "bajie.blend",
+      "runtime": "bajie.glb",
+      "runtime_sha256": "e1850c43434e5e3a830a5e7b5435adab5b9d9f7ac53cb186c0b727d1dacb0638",
+      "runtime_bytes": 1242604,
+      "texture_size": [
+        1024,
+        1024
+      ],
+      "source_texture_size": [
+        1254,
+        1254
+      ],
+      "parts": 16,
+      "joints": 15,
+      "bones": 16,
+      "anatomy": "chest -> abdomen -> pelvis -> thighs",
+      "triangles": 32,
+      "materials": 1,
+      "clips": [
+        "Idle",
+        "Walk",
+        "RestPose"
+      ],
+      "importer": "Official WooooShadow 0.8.13, loaded locally in an isolated Blender process",
+      "importer_sha256": "d05e8f74c00d40c1dd1e043e5d9bc5f70b86c1c0abd6a181cba7c2d94e6b4c60",
+      "blender": "5.2.2 LTS",
+      "directions": [
+        "side-right",
+        "mirrored-side-left"
+      ],
+      "tripo": "Not used: direct original 2D puppet artwork",
+      "in_game": false,
+      "version": 4,
+      "nominal_body_height": 1.8,
+      "proportions": {
+        "shape": "圆厚，腹部最宽、短腿粗臂，重心低",
+        "head": [
+          50,
+          64
+        ],
+        "chest": [
+          60,
+          81
+        ],
+        "abdomen": [
+          106,
+          126
+        ],
+        "pelvis": [
+          30,
+          87
+        ],
+        "upper": [
+          30,
+          27
+        ],
+        "fore": [
+          28,
+          25
+        ],
+        "thigh": [
+          28,
+          43
+        ],
+        "shin": [
+          24,
+          37
+        ],
+        "foot": [
+          14,
+          43
+        ],
+        "lean": -0.025,
+        "crouch": 0.05,
+        "stride": 0.11,
+        "lift": 0.035,
+        "period": 1.4,
+        "arm_swing": 0.13,
+        "fore_angle": -0.38,
+        "weapon_tilt": -0.04,
+        "idle_crouch": 0.008,
+        "hip_span": 28,
+        "duty": 0.68,
+        "idle_compression": 0.005,
+        "extra_compression": 0.0,
+        "idle_stance": 0.045,
+        "foot_anchor_y": 0.38
+      },
+      "weapon_source": "weapon-source.png",
+      "weapon_prompt": "weapon-prompt.txt",
+      "weapon_source_sha256": "238f5678b1e4a9903f9f8be2256fba45b611f5a55b3e4149ac8dff2869b40b79",
+      "lower_body_source": "lower-body-source.png",
+      "lower_body_prompt": "lower-body-prompt.txt",
+      "lower_body_source_sha256": "240d8f3a49a7c774a63847d00f149f7ff284e278166cff368cf781aa0f4a323e",
+      "weapon_body_ratio": 1.15,
+      "runtime_atlas": "runtime-atlas.png",
+      "walk_distance": 0.28608417232092287,
+      "walk_duty": 0.68,
+      "walk_period": 1.4,
+      "revision": "Exact longitudinal joint mapping, forward knees, double support, heel/toe roll and individually redrawn weapons"
+    },
+    {
+      "id": "shaseng",
+      "name": "沙悟净",
+      "status": "resource study; visual review pending",
+      "source": "OpenAI built-in image_gen; original art",
+      "source_image": "parts-source.png",
+      "source_sha256": "240b94b935568af68cab4fd57421e508e72f36e666c563afa209f034aaae19ac",
+      "prompt": "prompt.txt",
+      "woop": "shaseng.woop",
+      "editable": "shaseng.blend",
+      "runtime": "shaseng.glb",
+      "runtime_sha256": "693d8ffdb35dd752997dfecca933c2bfcc23d53132885b86bf80f04ed9669bdb",
+      "runtime_bytes": 1265720,
+      "texture_size": [
+        1024,
+        1024
+      ],
+      "source_texture_size": [
+        1254,
+        1254
+      ],
+      "parts": 16,
+      "joints": 15,
+      "bones": 16,
+      "anatomy": "chest -> abdomen -> pelvis -> thighs",
+      "triangles": 32,
+      "materials": 1,
+      "clips": [
+        "Idle",
+        "Walk",
+        "RestPose"
+      ],
+      "importer": "Official WooooShadow 0.8.13, loaded locally in an isolated Blender process",
+      "importer_sha256": "d05e8f74c00d40c1dd1e043e5d9bc5f70b86c1c0abd6a181cba7c2d94e6b4c60",
+      "blender": "5.2.2 LTS",
+      "directions": [
+        "side-right",
+        "mirrored-side-left"
+      ],
+      "tripo": "Not used: direct original 2D puppet artwork",
+      "in_game": false,
+      "version": 4,
+      "nominal_body_height": 2.5,
+      "proportions": {
+        "shape": "最高壮，宽肩长躯、长臂长腿，落步沉稳",
+        "head": [
+          47,
+          43
+        ],
+        "chest": [
+          88,
+          93
+        ],
+        "abdomen": [
+          72,
+          75
+        ],
+        "pelvis": [
+          55,
+          74
+        ],
+        "upper": [
+          52,
+          27
+        ],
+        "fore": [
+          48,
+          22
+        ],
+        "thigh": [
+          58,
+          35
+        ],
+        "shin": [
+          56,
+          28
+        ],
+        "foot": [
+          14,
+          37
+        ],
+        "lean": 0.035,
+        "crouch": 0.09,
+        "stride": 0.28,
+        "lift": 0.075,
+        "period": 1.26,
+        "arm_swing": 0.15,
+        "fore_angle": -0.42,
+        "weapon_tilt": 0.08,
+        "idle_crouch": 0.008,
+        "hip_span": 22,
+        "duty": 0.64,
+        "idle_compression": 0.004,
+        "extra_compression": 0.0,
+        "idle_stance": 0.045,
+        "foot_anchor_y": 0.38
+      },
+      "weapon_source": "weapon-source.png",
+      "weapon_prompt": "weapon-prompt.txt",
+      "weapon_source_sha256": "68d086bdb78a40a30cb59877412f5d12512e433a4f55f8e15fc9e558154a3e6c",
+      "lower_body_source": "lower-body-source.png",
+      "lower_body_prompt": "lower-body-prompt.txt",
+      "lower_body_source_sha256": "5fa16b15b42cf67239bda385166d40165a7fef157a37a1c5be9c023195feb636",
+      "weapon_body_ratio": 1.14,
+      "runtime_atlas": "runtime-atlas.png",
+      "walk_distance": 0.8180016453518811,
+      "walk_duty": 0.64,
+      "walk_period": 1.2666666666666666,
+      "revision": "Exact longitudinal joint mapping, forward knees, double support, heel/toe roll and individually redrawn weapons"
+    },
+    {
+      "id": "xiaobailong",
+      "name": "小白龙（人形）",
+      "status": "resource study; visual review pending",
+      "source": "OpenAI built-in image_gen; original art",
+      "source_image": "parts-source.png",
+      "source_sha256": "1b4991db11dc1b50c1fe8332aa1c2878059ddd9e6ce2fba78696c7ba9d8f475c",
+      "prompt": "prompt.txt",
+      "woop": "xiaobailong.woop",
+      "editable": "xiaobailong.blend",
+      "runtime": "xiaobailong.glb",
+      "runtime_sha256": "9570ffd4e4c81cd60de349eff8a1147880ba09a25d3649d11ac1bde482f10e0c",
+      "runtime_bytes": 1269104,
+      "texture_size": [
+        1024,
+        1024
+      ],
+      "source_texture_size": [
+        1254,
+        1254
+      ],
+      "parts": 16,
+      "joints": 15,
+      "bones": 16,
+      "anatomy": "chest -> abdomen -> pelvis -> thighs",
+      "triangles": 32,
+      "materials": 1,
+      "clips": [
+        "Idle",
+        "Walk",
+        "RestPose"
+      ],
+      "importer": "Official WooooShadow 0.8.13, loaded locally in an isolated Blender process",
+      "importer_sha256": "d05e8f74c00d40c1dd1e043e5d9bc5f70b86c1c0abd6a181cba7c2d94e6b4c60",
+      "blender": "5.2.2 LTS",
+      "directions": [
+        "side-right",
+        "mirrored-side-left"
+      ],
+      "tripo": "Not used: direct original 2D puppet artwork",
+      "in_game": false,
+      "version": 4,
+      "nominal_body_height": 2.22,
+      "proportions": {
+        "shape": "清瘦少年，肩胯窄、腿最长，步态轻快",
+        "head": [
+          46,
+          32
+        ],
+        "chest": [
+          63,
+          48
+        ],
+        "abdomen": [
+          60,
+          42
+        ],
+        "pelvis": [
+          48,
+          45
+        ],
+        "upper": [
+          36,
+          12
+        ],
+        "fore": [
+          35,
+          11
+        ],
+        "thigh": [
+          63,
+          25
+        ],
+        "shin": [
+          60,
+          18
+        ],
+        "foot": [
+          12,
+          30
+        ],
+        "lean": 0.015,
+        "crouch": 0.065,
+        "stride": 0.29,
+        "lift": 0.095,
+        "period": 1.1,
+        "arm_swing": 0.18,
+        "fore_angle": -0.43,
+        "weapon_tilt": -0.72,
+        "idle_crouch": 0.004,
+        "hip_span": 14,
+        "duty": 0.62,
+        "idle_compression": 0.004,
+        "extra_compression": 0.0,
+        "idle_stance": 0.045,
+        "foot_anchor_y": 0.38
+      },
+      "weapon_source": "weapon-source.png",
+      "weapon_prompt": "weapon-prompt.txt",
+      "weapon_source_sha256": "af180f2100659999fb9d5baa0053adc947f3ae1dae59d56b8ba59fbcb0db7c1e",
+      "lower_body_source": "lower-body-source.png",
+      "lower_body_prompt": "lower-body-prompt.txt",
+      "lower_body_source_sha256": "47ab354c290602e6fde8ecfb6a888e2e8ab63860111597be2f216fcf46b18bf5",
+      "weapon_body_ratio": 0.6,
+      "runtime_atlas": "runtime-atlas.png",
+      "walk_distance": 0.8311161681619328,
+      "walk_duty": 0.62,
+      "walk_period": 1.1,
+      "revision": "Exact longitudinal joint mapping, forward knees, double support, heel/toe roll and individually redrawn weapons"
+    },
+    {
+      "id": "wolf",
+      "name": "狼妖",
+      "status": "resource study; visual review pending",
+      "source": "OpenAI built-in image_gen; original art",
+      "source_image": "parts-source.png",
+      "source_sha256": "e1f7d9206d1190761ed1cf2dfdc83f627ad0bc10b0f5097dbd90c8ef55ab8db7",
+      "prompt": "prompt.txt",
+      "woop": "wolf.woop",
+      "editable": "wolf.blend",
+      "runtime": "wolf.glb",
+      "runtime_sha256": "c634f808ce85e21682ea3b344ee4db530118d60925b062e10c2a14b0871bb272",
+      "runtime_bytes": 1361500,
+      "texture_size": [
+        1024,
+        1024
+      ],
+      "source_texture_size": [
+        1254,
+        1254
+      ],
+      "parts": 16,
+      "joints": 15,
+      "bones": 16,
+      "anatomy": "chest -> abdomen -> pelvis -> thighs",
+      "triangles": 32,
+      "materials": 1,
+      "clips": [
+        "Idle",
+        "Walk",
+        "RestPose"
+      ],
+      "importer": "Official WooooShadow 0.8.13, loaded locally in an isolated Blender process",
+      "importer_sha256": "d05e8f74c00d40c1dd1e043e5d9bc5f70b86c1c0abd6a181cba7c2d94e6b4c60",
+      "blender": "5.2.2 LTS",
+      "directions": [
+        "side-right",
+        "mirrored-side-left"
+      ],
+      "tripo": "Not used: direct original 2D puppet artwork",
+      "in_game": false,
+      "version": 4,
+      "nominal_body_height": 1.98,
+      "proportions": {
+        "shape": "前倾佝偻，长嘴、窄腰、长臂，低身探步",
+        "head": [
+          54,
+          61
+        ],
+        "chest": [
+          56,
+          48
+        ],
+        "abdomen": [
+          50,
+          39
+        ],
+        "pelvis": [
+          34,
+          44
+        ],
+        "upper": [
+          47,
+          20
+        ],
+        "fore": [
+          44,
+          17
+        ],
+        "thigh": [
+          54,
+          28
+        ],
+        "shin": [
+          48,
+          22
+        ],
+        "foot": [
+          14,
+          34
+        ],
+        "lean": 0.16,
+        "crouch": 0.19,
+        "stride": 0.27,
+        "lift": 0.095,
+        "period": 0.96,
+        "arm_swing": 0.31,
+        "fore_angle": -0.62,
+        "weapon_tilt": 0.28,
+        "idle_crouch": 0.14,
+        "hip_span": 16,
+        "duty": 0.62,
+        "idle_compression": 0.025,
+        "extra_compression": 0.02,
+        "idle_stance": 0.045,
+        "foot_anchor_y": 0.38
+      },
+      "weapon_source": "weapon-source.png",
+      "weapon_prompt": "weapon-prompt.txt",
+      "weapon_source_sha256": "776cf6c70f9157fdc55e6f03336179b2d0b041d87daabdbffe668ce9436a1737",
+      "lower_body_source": "lower-body-source.png",
+      "lower_body_prompt": "lower-body-prompt.txt",
+      "lower_body_source_sha256": "50462aab7d9f43bd387779d1c01ca01d4414025477d9233e97ff3039af910d55",
+      "weapon_body_ratio": 0.43,
+      "runtime_atlas": "runtime-atlas.png",
+      "walk_distance": 0.7582290402006061,
+      "walk_duty": 0.62,
+      "walk_period": 0.9666666666666667,
+      "revision": "Exact longitudinal joint mapping, forward knees, double support, heel/toe roll and individually redrawn weapons"
+    },
+    {
+      "id": "tiger",
+      "name": "虎妖",
+      "status": "resource study; visual review pending",
+      "source": "OpenAI built-in image_gen; original art",
+      "source_image": "parts-source.png",
+      "source_sha256": "dd2ea95795784414afaf3bf9c0a1c96edb3ac66a8737db9ebcc7c8e7676e6f14",
+      "prompt": "prompt.txt",
+      "woop": "tiger.woop",
+      "editable": "tiger.blend",
+      "runtime": "tiger.glb",
+      "runtime_sha256": "17805f4366c694d7eba5793eaef39b14436acc474a98af535da254a3996da4d7",
+      "runtime_bytes": 1339524,
+      "texture_size": [
+        1024,
+        1024
+      ],
+      "source_texture_size": [
+        1254,
+        1254
+      ],
+      "parts": 16,
+      "joints": 15,
+      "bones": 16,
+      "anatomy": "chest -> abdomen -> pelvis -> thighs",
+      "triangles": 32,
+      "materials": 1,
+      "clips": [
+        "Idle",
+        "Walk",
+        "RestPose"
+      ],
+      "importer": "Official WooooShadow 0.8.13, loaded locally in an isolated Blender process",
+      "importer_sha256": "d05e8f74c00d40c1dd1e043e5d9bc5f70b86c1c0abd6a181cba7c2d94e6b4c60",
+      "blender": "5.2.2 LTS",
+      "directions": [
+        "side-right",
+        "mirrored-side-left"
+      ],
+      "tripo": "Not used: direct original 2D puppet artwork",
+      "in_game": false,
+      "version": 4,
+      "nominal_body_height": 2.24,
+      "proportions": {
+        "shape": "倒三角壮硕，肩背宽、粗臂大掌，低沉有力",
+        "head": [
+          60,
+          59
+        ],
+        "chest": [
+          86,
+          108
+        ],
+        "abdomen": [
+          62,
+          70
+        ],
+        "pelvis": [
+          42,
+          70
+        ],
+        "upper": [
+          48,
+          32
+        ],
+        "fore": [
+          43,
+          28
+        ],
+        "thigh": [
+          44,
+          40
+        ],
+        "shin": [
+          37,
+          34
+        ],
+        "foot": [
+          16,
+          42
+        ],
+        "lean": 0.035,
+        "crouch": 0.1,
+        "stride": 0.2,
+        "lift": 0.06,
+        "period": 1.18,
+        "arm_swing": 0.23,
+        "fore_angle": -0.46,
+        "weapon_tilt": 0.2,
+        "idle_crouch": 0.025,
+        "hip_span": 26,
+        "duty": 0.64,
+        "idle_compression": 0.01,
+        "extra_compression": 0.005,
+        "idle_stance": 0.045,
+        "foot_anchor_y": 0.38
+      },
+      "weapon_source": "weapon-source.png",
+      "weapon_prompt": "weapon-prompt.txt",
+      "weapon_source_sha256": "fc32984c28d57904aeb54a8066a7d87a72ff22e513c408a7e6064e28fc0e5255",
+      "lower_body_source": "lower-body-source.png",
+      "lower_body_prompt": "lower-body-prompt.txt",
+      "lower_body_source_sha256": "0974cd55ca69d5c834759376a522acfc8ae243ec978a640cdbc18bdb93d4f724",
+      "weapon_body_ratio": 0.72,
+      "runtime_atlas": "runtime-atlas.png",
+      "walk_distance": 0.5795181720341088,
+      "walk_duty": 0.64,
+      "walk_period": 1.1833333333333333,
+      "revision": "Exact longitudinal joint mapping, forward knees, double support, heel/toe roll and individually redrawn weapons"
+    },
+    {
+      "id": "baigufuren",
+      "name": "白骨夫人",
+      "status": "resource study; visual review pending",
+      "source": "OpenAI built-in image_gen; original art",
+      "source_image": "parts-source.png",
+      "source_sha256": "7dc21e0fe13dce63ffd571e0d9a6e3451558d5c8248edfdceb5dec65f84166c3",
+      "prompt": "prompt.txt",
+      "woop": "baigufuren.woop",
+      "editable": "baigufuren.blend",
+      "runtime": "baigufuren.glb",
+      "runtime_sha256": "4c672fe1358a2b4d34c6867d126b0c4debed4eeadaca45bd3ade9c2a2b413eed",
+      "runtime_bytes": 1141712,
+      "texture_size": [
+        1024,
+        1024
+      ],
+      "source_texture_size": [
+        1254,
+        1254
+      ],
+      "parts": 16,
+      "joints": 15,
+      "bones": 16,
+      "anatomy": "chest -> abdomen -> pelvis -> thighs",
+      "triangles": 32,
+      "materials": 1,
+      "clips": [
+        "Idle",
+        "Walk",
+        "RestPose"
+      ],
+      "importer": "Official WooooShadow 0.8.13, loaded locally in an isolated Blender process",
+      "importer_sha256": "d05e8f74c00d40c1dd1e043e5d9bc5f70b86c1c0abd6a181cba7c2d94e6b4c60",
+      "blender": "5.2.2 LTS",
+      "directions": [
+        "side-right",
+        "mirrored-side-left"
+      ],
+      "tripo": "Not used: direct original 2D puppet artwork",
+      "in_game": false,
+      "version": 4,
+      "nominal_body_height": 2.29,
+      "proportions": {
+        "shape": "纤长冷峻，细腰细臂、长手足，缓步少摆",
+        "head": [
+          49,
+          29
+        ],
+        "chest": [
+          60,
+          44
+        ],
+        "abdomen": [
+          76,
+          35
+        ],
+        "pelvis": [
+          57,
+          49
+        ],
+        "upper": [
+          43,
+          11
+        ],
+        "fore": [
+          42,
+          10
+        ],
+        "thigh": [
+          61,
+          23
+        ],
+        "shin": [
+          58,
+          16
+        ],
+        "foot": [
+          11,
+          28
+        ],
+        "lean": -0.025,
+        "crouch": 0.035,
+        "stride": 0.18,
+        "lift": 0.06,
+        "period": 1.42,
+        "arm_swing": 0.055,
+        "fore_angle": -0.31,
+        "weapon_tilt": 0.12,
+        "idle_crouch": 0.002,
+        "hip_span": 13,
+        "duty": 0.66,
+        "idle_compression": 0.003,
+        "extra_compression": 0.0,
+        "idle_stance": 0.045,
+        "foot_anchor_y": 0.38
+      },
+      "weapon_source": "weapon-source.png",
+      "weapon_prompt": "weapon-prompt.txt",
+      "weapon_source_sha256": "6f84c174ea91c87043ffa947a6f983f129668b9f57cdfb86c8b2f235a6f019aa",
+      "lower_body_source": "lower-body-source.png",
+      "lower_body_prompt": "lower-body-prompt.txt",
+      "lower_body_source_sha256": "d60a1ac458938d157eeb485ce713a65d00f1d076ee576ca16cb63fd05743fae9",
+      "weapon_body_ratio": 0.5,
+      "runtime_atlas": "runtime-atlas.png",
+      "walk_distance": 0.49100217160256665,
+      "walk_duty": 0.66,
+      "walk_period": 1.4166666666666667,
+      "revision": "Exact longitudinal joint mapping, forward knees, double support, heel/toe roll and individually redrawn weapons"
+    }
+  ],
+  "status": "resource studies; review pending"
+}

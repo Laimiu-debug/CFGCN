@@ -1,0 +1,1258 @@
+{
+  "id": "tangseng",
+  "name": "唐僧",
+  "height": 2.32,
+  "source": "apps/xiyou/art/shadow-roster-v4/tangseng/tangseng.blend",
+  "source_sha256": "8ae0241d7b9e95029a1b472d7dd75f598208d91fb8d9e62c89c27479a5f80f93",
+  "runtime": "tangseng-actions.glb",
+  "runtime_bytes": 1964524,
+  "runtime_sha256": "d58d7ba2d45d49c3d605b91e3aa360eb79e5eadfb547659824b91546631494f7",
+  "editable": "tangseng-actions.blend",
+  "clips": [
+    "Idle",
+    "Walk",
+    "Chant",
+    "RobeWard",
+    "HealingVow",
+    "LotusPulse",
+    "BellChime",
+    "VowLink",
+    "PureSeal",
+    "Mandala",
+    "ScriptureRibbon",
+    "PilgrimLantern",
+    "KarmicReflection",
+    "PurifyingVerse",
+    "HitRecoil",
+    "DodgeBack",
+    "WalkLower",
+    "Chant_Upper",
+    "RobeWard_Upper",
+    "HealingVow_Upper",
+    "LotusPulse_Upper",
+    "BellChime_Upper",
+    "VowLink_Upper",
+    "PureSeal_Upper",
+    "Mandala_Upper",
+    "ScriptureRibbon_Upper",
+    "PilgrimLantern_Upper",
+    "KarmicReflection_Upper",
+    "RestPose"
+  ],
+  "modules": [
+    {
+      "clip": "Chant",
+      "label": "梵音退敌 · 抬臂诵经",
+      "duration": 1.05,
+      "windup_end": 0.4935,
+      "release_end": 0.63,
+      "events": [
+        {
+          "time": 0.4935,
+          "type": "chant",
+          "socket": "hand.back"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.27,
+          "lean": -0.035,
+          "hand": [
+            0.13,
+            0.58
+          ],
+          "weapon": 0.015,
+          "back_hand": [
+            0.03,
+            0.68
+          ],
+          "compression": 0.015
+        },
+        {
+          "t": 0.47,
+          "lean": 0.06,
+          "hand": [
+            0.15,
+            0.59
+          ],
+          "weapon": 0.02,
+          "back_hand": [
+            0.2,
+            0.7
+          ],
+          "compression": 0.015
+        },
+        {
+          "t": 0.66,
+          "lean": 0.04,
+          "hand": [
+            0.15,
+            0.59
+          ],
+          "weapon": 0.02,
+          "back_hand": [
+            0.16,
+            0.72
+          ],
+          "compression": 0.015
+        }
+      ],
+      "two_hand": false,
+      "upper_clip": "Chant_Upper",
+      "skill_id": "tangseng.Chant"
+    },
+    {
+      "clip": "RobeWard",
+      "label": "锦襕护持 · 展臂护身",
+      "duration": 1.3,
+      "windup_end": 0.546,
+      "release_end": 0.715,
+      "events": [
+        {
+          "time": 0.546,
+          "type": "ward",
+          "socket": "hand.back"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.24,
+          "lean": -0.05,
+          "hand": [
+            0.1,
+            0.65
+          ],
+          "weapon": -0.12,
+          "back_hand": [
+            -0.05,
+            0.67
+          ],
+          "compression": 0.01
+        },
+        {
+          "t": 0.42,
+          "lean": -0.035,
+          "hand": [
+            0.21,
+            0.72
+          ],
+          "weapon": -0.2,
+          "back_hand": [
+            0.19,
+            0.72
+          ],
+          "compression": 0.018
+        },
+        {
+          "t": 0.75,
+          "lean": -0.025,
+          "hand": [
+            0.21,
+            0.72
+          ],
+          "weapon": -0.2,
+          "back_hand": [
+            0.19,
+            0.72
+          ],
+          "compression": 0.018
+        }
+      ],
+      "two_hand": false,
+      "upper_clip": "RobeWard_Upper",
+      "skill_id": "tangseng.RobeWard"
+    },
+    {
+      "clip": "HealingVow",
+      "label": "回春愿 · 托举祝愿",
+      "duration": 1.4,
+      "windup_end": 0.784,
+      "release_end": 0.966,
+      "events": [
+        {
+          "time": 0.784,
+          "type": "heal",
+          "socket": "hand.back"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.26,
+          "lean": 0.06,
+          "hand": [
+            0.12,
+            0.62
+          ],
+          "weapon": -0.06,
+          "back_hand": [
+            0.04,
+            0.63
+          ],
+          "compression": 0.025
+        },
+        {
+          "t": 0.56,
+          "lean": -0.055,
+          "hand": [
+            0.13,
+            0.73
+          ],
+          "weapon": -0.06,
+          "back_hand": [
+            0.1,
+            0.8
+          ],
+          "compression": 0.01
+        },
+        {
+          "t": 0.78,
+          "lean": -0.04,
+          "hand": [
+            0.13,
+            0.72
+          ],
+          "weapon": -0.04,
+          "back_hand": [
+            0.1,
+            0.79
+          ],
+          "compression": 0.01
+        }
+      ],
+      "two_hand": false,
+      "upper_clip": "HealingVow_Upper",
+      "skill_id": "tangseng.HealingVow"
+    },
+    {
+      "clip": "LotusPulse",
+      "label": "莲华推障",
+      "duration": 1.1166666666666667,
+      "windup_end": 0.5472,
+      "release_end": 0.6923,
+      "events": [
+        {
+          "time": 0.5472,
+          "type": "push",
+          "socket": "hand.back"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.28,
+          "lean": -0.07,
+          "hand": [
+            0.12,
+            0.62
+          ],
+          "weapon": -0.05,
+          "back_hand": [
+            -0.03,
+            0.65
+          ],
+          "compression": 0.025
+        },
+        {
+          "t": 0.49,
+          "lean": 0.1,
+          "hand": [
+            0.15,
+            0.63
+          ],
+          "weapon": 0.12,
+          "back_hand": [
+            0.26,
+            0.69
+          ],
+          "compression": 0.03
+        },
+        {
+          "t": 0.67,
+          "lean": 0.06,
+          "hand": [
+            0.15,
+            0.62
+          ],
+          "weapon": 0.08,
+          "back_hand": [
+            0.24,
+            0.68
+          ],
+          "compression": 0.02
+        }
+      ],
+      "two_hand": false,
+      "upper_clip": "LotusPulse_Upper",
+      "skill_id": "tangseng.LotusPulse"
+    },
+    {
+      "clip": "BellChime",
+      "label": "振杖清音",
+      "duration": 0.95,
+      "windup_end": 0.4085,
+      "release_end": 0.532,
+      "events": [
+        {
+          "time": 0.4085,
+          "type": "interrupt",
+          "socket": "hand.back"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.24,
+          "lean": -0.08,
+          "hand": [
+            0.05,
+            0.7
+          ],
+          "weapon": -0.32,
+          "back_hand": [
+            0.01,
+            0.66
+          ],
+          "compression": 0.015
+        },
+        {
+          "t": 0.43,
+          "lean": 0.12,
+          "hand": [
+            0.23,
+            0.68
+          ],
+          "weapon": 0.54,
+          "back_hand": [
+            0.15,
+            0.67
+          ],
+          "compression": 0.025
+        },
+        {
+          "t": 0.6,
+          "lean": 0.07,
+          "hand": [
+            0.2,
+            0.66
+          ],
+          "weapon": 0.36,
+          "back_hand": [
+            0.12,
+            0.67
+          ],
+          "compression": 0.015
+        }
+      ],
+      "two_hand": false,
+      "upper_clip": "BellChime_Upper",
+      "skill_id": "tangseng.BellChime"
+    },
+    {
+      "clip": "VowLink",
+      "label": "同心愿契",
+      "duration": 1.3,
+      "windup_end": 0.663,
+      "release_end": 0.832,
+      "events": [
+        {
+          "time": 0.663,
+          "type": "tether",
+          "socket": "hand.back"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.24,
+          "lean": -0.02,
+          "hand": [
+            0.11,
+            0.65
+          ],
+          "weapon": -0.02,
+          "back_hand": [
+            0.04,
+            0.62
+          ],
+          "compression": 0.015
+        },
+        {
+          "t": 0.51,
+          "lean": -0.04,
+          "hand": [
+            0.14,
+            0.71
+          ],
+          "weapon": -0.1,
+          "back_hand": [
+            0.22,
+            0.75
+          ],
+          "compression": 0.015
+        },
+        {
+          "t": 0.77,
+          "lean": -0.02,
+          "hand": [
+            0.14,
+            0.7
+          ],
+          "weapon": -0.08,
+          "back_hand": [
+            0.22,
+            0.75
+          ],
+          "compression": 0.015
+        }
+      ],
+      "two_hand": false,
+      "upper_clip": "VowLink_Upper",
+      "skill_id": "tangseng.VowLink"
+    },
+    {
+      "clip": "PureSeal",
+      "label": "清心破妄",
+      "duration": 1.0333333333333334,
+      "windup_end": 0.4857,
+      "release_end": 0.62,
+      "events": [
+        {
+          "time": 0.4857,
+          "type": "cleanse",
+          "socket": "hand.back"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.24,
+          "lean": 0.05,
+          "hand": [
+            0.12,
+            0.6
+          ],
+          "weapon": 0.08,
+          "back_hand": [
+            0.02,
+            0.64
+          ],
+          "compression": 0.025
+        },
+        {
+          "t": 0.47,
+          "lean": -0.07,
+          "hand": [
+            0.13,
+            0.74
+          ],
+          "weapon": -0.08,
+          "back_hand": [
+            0.1,
+            0.82
+          ],
+          "compression": 0.01
+        },
+        {
+          "t": 0.65,
+          "lean": 0.07,
+          "hand": [
+            0.15,
+            0.66
+          ],
+          "weapon": 0.1,
+          "back_hand": [
+            0.25,
+            0.73
+          ],
+          "compression": 0.015
+        }
+      ],
+      "two_hand": false,
+      "upper_clip": "PureSeal_Upper",
+      "skill_id": "tangseng.PureSeal"
+    },
+    {
+      "clip": "Mandala",
+      "label": "经幡结界",
+      "duration": 1.6,
+      "windup_end": 0.928,
+      "release_end": 1.136,
+      "events": [
+        {
+          "time": 0.928,
+          "type": "zone",
+          "socket": "hand.back"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.23,
+          "lean": -0.05,
+          "hand": [
+            0.08,
+            0.64
+          ],
+          "weapon": -0.13,
+          "back_hand": [
+            -0.04,
+            0.65
+          ],
+          "compression": 0.015
+        },
+        {
+          "t": 0.42,
+          "lean": -0.09,
+          "hand": [
+            0.08,
+            0.75
+          ],
+          "weapon": -0.23,
+          "back_hand": [
+            0.03,
+            0.79
+          ],
+          "compression": 0.01
+        },
+        {
+          "t": 0.58,
+          "lean": -0.02,
+          "hand": [
+            0.2,
+            0.74
+          ],
+          "weapon": -0.12,
+          "back_hand": [
+            0.22,
+            0.78
+          ],
+          "compression": 0.015
+        },
+        {
+          "t": 0.8,
+          "lean": -0.02,
+          "hand": [
+            0.2,
+            0.74
+          ],
+          "weapon": -0.12,
+          "back_hand": [
+            0.22,
+            0.78
+          ],
+          "compression": 0.015
+        }
+      ],
+      "two_hand": false,
+      "upper_clip": "Mandala_Upper",
+      "skill_id": "tangseng.Mandala"
+    },
+    {
+      "clip": "ScriptureRibbon",
+      "label": "经卷缚灵 · 展卷送带",
+      "duration": 1.35,
+      "windup_end": 0.648,
+      "release_end": 0.8235,
+      "events": [
+        {
+          "time": 0.648,
+          "type": "ribbon",
+          "socket": "hand.back"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.24,
+          "lean": -0.05,
+          "hand": [
+            0.11,
+            0.66
+          ],
+          "weapon": -0.1,
+          "back_hand": [
+            -0.08,
+            0.66
+          ],
+          "compression": 0.02
+        },
+        {
+          "t": 0.38,
+          "lean": -0.035,
+          "hand": [
+            0.13,
+            0.7
+          ],
+          "weapon": -0.13,
+          "back_hand": [
+            0.06,
+            0.73
+          ],
+          "compression": 0.015
+        },
+        {
+          "t": 0.48,
+          "lean": 0.09,
+          "hand": [
+            0.16,
+            0.7
+          ],
+          "weapon": 0.08,
+          "back_hand": [
+            0.27,
+            0.71
+          ],
+          "compression": 0.025
+        },
+        {
+          "t": 0.69,
+          "lean": 0.07,
+          "hand": [
+            0.15,
+            0.68
+          ],
+          "weapon": 0.05,
+          "back_hand": [
+            0.25,
+            0.7
+          ],
+          "compression": 0.02
+        }
+      ],
+      "two_hand": false,
+      "upper_clip": "ScriptureRibbon_Upper",
+      "skill_id": "tangseng.ScriptureRibbon"
+    },
+    {
+      "clip": "PilgrimLantern",
+      "label": "心灯护行 · 托灯安放",
+      "duration": 1.55,
+      "windup_end": 0.961,
+      "release_end": 1.1625,
+      "events": [
+        {
+          "time": 0.682,
+          "type": "lantern_lift",
+          "socket": "hand.back"
+        },
+        {
+          "time": 0.961,
+          "type": "lantern_place",
+          "socket": "hand.back"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.23,
+          "lean": 0.08,
+          "hand": [
+            0.12,
+            0.59
+          ],
+          "weapon": 0.04,
+          "back_hand": [
+            0.08,
+            0.57
+          ],
+          "compression": 0.03
+        },
+        {
+          "t": 0.44,
+          "lean": -0.05,
+          "hand": [
+            0.12,
+            0.72
+          ],
+          "weapon": -0.06,
+          "back_hand": [
+            0.1,
+            0.79
+          ],
+          "compression": 0.01
+        },
+        {
+          "t": 0.62,
+          "lean": 0.16,
+          "hand": [
+            0.19,
+            0.61
+          ],
+          "weapon": 0.14,
+          "back_hand": [
+            0.23,
+            0.55
+          ],
+          "compression": 0.04
+        },
+        {
+          "t": 0.77,
+          "lean": 0.14,
+          "hand": [
+            0.18,
+            0.62
+          ],
+          "weapon": 0.12,
+          "back_hand": [
+            0.2,
+            0.56
+          ],
+          "compression": 0.035
+        }
+      ],
+      "two_hand": false,
+      "upper_clip": "PilgrimLantern_Upper",
+      "skill_id": "tangseng.PilgrimLantern"
+    },
+    {
+      "clip": "KarmicReflection",
+      "label": "因果回响 · 振杖结印",
+      "duration": 1.3,
+      "windup_end": 0.637,
+      "release_end": 0.806,
+      "events": [
+        {
+          "time": 0.637,
+          "type": "karma_mark",
+          "socket": "hand.back"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.23,
+          "lean": -0.06,
+          "hand": [
+            0.08,
+            0.73
+          ],
+          "weapon": -0.18,
+          "back_hand": [
+            0.04,
+            0.64
+          ],
+          "compression": 0.015
+        },
+        {
+          "t": 0.38,
+          "lean": 0.04,
+          "hand": [
+            0.16,
+            0.64
+          ],
+          "weapon": 0.2,
+          "back_hand": [
+            0.07,
+            0.72
+          ],
+          "compression": 0.025
+        },
+        {
+          "t": 0.49,
+          "lean": 0.08,
+          "hand": [
+            0.18,
+            0.65
+          ],
+          "weapon": 0.24,
+          "back_hand": [
+            0.24,
+            0.76
+          ],
+          "compression": 0.02
+        },
+        {
+          "t": 0.7,
+          "lean": 0.04,
+          "hand": [
+            0.15,
+            0.67
+          ],
+          "weapon": 0.14,
+          "back_hand": [
+            0.22,
+            0.75
+          ],
+          "compression": 0.02
+        }
+      ],
+      "two_hand": false,
+      "upper_clip": "KarmicReflection_Upper",
+      "skill_id": "tangseng.KarmicReflection"
+    },
+    {
+      "clip": "PurifyingVerse",
+      "label": "净坛梵唱 · 定步分掌",
+      "duration": 1.85,
+      "windup_end": 0.629,
+      "release_end": 1.3875,
+      "events": [
+        {
+          "time": 0.629,
+          "type": "purify_start",
+          "socket": "hand.back"
+        },
+        {
+          "time": 1.0175,
+          "type": "purify_pulse",
+          "socket": "hand.back"
+        },
+        {
+          "time": 1.3505,
+          "type": "purify_end",
+          "socket": "hand.back"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.22,
+          "lean": -0.035,
+          "hand": [
+            0.14,
+            0.68
+          ],
+          "weapon": -0.04,
+          "back_hand": [
+            0.06,
+            0.69
+          ],
+          "compression": 0.025
+        },
+        {
+          "t": 0.34,
+          "lean": 0.04,
+          "hand": [
+            0.17,
+            0.68
+          ],
+          "weapon": 0.08,
+          "back_hand": [
+            0.24,
+            0.69
+          ],
+          "compression": 0.03
+        },
+        {
+          "t": 0.55,
+          "lean": 0.06,
+          "hand": [
+            0.17,
+            0.68
+          ],
+          "weapon": 0.08,
+          "back_hand": [
+            0.25,
+            0.69
+          ],
+          "compression": 0.03
+        },
+        {
+          "t": 0.73,
+          "lean": 0.055,
+          "hand": [
+            0.17,
+            0.68
+          ],
+          "weapon": 0.08,
+          "back_hand": [
+            0.25,
+            0.69
+          ],
+          "compression": 0.03
+        }
+      ],
+      "two_hand": false,
+      "upper_clip": null,
+      "stationary": true,
+      "skill_id": "tangseng.PurifyingVerse"
+    },
+    {
+      "clip": "HitRecoil",
+      "label": "受击 · 后仰缓冲",
+      "duration": 0.55,
+      "windup_end": 0.066,
+      "release_end": 0.1375,
+      "events": [
+        {
+          "time": 0.066,
+          "type": "hurt",
+          "socket": "actor"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.12,
+          "lean": -0.18,
+          "hand": [
+            0.09,
+            0.62
+          ],
+          "weapon": -0.1,
+          "back_hand": [
+            -0.04,
+            0.66
+          ],
+          "compression": 0.035
+        },
+        {
+          "t": 0.35,
+          "lean": 0.08,
+          "hand": [
+            0.13,
+            0.61
+          ],
+          "weapon": 0.1,
+          "back_hand": [
+            0.02,
+            0.65
+          ],
+          "compression": 0.045
+        },
+        {
+          "t": 0.65,
+          "lean": 0.04,
+          "hand": [
+            0.13,
+            0.61
+          ],
+          "weapon": 0.08,
+          "back_hand": [
+            0.02,
+            0.64
+          ],
+          "compression": 0.02
+        }
+      ],
+      "two_hand": false,
+      "upper_clip": null,
+      "skill_id": null
+    },
+    {
+      "clip": "DodgeBack",
+      "label": "闪避 · 后撤换步",
+      "duration": 0.8333333333333334,
+      "windup_end": 0.3333,
+      "release_end": 0.4417,
+      "events": [
+        {
+          "time": 0.3333,
+          "type": "dodge",
+          "socket": "actor"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.24,
+          "lean": -0.1,
+          "hand": [
+            0.1,
+            0.61
+          ],
+          "weapon": -0.12,
+          "back_hand": [
+            -0.02,
+            0.66
+          ],
+          "compression": 0.045
+        },
+        {
+          "t": 0.45,
+          "lean": -0.13,
+          "hand": [
+            0.11,
+            0.64
+          ],
+          "weapon": -0.16,
+          "back_hand": [
+            0.04,
+            0.68
+          ],
+          "compression": 0.06
+        },
+        {
+          "t": 0.72,
+          "lean": -0.03,
+          "hand": [
+            0.12,
+            0.62
+          ],
+          "weapon": 0.0,
+          "back_hand": [
+            0.02,
+            0.65
+          ],
+          "compression": 0.025
+        }
+      ],
+      "two_hand": false,
+      "upper_clip": null,
+      "root_motion": {
+        "axis": "facing-x",
+        "distance": -0.6496,
+        "keys": [
+          [
+            0,
+            0
+          ],
+          [
+            0.14,
+            0
+          ],
+          [
+            0.88,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "application": "external collision-aware displacement; not baked into bone translation"
+      },
+      "skill_id": null
+    }
+  ],
+  "upper_mask": [
+    "abdomen",
+    "body",
+    "head",
+    "upper_arm.back",
+    "forearm.back",
+    "upper_arm.front",
+    "forearm.front",
+    "weapon",
+    "accessory"
+  ],
+  "lower_mask": [
+    "pelvis",
+    "thigh.back",
+    "shin.back",
+    "foot.back",
+    "thigh.front",
+    "shin.front",
+    "foot.front"
+  ],
+  "offhand_ik_max_error": 0.0,
+  "back_hand_surface_marker": [
+    0.7416666666666667,
+    0.17000000000000015
+  ],
+  "weapon_grip_surface_marker": [
+    0.4979079067707062,
+    0.4468573331832886
+  ],
+  "surface_sockets": {
+    "hand.back": {
+      "part": "forearm.back",
+      "uv": [
+        0.7416666666666667,
+        0.17000000000000015
+      ]
+    },
+    "weapon": {
+      "part": "weapon",
+      "uv": [
+        0.4979079067707062,
+        0.4468573331832886
+      ]
+    },
+    "weapon.tip": {
+      "part": "weapon",
+      "uv": [
+        0.5210084319114685,
+        0.9971750974655151
+      ]
+    },
+    "actor": {
+      "bone": "pelvis",
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    "foot.front": {
+      "bone": "foot.front",
+      "offset": [
+        0,
+        0,
+        0
+      ],
+      "meaning": "ankle; resolve terrain contact externally"
+    },
+    "hand.front": {
+      "part": "forearm.front",
+      "uv": [
+        0.6379310344827587,
+        0.17000000000000004
+      ]
+    }
+  },
+  "walk_period": 1.2166666666666666,
+  "walk_distance": 0.567764156485502,
+  "status": "used in five-person map trial; final art and campaign integration pending",
+  "in_game": true,
+  "arm_width_factors": [
+    1.55,
+    1.5
+  ],
+  "arm_review_status": "v4 native elbow caps and separated two-hand grips; visual review pending",
+  "grip_distance_ratio": 0.14,
+  "arm_surface_markers": {
+    "front": {
+      "upper_arm": [
+        0.3224722743034363,
+        0.1502547562122345
+      ],
+      "forearm": [
+        0.3428879976272583,
+        0.8999732732772827
+      ],
+      "body": [
+        0.850806474685669,
+        0.7028986215591431
+      ],
+      "shoulder": [
+        0.759861171245575,
+        0.8566462993621826
+      ]
+    },
+    "back": {
+      "upper_arm": [
+        0.5907433032989502,
+        0.15780234336853027
+      ],
+      "forearm": [
+        0.2844499945640564,
+        0.9101203083992004
+      ],
+      "body": [
+        0.13548387587070465,
+        0.7043479084968567
+      ],
+      "shoulder": [
+        0.2096892148256302,
+        0.8557290434837341
+      ]
+    }
+  },
+  "elbow_caps": {
+    "upper_arm.front": {
+      "source_height": 308,
+      "elbow_pixel": [
+        46.436,
+        179.162
+      ],
+      "visible_end": 210.842
+    },
+    "upper_arm.back": {
+      "source_height": 324,
+      "elbow_pixel": [
+        87.43,
+        173.774
+      ],
+      "visible_end": 206.334
+    }
+  },
+  "arm_structure_revision": "upper sleeve native quad/UV trimmed beyond elbow; original raster unchanged",
+  "arm_cross_axis_aspect": [
+    0.72,
+    0.7
+  ],
+  "shoulder_source_pixels": {
+    "back": [
+      33.6,
+      81.6
+    ],
+    "front": [
+      211,
+      82
+    ]
+  },
+  "native_export_hz": 120,
+  "inspection_bounds": {
+    "Chant": [
+      -0.472557932138443,
+      -0.015219226479530334,
+      0.5401100814342499,
+      2.743069648742676
+    ],
+    "RobeWard": [
+      -0.5646737515926361,
+      -0.015880301594734192,
+      0.8063430488109589,
+      3.035623073577881
+    ],
+    "HealingVow": [
+      -0.44889527559280396,
+      -0.01793399453163147,
+      0.503849595785141,
+      3.0696377754211426
+    ],
+    "LotusPulse": [
+      -0.541153222322464,
+      -0.01905132457613945,
+      0.6842641532421112,
+      2.8362231254577637
+    ],
+    "BellChime": [
+      -0.49346014857292175,
+      -0.01810736209154129,
+      1.3247563540935516,
+      2.9876976013183594
+    ],
+    "VowLink": [
+      -0.44278788566589355,
+      -0.01494402065873146,
+      0.5919571816921234,
+      3.0228893756866455
+    ],
+    "PureSeal": [
+      -0.4617995321750641,
+      -0.01790761575102806,
+      0.663467675447464,
+      3.0926198959350586
+    ],
+    "Mandala": [
+      -0.5523663461208344,
+      -0.014944132417440414,
+      0.6968781650066376,
+      3.0993902683258057
+    ],
+    "ScriptureRibbon": [
+      -0.6069104969501495,
+      -0.01802634447813034,
+      0.6837463080883026,
+      3.000234603881836
+    ],
+    "PilgrimLantern": [
+      -0.4277198016643524,
+      -0.020730605348944664,
+      0.7319600284099579,
+      3.046298027038574
+    ],
+    "KarmicReflection": [
+      -0.45492425560951233,
+      -0.017872687429189682,
+      0.8414640724658966,
+      3.0614633560180664
+    ],
+    "PurifyingVerse": [
+      -0.453532874584198,
+      -0.018942739814519882,
+      0.6589796245098114,
+      2.9537792205810547
+    ],
+    "HitRecoil": [
+      -0.5641210973262787,
+      -0.021149732172489166,
+      0.5387803018093109,
+      2.8140907287597656
+    ],
+    "DodgeBack": [
+      -0.5790998637676239,
+      -0.023644905537366867,
+      0.6941861808300018,
+      2.8558809757232666
+    ]
+  },
+  "integration": {
+    "mode": "five-person map trial",
+    "asset": "shadow/tangseng.glb",
+    "hero_skills": 12,
+    "enemy_basic_attacks": 0,
+    "campaign": false
+  }
+}

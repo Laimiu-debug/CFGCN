@@ -1,0 +1,446 @@
+{
+  "id": "tangseng",
+  "name": "唐僧",
+  "height": 2.32,
+  "source": "apps/xiyou/art/shadow-roster-v4/tangseng/tangseng.blend",
+  "source_sha256": "8ae0241d7b9e95029a1b472d7dd75f598208d91fb8d9e62c89c27479a5f80f93",
+  "runtime": "tangseng-actions.glb",
+  "runtime_bytes": 1403672,
+  "runtime_sha256": "57250430896d4656fd83fd88c6238b02ffaf4c932e1bd60c089022637c5fc7e6",
+  "editable": "tangseng-actions.blend",
+  "clips": [
+    "Idle",
+    "Walk",
+    "Chant",
+    "RobeWard",
+    "HealingVow",
+    "HitRecoil",
+    "DodgeBack",
+    "WalkLower",
+    "Chant_Upper",
+    "RobeWard_Upper",
+    "HealingVow_Upper",
+    "RestPose"
+  ],
+  "modules": [
+    {
+      "clip": "Chant",
+      "label": "梵音退敌 · 抬臂诵经",
+      "duration": 1.05,
+      "windup_end": 0.4935,
+      "release_end": 0.63,
+      "events": [
+        {
+          "time": 0.4935,
+          "type": "chant",
+          "socket": "hand.back"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.27,
+          "lean": -0.035,
+          "hand": [
+            0.13,
+            0.58
+          ],
+          "weapon": 0.015,
+          "back_hand": [
+            0.03,
+            0.68
+          ],
+          "compression": 0.015
+        },
+        {
+          "t": 0.47,
+          "lean": 0.06,
+          "hand": [
+            0.15,
+            0.59
+          ],
+          "weapon": 0.02,
+          "back_hand": [
+            0.2,
+            0.7
+          ],
+          "compression": 0.015
+        },
+        {
+          "t": 0.66,
+          "lean": 0.04,
+          "hand": [
+            0.15,
+            0.59
+          ],
+          "weapon": 0.02,
+          "back_hand": [
+            0.16,
+            0.72
+          ],
+          "compression": 0.015
+        }
+      ],
+      "two_hand": false,
+      "upper_clip": "Chant_Upper"
+    },
+    {
+      "clip": "RobeWard",
+      "label": "锦襕护持 · 展臂护身",
+      "duration": 1.3,
+      "windup_end": 0.546,
+      "release_end": 0.715,
+      "events": [
+        {
+          "time": 0.546,
+          "type": "ward",
+          "socket": "hand.back"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.24,
+          "lean": -0.05,
+          "hand": [
+            0.1,
+            0.65
+          ],
+          "weapon": -0.12,
+          "back_hand": [
+            -0.05,
+            0.67
+          ],
+          "compression": 0.01
+        },
+        {
+          "t": 0.42,
+          "lean": -0.035,
+          "hand": [
+            0.21,
+            0.72
+          ],
+          "weapon": -0.2,
+          "back_hand": [
+            0.19,
+            0.72
+          ],
+          "compression": 0.018
+        },
+        {
+          "t": 0.75,
+          "lean": -0.025,
+          "hand": [
+            0.21,
+            0.72
+          ],
+          "weapon": -0.2,
+          "back_hand": [
+            0.19,
+            0.72
+          ],
+          "compression": 0.018
+        }
+      ],
+      "two_hand": false,
+      "upper_clip": "RobeWard_Upper"
+    },
+    {
+      "clip": "HealingVow",
+      "label": "回春愿 · 托举祝愿",
+      "duration": 1.4,
+      "windup_end": 0.784,
+      "release_end": 0.966,
+      "events": [
+        {
+          "time": 0.784,
+          "type": "heal",
+          "socket": "hand.back"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.26,
+          "lean": 0.06,
+          "hand": [
+            0.12,
+            0.62
+          ],
+          "weapon": -0.06,
+          "back_hand": [
+            0.04,
+            0.63
+          ],
+          "compression": 0.025
+        },
+        {
+          "t": 0.56,
+          "lean": -0.055,
+          "hand": [
+            0.13,
+            0.73
+          ],
+          "weapon": -0.06,
+          "back_hand": [
+            0.1,
+            0.8
+          ],
+          "compression": 0.01
+        },
+        {
+          "t": 0.78,
+          "lean": -0.04,
+          "hand": [
+            0.13,
+            0.72
+          ],
+          "weapon": -0.04,
+          "back_hand": [
+            0.1,
+            0.79
+          ],
+          "compression": 0.01
+        }
+      ],
+      "two_hand": false,
+      "upper_clip": "HealingVow_Upper"
+    },
+    {
+      "clip": "HitRecoil",
+      "label": "受击 · 后仰缓冲",
+      "duration": 0.55,
+      "windup_end": 0.066,
+      "release_end": 0.1375,
+      "events": [
+        {
+          "time": 0.066,
+          "type": "hurt",
+          "socket": "actor"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.12,
+          "lean": -0.18,
+          "hand": [
+            0.09,
+            0.62
+          ],
+          "weapon": -0.1,
+          "back_hand": [
+            -0.04,
+            0.66
+          ],
+          "compression": 0.035
+        },
+        {
+          "t": 0.35,
+          "lean": 0.08,
+          "hand": [
+            0.13,
+            0.61
+          ],
+          "weapon": 0.1,
+          "back_hand": [
+            0.02,
+            0.65
+          ],
+          "compression": 0.045
+        },
+        {
+          "t": 0.65,
+          "lean": 0.04,
+          "hand": [
+            0.13,
+            0.61
+          ],
+          "weapon": 0.08,
+          "back_hand": [
+            0.02,
+            0.64
+          ],
+          "compression": 0.02
+        }
+      ],
+      "two_hand": false,
+      "upper_clip": null
+    },
+    {
+      "clip": "DodgeBack",
+      "label": "闪避 · 后撤换步",
+      "duration": 0.8333333333333334,
+      "windup_end": 0.3333,
+      "release_end": 0.4417,
+      "events": [
+        {
+          "time": 0.3333,
+          "type": "dodge",
+          "socket": "actor"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.24,
+          "lean": -0.1,
+          "hand": [
+            0.1,
+            0.61
+          ],
+          "weapon": -0.12,
+          "back_hand": [
+            -0.02,
+            0.66
+          ],
+          "compression": 0.045
+        },
+        {
+          "t": 0.45,
+          "lean": -0.13,
+          "hand": [
+            0.11,
+            0.64
+          ],
+          "weapon": -0.16,
+          "back_hand": [
+            0.04,
+            0.68
+          ],
+          "compression": 0.06
+        },
+        {
+          "t": 0.72,
+          "lean": -0.03,
+          "hand": [
+            0.12,
+            0.62
+          ],
+          "weapon": 0.0,
+          "back_hand": [
+            0.02,
+            0.65
+          ],
+          "compression": 0.025
+        }
+      ],
+      "two_hand": false,
+      "upper_clip": null,
+      "root_motion": {
+        "axis": "facing-x",
+        "distance": -0.6496,
+        "keys": [
+          [
+            0,
+            0
+          ],
+          [
+            0.14,
+            0
+          ],
+          [
+            0.88,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "application": "external collision-aware displacement; not baked into bone translation"
+      }
+    }
+  ],
+  "upper_mask": [
+    "abdomen",
+    "body",
+    "head",
+    "upper_arm.back",
+    "forearm.back",
+    "upper_arm.front",
+    "forearm.front",
+    "weapon",
+    "accessory"
+  ],
+  "lower_mask": [
+    "pelvis",
+    "thigh.back",
+    "shin.back",
+    "foot.back",
+    "thigh.front",
+    "shin.front",
+    "foot.front"
+  ],
+  "offhand_ik_max_error": 0.0,
+  "back_hand_surface_marker": [
+    0.7416666666666667,
+    0.17000000000000015
+  ],
+  "weapon_grip_surface_marker": [
+    0.49790793657302856,
+    0.4468573331832886
+  ],
+  "surface_sockets": {
+    "hand.back": {
+      "part": "forearm.back",
+      "uv": [
+        0.7416666666666667,
+        0.17000000000000015
+      ]
+    },
+    "weapon": {
+      "part": "weapon",
+      "uv": [
+        0.49790793657302856,
+        0.4468573331832886
+      ]
+    },
+    "weapon.tip": {
+      "part": "weapon",
+      "uv": [
+        0.5210083723068237,
+        0.9971750974655151
+      ]
+    },
+    "actor": {
+      "bone": "pelvis",
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "walk_period": 1.2166666666666666,
+  "walk_distance": 0.567764156485502,
+  "status": "action resource candidate; not connected to game damage/collision",
+  "in_game": false,
+  "inspection_bounds": {
+    "Chant": [
+      -0.46045640110969543,
+      -0.015218978747725487,
+      0.5468040406703949,
+      2.7430691719055176
+    ],
+    "RobeWard": [
+      -0.6392993628978729,
+      -0.015880342572927475,
+      0.8063424527645111,
+      3.0356228351593018
+    ],
+    "HealingVow": [
+      -0.43108102679252625,
+      -0.017930757254362106,
+      0.5069737136363983,
+      3.069594383239746
+    ],
+    "HitRecoil": [
+      -0.574353963136673,
+      -0.021132729947566986,
+      0.5386670529842377,
+      2.8140480518341064
+    ],
+    "DodgeBack": [
+      -0.5789411962032318,
+      -0.023690521717071533,
+      0.6934984028339386,
+      2.8557310104370117
+    ]
+  }
+}

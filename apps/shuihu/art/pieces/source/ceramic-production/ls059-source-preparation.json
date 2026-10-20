@@ -1,0 +1,22 @@
+{
+  "id": "ls059",
+  "studioProjectId": "76c1254a-f4e1-44ed-a7cb-217e2ba88396",
+  "sourceRaw": "source/raw/studio-ceramic-v1/ls059.glb",
+  "sourceRawSha256": "df785616e3bbb862c3afd4f760e7b01d33446dedd3de42a31f75f3c68eb6edae",
+  "blendFile": "source/ceramic-production/ls059-source-preparation.blend",
+  "geometryChanged": false,
+  "normalizationHeightMm": 66.0,
+  "normalizationScope": "Full source vertical extent, body calibration still needs review",
+  "sourceMeshes": 1,
+  "vertices": 1013805,
+  "triangles": 1976414,
+  "previewImages": [
+    ".local/qa/shuihu-pieces/ceramic-production/ls059-import-whole.png",
+    ".local/qa/shuihu-pieces/ceramic-production/ls059-import-face-front.png",
+    ".local/qa/shuihu-pieces/ceramic-production/ls059-import-face-quarter.png"
+  ],
+  "faceRefined": false,
+  "equipmentSeparated": false,
+  "webExported": false,
+  "approved": false
+}

@@ -1,0 +1,583 @@
+{
+  "id": "xiaobailong",
+  "name": "小白龙（人形）",
+  "height": 2.22,
+  "source": "apps/xiyou/art/shadow-roster-v4/xiaobailong/xiaobailong.blend",
+  "source_sha256": "74bcadda23fbc8bc387183f752d91fbcf6e45403c0482748e949eff73771a10b",
+  "runtime": "xiaobailong-actions.glb",
+  "runtime_bytes": 1509144,
+  "runtime_sha256": "e48b24662ac16504d02c2059358c433d1f31464de5975cb9ad9b97af0787e542",
+  "editable": "xiaobailong-actions.blend",
+  "clips": [
+    "Idle",
+    "Walk",
+    "JianCut",
+    "WaveStep",
+    "ScaleWard",
+    "RisingSlash",
+    "TideReturn",
+    "FrostBreath",
+    "DragonDash",
+    "RainBlessing",
+    "HitRecoil",
+    "DodgeBack",
+    "WalkLower",
+    "JianCut_Upper",
+    "WaveStep_Upper",
+    "ScaleWard_Upper",
+    "RisingSlash_Upper",
+    "FrostBreath_Upper",
+    "RainBlessing_Upper",
+    "RestPose"
+  ],
+  "modules": [
+    {
+      "clip": "JianCut",
+      "label": "人形剑势 · 斜劈",
+      "duration": 0.8666666666666667,
+      "windup_end": 0.3727,
+      "release_end": 0.4853,
+      "events": [
+        {
+          "time": 0.3727,
+          "type": "hit",
+          "socket": "weapon.tip"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.28,
+          "lean": -0.09,
+          "hand": [0.03, 0.78],
+          "weapon": -3.25,
+          "back_hand": [0.0, 0.66],
+          "compression": 0.018
+        },
+        {
+          "t": 0.43,
+          "lean": 0.13,
+          "hand": [0.28, 0.67],
+          "weapon": -1.65,
+          "back_hand": [-0.04, 0.62],
+          "compression": 0.025
+        },
+        {
+          "t": 0.6,
+          "lean": 0.17,
+          "hand": [0.26, 0.56],
+          "weapon": -0.95,
+          "back_hand": [-0.08, 0.62],
+          "compression": 0.03
+        }
+      ],
+      "two_hand": false,
+      "upper_clip": "JianCut_Upper",
+      "proposal": true,
+      "skill_id": "xiaobailong.JianCut"
+    },
+    {
+      "clip": "WaveStep",
+      "label": "人形腾浪 · 进身送剑",
+      "duration": 1.0,
+      "windup_end": 0.52,
+      "release_end": 0.65,
+      "events": [
+        {
+          "time": 0.52,
+          "type": "wave",
+          "socket": "weapon.tip"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.28,
+          "lean": -0.06,
+          "hand": [0.08, 0.65],
+          "weapon": -1.25,
+          "back_hand": [0.02, 0.67],
+          "compression": 0.035
+        },
+        {
+          "t": 0.52,
+          "lean": 0.15,
+          "hand": [0.29, 0.65],
+          "weapon": -1.57,
+          "back_hand": [-0.05, 0.66],
+          "compression": 0.025
+        },
+        {
+          "t": 0.68,
+          "lean": 0.1,
+          "hand": [0.27, 0.63],
+          "weapon": -1.57,
+          "back_hand": [-0.05, 0.64],
+          "compression": 0.02
+        }
+      ],
+      "two_hand": false,
+      "upper_clip": "WaveStep_Upper",
+      "proposal": true,
+      "skill_id": "xiaobailong.WaveStep"
+    },
+    {
+      "clip": "ScaleWard",
+      "label": "龙鳞护佑 · 举臂护持",
+      "duration": 1.2,
+      "windup_end": 0.54,
+      "release_end": 0.696,
+      "events": [
+        {
+          "time": 0.54,
+          "type": "ward",
+          "socket": "hand.back"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.27,
+          "lean": -0.05,
+          "hand": [0.15, 0.62],
+          "weapon": -0.66,
+          "back_hand": [0.0, 0.66],
+          "compression": 0.015
+        },
+        {
+          "t": 0.45,
+          "lean": -0.03,
+          "hand": [0.14, 0.7],
+          "weapon": -0.35,
+          "back_hand": [0.14, 0.79],
+          "compression": 0.015
+        },
+        {
+          "t": 0.76,
+          "lean": -0.02,
+          "hand": [0.14, 0.7],
+          "weapon": -0.35,
+          "back_hand": [0.14, 0.79],
+          "compression": 0.015
+        }
+      ],
+      "two_hand": false,
+      "upper_clip": "ScaleWard_Upper",
+      "proposal": true,
+      "skill_id": "xiaobailong.ScaleWard"
+    },
+    {
+      "clip": "RisingSlash",
+      "label": "游龙挑锋",
+      "duration": 0.95,
+      "windup_end": 0.456,
+      "release_end": 0.5795,
+      "events": [
+        {
+          "time": 0.456,
+          "type": "lift",
+          "socket": "weapon.tip"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.26,
+          "lean": 0.12,
+          "hand": [0.21, 0.55],
+          "weapon": -0.85,
+          "back_hand": [-0.03, 0.62],
+          "compression": 0.035
+        },
+        {
+          "t": 0.48,
+          "lean": -0.08,
+          "hand": [0.14, 0.8],
+          "weapon": -2.7,
+          "back_hand": [-0.06, 0.67],
+          "compression": 0.015
+        },
+        {
+          "t": 0.65,
+          "lean": -0.02,
+          "hand": [0.19, 0.77],
+          "weapon": -2.3,
+          "back_hand": [-0.04, 0.67],
+          "compression": 0.02
+        }
+      ],
+      "two_hand": false,
+      "upper_clip": "RisingSlash_Upper",
+      "skill_id": "xiaobailong.RisingSlash"
+    },
+    {
+      "clip": "TideReturn",
+      "label": "回澜折剑",
+      "duration": 1.1,
+      "windup_end": 0.561,
+      "release_end": 0.704,
+      "events": [
+        {
+          "time": 0.561,
+          "type": "parry",
+          "socket": "weapon.tip"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.25,
+          "lean": 0.05,
+          "hand": [0.21, 0.65],
+          "weapon": -1.2,
+          "back_hand": [0.01, 0.68],
+          "compression": 0.035
+        },
+        {
+          "t": 0.51,
+          "lean": -0.12,
+          "hand": [0.13, 0.74],
+          "weapon": -2.25,
+          "back_hand": [0.13, 0.74],
+          "compression": 0.04
+        },
+        {
+          "t": 0.7,
+          "lean": 0.12,
+          "hand": [0.27, 0.65],
+          "weapon": -1.55,
+          "back_hand": [-0.03, 0.64],
+          "compression": 0.025
+        }
+      ],
+      "two_hand": false,
+      "upper_clip": null,
+      "footwork": "two_step",
+      "travel_height_ratio": -0.22,
+      "root_motion": {
+        "axis": "facing-x",
+        "distance": -0.4884,
+        "keys": [
+          [0, 0],
+          [0.14, 0],
+          [0.88, 1],
+          [1, 1]
+        ],
+        "application": "external collision-aware displacement; never teleport through terrain"
+      },
+      "skill_id": "xiaobailong.TideReturn"
+    },
+    {
+      "clip": "FrostBreath",
+      "label": "寒息引流",
+      "duration": 1.4833333333333334,
+      "windup_end": 0.7417,
+      "release_end": 0.9345,
+      "events": [
+        {
+          "time": 0.7417,
+          "type": "frost",
+          "socket": "hand.back"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.24,
+          "lean": -0.06,
+          "hand": [0.13, 0.64],
+          "weapon": -0.63,
+          "back_hand": [0.02, 0.73],
+          "compression": 0.015
+        },
+        {
+          "t": 0.5,
+          "lean": 0.12,
+          "hand": [0.18, 0.65],
+          "weapon": -0.95,
+          "back_hand": [0.26, 0.75],
+          "compression": 0.025
+        },
+        {
+          "t": 0.78,
+          "lean": 0.1,
+          "hand": [0.17, 0.65],
+          "weapon": -0.95,
+          "back_hand": [0.26, 0.74],
+          "compression": 0.02
+        }
+      ],
+      "two_hand": false,
+      "upper_clip": "FrostBreath_Upper",
+      "skill_id": "xiaobailong.FrostBreath"
+    },
+    {
+      "clip": "DragonDash",
+      "label": "穿云疾剑",
+      "duration": 0.9,
+      "windup_end": 0.441,
+      "release_end": 0.558,
+      "events": [
+        {
+          "time": 0.441,
+          "type": "dash",
+          "socket": "weapon.tip"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.23,
+          "lean": -0.08,
+          "hand": [0.09, 0.66],
+          "weapon": -1.25,
+          "back_hand": [0.02, 0.69],
+          "compression": 0.04
+        },
+        {
+          "t": 0.49,
+          "lean": 0.24,
+          "hand": [0.3, 0.65],
+          "weapon": -1.57,
+          "back_hand": [-0.07, 0.65],
+          "compression": 0.03
+        },
+        {
+          "t": 0.7,
+          "lean": 0.15,
+          "hand": [0.27, 0.64],
+          "weapon": -1.57,
+          "back_hand": [-0.05, 0.65],
+          "compression": 0.025
+        }
+      ],
+      "two_hand": false,
+      "upper_clip": null,
+      "footwork": "two_step",
+      "travel_height_ratio": 0.29,
+      "root_motion": {
+        "axis": "facing-x",
+        "distance": 0.6438,
+        "keys": [
+          [0, 0],
+          [0.14, 0],
+          [0.88, 1],
+          [1, 1]
+        ],
+        "application": "external collision-aware displacement; never teleport through terrain"
+      },
+      "skill_id": "xiaobailong.DragonDash"
+    },
+    {
+      "clip": "RainBlessing",
+      "label": "甘霖普降",
+      "duration": 1.55,
+      "windup_end": 0.868,
+      "release_end": 1.0695,
+      "events": [
+        {
+          "time": 0.868,
+          "type": "rain",
+          "socket": "hand.back"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.25,
+          "lean": 0.04,
+          "hand": [0.12, 0.64],
+          "weapon": -0.52,
+          "back_hand": [0.02, 0.64],
+          "compression": 0.025
+        },
+        {
+          "t": 0.56,
+          "lean": -0.07,
+          "hand": [0.12, 0.77],
+          "weapon": -0.3,
+          "back_hand": [0.11, 0.83],
+          "compression": 0.01
+        },
+        {
+          "t": 0.78,
+          "lean": -0.04,
+          "hand": [0.14, 0.75],
+          "weapon": -0.37,
+          "back_hand": [0.16, 0.8],
+          "compression": 0.015
+        }
+      ],
+      "two_hand": false,
+      "upper_clip": "RainBlessing_Upper",
+      "skill_id": "xiaobailong.RainBlessing"
+    },
+    {
+      "clip": "HitRecoil",
+      "label": "受击 · 后仰缓冲",
+      "duration": 0.55,
+      "windup_end": 0.066,
+      "release_end": 0.1375,
+      "events": [
+        {
+          "time": 0.066,
+          "type": "hurt",
+          "socket": "actor"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.12,
+          "lean": -0.18,
+          "hand": [0.09, 0.62],
+          "weapon": -0.1,
+          "back_hand": [-0.04, 0.66],
+          "compression": 0.035
+        },
+        {
+          "t": 0.35,
+          "lean": 0.08,
+          "hand": [0.13, 0.61],
+          "weapon": 0.1,
+          "back_hand": [0.02, 0.65],
+          "compression": 0.045
+        },
+        {
+          "t": 0.65,
+          "lean": 0.04,
+          "hand": [0.13, 0.61],
+          "weapon": 0.08,
+          "back_hand": [0.02, 0.64],
+          "compression": 0.02
+        }
+      ],
+      "two_hand": false,
+      "upper_clip": null,
+      "skill_id": null
+    },
+    {
+      "clip": "DodgeBack",
+      "label": "闪避 · 后撤换步",
+      "duration": 0.8333333333333334,
+      "windup_end": 0.3333,
+      "release_end": 0.4417,
+      "events": [
+        {
+          "time": 0.3333,
+          "type": "dodge",
+          "socket": "actor"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.24,
+          "lean": -0.1,
+          "hand": [0.1, 0.61],
+          "weapon": -0.12,
+          "back_hand": [-0.02, 0.66],
+          "compression": 0.045
+        },
+        {
+          "t": 0.45,
+          "lean": -0.13,
+          "hand": [0.11, 0.64],
+          "weapon": -0.16,
+          "back_hand": [0.04, 0.68],
+          "compression": 0.06
+        },
+        {
+          "t": 0.72,
+          "lean": -0.03,
+          "hand": [0.12, 0.62],
+          "weapon": 0.0,
+          "back_hand": [0.02, 0.65],
+          "compression": 0.025
+        }
+      ],
+      "two_hand": false,
+      "upper_clip": null,
+      "root_motion": {
+        "axis": "facing-x",
+        "distance": -0.6216,
+        "keys": [
+          [0, 0],
+          [0.14, 0],
+          [0.88, 1],
+          [1, 1]
+        ],
+        "application": "external collision-aware displacement; not baked into bone translation"
+      },
+      "skill_id": null
+    }
+  ],
+  "upper_mask": [
+    "abdomen",
+    "body",
+    "head",
+    "upper_arm.back",
+    "forearm.back",
+    "upper_arm.front",
+    "forearm.front",
+    "weapon",
+    "accessory"
+  ],
+  "lower_mask": [
+    "pelvis",
+    "thigh.back",
+    "shin.back",
+    "foot.back",
+    "thigh.front",
+    "shin.front",
+    "foot.front"
+  ],
+  "offhand_ik_max_error": 0.0,
+  "back_hand_surface_marker": [0.7421875, 0.17000000000000004],
+  "weapon_grip_surface_marker": [0.49791666865348816, 0.8700000643730164],
+  "surface_sockets": {
+    "hand.back": {
+      "part": "forearm.back",
+      "uv": [0.7421875, 0.17000000000000004]
+    },
+    "weapon": {
+      "part": "weapon",
+      "uv": [0.49791666865348816, 0.8700000643730164]
+    },
+    "weapon.tip": {
+      "part": "weapon",
+      "uv": [0.5271967053413391, 0.0027604892384260893]
+    },
+    "actor": {
+      "bone": "pelvis",
+      "offset": [0, 0, 0]
+    },
+    "foot.front": {
+      "bone": "foot.front",
+      "offset": [0, 0, 0],
+      "meaning": "ankle release origin; ground contact resolved by collision"
+    }
+  },
+  "walk_period": 1.1,
+  "walk_distance": 0.8311161681619328,
+  "status": "action resource candidate; not connected to game damage/collision",
+  "in_game": false,
+  "arm_width_factors": [1.75, 1.7],
+  "arm_review_status": "wider silhouette and stable foreground layers; user visual review pending",
+  "inspection_bounds": {
+    "JianCut": [-0.5423796349205077, -0.027896946296095848, 1.781116587575525, 2.8887336254119873],
+    "WaveStep": [
+      -0.5581755810417235, -0.028330907225608826, 1.8017576760612428, 2.2162890434265137
+    ],
+    "ScaleWard": [
+      -0.46323545509949327, -0.022209983319044113, 1.14719353383407, 2.2162890434265137
+    ],
+    "RisingSlash": [
+      -0.610158818308264, -0.028907913714647293, 1.5753261870704591, 2.850330114364624
+    ],
+    "TideReturn": [
+      -0.5099505358375609, -0.03341113030910492, 1.7579965419135988, 2.4229066371917725
+    ],
+    "FrostBreath": [
+      -0.4624562435783446, -0.026356682181358337, 1.383403284009546, 2.2162890434265137
+    ],
+    "DragonDash": [
+      -0.5600961619056761, -0.034015871584415436, 1.823773009236902, 2.2162890434265137
+    ],
+    "RainBlessing": [
+      -0.41831486159935594, -0.026069018989801407, 1.14719353383407, 2.2162890434265137
+    ],
+    "HitRecoil": [-0.5502255135215819, -0.030735839158296585, 1.14719353383407, 2.2162890434265137],
+    "DodgeBack": [-0.5576230459846556, -0.03538966551423073, 1.14719353383407, 2.2162890434265137]
+  }
+}

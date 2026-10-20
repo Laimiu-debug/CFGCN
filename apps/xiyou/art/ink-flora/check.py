@@ -1,0 +1,43 @@
+"""Fresh Blender reimport, source hashes, dimensions and root anchors."""
+from pathlib import Path
+import hashlib
+import json
+import struct
+import bpy
+from mathutils import Vector
+HERE = Path(__file__).resolve().parent
+ROOT = HERE.parents[3]
+path = ROOT / "apps/website/public/games/xiyou/assets/ink_flora.glb"
+manifest = json.loads((HERE / "manifest.json").read_text(encoding="utf-8"))
+assert hashlib.sha256(path.read_bytes()).hexdigest() == manifest["runtime"]["runtime_sha256"]
+for part in manifest["packing"]["parts"]:
+    assert hashlib.sha256((HERE / part["source"]).read_bytes()).hexdigest() == part["source_sha256"]
+blob = path.read_bytes()
+size = struct.unpack_from("<I", blob, 12)[0]
+g = json.loads(blob[20:20 + size])
+assert len(g["materials"]) == len(g["images"]) == 1 and len(g["scenes"]) == 3
+assert g["materials"][0]["alphaMode"] == "MASK"
+bpy.ops.wm.read_factory_settings(use_empty=True)
+bpy.ops.import_scene.gltf(filepath=str(path))
+checks = []
+for scene, part in zip(g["scenes"], manifest["packing"]["parts"]):
+    mesh = next(o for o in bpy.data.objects if o.type == "MESH" and o.name == scene["name"])
+    points = [mesh.matrix_world @ Vector(v) for v in mesh.bound_box]
+    dimensions = [max(v[i] for v in points) - min(v[i] for v in points) for i in range(3)]
+    assert abs(dimensions[0] - part["metres"]) < .0001 and dimensions[1] < .00001
+    assert abs(min(v.z for v in points)) < .00001
+    assert sum(len(p.vertices) - 2 for p in mesh.data.polygons) == 2 and mesh.data.uv_layers.active
+    checks.append({"scene": scene["name"], "dimensions": dimensions, "foot_z": min(v.z for v in points), "triangles": 2})
+qa = ROOT / ".local/qa/ink-flora"
+qa.mkdir(parents=True, exist_ok=True)
+(qa / "reimport.json").write_text(json.dumps(checks, indent=2), encoding="utf-8")
+print("CFGCN_FLORA_REIMPORT " + json.dumps(checks))
+
+for reference in manifest["references"][1:]:
+    assert hashlib.sha256((HERE.parent / reference["source"]).read_bytes()).hexdigest() == reference["sha256"]
+for original in manifest["studio_upstream"]:
+    assert hashlib.sha256((HERE.parent / "source/raw" / original["source_file"]).read_bytes()).hexdigest() == original["source_sha256"]
+    prototype = ROOT / "apps/website/public/games/xiyou/assets" / (original["asset"] + ".glb")
+    assert hashlib.sha256(prototype.read_bytes()).hexdigest() == original["projection_runtime_sha256"]
+assert hashlib.sha256((ROOT / "apps/website/public/games/xiyou/assets/ink-flora.png").read_bytes()).hexdigest() == manifest["runtime_texture"]["sha256"]
+(HERE / "validation.json").write_text(json.dumps({"geometry":checks,"source_hashes":"verified","studio_originals":"verified","prototype_hashes":"verified","texture":"verified","blend_sha256":hashlib.sha256((HERE.parent / "source/ink_flora.blend").read_bytes()).hexdigest(),"game_validation":"tracked in docs/xiyou-map-marks-and-flora.md; not implied by this script"},ensure_ascii=False,indent=2),encoding="utf-8")

@@ -1,0 +1,1296 @@
+{
+  "id": "shaseng",
+  "name": "沙悟净",
+  "height": 2.135,
+  "source": "apps/xiyou/art/shadow-roster-v4/shaseng/shaseng.blend",
+  "source_sha256": "6cd009604b810a4e43c7a8293a97bba323f80fdad2df7166e0d903a29223d431",
+  "runtime": "shaseng-actions.glb",
+  "runtime_bytes": 1966148,
+  "runtime_sha256": "0f5c4a2b01ab22e808c52d0aed4a9fb74e18e5be29321ca617ff129b4a4a45f1",
+  "editable": "shaseng-actions.blend",
+  "clips": [
+    "Idle",
+    "Walk",
+    "SpadeSweep",
+    "SpadeThrust",
+    "RiverWard",
+    "SpadeLift",
+    "SandVortex",
+    "RiverDrag",
+    "PrayerBeads",
+    "RiverTread",
+    "WaterSplit",
+    "SandAnchor",
+    "BeadOrbit",
+    "Undertow",
+    "HitRecoil",
+    "DodgeBack",
+    "WalkLower",
+    "SpadeSweep_Upper",
+    "SpadeThrust_Upper",
+    "RiverWard_Upper",
+    "SpadeLift_Upper",
+    "SandVortex_Upper",
+    "RiverDrag_Upper",
+    "PrayerBeads_Upper",
+    "RiverTread_Upper",
+    "WaterSplit_Upper",
+    "SandAnchor_Upper",
+    "BeadOrbit_Upper",
+    "Undertow_Upper",
+    "RestPose"
+  ],
+  "modules": [
+    {
+      "clip": "SpadeSweep",
+      "label": "月牙铲 · 沉身横扫",
+      "duration": 1.1166666666666667,
+      "windup_end": 0.5137,
+      "release_end": 0.6588,
+      "events": [
+        {
+          "time": 0.5137,
+          "type": "hit",
+          "socket": "weapon.tip"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.3,
+          "lean": -0.12,
+          "hand": [
+            -0.01,
+            0.68
+          ],
+          "weapon": -0.7,
+          "back_hand": [
+            0.01,
+            0.66
+          ],
+          "compression": 0.025
+        },
+        {
+          "t": 0.46,
+          "lean": 0.16,
+          "hand": [
+            0.22,
+            0.59
+          ],
+          "weapon": 1.28,
+          "back_hand": [
+            0.08,
+            0.6
+          ],
+          "compression": 0.035
+        },
+        {
+          "t": 0.65,
+          "lean": 0.2,
+          "hand": [
+            0.24,
+            0.53
+          ],
+          "weapon": 1.63,
+          "back_hand": [
+            0.09,
+            0.57
+          ],
+          "compression": 0.04
+        }
+      ],
+      "two_hand": true,
+      "upper_clip": "SpadeSweep_Upper",
+      "proposal": true,
+      "skill_id": "shaseng.SpadeSweep"
+    },
+    {
+      "clip": "SpadeThrust",
+      "label": "月牙铲 · 平铲前送",
+      "duration": 1.0333333333333334,
+      "windup_end": 0.496,
+      "release_end": 0.6303,
+      "events": [
+        {
+          "time": 0.496,
+          "type": "hit",
+          "socket": "weapon.tip"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.29,
+          "lean": -0.07,
+          "hand": [
+            -0.025,
+            0.62
+          ],
+          "weapon": 1.45,
+          "back_hand": [
+            0.02,
+            0.63
+          ],
+          "compression": 0.025
+        },
+        {
+          "t": 0.48,
+          "lean": 0.2,
+          "hand": [
+            0.27,
+            0.61
+          ],
+          "weapon": 1.54,
+          "back_hand": [
+            0.13,
+            0.61
+          ],
+          "compression": 0.035
+        },
+        {
+          "t": 0.62,
+          "lean": 0.15,
+          "hand": [
+            0.26,
+            0.6
+          ],
+          "weapon": 1.54,
+          "back_hand": [
+            0.12,
+            0.6
+          ],
+          "compression": 0.03
+        }
+      ],
+      "two_hand": true,
+      "upper_clip": "SpadeThrust_Upper",
+      "proposal": true,
+      "skill_id": "shaseng.SpadeThrust"
+    },
+    {
+      "clip": "RiverWard",
+      "label": "竖铲护河",
+      "duration": 1.35,
+      "windup_end": 0.6345,
+      "release_end": 0.81,
+      "events": [
+        {
+          "time": 0.6345,
+          "type": "ward",
+          "socket": "hand.back"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.28,
+          "lean": -0.04,
+          "hand": [
+            0.13,
+            0.62
+          ],
+          "weapon": -0.08,
+          "back_hand": [
+            0.01,
+            0.65
+          ],
+          "compression": 0.015
+        },
+        {
+          "t": 0.47,
+          "lean": 0.02,
+          "hand": [
+            0.15,
+            0.68
+          ],
+          "weapon": 0.04,
+          "back_hand": [
+            0.2,
+            0.76
+          ],
+          "compression": 0.015
+        },
+        {
+          "t": 0.76,
+          "lean": 0.02,
+          "hand": [
+            0.15,
+            0.68
+          ],
+          "weapon": 0.04,
+          "back_hand": [
+            0.2,
+            0.76
+          ],
+          "compression": 0.015
+        }
+      ],
+      "two_hand": false,
+      "upper_clip": "RiverWard_Upper",
+      "proposal": true,
+      "skill_id": "shaseng.RiverWard"
+    },
+    {
+      "clip": "SpadeLift",
+      "label": "挑铲断势",
+      "duration": 1.15,
+      "windup_end": 0.575,
+      "release_end": 0.7245,
+      "events": [
+        {
+          "time": 0.575,
+          "type": "lift",
+          "socket": "weapon.tip"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.28,
+          "lean": 0.17,
+          "hand": [
+            0.22,
+            0.53
+          ],
+          "weapon": 1.76,
+          "back_hand": [
+            0.1,
+            0.55
+          ],
+          "compression": 0.04
+        },
+        {
+          "t": 0.5,
+          "lean": -0.09,
+          "hand": [
+            0.07,
+            0.78
+          ],
+          "weapon": -0.26,
+          "back_hand": [
+            0.04,
+            0.72
+          ],
+          "compression": 0.015
+        },
+        {
+          "t": 0.67,
+          "lean": -0.04,
+          "hand": [
+            0.12,
+            0.75
+          ],
+          "weapon": 0.04,
+          "back_hand": [
+            0.07,
+            0.69
+          ],
+          "compression": 0.02
+        }
+      ],
+      "two_hand": true,
+      "upper_clip": "SpadeLift_Upper",
+      "skill_id": "shaseng.SpadeLift"
+    },
+    {
+      "clip": "SandVortex",
+      "label": "流沙回旋",
+      "duration": 1.5,
+      "windup_end": 0.795,
+      "release_end": 0.99,
+      "events": [
+        {
+          "time": 0.795,
+          "type": "vortex",
+          "socket": "weapon.tip"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.24,
+          "lean": -0.14,
+          "hand": [
+            0.0,
+            0.66
+          ],
+          "weapon": -0.7,
+          "back_hand": [
+            0.01,
+            0.64
+          ],
+          "compression": 0.03
+        },
+        {
+          "t": 0.42,
+          "lean": 0.19,
+          "hand": [
+            0.23,
+            0.57
+          ],
+          "weapon": 1.35,
+          "back_hand": [
+            0.09,
+            0.59
+          ],
+          "compression": 0.04
+        },
+        {
+          "t": 0.53,
+          "lean": 0.23,
+          "hand": [
+            0.22,
+            0.51
+          ],
+          "weapon": 1.72,
+          "back_hand": [
+            0.09,
+            0.54
+          ],
+          "compression": 0.05
+        },
+        {
+          "t": 0.7,
+          "lean": -0.09,
+          "hand": [
+            0.03,
+            0.66
+          ],
+          "weapon": -0.48,
+          "back_hand": [
+            0.02,
+            0.64
+          ],
+          "compression": 0.03
+        },
+        {
+          "t": 0.81,
+          "lean": 0.12,
+          "hand": [
+            0.21,
+            0.61
+          ],
+          "weapon": 1.23,
+          "back_hand": [
+            0.08,
+            0.61
+          ],
+          "compression": 0.03
+        }
+      ],
+      "two_hand": true,
+      "upper_clip": "SandVortex_Upper",
+      "skill_id": "shaseng.SandVortex"
+    },
+    {
+      "clip": "RiverDrag",
+      "label": "退步引流",
+      "duration": 1.2166666666666666,
+      "windup_end": 0.657,
+      "release_end": 0.8152,
+      "events": [
+        {
+          "time": 0.657,
+          "type": "drag",
+          "socket": "weapon.tip"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.25,
+          "lean": 0.14,
+          "hand": [
+            0.25,
+            0.62
+          ],
+          "weapon": 1.5,
+          "back_hand": [
+            0.11,
+            0.62
+          ],
+          "compression": 0.03
+        },
+        {
+          "t": 0.54,
+          "lean": -0.12,
+          "hand": [
+            0.03,
+            0.64
+          ],
+          "weapon": 1.12,
+          "back_hand": [
+            0.03,
+            0.63
+          ],
+          "compression": 0.035
+        },
+        {
+          "t": 0.72,
+          "lean": -0.07,
+          "hand": [
+            0.05,
+            0.66
+          ],
+          "weapon": 0.7,
+          "back_hand": [
+            0.04,
+            0.65
+          ],
+          "compression": 0.02
+        }
+      ],
+      "two_hand": true,
+      "upper_clip": "RiverDrag_Upper",
+      "skill_id": "shaseng.RiverDrag"
+    },
+    {
+      "clip": "PrayerBeads",
+      "label": "念珠镇魂",
+      "duration": 1.1166666666666667,
+      "windup_end": 0.536,
+      "release_end": 0.6812,
+      "events": [
+        {
+          "time": 0.536,
+          "type": "beads",
+          "socket": "hand.back"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.24,
+          "lean": -0.04,
+          "hand": [
+            0.13,
+            0.63
+          ],
+          "weapon": 0.06,
+          "back_hand": [
+            0.02,
+            0.71
+          ],
+          "compression": 0.015
+        },
+        {
+          "t": 0.35,
+          "lean": -0.07,
+          "hand": [
+            0.13,
+            0.66
+          ],
+          "weapon": -0.02,
+          "back_hand": [
+            0.04,
+            0.76
+          ],
+          "compression": 0.015
+        },
+        {
+          "t": 0.48,
+          "lean": 0.1,
+          "hand": [
+            0.15,
+            0.64
+          ],
+          "weapon": 0.16,
+          "back_hand": [
+            0.27,
+            0.73
+          ],
+          "compression": 0.015
+        },
+        {
+          "t": 0.68,
+          "lean": 0.08,
+          "hand": [
+            0.15,
+            0.63
+          ],
+          "weapon": 0.12,
+          "back_hand": [
+            0.24,
+            0.7
+          ],
+          "compression": 0.015
+        }
+      ],
+      "two_hand": false,
+      "upper_clip": "PrayerBeads_Upper",
+      "skill_id": "shaseng.PrayerBeads"
+    },
+    {
+      "clip": "RiverTread",
+      "label": "踏浪截阵",
+      "duration": 1.1,
+      "windup_end": 0.594,
+      "release_end": 0.737,
+      "events": [
+        {
+          "time": 0.594,
+          "type": "intercept",
+          "socket": "weapon.tip"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.25,
+          "lean": -0.08,
+          "hand": [
+            0.05,
+            0.66
+          ],
+          "weapon": 0.8,
+          "back_hand": [
+            0.02,
+            0.65
+          ],
+          "compression": 0.04
+        },
+        {
+          "t": 0.54,
+          "lean": 0.19,
+          "hand": [
+            0.24,
+            0.63
+          ],
+          "weapon": 1.38,
+          "back_hand": [
+            0.11,
+            0.63
+          ],
+          "compression": 0.035
+        },
+        {
+          "t": 0.73,
+          "lean": 0.12,
+          "hand": [
+            0.22,
+            0.62
+          ],
+          "weapon": 1.34,
+          "back_hand": [
+            0.1,
+            0.62
+          ],
+          "compression": 0.03
+        }
+      ],
+      "two_hand": true,
+      "upper_clip": "RiverTread_Upper",
+      "skill_id": "shaseng.RiverTread"
+    },
+    {
+      "clip": "WaterSplit",
+      "label": "分水双铲 · 前扫回挑",
+      "duration": 1.65,
+      "windup_end": 0.594,
+      "release_end": 1.188,
+      "events": [
+        {
+          "time": 0.594,
+          "type": "front_wave",
+          "socket": "weapon.tip"
+        },
+        {
+          "time": 1.0725,
+          "type": "rear_wave",
+          "socket": "weapon.tip"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.2,
+          "lean": -0.12,
+          "hand": [
+            -0.01,
+            0.69
+          ],
+          "weapon": -0.7,
+          "back_hand": [
+            0.01,
+            0.64
+          ],
+          "compression": 0.025
+        },
+        {
+          "t": 0.36,
+          "lean": 0.2,
+          "hand": [
+            0.24,
+            0.57
+          ],
+          "weapon": 1.42,
+          "back_hand": [
+            0.1,
+            0.57
+          ],
+          "compression": 0.04
+        },
+        {
+          "t": 0.49,
+          "lean": 0.05,
+          "hand": [
+            0.14,
+            0.68
+          ],
+          "weapon": 0.12,
+          "back_hand": [
+            0.04,
+            0.64
+          ],
+          "compression": 0.025
+        },
+        {
+          "t": 0.65,
+          "lean": -0.15,
+          "hand": [
+            -0.035,
+            0.72
+          ],
+          "weapon": -1.1,
+          "back_hand": [
+            -0.08,
+            0.69
+          ],
+          "compression": 0.035
+        },
+        {
+          "t": 0.77,
+          "lean": -0.09,
+          "hand": [
+            0.0,
+            0.72
+          ],
+          "weapon": -0.73,
+          "back_hand": [
+            -0.03,
+            0.67
+          ],
+          "compression": 0.025
+        }
+      ],
+      "two_hand": true,
+      "upper_clip": "WaterSplit_Upper",
+      "skill_id": "shaseng.WaterSplit"
+    },
+    {
+      "clip": "SandAnchor",
+      "label": "沉沙锚印 · 竖铲定锚",
+      "duration": 1.45,
+      "windup_end": 0.812,
+      "release_end": 1.0005,
+      "events": [
+        {
+          "time": 0.812,
+          "type": "sand_anchor",
+          "socket": "actor"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.25,
+          "lean": -0.07,
+          "hand": [
+            0.1,
+            0.78
+          ],
+          "weapon": -0.04,
+          "back_hand": [
+            0.05,
+            0.7
+          ],
+          "compression": 0.015
+        },
+        {
+          "t": 0.42,
+          "lean": 0.02,
+          "hand": [
+            0.12,
+            0.72
+          ],
+          "weapon": 0.04,
+          "back_hand": [
+            0.07,
+            0.66
+          ],
+          "compression": 0.025
+        },
+        {
+          "t": 0.56,
+          "lean": 0.2,
+          "hand": [
+            0.16,
+            0.54
+          ],
+          "weapon": 0.04,
+          "back_hand": [
+            0.09,
+            0.59
+          ],
+          "compression": 0.06
+        },
+        {
+          "t": 0.74,
+          "lean": 0.16,
+          "hand": [
+            0.16,
+            0.56
+          ],
+          "weapon": 0.05,
+          "back_hand": [
+            0.09,
+            0.59
+          ],
+          "compression": 0.05
+        }
+      ],
+      "two_hand": true,
+      "upper_clip": "SandAnchor_Upper",
+      "skill_id": "shaseng.SandAnchor"
+    },
+    {
+      "clip": "BeadOrbit",
+      "label": "念珠护阵 · 取珠展臂",
+      "duration": 1.5,
+      "windup_end": 0.765,
+      "release_end": 0.96,
+      "events": [
+        {
+          "time": 0.57,
+          "type": "bead_lift",
+          "socket": "hand.back"
+        },
+        {
+          "time": 0.765,
+          "type": "bead_guard",
+          "socket": "hand.back"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.23,
+          "lean": 0.06,
+          "hand": [
+            0.12,
+            0.64
+          ],
+          "weapon": 0.04,
+          "back_hand": [
+            0.05,
+            0.67
+          ],
+          "compression": 0.025
+        },
+        {
+          "t": 0.38,
+          "lean": -0.055,
+          "hand": [
+            0.13,
+            0.69
+          ],
+          "weapon": -0.02,
+          "back_hand": [
+            0.06,
+            0.8
+          ],
+          "compression": 0.015
+        },
+        {
+          "t": 0.51,
+          "lean": 0.02,
+          "hand": [
+            0.14,
+            0.69
+          ],
+          "weapon": 0.04,
+          "back_hand": [
+            0.24,
+            0.78
+          ],
+          "compression": 0.02
+        },
+        {
+          "t": 0.72,
+          "lean": 0.04,
+          "hand": [
+            0.15,
+            0.67
+          ],
+          "weapon": 0.07,
+          "back_hand": [
+            0.24,
+            0.74
+          ],
+          "compression": 0.025
+        }
+      ],
+      "two_hand": false,
+      "upper_clip": "BeadOrbit_Upper",
+      "skill_id": "shaseng.BeadOrbit"
+    },
+    {
+      "clip": "Undertow",
+      "label": "潜流换线 · 斜铲引流",
+      "duration": 1.45,
+      "windup_end": 0.6815,
+      "release_end": 0.87,
+      "events": [
+        {
+          "time": 0.6815,
+          "type": "undertow",
+          "socket": "weapon.tip"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.24,
+          "lean": -0.07,
+          "hand": [
+            0.05,
+            0.74
+          ],
+          "weapon": -0.36,
+          "back_hand": [
+            0.01,
+            0.67
+          ],
+          "compression": 0.025
+        },
+        {
+          "t": 0.47,
+          "lean": 0.17,
+          "hand": [
+            0.25,
+            0.55
+          ],
+          "weapon": 1.28,
+          "back_hand": [
+            0.11,
+            0.59
+          ],
+          "compression": 0.045
+        },
+        {
+          "t": 0.66,
+          "lean": 0.09,
+          "hand": [
+            0.23,
+            0.6
+          ],
+          "weapon": 1.02,
+          "back_hand": [
+            0.12,
+            0.62
+          ],
+          "compression": 0.03
+        }
+      ],
+      "two_hand": true,
+      "upper_clip": "Undertow_Upper",
+      "skill_id": "shaseng.Undertow"
+    },
+    {
+      "clip": "HitRecoil",
+      "label": "受击 · 后仰缓冲",
+      "duration": 0.55,
+      "windup_end": 0.066,
+      "release_end": 0.1375,
+      "events": [
+        {
+          "time": 0.066,
+          "type": "hurt",
+          "socket": "actor"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.12,
+          "lean": -0.18,
+          "hand": [
+            0.09,
+            0.62
+          ],
+          "weapon": -0.1,
+          "back_hand": [
+            -0.04,
+            0.66
+          ],
+          "compression": 0.035
+        },
+        {
+          "t": 0.35,
+          "lean": 0.08,
+          "hand": [
+            0.13,
+            0.61
+          ],
+          "weapon": 0.1,
+          "back_hand": [
+            0.02,
+            0.65
+          ],
+          "compression": 0.045
+        },
+        {
+          "t": 0.65,
+          "lean": 0.04,
+          "hand": [
+            0.13,
+            0.61
+          ],
+          "weapon": 0.08,
+          "back_hand": [
+            0.02,
+            0.64
+          ],
+          "compression": 0.02
+        }
+      ],
+      "two_hand": false,
+      "upper_clip": null,
+      "skill_id": null
+    },
+    {
+      "clip": "DodgeBack",
+      "label": "闪避 · 后撤换步",
+      "duration": 0.45,
+      "windup_end": 0.08,
+      "release_end": 0.32,
+      "events": [
+        {
+          "time": 0.08,
+          "type": "dodge",
+          "socket": "actor"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.24,
+          "lean": -0.1,
+          "hand": [
+            0.1,
+            0.61
+          ],
+          "weapon": -0.12,
+          "back_hand": [
+            -0.02,
+            0.66
+          ],
+          "compression": 0.045
+        },
+        {
+          "t": 0.45,
+          "lean": -0.13,
+          "hand": [
+            0.11,
+            0.64
+          ],
+          "weapon": -0.16,
+          "back_hand": [
+            0.04,
+            0.68
+          ],
+          "compression": 0.06
+        },
+        {
+          "t": 0.72,
+          "lean": -0.03,
+          "hand": [
+            0.12,
+            0.62
+          ],
+          "weapon": 0.0,
+          "back_hand": [
+            0.02,
+            0.65
+          ],
+          "compression": 0.025
+        }
+      ],
+      "two_hand": false,
+      "upper_clip": null,
+      "root_motion": {
+        "axis": "facing-x",
+        "distance": -0.4697,
+        "keys": [
+          [
+            0,
+            0
+          ],
+          [
+            0.14,
+            0
+          ],
+          [
+            0.88,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "application": "external collision-aware displacement; not baked into bone translation"
+      },
+      "skill_id": null,
+      "airborne": {
+        "start": 0.16,
+        "end": 0.8,
+        "height_ratio": 0.07
+      }
+    }
+  ],
+  "upper_mask": [
+    "abdomen",
+    "body",
+    "head",
+    "upper_arm.back",
+    "forearm.back",
+    "upper_arm.front",
+    "forearm.front",
+    "weapon",
+    "accessory"
+  ],
+  "lower_mask": [
+    "pelvis",
+    "thigh.back",
+    "shin.back",
+    "foot.back",
+    "thigh.front",
+    "shin.front",
+    "foot.front"
+  ],
+  "offhand_ik_max_error": 9.610960183499514e-07,
+  "back_hand_surface_marker": [
+    0.7121212121212122,
+    0.17000000000000004
+  ],
+  "weapon_grip_surface_marker": [
+    0.4999999701976776,
+    0.3771023750305176
+  ],
+  "surface_sockets": {
+    "hand.back": {
+      "part": "forearm.back",
+      "uv": [
+        0.7121212121212122,
+        0.17000000000000004
+      ]
+    },
+    "weapon": {
+      "part": "weapon",
+      "uv": [
+        0.4999999701976776,
+        0.3771023750305176
+      ]
+    },
+    "weapon.tip": {
+      "part": "weapon",
+      "uv": [
+        0.8013938069343567,
+        0.9972565174102783
+      ]
+    },
+    "actor": {
+      "bone": "pelvis",
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    "foot.front": {
+      "bone": "foot.front",
+      "offset": [
+        0,
+        0,
+        0
+      ],
+      "meaning": "ankle; resolve terrain contact externally"
+    },
+    "hand.front": {
+      "part": "forearm.front",
+      "uv": [
+        0.5961538461538461,
+        0.17000000000000004
+      ]
+    }
+  },
+  "walk_period": 1.2666666666666666,
+  "walk_distance": 0.8589017276194751,
+  "status": "used in five-person map trial; final art and campaign integration pending",
+  "in_game": true,
+  "arm_width_factors": [
+    1.5,
+    1.45
+  ],
+  "arm_review_status": "v5 compact body, grounded skills and explicit dodge; visual review pending",
+  "body_proportions": {
+    "leg_scale": 0.74,
+    "torso_scale": 0.91,
+    "body_width": 1.24,
+    "weapon_length": 0.82
+  },
+  "original_height": 2.5,
+  "grip_distance_ratio": 0.17,
+  "arm_surface_markers": {
+    "front": {
+      "upper_arm": [
+        0.2977941036224365,
+        0.154689222574234
+      ],
+      "forearm": [
+        0.3671441674232483,
+        0.8974279761314392
+      ],
+      "body": [
+        0.8830645084381104,
+        0.73333340883255
+      ],
+      "shoulder": [
+        0.7129778861999512,
+        0.8482006192207336
+      ]
+    },
+    "back": {
+      "upper_arm": [
+        0.6608096361160278,
+        0.1639663428068161
+      ],
+      "forearm": [
+        0.2669697105884552,
+        0.9143863916397095
+      ],
+      "body": [
+        0.09516128152608871,
+        0.73499995470047
+      ],
+      "shoulder": [
+        0.189773827791214,
+        0.8567113280296326
+      ]
+    }
+  },
+  "elbow_caps": {
+    "upper_arm.front": {
+      "source_height": 292,
+      "elbow_pixel": [
+        40.5,
+        163.5
+      ],
+      "visible_end": 193.42000000000002
+    },
+    "upper_arm.back": {
+      "source_height": 352,
+      "elbow_pixel": [
+        111.016,
+        188.452
+      ],
+      "visible_end": 225.412
+    }
+  },
+  "arm_structure_revision": "upper sleeve native quad/UV trimmed beyond elbow; original raster unchanged",
+  "arm_cross_axis_aspect": [
+    0.84,
+    0.82
+  ],
+  "shoulder_source_pixels": {
+    "back": [
+      23.6,
+      63.6
+    ],
+    "front": [
+      219,
+      64
+    ]
+  },
+  "native_export_hz": 120,
+  "inspection_bounds": {
+    "SpadeSweep": [
+      -1.1040082052350044,
+      -0.06535321474075317,
+      2.000428669154644,
+      2.862168788909912
+    ],
+    "SpadeThrust": [
+      -0.9634562209248543,
+      -0.06578561663627625,
+      2.0430223867297173,
+      2.6175925731658936
+    ],
+    "RiverWard": [
+      -0.7903384044766426,
+      -0.06532056629657745,
+      0.948137454688549,
+      2.9126195907592773
+    ],
+    "SpadeLift": [
+      -0.6736784651875496,
+      -0.06491315364837646,
+      1.96784757822752,
+      3.116464853286743
+    ],
+    "SandVortex": [
+      -1.0980719402432442,
+      -0.06618129462003708,
+      1.9613602086901665,
+      2.856192111968994
+    ],
+    "RiverDrag": [
+      -0.877503402531147,
+      -0.06491315364837646,
+      2.0146429464221,
+      2.6792397499084473
+    ],
+    "PrayerBeads": [
+      -0.7989494875073433,
+      -0.0660780519247055,
+      0.9486904069781303,
+      2.867225170135498
+    ],
+    "RiverTread": [
+      -0.7945222333073616,
+      -0.06491315364837646,
+      1.9842712804675102,
+      2.6682190895080566
+    ],
+    "WaterSplit": [
+      -1.4596737697720528,
+      -0.06491315364837646,
+      1.9861366674304008,
+      2.9381635189056396
+    ],
+    "SandAnchor": [
+      -0.6604886129498482,
+      -0.07027025520801544,
+      0.948137454688549,
+      3.121246576309204
+    ],
+    "BeadOrbit": [
+      -0.7666232660412788,
+      -0.06503970921039581,
+      0.948137454688549,
+      2.9335341453552246
+    ],
+    "Undertow": [
+      -0.6653472855687141,
+      -0.06491315364837646,
+      1.9896011278033257,
+      3.007632255554199
+    ],
+    "HitRecoil": [
+      -0.8398854210972786,
+      -0.06491315364837646,
+      0.948137454688549,
+      2.7900447845458984
+    ],
+    "DodgeBack": [
+      -0.8225017860531807,
+      -0.06491315364837646,
+      0.948137454688549,
+      2.981804847717285
+    ]
+  },
+  "integration": {
+    "mode": "five-person map trial",
+    "asset": "shadow/shaseng.glb",
+    "hero_skills": 12,
+    "enemy_basic_attacks": 0,
+    "campaign": false
+  }
+}

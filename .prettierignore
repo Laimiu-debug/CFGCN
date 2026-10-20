@@ -4,3 +4,7 @@ package-lock.json
 .local
 *.svg
 apps/website/public/licenses
+apps/website/public/games/xiyou/pkg
+apps/website/public/games/xiyou/assets
+# Generated geographic paths
+apps/website/src/atlas-data.json

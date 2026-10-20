@@ -1,0 +1,110 @@
+{
+  "id": "xiaobailong",
+  "name": "小白龙（人形）",
+  "status": "resource study; visual review pending",
+  "source": "OpenAI built-in image_gen; original art",
+  "source_image": "parts-source.png",
+  "source_sha256": "1b4991db11dc1b50c1fe8332aa1c2878059ddd9e6ce2fba78696c7ba9d8f475c",
+  "prompt": "prompt.txt",
+  "woop": "xiaobailong.woop",
+  "editable": "xiaobailong.blend",
+  "runtime": "xiaobailong.glb",
+  "runtime_sha256": "9570ffd4e4c81cd60de349eff8a1147880ba09a25d3649d11ac1bde482f10e0c",
+  "runtime_bytes": 1269104,
+  "texture_size": [
+    1024,
+    1024
+  ],
+  "source_texture_size": [
+    1254,
+    1254
+  ],
+  "parts": 16,
+  "joints": 15,
+  "bones": 16,
+  "anatomy": "chest -> abdomen -> pelvis -> thighs",
+  "triangles": 32,
+  "materials": 1,
+  "clips": [
+    "Idle",
+    "Walk",
+    "RestPose"
+  ],
+  "importer": "Official WooooShadow 0.8.13, loaded locally in an isolated Blender process",
+  "importer_sha256": "d05e8f74c00d40c1dd1e043e5d9bc5f70b86c1c0abd6a181cba7c2d94e6b4c60",
+  "blender": "5.2.2 LTS",
+  "directions": [
+    "side-right",
+    "mirrored-side-left"
+  ],
+  "tripo": "Not used: direct original 2D puppet artwork",
+  "in_game": false,
+  "version": 4,
+  "nominal_body_height": 2.22,
+  "proportions": {
+    "shape": "清瘦少年，肩胯窄、腿最长，步态轻快",
+    "head": [
+      46,
+      32
+    ],
+    "chest": [
+      63,
+      48
+    ],
+    "abdomen": [
+      60,
+      42
+    ],
+    "pelvis": [
+      48,
+      45
+    ],
+    "upper": [
+      36,
+      12
+    ],
+    "fore": [
+      35,
+      11
+    ],
+    "thigh": [
+      63,
+      25
+    ],
+    "shin": [
+      60,
+      18
+    ],
+    "foot": [
+      12,
+      30
+    ],
+    "lean": 0.015,
+    "crouch": 0.065,
+    "stride": 0.29,
+    "lift": 0.095,
+    "period": 1.1,
+    "arm_swing": 0.18,
+    "fore_angle": -0.43,
+    "weapon_tilt": -0.72,
+    "idle_crouch": 0.004,
+    "hip_span": 14,
+    "duty": 0.62,
+    "idle_compression": 0.004,
+    "extra_compression": 0.0,
+    "idle_stance": 0.045,
+    "foot_anchor_y": 0.38
+  },
+  "weapon_source": "weapon-source.png",
+  "weapon_prompt": "weapon-prompt.txt",
+  "weapon_source_sha256": "af180f2100659999fb9d5baa0053adc947f3ae1dae59d56b8ba59fbcb0db7c1e",
+  "lower_body_source": "lower-body-source.png",
+  "lower_body_prompt": "lower-body-prompt.txt",
+  "lower_body_source_sha256": "47ab354c290602e6fde8ecfb6a888e2e8ab63860111597be2f216fcf46b18bf5",
+  "weapon_body_ratio": 0.6,
+  "runtime_atlas": "runtime-atlas.png",
+  "walk_distance": 0.8311161681619328,
+  "walk_duty": 0.62,
+  "walk_period": 1.1,
+  "revision": "Exact longitudinal joint mapping, forward knees, double support, heel/toe roll and individually redrawn weapons"
+}

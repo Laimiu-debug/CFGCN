@@ -1,0 +1,434 @@
+[
+  {
+    "id": "dao",
+    "name": "朴刀",
+    "lengthH": 0.95,
+    "description": "one Chinese pudao, broad single-edged blade on a stout medium wooden haft, clear blade socket and wrapped grip, plain practical silhouette",
+    "styleId": "amber-sugar-miniature-v2",
+    "prompt": "Isolated Water Margin equipment: one Chinese pudao, broad single-edged blade on a stout medium wooden haft, clear blade socket and wrapped grip, plain practical silhouette. Painted amber sugar; jade or indigo main surfaces, vermilion grips or ties, antique-gold fittings and ivory edges where present; crisp carving, subtly translucent edges. Finish all sides and usable grips. No figure, hand, base, scene, text, melted candy or floating fragments. Static unrigged prop; recolor to its owner's design in Blender."
+  },
+  {
+    "id": "sabre",
+    "name": "腰刀",
+    "lengthH": 0.52,
+    "description": "one practical Chinese single-edged waist sabre, gently curved blade, small disc guard, wrapped oval grip and separate simple scabbard",
+    "styleId": "amber-sugar-miniature-v2",
+    "prompt": "Isolated Water Margin equipment: one practical Chinese single-edged waist sabre, gently curved blade, small disc guard, wrapped oval grip and separate simple scabbard. Painted amber sugar; jade or indigo main surfaces, vermilion grips or ties, antique-gold fittings and ivory edges where present; crisp carving, subtly translucent edges. Finish all sides and usable grips. No figure, hand, base, scene, text, melted candy or floating fragments. Static unrigged prop; recolor to its owner's design in Blender."
+  },
+  {
+    "id": "spear",
+    "name": "步战长枪",
+    "lengthH": 1.32,
+    "description": "one straight Chinese infantry spear, leaf-shaped narrow steel head, sturdy cylindrical shaft, restrained short tassel below the socket",
+    "styleId": "amber-sugar-miniature-v2",
+    "prompt": "Isolated Water Margin equipment: one straight Chinese infantry spear, leaf-shaped narrow steel head, sturdy cylindrical shaft, restrained short tassel below the socket. Painted amber sugar; jade or indigo main surfaces, vermilion grips or ties, antique-gold fittings and ivory edges where present; crisp carving, subtly translucent edges. Finish all sides and usable grips. No figure, hand, base, scene, text, melted candy or floating fragments. Static unrigged prop; recolor to its owner's design in Blender."
+  },
+  {
+    "id": "snake-spear",
+    "name": "林冲蛇矛样式",
+    "lengthH": 1.4,
+    "description": "one long spear for Lin Chong, a single broad sinuous spearhead with two bends, straight sturdy haft, small tassel and blunt unbladed tail, no second blade",
+    "styleId": "amber-sugar-miniature-v2",
+    "prompt": "Isolated Water Margin equipment: one long spear for Lin Chong, a single broad sinuous spearhead with two bends, straight sturdy haft, small tassel and blunt unbladed tail, no second blade. Painted amber sugar; jade or indigo main surfaces, vermilion grips or ties, antique-gold fittings and ivory edges where present; crisp carving, subtly translucent edges. Finish all sides and usable grips. No figure, hand, base, scene, text, melted candy or floating fragments. Static unrigged prop; recolor to its owner's design in Blender."
+  },
+  {
+    "id": "crescent-blade",
+    "name": "关胜大刀样式",
+    "lengthH": 1.38,
+    "description": "one Chinese long-handled crescent blade for Guan Sheng, broad curved cutting edge, thick blade back, clear collar, restrained engraved cloud border",
+    "styleId": "amber-sugar-miniature-v2",
+    "prompt": "Isolated Water Margin equipment: one Chinese long-handled crescent blade for Guan Sheng, broad curved cutting edge, thick blade back, clear collar, restrained engraved cloud border. Painted amber sugar; jade or indigo main surfaces, vermilion grips or ties, antique-gold fittings and ivory edges where present; crisp carving, subtly translucent edges. Finish all sides and usable grips. No figure, hand, base, scene, text, melted candy or floating fragments. Static unrigged prop; recolor to its owner's design in Blender."
+  },
+  {
+    "id": "wolf-mace",
+    "name": "秦明狼牙棒",
+    "lengthH": 1.02,
+    "description": "one heavy Chinese wolf-tooth mace, tapered elongated solid head with a few rows of large blunt spikes, thick straight haft and clear two-hand grip",
+    "styleId": "amber-sugar-miniature-v2",
+    "prompt": "Isolated Water Margin equipment: one heavy Chinese wolf-tooth mace, tapered elongated solid head with a few rows of large blunt spikes, thick straight haft and clear two-hand grip. Painted amber sugar; jade or indigo main surfaces, vermilion grips or ties, antique-gold fittings and ivory edges where present; crisp carving, subtly translucent edges. Finish all sides and usable grips. No figure, hand, base, scene, text, melted candy or floating fragments. Static unrigged prop; recolor to its owner's design in Blender."
+  },
+  {
+    "id": "twin-whips",
+    "name": "呼延灼双鞭",
+    "lengthH": 0.54,
+    "description": "a matched pair of rigid Chinese metal fighting whips, segmented squared bars with tapered tips, small guards and separate wrapped handles, not flexible lashes",
+    "styleId": "amber-sugar-miniature-v2",
+    "prompt": "Isolated Water Margin equipment: a matched pair of rigid Chinese metal fighting whips, segmented squared bars with tapered tips, small guards and separate wrapped handles, not flexible lashes. Painted amber sugar; jade or indigo main surfaces, vermilion grips or ties, antique-gold fittings and ivory edges where present; crisp carving, subtly translucent edges. Finish all sides and usable grips. No figure, hand, base, scene, text, melted candy or floating fragments. Static unrigged prop; recolor to its owner's design in Blender."
+  },
+  {
+    "id": "bow",
+    "name": "长弓与箭囊",
+    "lengthH": 0.7,
+    "description": "one compact recurved Chinese bow, continuous thick limbs and visible taut string, plus a separate small quiver with three sturdy arrow shafts",
+    "styleId": "amber-sugar-miniature-v2",
+    "prompt": "Isolated Water Margin equipment: one compact recurved Chinese bow, continuous thick limbs and visible taut string, plus a separate small quiver with three sturdy arrow shafts. Painted amber sugar; jade or indigo main surfaces, vermilion grips or ties, antique-gold fittings and ivory edges where present; crisp carving, subtly translucent edges. Finish all sides and usable grips. No figure, hand, base, scene, text, melted candy or floating fragments. Static unrigged prop; recolor to its owner's design in Blender."
+  },
+  {
+    "id": "flying-knives",
+    "name": "李应飞刀组",
+    "lengthH": 0.22,
+    "description": "five small Chinese throwing knives and one simple belt sheath rack, clear leaf-shaped blades and wrapped grips, closed compact arrangement",
+    "styleId": "amber-sugar-miniature-v2",
+    "prompt": "Isolated Water Margin equipment: five small Chinese throwing knives and one simple belt sheath rack, clear leaf-shaped blades and wrapped grips, closed compact arrangement. Painted amber sugar; jade or indigo main surfaces, vermilion grips or ties, antique-gold fittings and ivory edges where present; crisp carving, subtly translucent edges. Finish all sides and usable grips. No figure, hand, base, scene, text, melted candy or floating fragments. Static unrigged prop; recolor to its owner's design in Blender."
+  },
+  {
+    "id": "monk-staff",
+    "name": "鲁智深铁禅杖",
+    "lengthH": 1.2,
+    "description": "one heavy Chinese monk spade staff for Lu Zhishen, broad shovel blade at one end and open crescent at the other, thick straight shaft, clear two-hand grip",
+    "styleId": "amber-sugar-miniature-v2",
+    "prompt": "Isolated Water Margin equipment: one heavy Chinese monk spade staff for Lu Zhishen, broad shovel blade at one end and open crescent at the other, thick straight shaft, clear two-hand grip. Painted amber sugar; jade or indigo main surfaces, vermilion grips or ties, antique-gold fittings and ivory edges where present; crisp carving, subtly translucent edges. Finish all sides and usable grips. No figure, hand, base, scene, text, melted candy or floating fragments. Static unrigged prop; recolor to its owner's design in Blender."
+  },
+  {
+    "id": "monk-knives",
+    "name": "武松双戒刀",
+    "lengthH": 0.57,
+    "description": "two Chinese monk fighting knives for Wu Song, long single-edged blades with blunt spines, simple disc guards and wrapped grips, no fantasy saw teeth",
+    "styleId": "amber-sugar-miniature-v2",
+    "prompt": "Isolated Water Margin equipment: two Chinese monk fighting knives for Wu Song, long single-edged blades with blunt spines, simple disc guards and wrapped grips, no fantasy saw teeth. Painted amber sugar; jade or indigo main surfaces, vermilion grips or ties, antique-gold fittings and ivory edges where present; crisp carving, subtly translucent edges. Finish all sides and usable grips. No figure, hand, base, scene, text, melted candy or floating fragments. Static unrigged prop; recolor to its owner's design in Blender."
+  },
+  {
+    "id": "twin-spears",
+    "name": "董平双枪",
+    "lengthH": 1.15,
+    "description": "two matching straight Chinese spears, slim leaf heads and sturdy shafts, short restrained tassels, separated full-length silhouettes",
+    "styleId": "amber-sugar-miniature-v2",
+    "prompt": "Isolated Water Margin equipment: two matching straight Chinese spears, slim leaf heads and sturdy shafts, short restrained tassels, separated full-length silhouettes. Painted amber sugar; jade or indigo main surfaces, vermilion grips or ties, antique-gold fittings and ivory edges where present; crisp carving, subtly translucent edges. Finish all sides and usable grips. No figure, hand, base, scene, text, melted candy or floating fragments. Static unrigged prop; recolor to its owner's design in Blender."
+  },
+  {
+    "id": "stone-pouch",
+    "name": "张清飞石囊",
+    "lengthH": 0.2,
+    "description": "one soft belt pouch with five smooth palm-size throwing pebbles beside it, intact rounded stones, no sling, no written symbols",
+    "styleId": "amber-sugar-miniature-v2",
+    "prompt": "Isolated Water Margin equipment: one soft belt pouch with five smooth palm-size throwing pebbles beside it, intact rounded stones, no sling, no written symbols. Painted amber sugar; jade or indigo main surfaces, vermilion grips or ties, antique-gold fittings and ivory edges where present; crisp carving, subtly translucent edges. Finish all sides and usable grips. No figure, hand, base, scene, text, melted candy or floating fragments. Static unrigged prop; recolor to its owner's design in Blender."
+  },
+  {
+    "id": "hook-spear",
+    "name": "徐宁钩镰枪",
+    "lengthH": 1.3,
+    "description": "one Chinese hooked spear for Xu Ning, straight central spearhead with a short backward-facing side hook, long sturdy shaft, simple reinforced collar",
+    "styleId": "amber-sugar-miniature-v2",
+    "prompt": "Isolated Water Margin equipment: one Chinese hooked spear for Xu Ning, straight central spearhead with a short backward-facing side hook, long sturdy shaft, simple reinforced collar. Painted amber sugar; jade or indigo main surfaces, vermilion grips or ties, antique-gold fittings and ivory edges where present; crisp carving, subtly translucent edges. Finish all sides and usable grips. No figure, hand, base, scene, text, melted candy or floating fragments. Static unrigged prop; recolor to its owner's design in Blender."
+  },
+  {
+    "id": "broad-axe",
+    "name": "索超宣花斧",
+    "lengthH": 1.05,
+    "description": "one Chinese long-handled broad axe, single wide petal-shaped axe blade with thick back and practical haft, no double fantasy crescent",
+    "styleId": "amber-sugar-miniature-v2",
+    "prompt": "Isolated Water Margin equipment: one Chinese long-handled broad axe, single wide petal-shaped axe blade with thick back and practical haft, no double fantasy crescent. Painted amber sugar; jade or indigo main surfaces, vermilion grips or ties, antique-gold fittings and ivory edges where present; crisp carving, subtly translucent edges. Finish all sides and usable grips. No figure, hand, base, scene, text, melted candy or floating fragments. Static unrigged prop; recolor to its owner's design in Blender."
+  },
+  {
+    "id": "twin-axes",
+    "name": "李逵双板斧",
+    "lengthH": 0.45,
+    "description": "two Chinese short-handled broad axes for Li Kui, large rectangular-fan blades and thick short wooden grips, independent left and right weapons",
+    "styleId": "amber-sugar-miniature-v2",
+    "prompt": "Isolated Water Margin equipment: two Chinese short-handled broad axes for Li Kui, large rectangular-fan blades and thick short wooden grips, independent left and right weapons. Painted amber sugar; jade or indigo main surfaces, vermilion grips or ties, antique-gold fittings and ivory edges where present; crisp carving, subtly translucent edges. Finish all sides and usable grips. No figure, hand, base, scene, text, melted candy or floating fragments. Static unrigged prop; recolor to its owner's design in Blender."
+  },
+  {
+    "id": "staff",
+    "name": "齐眉棍",
+    "lengthH": 1.03,
+    "description": "one straight Chinese hardwood fighting staff with slightly capped ends, smooth continuous shaft, visible simple wrapped two-hand grip",
+    "styleId": "amber-sugar-miniature-v2",
+    "prompt": "Isolated Water Margin equipment: one straight Chinese hardwood fighting staff with slightly capped ends, smooth continuous shaft, visible simple wrapped two-hand grip. Painted amber sugar; jade or indigo main surfaces, vermilion grips or ties, antique-gold fittings and ivory edges where present; crisp carving, subtly translucent edges. Finish all sides and usable grips. No figure, hand, base, scene, text, melted candy or floating fragments. Static unrigged prop; recolor to its owner's design in Blender."
+  },
+  {
+    "id": "river-knife",
+    "name": "水军短刀",
+    "lengthH": 0.4,
+    "description": "one sturdy short Chinese river-fighter knife, broad single-edged blade and compact wrapped grip, simple belt sheath, no anchor ornament",
+    "styleId": "amber-sugar-miniature-v2",
+    "prompt": "Isolated Water Margin equipment: one sturdy short Chinese river-fighter knife, broad single-edged blade and compact wrapped grip, simple belt sheath, no anchor ornament. Painted amber sugar; jade or indigo main surfaces, vermilion grips or ties, antique-gold fittings and ivory edges where present; crisp carving, subtly translucent edges. Finish all sides and usable grips. No figure, hand, base, scene, text, melted candy or floating fragments. Static unrigged prop; recolor to its owner's design in Blender."
+  },
+  {
+    "id": "oar",
+    "name": "舟桨",
+    "lengthH": 1.15,
+    "description": "one practical narrow Chinese wooden river oar, broad flat paddle blade and thick oval handle, minimal carved joinery, no boat",
+    "styleId": "amber-sugar-miniature-v2",
+    "prompt": "Isolated Water Margin equipment: one practical narrow Chinese wooden river oar, broad flat paddle blade and thick oval handle, minimal carved joinery, no boat. Painted amber sugar; jade or indigo main surfaces, vermilion grips or ties, antique-gold fittings and ivory edges where present; crisp carving, subtly translucent edges. Finish all sides and usable grips. No figure, hand, base, scene, text, melted candy or floating fragments. Static unrigged prop; recolor to its owner's design in Blender."
+  },
+  {
+    "id": "hunting-fork",
+    "name": "猎叉",
+    "lengthH": 1.22,
+    "description": "one Chinese mountain hunting fork with three thick practical prongs, stout long wood shaft, visible socket and no fragile barbs",
+    "styleId": "amber-sugar-miniature-v2",
+    "prompt": "Isolated Water Margin equipment: one Chinese mountain hunting fork with three thick practical prongs, stout long wood shaft, visible socket and no fragile barbs. Painted amber sugar; jade or indigo main surfaces, vermilion grips or ties, antique-gold fittings and ivory edges where present; crisp carving, subtly translucent edges. Finish all sides and usable grips. No figure, hand, base, scene, text, melted candy or floating fragments. Static unrigged prop; recolor to its owner's design in Blender."
+  },
+  {
+    "id": "crossbow",
+    "name": "小弩",
+    "lengthH": 0.36,
+    "description": "one compact Chinese handheld crossbow, sturdy wood stock, short transverse bow and visible string, one blunt-ended bolt, no modern gun parts",
+    "styleId": "amber-sugar-miniature-v2",
+    "prompt": "Isolated Water Margin equipment: one compact Chinese handheld crossbow, sturdy wood stock, short transverse bow and visible string, one blunt-ended bolt, no modern gun parts. Painted amber sugar; jade or indigo main surfaces, vermilion grips or ties, antique-gold fittings and ivory edges where present; crisp carving, subtly translucent edges. Finish all sides and usable grips. No figure, hand, base, scene, text, melted candy or floating fragments. Static unrigged prop; recolor to its owner's design in Blender."
+  },
+  {
+    "id": "halberd",
+    "name": "画戟",
+    "lengthH": 1.35,
+    "description": "one Chinese long halberd, central spearhead with two restrained side crescent blades, straight wood haft and modest collar, no oversized tassels",
+    "styleId": "amber-sugar-miniature-v2",
+    "prompt": "Isolated Water Margin equipment: one Chinese long halberd, central spearhead with two restrained side crescent blades, straight wood haft and modest collar, no oversized tassels. Painted amber sugar; jade or indigo main surfaces, vermilion grips or ties, antique-gold fittings and ivory edges where present; crisp carving, subtly translucent edges. Finish all sides and usable grips. No figure, hand, base, scene, text, melted candy or floating fragments. Static unrigged prop; recolor to its owner's design in Blender."
+  },
+  {
+    "id": "twin-sabres",
+    "name": "扈三娘日月双刀",
+    "lengthH": 0.58,
+    "description": "two Chinese curved single-edged sabres for Hu Sanniang, complementary sun and crescent guard details without letters, sturdy separate grips and clean cutting edges",
+    "styleId": "amber-sugar-miniature-v2",
+    "prompt": "Isolated Water Margin equipment: two Chinese curved single-edged sabres for Hu Sanniang, complementary sun and crescent guard details without letters, sturdy separate grips and clean cutting edges. Painted amber sugar; jade or indigo main surfaces, vermilion grips or ties, antique-gold fittings and ivory edges where present; crisp carving, subtly translucent edges. Finish all sides and usable grips. No figure, hand, base, scene, text, melted candy or floating fragments. Static unrigged prop; recolor to its owner's design in Blender."
+  },
+  {
+    "id": "broad-sword",
+    "name": "阔剑",
+    "lengthH": 0.75,
+    "description": "one heavy straight Chinese double-edged sword, broad tapered blade with central ridge, modest guard and wrapped two-hand grip, practical compact pommel",
+    "styleId": "amber-sugar-miniature-v2",
+    "prompt": "Isolated Water Margin equipment: one heavy straight Chinese double-edged sword, broad tapered blade with central ridge, modest guard and wrapped two-hand grip, practical compact pommel. Painted amber sugar; jade or indigo main surfaces, vermilion grips or ties, antique-gold fittings and ivory edges where present; crisp carving, subtly translucent edges. Finish all sides and usable grips. No figure, hand, base, scene, text, melted candy or floating fragments. Static unrigged prop; recolor to its owner's design in Blender."
+  },
+  {
+    "id": "flail",
+    "name": "铁链与锤",
+    "lengthH": 0.65,
+    "description": "one compact Chinese chain weapon, thick separated oval links joining a small solid striking weight to a short grip, arranged in a stable shallow curve",
+    "styleId": "amber-sugar-miniature-v2",
+    "prompt": "Isolated Water Margin equipment: one compact Chinese chain weapon, thick separated oval links joining a small solid striking weight to a short grip, arranged in a stable shallow curve. Painted amber sugar; jade or indigo main surfaces, vermilion grips or ties, antique-gold fittings and ivory edges where present; crisp carving, subtly translucent edges. Finish all sides and usable grips. No figure, hand, base, scene, text, melted candy or floating fragments. Static unrigged prop; recolor to its owner's design in Blender."
+  },
+  {
+    "id": "rattan-shield",
+    "name": "团牌",
+    "lengthH": 0.42,
+    "description": "one round Chinese rattan fighting shield, broad woven bands in shallow relief, strong rim and readable rear hand strap, no coat of arms",
+    "styleId": "amber-sugar-miniature-v2",
+    "prompt": "Isolated Water Margin equipment: one round Chinese rattan fighting shield, broad woven bands in shallow relief, strong rim and readable rear hand strap, no coat of arms. Painted amber sugar; jade or indigo main surfaces, vermilion grips or ties, antique-gold fittings and ivory edges where present; crisp carving, subtly translucent edges. Finish all sides and usable grips. No figure, hand, base, scene, text, melted candy or floating fragments. Static unrigged prop; recolor to its owner's design in Blender."
+  },
+  {
+    "id": "javelins",
+    "name": "投枪束",
+    "lengthH": 0.72,
+    "description": "three short Chinese throwing spears, compact leaf heads and thick straight shafts, clearly separated and bound by one removable simple carrying strap",
+    "styleId": "amber-sugar-miniature-v2",
+    "prompt": "Isolated Water Margin equipment: three short Chinese throwing spears, compact leaf heads and thick straight shafts, clearly separated and bound by one removable simple carrying strap. Painted amber sugar; jade or indigo main surfaces, vermilion grips or ties, antique-gold fittings and ivory edges where present; crisp carving, subtly translucent edges. Finish all sides and usable grips. No figure, hand, base, scene, text, melted candy or floating fragments. Static unrigged prop; recolor to its owner's design in Blender."
+  },
+  {
+    "id": "sword",
+    "name": "直剑",
+    "lengthH": 0.61,
+    "description": "one Chinese straight double-edged sword, narrow ridged blade, modest cross guard, plain pommel and wrapped grip, plus a simple separate sheath",
+    "styleId": "amber-sugar-miniature-v2",
+    "prompt": "Isolated Water Margin equipment: one Chinese straight double-edged sword, narrow ridged blade, modest cross guard, plain pommel and wrapped grip, plus a simple separate sheath. Painted amber sugar; jade or indigo main surfaces, vermilion grips or ties, antique-gold fittings and ivory edges where present; crisp carving, subtly translucent edges. Finish all sides and usable grips. No figure, hand, base, scene, text, melted candy or floating fragments. Static unrigged prop; recolor to its owner's design in Blender."
+  },
+  {
+    "id": "short-staff",
+    "name": "短棒",
+    "lengthH": 0.55,
+    "description": "one short practical hardwood club, slightly tapered solid cylindrical body, clear rounded handle and simple wrist loop",
+    "styleId": "amber-sugar-miniature-v2",
+    "prompt": "Isolated Water Margin equipment: one short practical hardwood club, slightly tapered solid cylindrical body, clear rounded handle and simple wrist loop. Painted amber sugar; jade or indigo main surfaces, vermilion grips or ties, antique-gold fittings and ivory edges where present; crisp carving, subtly translucent edges. Finish all sides and usable grips. No figure, hand, base, scene, text, melted candy or floating fragments. Static unrigged prop; recolor to its owner's design in Blender."
+  },
+  {
+    "id": "forked-blade",
+    "name": "三尖两刃刀",
+    "lengthH": 1.28,
+    "description": "one Chinese three-pointed pole blade, broad central point and two short side points sharing a solid blade body, straight strong haft, minimal decoration",
+    "styleId": "amber-sugar-miniature-v2",
+    "prompt": "Isolated Water Margin equipment: one Chinese three-pointed pole blade, broad central point and two short side points sharing a solid blade body, straight strong haft, minimal decoration. Painted amber sugar; jade or indigo main surfaces, vermilion grips or ties, antique-gold fittings and ivory edges where present; crisp carving, subtly translucent edges. Finish all sides and usable grips. No figure, hand, base, scene, text, melted candy or floating fragments. Static unrigged prop; recolor to its owner's design in Blender."
+  },
+  {
+    "id": "cleaver",
+    "name": "屠刀与刀鞘",
+    "lengthH": 0.3,
+    "description": "one practical Chinese butcher knife, broad heavy blade with thick spine, plain wood grip, separate compact sheath, clean surface without gore",
+    "styleId": "amber-sugar-miniature-v2",
+    "prompt": "Isolated Water Margin equipment: one practical Chinese butcher knife, broad heavy blade with thick spine, plain wood grip, separate compact sheath, clean surface without gore. Painted amber sugar; jade or indigo main surfaces, vermilion grips or ties, antique-gold fittings and ivory edges where present; crisp carving, subtly translucent edges. Finish all sides and usable grips. No figure, hand, base, scene, text, melted candy or floating fragments. Static unrigged prop; recolor to its owner's design in Blender."
+  },
+  {
+    "id": "execution-sword",
+    "name": "行刑大刀",
+    "lengthH": 0.82,
+    "description": "one broad Chinese executioner's sabre, long slightly flared single-edged blade, thick spine, simple sturdy two-hand handle, clean and without blood",
+    "styleId": "amber-sugar-miniature-v2",
+    "prompt": "Isolated Water Margin equipment: one broad Chinese executioner's sabre, long slightly flared single-edged blade, thick spine, simple sturdy two-hand handle, clean and without blood. Painted amber sugar; jade or indigo main surfaces, vermilion grips or ties, antique-gold fittings and ivory edges where present; crisp carving, subtly translucent edges. Finish all sides and usable grips. No figure, hand, base, scene, text, melted candy or floating fragments. Static unrigged prop; recolor to its owner's design in Blender."
+  },
+  {
+    "id": "fan",
+    "name": "折扇",
+    "lengthH": 0.23,
+    "description": "one opened Chinese folding fan with thick visible ribs and a continuous paper leaf, shallow carved cloud border, no painted text",
+    "styleId": "amber-sugar-miniature-v2",
+    "prompt": "Isolated Water Margin equipment: one opened Chinese folding fan with thick visible ribs and a continuous paper leaf, shallow carved cloud border, no painted text. Painted amber sugar; jade or indigo main surfaces, vermilion grips or ties, antique-gold fittings and ivory edges where present; crisp carving, subtly translucent edges. Finish all sides and usable grips. No figure, hand, base, scene, text, melted candy or floating fragments. Static unrigged prop; recolor to its owner's design in Blender."
+  },
+  {
+    "id": "scroll",
+    "name": "书卷与文书",
+    "lengthH": 0.25,
+    "description": "one partly opened Chinese manuscript scroll with solid rolled ends and a few unlettered tied documents, thick continuous paper surface, no readable text",
+    "styleId": "amber-sugar-miniature-v2",
+    "prompt": "Isolated Water Margin equipment: one partly opened Chinese manuscript scroll with solid rolled ends and a few unlettered tied documents, thick continuous paper surface, no readable text. Painted amber sugar; jade or indigo main surfaces, vermilion grips or ties, antique-gold fittings and ivory edges where present; crisp carving, subtly translucent edges. Finish all sides and usable grips. No figure, hand, base, scene, text, melted candy or floating fragments. Static unrigged prop; recolor to its owner's design in Blender."
+  },
+  {
+    "id": "brush",
+    "name": "笔砚",
+    "lengthH": 0.24,
+    "description": "one Chinese calligraphy brush and one small shallow inkstone, sturdy tapered brush tip and bamboo handle, simple inkstone well, no wet splashes",
+    "styleId": "amber-sugar-miniature-v2",
+    "prompt": "Isolated Water Margin equipment: one Chinese calligraphy brush and one small shallow inkstone, sturdy tapered brush tip and bamboo handle, simple inkstone well, no wet splashes. Painted amber sugar; jade or indigo main surfaces, vermilion grips or ties, antique-gold fittings and ivory edges where present; crisp carving, subtly translucent edges. Finish all sides and usable grips. No figure, hand, base, scene, text, melted candy or floating fragments. Static unrigged prop; recolor to its owner's design in Blender."
+  },
+  {
+    "id": "abacus",
+    "name": "算盘",
+    "lengthH": 0.25,
+    "description": "one traditional Chinese rectangular abacus, robust wood frame and clear separated rows of thick beads, small tied ledger beside it, no text",
+    "styleId": "amber-sugar-miniature-v2",
+    "prompt": "Isolated Water Margin equipment: one traditional Chinese rectangular abacus, robust wood frame and clear separated rows of thick beads, small tied ledger beside it, no text. Painted amber sugar; jade or indigo main surfaces, vermilion grips or ties, antique-gold fittings and ivory edges where present; crisp carving, subtly translucent edges. Finish all sides and usable grips. No figure, hand, base, scene, text, melted candy or floating fragments. Static unrigged prop; recolor to its owner's design in Blender."
+  },
+  {
+    "id": "medicine",
+    "name": "医药箱",
+    "lengthH": 0.28,
+    "description": "one Chinese physician's portable medicine chest, small square wood case with drawers and cloth strap, two closed medicine jars, no modern cross symbol",
+    "styleId": "amber-sugar-miniature-v2",
+    "prompt": "Isolated Water Margin equipment: one Chinese physician's portable medicine chest, small square wood case with drawers and cloth strap, two closed medicine jars, no modern cross symbol. Painted amber sugar; jade or indigo main surfaces, vermilion grips or ties, antique-gold fittings and ivory edges where present; crisp carving, subtly translucent edges. Finish all sides and usable grips. No figure, hand, base, scene, text, melted candy or floating fragments. Static unrigged prop; recolor to its owner's design in Blender."
+  },
+  {
+    "id": "veterinary",
+    "name": "兽医药囊",
+    "lengthH": 0.24,
+    "description": "one compact Chinese veterinarian's leather medicine satchel, visible buckle and closed herb packets, small hoof-care tool, no syringes or labels",
+    "styleId": "amber-sugar-miniature-v2",
+    "prompt": "Isolated Water Margin equipment: one compact Chinese veterinarian's leather medicine satchel, visible buckle and closed herb packets, small hoof-care tool, no syringes or labels. Painted amber sugar; jade or indigo main surfaces, vermilion grips or ties, antique-gold fittings and ivory edges where present; crisp carving, subtly translucent edges. Finish all sides and usable grips. No figure, hand, base, scene, text, melted candy or floating fragments. Static unrigged prop; recolor to its owner's design in Blender."
+  },
+  {
+    "id": "carving-tools",
+    "name": "凿锤与印石",
+    "lengthH": 0.25,
+    "description": "one short stone-carving chisel, one small wood mallet and one rectangular blank seal stone, sturdy distinct tools, no engraved letters",
+    "styleId": "amber-sugar-miniature-v2",
+    "prompt": "Isolated Water Margin equipment: one short stone-carving chisel, one small wood mallet and one rectangular blank seal stone, sturdy distinct tools, no engraved letters. Painted amber sugar; jade or indigo main surfaces, vermilion grips or ties, antique-gold fittings and ivory edges where present; crisp carving, subtly translucent edges. Finish all sides and usable grips. No figure, hand, base, scene, text, melted candy or floating fragments. Static unrigged prop; recolor to its owner's design in Blender."
+  },
+  {
+    "id": "sewing",
+    "name": "针线与布卷",
+    "lengthH": 0.24,
+    "description": "one compact cloth roll with thick thread spool and tailor's blunt shears, needle represented as shallow relief rather than a fragile floating strand",
+    "styleId": "amber-sugar-miniature-v2",
+    "prompt": "Isolated Water Margin equipment: one compact cloth roll with thick thread spool and tailor's blunt shears, needle represented as shallow relief rather than a fragile floating strand. Painted amber sugar; jade or indigo main surfaces, vermilion grips or ties, antique-gold fittings and ivory edges where present; crisp carving, subtly translucent edges. Finish all sides and usable grips. No figure, hand, base, scene, text, melted candy or floating fragments. Static unrigged prop; recolor to its owner's design in Blender."
+  },
+  {
+    "id": "hammer",
+    "name": "锻锤",
+    "lengthH": 0.42,
+    "description": "one Chinese blacksmith's compact forging hammer, heavy rectangular head with rounded edges, sturdy short wood handle, simple collar and no anvil",
+    "styleId": "amber-sugar-miniature-v2",
+    "prompt": "Isolated Water Margin equipment: one Chinese blacksmith's compact forging hammer, heavy rectangular head with rounded edges, sturdy short wood handle, simple collar and no anvil. Painted amber sugar; jade or indigo main surfaces, vermilion grips or ties, antique-gold fittings and ivory edges where present; crisp carving, subtly translucent edges. Finish all sides and usable grips. No figure, hand, base, scene, text, melted candy or floating fragments. Static unrigged prop; recolor to its owner's design in Blender."
+  },
+  {
+    "id": "shovel",
+    "name": "铁锹",
+    "lengthH": 0.95,
+    "description": "one practical Chinese earth shovel, broad rounded rectangular iron blade and straight thick wood shaft, clear hand grip, no garden scene",
+    "styleId": "amber-sugar-miniature-v2",
+    "prompt": "Isolated Water Margin equipment: one practical Chinese earth shovel, broad rounded rectangular iron blade and straight thick wood shaft, clear hand grip, no garden scene. Painted amber sugar; jade or indigo main surfaces, vermilion grips or ties, antique-gold fittings and ivory edges where present; crisp carving, subtly translucent edges. Finish all sides and usable grips. No figure, hand, base, scene, text, melted candy or floating fragments. Static unrigged prop; recolor to its owner's design in Blender."
+  },
+  {
+    "id": "wine",
+    "name": "酒壶与酒碗",
+    "lengthH": 0.23,
+    "description": "one small Chinese earthenware wine jug with thick loop handle and tied cloth stopper, one shallow bowl beside it, no liquid or writing",
+    "styleId": "amber-sugar-miniature-v2",
+    "prompt": "Isolated Water Margin equipment: one small Chinese earthenware wine jug with thick loop handle and tied cloth stopper, one shallow bowl beside it, no liquid or writing. Painted amber sugar; jade or indigo main surfaces, vermilion grips or ties, antique-gold fittings and ivory edges where present; crisp carving, subtly translucent edges. Finish all sides and usable grips. No figure, hand, base, scene, text, melted candy or floating fragments. Static unrigged prop; recolor to its owner's design in Blender."
+  },
+  {
+    "id": "flute",
+    "name": "铁笛",
+    "lengthH": 0.43,
+    "description": "one straight thick Chinese flute with shallow clearly spaced finger holes and capped ends, restrained ring bands, no musical notes or floating ribbons",
+    "styleId": "amber-sugar-miniature-v2",
+    "prompt": "Isolated Water Margin equipment: one straight thick Chinese flute with shallow clearly spaced finger holes and capped ends, restrained ring bands, no musical notes or floating ribbons. Painted amber sugar; jade or indigo main surfaces, vermilion grips or ties, antique-gold fittings and ivory edges where present; crisp carving, subtly translucent edges. Finish all sides and usable grips. No figure, hand, base, scene, text, melted candy or floating fragments. Static unrigged prop; recolor to its owner's design in Blender."
+  },
+  {
+    "id": "banner",
+    "name": "帅旗",
+    "lengthH": 1.5,
+    "description": "one Chinese command banner, strong upright pole and compact thick cloth panel with shallow cloud relief and unlettered central seal shape, no readable words",
+    "styleId": "amber-sugar-miniature-v2",
+    "prompt": "Isolated Water Margin equipment: one Chinese command banner, strong upright pole and compact thick cloth panel with shallow cloud relief and unlettered central seal shape, no readable words. Painted amber sugar; jade or indigo main surfaces, vermilion grips or ties, antique-gold fittings and ivory edges where present; crisp carving, subtly translucent edges. Finish all sides and usable grips. No figure, hand, base, scene, text, melted candy or floating fragments. Static unrigged prop; recolor to its owner's design in Blender."
+  },
+  {
+    "id": "rope",
+    "name": "盘绳",
+    "lengthH": 0.32,
+    "description": "one thick coiled hemp rope with a small simple hook, stable joined coil with readable strands, no dangling fragile threads",
+    "styleId": "amber-sugar-miniature-v2",
+    "prompt": "Isolated Water Margin equipment: one thick coiled hemp rope with a small simple hook, stable joined coil with readable strands, no dangling fragile threads. Painted amber sugar; jade or indigo main surfaces, vermilion grips or ties, antique-gold fittings and ivory edges where present; crisp carving, subtly translucent edges. Finish all sides and usable grips. No figure, hand, base, scene, text, melted candy or floating fragments. Static unrigged prop; recolor to its owner's design in Blender."
+  },
+  {
+    "id": "horsetack",
+    "name": "马鞭与缰绳",
+    "lengthH": 0.45,
+    "description": "one short Chinese riding crop and one compact coiled bridle, solid leather straps and large practical rings, no horse or saddle scene",
+    "styleId": "amber-sugar-miniature-v2",
+    "prompt": "Isolated Water Margin equipment: one short Chinese riding crop and one compact coiled bridle, solid leather straps and large practical rings, no horse or saddle scene. Painted amber sugar; jade or indigo main surfaces, vermilion grips or ties, antique-gold fittings and ivory edges where present; crisp carving, subtly translucent edges. Finish all sides and usable grips. No figure, hand, base, scene, text, melted candy or floating fragments. Static unrigged prop; recolor to its owner's design in Blender."
+  },
+  {
+    "id": "cannon-kit",
+    "name": "火炮工匠器具",
+    "lengthH": 0.35,
+    "description": "one small early Chinese powder horn, one short solid rammer and one thick unlit fuse coil, craft tools only, no modern firearm or smoke",
+    "styleId": "amber-sugar-miniature-v2",
+    "prompt": "Isolated Water Margin equipment: one small early Chinese powder horn, one short solid rammer and one thick unlit fuse coil, craft tools only, no modern firearm or smoke. Painted amber sugar; jade or indigo main surfaces, vermilion grips or ties, antique-gold fittings and ivory edges where present; crisp carving, subtly translucent edges. Finish all sides and usable grips. No figure, hand, base, scene, text, melted candy or floating fragments. Static unrigged prop; recolor to its owner's design in Blender."
+  },
+  {
+    "id": "ceremony-tablet",
+    "name": "笏板",
+    "lengthH": 0.3,
+    "description": "one narrow curved Chinese ceremonial court tablet, smooth solid ivory-toned surface and rounded upper edge, shallow plain border, no letters",
+    "styleId": "amber-sugar-miniature-v2",
+    "prompt": "Isolated Water Margin equipment: one narrow curved Chinese ceremonial court tablet, smooth solid ivory-toned surface and rounded upper edge, shallow plain border, no letters. Painted amber sugar; jade or indigo main surfaces, vermilion grips or ties, antique-gold fittings and ivory edges where present; crisp carving, subtly translucent edges. Finish all sides and usable grips. No figure, hand, base, scene, text, melted candy or floating fragments. Static unrigged prop; recolor to its owner's design in Blender."
+  },
+  {
+    "id": "bamboo-basket",
+    "name": "竹篮",
+    "lengthH": 0.28,
+    "description": "one compact Chinese woven bamboo carrying basket with thick arched handle, broad weave relief and closed simple cloth contents, no fruit scene",
+    "styleId": "amber-sugar-miniature-v2",
+    "prompt": "Isolated Water Margin equipment: one compact Chinese woven bamboo carrying basket with thick arched handle, broad weave relief and closed simple cloth contents, no fruit scene. Painted amber sugar; jade or indigo main surfaces, vermilion grips or ties, antique-gold fittings and ivory edges where present; crisp carving, subtly translucent edges. Finish all sides and usable grips. No figure, hand, base, scene, text, melted candy or floating fragments. Static unrigged prop; recolor to its owner's design in Blender."
+  },
+  {
+    "id": "lute",
+    "name": "琵琶",
+    "lengthH": 0.52,
+    "description": "one Chinese pear-shaped four-string pipa lute, sturdy curved neck and shallow frets, thick strings in relief, no musical notes or stand",
+    "styleId": "amber-sugar-miniature-v2",
+    "prompt": "Isolated Water Margin equipment: one Chinese pear-shaped four-string pipa lute, sturdy curved neck and shallow frets, thick strings in relief, no musical notes or stand. Painted amber sugar; jade or indigo main surfaces, vermilion grips or ties, antique-gold fittings and ivory edges where present; crisp carving, subtly translucent edges. Finish all sides and usable grips. No figure, hand, base, scene, text, melted candy or floating fragments. Static unrigged prop; recolor to its owner's design in Blender."
+  },
+  {
+    "id": "prayer-beads",
+    "name": "念珠",
+    "lengthH": 0.3,
+    "description": "one closed loop of large Buddhist prayer beads, thick beads with joined inner cord and a compact tassel in relief, no text or sacred statue",
+    "styleId": "amber-sugar-miniature-v2",
+    "prompt": "Isolated Water Margin equipment: one closed loop of large Buddhist prayer beads, thick beads with joined inner cord and a compact tassel in relief, no text or sacred statue. Painted amber sugar; jade or indigo main surfaces, vermilion grips or ties, antique-gold fittings and ivory edges where present; crisp carving, subtly translucent edges. Finish all sides and usable grips. No figure, hand, base, scene, text, melted candy or floating fragments. Static unrigged prop; recolor to its owner's design in Blender."
+  },
+  {
+    "id": "flywhisk",
+    "name": "拂尘",
+    "lengthH": 0.45,
+    "description": "one Chinese Daoist flywhisk, slender stout handle and solid carved flowing tuft with a few broad grooves, no individual thin hair strands",
+    "styleId": "amber-sugar-miniature-v2",
+    "prompt": "Isolated Water Margin equipment: one Chinese Daoist flywhisk, slender stout handle and solid carved flowing tuft with a few broad grooves, no individual thin hair strands. Painted amber sugar; jade or indigo main surfaces, vermilion grips or ties, antique-gold fittings and ivory edges where present; crisp carving, subtly translucent edges. Finish all sides and usable grips. No figure, hand, base, scene, text, melted candy or floating fragments. Static unrigged prop; recolor to its owner's design in Blender."
+  },
+  {
+    "id": "sickle",
+    "name": "短镰刀",
+    "lengthH": 0.35,
+    "description": "one practical Chinese short sickle, continuous crescent iron blade attached to a stout wood handle, rounded carved edge with clear socket",
+    "styleId": "amber-sugar-miniature-v2",
+    "prompt": "Isolated Water Margin equipment: one practical Chinese short sickle, continuous crescent iron blade attached to a stout wood handle, rounded carved edge with clear socket. Painted amber sugar; jade or indigo main surfaces, vermilion grips or ties, antique-gold fittings and ivory edges where present; crisp carving, subtly translucent edges. Finish all sides and usable grips. No figure, hand, base, scene, text, melted candy or floating fragments. Static unrigged prop; recolor to its owner's design in Blender."
+  }
+]

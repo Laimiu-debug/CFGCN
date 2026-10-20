@@ -1,0 +1,449 @@
+{
+  "id": "wolf",
+  "name": "狼妖",
+  "height": 1.98,
+  "source": "apps/xiyou/art/shadow-roster-v4/wolf/wolf.blend",
+  "source_sha256": "f466e6f50e58a45a55f9dc3b1d8550d8f0ac595f19b25604a0bb582f2aa5cec2",
+  "runtime": "wolf-actions.glb",
+  "runtime_bytes": 1497884,
+  "runtime_sha256": "08d76baacd9a9e2672e36e65053075ad52c23470da3dad77dc7e67041da961fe",
+  "editable": "wolf-actions.blend",
+  "clips": [
+    "Idle",
+    "Walk",
+    "SaberSlash",
+    "LowLunge",
+    "WolfHowl",
+    "HitRecoil",
+    "DodgeBack",
+    "WalkLower",
+    "SaberSlash_Upper",
+    "LowLunge_Upper",
+    "WolfHowl_Upper",
+    "RestPose"
+  ],
+  "modules": [
+    {
+      "clip": "SaberSlash",
+      "label": "狼妖 · 抽刀斩",
+      "duration": 0.7833333333333333,
+      "windup_end": 0.3212,
+      "release_end": 0.423,
+      "events": [
+        {
+          "time": 0.3212,
+          "type": "hit",
+          "socket": "weapon.tip"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.27,
+          "lean": -0.02,
+          "hand": [
+            0.02,
+            0.76
+          ],
+          "weapon": -0.65,
+          "back_hand": [
+            -0.02,
+            0.63
+          ],
+          "compression": 0.04
+        },
+        {
+          "t": 0.41,
+          "lean": 0.32,
+          "hand": [
+            0.29,
+            0.58
+          ],
+          "weapon": 1.38,
+          "back_hand": [
+            -0.05,
+            0.63
+          ],
+          "compression": 0.045
+        },
+        {
+          "t": 0.58,
+          "lean": 0.36,
+          "hand": [
+            0.26,
+            0.47
+          ],
+          "weapon": 1.9,
+          "back_hand": [
+            -0.09,
+            0.57
+          ],
+          "compression": 0.055
+        }
+      ],
+      "two_hand": false,
+      "upper_clip": "SaberSlash_Upper",
+      "proposal": true
+    },
+    {
+      "clip": "LowLunge",
+      "label": "狼妖 · 低身突刺",
+      "duration": 0.8833333333333333,
+      "windup_end": 0.4328,
+      "release_end": 0.5477,
+      "events": [
+        {
+          "time": 0.4328,
+          "type": "hit",
+          "socket": "weapon.tip"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.28,
+          "lean": 0.14,
+          "hand": [
+            0.06,
+            0.57
+          ],
+          "weapon": 1.05,
+          "back_hand": [
+            0.0,
+            0.6
+          ],
+          "compression": 0.055
+        },
+        {
+          "t": 0.49,
+          "lean": 0.38,
+          "hand": [
+            0.31,
+            0.56
+          ],
+          "weapon": 1.55,
+          "back_hand": [
+            -0.06,
+            0.6
+          ],
+          "compression": 0.07
+        },
+        {
+          "t": 0.64,
+          "lean": 0.31,
+          "hand": [
+            0.27,
+            0.55
+          ],
+          "weapon": 1.5,
+          "back_hand": [
+            -0.04,
+            0.6
+          ],
+          "compression": 0.065
+        }
+      ],
+      "two_hand": false,
+      "upper_clip": "LowLunge_Upper",
+      "proposal": true
+    },
+    {
+      "clip": "WolfHowl",
+      "label": "狼妖 · 仰首呼啸",
+      "duration": 1.25,
+      "windup_end": 0.6125,
+      "release_end": 0.775,
+      "events": [
+        {
+          "time": 0.6125,
+          "type": "howl",
+          "socket": "hand.back"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.28,
+          "lean": 0.13,
+          "hand": [
+            0.12,
+            0.56
+          ],
+          "weapon": 0.25,
+          "back_hand": [
+            0.0,
+            0.66
+          ],
+          "compression": 0.05
+        },
+        {
+          "t": 0.49,
+          "lean": -0.12,
+          "hand": [
+            0.1,
+            0.63
+          ],
+          "weapon": -0.12,
+          "back_hand": [
+            0.06,
+            0.77
+          ],
+          "compression": 0.02
+        },
+        {
+          "t": 0.73,
+          "lean": -0.1,
+          "hand": [
+            0.1,
+            0.63
+          ],
+          "weapon": -0.12,
+          "back_hand": [
+            0.06,
+            0.77
+          ],
+          "compression": 0.02
+        }
+      ],
+      "two_hand": false,
+      "upper_clip": "WolfHowl_Upper",
+      "proposal": true
+    },
+    {
+      "clip": "HitRecoil",
+      "label": "受击 · 后仰缓冲",
+      "duration": 0.55,
+      "windup_end": 0.066,
+      "release_end": 0.1375,
+      "events": [
+        {
+          "time": 0.066,
+          "type": "hurt",
+          "socket": "actor"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.12,
+          "lean": -0.18,
+          "hand": [
+            0.09,
+            0.62
+          ],
+          "weapon": -0.1,
+          "back_hand": [
+            -0.04,
+            0.66
+          ],
+          "compression": 0.035
+        },
+        {
+          "t": 0.35,
+          "lean": 0.08,
+          "hand": [
+            0.13,
+            0.61
+          ],
+          "weapon": 0.1,
+          "back_hand": [
+            0.02,
+            0.65
+          ],
+          "compression": 0.045
+        },
+        {
+          "t": 0.65,
+          "lean": 0.04,
+          "hand": [
+            0.13,
+            0.61
+          ],
+          "weapon": 0.08,
+          "back_hand": [
+            0.02,
+            0.64
+          ],
+          "compression": 0.02
+        }
+      ],
+      "two_hand": false,
+      "upper_clip": null
+    },
+    {
+      "clip": "DodgeBack",
+      "label": "闪避 · 后撤换步",
+      "duration": 0.8333333333333334,
+      "windup_end": 0.3333,
+      "release_end": 0.4417,
+      "events": [
+        {
+          "time": 0.3333,
+          "type": "dodge",
+          "socket": "actor"
+        }
+      ],
+      "poses": [
+        {
+          "t": 0.24,
+          "lean": -0.1,
+          "hand": [
+            0.1,
+            0.61
+          ],
+          "weapon": -0.12,
+          "back_hand": [
+            -0.02,
+            0.66
+          ],
+          "compression": 0.045
+        },
+        {
+          "t": 0.45,
+          "lean": -0.13,
+          "hand": [
+            0.11,
+            0.64
+          ],
+          "weapon": -0.16,
+          "back_hand": [
+            0.04,
+            0.68
+          ],
+          "compression": 0.06
+        },
+        {
+          "t": 0.72,
+          "lean": -0.03,
+          "hand": [
+            0.12,
+            0.62
+          ],
+          "weapon": 0.0,
+          "back_hand": [
+            0.02,
+            0.65
+          ],
+          "compression": 0.025
+        }
+      ],
+      "two_hand": false,
+      "upper_clip": null,
+      "root_motion": {
+        "axis": "facing-x",
+        "distance": -0.5544,
+        "keys": [
+          [
+            0,
+            0
+          ],
+          [
+            0.14,
+            0
+          ],
+          [
+            0.88,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "application": "external collision-aware displacement; not baked into bone translation"
+      }
+    }
+  ],
+  "upper_mask": [
+    "abdomen",
+    "body",
+    "head",
+    "upper_arm.back",
+    "forearm.back",
+    "upper_arm.front",
+    "forearm.front",
+    "weapon",
+    "accessory"
+  ],
+  "lower_mask": [
+    "pelvis",
+    "thigh.back",
+    "shin.back",
+    "foot.back",
+    "thigh.front",
+    "shin.front",
+    "foot.front"
+  ],
+  "offhand_ik_max_error": 0.0,
+  "back_hand_surface_marker": [
+    0.65,
+    0.16999999999999993
+  ],
+  "weapon_grip_surface_marker": [
+    0.4946618974208832,
+    0.14000000059604645
+  ],
+  "surface_sockets": {
+    "hand.back": {
+      "part": "forearm.back",
+      "uv": [
+        0.65,
+        0.16999999999999993
+      ]
+    },
+    "weapon": {
+      "part": "weapon",
+      "uv": [
+        0.4946618974208832,
+        0.14000000059604645
+      ]
+    },
+    "weapon.tip": {
+      "part": "weapon",
+      "uv": [
+        0.021428536623716354,
+        0.9971428513526917
+      ]
+    },
+    "actor": {
+      "bone": "pelvis",
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "walk_period": 0.9666666666666667,
+  "walk_distance": 0.7582290402006061,
+  "status": "action resource candidate; not connected to game damage/collision",
+  "in_game": false,
+  "inspection_bounds": {
+    "SaberSlash": [
+      -0.721400573849678,
+      -0.01247674971818924,
+      1.3062893003225327,
+      2.1870994567871094
+    ],
+    "LowLunge": [
+      -0.7078389078378677,
+      -0.013211295008659363,
+      1.3471585363149643,
+      1.9676381349563599
+    ],
+    "WolfHowl": [
+      -0.6558159738779068,
+      -0.01854713074862957,
+      0.6539878100156784,
+      1.9831197261810303
+    ],
+    "HitRecoil": [
+      -0.6558159738779068,
+      -0.016712157055735588,
+      0.6539878100156784,
+      1.967635154724121
+    ],
+    "DodgeBack": [
+      -0.6558159738779068,
+      -0.013562791049480438,
+      0.6539878100156784,
+      2.001570701599121
+    ]
+  }
+}

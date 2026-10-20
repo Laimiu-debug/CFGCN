@@ -43,3 +43,5 @@ Thumbs.db
 Desktop.ini
 *.swp
 *.swo
+*.blend[0-9]
+apps/website/public/games/xiyou/pkg/

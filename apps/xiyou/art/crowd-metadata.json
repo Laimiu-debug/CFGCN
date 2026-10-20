@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "data_width": 512,
+  "data_height": 402,
+  "position_bits": 16,
+  "normal_encoding": "octahedral8",
+  "meshes": [
+    {
+      "asset": "wolf",
+      "lod": "near",
+      "mesh": 0,
+      "triangles": 783,
+      "vertices": 1216,
+      "base_pixel": 0,
+      "frames": 25,
+      "walk_fps": 24.0,
+      "strike_frames": 8,
+      "lower": [
+        -0.8998706002235413,
+        -0.11729200524091721,
+        -0.8134405870437622
+      ],
+      "span": [
+        1.8171518363952637,
+        2.1181396090388294,
+        1.7005240240097046
+      ]
+    },
+    {
+      "asset": "wolf",
+      "lod": "far",
+      "mesh": 1,
+      "triangles": 583,
+      "vertices": 944,
+      "base_pixel": 60800,
+      "frames": 25,
+      "walk_fps": 24.0,
+      "strike_frames": 8,
+      "lower": [
+        -0.8998706002235413,
+        -0.10682167452573776,
+        -0.8134405870437622
+      ],
+      "span": [
+        1.8055655875205994,
+        2.10766927832365,
+        1.7031563439369202
+      ]
+    },
+    {
+      "asset": "riverling",
+      "lod": "near",
+      "mesh": 2,
+      "triangles": 784,
+      "vertices": 1207,
+      "base_pixel": 108000,
+      "frames": 25,
+      "walk_fps": 24.0,
+      "strike_frames": 8,
+      "lower": [
+        -0.8915621299743652,
+        -0.03007808667421341,
+        -0.6897148151397705
+      ],
+      "span": [
+        1.7827359356880188,
+        1.6820810430645943,
+        1.359301022529602
+      ]
+    },
+    {
+      "asset": "riverling",
+      "lod": "far",
+      "mesh": 3,
+      "triangles": 404,
+      "vertices": 741,
+      "base_pixel": 168350,
+      "frames": 25,
+      "walk_fps": 24.0,
+      "strike_frames": 8,
+      "lower": [
+        -0.8919855613708496,
+        -0.002214967876672745,
+        -0.6897148151397705
+      ],
+      "span": [
+        1.7672595896720886,
+        1.6294355050623417,
+        1.359301022529602
+      ]
+    }
+  ],
+  "glb_sha256": "4a9a15e57bfe67bc6ad226f82e607e2dce9201e127a30eccc1426185fd59bfc5",
+  "data_sha256": "cb48c74c9b645a80b25a453e801095c406133ae1ee4da933ef5763a6cd579f71",
+  "glb_bytes": 303848,
+  "data_bytes": 278155,
+  "sources": [
+    {
+      "asset": "riverling",
+      "studio_project": "c74414e7-0831-4597-a2e3-a09ba99a365e",
+      "runtime_sha256": "c9367f41aa1923a8f197cd223d0ccf42ddc2a5360ab9b7a28b418758df6da73c"
+    },
+    {
+      "asset": "wolf",
+      "studio_project": "9f42d52d-6e8a-4d33-b52d-9bc155b31510",
+      "runtime_sha256": "21388bc0b261c5645ca5e8e72ec701aaf7ad915ef22f2e99e66e469bf0a2f78c"
+    }
+  ],
+  "max_position_error_m": 1.615975242397205e-05
+}

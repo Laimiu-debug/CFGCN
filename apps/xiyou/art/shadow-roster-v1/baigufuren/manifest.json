@@ -1,0 +1,37 @@
+{
+  "id": "baigufuren",
+  "name": "白骨夫人",
+  "status": "resource study; visual review pending",
+  "source": "OpenAI built-in image_gen; original art",
+  "source_image": "parts-source.png",
+  "source_sha256": "977a3111eb5d116ce49f83f6720116ced4ae00db571b813ea474d0a4a810dd46",
+  "prompt": "prompt.txt",
+  "woop": "baigufuren.woop",
+  "editable": "baigufuren.blend",
+  "runtime": "baigufuren.glb",
+  "runtime_sha256": "4aeb278209dab4a25f57dd0e2166da478deaab9cbf0073b2190bd3b18f8b5e44",
+  "runtime_bytes": 1299676,
+  "texture_size": [
+    1254,
+    1254
+  ],
+  "parts": 14,
+  "joints": 13,
+  "bones": 14,
+  "triangles": 28,
+  "materials": 1,
+  "clips": [
+    "Idle",
+    "Walk",
+    "RestPose"
+  ],
+  "importer": "Official WooooShadow 0.8.13, loaded locally in an isolated Blender process",
+  "importer_sha256": "d05e8f74c00d40c1dd1e043e5d9bc5f70b86c1c0abd6a181cba7c2d94e6b4c60",
+  "blender": "5.2.2 LTS",
+  "directions": [
+    "side-right",
+    "mirrored-side-left"
+  ],
+  "tripo": "Not used: direct original 2D puppet artwork",
+  "in_game": false
+}

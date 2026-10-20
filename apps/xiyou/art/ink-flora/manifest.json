@@ -1,0 +1,194 @@
+{
+  "status": "local low flora sample; game validation and visual review tracked separately",
+  "references": [
+    [
+      {
+        "asset": "pine_tree",
+        "runtime_sha256": "0de7ddd79af32c19a70e92b204667630b38e2d544fd288ed7aa4cef23b494326"
+      },
+      {
+        "asset": "seal_stone",
+        "runtime_sha256": "3e37de64cf5a048a2bc6cb1fde9846e9fad6cdbdeae0c72f5f628b4594edd125"
+      },
+      {
+        "asset": "pine_rock",
+        "runtime_sha256": "0ddfefac6681419a1761a2f6f179874bf3ca3ec89aa891fd88bab48d7c23a450"
+      },
+      {
+        "asset": "mountain_shrub",
+        "runtime_sha256": "94acb4c6e7f5e6670e2516bbac86e4519a67fefd0f7556ae9956ce19bdbe9894"
+      }
+    ],
+    {
+      "source": "ink-world/scenery-source-v2.png",
+      "sha256": "6b8730632454b2a4975f48542ed7490f5ec67b8ef819a70d74aac158e00092e9"
+    },
+    {
+      "source": "ink-river/reeds-source-v1.png",
+      "sha256": "8a65b27e0319d410c1a4f573c03f06b075eee91565ca44426d1d42e77d9b6327"
+    }
+  ],
+  "studio_upstream": [
+    {
+      "asset": "pine_rock",
+      "origin": "tripo-studio-blender",
+      "studio_project": "30cd4649-52ef-4130-b1eb-f80a2c61615b",
+      "source_file": "pine-rock-studio-v31-retopo.glb",
+      "source_sha256": "6571e32e2e98dd94d0ec8eac46b3b5a46bba57197f3b3a23e068a877a2f5c740",
+      "source_blend": "pine_rock.blend",
+      "triangles": 1500,
+      "bones": 0,
+      "clips": [],
+      "bytes": 139284,
+      "triangle_budget": 1500,
+      "byte_budget": 250000,
+      "texture_max": 512,
+      "joint_budget": 16,
+      "primitive_budget": 1,
+      "projection_runtime_sha256": "0ddfefac6681419a1761a2f6f179874bf3ca3ec89aa891fd88bab48d7c23a450"
+    },
+    {
+      "asset": "pine_tree",
+      "origin": "tripo-studio-blender",
+      "studio_project": "87c9fabd-3ed8-4916-a29d-9d8107a6ce1e",
+      "source_file": "pine-tree-studio-v31-source.glb",
+      "source_sha256": "a5a504d34c95c7ad0f7e28d915a62d249d9fdc7fef13bea571e7f2e43ef51d66",
+      "source_blend": "pine_tree.blend",
+      "triangles": 3367,
+      "bones": 0,
+      "clips": [],
+      "bytes": 293700,
+      "triangle_budget": 3500,
+      "byte_budget": 450000,
+      "texture_max": 768,
+      "joint_budget": 0,
+      "primitive_budget": 1,
+      "runtime_sha256": "0de7ddd79af32c19a70e92b204667630b38e2d544fd288ed7aa4cef23b494326",
+      "projection_runtime_sha256": "0de7ddd79af32c19a70e92b204667630b38e2d544fd288ed7aa4cef23b494326"
+    },
+    {
+      "asset": "mountain_shrub",
+      "origin": "tripo-studio-blender",
+      "studio_project": "87c9fabd-3ed8-4916-a29d-9d8107a6ce1e",
+      "source_file": "pine-tree-studio-v31-source.glb",
+      "source_sha256": "a5a504d34c95c7ad0f7e28d915a62d249d9fdc7fef13bea571e7f2e43ef51d66",
+      "source_blend": "mountain_shrub.blend",
+      "triangles": 876,
+      "bones": 0,
+      "clips": [],
+      "bytes": 158744,
+      "triangle_budget": 900,
+      "byte_budget": 450000,
+      "texture_max": 768,
+      "joint_budget": 0,
+      "primitive_budget": 1,
+      "runtime_sha256": "94acb4c6e7f5e6670e2516bbac86e4519a67fefd0f7556ae9956ce19bdbe9894",
+      "projection_runtime_sha256": "94acb4c6e7f5e6670e2516bbac86e4519a67fefd0f7556ae9956ce19bdbe9894"
+    },
+    {
+      "asset": "seal_stone",
+      "origin": "tripo-studio-blender",
+      "studio_project": "aa5ee5e0-2162-4ac1-88a3-a295938b3808",
+      "source_file": "seal-stone-studio-v31-retopo.glb",
+      "source_sha256": "57797201e7fcc53e501294e5c028952f2f9187d9a69ff0358a3f8478aa9b13c6",
+      "source_blend": "seal_stone.blend",
+      "triangles": 996,
+      "bones": 0,
+      "clips": [],
+      "bytes": 71352,
+      "triangle_budget": 1000,
+      "byte_budget": 200000,
+      "texture_max": 512,
+      "joint_budget": 16,
+      "primitive_budget": 1,
+      "sculpt": "tapered mineral crown; original Studio base footprint preserved",
+      "projection_runtime_sha256": "3e37de64cf5a048a2bc6cb1fde9846e9fad6cdbdeae0c72f5f628b4594edd125"
+    }
+  ],
+  "packing": {
+    "width": 2048,
+    "height": 2048,
+    "parts": [
+      {
+        "id": "grass",
+        "metres": 1.8,
+        "source": "grass-source-v1.png",
+        "source_sha256": "1e6c5525f602c98688adda711ce0159107908c18c8660fd0dc0a9f3d694afd7b",
+        "rect": [
+          16,
+          16,
+          1008,
+          358
+        ],
+        "anchorX": 695.9775832535489
+      },
+      {
+        "id": "flowers",
+        "metres": 1.4,
+        "source": "flowers-source-v1.png",
+        "source_sha256": "bb6f82c1e26ed342dcdbf8d4d8e56a52cff84f9460b885f4642bfc8eabcf9996",
+        "rect": [
+          1040,
+          16,
+          2032,
+          444
+        ],
+        "anchorX": 1573.8104289524472
+      },
+      {
+        "id": "fern",
+        "metres": 1.4,
+        "source": "fern-source-v1.png",
+        "source_sha256": "4b6804686ee8d4cb503023d9b4ad6eb872a1dc95afd1f182ec6403b1aaa4b340",
+        "rect": [
+          16,
+          1040,
+          1008,
+          1487
+        ],
+        "anchorX": 422.6387819535189
+      }
+    ],
+    "bytes": 2094436,
+    "runtime_sha256": "9da5f1ddd1a91ab3a5dd8331c84b919a9446719faba85ce57ae73a5e996899c4"
+  },
+  "runtime": {
+    "asset": "ink_flora",
+    "origin": "tripo-projection-imagegen-blender",
+    "source_file": "ink-flora/runtime.png",
+    "source_sha256": "9da5f1ddd1a91ab3a5dd8331c84b919a9446719faba85ce57ae73a5e996899c4",
+    "source_blend": "ink_flora.blend",
+    "triangles": 6,
+    "bones": 0,
+    "clips": [],
+    "bytes": 2097680,
+    "triangle_budget": 6,
+    "byte_budget": 24000000,
+    "texture_max": 2048,
+    "joint_budget": 0,
+    "primitive_budget": 3,
+    "runtime_sha256": "8aea566bb90219cf9e02a30e4d38a10e5a5e9251ee4c6999ef7878cf7852fc88"
+  },
+  "runtime_texture": {
+    "path": "ink-flora.png",
+    "sha256": "9da5f1ddd1a91ab3a5dd8331c84b919a9446719faba85ce57ae73a5e996899c4",
+    "bytes": 2094436
+  },
+  "portrait": {
+    "source": "shadow-wukong/parts-source.png",
+    "rect": [
+      47,
+      34,
+      345,
+      335
+    ],
+    "source_sha256": "796852eccc5ebef3921770e4bd8867b47e31ef0819d231727e0fd05eff9a32bb",
+    "runtime_sha256": "de32b0d540958395e225f271a3c327df21d75e2c52d53d69406a78a62dc8bf24"
+  },
+  "scenes": [
+    "Ink scenery flora grass",
+    "Ink scenery flora flowers",
+    "Ink scenery flora fern"
+  ],
+  "process": "Accepted Studio tree / shrub category prototypes and original ink scenery retained; three built-in imagegen grass / wildflower / fern paintings; Blender geometry and editable source; runtime batches their same atlas and measured dimensions per chunk; no new Studio generation, credits or software installed"
+}

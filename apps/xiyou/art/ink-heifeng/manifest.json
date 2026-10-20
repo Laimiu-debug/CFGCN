@@ -1,0 +1,128 @@
+{
+  "status": "local heifeng scenery sample; actual game and visual review pending",
+  "references": [
+    {
+      "runtime_source": "apps\\website\\public\\games\\xiyou\\assets\\roadside_shrine.glb",
+      "sha256": "c1f35cebd12c84e52db4d7a1bfbb4c1b47dee4da96c550676c0fc9712e8821c4",
+      "studio_project": "c059207d-1ab2-42d2-9b18-8cd9ade0dcd9",
+      "purpose": "roof/post silhouette reference only; no shrine modification or gameplay"
+    },
+    [
+      {
+        "asset": "pine_tree",
+        "runtime_sha256": "0de7ddd79af32c19a70e92b204667630b38e2d544fd288ed7aa4cef23b494326"
+      },
+      {
+        "asset": "seal_stone",
+        "runtime_sha256": "3e37de64cf5a048a2bc6cb1fde9846e9fad6cdbdeae0c72f5f628b4594edd125"
+      },
+      {
+        "asset": "pine_rock",
+        "runtime_sha256": "0ddfefac6681419a1761a2f6f179874bf3ca3ec89aa891fd88bab48d7c23a450"
+      },
+      {
+        "asset": "mountain_shrub",
+        "runtime_sha256": "94acb4c6e7f5e6670e2516bbac86e4519a67fefd0f7556ae9956ce19bdbe9894"
+      }
+    ]
+  ],
+  "packing": {
+    "width": 2048,
+    "height": 3072,
+    "parts": [
+      {
+        "id": "temple_gate",
+        "rect": [
+          16,
+          16,
+          1008,
+          545
+        ],
+        "anchorX": 512,
+        "metres": 12,
+        "source": "temple_gate-source-v1.png",
+        "source_sha256": "f572316c56df610fbaec87584526891600e6b2cd7d2444d50eca6a394c2cbf26"
+      },
+      {
+        "id": "temple_hall",
+        "rect": [
+          1040,
+          16,
+          2032,
+          433
+        ],
+        "anchorX": 1536,
+        "metres": 15,
+        "source": "temple_hall-source-v1.png",
+        "source_sha256": "28d5a206a2d16100ca0da89d1ec3bafae7315006d0ea3446a56f1f473ededc3e"
+      },
+      {
+        "id": "bell_pavilion",
+        "rect": [
+          16,
+          1040,
+          1008,
+          1825
+        ],
+        "anchorX": 512,
+        "metres": 5.8,
+        "source": "bell_pavilion-source-v1.png",
+        "source_sha256": "832b384bbc297094ba1e118653a5c43ef67543cd0b7aae5633f72d372ec12138"
+      },
+      {
+        "id": "sealed_cave",
+        "rect": [
+          1040,
+          1040,
+          2032,
+          1504
+        ],
+        "anchorX": 1536,
+        "metres": 15,
+        "source": "sealed_cave-source-v1.png",
+        "source_sha256": "e8953a009343026910eb56360d4cff704bdbed9ca2858f51edbbb907ca9e2467"
+      },
+      {
+        "id": "court_wall",
+        "rect": [
+          16,
+          2064,
+          1008,
+          2242
+        ],
+        "anchorX": 512,
+        "metres": 14,
+        "height": 1.8,
+        "source": "court_wall-source-v2.png",
+        "source_sha256": "77a2f3e1218b37c6f5d33da51ef205c997f96dcc52ff01741643247c4b51fdfb"
+      }
+    ],
+    "bytes": 4638303,
+    "runtime_sha256": "ee4d71abbb477c2eb7cd2b3daf0b7bf5a987d0e2069ff4e813e801123199e694"
+  },
+  "runtime": {
+    "asset": "ink_heifeng",
+    "origin": "tripo-projection-imagegen-blender",
+    "source_file": "ink-heifeng/runtime.png",
+    "source_sha256": "ee4d71abbb477c2eb7cd2b3daf0b7bf5a987d0e2069ff4e813e801123199e694",
+    "source_blend": "ink_heifeng.blend",
+    "triangles": 10,
+    "bones": 0,
+    "clips": [],
+    "bytes": 4643172,
+    "triangle_budget": 10,
+    "byte_budget": 24000000,
+    "texture_max": 3072,
+    "joint_budget": 0,
+    "primitive_budget": 5,
+    "runtime_sha256": "f0ac2d4b34338dc56fde4f1bf3ff0a4a00583c9df36904539a0b2225f8bd47b7"
+  },
+  "scenes": [
+    "Ink scenery heifeng temple_gate",
+    "Ink scenery heifeng temple_hall",
+    "Ink scenery heifeng bell_pavilion",
+    "Ink scenery heifeng sealed_cave",
+    "Ink scenery heifeng court_wall"
+  ],
+  "process": "Accepted Studio shrine / stone category references retained; five original ink redraws; no new Studio generation or credits; literary game exterior, no temple interior or historical reconstruction"
+}

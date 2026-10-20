@@ -1,0 +1,93 @@
+{
+  "id": "wukong",
+  "name": "孙悟空",
+  "status": "resource study; visual review pending",
+  "source": "OpenAI built-in image_gen; original art",
+  "source_image": "parts-source.png",
+  "source_sha256": "92992b882fc1b9edee10139b6ce06b79fdfd6fad00a69d0b4708116b6b0bcff0",
+  "prompt": "prompt.txt",
+  "woop": "wukong.woop",
+  "editable": "wukong.blend",
+  "runtime": "wukong.glb",
+  "runtime_sha256": "f503cd8b9d0326faf58aabac4e3a271faebde98d09350afcd00dcb3a9a120b57",
+  "runtime_bytes": 1052792,
+  "texture_size": [
+    1024,
+    1024
+  ],
+  "source_texture_size": [
+    1254,
+    1254
+  ],
+  "parts": 16,
+  "joints": 15,
+  "bones": 16,
+  "anatomy": "chest -> abdomen -> pelvis -> thighs",
+  "triangles": 32,
+  "materials": 1,
+  "clips": [
+    "Idle",
+    "Walk",
+    "RestPose"
+  ],
+  "importer": "Official WooooShadow 0.8.13, loaded locally in an isolated Blender process",
+  "importer_sha256": "d05e8f74c00d40c1dd1e043e5d9bc5f70b86c1c0abd6a181cba7c2d94e6b4c60",
+  "blender": "5.2.2 LTS",
+  "directions": [
+    "side-right",
+    "mirrored-side-left"
+  ],
+  "tripo": "Not used: direct original 2D puppet artwork",
+  "in_game": false,
+  "version": 3,
+  "nominal_body_height": 1.74,
+  "proportions": {
+    "shape": "矮捷，头略大、腰短、长臂，屈膝蓄势",
+    "head": [
+      46,
+      38
+    ],
+    "chest": [
+      50,
+      49
+    ],
+    "abdomen": [
+      56,
+      43
+    ],
+    "pelvis": [
+      32,
+      48
+    ],
+    "upper": [
+      37,
+      14
+    ],
+    "fore": [
+      36,
+      12
+    ],
+    "thigh": [
+      38,
+      21
+    ],
+    "shin": [
+      35,
+      16
+    ],
+    "foot": [
+      18,
+      24
+    ],
+    "lean": 0.15,
+    "crouch": 0.12,
+    "stride": 0.255,
+    "lift": 0.19,
+    "period": 0.76,
+    "arm_swing": 0.27,
+    "fore_angle": -0.52,
+    "weapon_tilt": 0.15,
+    "idle_crouch": 0.08
+  },
+  "revision": "Native Blender part dimensions, distinct anatomical ratios and gait; source paintings preserved"
+}

@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "origin": "original builtin imagegen",
+  "style": "Chinese gongbi zhongcai, mineral malachite and azurite, ivory silk, cinnabar and antique gold; fine ink contours, layered hand-painted volume; transparent alpha",
+  "prompt": "One square 4 by 4 transparent production sprite atlas of sixteen isolated painted game skill vignettes. Equal cells and generous empty gutters, each subject approximately 76 percent of its cell, no surrounding badges, discs, borders, typography, UI, neon, photographic surfaces or flat vector shorthand. Chinese gongbi zhongcai fine ink contours and layered mineral paint. Ordered left to right, top to bottom: open sutra and red silk with a golden sound cloud; flowing kasaya with protective lotus; pink lotus and jade dew; antique oil lamp and prayer beads; red and gold iron staff amid clouds; monkey palm with gold binding thread; three Wukong apparitions and a hair; golden monkey eye with cinnabar flame; white horse hooves and wave; white Chinese dragon and flowing water; overlapping ivory and jade dragon scales with pearl; celadon vessel, spring and lotus; rosary with staff and golden lotus burst; staff, lotus and dragon in concert; staff entwined with a water dragon; lotus and dragon pearl above a spring. Physical silhouettes and painted volume must read at small game sizes. Do not place religious scripture as readable text.",
+  "delivery": "192px WebP sprites for runtime; full original retained in art/source; source is original game artwork, not a historical artefact or a reproduction of scripture."
+}

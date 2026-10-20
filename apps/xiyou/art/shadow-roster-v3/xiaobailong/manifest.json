@@ -1,0 +1,93 @@
+{
+  "id": "xiaobailong",
+  "name": "小白龙（人形）",
+  "status": "resource study; visual review pending",
+  "source": "OpenAI built-in image_gen; original art",
+  "source_image": "parts-source.png",
+  "source_sha256": "1b4991db11dc1b50c1fe8332aa1c2878059ddd9e6ce2fba78696c7ba9d8f475c",
+  "prompt": "prompt.txt",
+  "woop": "xiaobailong.woop",
+  "editable": "xiaobailong.blend",
+  "runtime": "xiaobailong.glb",
+  "runtime_sha256": "e89b92d0ca65c9a536a1cd42345bce3205173a9565b7b9edfbde98aaf58477eb",
+  "runtime_bytes": 1264600,
+  "texture_size": [
+    1024,
+    1024
+  ],
+  "source_texture_size": [
+    1254,
+    1254
+  ],
+  "parts": 16,
+  "joints": 15,
+  "bones": 16,
+  "anatomy": "chest -> abdomen -> pelvis -> thighs",
+  "triangles": 32,
+  "materials": 1,
+  "clips": [
+    "Idle",
+    "Walk",
+    "RestPose"
+  ],
+  "importer": "Official WooooShadow 0.8.13, loaded locally in an isolated Blender process",
+  "importer_sha256": "d05e8f74c00d40c1dd1e043e5d9bc5f70b86c1c0abd6a181cba7c2d94e6b4c60",
+  "blender": "5.2.2 LTS",
+  "directions": [
+    "side-right",
+    "mirrored-side-left"
+  ],
+  "tripo": "Not used: direct original 2D puppet artwork",
+  "in_game": false,
+  "version": 3,
+  "nominal_body_height": 2.22,
+  "proportions": {
+    "shape": "清瘦少年，肩胯窄、腿最长，步态轻快",
+    "head": [
+      46,
+      32
+    ],
+    "chest": [
+      63,
+      48
+    ],
+    "abdomen": [
+      60,
+      42
+    ],
+    "pelvis": [
+      67,
+      45
+    ],
+    "upper": [
+      36,
+      12
+    ],
+    "fore": [
+      35,
+      11
+    ],
+    "thigh": [
+      63,
+      16
+    ],
+    "shin": [
+      60,
+      12
+    ],
+    "foot": [
+      19,
+      22
+    ],
+    "lean": 0.015,
+    "crouch": 0.065,
+    "stride": 0.32,
+    "lift": 0.16,
+    "period": 0.94,
+    "arm_swing": 0.18,
+    "fore_angle": -0.43,
+    "weapon_tilt": 0.1,
+    "idle_crouch": 0.004
+  },
+  "revision": "Native Blender part dimensions, distinct anatomical ratios and gait; source paintings preserved"
+}

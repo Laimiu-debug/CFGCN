@@ -1,0 +1,45 @@
+{
+  "origin": "Tripo Studio v3.1, existing annual membership",
+  "status": "Blender web LOD exported; in-game review pending",
+  "purpose": "mountain-spirit roadside shrine, original narrative prop, not a historical reconstruction",
+  "target_triangles": 2200,
+  "target_texture": 512,
+  "prompt": "One small roadside mountain-spirit shrine for an original Journey to the West 3D game. Single compact Chinese timber shrine, 3m wide 2.6m high 1.8m deep. One shallow open front bay, four sturdy dark wood posts on low stone feet, pale plaster back wall, one broad curved grey-tile roof with restrained upturned eaves. A simple blank dark recessed altar shelf and one solid incense bowl, no statue. Muted mineral jade roof patina, warm ivory wall, dark brown wood and a little faded cinnabar. Gongbi zhongcai painted matte 3D, clear bold shapes, elegant asymmetrical weathering, readable from above at a 40-degree game camera. Simple connected solid geometry for a 2200 triangle web LOD, 512px albedo. No pedestal or diorama ground, no stairs, trees, rocks, banners, writing, gold dragons, tiny ornaments, thin railings, floating pieces, realistic noisy photography, shiny plastic or baked cast shadows. Full isolated building, closed roof and thick posts.",
+  "studio_project": "c059207d-1ab2-42d2-9b18-8cd9ade0dcd9",
+  "studio_credits": 50,
+  "runtime": {
+    "asset": "roadside_shrine",
+    "origin": "tripo-studio-blender",
+    "studio_project": "c059207d-1ab2-42d2-9b18-8cd9ade0dcd9",
+    "source_file": "roadside-shrine-studio-v31-source-meshopt.glb",
+    "source_sha256": "9f170c338ecd3b60a8f5485e0824577074ac34deed37e8c930d58342cdc2dca5",
+    "decoded_file": "roadside-shrine-studio-v31-decoded.glb",
+    "decoded_sha256": "ec5019a10a1ee477dfefa26a58a9583b4f73fe81b7f6c10e15c9e45ea03ac86e",
+    "source_blend": "roadside_shrine.blend",
+    "triangles": 2190,
+    "source_triangles": 1855306,
+    "bones": 0,
+    "clips": [],
+    "bytes": 183912,
+    "triangle_budget": 2200,
+    "byte_budget": 250000,
+    "texture_max": 512,
+    "joint_budget": 0,
+    "primitive_budget": 1,
+    "bounds_blender": [
+      [
+        -1.6103594303131104,
+        1.6079823970794678
+      ],
+      [
+        -1.2747530937194824,
+        1.281955361366272
+      ],
+      [
+        0.0035756619181483984,
+        3.316406726837158
+      ]
+    ],
+    "runtime_sha256": "c1f35cebd12c84e52db4d7a1bfbb4c1b47dee4da96c550676c0fc9712e8821c4"
+  }
+}

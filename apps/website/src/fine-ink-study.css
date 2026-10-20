@@ -1,0 +1,314 @@
+[data-atlas-study='fine-ink'] .site-footer {
+  display: none;
+}
+[data-atlas-study='fine-ink'] .site-header {
+  position: absolute;
+  inset: 0 0 auto;
+  width: 100%;
+  max-width: none;
+  padding-inline: clamp(20px, 4vw, 60px);
+  background: linear-gradient(to bottom, var(--paper-raised), transparent);
+  transition: opacity 800ms ease;
+}
+[data-atlas-study='fine-ink'] .site-header[aria-hidden='true'] {
+  opacity: 0;
+  pointer-events: none;
+}
+.fine-ink-tools,
+.fine-ink-tour,
+.fine-ink-compass,
+.fine-ink-caption,
+.fine-ink-motion,
+.fine-ink-markers {
+  transition: opacity 800ms ease;
+}
+.fine-ink-study[data-resting='true']
+  :is(
+    .fine-ink-tools,
+    .fine-ink-tour,
+    .fine-ink-compass,
+    .fine-ink-caption,
+    .fine-ink-motion,
+    .fine-ink-markers,
+    .fine-ink-town-hint
+  ) {
+  opacity: 0;
+  pointer-events: none;
+}
+.fine-ink-study[data-resting='true'] .fine-ink-navigation {
+  cursor: none;
+}
+.fine-ink-study[data-motion='reduced']
+  :is(
+    .fine-ink-tools,
+    .fine-ink-tour,
+    .fine-ink-compass,
+    .fine-ink-caption,
+    .fine-ink-motion,
+    .fine-ink-markers
+  ),
+[data-atlas-study='fine-ink']:has(.fine-ink-study[data-motion='reduced']) .site-header {
+  transition: none;
+}
+.fine-ink-study {
+  position: relative;
+  width: 100%;
+  height: 100svh;
+  min-height: 480px;
+  overflow: clip;
+  isolation: isolate;
+  background: var(--paper-raised);
+}
+.fine-ink-navigation {
+  position: absolute;
+  inset: 0;
+  overflow: clip;
+  touch-action: none;
+  cursor: grab;
+}
+.fine-ink-navigation:active {
+  cursor: grabbing;
+}
+.fine-ink-navigation:focus-visible {
+  outline-offset: -7px;
+}
+.fine-ink-depth {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+.fine-ink-depth-canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.fine-ink-markers {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+}
+.fine-ink-markers button {
+  pointer-events: auto;
+}
+.fine-ink-life {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  pointer-events: none;
+}
+.fine-ink-life[data-depth-source='true'] {
+  display: none;
+}
+.fine-ink-place {
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+.fine-ink-city {
+  position: absolute;
+}
+.fine-ink-city .fine-ink-city-target {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  background: transparent;
+}
+.fine-ink-city-target:hover {
+  background: transparent;
+  outline: 0;
+}
+.fine-ink-city-target:focus-visible {
+  outline: 1px solid var(--gold);
+  outline-offset: -5px;
+}
+.fine-ink-place .fine-ink-place-name {
+  writing-mode: vertical-rl;
+  font-family: var(--font-display);
+  font-size: 23px;
+  letter-spacing: 0.17em;
+  min-width: 44px;
+  min-height: 78px;
+  padding: 10px;
+  background: color-mix(in srgb, var(--paper-raised) 88%, transparent);
+  border-bottom: 2px solid var(--gold);
+  box-shadow: 1px 2px 0 color-mix(in srgb, var(--gold) 20%, transparent);
+}
+.fine-ink-place[data-selected='true'] .fine-ink-place-name {
+  color: var(--vermilion);
+}
+.fine-ink-place[data-hover='true'] .fine-ink-place-name {
+  color: var(--vermilion);
+  box-shadow: 0 0 22px color-mix(in srgb, var(--gold) 30%, transparent);
+}
+[data-locale='en'] .fine-ink-place-name {
+  writing-mode: horizontal-tb;
+  font-family: var(--font-latin);
+  font-size: 16px;
+  min-height: 44px;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+.fine-ink-town-hint {
+  position: absolute;
+  z-index: 5;
+  width: max-content;
+  max-width: 224px;
+  padding: 14px 18px;
+  color: var(--ink-secondary);
+  background: var(--paper-overlay);
+  font-family: var(--font-display);
+  font-size: 13px;
+  pointer-events: none;
+  border-left: 2px solid var(--gold);
+  display: grid;
+  gap: 6px;
+}
+.fine-ink-town-hint strong {
+  color: var(--ink);
+  font-size: 19px;
+  font-weight: 500;
+}
+.fine-ink-town-hint small {
+  color: var(--gold-ink);
+}
+.fine-ink-tools {
+  position: absolute;
+  z-index: 3;
+  right: 22px;
+  top: 120px;
+  display: grid;
+  background: var(--paper-overlay);
+}
+.fine-ink-tools button {
+  width: 44px;
+  height: 44px;
+  font-size: 21px;
+}
+.fine-ink-compass {
+  position: absolute;
+  z-index: 3;
+  top: 130px;
+  left: 27px;
+  color: var(--gold-ink);
+  font-family: var(--font-display);
+  display: grid;
+  justify-items: center;
+  font-size: 13px;
+  pointer-events: none;
+}
+.fine-ink-compass span {
+  font-size: 29px;
+  font-weight: 300;
+}
+.fine-ink-caption {
+  position: absolute;
+  z-index: 3;
+  bottom: 85px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: var(--font-display);
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  color: var(--muted);
+  padding: 5px 12px;
+  background: var(--paper-overlay);
+  white-space: nowrap;
+  pointer-events: none;
+}
+.fine-ink-tour {
+  position: absolute;
+  z-index: 3;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  background: var(--paper-overlay);
+  padding: 4px;
+}
+.fine-ink-tour button {
+  min-height: 44px;
+  min-width: 64px;
+  font-family: var(--font-display);
+  padding-inline: 17px;
+}
+.fine-ink-motion {
+  position: absolute;
+  z-index: 3;
+  right: 20px;
+  bottom: 30px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 10px;
+  padding: 10px 12px;
+  color: var(--muted);
+  background: var(--paper-overlay);
+}
+.fine-ink-motion input {
+  accent-color: var(--jade);
+}
+.fine-ink-status {
+  position: absolute;
+  z-index: 4;
+  inset: 45% 10% auto;
+  text-align: center;
+  color: var(--ink);
+  background: var(--paper-overlay);
+  padding: 15px;
+}
+.fine-ink-entering {
+  position: absolute;
+  inset: 0;
+  z-index: 8;
+  display: grid;
+  place-items: center;
+  background: var(--paper-overlay);
+  font: 30px var(--font-display);
+  color: var(--gold-ink);
+  letter-spacing: 0.4em;
+  animation: fine-ink-arrive 650ms ease-out both;
+}
+@keyframes fine-ink-arrive {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@media (max-width: 700px) {
+  .fine-ink-tools {
+    right: 12px;
+    top: 106px;
+  }
+  .fine-ink-compass {
+    left: 16px;
+    top: 112px;
+  }
+  .fine-ink-tour {
+    bottom: 62px;
+    max-width: calc(100% - 20px);
+  }
+  .fine-ink-tour button {
+    min-width: 52px;
+    padding-inline: 8px;
+    font-size: 13px;
+    white-space: nowrap;
+  }
+  [data-locale='en'] .fine-ink-tour button {
+    min-width: 44px;
+    padding-inline: 6px;
+    font-size: 11px;
+  }
+  .fine-ink-caption {
+    bottom: 121px;
+    font-size: 10px;
+  }
+  .fine-ink-motion {
+    bottom: 10px;
+    right: 12px;
+    min-height: 44px;
+  }
+}

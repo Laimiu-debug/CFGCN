@@ -1,0 +1,542 @@
+[
+  {
+    "id": "dao",
+    "name": "朴刀",
+    "lengthH": 0.95,
+    "description": "one pudao, broad single-edged blade on a stout medium haft, clear blade socket and wrapped grip, plain practical silhouette",
+    "styleId": "glazed-ceramic-production-v1",
+    "prompt": "Isolated Water Margin glazed stoneware prop: one pudao, broad single-edged blade on a stout medium haft, clear blade socket and wrapped grip, plain practical silhouette. Entire object is sculpted fired clay, zero metallic surfaces. Ivory ceramic blade/edges, dark-brown shaft/grips, celadon or iron-red glaze accents, pooling in relief. Clear usable grips, thick continuous shapes, finished all sides. No figure, hands, base, scene, text, gold metal, candy, resin or floating fragments. Static unrigged; separate equipment assembled with its owner in Blender.",
+    "promptSha256": "669318fbb1b197ca610b4d5cdc6c7bc71690ae8a216972292589560fcd8b629f",
+    "status": "queued-unsubmitted"
+  },
+  {
+    "id": "sabre",
+    "name": "腰刀",
+    "lengthH": 0.52,
+    "description": "one practical single-edged waist sabre, gently curved blade, small disc guard, wrapped oval grip and separate simple scabbard",
+    "styleId": "glazed-ceramic-production-v1",
+    "prompt": "Isolated Water Margin glazed stoneware prop: one practical single-edged waist sabre, gently curved blade, small disc guard, wrapped oval grip and separate simple scabbard. Entire object is sculpted fired clay, zero metallic surfaces. Ivory ceramic blade/edges, dark-brown shaft/grips, celadon or iron-red glaze accents, pooling in relief. Clear usable grips, thick continuous shapes, finished all sides. No figure, hands, base, scene, text, gold metal, candy, resin or floating fragments. Static unrigged; separate equipment assembled with its owner in Blender.",
+    "promptSha256": "9e6290e0aff9df5a07cea12e9788c9b1db79b3ac0a51f97d576da858a50b1993",
+    "status": "queued-unsubmitted"
+  },
+  {
+    "id": "spear",
+    "name": "步战长枪",
+    "lengthH": 1.32,
+    "description": "one straight infantry spear, leaf-shaped narrow head, sturdy cylindrical shaft, restrained short tassel below the socket",
+    "styleId": "glazed-ceramic-production-v1",
+    "prompt": "Isolated Water Margin glazed stoneware prop: one straight infantry spear, leaf-shaped narrow head, sturdy cylindrical shaft, restrained short tassel below the socket. Entire object is sculpted fired clay, zero metallic surfaces. Ivory ceramic blade/edges, dark-brown shaft/grips, celadon or iron-red glaze accents, pooling in relief. Clear usable grips, thick continuous shapes, finished all sides. No figure, hands, base, scene, text, gold metal, candy, resin or floating fragments. Static unrigged; separate equipment assembled with its owner in Blender.",
+    "promptSha256": "b1787dc61c62b4faeb5faca160e716b6177208d333a6557b2b62149cebe66653",
+    "status": "queued-unsubmitted"
+  },
+  {
+    "id": "snake-spear",
+    "name": "林冲蛇矛样式",
+    "lengthH": 1.4,
+    "description": "one long spear for Lin Chong, a single broad sinuous spearhead with two bends, straight sturdy haft, small tassel and blunt unbladed tail, no second blade",
+    "styleId": "glazed-ceramic-production-v1",
+    "prompt": "Isolated Water Margin glazed stoneware prop: one long spear for Lin Chong, a single broad sinuous spearhead with two bends, straight sturdy haft, small tassel and blunt unbladed tail, no second blade. Entire object is sculpted fired clay, zero metallic surfaces. Ivory ceramic blade/edges, dark-brown shaft/grips, celadon or iron-red glaze accents, pooling in relief. Clear usable grips, thick continuous shapes, finished all sides. No figure, hands, base, scene, text, gold metal, candy, resin or floating fragments. Static unrigged; separate equipment assembled with its owner in Blender.",
+    "promptSha256": "7846610573d7a82307efa62deb7276e8a13009a97995969d8acc9e6f8870d950",
+    "status": "queued-unsubmitted"
+  },
+  {
+    "id": "crescent-blade",
+    "name": "关胜大刀样式",
+    "lengthH": 1.38,
+    "description": "one long-handled crescent blade for Guan Sheng, broad curved cutting edge, thick blade back, clear collar, restrained engraved cloud border",
+    "styleId": "glazed-ceramic-production-v1",
+    "prompt": "Isolated Water Margin glazed stoneware prop: one long-handled crescent blade for Guan Sheng, broad curved cutting edge, thick blade back, clear collar, restrained engraved cloud border. Entire object is sculpted fired clay, zero metallic surfaces. Ivory ceramic blade/edges, dark-brown shaft/grips, celadon or iron-red glaze accents, pooling in relief. Clear usable grips, thick continuous shapes, finished all sides. No figure, hands, base, scene, text, gold metal, candy, resin or floating fragments. Static unrigged; separate equipment assembled with its owner in Blender.",
+    "promptSha256": "bb59aead4bc244e8b0196ca6ac5f6625f59a45278bcfcbd98ddd3b0a0539fa1f",
+    "status": "queued-unsubmitted"
+  },
+  {
+    "id": "wolf-mace",
+    "name": "秦明狼牙棒",
+    "lengthH": 1.02,
+    "description": "one heavy wolf-tooth mace, tapered elongated solid head with a few rows of large blunt spikes, thick straight haft and clear two-hand grip",
+    "styleId": "glazed-ceramic-production-v1",
+    "prompt": "Isolated Water Margin glazed stoneware prop: one heavy wolf-tooth mace, tapered elongated solid head with a few rows of large blunt spikes, thick straight haft and clear two-hand grip. Entire object is sculpted fired clay, zero metallic surfaces. Ivory ceramic blade/edges, dark-brown shaft/grips, celadon or iron-red glaze accents, pooling in relief. Clear usable grips, thick continuous shapes, finished all sides. No figure, hands, base, scene, text, gold metal, candy, resin or floating fragments. Static unrigged; separate equipment assembled with its owner in Blender.",
+    "promptSha256": "4aa1984fd58f4c5d24975a6dd784765282f6d8ed77882ee0a937526e1cc71cae",
+    "status": "queued-unsubmitted"
+  },
+  {
+    "id": "twin-whips",
+    "name": "呼延灼双鞭",
+    "lengthH": 0.54,
+    "description": "a matched pair of rigid fighting whips, segmented squared bars with tapered tips, small guards and separate wrapped handles, not flexible lashes",
+    "styleId": "glazed-ceramic-production-v1",
+    "prompt": "Isolated Water Margin glazed stoneware prop: a matched pair of rigid fighting whips, segmented squared bars with tapered tips, small guards and separate wrapped handles, not flexible lashes. Entire object is sculpted fired clay, zero metallic surfaces. Ivory ceramic blade/edges, dark-brown shaft/grips, celadon or iron-red glaze accents, pooling in relief. Clear usable grips, thick continuous shapes, finished all sides. No figure, hands, base, scene, text, gold metal, candy, resin or floating fragments. Static unrigged; separate equipment assembled with its owner in Blender.",
+    "promptSha256": "d8eedb03c25e501734e3e76a3ee879da07708d4d5c5a3338a5b3217a79b66407",
+    "status": "queued-unsubmitted"
+  },
+  {
+    "id": "bow",
+    "name": "长弓与箭囊",
+    "lengthH": 0.7,
+    "description": "one compact recurved bow, continuous thick limbs and visible taut string, plus a separate small quiver with three sturdy arrow shafts",
+    "styleId": "glazed-ceramic-production-v1",
+    "prompt": "Isolated Water Margin glazed stoneware prop: one compact recurved bow, continuous thick limbs and visible taut string, plus a separate small quiver with three sturdy arrow shafts. Entire object is sculpted fired clay, zero metallic surfaces. Ivory ceramic blade/edges, dark-brown shaft/grips, celadon or iron-red glaze accents, pooling in relief. Clear usable grips, thick continuous shapes, finished all sides. No figure, hands, base, scene, text, gold metal, candy, resin or floating fragments. Static unrigged; separate equipment assembled with its owner in Blender.",
+    "promptSha256": "ec6d313c2182ad940655c1da43af7301a524a6140cf333f63e4ad0ef97f740b6",
+    "status": "queued-unsubmitted"
+  },
+  {
+    "id": "flying-knives",
+    "name": "李应飞刀组",
+    "lengthH": 0.22,
+    "description": "five small throwing knives and one simple belt sheath rack, clear leaf-shaped blades and wrapped grips, closed compact arrangement",
+    "styleId": "glazed-ceramic-production-v1",
+    "prompt": "Isolated Water Margin glazed stoneware prop: five small throwing knives and one simple belt sheath rack, clear leaf-shaped blades and wrapped grips, closed compact arrangement. Entire object is sculpted fired clay, zero metallic surfaces. Ivory ceramic blade/edges, dark-brown shaft/grips, celadon or iron-red glaze accents, pooling in relief. Clear usable grips, thick continuous shapes, finished all sides. No figure, hands, base, scene, text, gold metal, candy, resin or floating fragments. Static unrigged; separate equipment assembled with its owner in Blender.",
+    "promptSha256": "12a639de7396a5abd0f9c2d8081f05682e2b7567bddca8651b531ab9112c6ca0",
+    "status": "queued-unsubmitted"
+  },
+  {
+    "id": "monk-staff",
+    "name": "鲁智深铁禅杖",
+    "lengthH": 1.2,
+    "description": "one heavy monk spade staff for Lu Zhishen, broad shovel blade at one end and open crescent at the other, thick straight shaft, clear two-hand grip",
+    "styleId": "glazed-ceramic-production-v1",
+    "prompt": "Isolated Water Margin glazed stoneware prop: one heavy monk spade staff for Lu Zhishen, broad shovel blade at one end and open crescent at the other, thick straight shaft, clear two-hand grip. Entire object is sculpted fired clay, zero metallic surfaces. Ivory ceramic blade/edges, dark-brown shaft/grips, celadon or iron-red glaze accents, pooling in relief. Clear usable grips, thick continuous shapes, finished all sides. No figure, hands, base, scene, text, gold metal, candy, resin or floating fragments. Static unrigged; separate equipment assembled with its owner in Blender.",
+    "promptSha256": "f1c04a32c359260bc4fee047f33489571e5ca4efb36b0463f2cf49fa39f32af0",
+    "status": "queued-unsubmitted"
+  },
+  {
+    "id": "monk-knives",
+    "name": "武松双戒刀",
+    "lengthH": 0.57,
+    "description": "two monk fighting knives for Wu Song, long single-edged blades with blunt spines, simple disc guards and wrapped grips, no fantasy saw teeth",
+    "styleId": "glazed-ceramic-production-v1",
+    "prompt": "Isolated Water Margin glazed stoneware prop: two monk fighting knives for Wu Song, long single-edged blades with blunt spines, simple disc guards and wrapped grips, no fantasy saw teeth. Entire object is sculpted fired clay, zero metallic surfaces. Ivory ceramic blade/edges, dark-brown shaft/grips, celadon or iron-red glaze accents, pooling in relief. Clear usable grips, thick continuous shapes, finished all sides. No figure, hands, base, scene, text, gold metal, candy, resin or floating fragments. Static unrigged; separate equipment assembled with its owner in Blender.",
+    "promptSha256": "c9658863a675e632434a46885e1c62265246b6e678add4df13306e6f919e1acf",
+    "status": "queued-unsubmitted"
+  },
+  {
+    "id": "twin-spears",
+    "name": "董平双枪",
+    "lengthH": 1.15,
+    "description": "two matching straight spears, slim leaf heads and sturdy shafts, short restrained tassels, separated full-length silhouettes",
+    "styleId": "glazed-ceramic-production-v1",
+    "prompt": "Isolated Water Margin glazed stoneware prop: two matching straight spears, slim leaf heads and sturdy shafts, short restrained tassels, separated full-length silhouettes. Entire object is sculpted fired clay, zero metallic surfaces. Ivory ceramic blade/edges, dark-brown shaft/grips, celadon or iron-red glaze accents, pooling in relief. Clear usable grips, thick continuous shapes, finished all sides. No figure, hands, base, scene, text, gold metal, candy, resin or floating fragments. Static unrigged; separate equipment assembled with its owner in Blender.",
+    "promptSha256": "bdd6686bfa3760ee3a4ac88315756d880cb2c9bcc9520ef4b9e0db88b91487c4",
+    "status": "queued-unsubmitted"
+  },
+  {
+    "id": "stone-pouch",
+    "name": "张清飞石囊",
+    "lengthH": 0.2,
+    "description": "one soft belt pouch with five smooth palm-size throwing pebbles beside it, intact rounded stones, no sling, no written symbols",
+    "styleId": "glazed-ceramic-production-v1",
+    "prompt": "Isolated Water Margin glazed stoneware prop: one soft belt pouch with five smooth palm-size throwing pebbles beside it, intact rounded stones, no sling, no written symbols. Entire object is sculpted fired clay, zero metallic surfaces. Ivory ceramic blade/edges, dark-brown shaft/grips, celadon or iron-red glaze accents, pooling in relief. Clear usable grips, thick continuous shapes, finished all sides. No figure, hands, base, scene, text, gold metal, candy, resin or floating fragments. Static unrigged; separate equipment assembled with its owner in Blender.",
+    "promptSha256": "9847318f1ce2a303625eca72d78ebd9cd680de77179740484543e7a07ea48a8b",
+    "status": "queued-unsubmitted"
+  },
+  {
+    "id": "hook-spear",
+    "name": "徐宁钩镰枪",
+    "lengthH": 1.3,
+    "description": "one hooked spear for Xu Ning, straight central spearhead with a short backward-facing side hook, long sturdy shaft, simple reinforced collar",
+    "styleId": "glazed-ceramic-production-v1",
+    "prompt": "Isolated Water Margin glazed stoneware prop: one hooked spear for Xu Ning, straight central spearhead with a short backward-facing side hook, long sturdy shaft, simple reinforced collar. Entire object is sculpted fired clay, zero metallic surfaces. Ivory ceramic blade/edges, dark-brown shaft/grips, celadon or iron-red glaze accents, pooling in relief. Clear usable grips, thick continuous shapes, finished all sides. No figure, hands, base, scene, text, gold metal, candy, resin or floating fragments. Static unrigged; separate equipment assembled with its owner in Blender.",
+    "promptSha256": "889452c3ae13a5050e3046d501f4b32d8b961e26a7c42ee855c2f31b7e579ecb",
+    "status": "queued-unsubmitted"
+  },
+  {
+    "id": "broad-axe",
+    "name": "索超宣花斧",
+    "lengthH": 1.05,
+    "description": "one long-handled broad axe, single wide petal-shaped axe blade with thick back and practical haft, no double fantasy crescent",
+    "styleId": "glazed-ceramic-production-v1",
+    "prompt": "Isolated Water Margin glazed stoneware prop: one long-handled broad axe, single wide petal-shaped axe blade with thick back and practical haft, no double fantasy crescent. Entire object is sculpted fired clay, zero metallic surfaces. Ivory ceramic blade/edges, dark-brown shaft/grips, celadon or iron-red glaze accents, pooling in relief. Clear usable grips, thick continuous shapes, finished all sides. No figure, hands, base, scene, text, gold metal, candy, resin or floating fragments. Static unrigged; separate equipment assembled with its owner in Blender.",
+    "promptSha256": "46b69357bd61a44d4450c14816e909b9f76d83801fa516b09ce8dbf3774954c8",
+    "status": "queued-unsubmitted"
+  },
+  {
+    "id": "twin-axes",
+    "name": "李逵双板斧",
+    "lengthH": 0.45,
+    "description": "two short-handled broad axes for Li Kui, large rectangular-fan blades and thick short grips, independent left and right weapons",
+    "styleId": "glazed-ceramic-production-v1",
+    "prompt": "Isolated Water Margin glazed stoneware prop: two short-handled broad axes for Li Kui, large rectangular-fan blades and thick short grips, independent left and right weapons. Entire object is sculpted fired clay, zero metallic surfaces. Ivory ceramic blade/edges, dark-brown shaft/grips, celadon or iron-red glaze accents, pooling in relief. Clear usable grips, thick continuous shapes, finished all sides. No figure, hands, base, scene, text, gold metal, candy, resin or floating fragments. Static unrigged; separate equipment assembled with its owner in Blender.",
+    "promptSha256": "16e977452b315bf51c6998cab20d0563a320400486c3fe3359f05cc5a5a9063e",
+    "status": "queued-unsubmitted"
+  },
+  {
+    "id": "staff",
+    "name": "齐眉棍",
+    "lengthH": 1.03,
+    "description": "one straight fighting staff with slightly capped ends, smooth continuous shaft, visible simple wrapped two-hand grip",
+    "styleId": "glazed-ceramic-production-v1",
+    "prompt": "Isolated Water Margin glazed stoneware prop: one straight fighting staff with slightly capped ends, smooth continuous shaft, visible simple wrapped two-hand grip. Entire object is sculpted fired clay, zero metallic surfaces. Ivory ceramic blade/edges, dark-brown shaft/grips, celadon or iron-red glaze accents, pooling in relief. Clear usable grips, thick continuous shapes, finished all sides. No figure, hands, base, scene, text, gold metal, candy, resin or floating fragments. Static unrigged; separate equipment assembled with its owner in Blender.",
+    "promptSha256": "88e2a10e614247b35a2dbf83874c42fc3378ea025b6674cd17923aa1a080126c",
+    "status": "queued-unsubmitted"
+  },
+  {
+    "id": "river-knife",
+    "name": "水军短刀",
+    "lengthH": 0.4,
+    "description": "one sturdy short river-fighter knife, broad single-edged blade and compact wrapped grip, simple belt sheath, no anchor ornament",
+    "styleId": "glazed-ceramic-production-v1",
+    "prompt": "Isolated Water Margin glazed stoneware prop: one sturdy short river-fighter knife, broad single-edged blade and compact wrapped grip, simple belt sheath, no anchor ornament. Entire object is sculpted fired clay, zero metallic surfaces. Ivory ceramic blade/edges, dark-brown shaft/grips, celadon or iron-red glaze accents, pooling in relief. Clear usable grips, thick continuous shapes, finished all sides. No figure, hands, base, scene, text, gold metal, candy, resin or floating fragments. Static unrigged; separate equipment assembled with its owner in Blender.",
+    "promptSha256": "5dc2001c12a820e8e5d60e2f02abd01dd90f97482d380e2442ad1bccf887b616",
+    "status": "queued-unsubmitted"
+  },
+  {
+    "id": "oar",
+    "name": "舟桨",
+    "lengthH": 1.15,
+    "description": "one practical narrow river oar, broad flat paddle blade and thick oval handle, minimal carved joinery, no boat",
+    "styleId": "glazed-ceramic-production-v1",
+    "prompt": "Isolated Water Margin glazed stoneware prop: one practical narrow river oar, broad flat paddle blade and thick oval handle, minimal carved joinery, no boat. Entire object is sculpted fired clay, zero metallic surfaces. Ivory ceramic blade/edges, dark-brown shaft/grips, celadon or iron-red glaze accents, pooling in relief. Clear usable grips, thick continuous shapes, finished all sides. No figure, hands, base, scene, text, gold metal, candy, resin or floating fragments. Static unrigged; separate equipment assembled with its owner in Blender.",
+    "promptSha256": "ff4a158b06d616f5fb368c8744467a7f118e861069f174c8ee903bab945a733d",
+    "status": "queued-unsubmitted"
+  },
+  {
+    "id": "hunting-fork",
+    "name": "猎叉",
+    "lengthH": 1.22,
+    "description": "one mountain hunting fork with three thick practical prongs, stout long wood shaft, visible socket and no fragile barbs",
+    "styleId": "glazed-ceramic-production-v1",
+    "prompt": "Isolated Water Margin glazed stoneware prop: one mountain hunting fork with three thick practical prongs, stout long wood shaft, visible socket and no fragile barbs. Entire object is sculpted fired clay, zero metallic surfaces. Ivory ceramic blade/edges, dark-brown shaft/grips, celadon or iron-red glaze accents, pooling in relief. Clear usable grips, thick continuous shapes, finished all sides. No figure, hands, base, scene, text, gold metal, candy, resin or floating fragments. Static unrigged; separate equipment assembled with its owner in Blender.",
+    "promptSha256": "67ae6f43595c2423d91dce155e915d9c314a4ef6fc05cf4bccccf805b6c66316",
+    "status": "queued-unsubmitted"
+  },
+  {
+    "id": "crossbow",
+    "name": "小弩",
+    "lengthH": 0.36,
+    "description": "one compact handheld crossbow, sturdy wood stock, short transverse bow and visible string, one blunt-ended bolt, no modern gun parts",
+    "styleId": "glazed-ceramic-production-v1",
+    "prompt": "Isolated Water Margin glazed stoneware prop: one compact handheld crossbow, sturdy wood stock, short transverse bow and visible string, one blunt-ended bolt, no modern gun parts. Entire object is sculpted fired clay, zero metallic surfaces. Ivory ceramic blade/edges, dark-brown shaft/grips, celadon or iron-red glaze accents, pooling in relief. Clear usable grips, thick continuous shapes, finished all sides. No figure, hands, base, scene, text, gold metal, candy, resin or floating fragments. Static unrigged; separate equipment assembled with its owner in Blender.",
+    "promptSha256": "92226b7b500246de53c02b1ed6512a8eaf40d5a4927131f2ba3c64fabd8fe212",
+    "status": "queued-unsubmitted"
+  },
+  {
+    "id": "halberd",
+    "name": "画戟",
+    "lengthH": 1.35,
+    "description": "one long halberd, central spearhead with two restrained side crescent blades, straight wood haft and modest collar, no oversized tassels",
+    "styleId": "glazed-ceramic-production-v1",
+    "prompt": "Isolated Water Margin glazed stoneware prop: one long halberd, central spearhead with two restrained side crescent blades, straight wood haft and modest collar, no oversized tassels. Entire object is sculpted fired clay, zero metallic surfaces. Ivory ceramic blade/edges, dark-brown shaft/grips, celadon or iron-red glaze accents, pooling in relief. Clear usable grips, thick continuous shapes, finished all sides. No figure, hands, base, scene, text, gold metal, candy, resin or floating fragments. Static unrigged; separate equipment assembled with its owner in Blender.",
+    "promptSha256": "d90dfd5254196c1de89e02440bddae7c16dedf834efa894c586b0d7263ac5bfd",
+    "status": "queued-unsubmitted"
+  },
+  {
+    "id": "twin-sabres",
+    "name": "扈三娘日月双刀",
+    "lengthH": 0.58,
+    "description": "two curved single-edged sabres for Hu Sanniang, complementary sun and crescent guard details without letters, sturdy separate grips and clean cutting edges",
+    "styleId": "glazed-ceramic-production-v1",
+    "prompt": "Isolated Water Margin glazed stoneware prop: two curved single-edged sabres for Hu Sanniang, complementary sun and crescent guard details without letters, sturdy separate grips and clean cutting edges. Entire object is sculpted fired clay, zero metallic surfaces. Ivory ceramic blade/edges, dark-brown shaft/grips, celadon or iron-red glaze accents, pooling in relief. Clear usable grips, thick continuous shapes, finished all sides. No figure, hands, base, scene, text, gold metal, candy, resin or floating fragments. Static unrigged; separate equipment assembled with its owner in Blender.",
+    "promptSha256": "89fd84f0d1519e15deeddefc666a74dd3af0bdcd596211a3c16a0dbc5ee71d58",
+    "status": "queued-unsubmitted"
+  },
+  {
+    "id": "broad-sword",
+    "name": "阔剑",
+    "lengthH": 0.75,
+    "description": "one heavy straight double-edged sword, broad tapered blade with central ridge, modest guard and wrapped two-hand grip, practical compact pommel",
+    "styleId": "glazed-ceramic-production-v1",
+    "prompt": "Isolated Water Margin glazed stoneware prop: one heavy straight double-edged sword, broad tapered blade with central ridge, modest guard and wrapped two-hand grip, practical compact pommel. Entire object is sculpted fired clay, zero metallic surfaces. Ivory ceramic blade/edges, dark-brown shaft/grips, celadon or iron-red glaze accents, pooling in relief. Clear usable grips, thick continuous shapes, finished all sides. No figure, hands, base, scene, text, gold metal, candy, resin or floating fragments. Static unrigged; separate equipment assembled with its owner in Blender.",
+    "promptSha256": "1866ceb76abdf08fb1bd2841fc01d287ae8ee356a79b9f6b93c34ac2055ed32c",
+    "status": "queued-unsubmitted"
+  },
+  {
+    "id": "flail",
+    "name": "铁链与锤",
+    "lengthH": 0.65,
+    "description": "one compact chain weapon, thick separated oval links joining a small solid striking weight to a short grip, arranged in a stable shallow curve",
+    "styleId": "glazed-ceramic-production-v1",
+    "prompt": "Isolated Water Margin glazed stoneware prop: one compact chain weapon, thick separated oval links joining a small solid striking weight to a short grip, arranged in a stable shallow curve. Entire object is sculpted fired clay, zero metallic surfaces. Ivory ceramic blade/edges, dark-brown shaft/grips, celadon or iron-red glaze accents, pooling in relief. Clear usable grips, thick continuous shapes, finished all sides. No figure, hands, base, scene, text, gold metal, candy, resin or floating fragments. Static unrigged; separate equipment assembled with its owner in Blender.",
+    "promptSha256": "5755c728792c669b7c7d9a50ba2e15d67a8e11d235953e7c5b4e4a777a0d1efb",
+    "status": "queued-unsubmitted"
+  },
+  {
+    "id": "rattan-shield",
+    "name": "团牌",
+    "lengthH": 0.42,
+    "description": "one round rattan fighting shield, broad woven bands in shallow relief, strong rim and readable rear hand strap, no coat of arms",
+    "styleId": "glazed-ceramic-production-v1",
+    "prompt": "Isolated Water Margin glazed stoneware prop: one round rattan fighting shield, broad woven bands in shallow relief, strong rim and readable rear hand strap, no coat of arms. Entire object is sculpted fired clay, zero metallic surfaces. Ivory ceramic blade/edges, dark-brown shaft/grips, celadon or iron-red glaze accents, pooling in relief. Clear usable grips, thick continuous shapes, finished all sides. No figure, hands, base, scene, text, gold metal, candy, resin or floating fragments. Static unrigged; separate equipment assembled with its owner in Blender.",
+    "promptSha256": "9ea6c8498b94c16c14e8d78971f497a08e2d5826fa577b1d931fb68ed116efff",
+    "status": "queued-unsubmitted"
+  },
+  {
+    "id": "javelins",
+    "name": "投枪束",
+    "lengthH": 0.72,
+    "description": "three short throwing spears, compact leaf heads and thick straight shafts, clearly separated and bound by one removable simple carrying strap",
+    "styleId": "glazed-ceramic-production-v1",
+    "prompt": "Isolated Water Margin glazed stoneware prop: three short throwing spears, compact leaf heads and thick straight shafts, clearly separated and bound by one removable simple carrying strap. Entire object is sculpted fired clay, zero metallic surfaces. Ivory ceramic blade/edges, dark-brown shaft/grips, celadon or iron-red glaze accents, pooling in relief. Clear usable grips, thick continuous shapes, finished all sides. No figure, hands, base, scene, text, gold metal, candy, resin or floating fragments. Static unrigged; separate equipment assembled with its owner in Blender.",
+    "promptSha256": "9562bce47a533e502cb65498b4c5f9faf813756b1e77a21c2376a13a2cc362a7",
+    "status": "queued-unsubmitted"
+  },
+  {
+    "id": "sword",
+    "name": "直剑",
+    "lengthH": 0.61,
+    "description": "one straight double-edged sword, narrow ridged blade, modest cross guard, plain pommel and wrapped grip, plus a simple separate sheath",
+    "styleId": "glazed-ceramic-production-v1",
+    "prompt": "Isolated Water Margin glazed stoneware prop: one straight double-edged sword, narrow ridged blade, modest cross guard, plain pommel and wrapped grip, plus a simple separate sheath. Entire object is sculpted fired clay, zero metallic surfaces. Ivory ceramic blade/edges, dark-brown shaft/grips, celadon or iron-red glaze accents, pooling in relief. Clear usable grips, thick continuous shapes, finished all sides. No figure, hands, base, scene, text, gold metal, candy, resin or floating fragments. Static unrigged; separate equipment assembled with its owner in Blender.",
+    "promptSha256": "584fb77c0ffd02599e6754e25e00af46559f6f618306f916e83f0c61a63308c2",
+    "status": "queued-unsubmitted"
+  },
+  {
+    "id": "short-staff",
+    "name": "短棒",
+    "lengthH": 0.55,
+    "description": "one short practical club, slightly tapered solid cylindrical body, clear rounded handle and simple wrist loop",
+    "styleId": "glazed-ceramic-production-v1",
+    "prompt": "Isolated Water Margin glazed stoneware prop: one short practical club, slightly tapered solid cylindrical body, clear rounded handle and simple wrist loop. Entire object is sculpted fired clay, zero metallic surfaces. Ivory ceramic blade/edges, dark-brown shaft/grips, celadon or iron-red glaze accents, pooling in relief. Clear usable grips, thick continuous shapes, finished all sides. No figure, hands, base, scene, text, gold metal, candy, resin or floating fragments. Static unrigged; separate equipment assembled with its owner in Blender.",
+    "promptSha256": "7309574e2c4ed92d50e6fea860e2a84f9df1933d5b06f3e876c22f04be107a0a",
+    "status": "queued-unsubmitted"
+  },
+  {
+    "id": "forked-blade",
+    "name": "三尖两刃刀",
+    "lengthH": 1.28,
+    "description": "one three-pointed pole blade, broad central point and two short side points sharing a solid blade body, straight strong haft, minimal decoration",
+    "styleId": "glazed-ceramic-production-v1",
+    "prompt": "Isolated Water Margin glazed stoneware prop: one three-pointed pole blade, broad central point and two short side points sharing a solid blade body, straight strong haft, minimal decoration. Entire object is sculpted fired clay, zero metallic surfaces. Ivory ceramic blade/edges, dark-brown shaft/grips, celadon or iron-red glaze accents, pooling in relief. Clear usable grips, thick continuous shapes, finished all sides. No figure, hands, base, scene, text, gold metal, candy, resin or floating fragments. Static unrigged; separate equipment assembled with its owner in Blender.",
+    "promptSha256": "0c8c03c235c93e657dfb903f6e5c7f2bdd487f7a812528b3b460801505ba738a",
+    "status": "queued-unsubmitted"
+  },
+  {
+    "id": "cleaver",
+    "name": "屠刀与刀鞘",
+    "lengthH": 0.3,
+    "description": "one practical butcher knife, broad heavy blade with thick spine, plain wood grip, separate compact sheath, clean surface without gore",
+    "styleId": "glazed-ceramic-production-v1",
+    "prompt": "Isolated Water Margin glazed stoneware prop: one practical butcher knife, broad heavy blade with thick spine, plain wood grip, separate compact sheath, clean surface without gore. Entire object is sculpted fired clay, zero metallic surfaces. Ivory ceramic blade/edges, dark-brown shaft/grips, celadon or iron-red glaze accents, pooling in relief. Clear usable grips, thick continuous shapes, finished all sides. No figure, hands, base, scene, text, gold metal, candy, resin or floating fragments. Static unrigged; separate equipment assembled with its owner in Blender.",
+    "promptSha256": "8ef983f295af8589476816df8d6629f6b8645d3094ef69d1f4a4151029551b9e",
+    "status": "queued-unsubmitted"
+  },
+  {
+    "id": "execution-sword",
+    "name": "行刑大刀",
+    "lengthH": 0.82,
+    "description": "one broad executioner's sabre, long slightly flared single-edged blade, thick spine, simple sturdy two-hand handle, clean and without blood",
+    "styleId": "glazed-ceramic-production-v1",
+    "prompt": "Isolated Water Margin glazed stoneware prop: one broad executioner's sabre, long slightly flared single-edged blade, thick spine, simple sturdy two-hand handle, clean and without blood. Entire object is sculpted fired clay, zero metallic surfaces. Ivory ceramic blade/edges, dark-brown shaft/grips, celadon or iron-red glaze accents, pooling in relief. Clear usable grips, thick continuous shapes, finished all sides. No figure, hands, base, scene, text, gold metal, candy, resin or floating fragments. Static unrigged; separate equipment assembled with its owner in Blender.",
+    "promptSha256": "590e20ae608dbb64e04aac90515f9f45d5acb4b510a40570b2d51ea40b90f790",
+    "status": "queued-unsubmitted"
+  },
+  {
+    "id": "fan",
+    "name": "折扇",
+    "lengthH": 0.23,
+    "description": "one opened folding fan with thick visible ribs and a continuous paper leaf, shallow carved cloud border, no painted text",
+    "styleId": "glazed-ceramic-production-v1",
+    "prompt": "Isolated Water Margin glazed stoneware prop: one opened folding fan with thick visible ribs and a continuous paper leaf, shallow carved cloud border, no painted text. Entire object is sculpted fired clay, zero metallic surfaces. Ivory ceramic blade/edges, dark-brown shaft/grips, celadon or iron-red glaze accents, pooling in relief. Clear usable grips, thick continuous shapes, finished all sides. No figure, hands, base, scene, text, gold metal, candy, resin or floating fragments. Static unrigged; separate equipment assembled with its owner in Blender.",
+    "promptSha256": "39f8ab19b51614a42f5f35c9782449e503c47358c7f91bf61f9e571bb4cd723e",
+    "status": "queued-unsubmitted"
+  },
+  {
+    "id": "scroll",
+    "name": "书卷与文书",
+    "lengthH": 0.25,
+    "description": "one partly opened manuscript scroll with solid rolled ends and a few unlettered tied documents, thick continuous paper surface, no readable text",
+    "styleId": "glazed-ceramic-production-v1",
+    "prompt": "Isolated Water Margin glazed stoneware prop: one partly opened manuscript scroll with solid rolled ends and a few unlettered tied documents, thick continuous paper surface, no readable text. Entire object is sculpted fired clay, zero metallic surfaces. Ivory ceramic blade/edges, dark-brown shaft/grips, celadon or iron-red glaze accents, pooling in relief. Clear usable grips, thick continuous shapes, finished all sides. No figure, hands, base, scene, text, gold metal, candy, resin or floating fragments. Static unrigged; separate equipment assembled with its owner in Blender.",
+    "promptSha256": "02eb3cb6a8b2276ab2d9f967d37e32f4a1ca4b4483b31f872ef75e8d595c1aa0",
+    "status": "queued-unsubmitted"
+  },
+  {
+    "id": "brush",
+    "name": "笔砚",
+    "lengthH": 0.24,
+    "description": "one calligraphy brush and one small shallow inkstone, sturdy tapered brush tip and bamboo handle, simple inkstone well, no wet splashes",
+    "styleId": "glazed-ceramic-production-v1",
+    "prompt": "Isolated Water Margin glazed stoneware prop: one calligraphy brush and one small shallow inkstone, sturdy tapered brush tip and bamboo handle, simple inkstone well, no wet splashes. Entire object is sculpted fired clay, zero metallic surfaces. Ivory ceramic blade/edges, dark-brown shaft/grips, celadon or iron-red glaze accents, pooling in relief. Clear usable grips, thick continuous shapes, finished all sides. No figure, hands, base, scene, text, gold metal, candy, resin or floating fragments. Static unrigged; separate equipment assembled with its owner in Blender.",
+    "promptSha256": "d2b682960c889e811bb1dd89bfd41557778621783bfb2ec5cc5e5926c00e6d7b",
+    "status": "queued-unsubmitted"
+  },
+  {
+    "id": "abacus",
+    "name": "算盘",
+    "lengthH": 0.25,
+    "description": "one traditional rectangular abacus, robust wood frame and clear separated rows of thick beads, small tied ledger beside it, no text",
+    "styleId": "glazed-ceramic-production-v1",
+    "prompt": "Isolated Water Margin glazed stoneware prop: one traditional rectangular abacus, robust wood frame and clear separated rows of thick beads, small tied ledger beside it, no text. Entire object is sculpted fired clay, zero metallic surfaces. Ivory ceramic blade/edges, dark-brown shaft/grips, celadon or iron-red glaze accents, pooling in relief. Clear usable grips, thick continuous shapes, finished all sides. No figure, hands, base, scene, text, gold metal, candy, resin or floating fragments. Static unrigged; separate equipment assembled with its owner in Blender.",
+    "promptSha256": "7368831e6875545311c57f02c8aa92c848eebfdc31d62ce977ec92aefa274c7b",
+    "status": "queued-unsubmitted"
+  },
+  {
+    "id": "medicine",
+    "name": "医药箱",
+    "lengthH": 0.28,
+    "description": "one physician's portable medicine chest, small square wood case with drawers and cloth strap, two closed medicine jars, no modern cross symbol",
+    "styleId": "glazed-ceramic-production-v1",
+    "prompt": "Isolated Water Margin glazed stoneware prop: one physician's portable medicine chest, small square wood case with drawers and cloth strap, two closed medicine jars, no modern cross symbol. Entire object is sculpted fired clay, zero metallic surfaces. Ivory ceramic blade/edges, dark-brown shaft/grips, celadon or iron-red glaze accents, pooling in relief. Clear usable grips, thick continuous shapes, finished all sides. No figure, hands, base, scene, text, gold metal, candy, resin or floating fragments. Static unrigged; separate equipment assembled with its owner in Blender.",
+    "promptSha256": "35b2cd2885c212cdb0b9cdc1bbc12f59ca39faa1fc06bfaf6d2c2fc356cd07fe",
+    "status": "queued-unsubmitted"
+  },
+  {
+    "id": "veterinary",
+    "name": "兽医药囊",
+    "lengthH": 0.24,
+    "description": "one compact veterinarian's leather medicine satchel, visible buckle and closed herb packets, small hoof-care tool, no syringes or labels",
+    "styleId": "glazed-ceramic-production-v1",
+    "prompt": "Isolated Water Margin glazed stoneware prop: one compact veterinarian's leather medicine satchel, visible buckle and closed herb packets, small hoof-care tool, no syringes or labels. Entire object is sculpted fired clay, zero metallic surfaces. Ivory ceramic blade/edges, dark-brown shaft/grips, celadon or iron-red glaze accents, pooling in relief. Clear usable grips, thick continuous shapes, finished all sides. No figure, hands, base, scene, text, gold metal, candy, resin or floating fragments. Static unrigged; separate equipment assembled with its owner in Blender.",
+    "promptSha256": "9cb320d8e22db968ca789c1bb08584e4a2f2be5548dfb54ff44e9aaedb72729d",
+    "status": "queued-unsubmitted"
+  },
+  {
+    "id": "carving-tools",
+    "name": "凿锤与印石",
+    "lengthH": 0.25,
+    "description": "one short stone-carving chisel, one small wood mallet and one rectangular blank seal stone, sturdy distinct tools, no engraved letters",
+    "styleId": "glazed-ceramic-production-v1",
+    "prompt": "Isolated Water Margin glazed stoneware prop: one short stone-carving chisel, one small wood mallet and one rectangular blank seal stone, sturdy distinct tools, no engraved letters. Entire object is sculpted fired clay, zero metallic surfaces. Ivory ceramic blade/edges, dark-brown shaft/grips, celadon or iron-red glaze accents, pooling in relief. Clear usable grips, thick continuous shapes, finished all sides. No figure, hands, base, scene, text, gold metal, candy, resin or floating fragments. Static unrigged; separate equipment assembled with its owner in Blender.",
+    "promptSha256": "1f3c59abed991d4156507efb7a57c0e7d744d7135e926459bdb19c68f0476558",
+    "status": "queued-unsubmitted"
+  },
+  {
+    "id": "sewing",
+    "name": "针线与布卷",
+    "lengthH": 0.24,
+    "description": "one compact cloth roll with thick thread spool and tailor's blunt shears, needle represented as shallow relief rather than a fragile floating strand",
+    "styleId": "glazed-ceramic-production-v1",
+    "prompt": "Isolated Water Margin glazed stoneware prop: one compact cloth roll with thick thread spool and tailor's blunt shears, needle represented as shallow relief rather than a fragile floating strand. Entire object is sculpted fired clay, zero metallic surfaces. Ivory ceramic blade/edges, dark-brown shaft/grips, celadon or iron-red glaze accents, pooling in relief. Clear usable grips, thick continuous shapes, finished all sides. No figure, hands, base, scene, text, gold metal, candy, resin or floating fragments. Static unrigged; separate equipment assembled with its owner in Blender.",
+    "promptSha256": "7cdaba76e7fc4bd63a310366d1bd403dec535d12f2df0c5526dc0cf41649f3a7",
+    "status": "queued-unsubmitted"
+  },
+  {
+    "id": "hammer",
+    "name": "锻锤",
+    "lengthH": 0.42,
+    "description": "one blacksmith's compact forging hammer, heavy rectangular head with rounded edges, sturdy short wood handle, simple collar and no anvil",
+    "styleId": "glazed-ceramic-production-v1",
+    "prompt": "Isolated Water Margin glazed stoneware prop: one blacksmith's compact forging hammer, heavy rectangular head with rounded edges, sturdy short wood handle, simple collar and no anvil. Entire object is sculpted fired clay, zero metallic surfaces. Ivory ceramic blade/edges, dark-brown shaft/grips, celadon or iron-red glaze accents, pooling in relief. Clear usable grips, thick continuous shapes, finished all sides. No figure, hands, base, scene, text, gold metal, candy, resin or floating fragments. Static unrigged; separate equipment assembled with its owner in Blender.",
+    "promptSha256": "7a2fe88139d8704b2d7603564b416f89692b1e482b14c0495f1b85fa1ea8c570",
+    "status": "queued-unsubmitted"
+  },
+  {
+    "id": "shovel",
+    "name": "铁锹",
+    "lengthH": 0.95,
+    "description": "one practical earth shovel, broad rounded rectangular iron blade and straight thick wood shaft, clear hand grip, no garden scene",
+    "styleId": "glazed-ceramic-production-v1",
+    "prompt": "Isolated Water Margin glazed stoneware prop: one practical earth shovel, broad rounded rectangular iron blade and straight thick wood shaft, clear hand grip, no garden scene. Entire object is sculpted fired clay, zero metallic surfaces. Ivory ceramic blade/edges, dark-brown shaft/grips, celadon or iron-red glaze accents, pooling in relief. Clear usable grips, thick continuous shapes, finished all sides. No figure, hands, base, scene, text, gold metal, candy, resin or floating fragments. Static unrigged; separate equipment assembled with its owner in Blender.",
+    "promptSha256": "f0ae4d67a36836131ceb19299b513c6feb9b15366c01d66d4b9c01d3c937920c",
+    "status": "queued-unsubmitted"
+  },
+  {
+    "id": "wine",
+    "name": "酒壶与酒碗",
+    "lengthH": 0.23,
+    "description": "one small earthenware wine jug with thick loop handle and tied cloth stopper, one shallow bowl beside it, no liquid or writing",
+    "styleId": "glazed-ceramic-production-v1",
+    "prompt": "Isolated Water Margin glazed stoneware prop: one small earthenware wine jug with thick loop handle and tied cloth stopper, one shallow bowl beside it, no liquid or writing. Entire object is sculpted fired clay, zero metallic surfaces. Ivory ceramic blade/edges, dark-brown shaft/grips, celadon or iron-red glaze accents, pooling in relief. Clear usable grips, thick continuous shapes, finished all sides. No figure, hands, base, scene, text, gold metal, candy, resin or floating fragments. Static unrigged; separate equipment assembled with its owner in Blender.",
+    "promptSha256": "535abe83782c6a3072e52b8ff0930cae82b4191be8037bcb86f2966772c32bee",
+    "status": "queued-unsubmitted"
+  },
+  {
+    "id": "flute",
+    "name": "铁笛",
+    "lengthH": 0.43,
+    "description": "one straight thick flute with shallow clearly spaced finger holes and capped ends, restrained ring bands, no musical notes or floating ribbons",
+    "styleId": "glazed-ceramic-production-v1",
+    "prompt": "Isolated Water Margin glazed stoneware prop: one straight thick flute with shallow clearly spaced finger holes and capped ends, restrained ring bands, no musical notes or floating ribbons. Entire object is sculpted fired clay, zero metallic surfaces. Ivory ceramic blade/edges, dark-brown shaft/grips, celadon or iron-red glaze accents, pooling in relief. Clear usable grips, thick continuous shapes, finished all sides. No figure, hands, base, scene, text, gold metal, candy, resin or floating fragments. Static unrigged; separate equipment assembled with its owner in Blender.",
+    "promptSha256": "0ab42271ece3c3715057e6e78493caf1ab1c67014587a8ffa9694d641589650e",
+    "status": "queued-unsubmitted"
+  },
+  {
+    "id": "banner",
+    "name": "帅旗",
+    "lengthH": 1.5,
+    "description": "one command banner, strong upright pole and compact thick cloth panel with shallow cloud relief and unlettered central seal shape, no readable words",
+    "styleId": "glazed-ceramic-production-v1",
+    "prompt": "Isolated Water Margin glazed stoneware prop: one command banner, strong upright pole and compact thick cloth panel with shallow cloud relief and unlettered central seal shape, no readable words. Entire object is sculpted fired clay, zero metallic surfaces. Ivory ceramic blade/edges, dark-brown shaft/grips, celadon or iron-red glaze accents, pooling in relief. Clear usable grips, thick continuous shapes, finished all sides. No figure, hands, base, scene, text, gold metal, candy, resin or floating fragments. Static unrigged; separate equipment assembled with its owner in Blender.",
+    "promptSha256": "d96054fb1baf223669acf5c245fde12d9c8ce380c8698e995c778c29ff509b1f",
+    "status": "queued-unsubmitted"
+  },
+  {
+    "id": "rope",
+    "name": "盘绳",
+    "lengthH": 0.32,
+    "description": "one thick coiled hemp rope with a small simple hook, stable joined coil with readable strands, no dangling fragile threads",
+    "styleId": "glazed-ceramic-production-v1",
+    "prompt": "Isolated Water Margin glazed stoneware prop: one thick coiled hemp rope with a small simple hook, stable joined coil with readable strands, no dangling fragile threads. Entire object is sculpted fired clay, zero metallic surfaces. Ivory ceramic blade/edges, dark-brown shaft/grips, celadon or iron-red glaze accents, pooling in relief. Clear usable grips, thick continuous shapes, finished all sides. No figure, hands, base, scene, text, gold metal, candy, resin or floating fragments. Static unrigged; separate equipment assembled with its owner in Blender.",
+    "promptSha256": "5f4a9f792725b9ba72f60ac9a3a89cf21bf4497d62077e341d87e1af75a83289",
+    "status": "queued-unsubmitted"
+  },
+  {
+    "id": "horsetack",
+    "name": "马鞭与缰绳",
+    "lengthH": 0.45,
+    "description": "one short riding crop and one compact coiled bridle, solid leather straps and large practical rings, no horse or saddle scene",
+    "styleId": "glazed-ceramic-production-v1",
+    "prompt": "Isolated Water Margin glazed stoneware prop: one short riding crop and one compact coiled bridle, solid leather straps and large practical rings, no horse or saddle scene. Entire object is sculpted fired clay, zero metallic surfaces. Ivory ceramic blade/edges, dark-brown shaft/grips, celadon or iron-red glaze accents, pooling in relief. Clear usable grips, thick continuous shapes, finished all sides. No figure, hands, base, scene, text, gold metal, candy, resin or floating fragments. Static unrigged; separate equipment assembled with its owner in Blender.",
+    "promptSha256": "391f3f029612b73a393eb3ad91619c2230aea82fbf5da490aff1e85f9ff425cf",
+    "status": "queued-unsubmitted"
+  },
+  {
+    "id": "cannon-kit",
+    "name": "火炮工匠器具",
+    "lengthH": 0.35,
+    "description": "one small early powder horn, one short solid rammer and one thick unlit fuse coil, craft tools only, no modern firearm or smoke",
+    "styleId": "glazed-ceramic-production-v1",
+    "prompt": "Isolated Water Margin glazed stoneware prop: one small early powder horn, one short solid rammer and one thick unlit fuse coil, craft tools only, no modern firearm or smoke. Entire object is sculpted fired clay, zero metallic surfaces. Ivory ceramic blade/edges, dark-brown shaft/grips, celadon or iron-red glaze accents, pooling in relief. Clear usable grips, thick continuous shapes, finished all sides. No figure, hands, base, scene, text, gold metal, candy, resin or floating fragments. Static unrigged; separate equipment assembled with its owner in Blender.",
+    "promptSha256": "347a0ab6033ad2363baf848432f8f26671de403470a933f50c35a9fae48d792e",
+    "status": "queued-unsubmitted"
+  },
+  {
+    "id": "ceremony-tablet",
+    "name": "笏板",
+    "lengthH": 0.3,
+    "description": "one narrow curved ceremonial court tablet, smooth solid ivory-toned surface and rounded upper edge, shallow plain border, no letters",
+    "styleId": "glazed-ceramic-production-v1",
+    "prompt": "Isolated Water Margin glazed stoneware prop: one narrow curved ceremonial court tablet, smooth solid ivory-toned surface and rounded upper edge, shallow plain border, no letters. Entire object is sculpted fired clay, zero metallic surfaces. Ivory ceramic blade/edges, dark-brown shaft/grips, celadon or iron-red glaze accents, pooling in relief. Clear usable grips, thick continuous shapes, finished all sides. No figure, hands, base, scene, text, gold metal, candy, resin or floating fragments. Static unrigged; separate equipment assembled with its owner in Blender.",
+    "promptSha256": "ff1b18154fcbd0f3786fdc613139a14ddbeaf670e73f2b1a22e58e83dea9a108",
+    "status": "queued-unsubmitted"
+  },
+  {
+    "id": "bamboo-basket",
+    "name": "竹篮",
+    "lengthH": 0.28,
+    "description": "one compact woven bamboo carrying basket with thick arched handle, broad weave relief and closed simple cloth contents, no fruit scene",
+    "styleId": "glazed-ceramic-production-v1",
+    "prompt": "Isolated Water Margin glazed stoneware prop: one compact woven bamboo carrying basket with thick arched handle, broad weave relief and closed simple cloth contents, no fruit scene. Entire object is sculpted fired clay, zero metallic surfaces. Ivory ceramic blade/edges, dark-brown shaft/grips, celadon or iron-red glaze accents, pooling in relief. Clear usable grips, thick continuous shapes, finished all sides. No figure, hands, base, scene, text, gold metal, candy, resin or floating fragments. Static unrigged; separate equipment assembled with its owner in Blender.",
+    "promptSha256": "51c3bb1a07c827a3a478e852f537b71dee1caee3379dee23eec2fb2fe3e36f04",
+    "status": "queued-unsubmitted"
+  },
+  {
+    "id": "lute",
+    "name": "琵琶",
+    "lengthH": 0.52,
+    "description": "one pear-shaped four-string pipa lute, sturdy curved neck and shallow frets, thick strings in relief, no musical notes or stand",
+    "styleId": "glazed-ceramic-production-v1",
+    "prompt": "Isolated Water Margin glazed stoneware prop: one pear-shaped four-string pipa lute, sturdy curved neck and shallow frets, thick strings in relief, no musical notes or stand. Entire object is sculpted fired clay, zero metallic surfaces. Ivory ceramic blade/edges, dark-brown shaft/grips, celadon or iron-red glaze accents, pooling in relief. Clear usable grips, thick continuous shapes, finished all sides. No figure, hands, base, scene, text, gold metal, candy, resin or floating fragments. Static unrigged; separate equipment assembled with its owner in Blender.",
+    "promptSha256": "c6ccf51be079b245e1b374bc8c307109dae57967bd13f3dcfe19bf68c5076aed",
+    "status": "queued-unsubmitted"
+  },
+  {
+    "id": "prayer-beads",
+    "name": "念珠",
+    "lengthH": 0.3,
+    "description": "one closed loop of large Buddhist prayer beads, thick beads with joined inner cord and a compact tassel in relief, no text or sacred statue",
+    "styleId": "glazed-ceramic-production-v1",
+    "prompt": "Isolated Water Margin glazed stoneware prop: one closed loop of large Buddhist prayer beads, thick beads with joined inner cord and a compact tassel in relief, no text or sacred statue. Entire object is sculpted fired clay, zero metallic surfaces. Ivory ceramic blade/edges, dark-brown shaft/grips, celadon or iron-red glaze accents, pooling in relief. Clear usable grips, thick continuous shapes, finished all sides. No figure, hands, base, scene, text, gold metal, candy, resin or floating fragments. Static unrigged; separate equipment assembled with its owner in Blender.",
+    "promptSha256": "8c2c60f3c6788d68580534cd73395496c1f21337ce642c4005d15b28aa1bd735",
+    "status": "queued-unsubmitted"
+  },
+  {
+    "id": "flywhisk",
+    "name": "拂尘",
+    "lengthH": 0.45,
+    "description": "one Daoist flywhisk, slender stout handle and solid carved flowing tuft with a few broad grooves, no individual thin hair strands",
+    "styleId": "glazed-ceramic-production-v1",
+    "prompt": "Isolated Water Margin glazed stoneware prop: one Daoist flywhisk, slender stout handle and solid carved flowing tuft with a few broad grooves, no individual thin hair strands. Entire object is sculpted fired clay, zero metallic surfaces. Ivory ceramic blade/edges, dark-brown shaft/grips, celadon or iron-red glaze accents, pooling in relief. Clear usable grips, thick continuous shapes, finished all sides. No figure, hands, base, scene, text, gold metal, candy, resin or floating fragments. Static unrigged; separate equipment assembled with its owner in Blender.",
+    "promptSha256": "eddbfcfe1f1827a0f7466d99d6e8d880bd6c157127a3fd6d3b4d063380eaea11",
+    "status": "queued-unsubmitted"
+  },
+  {
+    "id": "sickle",
+    "name": "短镰刀",
+    "lengthH": 0.35,
+    "description": "one practical short sickle, continuous crescent iron blade attached to a stout wood handle, rounded carved edge with clear socket",
+    "styleId": "glazed-ceramic-production-v1",
+    "prompt": "Isolated Water Margin glazed stoneware prop: one practical short sickle, continuous crescent iron blade attached to a stout wood handle, rounded carved edge with clear socket. Entire object is sculpted fired clay, zero metallic surfaces. Ivory ceramic blade/edges, dark-brown shaft/grips, celadon or iron-red glaze accents, pooling in relief. Clear usable grips, thick continuous shapes, finished all sides. No figure, hands, base, scene, text, gold metal, candy, resin or floating fragments. Static unrigged; separate equipment assembled with its owner in Blender.",
+    "promptSha256": "fead05b494f207a2a7f5c2d6bb92e7b5c94165eaaaa0b3a84c128d00939fff1b",
+    "status": "queued-unsubmitted"
+  }
+]

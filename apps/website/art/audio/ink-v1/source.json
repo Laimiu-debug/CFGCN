@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-20",
+  "provider": "Runway",
+  "generations": 3,
+  "creditsPreviouslyUsed": 12,
+  "additionalCreditsForIntegration": 0,
+  "musicBriefs": [
+    {
+      "id": "01-menu",
+      "name": "CFGCN 墨起山河 · 主界面 v1",
+      "prompt": "Original Chinese traditional instrumental for the main menu of an ink-wash landscape game based on the four great Chinese classics. Quiet, elegant, intimate and spacious. Lead with the warm low and middle strings of a guqin, delicate finger slides and ringing harmonics; a breathy xiao bamboo flute answers in short phrases. A subtle D minor pentatonic identity, about 68 BPM with natural rubato. A brief opening gesture, a memorable restrained melody, one answering phrase and a gentle resolved ending. Use silence and breathing space as part of the composition, like mist and blank paper in a Chinese landscape scroll. Tactile acoustic strings and bamboo, soft room resonance, natural dynamics, clean studio recording. Instrumental only: no lyrics, no speech, no narration, no humming or human vocals. Sparse arrangement without a pop beat; keep the focus on guqin and xiao."
+    },
+    {
+      "id": "02-exploration",
+      "name": "CFGCN 溪山行 · 探索 v1",
+      "prompt": "Original Chinese traditional instrumental for freely exploring an ink-wash game world of rivers, bamboo groves and old villages. Airy, curious, peaceful forward motion. Delicate guzheng arpeggios and a light pipa pattern under a lyrical dizi bamboo flute, with occasional soft wooden percussion. D minor pentatonic palette, around 88 BPM; small variations and a memorable theme rather than a dense orchestral texture. Short introduction, flowing melody, a quieter answering phrase, then a relaxed tonic cadence. Keep the arrangement transparent so footsteps and water remain audible in gameplay. Warm tactile acoustic Chinese instruments, graceful finger ornaments, natural phrasing, restrained dynamics. Instrumental only, no lyrics, speech, humming, chanting or human voice. A concise repeat-friendly exploration cue with a clean ending."
+    },
+    {
+      "id": "03-battle",
+      "name": "CFGCN 破阵墨锋 · 战斗 v1",
+      "prompt": "Original Chinese traditional martial instrumental for an ink-wash action and tactical game. Focused, agile, courageous energy. Fast articulated pipa figures, guzheng accents, sharp short dizi bamboo flute calls and deep Chinese war drums with restrained wooden percussion. D minor pentatonic theme, about 118 BPM. A compact pickup, a clear martial motif, a stronger answering section and a decisive short resolved ending. Make the rhythm feel like practiced staff and sabre movements, alternating attack and breath. Keep drums articulate and controlled, with room for weapon impact sound effects; preserve acoustic detail rather than constant loudness. A unified traditional Chinese wood, silk-string and bamboo palette with clean production. Pure instrumental: no voices, singing, chanting, shouting or narration. A memorable short battle cue."
+    }
+  ],
+  "effects": "Existing original locally synthesized ink-trial-v1; no third-party samples.",
+  "originals": ".local/audio/runway-ink-v1/source/originals/",
+  "editableEffects": ".local/audio/ink-trial-v1/source/compose.py",
+  "acceptance": "Local integration candidate; user listening and hardware acceptance remain separate."
+}

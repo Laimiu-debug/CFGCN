@@ -1,0 +1,958 @@
+{
+  "schemaVersion": 1,
+  "projectId": "cfgcn-original-wolf",
+  "name": "狼妖",
+  "parts": [
+    {
+      "id": "accessory",
+      "width": 276,
+      "height": 276,
+      "image": "parts/accessory.png",
+      "anchors": [
+        {
+          "id": "pivot",
+          "partPx": [
+            44.160000000000004,
+            33.12
+          ]
+        }
+      ],
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          372,
+          964
+        ],
+        "zIndex": 0
+      },
+      "sourceRect": [
+        372,
+        964,
+        648,
+        1240
+      ],
+      "rest": {
+        "matrix": [
+          -0.2427536231884058,
+          -0.0,
+          -0.0,
+          0.2427536231884058,
+          -7.396999999999997,
+          -108.51999999999998
+        ],
+        "zIndex": 0
+      }
+    },
+    {
+      "id": "upper_arm.back",
+      "width": 156,
+      "height": 328,
+      "image": "parts/upper_arm.back.png",
+      "anchors": [
+        {
+          "id": "pivot",
+          "partPx": [
+            43.14943820224719,
+            32.800000000000004
+          ]
+        },
+        {
+          "id": "to_forearm.back",
+          "partPx": [
+            104.01309523809516,
+            209.91999999999987
+          ]
+        }
+      ],
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          748,
+          12
+        ],
+        "zIndex": 1
+      },
+      "sourceRect": [
+        748,
+        12,
+        904,
+        340
+      ],
+      "rest": {
+        "matrix": [
+          0.2019849586706352,
+          0.06940799035077619,
+          -0.06940799035077619,
+          0.2019849586706352,
+          -28.384758225337972,
+          -188.7700224347798
+        ],
+        "zIndex": 1
+      }
+    },
+    {
+      "id": "forearm.back",
+      "width": 120,
+      "height": 328,
+      "image": "parts/forearm.back.png",
+      "anchors": [
+        {
+          "id": "pivot",
+          "partPx": [
+            42.00135317997294,
+            32.800000000000004
+          ]
+        }
+      ],
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          1072,
+          12
+        ],
+        "zIndex": 2
+      },
+      "sourceRect": [
+        1072,
+        12,
+        1192,
+        340
+      ],
+      "rest": {
+        "matrix": [
+          0.14703893107460791,
+          0.022067541733139916,
+          -0.022067541733139916,
+          0.14703893107460791,
+          -27.397821523324723,
+          -144.89974355339456
+        ],
+        "zIndex": 2
+      }
+    },
+    {
+      "id": "thigh.back",
+      "width": 172,
+      "height": 316,
+      "image": "parts/thigh.back.png",
+      "anchors": [
+        {
+          "id": "pivot",
+          "partPx": [
+            56.73389355742297,
+            31.6
+          ]
+        },
+        {
+          "id": "to_shin.back",
+          "partPx": [
+            73.41274238227145,
+            284.4000000000001
+          ]
+        }
+      ],
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          748,
+          344
+        ],
+        "zIndex": 3
+      },
+      "sourceRect": [
+        748,
+        344,
+        920,
+        660
+      ],
+      "rest": {
+        "matrix": [
+          0.1732962926684074,
+          0.011433475740993135,
+          -0.011433475740993135,
+          0.1732962926684074,
+          -27.58747558873006,
+          -106.60482844400255
+        ],
+        "zIndex": 3
+      }
+    },
+    {
+      "id": "shin.back",
+      "width": 100,
+      "height": 312,
+      "image": "parts/shin.back.png",
+      "anchors": [
+        {
+          "id": "pivot",
+          "partPx": [
+            50.089179548156956,
+            31.200000000000003
+          ]
+        },
+        {
+          "id": "to_foot.back",
+          "partPx": [
+            49.80211480362535,
+            280.8
+          ]
+        }
+      ],
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          1068,
+          348
+        ],
+        "zIndex": 4
+      },
+      "sourceRect": [
+        1068,
+        348,
+        1168,
+        660
+      ],
+      "rest": {
+        "matrix": [
+          0.15224338836699342,
+          -0.00017509498953605172,
+          0.00017509498953605172,
+          0.15224338836699342,
+          -25.748209378607648,
+          -61.22122335268133
+        ],
+        "zIndex": 4
+      }
+    },
+    {
+      "id": "foot.back",
+      "width": 228,
+      "height": 232,
+      "image": "parts/foot.back.png",
+      "anchors": [
+        {
+          "id": "pivot",
+          "partPx": [
+            64.41237113402062,
+            39.440000000000005
+          ]
+        }
+      ],
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          52,
+          672
+        ],
+        "zIndex": 5
+      },
+      "sourceRect": [
+        52,
+        672,
+        280,
+        904
+      ],
+      "rest": {
+        "matrix": [
+          0.08620689655172414,
+          0.0,
+          -0.0,
+          0.08620689655172414,
+          -23.669790615001773,
+          -21.879999999999992
+        ],
+        "zIndex": 5
+      }
+    },
+    {
+      "id": "thigh.front",
+      "width": 164,
+      "height": 288,
+      "image": "parts/thigh.front.png",
+      "anchors": [
+        {
+          "id": "pivot",
+          "partPx": [
+            95.34412955465586,
+            28.8
+          ]
+        },
+        {
+          "id": "to_shin.front",
+          "partPx": [
+            99.75613275613274,
+            259.2
+          ]
+        }
+      ],
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          404,
+          664
+        ],
+        "zIndex": 6
+      },
+      "sourceRect": [
+        404,
+        664,
+        568,
+        952
+      ],
+      "rest": {
+        "matrix": [
+          0.19090221905897747,
+          0.0036556475766373847,
+          -0.0036556475766373847,
+          0.19090221905897747,
+          0.5698767439767087,
+          -106.32652844505162
+        ],
+        "zIndex": 6
+      }
+    },
+    {
+      "id": "shin.front",
+      "width": 100,
+      "height": 280,
+      "image": "parts/shin.front.png",
+      "anchors": [
+        {
+          "id": "pivot",
+          "partPx": [
+            44.18577075098814,
+            28.0
+          ]
+        },
+        {
+          "id": "to_foot.front",
+          "partPx": [
+            41.499999999999986,
+            251.99999999999994
+          ]
+        }
+      ],
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          756,
+          664
+        ],
+        "zIndex": 7
+      },
+      "sourceRect": [
+        756,
+        664,
+        856,
+        944
+      ],
+      "rest": {
+        "matrix": [
+          0.16961847257905768,
+          -0.002033733627143387,
+          0.002033733627143387,
+          0.16961847257905768,
+          11.114332513928968,
+          -61.13945514439607
+        ],
+        "zIndex": 7
+      }
+    },
+    {
+      "id": "foot.front",
+      "width": 216,
+      "height": 216,
+      "image": "parts/foot.front.png",
+      "anchors": [
+        {
+          "id": "pivot",
+          "partPx": [
+            55.076,
+            36.720000000000006
+          ]
+        }
+      ],
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          984,
+          720
+        ],
+        "zIndex": 8
+      },
+      "sourceRect": [
+        984,
+        720,
+        1200,
+        936
+      ],
+      "rest": {
+        "matrix": [
+          0.09259259259259259,
+          0.0,
+          -0.0,
+          0.09259259259259259,
+          13.566370370370365,
+          -21.87999999999999
+        ],
+        "zIndex": 8
+      }
+    },
+    {
+      "id": "abdomen",
+      "width": 252,
+      "height": 276,
+      "image": "parts/abdomen.png",
+      "anchors": [
+        {
+          "id": "pivot",
+          "partPx": [
+            126.0,
+            187.68
+          ]
+        },
+        {
+          "id": "to_body",
+          "partPx": [
+            125.99999999999999,
+            55.200000000000024
+          ]
+        }
+      ],
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          656,
+          952
+        ],
+        "zIndex": 9
+      },
+      "sourceRect": [
+        656,
+        952,
+        908,
+        1228
+      ],
+      "rest": {
+        "matrix": [
+          0.2035714285714286,
+          0.0,
+          -0.0,
+          0.2246376811594203,
+          -25.650000000000002,
+          -142.64
+        ],
+        "zIndex": 9
+      }
+    },
+    {
+      "id": "body",
+      "width": 272,
+      "height": 284,
+      "image": "parts/body.png",
+      "anchors": [
+        {
+          "id": "pivot",
+          "partPx": [
+            136.0,
+            261.28000000000003
+          ]
+        },
+        {
+          "id": "to_head",
+          "partPx": [
+            136.0,
+            48.279999999999944
+          ]
+        },
+        {
+          "id": "to_upper_arm.back",
+          "partPx": [
+            32.64000000000001,
+            53.96000000000008
+          ]
+        },
+        {
+          "id": "to_upper_arm.front",
+          "partPx": [
+            233.91999999999996,
+            53.95999999999996
+          ]
+        },
+        {
+          "id": "to_accessory",
+          "partPx": [
+            50.67283582089553,
+            387.42686567164185
+          ]
+        }
+      ],
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          372,
+          16
+        ],
+        "zIndex": 10
+      },
+      "sourceRect": [
+        372,
+        16,
+        644,
+        300
+      ],
+      "rest": {
+        "matrix": [
+          0.21232394366197183,
+          0.0,
+          -0.0,
+          0.23591549295774647,
+          -28.876056338028167,
+          -191.88
+        ],
+        "zIndex": 10
+      }
+    },
+    {
+      "id": "pelvis",
+      "width": 304,
+      "height": 174,
+      "image": "parts/pelvis.png",
+      "anchors": [
+        {
+          "id": "pivot",
+          "partPx": [
+            152.0,
+            -52.72727272727273
+          ]
+        },
+        {
+          "id": "to_abdomen",
+          "partPx": [
+            152.0,
+            13.307359307359336
+          ]
+        },
+        {
+          "id": "to_thigh.back",
+          "partPx": [
+            51.67999999999999,
+            13.307359307359336
+          ]
+        },
+        {
+          "id": "to_thigh.front",
+          "partPx": [
+            255.35999999999999,
+            13.307359307359336
+          ]
+        }
+      ],
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          936,
+          1046
+        ],
+        "zIndex": 11
+      },
+      "sourceRect": [
+        936,
+        1046,
+        1240,
+        1220
+      ],
+      "rest": {
+        "matrix": [
+          0.1805921052631579,
+          0.0,
+          -0.0,
+          0.15931034482758621,
+          -27.45,
+          -102.6
+        ],
+        "zIndex": 11
+      }
+    },
+    {
+      "id": "head",
+      "width": 324,
+      "height": 328,
+      "image": "parts/head.png",
+      "anchors": [
+        {
+          "id": "pivot",
+          "partPx": [
+            155.51999999999998,
+            308.32
+          ]
+        }
+      ],
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          28,
+          4
+        ],
+        "zIndex": 12
+      },
+      "sourceRect": [
+        28,
+        4,
+        352,
+        332
+      ],
+      "rest": {
+        "matrix": [
+          0.1951219512195122,
+          0.0,
+          -0.0,
+          0.1951219512195122,
+          -30.345365853658535,
+          -240.65
+        ],
+        "zIndex": 12
+      }
+    },
+    {
+      "id": "upper_arm.front",
+      "width": 140,
+      "height": 320,
+      "image": "parts/upper_arm.front.png",
+      "anchors": [
+        {
+          "id": "pivot",
+          "partPx": [
+            95.16228571428572,
+            32.0
+          ]
+        },
+        {
+          "id": "to_forearm.front",
+          "partPx": [
+            48.38517618469016,
+            204.80000000000004
+          ]
+        }
+      ],
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          88,
+          344
+        ],
+        "zIndex": 13
+      },
+      "sourceRect": [
+        88,
+        344,
+        228,
+        664
+      ],
+      "rest": {
+        "matrix": [
+          0.21567690268211237,
+          -0.05838392418845538,
+          0.05838392418845538,
+          0.21567690268211237,
+          -1.6018320456576656,
+          -180.49571321108462
+        ],
+        "zIndex": 13
+      }
+    },
+    {
+      "id": "forearm.front",
+      "width": 112,
+      "height": 320,
+      "image": "parts/forearm.front.png",
+      "anchors": [
+        {
+          "id": "pivot",
+          "partPx": [
+            58.53922789539228,
+            32.0
+          ]
+        },
+        {
+          "id": "to_weapon",
+          "partPx": [
+            58.58396946564882,
+            265.6000000000001
+          ]
+        }
+      ],
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          452,
+          348
+        ],
+        "zIndex": 14
+      },
+      "sourceRect": [
+        452,
+        348,
+        564,
+        668
+      ],
+      "rest": {
+        "matrix": [
+          0.15410958338773886,
+          2.9516715549436655e-05,
+          -2.9516715549436655e-05,
+          0.15410958338773886,
+          11.770249075479056,
+          -144.08323455414592
+        ],
+        "zIndex": 14
+      }
+    },
+    {
+      "id": "weapon",
+      "width": 84,
+      "height": 340,
+      "image": "parts/weapon.png",
+      "anchors": [
+        {
+          "id": "pivot",
+          "partPx": [
+            42.0,
+            278.8
+          ]
+        }
+      ],
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          144,
+          912
+        ],
+        "zIndex": 15
+      },
+      "sourceRect": [
+        144,
+        912,
+        228,
+        1252
+      ],
+      "rest": {
+        "matrix": [
+          0.2647058823529412,
+          0.0,
+          -0.0,
+          0.2647058823529412,
+          9.67311350455675,
+          -176.95
+        ],
+        "zIndex": 15
+      }
+    }
+  ],
+  "joints": [
+    {
+      "parent": {
+        "partId": "body",
+        "anchorId": "to_head"
+      },
+      "child": {
+        "partId": "head",
+        "anchorId": "pivot"
+      }
+    },
+    {
+      "parent": {
+        "partId": "abdomen",
+        "anchorId": "to_body"
+      },
+      "child": {
+        "partId": "body",
+        "anchorId": "pivot"
+      }
+    },
+    {
+      "parent": {
+        "partId": "pelvis",
+        "anchorId": "to_abdomen"
+      },
+      "child": {
+        "partId": "abdomen",
+        "anchorId": "pivot"
+      }
+    },
+    {
+      "parent": {
+        "partId": "body",
+        "anchorId": "to_upper_arm.back"
+      },
+      "child": {
+        "partId": "upper_arm.back",
+        "anchorId": "pivot"
+      }
+    },
+    {
+      "parent": {
+        "partId": "upper_arm.back",
+        "anchorId": "to_forearm.back"
+      },
+      "child": {
+        "partId": "forearm.back",
+        "anchorId": "pivot"
+      }
+    },
+    {
+      "parent": {
+        "partId": "pelvis",
+        "anchorId": "to_thigh.back"
+      },
+      "child": {
+        "partId": "thigh.back",
+        "anchorId": "pivot"
+      }
+    },
+    {
+      "parent": {
+        "partId": "thigh.back",
+        "anchorId": "to_shin.back"
+      },
+      "child": {
+        "partId": "shin.back",
+        "anchorId": "pivot"
+      }
+    },
+    {
+      "parent": {
+        "partId": "shin.back",
+        "anchorId": "to_foot.back"
+      },
+      "child": {
+        "partId": "foot.back",
+        "anchorId": "pivot"
+      }
+    },
+    {
+      "parent": {
+        "partId": "body",
+        "anchorId": "to_upper_arm.front"
+      },
+      "child": {
+        "partId": "upper_arm.front",
+        "anchorId": "pivot"
+      }
+    },
+    {
+      "parent": {
+        "partId": "upper_arm.front",
+        "anchorId": "to_forearm.front"
+      },
+      "child": {
+        "partId": "forearm.front",
+        "anchorId": "pivot"
+      }
+    },
+    {
+      "parent": {
+        "partId": "pelvis",
+        "anchorId": "to_thigh.front"
+      },
+      "child": {
+        "partId": "thigh.front",
+        "anchorId": "pivot"
+      }
+    },
+    {
+      "parent": {
+        "partId": "thigh.front",
+        "anchorId": "to_shin.front"
+      },
+      "child": {
+        "partId": "shin.front",
+        "anchorId": "pivot"
+      }
+    },
+    {
+      "parent": {
+        "partId": "shin.front",
+        "anchorId": "to_foot.front"
+      },
+      "child": {
+        "partId": "foot.front",
+        "anchorId": "pivot"
+      }
+    },
+    {
+      "parent": {
+        "partId": "forearm.front",
+        "anchorId": "to_weapon"
+      },
+      "child": {
+        "partId": "weapon",
+        "anchorId": "pivot"
+      }
+    },
+    {
+      "parent": {
+        "partId": "body",
+        "anchorId": "to_accessory"
+      },
+      "child": {
+        "partId": "accessory",
+        "anchorId": "pivot"
+      }
+    }
+  ],
+  "provenance": "Original OpenAI built-in imagegen artwork; mechanically cropped for texture packing",
+  "directions": [
+    "side-right",
+    "mirrored-side-left"
+  ],
+  "status": "resource study; visual review pending"
+}

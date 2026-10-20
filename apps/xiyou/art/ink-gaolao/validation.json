@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-20",
+  "status": "locally integrated and browser checked; art review pending",
+  "client": "client-bc76c11cd7b5.wasm",
+  "snapshot": ".local/qa/ink-map-v27",
+  "runtime": {
+    "asset": "ink_gaolao",
+    "origin": "tripo-projection-imagegen-blender",
+    "source_file": "ink-gaolao/runtime.png",
+    "source_sha256": "e6d683cceafad2919e8743c1b6bc3fabb6848a61d054260c2a1af11d1506077e",
+    "source_blend": "ink_gaolao.blend",
+    "triangles": 6,
+    "bones": 0,
+    "clips": [],
+    "bytes": 3431368,
+    "triangle_budget": 6,
+    "byte_budget": 24000000,
+    "texture_max": 2048,
+    "joint_budget": 0,
+    "primitive_budget": 3,
+    "runtime_sha256": "eb74c9cc61f7fcb4fb08aa7222fbf2f53343bf24f76288d16d2de12b006e55ea"
+  },
+  "editable": {
+    "path": "apps/xiyou/art/source/ink_gaolao.blend",
+    "sha256": "b816d34a90a1862b706bb1cb599e080631fc474ad633d9180e065e588c0cc755"
+  },
+  "prompts": [
+    {
+      "path": "estate_gate-prompt.txt",
+      "sha256": "1b41d7f910fe69b01feab63d8f0caf96bc0ea4facff9426f6ad862b9bf3e7f09"
+    },
+    {
+      "path": "bamboo_fence-prompt.txt",
+      "sha256": "d451abd4bb785acdefeb75bdef892a22a9141c7eb2d53a3abe1f2260eb0f913c"
+    },
+    {
+      "path": "apricot-prompt.txt",
+      "sha256": "57e162585d163a773297bb907c99d88e6e1af54ce62caa3156864c13f09a2a31"
+    }
+  ],
+  "browserEvidence": ".local/qa/gaolao-v27-browser.json",
+  "reimportEvidence": ".local/qa/ink-gaolao/reimport.json",
+  "boundary": "Actual desktop browser and responsive sizes; no physical phone, horde, complete campaign or user art acceptance; no new Studio job or credits."
+}

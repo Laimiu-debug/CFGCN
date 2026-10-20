@@ -1,0 +1,175 @@
+{
+  "version": "fine-ink-elevated-world-v4",
+  "date": "2026-10-20",
+  "accepted_base": "v3 layered ink scene; user feedback: 很不错，继续打磨",
+  "base_manifest": {
+    "file": "apps/website/art/fine-ink/manifest-v3.json",
+    "sha256": "bcbd1b34ecdf22a46c01553186f7612e773c46cf607a08a85f9171feef90149a"
+  },
+  "static_paint_unchanged": true,
+  "images": [
+    {
+      "file": "apps/website/public/art/atlas/fine-ink/depth-v3/bridge-0.webp",
+      "bytes": 3028,
+      "sha256": "3975812f45f4aef46fedf65bcbf10094ecfea20b9022c3ccac08ff151e3900c0"
+    },
+    {
+      "file": "apps/website/public/art/atlas/fine-ink/depth-v3/bridge-1.webp",
+      "bytes": 3020,
+      "sha256": "064e4482e8656bcdb9c20bd4389b8c31c6249e3c15e2f4b6e6c70aa59bbb1efc"
+    },
+    {
+      "file": "apps/website/public/art/atlas/fine-ink/depth-v3/bridge-2.webp",
+      "bytes": 2366,
+      "sha256": "aa0465f92591cdfb23f2b6e9a7cafbdbcd96accff1bff410376f0e9b76329eb9"
+    },
+    {
+      "file": "apps/website/public/art/atlas/fine-ink/depth-v3/changan-city.webp",
+      "bytes": 48302,
+      "sha256": "2c43cc0a8000d266263536ed5170b18821053fe33d0fca2383faf09daf3fd440"
+    },
+    {
+      "file": "apps/website/public/art/atlas/fine-ink/depth-v3/changan-front-wall.webp",
+      "bytes": 17356,
+      "sha256": "6d002c6cbac673d2d1f5c0a05dfa0916107d6f758846bf0adf15ee9d08b3c44a"
+    },
+    {
+      "file": "apps/website/public/art/atlas/fine-ink/depth-v3/connected-western-landform.webp",
+      "bytes": 219944,
+      "sha256": "a253c71a5fff8939e94d31aac1302a04ec861b1e82f42b497bfa300ebf52bf22"
+    },
+    {
+      "file": "apps/website/public/art/atlas/fine-ink/depth-v3/far-horizon.webp",
+      "bytes": 88120,
+      "sha256": "854fefe8886e876425ac1c97507dc6f6f7846c18e1bf958f504cdb6d5f497f92"
+    },
+    {
+      "file": "apps/website/public/art/atlas/fine-ink/depth-v3/foreground-ridge.webp",
+      "bytes": 77836,
+      "sha256": "e8a82752c9cb25546105b9d26cfed22dd67356c815c7638e4f0e7a2c18dd6252"
+    },
+    {
+      "file": "apps/website/public/art/atlas/fine-ink/depth-v3/ground.webp",
+      "bytes": 644792,
+      "sha256": "4b2d8e80d682a9728846086b16c82d642fc4e57755e3d31b635e331e6d32a13e"
+    },
+    {
+      "file": "apps/website/public/art/atlas/fine-ink/depth-v3/han-near-bank.webp",
+      "bytes": 21420,
+      "sha256": "f763c53801d437d1d6664bb03dab552d2fad050a04cd6972ebab7a90ff7b0fc5"
+    },
+    {
+      "file": "apps/website/public/art/atlas/fine-ink/depth-v3/hanzhong-city.webp",
+      "bytes": 22468,
+      "sha256": "e6b74d8fe320ff5c6485e9c92acf5232bb400fec46f46de5aa2164742f1079c7"
+    },
+    {
+      "file": "apps/website/public/art/atlas/fine-ink/depth-v3/hanzhong-front-wall.webp",
+      "bytes": 13408,
+      "sha256": "62966392d81419f4d6ec5d88abfb7b5df3d7b2e57a16a9a8b4711f122e790998"
+    },
+    {
+      "file": "apps/website/public/art/atlas/fine-ink/depth-v3/jinling-garden-city.webp",
+      "bytes": 55722,
+      "sha256": "649c15fd6a8530a995e7e1feb7d160229bbcb5f82298248b7dd6a9fbf3e2db50"
+    },
+    {
+      "file": "apps/website/public/art/atlas/fine-ink/depth-v3/jinling-near-shore.webp",
+      "bytes": 36138,
+      "sha256": "98f7f42ba888b1531154e7e9c72f531eb4b328877f14f34fab1effbf3bdba9fd"
+    },
+    {
+      "file": "apps/website/public/art/atlas/fine-ink/depth-v3/liangshan-town.webp",
+      "bytes": 16708,
+      "sha256": "0ea516ffbab5b557bf1a45f919e956bc482dd5b29799c51eb3fb410d8dc3044f"
+    },
+    {
+      "file": "apps/website/public/art/atlas/fine-ink/depth-v3/qinling-main-spine.webp",
+      "bytes": 65242,
+      "sha256": "8e397f1c6413b41676a59ffe4961a7f20bb374b626ada69612a7981d3e6708d6"
+    },
+    {
+      "file": "apps/website/public/art/atlas/fine-ink/depth-v3/west-front-rocks.webp",
+      "bytes": 18296,
+      "sha256": "5dcb6e8cf46ec7650a7e08e8ac6d8784a33b174dc52aeab3fa3df2067b7ca1e3"
+    },
+    {
+      "file": "apps/website/public/art/atlas/fine-ink/depth-v3/west-lower-foothills.webp",
+      "bytes": 27322,
+      "sha256": "9e8f914ab15a6139a8a9c82274402a044a1db27c8c3153e6494d0682fbe4c332"
+    },
+    {
+      "file": "apps/website/public/art/atlas/fine-ink/depth-v3/west-middle-cliff.webp",
+      "bytes": 33250,
+      "sha256": "4b0a2ad484afd60cb4d0b8bf502f57cff2a67bd49ea28828b7b453615aedfe34"
+    },
+    {
+      "file": "apps/website/public/art/atlas/fine-ink/depth-v3/west-upper-range.webp",
+      "bytes": 36190,
+      "sha256": "79a0a0096231b4d97ef5b25f441f8764b87d19a5a003a1a6e999319ba783a03b"
+    }
+  ],
+  "water_mask": {
+    "file": "apps/website/public/art/atlas/fine-ink/water-mask-v2.webp",
+    "bytes": 25822,
+    "sha256": "c78f23aea98390aafe783c35b59dcf6aea1888f051490041ed6e20e779fcc2ce"
+  },
+  "runtime_image_bytes": 1476750,
+  "sources": [
+    {
+      "file": "apps/website/src/FineInkStudy.tsx",
+      "sha256": "d884f7af774cba31bb3c0fc2611ce455603b293356951a2e513ea6e3db2d51c4"
+    },
+    {
+      "file": "apps/website/src/FineInkDepth.tsx",
+      "sha256": "6027a74b884a63b6d9f8cc693f2401c810ebf6e1b8732f89fef51dda7efea45e"
+    },
+    {
+      "file": "apps/website/src/FineInkLife.tsx",
+      "sha256": "46dfc36cd7d307689ee14235d374dd606c9bd8eb162282ae3668e533289aa553"
+    },
+    {
+      "file": "apps/website/src/fine-ink-life.ts",
+      "sha256": "36e2446d51173d4f0a36e8b3fc8dd84bf1700354978e534c22b45644e447a1c0"
+    },
+    {
+      "file": "apps/website/src/ink-atmosphere.ts",
+      "sha256": "3d990fcffa283ee188c8dd7bffe1efd11e592bccfb82892c25bdfaa0cd2225f0"
+    },
+    {
+      "file": "apps/website/src/ink-depth.ts",
+      "sha256": "486a4e9584c7e8f9900aa6a5fc961809f8048443f3259d75a17daeff3d04755c"
+    },
+    {
+      "file": "apps/website/src/ink-ridge-layout.json",
+      "sha256": "33273dc9d4e00dfbc4be935b4cd7c7276f83fd3783eed56f443ba300e85568fa"
+    },
+    {
+      "file": "apps/website/src/ink-shore.ts",
+      "sha256": "9cfa9654fc12322ffd297daab6b3c0206927c6677e5037abaed253893ef8a97e"
+    },
+    {
+      "file": "apps/website/src/fine-ink-study.css",
+      "sha256": "95bc1331b14f884670fc7c3f9d7b382acd08d7c6b0d3a76e835019e482d4e1ac"
+    },
+    {
+      "file": "apps/website/src/useAtlasRest.ts",
+      "sha256": "4561ef7fc0836c0481071f69bbb8c75eb6047432c07fb55d03ca2f5798cb9994"
+    },
+    {
+      "file": "apps/website/src/atlas-rest.ts",
+      "sha256": "5bdf01b049ddc67466011a04b3d6ff3f48154bac161c7f6af94d868d3029d75d"
+    }
+  ],
+  "preparation": "node scripts/prepare-ink-polish.mjs",
+  "additions": [
+    "World-up elevation reconstructed at an illustrative 78 degree reference angle; continuous ridge and branch network, shoulders, passes and town basins.",
+    "Shared 12-unit terrain triangulation across rock masks and ground; level river with a cached shore distance field for continuous bank transitions.",
+    "Subtle vertex-normal ink shading with MeshBasicMaterial / NoToneMapping, bounded side and vertical views.",
+    "Six cached, code-painted valley-mist textures on independently placed depth meshes.",
+    "Water-masked fragmented boat reflections and heading-aligned wakes.",
+    "Time-based camera easing and speed ramps at journey endpoints.",
+    "Existing atlas resting controller reused for quiet wallpaper, wake and keyboard behavior."
+  ],
+  "scope": "Local terrain elevation reconstruction and atmosphere / interaction polish of the accepted v3 painting. Authored ridge geometry is code-created, not Tripo or Blender assets. No new image_gen, plugin purchases, full building reconstruction, game edits or production deployment."
+}

@@ -1,0 +1,49 @@
+{
+  "width": 1254,
+  "height": 1254,
+  "parts": [
+    {
+      "id": "way_pavilion",
+      "rect": [
+        44,
+        88,
+        607,
+        592
+      ],
+      "anchorX": 325
+    },
+    {
+      "id": "stone_gate",
+      "rect": [
+        642,
+        47,
+        1239,
+        584
+      ],
+      "anchorX": 972.5
+    },
+    {
+      "id": "five_peaks",
+      "rect": [
+        14,
+        633,
+        691,
+        1219
+      ],
+      "anchorX": 352
+    },
+    {
+      "id": "ford_stele",
+      "rect": [
+        715,
+        736,
+        1207,
+        1191
+      ],
+      "anchorX": 960.5
+    }
+  ],
+  "bytes": 97238,
+  "source_sha256": "7d35192c7ec4ec2a4e5d77bd6d3a9d032570c6d86d926c8a52524e605be29ab0",
+  "runtime_sha256": "57661a8db9e5245c8d46c54c9be2f1343130243c95d8582f834dd1e8cf6d99c4"
+}

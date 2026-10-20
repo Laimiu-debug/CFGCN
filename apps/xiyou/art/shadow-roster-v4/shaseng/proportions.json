@@ -1,0 +1,54 @@
+{
+  "shape": "最高壮，宽肩长躯、长臂长腿，落步沉稳",
+  "head": [
+    47,
+    43
+  ],
+  "chest": [
+    88,
+    93
+  ],
+  "abdomen": [
+    72,
+    75
+  ],
+  "pelvis": [
+    55,
+    74
+  ],
+  "upper": [
+    52,
+    27
+  ],
+  "fore": [
+    48,
+    22
+  ],
+  "thigh": [
+    58,
+    35
+  ],
+  "shin": [
+    56,
+    28
+  ],
+  "foot": [
+    14,
+    37
+  ],
+  "lean": 0.035,
+  "crouch": 0.09,
+  "stride": 0.28,
+  "lift": 0.075,
+  "period": 1.26,
+  "arm_swing": 0.15,
+  "fore_angle": -0.42,
+  "weapon_tilt": 0.08,
+  "idle_crouch": 0.008,
+  "hip_span": 22,
+  "duty": 0.64,
+  "idle_compression": 0.004,
+  "extra_compression": 0.0,
+  "idle_stance": 0.045,
+  "foot_anchor_y": 0.38
+}

@@ -1,0 +1,157 @@
+.changan-entrance {
+  position: fixed;
+  inset: 0;
+  z-index: 90;
+  background: var(--paper);
+  overflow: hidden;
+  isolation: isolate;
+  opacity: 1;
+  transition: opacity 0.42s;
+}
+.entrance-painting {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 51% 55%;
+  animation: changan-forward 4.2s var(--ease) both;
+}
+.entrance-shade {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    0deg,
+    color-mix(in srgb, var(--ink) 83%, transparent),
+    transparent 40%,
+    transparent 80%,
+    color-mix(in srgb, var(--ink) 35%, transparent)
+  );
+}
+.entrance-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 18px;
+  padding: 25px max(30px, calc((100% - 1280px) / 2));
+  position: relative;
+  z-index: 1;
+}
+.entrance-top .series-button {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 16px;
+  font-size: 11px;
+}
+.entrance-story {
+  position: absolute;
+  left: max(45px, calc((100% - 1280px) / 2));
+  bottom: 100px;
+  color: var(--on-jade);
+  text-shadow: 0 2px 12px var(--ink);
+}
+.entrance-story .eyebrow {
+  font-size: 10px;
+  letter-spacing: 0.2em;
+}
+.entrance-story h1 {
+  font-family: var(--font-display);
+  font-size: clamp(30px, 4.3vw, 59px);
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  line-height: 1.6;
+  margin: 14px 0;
+}
+.entrance-story > p:last-child {
+  font-family: var(--font-display);
+  font-size: 14px;
+  letter-spacing: 0.12em;
+}
+.entrance-loading {
+  position: absolute;
+  right: max(45px, calc((100% - 1280px) / 2));
+  bottom: 55px;
+  color: var(--on-jade);
+  width: 245px;
+  text-align: right;
+}
+.entrance-loading strong {
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+}
+.entrance-loading p {
+  font-size: 11px;
+  line-height: 1.7;
+  margin: 10px 0 15px;
+}
+.entrance-loading progress {
+  width: 100%;
+  height: 2px;
+  accent-color: var(--gold);
+  background: color-mix(in srgb, var(--on-jade) 25%, transparent);
+  border: 0;
+}
+.entrance-loading progress::-webkit-progress-bar {
+  background: color-mix(in srgb, var(--on-jade) 25%, transparent);
+}
+.entrance-loading progress::-webkit-progress-value {
+  background: var(--gold);
+}
+.changan-entrance[data-finished='true'] .entrance-painting {
+  transform: scale(1.16);
+}
+.changan-entrance[data-leaving='true'] {
+  opacity: 0;
+  pointer-events: none;
+}
+.changan-entrance[data-reduced='true'] .entrance-painting {
+  animation: none;
+  transform: none;
+}
+@keyframes changan-forward {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.16);
+  }
+}
+@media (max-width: 600px) {
+  .entrance-top {
+    padding: 18px 16px;
+    gap: 10px;
+  }
+  .entrance-top .series-button {
+    font-size: 10px;
+    padding: 9px 11px;
+    gap: 7px;
+  }
+  .entrance-story {
+    left: 24px;
+    right: 24px;
+    bottom: 200px;
+  }
+  .entrance-story h1 {
+    font-size: 32px;
+    letter-spacing: 0.05em;
+  }
+  .entrance-story .eyebrow {
+    font-size: 8px;
+  }
+  .entrance-story > p:last-child {
+    font-size: 12px;
+  }
+  .entrance-loading {
+    left: 24px;
+    right: 24px;
+    bottom: 50px;
+    text-align: left;
+    width: auto;
+  }
+  .entrance-painting {
+    object-position: 51% center;
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "origin": "Tripo Studio v3.1, existing membership",
+  "studio_project": "ebba5268-8403-4561-b92c-fc03122bb8e1",
+  "studio_credits": 50,
+  "prompt": "One modular solid Chinese qinglu shanshui cliff for a Journey to the West action game. One connected natural rock mass, width 8m height 6m depth 3m, three broad weathered limestone shoulders, strong elegant asymmetrical silhouette and large clean curved planes. Painted mineral malachite and azurite glaze over pale warm stone, fine restrained ink contours and subtle moss. One small dark jade Chinese pine rooted on the upper ledge, two simple broad shrub masses at the foot. Matte illustrated gongbi color, clearly 3D sculpted volume, coherent low-detail surfaces that survive a 4000 triangle LOD. Grounded uneven natural bottom. No square platform, no plinth, no diorama floor, no cutaway slab, no miniature buildings, no stairs, no flowers, no jewelry, no carved decorative patterns, no floating disconnected shards, no needle spikes, no micro-rock rubble, no text, no photorealism, no shiny plastic. Viewed from above at a 40 degree game camera; keep the low front foothills open.",
+  "source_file": "source/raw/qinglu-cliff-studio-v31-source.glb",
+  "source_sha256": "0d0ca52d4ce46bd233f139385b341171b00f80c6749c3d6a9dc3c91563aa8d9f",
+  "finish": "Blender normalization, shared matte treatment, 3979 triangles, 768px texture, 304112 bytes. Source retained; instanced into streamed game maps.",
+  "review": "Original fantasy scenery, not a historically reconstructed monument. Output still contains decorative carvings despite the negative prompt; website miniature modules were rejected for the near battle camera. Cultural detail and final scenic composition remain subject to visual review."
+}

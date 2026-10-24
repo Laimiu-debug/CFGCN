@@ -1,0 +1,265 @@
+{
+  "actualS2OriginalPalmSocketOriginUsed": true,
+  "attachments": [
+    {
+      "boneIndexAtCapture": 11,
+      "boneName": "Weapon_R",
+      "equipmentId": "spear",
+      "parentHand": "Hand_R",
+      "requiresSourcePartOnly": true,
+      "restGripMatrixInActorColumnMajor": [
+        0.720000028610229,
+        0.0,
+        0.0,
+        0,
+        0.0,
+        0.720000028610229,
+        0.0,
+        0,
+        0.0,
+        0.0,
+        0.720000028610229,
+        0,
+        0.00771678425371647,
+        0.0394613370299339,
+        0.0105399219319224,
+        1
+      ],
+      "side": "R",
+      "socketRestMatrixInActorColumnMajor": [
+        1.0,
+        0.0,
+        0.0,
+        0,
+        0.0,
+        1.0,
+        0.0,
+        0,
+        0.0,
+        0.0,
+        1.0,
+        0,
+        0.00771678425371647,
+        0.0394613370299339,
+        0.0105399219319224,
+        1
+      ],
+      "sourceBranch": "batch017-equipment-spear-component-00",
+      "sourceFile": "runtime/godot/bulk042/spear-battle.glb",
+      "sourceGeometryUvAndEncodedImagesChanged": false,
+      "sourceGripName": "spear-main-grip",
+      "sourceGripWorldMatrixColumnMajor": [
+        1.0,
+        0.0,
+        0.0,
+        0,
+        0.0,
+        1.0,
+        0.0,
+        0,
+        0.0,
+        0.0,
+        1.0,
+        0,
+        0.000134679590701126,
+        0.0410000011324883,
+        -0.000116105969937053,
+        1
+      ],
+      "sourceSha256": "23475e2babe234878d37e95f6dbeced0a07e3ea068c95470b2ef05766386b2e9",
+      "sourceStaticGripPositionDeltaMetres": 0.00126628333237022,
+      "sourceToSocketLocalMatrixColumnMajor": [
+        0.720000028610229,
+        0.0,
+        0.0,
+        0,
+        0.0,
+        0.720000028610229,
+        0.0,
+        0,
+        0.0,
+        0.0,
+        0.720000028610229,
+        0,
+        -9.69693064689636e-05,
+        -0.0295200012624264,
+        8.359644562006e-05,
+        1
+      ]
+    },
+    {
+      "boneIndexAtCapture": 7,
+      "boneName": "Shield_L",
+      "equipmentId": "rattan-shield",
+      "parentHand": "Hand_L",
+      "requiresSourcePartOnly": false,
+      "restGripMatrixInActorColumnMajor": [
+        -0.999705135822296,
+        0.0204509776085615,
+        -0.0130764795467258,
+        0,
+        0.0242742039263248,
+        0.842250287532806,
+        -0.538539886474609,
+        0,
+        2.14739093173932e-09,
+        -0.538698613643646,
+        -0.842498540878296,
+        0,
+        0.012990927323699,
+        0.0332764089107513,
+        -0.0104983802884817,
+        1
+      ],
+      "side": "L",
+      "socketRestMatrixInActorColumnMajor": [
+        1.0,
+        0.0,
+        0.0,
+        0,
+        0.0,
+        1.0,
+        0.0,
+        0,
+        0.0,
+        0.0,
+        1.0,
+        0,
+        0.012990927323699,
+        0.0332764089107513,
+        -0.0104983802884817,
+        1
+      ],
+      "sourceBranch": null,
+      "sourceFile": "runtime/godot/bulk042/rattan-shield-battle.glb",
+      "sourceGeometryUvAndEncodedImagesChanged": false,
+      "sourceGripName": "rattan-shield-shield-and-fused-handle-grip-main",
+      "sourceGripWorldMatrixColumnMajor": [
+        0.999705135822296,
+        0.0204509776085615,
+        0.0130764795467258,
+        0,
+        -0.0242742039263248,
+        0.842250287532806,
+        0.538539886474609,
+        0,
+        -2.14739093173932e-09,
+        -0.538698613643646,
+        0.842498540878296,
+        0,
+        0.00341570656746626,
+        0.0149997547268867,
+        3.24221304026651e-07,
+        1
+      ],
+      "sourceSha256": "caea0378ba563734a7dc1da9285cb71496ec49214c8a6af878ba368deb0b8b4a",
+      "sourceStaticGripPositionDeltaMetres": 0.00070009648334235,
+      "sourceToSocketLocalMatrixColumnMajor": [
+        -1.0,
+        -8.59240567585573e-10,
+        -2.93368995762933e-10,
+        0,
+        -1.15679654744127e-09,
+        1.0,
+        0.0,
+        0,
+        -5.34714494904165e-11,
+        0.0,
+        -1.0,
+        0,
+        0.00341570563614368,
+        -0.0149997547268867,
+        3.23168933391571e-07,
+        1
+      ]
+    }
+  ],
+  "bodyMotionSource": {
+    "file": "apps/shuihu/art/pieces/source/ceramic-production/ordinary051-rig-v1/npc-soldier-lamellar-v1/body.glb",
+    "sha256": "97d1f11a7d99512181c05a729bccf4b7f503c92f51d98db510b1d9d8be4588f1"
+  },
+  "fingerClosureAccepted": false,
+  "fullCombatAccepted": false,
+  "heroId": "",
+  "id": "npc-soldier-lamellar-v1",
+  "mainGameEdited": false,
+  "matrixLayout": "column-major",
+  "matrixSpace": "Socket bone local, derived from the actual S2 rest skeleton in actor space",
+  "newRigOrAuthoredAnimation": false,
+  "prototype": "soldier",
+  "s2ActorScene": "res://actors/ceramic_motion/ordinary051_body_v1/npc-soldier-lamellar-v1/body.tscn",
+  "s2MovementDelivery": {
+    "file": "source/shuihu/godot/ordinary051-movement-v1/delivery.json",
+    "sha256": "24bc7ada7c9b109a97f439e5d40e77249325a19e9c5d8637c413446d819dbed8"
+  },
+  "s2SourceFilesEdited": false,
+  "sourceFront": "+X",
+  "sourceStaticSelection": {
+    "file": "apps/shuihu/art/pieces/source/campaign-handoff051/npc-soldier-lamellar-v1/selected-source051.json",
+    "sha256": "8c4a4ad97cf82433094152885a52e143d30eacd1bbd0db932721e649495377fe"
+  },
+  "sourceUnarmedBody": {
+    "boundsBlenderMetres": {
+      "max": [
+        0.0132019110023975,
+        0.0165682416409254,
+        0.0700061619281769
+      ],
+      "min": [
+        -0.013202684931457,
+        -0.0165845733135939,
+        -1.79146227310412e-05
+      ]
+    },
+    "boundsGodotMetres": {
+      "max": [
+        0.0132019110023975,
+        0.0700061619281769,
+        0.0165845733135939
+      ],
+      "min": [
+        -0.013202684931457,
+        -1.79146227310412e-05,
+        -0.0165682416409254
+      ]
+    },
+    "bytes": 1090148.0,
+    "editableRuntimeSource": "source/campaign-handoff051/npc-soldier-lamellar-v1/battle.blend",
+    "editableRuntimeSourceSha256": "836f5337a08ee50572aca0459112787fef38051f336fc799562fd97273efc3b6",
+    "file": "runtime/godot/ordinary051/npc-soldier-lamellar-v1-battle.glb",
+    "glbReimportBoundsErrorMetres": 0.0,
+    "independentNativeReopen": true,
+    "meshGroups": [
+      {
+        "instanceCount": 1.0,
+        "objects": [
+          "npc-soldier-lamellar-v1-body-0"
+        ],
+        "sharedDataRetained": true,
+        "sourceUniqueTriangles": 1943630.0,
+        "tierUniqueTriangles": 29999.0
+      }
+    ],
+    "newRigOrAnimation": false,
+    "runtimeValidation": [
+      {
+        "afterUniqueTriangles": 29999.0,
+        "beforeUniqueTriangles": 29999.0,
+        "duplicateRuntimeTrianglesRemoved": 0.0,
+        "editableHighSavedUnchanged": true,
+        "objects": [
+          "npc-soldier-lamellar-v1-body-0"
+        ],
+        "retainedVertexPositionsAndOrderedUvCornersUnchanged": true,
+        "validationChanged": false
+      }
+    ],
+    "selfContained": true,
+    "sha256": "50fe143f5589560607d15d7df672896fdef8c2e5bf87c1aab509815135a0dbb6",
+    "static": true,
+    "triangles": 29999.0
+  },
+  "sourceUp": "+Y",
+  "staticSourceGripOrientationPreserved": true,
+  "units": "metres"
+}

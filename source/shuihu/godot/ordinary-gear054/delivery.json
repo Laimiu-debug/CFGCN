@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "deliveryId": "S1-ordinary-gear054-v1",
+  "date": "2026-10-24",
+  "status": "source-gear-follow-verified-full-combat-and-campaign-pending",
+  "owner": "Shuihu ceramic source assets and inspection",
+  "receivers": [
+    "Shuihu motion and rigs owner",
+    "Shuihu main campaign integration owner"
+  ],
+  "recipeBundle": {
+    "file": "source/shuihu/godot/ordinary-gear054/recipes.json",
+    "bytes": 23813,
+    "sha256": "5d14d21119edb3f1c47b21705e65ac31d5392c35ecbfe0007ef8314514ebf989"
+  },
+  "recipeCount": 3,
+  "heldAttachmentCount": 5,
+  "entries": [
+    {
+      "id": "npc-archer-robe-v1",
+      "prototype": "archer",
+      "heroId": "",
+      "bodyMotionSource": {
+        "file": "apps/shuihu/art/pieces/source/ceramic-production/ordinary051-rig-v1/npc-archer-robe-v1/body.glb",
+        "sha256": "7daca9282dda20f21577df604f159ac21c20209e83f1680c70977d96c62f9cb0"
+      },
+      "recipe": {
+        "file": "source/shuihu/godot/ordinary-gear054/recipes/npc-archer-robe-v1.json",
+        "bytes": 5285,
+        "sha256": "2a4432b8ddf06e1ec0ea28e40e9d71c426eba3667c3f18b9e0fe91dbf1c63535"
+      },
+      "heldItems": [
+        {
+          "equipment": "bow",
+          "side": "L",
+          "boneName": "Shield_L"
+        }
+      ]
+    },
+    {
+      "id": "npc-militia-leather-v1",
+      "prototype": "militia",
+      "heroId": "",
+      "bodyMotionSource": {
+        "file": "apps/shuihu/art/pieces/source/ceramic-production/ordinary051-rig-v1/npc-militia-leather-v1/body.glb",
+        "sha256": "bc3dfee51cc79f504b5bb1addbfbeb478d6ed5bd4f70263361ade15bf1bf1a6a"
+      },
+      "recipe": {
+        "file": "source/shuihu/godot/ordinary-gear054/recipes/npc-militia-leather-v1.json",
+        "bytes": 7623,
+        "sha256": "790eb8c31fb2956397ae9a0e2a8c09b8a636e147f503bff22a0c948ed9959b61"
+      },
+      "heldItems": [
+        {
+          "equipment": "sabre",
+          "side": "R",
+          "boneName": "Weapon_R"
+        },
+        {
+          "equipment": "rattan-shield",
+          "side": "L",
+          "boneName": "Shield_L"
+        }
+      ]
+    },
+    {
+      "id": "npc-soldier-lamellar-v1",
+      "prototype": "soldier",
+      "heroId": "",
+      "bodyMotionSource": {
+        "file": "apps/shuihu/art/pieces/source/ceramic-production/ordinary051-rig-v1/npc-soldier-lamellar-v1/body.glb",
+        "sha256": "97d1f11a7d99512181c05a729bccf4b7f503c92f51d98db510b1d9d8be4588f1"
+      },
+      "recipe": {
+        "file": "source/shuihu/godot/ordinary-gear054/recipes/npc-soldier-lamellar-v1.json",
+        "bytes": 7321,
+        "sha256": "00a3339d0b11b7057cb8c8b8ac6ac01377cabc64e42d8826b51989dd3c9bbde3"
+      },
+      "heldItems": [
+        {
+          "equipment": "spear",
+          "side": "R",
+          "boneName": "Weapon_R"
+        },
+        {
+          "equipment": "rattan-shield",
+          "side": "L",
+          "boneName": "Shield_L"
+        }
+      ]
+    }
+  ],
+  "requiresExactBodyMotionSourceSha": true,
+  "source051": {
+    "file": "source/shuihu/godot/campaign-source051/delivery.json",
+    "sha256": "50a0ec970cdea8f92e76d5e9fc29226005628c70e111094353a0132b3a440e42"
+  },
+  "sourceS2Movement": {
+    "file": "source/shuihu/godot/ordinary051-movement-v1/delivery.json",
+    "sha256": "24bc7ada7c9b109a97f439e5d40e77249325a19e9c5d8637c413446d819dbed8"
+  },
+  "validation": {
+    "nativeReview": {
+      "file": ".local/qa/shuihu-pieces/ceramic-production/grip054/native-gear-source054.json",
+      "bytes": 75002,
+      "sha256": "266dea0907ca354322b2b416b16ada81964b427e5a9c024eaf48522ae2ca4f08"
+    },
+    "nativeChecks": 242,
+    "nativeFailures": 0,
+    "frozenRecipeFreshProcess": {
+      "file": ".local/qa/shuihu-pieces/ceramic-production/grip054/cold-frozen-recipe-proof.json",
+      "bytes": 3503,
+      "sha256": "57af90feb5467b74c0d1aa98b46b1eabc43c37cbee110995365598ae07438691"
+    },
+    "frozenRecipeChecks": 23,
+    "frozenRecipeFailures": 0,
+    "actualGpuCaptures": 31,
+    "sampledClips": [
+      "idle",
+      "walk",
+      "turn_right_90",
+      "turn_left_180"
+    ],
+    "pauseRestoreAndIndependentInstancesVerified": true,
+    "hostRotationAndUniformScaleVerified": true,
+    "rulesAudioAndFinishRequestsFromPresentation": 0,
+    "sourceShaProof": {
+      "file": ".local/ops/shuihu-grip054/original-source-sha-proof.json",
+      "bytes": 9278,
+      "sha256": "3c69a77126355238f853fb9321a426719b4a4935deb3a2641e4373fb859b89a7"
+    },
+    "visualReview": {
+      "file": ".local/qa/shuihu-pieces/ceramic-production/grip054/visual-review054.json",
+      "bytes": 1199,
+      "sha256": "7cb142dd53ec28f1eddc9e53d9e1c50762ac634cdb55cd04c05e9aa691881b3d"
+    }
+  },
+  "presentationContract": {
+    "units": "metres",
+    "up": "+Y",
+    "front": "+X",
+    "matrixLayout": "column-major",
+    "boneBinding": "name, not capture index",
+    "selectedSourceBranchOnly": true,
+    "originalSourceBranchWorldTransformRetained": true,
+    "hostScaleAndFrontConversionOnce": true,
+    "shortSpearScaleAlreadyBaked": 0.72,
+    "normalCampaignAdmission": false
+  },
+  "newTripoSources": 0,
+  "newTripoCredits": 0,
+  "purchasesTopupsOrUpgrades": false,
+  "newBodyExports": 0,
+  "newRigOrAnimation": false,
+  "s2GeometryWeightsRigCurvesOrHelpersEdited": false,
+  "namedRosterCountUnchanged": 168,
+  "independentGearCountUnchanged": 54,
+  "ordinaryBodySourceCountUnchanged": 4,
+  "mainGameOrSharedUiEdited": false,
+  "previous050051052053DeliveriesUnchanged": true,
+  "minorCosmeticIssuesDeferred": true,
+  "allFingerClosureAccepted": false,
+  "completeAttackGuardHitDefeatAccepted": false,
+  "bowStringArrowActionAccepted": false,
+  "actualCampaignOrWindowsPlayablePackageAccepted": false,
+  "receiverFormalReceiptVerified": false,
+  "physicalPointerOrKeyboardAcceptanceAdded": false,
+  "webExportAccepted": false,
+  "wholeGoalCompleted": false,
+  "nextStep": "Motion owner continues complete weapon combat and source events; main owner maps real anonymous campaign instances and validates M03-M05 in one actual Windows package. Full named-character body-framing review continues separately.",
+  "storage": {
+    "formalSourcesAndNecessaryQa": "G:/CODE/CFGCN",
+    "genericCacheAndTemporary": "H:/codex",
+    "lowSpaceThresholdsWarningOnly": true,
+    "deletedLogicalBytes": {
+      "C": 0,
+      "G": 0,
+      "H": 0
+    },
+    "uniqueOriginalsHistoryAndUnknownDownloadsPreserved": true
+  },
+  "gitCommitPushOrDeploy": false
+}

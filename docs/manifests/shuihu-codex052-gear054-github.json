@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "batch": "shuihu-codex052-gear054-20261024T1100",
+  "sourceOwner": "水浒｜人物兵器模型与图鉴",
+  "date": "2026-10-24",
+  "scope": "Frozen embeddable codex052 source, identity/catalogue input snapshots and ordinary051 three-body gear054 attachment recipes. This is source preservation, not main-campaign adoption or playable distribution.",
+  "files": [
+    {
+      "path": "source/shuihu/godot/codex-view052/module/codex052/ceramic_codex_view.gd",
+      "bytes": 19185,
+      "sha256": "5b552e6a3852aee339f7247ad6141d021de7e0e18371a137e4a4bae160b02fec"
+    },
+    {
+      "path": "source/shuihu/godot/codex-view052/module/codex052/ceramic_codex_view.tscn",
+      "bytes": 285,
+      "sha256": "5f1dad77dbf3205cc51527a58a77fd88b565d570a08da504cbe5fee07a2348ac"
+    },
+    {
+      "path": "source/shuihu/godot/codex-view052/module/codex052/ceramic_collection_state.gd",
+      "bytes": 3344,
+      "sha256": "7d23cacdf707c2b8d6d2fd4721ec543933521364daf5be8c05fbfbb09b4edcf9"
+    },
+    {
+      "path": "source/shuihu/godot/codex-view052/module/codex052/codex_inspector.gd",
+      "bytes": 285,
+      "sha256": "15b675df133582343ab3c7e2e3a93495ad98ffecaa323e757fe6fccec4bb7413"
+    },
+    {
+      "path": "source/shuihu/godot/codex-view052/module/ceramic_model_inspector.gd",
+      "bytes": 8433,
+      "sha256": "230d2291b6b5292f11d5337ddfd535877f7d4e33beb6cedcbf9f7d2f20fda68c"
+    },
+    {
+      "path": "source/shuihu/godot/codex-view052/module/ceramic_piece_loader_v2.gd",
+      "bytes": 3498,
+      "sha256": "6368fed3817311007275cc0503f0df6f96457ab889096fe1b5d038e866cea8a4"
+    },
+    {
+      "path": "source/shuihu/godot/codex-view052/catalog.json",
+      "bytes": 886634,
+      "sha256": "b05eb9f4517d8b206796f1ade7f6aa6f8a4aff9ec0bf83dd371a9e73bba30777"
+    },
+    {
+      "path": "source/shuihu/godot/codex-view052/runtime-references.json",
+      "bytes": 105680,
+      "sha256": "699f6300ff1bc2b005e69a643a76f2d0e522ed15dd43e16537cd5f875284ffa8"
+    },
+    {
+      "path": "source/shuihu/godot/codex-view052/inputs/godot-static-equipped-v5-a52afd8a62fc.json",
+      "bytes": 2273597,
+      "sha256": "a52afd8a62fcc8fd77967e467d6e570e9be16d03c482e13438b36592d3f48142"
+    },
+    {
+      "path": "source/shuihu/godot/codex-view052/inputs/godot-inspection-collection-v1-cc6bde3086d9.json",
+      "bytes": 1238077,
+      "sha256": "cc6bde3086d953f8a95a10ca08af8659dba2c425c6ddb5f5a3b93ef9c881737b"
+    },
+    {
+      "path": "source/shuihu/godot/codex-view052/inputs/godot-collection-portraits-v1-d7f5ad45e8cd.json",
+      "bytes": 155986,
+      "sha256": "d7f5ad45e8cd799942a1f68cd6865b77e1875c14ad9e9b6903218188dedb0c43"
+    },
+    {
+      "path": "source/shuihu/godot/codex-view052/inputs/godot-figure-placement-v3-83136c63587c.json",
+      "bytes": 405824,
+      "sha256": "83136c63587c654ced7e13f1ec53eca064c359e7377405ff27b0770e4afaa3c0"
+    },
+    {
+      "path": "source/shuihu/godot/codex-view052/inputs/roster-134b17341cce.json",
+      "bytes": 616660,
+      "sha256": "134b17341cce22d5bb7c888b863b54ae936129c3456e8cb46385d9920d8514e6"
+    },
+    {
+      "path": "source/shuihu/godot/codex-view052/inputs/build_catalog-5a90d9ed1851.py",
+      "bytes": 4153,
+      "sha256": "5a90d9ed1851bee685ae18609ab5e91291b5dd5e751c57f44b4791a5b9ae4a80"
+    },
+    {
+      "path": "source/shuihu/godot/codex-view052/delivery.json",
+      "bytes": 16728,
+      "sha256": "b85c7e39797eff613f6e19e9d3f299aeae5cc9ad92925c79d4dbf568aeb66dfe"
+    },
+    {
+      "path": "source/shuihu/godot/ordinary-gear054/recipes.json",
+      "bytes": 23813,
+      "sha256": "5d14d21119edb3f1c47b21705e65ac31d5392c35ecbfe0007ef8314514ebf989"
+    },
+    {
+      "path": "source/shuihu/godot/ordinary-gear054/recipes/npc-archer-robe-v1.json",
+      "bytes": 5285,
+      "sha256": "2a4432b8ddf06e1ec0ea28e40e9d71c426eba3667c3f18b9e0fe91dbf1c63535"
+    },
+    {
+      "path": "source/shuihu/godot/ordinary-gear054/recipes/npc-militia-leather-v1.json",
+      "bytes": 7623,
+      "sha256": "790eb8c31fb2956397ae9a0e2a8c09b8a636e147f503bff22a0c948ed9959b61"
+    },
+    {
+      "path": "source/shuihu/godot/ordinary-gear054/recipes/npc-soldier-lamellar-v1.json",
+      "bytes": 7321,
+      "sha256": "00a3339d0b11b7057cb8c8b8ac6ac01377cabc64e42d8826b51989dd3c9bbde3"
+    },
+    {
+      "path": "source/shuihu/godot/ordinary-gear054/delivery.json",
+      "bytes": 6584,
+      "sha256": "8c2031a62bc0bc34fb10b5058cd5d02e8ed6bc86389f65a2ccd84fa0e91800c2"
+    }
+  ],
+  "sourceBytes": 5788995,
+  "sourceDeliveries": [
+    {
+      "id": "S1-codex-view052-v1",
+      "path": "source/shuihu/godot/codex-view052/delivery.json",
+      "sha256": "b85c7e39797eff613f6e19e9d3f299aeae5cc9ad92925c79d4dbf568aeb66dfe"
+    },
+    {
+      "id": "S1-ordinary-gear054-v1",
+      "path": "source/shuihu/godot/ordinary-gear054/delivery.json",
+      "sha256": "8c2031a62bc0bc34fb10b5058cd5d02e8ed6bc86389f65a2ccd84fa0e91800c2"
+    }
+  ],
+  "validation": {
+    "codexFunctionalChecks": 263,
+    "gearNativeChecks": 242,
+    "gearColdFrozenRecipeChecks": 23,
+    "allReferencedProofHashesMatch": true,
+    "nativeEngineAlreadyValidatedByOwner": true,
+    "notMainCampaignOrWindowsAcceptance": true
+  },
+  "dependencies": [
+    "Existing Godot main/runtime resource bank and source asset namespaces; frozen originalPathAtFreeze fields define the intended placement of module copies.",
+    "Codex host must use the full catalogue and explicit permanent-discovery save independent of current campaign death/recruitment; connect actual confirmed discovery events.",
+    "Runtime GLB/texture/portrait assets and shared053 PCK are retained under project asset/release rules and are not supplied by this source-only commit.",
+    "Gear recipes require exact source051/S2 ordinary051 movement body SHA, named Weapon_R/Shield_L sockets and original transforms; all attack/defence/hit/defeat and bowstring/arrow clips still require action-owner delivery."
+  ],
+  "notIncluded": [
+    ".local state, player/QA fixtures, native proof files, screenshots, logs, storage reports or personal settings.",
+    "Original GLB/Blender or large runtime assets/PCK/EXE/ZIP/movie, Godot import caches and active live source edits.",
+    "Codex native diagnostic harness/fixture/preview/storage inputs referenced by the original delivery remain local; no original delivery contents were rewritten."
+  ],
+  "acceptance": {
+    "sourceHashesAndJsonParsed": true,
+    "existingNativeProofHashesVerified": true,
+    "componentNativeChecks": 263,
+    "gearMovementAndAttachmentChecks": 242,
+    "freshProcessRecipeChecks": 23,
+    "mainGameAdoptionVerified": false,
+    "fullCombatClipsAccepted": false,
+    "physicalOsPointerOrKeyboardAccepted": false,
+    "windowsPackageOrPublicReleaseAccepted": false,
+    "wholeGameComplete": false
+  },
+  "frozenBytes": "Explicit -text attributes preserve the exact source SHA rather than rewriting line endings. Historical/source manifests retain their original receiver flags and paths."
+}

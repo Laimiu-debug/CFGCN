@@ -1,0 +1,3119 @@
+{
+  "sourceCatalogue": {
+    "file": "apps/shuihu/art/pieces/ceramic/godot-static-equipped-v5.json",
+    "sha256": "a52afd8a62fcc8fd77967e467d6e570e9be16d03c482e13438b36592d3f48142",
+    "bytes": 2273597
+  },
+  "references": [
+    {
+      "id": "ls001",
+      "tier": "inspector",
+      "file": "runtime/godot/static046-v2/ls001-inspector.glb",
+      "sha256": "4033a4bbed302c5312a397713b78081b9623a35de69d8fb7f645d81a1f88a809",
+      "bytes": 17020272
+    },
+    {
+      "id": "ls001",
+      "tier": "battle",
+      "file": "runtime/godot/static046-v2/ls001-battle.glb",
+      "sha256": "c153ba15d16553f689ba9bb147288911eb0d863265e76be90545d35903b8fb31",
+      "bytes": 4485284
+    },
+    {
+      "id": "ls002",
+      "tier": "inspector",
+      "file": "source/ceramic-production/static048/ls002/ls002-inspector.glb",
+      "sha256": "c28f1277a16f06f89559cba8e60e204f45beff99286430749bdf112a5f1cbebc",
+      "bytes": 23679196
+    },
+    {
+      "id": "ls002",
+      "tier": "battle",
+      "file": "source/ceramic-production/static048/ls002/ls002-battle.glb",
+      "sha256": "a05d1e28c3ef86ebef5b9e91b44f9e1c2d3580178daabde7b79c26083010de19",
+      "bytes": 4769648
+    },
+    {
+      "id": "ls003",
+      "tier": "inspector",
+      "file": "runtime/godot/static046/ls003-inspector.glb",
+      "sha256": "3be2115236591395fc8aa717a64318b53cfd6c6c8f9d05097b21864f1cc4ef25",
+      "bytes": 16832932
+    },
+    {
+      "id": "ls003",
+      "tier": "battle",
+      "file": "runtime/godot/static046/ls003-battle.glb",
+      "sha256": "3e72c7fb3a1f3e78003cacaaec66ac27738d5784065be69cdd6cbee142227880",
+      "bytes": 4336852
+    },
+    {
+      "id": "ls004",
+      "tier": "inspector",
+      "file": "runtime/godot/static046/ls004-inspector.glb",
+      "sha256": "5deac4139ac0284347639b074aa916ca9cef955231f36b000d982c931df56ba4",
+      "bytes": 19406332
+    },
+    {
+      "id": "ls004",
+      "tier": "battle",
+      "file": "runtime/godot/static046/ls004-battle.glb",
+      "sha256": "6b613aba32a0d7c088b013513f2cc895070fc3c89f790cab248ecdb1ac1de4ca",
+      "bytes": 4632480
+    },
+    {
+      "id": "ls005",
+      "tier": "inspector",
+      "file": "runtime/godot/static045-v2/ls005-inspector.glb",
+      "sha256": "c78745f2cc3dc369533bbbdbd1d21477583ff04a4b54f95627661cf855bd4198",
+      "bytes": 20777260
+    },
+    {
+      "id": "ls005",
+      "tier": "battle",
+      "file": "runtime/godot/static045-v2/ls005-battle.glb",
+      "sha256": "af1c4b73ff8d3f0ff2c4077d70a08565ebac3395da5955c113779c268c15523f",
+      "bytes": 5146908
+    },
+    {
+      "id": "ls006",
+      "tier": "inspector",
+      "file": "runtime/godot/bulk042/ls006-inspector.glb",
+      "sha256": "ea3a003beb32a0ae3f492e7102d8a9013fce993c5098859a9b62f997f88c2666",
+      "bytes": 19601448
+    },
+    {
+      "id": "ls006",
+      "tier": "battle",
+      "file": "runtime/godot/bulk042/ls006-battle.glb",
+      "sha256": "5cc7471dcc032584c7c39f8adc33852cb0af05ca9945f99953add8f8d1a22b2b",
+      "bytes": 4713528
+    },
+    {
+      "id": "ls007",
+      "tier": "inspector",
+      "file": "runtime/godot/static045-v2/ls007-inspector.glb",
+      "sha256": "48bbf57f7f15a59081cc02c9ceefc755ae3e1be6489875ba468ffadbafe2b129",
+      "bytes": 21408896
+    },
+    {
+      "id": "ls007",
+      "tier": "battle",
+      "file": "runtime/godot/static045-v2/ls007-battle.glb",
+      "sha256": "cafd163d1e7a83af7f9f3d991795ad931a2c8b15fa793679e7ef17fa7420e536",
+      "bytes": 5281028
+    },
+    {
+      "id": "ls008",
+      "tier": "inspector",
+      "file": "runtime/godot/static045-v2/ls008-inspector.glb",
+      "sha256": "1e8d3584a97349dcb9520481c92c369c91cc0dec616a32d8e18b725ad4cb941d",
+      "bytes": 24748864
+    },
+    {
+      "id": "ls008",
+      "tier": "battle",
+      "file": "runtime/godot/static045-v2/ls008-battle.glb",
+      "sha256": "90979c0276312085f386528ee2cc9055fe49381c00ada37195dcc418a941fbe0",
+      "bytes": 6359752
+    },
+    {
+      "id": "ls009",
+      "tier": "inspector",
+      "file": "runtime/godot/static045-v2/ls009-inspector.glb",
+      "sha256": "c527815e745d02410c92e1684ef7e36cddd9d3d11d2eb086dba20ff21bb712f7",
+      "bytes": 17086040
+    },
+    {
+      "id": "ls009",
+      "tier": "battle",
+      "file": "runtime/godot/static045-v2/ls009-battle.glb",
+      "sha256": "17632d0549e68cf1eb5ecd3a859ffca922c3f4960475851b79e6c696a0f12d06",
+      "bytes": 4285184
+    },
+    {
+      "id": "ls010",
+      "tier": "inspector",
+      "file": "runtime/godot/static046/ls010-inspector.glb",
+      "sha256": "dff0674a35ce81ffd01eed904ffd17f254e0a490bb26e50c715069e2557acbba",
+      "bytes": 17238316
+    },
+    {
+      "id": "ls010",
+      "tier": "battle",
+      "file": "runtime/godot/static046/ls010-battle.glb",
+      "sha256": "2e81955b86cf2d102c967994b22bfbb5ebf0fb0925042ab58e44b70e07d85895",
+      "bytes": 4484372
+    },
+    {
+      "id": "ls011",
+      "tier": "inspector",
+      "file": "runtime/godot/static045-v2/ls011-inspector.glb",
+      "sha256": "97b9da14959fc91f9b0e265bdc72081a164aa5bbbf8b44c580e5fcd9deaf4a35",
+      "bytes": 19714844
+    },
+    {
+      "id": "ls011",
+      "tier": "battle",
+      "file": "runtime/godot/static045-v2/ls011-battle.glb",
+      "sha256": "fb5f7465806e6f36533e4f40ef7038e99cb271e7c0641e5b2a1fcd0841f77d45",
+      "bytes": 4851128
+    },
+    {
+      "id": "ls012",
+      "tier": "inspector",
+      "file": "runtime/godot/static045-v2/ls012-inspector.glb",
+      "sha256": "250b9b209af42243d3bd6d17bb3e5cf0a9b62e6ccb6f18cc614edb21c5af0380",
+      "bytes": 18408636
+    },
+    {
+      "id": "ls012",
+      "tier": "battle",
+      "file": "runtime/godot/static045-v2/ls012-battle.glb",
+      "sha256": "d14209897bff56536ac07dd17b26f5cd183da02958452ca8b04e0622ffa53208",
+      "bytes": 4441132
+    },
+    {
+      "id": "ls013",
+      "tier": "inspector",
+      "file": "runtime/godot/static046/ls013-inspector.glb",
+      "sha256": "67fc73373b2dfe736d59576db7e93fdca5021d2717149e8d9d51f05c25cc5999",
+      "bytes": 18765780
+    },
+    {
+      "id": "ls013",
+      "tier": "battle",
+      "file": "runtime/godot/static046/ls013-battle.glb",
+      "sha256": "c4394a36a7d128d414fb647953d93e737e17b0775ea09c5904ee0c43a353b96a",
+      "bytes": 5076952
+    },
+    {
+      "id": "ls014",
+      "tier": "inspector",
+      "file": "runtime/godot/static046/ls014-inspector.glb",
+      "sha256": "974753373bb9aba5c4351dcbfab29a4c43e2da7a9a8cfddf3f00088035149c9f",
+      "bytes": 24408492
+    },
+    {
+      "id": "ls014",
+      "tier": "battle",
+      "file": "runtime/godot/static046/ls014-battle.glb",
+      "sha256": "b3087e6b4fdf6b6f3f1c2ca6106ded45890403b500a3c49f900349e6fecb7559",
+      "bytes": 6266668
+    },
+    {
+      "id": "ls015",
+      "tier": "inspector",
+      "file": "runtime/godot/static046/ls015-inspector.glb",
+      "sha256": "7cd1d3a644cd91a1b4d1abd7a0d54da9510f3c28a660c86817ea15f3ca929fad",
+      "bytes": 25977428
+    },
+    {
+      "id": "ls015",
+      "tier": "battle",
+      "file": "runtime/godot/static046/ls015-battle.glb",
+      "sha256": "e80f79fe84bd6203b39c55676579c7d55fc3224658b9fbc76502b5387f6c9778",
+      "bytes": 6705528
+    },
+    {
+      "id": "ls016",
+      "tier": "inspector",
+      "file": "runtime/godot/static046/ls016-inspector.glb",
+      "sha256": "dd0d960bbeed942f63fca996e3f3bb7f769e21e2520acf728d6d4c651357c569",
+      "bytes": 17120856
+    },
+    {
+      "id": "ls016",
+      "tier": "battle",
+      "file": "runtime/godot/static046/ls016-battle.glb",
+      "sha256": "cb49a33cef0fa4ee48b609d05e4e6be0c25fd89d156cae601c4cb1369338a56c",
+      "bytes": 4475444
+    },
+    {
+      "id": "ls017",
+      "tier": "inspector",
+      "file": "runtime/godot/static045-v2/ls017-inspector.glb",
+      "sha256": "b943d101d92ea49c419189b75e0eb25f38f4b1fb0ae4a1bc5e63dbe507a6c44f",
+      "bytes": 20375008
+    },
+    {
+      "id": "ls017",
+      "tier": "battle",
+      "file": "runtime/godot/static045-v2/ls017-battle.glb",
+      "sha256": "64558a8129c56c2b86ec9a2ce9043d54c3ad551b7c7b97ce03f1530db088a5b5",
+      "bytes": 4996360
+    },
+    {
+      "id": "ls018",
+      "tier": "inspector",
+      "file": "runtime/godot/static045-v2/ls018-inspector.glb",
+      "sha256": "f14c0abbf867dfff74adb0ab02c75c0b02ac3f96d9d34d5ed0dad3eb2e7d53cc",
+      "bytes": 20312824
+    },
+    {
+      "id": "ls018",
+      "tier": "battle",
+      "file": "runtime/godot/static045-v2/ls018-battle.glb",
+      "sha256": "ee20ba9490b17edad13912543f6f376f30309fa368f60ed239c0704b9b553bf8",
+      "bytes": 5028808
+    },
+    {
+      "id": "ls019",
+      "tier": "inspector",
+      "file": "runtime/godot/static045-v2/ls019-inspector.glb",
+      "sha256": "06653a8548e90253b7726a1d5f77b0c1b980cf4015438749dbce4f97ac8cf9c4",
+      "bytes": 20086052
+    },
+    {
+      "id": "ls019",
+      "tier": "battle",
+      "file": "runtime/godot/static045-v2/ls019-battle.glb",
+      "sha256": "d638493ea49e122a4a82aa1e1674bfd251fe52c2ca0ff52b818752697afbcc12",
+      "bytes": 4883164
+    },
+    {
+      "id": "ls020",
+      "tier": "inspector",
+      "file": "runtime/godot/static046/ls020-inspector.glb",
+      "sha256": "db57bc640f9a38444e78393213bbded6044ae69b27a43d9a42b4545847a6831b",
+      "bytes": 20024308
+    },
+    {
+      "id": "ls020",
+      "tier": "battle",
+      "file": "runtime/godot/static046/ls020-battle.glb",
+      "sha256": "e75b3785bb0290c6895a045361fe0a97deba79ce5189aa65fd54c040cc0ab1de",
+      "bytes": 5122852
+    },
+    {
+      "id": "ls021",
+      "tier": "inspector",
+      "file": "runtime/godot/static046/ls021-inspector.glb",
+      "sha256": "4107ed1a8f04b0144b61d7f1f00118f8113a7e4cf037dccc85cd356494dde6b5",
+      "bytes": 18030376
+    },
+    {
+      "id": "ls021",
+      "tier": "battle",
+      "file": "runtime/godot/static046/ls021-battle.glb",
+      "sha256": "4cad32536d96ed6670573a2791eb56644cce893de1d0dd270fa51385c6416317",
+      "bytes": 4671608
+    },
+    {
+      "id": "ls022",
+      "tier": "inspector",
+      "file": "runtime/godot/static046/ls022-inspector.glb",
+      "sha256": "310f2ab2def829cbfa1dcab986263613efad186232284a5dc26926162c203467",
+      "bytes": 26831924
+    },
+    {
+      "id": "ls022",
+      "tier": "battle",
+      "file": "runtime/godot/static046/ls022-battle.glb",
+      "sha256": "1b368f3f700475305b88ec6495fb11b600618e49bcfc3e6c5bd48b4690f51d95",
+      "bytes": 7196268
+    },
+    {
+      "id": "ls023",
+      "tier": "inspector",
+      "file": "runtime/godot/static046/ls023-inspector.glb",
+      "sha256": "1c2f455cb0e6403ec4df08d098b0e87192e2272af5af72f094f04649ef27c28f",
+      "bytes": 18526944
+    },
+    {
+      "id": "ls023",
+      "tier": "battle",
+      "file": "runtime/godot/static046/ls023-battle.glb",
+      "sha256": "7794b970a4e71946c94a434ca25f8fc991f76e64553776b08fb5c504bbc5adbc",
+      "bytes": 4794964
+    },
+    {
+      "id": "ls024",
+      "tier": "inspector",
+      "file": "runtime/godot/static046/ls024-inspector.glb",
+      "sha256": "432c4edae2f78adb96f45c433f668038ed36819e9ca2d1d695bf57166ab4f738",
+      "bytes": 18339240
+    },
+    {
+      "id": "ls024",
+      "tier": "battle",
+      "file": "runtime/godot/static046/ls024-battle.glb",
+      "sha256": "5905ba3bb55e0df10f0a382bf80efddeade31472e9c248acbd1884ef6de7d29a",
+      "bytes": 4824112
+    },
+    {
+      "id": "ls025",
+      "tier": "inspector",
+      "file": "runtime/godot/static046/ls025-inspector.glb",
+      "sha256": "752b6ab0409583c92b3f82cf4aa32a81a16320f378a7106fe11ab701ae1b8291",
+      "bytes": 17884868
+    },
+    {
+      "id": "ls025",
+      "tier": "battle",
+      "file": "runtime/godot/static046/ls025-battle.glb",
+      "sha256": "989562d1d17639953fdeb9e236e2650e7abfae1671d46bb71538096c3ca96e1e",
+      "bytes": 4663776
+    },
+    {
+      "id": "ls026",
+      "tier": "inspector",
+      "file": "runtime/godot/static046/ls026-inspector.glb",
+      "sha256": "7b63cc97a131529ab8bc038ec6692688e414768e4b6559b45e5d949aca149b45",
+      "bytes": 17971964
+    },
+    {
+      "id": "ls026",
+      "tier": "battle",
+      "file": "runtime/godot/static046/ls026-battle.glb",
+      "sha256": "7e89a6536f33ed685854eb7038c8674d4a6c3b9862e868f43291dcd275d9b9bd",
+      "bytes": 4655256
+    },
+    {
+      "id": "ls027",
+      "tier": "inspector",
+      "file": "runtime/godot/static046/ls027-inspector.glb",
+      "sha256": "e7b06da420f7e092baa594bb05bf89247d944e13b418022fb8ac77709e83f41f",
+      "bytes": 18329608
+    },
+    {
+      "id": "ls027",
+      "tier": "battle",
+      "file": "runtime/godot/static046/ls027-battle.glb",
+      "sha256": "d23e131168fb74752b9c35834a534fe5652ad27bfbbbb03155ce25cbc60b211a",
+      "bytes": 4762724
+    },
+    {
+      "id": "ls028",
+      "tier": "inspector",
+      "file": "runtime/godot/static046/ls028-inspector.glb",
+      "sha256": "542ee8ea859616587c6ce7b2488764d911cc9a74a18cf3da7bce731cfa0a3fc1",
+      "bytes": 19154084
+    },
+    {
+      "id": "ls028",
+      "tier": "battle",
+      "file": "runtime/godot/static046/ls028-battle.glb",
+      "sha256": "f68c38fe2e901bac4b6e8464756204cc4adfd0d628daab3b3029913c6784f706",
+      "bytes": 4955444
+    },
+    {
+      "id": "ls029",
+      "tier": "inspector",
+      "file": "runtime/godot/static046/ls029-inspector.glb",
+      "sha256": "4ebbd205fb1f20b59b5d7c15f36d685daf6884befb5c3314eeb92653c5f74730",
+      "bytes": 18324860
+    },
+    {
+      "id": "ls029",
+      "tier": "battle",
+      "file": "runtime/godot/static046/ls029-battle.glb",
+      "sha256": "49a4989743d19154bb528f08fe37668dcd289779d75c99ca81a69ad430da82d2",
+      "bytes": 4715920
+    },
+    {
+      "id": "ls030",
+      "tier": "inspector",
+      "file": "runtime/godot/static046/ls030-inspector.glb",
+      "sha256": "5c2af4cfe806b55a5615d08c2ce0381fb9973cdf08bc04a04f0536fa2ee3eb65",
+      "bytes": 18183104
+    },
+    {
+      "id": "ls030",
+      "tier": "battle",
+      "file": "runtime/godot/static046/ls030-battle.glb",
+      "sha256": "66c8916daab76de504a0a79646cbb263780bfd7a1967a810af8fe85d6a6957f1",
+      "bytes": 4704008
+    },
+    {
+      "id": "ls031",
+      "tier": "inspector",
+      "file": "runtime/godot/static046/ls031-inspector.glb",
+      "sha256": "bbabb3e7b3846194bae6897791da920ee3dc07f8b39a47efbabca01509c26f45",
+      "bytes": 18276436
+    },
+    {
+      "id": "ls031",
+      "tier": "battle",
+      "file": "runtime/godot/static046/ls031-battle.glb",
+      "sha256": "b5e409163eeecdcd6c3135c030c6f5da704b4e49273288f827f4712b962a3adc",
+      "bytes": 4735228
+    },
+    {
+      "id": "ls032",
+      "tier": "inspector",
+      "file": "runtime/godot/static046/ls032-inspector.glb",
+      "sha256": "9202b4820905cb9e35ef5681c0d10b9f08443cd00f4e1fe97b89efaa2042687d",
+      "bytes": 18629240
+    },
+    {
+      "id": "ls032",
+      "tier": "battle",
+      "file": "runtime/godot/static046/ls032-battle.glb",
+      "sha256": "77273ac2f26058a4b29441e2b5d3c98fa16ccf981f8ebd2482582954aab389da",
+      "bytes": 4785796
+    },
+    {
+      "id": "ls033",
+      "tier": "inspector",
+      "file": "runtime/godot/static046/ls033-inspector.glb",
+      "sha256": "fe15cd53235be39ab6223f95e91489be0e86de1ac8e96fed8f1e9a16b65cc470",
+      "bytes": 18085596
+    },
+    {
+      "id": "ls033",
+      "tier": "battle",
+      "file": "runtime/godot/static046/ls033-battle.glb",
+      "sha256": "d5f6a9b1398009ac94130fe4ca10d6d0104edbb2704140304309dcaa6e12e8c1",
+      "bytes": 4665404
+    },
+    {
+      "id": "ls034",
+      "tier": "inspector",
+      "file": "runtime/godot/static046/ls034-inspector.glb",
+      "sha256": "277ed62dbd80d681a3fe7cf46b96861256f3fa7ff6bf14481bec0f1aa30fc888",
+      "bytes": 18785560
+    },
+    {
+      "id": "ls034",
+      "tier": "battle",
+      "file": "runtime/godot/static046/ls034-battle.glb",
+      "sha256": "9ff078d7c9bf633ed3eac00604fcce2590f843ee99152ce6a3bbf32de84473b3",
+      "bytes": 4928680
+    },
+    {
+      "id": "ls035",
+      "tier": "inspector",
+      "file": "runtime/godot/static046/ls035-inspector.glb",
+      "sha256": "7f357249dada8c887e0deb4dd569711be973a30ccd22a21f498990c7e144f61b",
+      "bytes": 18989400
+    },
+    {
+      "id": "ls035",
+      "tier": "battle",
+      "file": "runtime/godot/static046/ls035-battle.glb",
+      "sha256": "b1e35e423e5765ee8ff5e66126b212617949a34f7e1ee90f30668c181168b456",
+      "bytes": 4959828
+    },
+    {
+      "id": "ls036",
+      "tier": "inspector",
+      "file": "source/ceramic-production/static049/ls036/ls036-inspector.glb",
+      "sha256": "1e17a28cbb8e1940f822ca853c2bf91770fdcb05d17632d158e6868110fc5a5a",
+      "bytes": 35165584
+    },
+    {
+      "id": "ls036",
+      "tier": "battle",
+      "file": "source/ceramic-production/static049/ls036/ls036-battle.glb",
+      "sha256": "0a170a39e0e3e838b6587d43a2b3c783f633b57e5f12ecbb9b8def2826b27151",
+      "bytes": 7480592
+    },
+    {
+      "id": "ls037",
+      "tier": "inspector",
+      "file": "runtime/godot/static046/ls037-inspector.glb",
+      "sha256": "2a97ae3954ec7ee44ff342e94a23f380041ea9ff44e508b12b3c9d8fdce098b2",
+      "bytes": 18409192
+    },
+    {
+      "id": "ls037",
+      "tier": "battle",
+      "file": "runtime/godot/static046/ls037-battle.glb",
+      "sha256": "20318113e413b6c5d86a0c572eb66092c941828268dab68585b0d7da1f910a73",
+      "bytes": 4845460
+    },
+    {
+      "id": "ls038",
+      "tier": "inspector",
+      "file": "runtime/godot/static046-v2/ls038-inspector.glb",
+      "sha256": "9d35efb3d72a9cde6668ed682ed9d03a20511cc27bbf4ecb1ea5ef7c10985894",
+      "bytes": 18765224
+    },
+    {
+      "id": "ls038",
+      "tier": "battle",
+      "file": "runtime/godot/static046-v2/ls038-battle.glb",
+      "sha256": "7dad99265143713e82ebade0b1b1406a8ccfeb63ee76543034a7fbfc378c23ab",
+      "bytes": 4881644
+    },
+    {
+      "id": "ls039",
+      "tier": "inspector",
+      "file": "runtime/godot/static046/ls039-inspector.glb",
+      "sha256": "29344a43622516cd9e710658df47176e3e3ad7001a40db30bfcf7d9cee540484",
+      "bytes": 23882760
+    },
+    {
+      "id": "ls039",
+      "tier": "battle",
+      "file": "runtime/godot/static046/ls039-battle.glb",
+      "sha256": "ec7296ca8b611ea2580c568d871fcc4fc663fa86a65b4ff3f5524aeee68a8e07",
+      "bytes": 6406488
+    },
+    {
+      "id": "ls040",
+      "tier": "inspector",
+      "file": "runtime/godot/static046/ls040-inspector.glb",
+      "sha256": "7ba5c454bf9031cc312913704bb2d27957af1efbe884780be426bce847a6df0c",
+      "bytes": 20416552
+    },
+    {
+      "id": "ls040",
+      "tier": "battle",
+      "file": "runtime/godot/static046/ls040-battle.glb",
+      "sha256": "3f7a09a7a2d2478ebfba8d4fc403c68ef1826144c3e7564d0d8bfb1b7716c1f8",
+      "bytes": 5039472
+    },
+    {
+      "id": "ls041",
+      "tier": "inspector",
+      "file": "source/ceramic-production/static048/ls041/ls041-inspector.glb",
+      "sha256": "c53ceb285f9739cd725e6788490a44fd8d6341fe72d535a51fa287707a8ac286",
+      "bytes": 24195768
+    },
+    {
+      "id": "ls041",
+      "tier": "battle",
+      "file": "source/ceramic-production/static048/ls041/ls041-battle.glb",
+      "sha256": "ad260b664593c0250fe17891d9a04cc04f484402eab84eec7e28c3e125f9fa3d",
+      "bytes": 4886196
+    },
+    {
+      "id": "ls042",
+      "tier": "inspector",
+      "file": "source/ceramic-production/static048/ls042/ls042-inspector.glb",
+      "sha256": "18950ad2396b10eaf0b8e10ad62e3fdfe7b2951438cc91f7355f3b6aaa62b01a",
+      "bytes": 26819932
+    },
+    {
+      "id": "ls042",
+      "tier": "battle",
+      "file": "source/ceramic-production/static048/ls042/ls042-battle.glb",
+      "sha256": "438721a31a0f30c7b6b9fbc82d6d68758651538f5aa8ea4ebe0db9a414436b7a",
+      "bytes": 5377024
+    },
+    {
+      "id": "ls043",
+      "tier": "inspector",
+      "file": "source/ceramic-production/static048/ls043/ls043-inspector.glb",
+      "sha256": "e8be6ae9b7c764ac3e612b31dae2e9a07ef98ccabed67bd16e42149701b09b15",
+      "bytes": 24238568
+    },
+    {
+      "id": "ls043",
+      "tier": "battle",
+      "file": "source/ceramic-production/static048/ls043/ls043-battle.glb",
+      "sha256": "ed3b1109d214673b175ea970e43e2d6d1d865760eac443c5023cd2e7f418385a",
+      "bytes": 4949312
+    },
+    {
+      "id": "ls044",
+      "tier": "inspector",
+      "file": "runtime/godot/static045-v2/ls044-inspector.glb",
+      "sha256": "d33ba3f7f505ac30f972c0e3725c8241d3d9c553b22d03a2d4ba607bc5de8bba",
+      "bytes": 19100436
+    },
+    {
+      "id": "ls044",
+      "tier": "battle",
+      "file": "runtime/godot/static045-v2/ls044-battle.glb",
+      "sha256": "f5ff39465dd08b7938beddcebf6b353a9a849735eef33ddeded436b729a20b0a",
+      "bytes": 4669064
+    },
+    {
+      "id": "ls045",
+      "tier": "inspector",
+      "file": "runtime/godot/static046/ls045-inspector.glb",
+      "sha256": "317b2dfc7d8ba2b7be9fa91be6074b4532f68c7e30d39061d00031cf68116284",
+      "bytes": 19651624
+    },
+    {
+      "id": "ls045",
+      "tier": "battle",
+      "file": "runtime/godot/static046/ls045-battle.glb",
+      "sha256": "ef591cf82a23bd50439227f801b977b84d37214e8c2884384bbe80adc1acf0d3",
+      "bytes": 5258264
+    },
+    {
+      "id": "ls046",
+      "tier": "inspector",
+      "file": "runtime/godot/static046/ls046-inspector.glb",
+      "sha256": "62cdffa46f843aab79e831f4458e98590d33a59cf72a32cdf927f4352831d8be",
+      "bytes": 18572632
+    },
+    {
+      "id": "ls046",
+      "tier": "battle",
+      "file": "runtime/godot/static046/ls046-battle.glb",
+      "sha256": "400e85c1248ab6a3a4d03e630fb57e51ff10b1ca2b3b42f2e3a0da97830ae2fd",
+      "bytes": 4865496
+    },
+    {
+      "id": "ls047",
+      "tier": "inspector",
+      "file": "runtime/godot/static046/ls047-inspector.glb",
+      "sha256": "1f9dff5fa505fea88d8879cff99dcb4d909053202a28889c8a408bb635e5a116",
+      "bytes": 18282504
+    },
+    {
+      "id": "ls047",
+      "tier": "battle",
+      "file": "runtime/godot/static046/ls047-battle.glb",
+      "sha256": "5b58d35220eac42ca887b1e88171d3869428da5e0a2e30453172e38d531cabb5",
+      "bytes": 4894084
+    },
+    {
+      "id": "ls048",
+      "tier": "inspector",
+      "file": "runtime/godot/static046/ls048-inspector.glb",
+      "sha256": "5cbc852eba6d35299e06793a3b2dc97994b7eadf47c5e9646a31048c6b82460d",
+      "bytes": 18226092
+    },
+    {
+      "id": "ls048",
+      "tier": "battle",
+      "file": "runtime/godot/static046/ls048-battle.glb",
+      "sha256": "b443d94b6f2d3a4b597021207393436df13ba8566e567f261010028014e58314",
+      "bytes": 4768716
+    },
+    {
+      "id": "ls049",
+      "tier": "inspector",
+      "file": "source/ceramic-production/static048-v3/ls049/ls049-inspector.glb",
+      "sha256": "2c3aab17cce18109b66a2b7cb5207249ed28da9ea3903b1994c64d18c57cffd3",
+      "bytes": 29498256
+    },
+    {
+      "id": "ls049",
+      "tier": "battle",
+      "file": "source/ceramic-production/static048-v3/ls049/ls049-battle.glb",
+      "sha256": "92145afca10a048d526723fc1a5c0a1465266996188349b4b0ae1e3222876249",
+      "bytes": 7334088
+    },
+    {
+      "id": "ls050",
+      "tier": "inspector",
+      "file": "runtime/godot/static046/ls050-inspector.glb",
+      "sha256": "9becec275947ae434a6680acba3104d8c7064c0ff2862988ae6fbf630b4ffee4",
+      "bytes": 19472784
+    },
+    {
+      "id": "ls050",
+      "tier": "battle",
+      "file": "runtime/godot/static046/ls050-battle.glb",
+      "sha256": "5b5ca6ec50590c2b9253bcd5d2ed524546f42b35d758281324665e656cec3529",
+      "bytes": 5116484
+    },
+    {
+      "id": "ls051",
+      "tier": "inspector",
+      "file": "runtime/godot/static046/ls051-inspector.glb",
+      "sha256": "604559c68baa5a3fd0c5fecc526f76da300034e2cbaf92de9ae87186279409a4",
+      "bytes": 18223536
+    },
+    {
+      "id": "ls051",
+      "tier": "battle",
+      "file": "runtime/godot/static046/ls051-battle.glb",
+      "sha256": "e8483aa04859a75739b190b1fa8522e6e186ddfe4c86f3e400aefd6762d60da9",
+      "bytes": 4759040
+    },
+    {
+      "id": "ls052",
+      "tier": "inspector",
+      "file": "runtime/godot/static046/ls052-inspector.glb",
+      "sha256": "9428f32b82ab1713732697d38da53b88e21e018c09fcd6a5677f91ddc1baee7a",
+      "bytes": 13937752
+    },
+    {
+      "id": "ls052",
+      "tier": "battle",
+      "file": "runtime/godot/static046/ls052-battle.glb",
+      "sha256": "8c44adcaaff8f427f8d0d1483711d233ff5c10cd7bf5687cf0d8207bfffafe84",
+      "bytes": 4980296
+    },
+    {
+      "id": "ls053",
+      "tier": "inspector",
+      "file": "runtime/godot/static046/ls053-inspector.glb",
+      "sha256": "f59d7880070d7245e5c650fb05ab3cad455d2863903e567a17447f703f9c94c7",
+      "bytes": 18519464
+    },
+    {
+      "id": "ls053",
+      "tier": "battle",
+      "file": "runtime/godot/static046/ls053-battle.glb",
+      "sha256": "e605c9e70f737a157343afa94dfdf8ff12781f73bf18e9673ea1315f48a42c9a",
+      "bytes": 4778572
+    },
+    {
+      "id": "ls054",
+      "tier": "inspector",
+      "file": "runtime/godot/static046/ls054-inspector.glb",
+      "sha256": "26fdcdaa49d13aee3dec0429e54e526ebc39ba5e503e4945fd124305373d11fb",
+      "bytes": 19204000
+    },
+    {
+      "id": "ls054",
+      "tier": "battle",
+      "file": "runtime/godot/static046/ls054-battle.glb",
+      "sha256": "5e1e587d3c8157be702b2e481df68f31124225659d3204ea716f50177a15caca",
+      "bytes": 5082700
+    },
+    {
+      "id": "ls055",
+      "tier": "inspector",
+      "file": "source/ceramic-production/static048/ls055/ls055-inspector.glb",
+      "sha256": "e702e3e0b0623756c2c991b7eb8877a45561ba87d921f3ad8885741ef6b4dfe6",
+      "bytes": 23824024
+    },
+    {
+      "id": "ls055",
+      "tier": "battle",
+      "file": "source/ceramic-production/static048/ls055/ls055-battle.glb",
+      "sha256": "26be88bb00ded1bec657b4d7522e2cfe27811e15dc388c2c05193d71bb121b0b",
+      "bytes": 4818916
+    },
+    {
+      "id": "ls056",
+      "tier": "inspector",
+      "file": "runtime/godot/static046/ls056-inspector.glb",
+      "sha256": "78cca3061a90b3937dc15f668c348f3b454c2c818aacf8646cd93af1089c0b92",
+      "bytes": 18993176
+    },
+    {
+      "id": "ls056",
+      "tier": "battle",
+      "file": "runtime/godot/static046/ls056-battle.glb",
+      "sha256": "587950e4d98c58987b832811184db4068250ea20785bc3e76131b9dea743c0b6",
+      "bytes": 5019504
+    },
+    {
+      "id": "ls057",
+      "tier": "inspector",
+      "file": "runtime/godot/static046/ls057-inspector.glb",
+      "sha256": "eb2da5ce60c1a07f983b4b31f67eb8c1fb83e04a4c147ded8f6d8fd45ed2140b",
+      "bytes": 18892008
+    },
+    {
+      "id": "ls057",
+      "tier": "battle",
+      "file": "runtime/godot/static046/ls057-battle.glb",
+      "sha256": "24fe64cfcb56996e733f320ac8f3f8262e31aed33c79a825bf99702976b312be",
+      "bytes": 5013044
+    },
+    {
+      "id": "ls058",
+      "tier": "inspector",
+      "file": "runtime/godot/static046/ls058-inspector.glb",
+      "sha256": "4e7f3af95968021dc854b04261f509a86aeba32084db689ddb4c3a4d905d429d",
+      "bytes": 18369920
+    },
+    {
+      "id": "ls058",
+      "tier": "battle",
+      "file": "runtime/godot/static046/ls058-battle.glb",
+      "sha256": "a490be506dd4c9e28dcbac675949ac4442e5c0765de74986ae45f2ecb6363784",
+      "bytes": 4812628
+    },
+    {
+      "id": "ls059",
+      "tier": "inspector",
+      "file": "source/ceramic-production/static048/ls059/ls059-inspector.glb",
+      "sha256": "37a517fd2b79662c709ae7f8097661ba0bc8a2012d965dead6ec9d688dd3a85d",
+      "bytes": 31210156
+    },
+    {
+      "id": "ls059",
+      "tier": "battle",
+      "file": "source/ceramic-production/static048/ls059/ls059-battle.glb",
+      "sha256": "4a9af0cb86f8b18b6c0eb73f59e6117fbc59b415104d01872fd18c352b8aa33d",
+      "bytes": 8394828
+    },
+    {
+      "id": "ls060",
+      "tier": "inspector",
+      "file": "runtime/godot/static046/ls060-inspector.glb",
+      "sha256": "75b9c4aec3cee197b79098a006f5a2d4d1d602a57ed7a30ba0f0a20fb144436c",
+      "bytes": 18116104
+    },
+    {
+      "id": "ls060",
+      "tier": "battle",
+      "file": "runtime/godot/static046/ls060-battle.glb",
+      "sha256": "29085b406a1ff6bf5c3a58f170c9ec87f9a67c8df04a0a69e6a3ceddc8c70f4c",
+      "bytes": 4742132
+    },
+    {
+      "id": "ls061",
+      "tier": "inspector",
+      "file": "runtime/godot/static046/ls061-inspector.glb",
+      "sha256": "38b33db9ef2deecead9022933a5495f59922ec2ee277166d7ec240aead1d959f",
+      "bytes": 18005400
+    },
+    {
+      "id": "ls061",
+      "tier": "battle",
+      "file": "runtime/godot/static046/ls061-battle.glb",
+      "sha256": "aeb0b61548f0f8c30f39fb2f5ce47467b3001c1d97dd8d8875658c6ab95c535d",
+      "bytes": 4741608
+    },
+    {
+      "id": "ls062",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/ls062-inspector.glb",
+      "sha256": "6b4d39e07325278ac76549a337c92592a95b656037ee599b0b36c4fc2188a9dd",
+      "bytes": 18346196
+    },
+    {
+      "id": "ls062",
+      "tier": "battle",
+      "file": "runtime/godot/static047/ls062-battle.glb",
+      "sha256": "1ec9f9bfaf0dbd15e4d6b9fd63ebf907c5e7f5d78933f0945f689c48a59935e8",
+      "bytes": 4772192
+    },
+    {
+      "id": "ls063",
+      "tier": "inspector",
+      "file": "source/ceramic-production/static048/ls063/ls063-inspector.glb",
+      "sha256": "219e3d12219fbd86378ee2fc31b57d68998a9119f507045eed1dd89fa2f18bf5",
+      "bytes": 25662244
+    },
+    {
+      "id": "ls063",
+      "tier": "battle",
+      "file": "source/ceramic-production/static048/ls063/ls063-battle.glb",
+      "sha256": "97754b977129e7c0c9e1c9de83ca6b1574cde1f951cd2bb4da69d060bbda2611",
+      "bytes": 4983756
+    },
+    {
+      "id": "ls064",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/ls064-inspector.glb",
+      "sha256": "f9797ea4d1141dab49b556a6b0ca6546475adb0572b64c39e0df02f876c0c791",
+      "bytes": 18912552
+    },
+    {
+      "id": "ls064",
+      "tier": "battle",
+      "file": "runtime/godot/static047/ls064-battle.glb",
+      "sha256": "12b8139d76290bfaa9f3fe39cb8551aae81fde983cc0eabeb678311d92eea75d",
+      "bytes": 4942892
+    },
+    {
+      "id": "ls065",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/ls065-inspector.glb",
+      "sha256": "08924cdf533441a67f4b928cae1dcb1fe6349e3d240ad9a97d3a895a02cfa299",
+      "bytes": 18763932
+    },
+    {
+      "id": "ls065",
+      "tier": "battle",
+      "file": "runtime/godot/static047/ls065-battle.glb",
+      "sha256": "2a72951a68f16db9703b52fd75073ae03d4d15a5407ee7658c899c4182c48433",
+      "bytes": 4911780
+    },
+    {
+      "id": "ls066",
+      "tier": "inspector",
+      "file": "source/ceramic-production/static049/ls066/ls066-inspector.glb",
+      "sha256": "115dc4a2ceda979363b1255f4a99eb5682a5ab54fded05694c44d1b374d566f0",
+      "bytes": 17970148
+    },
+    {
+      "id": "ls066",
+      "tier": "battle",
+      "file": "source/ceramic-production/static049/ls066/ls066-battle.glb",
+      "sha256": "9b8aaed2f29e0c5a12871b2214204cdca479299677d399cdb8a17aff2d3347e8",
+      "bytes": 3476920
+    },
+    {
+      "id": "ls067",
+      "tier": "inspector",
+      "file": "source/ceramic-production/static048/ls067/ls067-inspector.glb",
+      "sha256": "e4196e894d9b85ec6a3d5e82a052fad2aae9c8d7ef9fd5c857f574cbd91febc8",
+      "bytes": 23510272
+    },
+    {
+      "id": "ls067",
+      "tier": "battle",
+      "file": "source/ceramic-production/static048/ls067/ls067-battle.glb",
+      "sha256": "419e6e8f2f59cb50e9aea69cbf37e7353fec58307c81f52d5d322af97466b4dd",
+      "bytes": 5271468
+    },
+    {
+      "id": "ls068",
+      "tier": "inspector",
+      "file": "runtime/godot/static045-v2/ls068-inspector.glb",
+      "sha256": "6ce478e3e24ab966a0933872856a8160d9485cb12b8befd47b9f1772a5895f6b",
+      "bytes": 20034704
+    },
+    {
+      "id": "ls068",
+      "tier": "battle",
+      "file": "runtime/godot/static045-v2/ls068-battle.glb",
+      "sha256": "a9f5bfba0c36452dbf84d1cfce0bdfcfa3975dc1a7ef7015158eeeb99fa677a4",
+      "bytes": 4953576
+    },
+    {
+      "id": "ls069",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/ls069-inspector.glb",
+      "sha256": "a2abd750ca906faf9f47ea1a5b86bca934b7baa9412f3df5e532c5da07b0b1ec",
+      "bytes": 18711044
+    },
+    {
+      "id": "ls069",
+      "tier": "battle",
+      "file": "runtime/godot/static047/ls069-battle.glb",
+      "sha256": "96a10a7d2b578343d2b6156aa8cff32f4208043ed6d64466337d0e16ec3e7eae",
+      "bytes": 4864780
+    },
+    {
+      "id": "ls070",
+      "tier": "inspector",
+      "file": "source/ceramic-production/static049/ls070/ls070-inspector.glb",
+      "sha256": "d814c458ae57ecf6b760ddd99c59ef44a6a194e09ca93dc62326bfe263ec16bd",
+      "bytes": 22513756
+    },
+    {
+      "id": "ls070",
+      "tier": "battle",
+      "file": "source/ceramic-production/static049/ls070/ls070-battle.glb",
+      "sha256": "85c58452e447e4f6290318fdf3784cac2c99f1717a210385152763d6fba4afcf",
+      "bytes": 4899308
+    },
+    {
+      "id": "ls071",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/ls071-inspector.glb",
+      "sha256": "1fdff62494a3083919b9e16224f93c73f653625f7dee26284910b5d0c044c4cd",
+      "bytes": 17804564
+    },
+    {
+      "id": "ls071",
+      "tier": "battle",
+      "file": "runtime/godot/static047/ls071-battle.glb",
+      "sha256": "ef308dd4576faffc671d85ba378ccd1c34e0e49d144d043fff0687217e1d788a",
+      "bytes": 4678080
+    },
+    {
+      "id": "ls072",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/ls072-inspector.glb",
+      "sha256": "c34481e23a41e01a6cf11f9d86a0b23ea6ad776e84df052948125e514d2ae162",
+      "bytes": 18590200
+    },
+    {
+      "id": "ls072",
+      "tier": "battle",
+      "file": "runtime/godot/static047/ls072-battle.glb",
+      "sha256": "3ab70437bf654b7ee64ab0f64a49a3ad52e5d19e5c6808ed7a204aecc1485a28",
+      "bytes": 4933984
+    },
+    {
+      "id": "ls073",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/ls073-inspector.glb",
+      "sha256": "4ffd57bb851134d70289fd7915077c64b2da0566461473b1152ad0678cf851bf",
+      "bytes": 18099380
+    },
+    {
+      "id": "ls073",
+      "tier": "battle",
+      "file": "runtime/godot/static047/ls073-battle.glb",
+      "sha256": "12886ebdfc9ff3e53f26d5733df21626b29c5fc24d238387d50189de3a8fd052",
+      "bytes": 4818724
+    },
+    {
+      "id": "ls074",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/ls074-inspector.glb",
+      "sha256": "4beb26e864f5db707d075ba022c66d8ea66254f9584c188a04964d257f4b5336",
+      "bytes": 18653848
+    },
+    {
+      "id": "ls074",
+      "tier": "battle",
+      "file": "runtime/godot/static047/ls074-battle.glb",
+      "sha256": "855a98d73721957b322c0091d0dc998a9e725c6c4fd8323bdc0869d975b3a3f7",
+      "bytes": 4906188
+    },
+    {
+      "id": "ls075",
+      "tier": "inspector",
+      "file": "source/ceramic-production/static048/ls075/ls075-inspector.glb",
+      "sha256": "61bf67eb62a6846ac17d9aae7a1a6e22dbf02737659c32c38a184387d6601547",
+      "bytes": 24452688
+    },
+    {
+      "id": "ls075",
+      "tier": "battle",
+      "file": "source/ceramic-production/static048/ls075/ls075-battle.glb",
+      "sha256": "b38b692d7e41c38e7eb5d6a41d30ba5a682b03afbb2bc7db657bd030f978bca7",
+      "bytes": 4926784
+    },
+    {
+      "id": "ls076",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/ls076-inspector.glb",
+      "sha256": "bead5caae76708caa5ac33a5fda19d8951bc9ddf55bb2eae887d1cac59bc4f7e",
+      "bytes": 17907868
+    },
+    {
+      "id": "ls076",
+      "tier": "battle",
+      "file": "runtime/godot/static047/ls076-battle.glb",
+      "sha256": "5b2afe25f412790b75a9902ca7f097f8f172cca997cc0cd74de213c01ccd919e",
+      "bytes": 4709372
+    },
+    {
+      "id": "ls077",
+      "tier": "inspector",
+      "file": "source/ceramic-production/static048-v3/ls077/ls077-inspector.glb",
+      "sha256": "e0a0fc42585dca04b5a67b62064b01608a5dbc130d042e6be93e9e50a9f683e6",
+      "bytes": 22799460
+    },
+    {
+      "id": "ls077",
+      "tier": "battle",
+      "file": "source/ceramic-production/static048-v3/ls077/ls077-battle.glb",
+      "sha256": "f0fb9064c94caa4cf9a63b749e2456ee4b9c5aa6197de92a958e06518eef328e",
+      "bytes": 5104236
+    },
+    {
+      "id": "ls078",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/ls078-inspector.glb",
+      "sha256": "ba889a9463e34fe4ac5da62aa281f4cb839bb7bf31288d4e417c4df9dc8ffc47",
+      "bytes": 18771176
+    },
+    {
+      "id": "ls078",
+      "tier": "battle",
+      "file": "runtime/godot/static047/ls078-battle.glb",
+      "sha256": "bcf04252de3bbe7f44a5d97dbb012c6f0be8220941b8f4d29ec781a38dfc8e15",
+      "bytes": 4887612
+    },
+    {
+      "id": "ls079",
+      "tier": "inspector",
+      "file": "source/ceramic-production/static048/ls079/ls079-inspector.glb",
+      "sha256": "c94d6188d51733c11a5538b95593b938a5e28a7c0dc13ce9b2f37f033398ad1a",
+      "bytes": 24366100
+    },
+    {
+      "id": "ls079",
+      "tier": "battle",
+      "file": "source/ceramic-production/static048/ls079/ls079-battle.glb",
+      "sha256": "dbbaa8676797367857be889ba7d20e75495eacc8eed4db5bcc8588db570213ba",
+      "bytes": 4711376
+    },
+    {
+      "id": "ls080",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/ls080-inspector.glb",
+      "sha256": "7730631a9f90aa2792da788cb5b725a228b21dfa836ee299d26d976601fce044",
+      "bytes": 19145996
+    },
+    {
+      "id": "ls080",
+      "tier": "battle",
+      "file": "runtime/godot/static047/ls080-battle.glb",
+      "sha256": "950421281ba9038fab3bdc408318b7670932baacffa4cafea09a1d2e6578b276",
+      "bytes": 5127136
+    },
+    {
+      "id": "ls081",
+      "tier": "inspector",
+      "file": "source/ceramic-production/static048/ls081/ls081-inspector.glb",
+      "sha256": "6a5c363a429aa939f51e7c0940c48c84ad9a4c7cb8a4192d3ddba3a05bba44d7",
+      "bytes": 23836076
+    },
+    {
+      "id": "ls081",
+      "tier": "battle",
+      "file": "source/ceramic-production/static048/ls081/ls081-battle.glb",
+      "sha256": "0e60f5cf577b98745dfe531091e7a77e50fc6752c339c6444c35d38d9c869b09",
+      "bytes": 4931400
+    },
+    {
+      "id": "ls082",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/ls082-inspector.glb",
+      "sha256": "c476240e5d2c5900a4abd5a1c00662a8a3fe97311f719c345b911dd45a1451b7",
+      "bytes": 18749300
+    },
+    {
+      "id": "ls082",
+      "tier": "battle",
+      "file": "runtime/godot/static047/ls082-battle.glb",
+      "sha256": "90dcd65feb53b4c71909ac398b8705a98c6c8729154c05d105ad6d3e9e2c5674",
+      "bytes": 4972692
+    },
+    {
+      "id": "ls083",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/ls083-inspector.glb",
+      "sha256": "e3e02e23735a3ba521a4426aa3f86bfad62dd563f3d952a8cfeff54eccfa465f",
+      "bytes": 18445640
+    },
+    {
+      "id": "ls083",
+      "tier": "battle",
+      "file": "runtime/godot/static047/ls083-battle.glb",
+      "sha256": "0b9f41502d502591f261d60d69b429d15cb01022326667c7a12597e8228a3352",
+      "bytes": 4836896
+    },
+    {
+      "id": "ls084",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/ls084-inspector.glb",
+      "sha256": "f446b44037fec00b21a9ff5688cdf4b71d9c1b186679e4dd96ff8698e06527fe",
+      "bytes": 18805248
+    },
+    {
+      "id": "ls084",
+      "tier": "battle",
+      "file": "runtime/godot/static047/ls084-battle.glb",
+      "sha256": "6c957ef67454e9b0834b30b028c338622052fb979eaf7f77acec75495530817e",
+      "bytes": 4921816
+    },
+    {
+      "id": "ls085",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/ls085-inspector.glb",
+      "sha256": "ef64aa5215c67d08331bbf9ec43e166cab30ccaaf310b19328ae283169ae1826",
+      "bytes": 18596796
+    },
+    {
+      "id": "ls085",
+      "tier": "battle",
+      "file": "runtime/godot/static047/ls085-battle.glb",
+      "sha256": "c75ae47500c914b019ec33295330dec8b3f74e14db337cb19dad981858de5f07",
+      "bytes": 4889872
+    },
+    {
+      "id": "ls086",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/ls086-inspector.glb",
+      "sha256": "157a313d5848a692e77304f83d3cab34b8374f0b16406f3c71e536932871aed6",
+      "bytes": 18797416
+    },
+    {
+      "id": "ls086",
+      "tier": "battle",
+      "file": "runtime/godot/static047/ls086-battle.glb",
+      "sha256": "b77dbe959c92647a9cf874ab9d5d525df62698a40e60f0c6873e24b6033cb051",
+      "bytes": 5026028
+    },
+    {
+      "id": "ls087",
+      "tier": "inspector",
+      "file": "source/ceramic-production/static048/ls087/ls087-inspector.glb",
+      "sha256": "7a319c557513dbc374516c443520cf6f6a5bbc7ab5e0493a75aaae4ec855f575",
+      "bytes": 25172188
+    },
+    {
+      "id": "ls087",
+      "tier": "battle",
+      "file": "source/ceramic-production/static048/ls087/ls087-battle.glb",
+      "sha256": "0373dd7db4e2c3ba1d8f11f513c75d9833980435b1be9252800b04926f5682d9",
+      "bytes": 5189244
+    },
+    {
+      "id": "ls088",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/ls088-inspector.glb",
+      "sha256": "71978cb2a082dc6d1f199ced87792f69e224c0590a6a0cfc5ce9442b044c9226",
+      "bytes": 19055008
+    },
+    {
+      "id": "ls088",
+      "tier": "battle",
+      "file": "runtime/godot/static047/ls088-battle.glb",
+      "sha256": "b643da02782759e65768d876b8f3f0f6883bc0e4f0e611c3616e68ce6e6518ef",
+      "bytes": 5040880
+    },
+    {
+      "id": "ls089",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/ls089-inspector.glb",
+      "sha256": "e85f60b8497477c70a1c9c816d97a8631809071761f6d2672df7934c31877f60",
+      "bytes": 18539372
+    },
+    {
+      "id": "ls089",
+      "tier": "battle",
+      "file": "runtime/godot/static047/ls089-battle.glb",
+      "sha256": "7cf038f49d86a2a87e4cc03b6b8fa6bf64659d7c18536249a85e3c01d4399786",
+      "bytes": 4869680
+    },
+    {
+      "id": "ls090",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/ls090-inspector.glb",
+      "sha256": "577ee46c9a3f40b6e9ece4e6ea4e68ba24e20114e4c6cba1cc7c4995a20b5c96",
+      "bytes": 18696692
+    },
+    {
+      "id": "ls090",
+      "tier": "battle",
+      "file": "runtime/godot/static047/ls090-battle.glb",
+      "sha256": "e8cd76eb32498a5d6c59f437d7f146480f507a78eb16de0ecae7dd348cf6869b",
+      "bytes": 4936112
+    },
+    {
+      "id": "ls091",
+      "tier": "inspector",
+      "file": "source/ceramic-production/static048/ls091/ls091-inspector.glb",
+      "sha256": "4dcba677df20aac331623c876ed60c1d2d280620a595bfebc34d30167dfc1aa1",
+      "bytes": 26046920
+    },
+    {
+      "id": "ls091",
+      "tier": "battle",
+      "file": "source/ceramic-production/static048/ls091/ls091-battle.glb",
+      "sha256": "fd42bc44407f91105caad98f0bf3c2a2b83de5417ccdce12790264cee42fb379",
+      "bytes": 5075964
+    },
+    {
+      "id": "ls092",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/ls092-inspector.glb",
+      "sha256": "c0d527fb52a176ac1f5a60507aed0073c74b7fc3b4c322ee5faae8ed04f244f6",
+      "bytes": 20594632
+    },
+    {
+      "id": "ls092",
+      "tier": "battle",
+      "file": "runtime/godot/static047/ls092-battle.glb",
+      "sha256": "249efbb4fe3b40c91c7643f6f09ed715edb68e73526abae177f360f3bb754ede",
+      "bytes": 5240176
+    },
+    {
+      "id": "ls093",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/ls093-inspector.glb",
+      "sha256": "d4601095015fbc51fe86df613bc565eab407ef585629cccb777bf56922ecb839",
+      "bytes": 18571904
+    },
+    {
+      "id": "ls093",
+      "tier": "battle",
+      "file": "runtime/godot/static047/ls093-battle.glb",
+      "sha256": "0535c8ae8c2b3a5dbd330f1cd04bdd338acd401384267d196401246f5c5e4fe1",
+      "bytes": 4914328
+    },
+    {
+      "id": "ls094",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/ls094-inspector.glb",
+      "sha256": "a381c1eaddaa334c7b8b64a4c016dc911a3b5e7bc76aca987eef5ba135361621",
+      "bytes": 17183896
+    },
+    {
+      "id": "ls094",
+      "tier": "battle",
+      "file": "runtime/godot/static047/ls094-battle.glb",
+      "sha256": "03afd88b03bfd08b646da0ba2f94794688cbb887a6beab082639b71a602e8484",
+      "bytes": 4587136
+    },
+    {
+      "id": "ls095",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/ls095-inspector.glb",
+      "sha256": "f3ef7602fb744fc950866e34f3761bc025dd5729962e00703196903cfdbe7a93",
+      "bytes": 18943944
+    },
+    {
+      "id": "ls095",
+      "tier": "battle",
+      "file": "runtime/godot/static047/ls095-battle.glb",
+      "sha256": "1dab84a71779cd515ea4e78354b717ec293e7cebcb0c51665666433a4439a66e",
+      "bytes": 5001908
+    },
+    {
+      "id": "ls096",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/ls096-inspector.glb",
+      "sha256": "04a5c23770304dd2a9eb67366b0e6824e0d2b696119506b1a9b711a710ee744f",
+      "bytes": 18276492
+    },
+    {
+      "id": "ls096",
+      "tier": "battle",
+      "file": "runtime/godot/static047/ls096-battle.glb",
+      "sha256": "2132edc7544c4205767276ff0e3bc8c3ddc124ce3f51d2cb8529d568d072d8dc",
+      "bytes": 4810040
+    },
+    {
+      "id": "ls097",
+      "tier": "inspector",
+      "file": "source/ceramic-production/static048/ls097/ls097-inspector.glb",
+      "sha256": "0c1c864cfbcdc50bdd0b9ffa92f5f5022a1a29feb51cf76a05bd12ed23eef084",
+      "bytes": 25310472
+    },
+    {
+      "id": "ls097",
+      "tier": "battle",
+      "file": "source/ceramic-production/static048/ls097/ls097-battle.glb",
+      "sha256": "8f42a8b5fb27652acfe9c9486bddae045552ea59248026a5ea81708e98d97224",
+      "bytes": 4885856
+    },
+    {
+      "id": "ls098",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/ls098-inspector.glb",
+      "sha256": "1ee7d453a2a00ebb3ab794d7bc927b743f1c376753edf09f5e2decbb4e54358a",
+      "bytes": 20843272
+    },
+    {
+      "id": "ls098",
+      "tier": "battle",
+      "file": "runtime/godot/static047/ls098-battle.glb",
+      "sha256": "40c7909c50c02f9e8f26288be9faf341d24453af3c1063cb2930ca5ec6503faf",
+      "bytes": 5437916
+    },
+    {
+      "id": "ls099",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/ls099-inspector.glb",
+      "sha256": "01374b43fd4e916f14f95f056d73735e3e10cccb6a31270bc1b5a91a319687b7",
+      "bytes": 19221372
+    },
+    {
+      "id": "ls099",
+      "tier": "battle",
+      "file": "runtime/godot/static047/ls099-battle.glb",
+      "sha256": "558332b4ce96d36a3ffba9fa627f18ab08ac6e1dd1e86f9e91d47b14a8a50a7f",
+      "bytes": 5055104
+    },
+    {
+      "id": "ls100",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/ls100-inspector.glb",
+      "sha256": "0892b0122be0e98acde2456d29b4078af75dfa8fe2cb5a05d8845bc2cce9e4f0",
+      "bytes": 23547752
+    },
+    {
+      "id": "ls100",
+      "tier": "battle",
+      "file": "runtime/godot/static047/ls100-battle.glb",
+      "sha256": "ea2dcf6b43b761cba9bdd315dc8f30e94af5d691413237e50e4aa44a2db19ec4",
+      "bytes": 6297676
+    },
+    {
+      "id": "ls101",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/ls101-inspector.glb",
+      "sha256": "db15f96cd870345939dcf051091a86231356fb2de12c47548d99de104ad3bb89",
+      "bytes": 24943108
+    },
+    {
+      "id": "ls101",
+      "tier": "battle",
+      "file": "runtime/godot/static047/ls101-battle.glb",
+      "sha256": "f9cb5ccc9e456b32f38fe054dce0f11450cc05e7fbacf8efdd15ccf04b57af1b",
+      "bytes": 6583212
+    },
+    {
+      "id": "ls102",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/ls102-inspector.glb",
+      "sha256": "3b578a8efea5a83d0017ef9f2e1a424004c0e54ddd593a676308a1df450dd043",
+      "bytes": 18873648
+    },
+    {
+      "id": "ls102",
+      "tier": "battle",
+      "file": "runtime/godot/static047/ls102-battle.glb",
+      "sha256": "2d365ae895ee686d7b7ffb2779b18c23363bf16aae8f9f07e99851c886c67248",
+      "bytes": 4998212
+    },
+    {
+      "id": "ls103",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/ls103-inspector.glb",
+      "sha256": "8ee3a3c9bbcfe9b0d2337776f6915bf811b189940a69f7977549daf7f06246cb",
+      "bytes": 25320980
+    },
+    {
+      "id": "ls103",
+      "tier": "battle",
+      "file": "runtime/godot/static047/ls103-battle.glb",
+      "sha256": "b0ad6cd149d378f52566754426c68cac19ef49528ab9a7d01ff018ed42579604",
+      "bytes": 6790292
+    },
+    {
+      "id": "ls104",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/ls104-inspector.glb",
+      "sha256": "10f432230ce03351abf636d40b40f117a45e40dbbf092c262dcb4f0feb8edfde",
+      "bytes": 20271772
+    },
+    {
+      "id": "ls104",
+      "tier": "battle",
+      "file": "runtime/godot/static047/ls104-battle.glb",
+      "sha256": "27c8cec67302735c0193a0bdcd118002e11d6a07fedf533e77f804470730fbde",
+      "bytes": 5262716
+    },
+    {
+      "id": "ls105",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/ls105-inspector.glb",
+      "sha256": "c5c94550ab0ad79afdab7afd1ae6fd9d21f511a5714d206908f438c34583fd96",
+      "bytes": 19270624
+    },
+    {
+      "id": "ls105",
+      "tier": "battle",
+      "file": "runtime/godot/static047/ls105-battle.glb",
+      "sha256": "75652cceda931e9bbcc81e7a0e2085e91588331941aaa974a280b3fef9333192",
+      "bytes": 5119760
+    },
+    {
+      "id": "ls106",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/ls106-inspector.glb",
+      "sha256": "1c56aefe103e67cd9cf87bc94411a7b742fc41a6ca60c58a836f1726b8aed462",
+      "bytes": 18278796
+    },
+    {
+      "id": "ls106",
+      "tier": "battle",
+      "file": "runtime/godot/static047/ls106-battle.glb",
+      "sha256": "46ff942c8c82a3ead94a76373d6cff872a87b42ad698dc77415a60b7569fe6ac",
+      "bytes": 4749296
+    },
+    {
+      "id": "ls107",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/ls107-inspector.glb",
+      "sha256": "be956c940e52866e6f268c203ea028530d6b65de097b36f58b6845ad7e3030b8",
+      "bytes": 18264872
+    },
+    {
+      "id": "ls107",
+      "tier": "battle",
+      "file": "runtime/godot/static047/ls107-battle.glb",
+      "sha256": "44071381a0c903dc979a0852a74ed8da812ce6600019bed060b6996ad9c8c883",
+      "bytes": 4859460
+    },
+    {
+      "id": "ls108",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/ls108-inspector.glb",
+      "sha256": "d9a7d7ec18266fd26931aecec933d1c143c8675e132a3d4636af83d622d4c3c9",
+      "bytes": 20317328
+    },
+    {
+      "id": "ls108",
+      "tier": "battle",
+      "file": "runtime/godot/static047/ls108-battle.glb",
+      "sha256": "e50b5113b4b9a2ca773c9cae958a2955ca51390bc8fa601f134e1865075c0d7c",
+      "bytes": 5445128
+    },
+    {
+      "id": "wm001",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/wm001-inspector.glb",
+      "sha256": "10aab1db6dc94a8a1682070ff39f6b0174114d9970348b9c02cae00bca7db3a1",
+      "bytes": 17723452
+    },
+    {
+      "id": "wm001",
+      "tier": "battle",
+      "file": "runtime/godot/static047/wm001-battle.glb",
+      "sha256": "b118ed71ab794cc525afe6f81c0721cced0fe2d7b23d79f4ca5afb99c1ccc3d4",
+      "bytes": 4693740
+    },
+    {
+      "id": "wm002",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/wm002-inspector.glb",
+      "sha256": "424155c4c0f358d647e8d88c7acd72826a73d421554f4c8084a38a8ee5126871",
+      "bytes": 18385648
+    },
+    {
+      "id": "wm002",
+      "tier": "battle",
+      "file": "runtime/godot/static047/wm002-battle.glb",
+      "sha256": "559413887cd47953e002b93ee11850dcd86bd5f798b91e88fe8a3f63d7d71a6f",
+      "bytes": 4901812
+    },
+    {
+      "id": "wm003",
+      "tier": "inspector",
+      "file": "source/ceramic-production/static048/wm003/wm003-inspector.glb",
+      "sha256": "a103e15beb028912767fd0e6d01beaaa160b65ad6cccc3b6484e62decc6472ef",
+      "bytes": 26018676
+    },
+    {
+      "id": "wm003",
+      "tier": "battle",
+      "file": "source/ceramic-production/static048/wm003/wm003-battle.glb",
+      "sha256": "10b15819fd0a341924446188b2af35f15a51e5162a2ec903a109dc36aed54f5c",
+      "bytes": 5065944
+    },
+    {
+      "id": "wm004",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/wm004-inspector.glb",
+      "sha256": "70547121c357bd5b50c4b51705b8c24135e25707bae0fb5d271f94fce0480a42",
+      "bytes": 16768836
+    },
+    {
+      "id": "wm004",
+      "tier": "battle",
+      "file": "runtime/godot/static047/wm004-battle.glb",
+      "sha256": "08dda2c99a7a652043a4fdadef13ab55c8b0650e15e7a531c932b983048835be",
+      "bytes": 4349048
+    },
+    {
+      "id": "wm005",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/wm005-inspector.glb",
+      "sha256": "208bb75922a5c91d07563f3df054d0463d49da3d8cde173c5336f7b9346a04db",
+      "bytes": 18873928
+    },
+    {
+      "id": "wm005",
+      "tier": "battle",
+      "file": "runtime/godot/static047/wm005-battle.glb",
+      "sha256": "6f7330dfbfd5dca5d6aa1ac8d69e29642fef1166c094bc5e6045d5e0ce4e83fa",
+      "bytes": 5050304
+    },
+    {
+      "id": "wm006",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/wm006-inspector.glb",
+      "sha256": "7a53335a97cf973433430b45f77d135117fdf43e5d286041e29e2262d54c8ab7",
+      "bytes": 16882352
+    },
+    {
+      "id": "wm006",
+      "tier": "battle",
+      "file": "runtime/godot/static047/wm006-battle.glb",
+      "sha256": "5de1060a519c7772dcfa1e45ab784c689b1b40e897b1df861b711c937e9cdfca",
+      "bytes": 4495560
+    },
+    {
+      "id": "wm007",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/wm007-inspector.glb",
+      "sha256": "9310ecc9d3aeba5448e5d1fa151baecf1d371fb01c7ff01ed30399eebba5d03c",
+      "bytes": 19074644
+    },
+    {
+      "id": "wm007",
+      "tier": "battle",
+      "file": "runtime/godot/static047/wm007-battle.glb",
+      "sha256": "5817ecd90cb3b47f30f1e4c1907f55c1190c1f480fe0b71e25d9c17d71749c22",
+      "bytes": 5103168
+    },
+    {
+      "id": "wm008",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/wm008-inspector.glb",
+      "sha256": "7b08a34b030eea85bb18d5f60eb45ba16b25e07b405a69e2b6fd417d02a6557d",
+      "bytes": 17019948
+    },
+    {
+      "id": "wm008",
+      "tier": "battle",
+      "file": "runtime/godot/static047/wm008-battle.glb",
+      "sha256": "aed1121bc85a828282ed8900d85f63b4b48dc976435aae5a28d713e81836e868",
+      "bytes": 4474316
+    },
+    {
+      "id": "wm009",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/wm009-inspector.glb",
+      "sha256": "81c07eed41e2846bbebc2970de5bafb2fc20b19b51a65bca98a9b6a0097d5d81",
+      "bytes": 18799784
+    },
+    {
+      "id": "wm009",
+      "tier": "battle",
+      "file": "runtime/godot/static047/wm009-battle.glb",
+      "sha256": "b5baa1d6c6fae5005ee7bb812e42acd94fc2675d04292efc19965709537e4034",
+      "bytes": 4927240
+    },
+    {
+      "id": "wm010",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/wm010-inspector.glb",
+      "sha256": "d6fa57e4e318d3f261235f2b673ed2b9b7014fde31d66f712078274135b5b32d",
+      "bytes": 16346232
+    },
+    {
+      "id": "wm010",
+      "tier": "battle",
+      "file": "runtime/godot/static047/wm010-battle.glb",
+      "sha256": "9a0668ef57133c6eb0afb4fd1949809f021c808220046a86f0052b25a81cb151",
+      "bytes": 4283868
+    },
+    {
+      "id": "wm011",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/wm011-inspector.glb",
+      "sha256": "135abe1d1f637157103c7fcaefd4f9ef58c2e69afb8235199399488e46d3872b",
+      "bytes": 17604564
+    },
+    {
+      "id": "wm011",
+      "tier": "battle",
+      "file": "runtime/godot/static047/wm011-battle.glb",
+      "sha256": "9d86fe9b59f63d6cb0e897314503c62d99f224dc71c22ec98ead3ca82785e8fc",
+      "bytes": 4687048
+    },
+    {
+      "id": "wm012",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/wm012-inspector.glb",
+      "sha256": "5f73371d786cc1dc1aa5969ee7d30ef6be91496be269d6747ade4445e6fe671c",
+      "bytes": 19975332
+    },
+    {
+      "id": "wm012",
+      "tier": "battle",
+      "file": "runtime/godot/static047/wm012-battle.glb",
+      "sha256": "d8a11dd8d0db56f668228bc7c2bcd0b8d18196aace23ca84a00c5e38cdda6228",
+      "bytes": 5316188
+    },
+    {
+      "id": "wm013",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/wm013-inspector.glb",
+      "sha256": "cf6041c852d84f14ff30b59d5e1dbdba04b4d71637a265ef50cf68dfb1352c67",
+      "bytes": 18694508
+    },
+    {
+      "id": "wm013",
+      "tier": "battle",
+      "file": "runtime/godot/static047/wm013-battle.glb",
+      "sha256": "9df47c198ae18b7365c74c91e9acc13cf53c6642d72f7434a3049e22c5d63576",
+      "bytes": 5005072
+    },
+    {
+      "id": "wm014",
+      "tier": "inspector",
+      "file": "source/ceramic-production/static048/wm014/wm014-inspector.glb",
+      "sha256": "ff7b615bc0a54b1277deb240436b7b2bf5101db9da41dbd08be182a7f54dabe4",
+      "bytes": 23659792
+    },
+    {
+      "id": "wm014",
+      "tier": "battle",
+      "file": "source/ceramic-production/static048/wm014/wm014-battle.glb",
+      "sha256": "9cd7b80d47d99a4513a9f471b24b2ef796d03176510f9b27129f580758c7d8dc",
+      "bytes": 4974220
+    },
+    {
+      "id": "wm015",
+      "tier": "inspector",
+      "file": "source/ceramic-production/static048-v3/wm015/wm015-inspector.glb",
+      "sha256": "843328163bcfa8075cfd46c7166933d5519429aef0c0e559eb65cb44645cf789",
+      "bytes": 23983072
+    },
+    {
+      "id": "wm015",
+      "tier": "battle",
+      "file": "source/ceramic-production/static048-v3/wm015/wm015-battle.glb",
+      "sha256": "570760537b0ada6b05fa77eee735b9e14aebac11e4ec8b6bea9f702bdccece00",
+      "bytes": 4843332
+    },
+    {
+      "id": "wm016",
+      "tier": "inspector",
+      "file": "source/ceramic-production/static048/wm016/wm016-inspector.glb",
+      "sha256": "2aeab3f6b3a2d320caf01cb8603bbaf38fe65b570caf90061d134cd077ad79b0",
+      "bytes": 25544708
+    },
+    {
+      "id": "wm016",
+      "tier": "battle",
+      "file": "source/ceramic-production/static048/wm016/wm016-battle.glb",
+      "sha256": "9a9abf1730d0315c9d5c7be0858e80773c115f108e166a4ad7ec3cca5313ce8e",
+      "bytes": 4939372
+    },
+    {
+      "id": "wm017",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/wm017-inspector.glb",
+      "sha256": "6ff114879cb7116d9283c918756afacc3843a0aa0189168f75e7543d40568992",
+      "bytes": 17879804
+    },
+    {
+      "id": "wm017",
+      "tier": "battle",
+      "file": "runtime/godot/static047/wm017-battle.glb",
+      "sha256": "c21964194fe02b3f256ecda2f562ba8920d7469c44828e45c2551fba0fc06160",
+      "bytes": 4667740
+    },
+    {
+      "id": "wm018",
+      "tier": "inspector",
+      "file": "source/ceramic-production/static048-v3/wm018/wm018-inspector.glb",
+      "sha256": "21f3ce548871f6e18530f62f9e55c500cb9cabae1e3d389d819da11309119237",
+      "bytes": 24418612
+    },
+    {
+      "id": "wm018",
+      "tier": "battle",
+      "file": "source/ceramic-production/static048-v3/wm018/wm018-battle.glb",
+      "sha256": "8576378dc1a63aed90f54ef0f2ffcb17bdc28a56e2542f7a75c9c9dc22fc5814",
+      "bytes": 4780748
+    },
+    {
+      "id": "wm019",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/wm019-inspector.glb",
+      "sha256": "c49c44fbabcd5d2a82ab6b633dc4feb4558e704dbc68c817f8cacd791e49ae85",
+      "bytes": 18736088
+    },
+    {
+      "id": "wm019",
+      "tier": "battle",
+      "file": "runtime/godot/static047/wm019-battle.glb",
+      "sha256": "4c28ee118f940852adb67b29e917dd1e0e992a43cadebd49483da81ea5e84577",
+      "bytes": 5016628
+    },
+    {
+      "id": "wm020",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/wm020-inspector.glb",
+      "sha256": "9398ccf5f58d67b04507c2c3e99948e10e16aa27cdd8406fce2208e8f778f6f4",
+      "bytes": 18051084
+    },
+    {
+      "id": "wm020",
+      "tier": "battle",
+      "file": "runtime/godot/static047/wm020-battle.glb",
+      "sha256": "23077a9245d2c6b6cbab2eb8190e272703d36312984fb01dc0241921de0386a0",
+      "bytes": 4745980
+    },
+    {
+      "id": "wm021",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/wm021-inspector.glb",
+      "sha256": "1e54f84172e85cda64405afe9a6a22119dc21f1aa536efa36b69825c846241f1",
+      "bytes": 19205720
+    },
+    {
+      "id": "wm021",
+      "tier": "battle",
+      "file": "runtime/godot/static047/wm021-battle.glb",
+      "sha256": "b18f700ab6b0ed7ed665f4f355804bd78fb371c18cf113f9e46826052d09492d",
+      "bytes": 5104732
+    },
+    {
+      "id": "wm022",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/wm022-inspector.glb",
+      "sha256": "5ba7896d670ae4de216cc9457ad7847446f9decca4fe70bcec7dc6948aa3c43a",
+      "bytes": 18512988
+    },
+    {
+      "id": "wm022",
+      "tier": "battle",
+      "file": "runtime/godot/static047/wm022-battle.glb",
+      "sha256": "5b83ba3394010967929b2e7ab0e9f2257b27ffd9bb7278bbeb531bf3ad79d853",
+      "bytes": 4849196
+    },
+    {
+      "id": "wm023",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/wm023-inspector.glb",
+      "sha256": "506c9edc6ba2bda670ce35147e78e709cb95a7419ee63a7d6f7b558763da654b",
+      "bytes": 17843452
+    },
+    {
+      "id": "wm023",
+      "tier": "battle",
+      "file": "runtime/godot/static047/wm023-battle.glb",
+      "sha256": "3cc87a2bf859d3243109c838624e2043a18448c9327250ea011809dc3dae51da",
+      "bytes": 4755768
+    },
+    {
+      "id": "wm024",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/wm024-inspector.glb",
+      "sha256": "0f2f93785197244124bbfcbe661fa662e791b75fbdf206bd22f682edaf420a23",
+      "bytes": 18761988
+    },
+    {
+      "id": "wm024",
+      "tier": "battle",
+      "file": "runtime/godot/static047/wm024-battle.glb",
+      "sha256": "91f812453f06e9771edf34202fb011777bee45f51c451e5e87406f5203144cef",
+      "bytes": 5049188
+    },
+    {
+      "id": "wm025",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/wm025-inspector.glb",
+      "sha256": "b322f7a8b4531dc9a33c8af3c70386ddc50e66dc5ea1ed45a04c789c9b005948",
+      "bytes": 19114448
+    },
+    {
+      "id": "wm025",
+      "tier": "battle",
+      "file": "runtime/godot/static047/wm025-battle.glb",
+      "sha256": "3a134bc9bc611cad9550b2b2169b9cc73a068b13462b0e2fab23ea9db499c8a4",
+      "bytes": 5047824
+    },
+    {
+      "id": "wm026",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/wm026-inspector.glb",
+      "sha256": "06282465dbe9491d033c14d15e780e6d697abe2973ef25b9623bcccc10fabcfa",
+      "bytes": 18119304
+    },
+    {
+      "id": "wm026",
+      "tier": "battle",
+      "file": "runtime/godot/static047/wm026-battle.glb",
+      "sha256": "a087d79c92460c5d1265a46171c419a06bd64db09aff4c6515c333eb14113ed2",
+      "bytes": 4752072
+    },
+    {
+      "id": "wm027",
+      "tier": "inspector",
+      "file": "source/ceramic-production/static048/wm027/wm027-inspector.glb",
+      "sha256": "129759670aef8d50aa6156174cadcfb65d9de13241622aeea097495d3348561f",
+      "bytes": 24851352
+    },
+    {
+      "id": "wm027",
+      "tier": "battle",
+      "file": "source/ceramic-production/static048/wm027/wm027-battle.glb",
+      "sha256": "452488b1b10cd4e5658e574374ba32af256ccbf759adf8611802db050befedb3",
+      "bytes": 5056836
+    },
+    {
+      "id": "wm028",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/wm028-inspector.glb",
+      "sha256": "994ebd4e4b7de30de25b420d3e8bf37db172b6c937f9cf3305006ae76bb8f8a0",
+      "bytes": 18860732
+    },
+    {
+      "id": "wm028",
+      "tier": "battle",
+      "file": "runtime/godot/static047/wm028-battle.glb",
+      "sha256": "6d16b30454f0d0138ad894708de5a44a08bdc51e1b3ce5752f7c7cbc0ce08f55",
+      "bytes": 5088068
+    },
+    {
+      "id": "wm029",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/wm029-inspector.glb",
+      "sha256": "39760e2fb7cc7edece42c66707b4f8468dcf4ea2f444ac25a0a3d5cac0974bc5",
+      "bytes": 16783368
+    },
+    {
+      "id": "wm029",
+      "tier": "battle",
+      "file": "runtime/godot/static047/wm029-battle.glb",
+      "sha256": "71e2698dbd865a6fa0c0b346cb24f76246209e307ae0bfeaf81604267acae8fa",
+      "bytes": 4443136
+    },
+    {
+      "id": "wm030",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/wm030-inspector.glb",
+      "sha256": "2d497c994be35d731ea9414487cd38d27dcad058418138579e0583002be39668",
+      "bytes": 18778264
+    },
+    {
+      "id": "wm030",
+      "tier": "battle",
+      "file": "runtime/godot/static047/wm030-battle.glb",
+      "sha256": "926bd3fc52a1fa9f12ea72ccb53faedad653712e78469b97dd06d78d6a75e930",
+      "bytes": 5104724
+    },
+    {
+      "id": "wm031",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/wm031-inspector.glb",
+      "sha256": "f9513537da8dfc0a3e858036036e9eeacb298ea6d65870dbce5b66277a038e2f",
+      "bytes": 18711020
+    },
+    {
+      "id": "wm031",
+      "tier": "battle",
+      "file": "runtime/godot/static047/wm031-battle.glb",
+      "sha256": "ce62d68b98cbe23caab9c5c2e5187e02f79a0d48d3d2070801182adca01e4de1",
+      "bytes": 5019152
+    },
+    {
+      "id": "wm032",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/wm032-inspector.glb",
+      "sha256": "c32e30f8aa321d13a155cce56634907b10a0b26d6f2b8c635d4aad39894c219d",
+      "bytes": 18581808
+    },
+    {
+      "id": "wm032",
+      "tier": "battle",
+      "file": "runtime/godot/static047/wm032-battle.glb",
+      "sha256": "dd0201782aebd066aa3acb560c5a2188c37b275b0d47e01aa510be7de1453fbe",
+      "bytes": 5003016
+    },
+    {
+      "id": "wm033",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/wm033-inspector.glb",
+      "sha256": "665b15bb17269e5781ba04ede6be989dcb5b9c8d4651ef0f3d33ef03e844d03a",
+      "bytes": 18725408
+    },
+    {
+      "id": "wm033",
+      "tier": "battle",
+      "file": "runtime/godot/static047/wm033-battle.glb",
+      "sha256": "780991f5233d3b5ee2dd84cd2eeb9b2c74a5ee98830e68a01e6792e347722e3c",
+      "bytes": 4897776
+    },
+    {
+      "id": "wm034",
+      "tier": "inspector",
+      "file": "source/ceramic-production/static048/wm034/wm034-inspector.glb",
+      "sha256": "e7c2658a6ddd3622e9d86480a651d93f42217fc9aeae7cfb683ca15073d1ea5f",
+      "bytes": 24977248
+    },
+    {
+      "id": "wm034",
+      "tier": "battle",
+      "file": "source/ceramic-production/static048/wm034/wm034-battle.glb",
+      "sha256": "3b8cf183545fc0d5962fa06d87c427676cceb311e181f0bfb01d46f17cc33ba0",
+      "bytes": 5014244
+    },
+    {
+      "id": "wm035",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/wm035-inspector.glb",
+      "sha256": "1a7f3b24c4fd481813d426382b4cac46b40705aeec6f39ada8c385256e09a28e",
+      "bytes": 17218696
+    },
+    {
+      "id": "wm035",
+      "tier": "battle",
+      "file": "runtime/godot/static047/wm035-battle.glb",
+      "sha256": "ba8a3322905a18633149e567cf084010cbd7ebed798530165edbf7137e7905c8",
+      "bytes": 4567952
+    },
+    {
+      "id": "wm036",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/wm036-inspector.glb",
+      "sha256": "cdb9572509f1e6bd367a966abab3ddbed33950e13a32e095ef3400ce181cf7c4",
+      "bytes": 19488816
+    },
+    {
+      "id": "wm036",
+      "tier": "battle",
+      "file": "runtime/godot/static047/wm036-battle.glb",
+      "sha256": "5a268c83ea5a19c53a99fc99f0bc1499e9b6c07b63dd86c25d4e0ba22616da75",
+      "bytes": 5293596
+    },
+    {
+      "id": "wm037",
+      "tier": "inspector",
+      "file": "source/ceramic-production/static048/wm037/wm037-inspector.glb",
+      "sha256": "d2d61220c985aa467addfdff2ceaec0ed011c4459c91599ac578e80e01ec02b1",
+      "bytes": 24031596
+    },
+    {
+      "id": "wm037",
+      "tier": "battle",
+      "file": "source/ceramic-production/static048/wm037/wm037-battle.glb",
+      "sha256": "a70e1550637261cd2370613db44aa6a9666b2a8b1c9692672645556395d4997f",
+      "bytes": 4869572
+    },
+    {
+      "id": "wm038",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/wm038-inspector.glb",
+      "sha256": "a215e1c62828a758e4121cd083ecbf2b5ac6a6cbe6c70a885d79cc39da729836",
+      "bytes": 19275000
+    },
+    {
+      "id": "wm038",
+      "tier": "battle",
+      "file": "runtime/godot/static047/wm038-battle.glb",
+      "sha256": "c63c963acb25a9e1710192b473948edffdd7e93171bc5bf35dd83441b5eca759",
+      "bytes": 5150836
+    },
+    {
+      "id": "wm039",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/wm039-inspector.glb",
+      "sha256": "85eba4b4c9dee7abe92ce6b87d55a6dff381cc9ad21ad53ce1c657c0945e7e21",
+      "bytes": 18379048
+    },
+    {
+      "id": "wm039",
+      "tier": "battle",
+      "file": "runtime/godot/static047/wm039-battle.glb",
+      "sha256": "f91030b1b3f0c6c429e9ed658879dc6015100e377d67bcacbbaf1e95341b0540",
+      "bytes": 4833708
+    },
+    {
+      "id": "wm040",
+      "tier": "inspector",
+      "file": "source/ceramic-production/static048/wm040/wm040-inspector.glb",
+      "sha256": "335695328af131391d3a97d0bbbf9275949342b7aa8274a4071d78818d6709d9",
+      "bytes": 25250712
+    },
+    {
+      "id": "wm040",
+      "tier": "battle",
+      "file": "source/ceramic-production/static048/wm040/wm040-battle.glb",
+      "sha256": "0829b039ab6bb14fadad98100bc90c56cdd5bbf2e7e8c180c2de3942a292f8d7",
+      "bytes": 4899708
+    },
+    {
+      "id": "wm041",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/wm041-inspector.glb",
+      "sha256": "e898abe0a4f5f3f24da4c9533ae27d4d6ea717b81ede0d8d9b969cdd997764ca",
+      "bytes": 18505056
+    },
+    {
+      "id": "wm041",
+      "tier": "battle",
+      "file": "runtime/godot/static047/wm041-battle.glb",
+      "sha256": "615627966a3e1a38fcb44ae683cdc625143b5e43c2941ae9ebd9100a5776adba",
+      "bytes": 4955280
+    },
+    {
+      "id": "wm042",
+      "tier": "inspector",
+      "file": "source/ceramic-production/static048/wm042/wm042-inspector.glb",
+      "sha256": "d38bede6470408cbff1e20e8dc9064658e13f19ad01583766147a65e71dbc563",
+      "bytes": 23020920
+    },
+    {
+      "id": "wm042",
+      "tier": "battle",
+      "file": "source/ceramic-production/static048/wm042/wm042-battle.glb",
+      "sha256": "1a3a7d7158a9368814e3226f047bc393a43c7d2c900b4f1621a46f17f860c845",
+      "bytes": 4279044
+    },
+    {
+      "id": "wm043",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/wm043-inspector.glb",
+      "sha256": "4ea34c0178b275b05b4a35f3d64751c6dbbbfd8bafd614f39da294a21c8e61f2",
+      "bytes": 19248360
+    },
+    {
+      "id": "wm043",
+      "tier": "battle",
+      "file": "runtime/godot/static047/wm043-battle.glb",
+      "sha256": "80aeb228be72a4b74a524bc8b5ef3a0e1ce94231644199df66897145aba8c43d",
+      "bytes": 5119284
+    },
+    {
+      "id": "wm044",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/wm044-inspector.glb",
+      "sha256": "b08079d10508924f26cb19004bc61e209eb8e4c2cb14a9e8322d0dcaf2232712",
+      "bytes": 19327524
+    },
+    {
+      "id": "wm044",
+      "tier": "battle",
+      "file": "runtime/godot/static047/wm044-battle.glb",
+      "sha256": "08849422cdb4f51682960d7b0cbc0dcaee48782bf1e2e48153b64deae96e0117",
+      "bytes": 5137240
+    },
+    {
+      "id": "wm045",
+      "tier": "inspector",
+      "file": "runtime/godot/bulk042/wm045-inspector.glb",
+      "sha256": "d6af649745f0a1512e8ebabf0c5760476c7fea0ec278dc7e303d02c5bfc2144b",
+      "bytes": 13899236
+    },
+    {
+      "id": "wm045",
+      "tier": "battle",
+      "file": "runtime/godot/bulk042/wm045-battle.glb",
+      "sha256": "3cae92132284f51ea2c8ca14c0f960fcad1e7bb3d28f940747b2c2756243c829",
+      "bytes": 4745416
+    },
+    {
+      "id": "wm046",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/wm046-inspector.glb",
+      "sha256": "4da849aeb4e79f0f4fdac14d8be41da51c1060db094bada81dfb35d720817f8d",
+      "bytes": 18164736
+    },
+    {
+      "id": "wm046",
+      "tier": "battle",
+      "file": "runtime/godot/static047/wm046-battle.glb",
+      "sha256": "f83b502d567acda2c652aa66e18fe23cbe4020f1f6b274edd5737bba36db5dfe",
+      "bytes": 4778852
+    },
+    {
+      "id": "wm047",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/wm047-inspector.glb",
+      "sha256": "07341d619e03bd5ec6583b7d28d3ae60aa7dcfa265b7d40c7d516f67bb852b4d",
+      "bytes": 19233588
+    },
+    {
+      "id": "wm047",
+      "tier": "battle",
+      "file": "runtime/godot/static047/wm047-battle.glb",
+      "sha256": "c7b45e06cb4d8686bedff000ba149aa45cd23a8bbd506b128221dbe9e8377f7c",
+      "bytes": 5096812
+    },
+    {
+      "id": "wm048",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/wm048-inspector.glb",
+      "sha256": "74abc03cbde8aa4e2d540dc1acdd0cae54c6b08f921f17bb0be5676b0b68c6d5",
+      "bytes": 18568644
+    },
+    {
+      "id": "wm048",
+      "tier": "battle",
+      "file": "runtime/godot/static047/wm048-battle.glb",
+      "sha256": "159723f428cddbea4e748a8a54dd3f456b793db0120c7c4d4b271ed36e68aca0",
+      "bytes": 4947332
+    },
+    {
+      "id": "wm049",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/wm049-inspector.glb",
+      "sha256": "a5203c9de8227c393604311767b0615d00ad6d6f2633568a1d5990c976cb4d31",
+      "bytes": 18146264
+    },
+    {
+      "id": "wm049",
+      "tier": "battle",
+      "file": "runtime/godot/static047/wm049-battle.glb",
+      "sha256": "f62aa17228e25f6bd4bd9fdb2f8fee9f8d0861e1f80b99223e9f48433bb906be",
+      "bytes": 4797196
+    },
+    {
+      "id": "wm050",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/wm050-inspector.glb",
+      "sha256": "f533d5c7cfdcae46d12bef2adf0b8907962c8ba799a24bea65f134b300ecbecd",
+      "bytes": 20063036
+    },
+    {
+      "id": "wm050",
+      "tier": "battle",
+      "file": "runtime/godot/static047/wm050-battle.glb",
+      "sha256": "7e88647bd2308385f117ab4a957f1dcf500d5831aa98192026ffc3a8d8a7e4fd",
+      "bytes": 5130624
+    },
+    {
+      "id": "wm051",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/wm051-inspector.glb",
+      "sha256": "d9dbb5a94c197458cdde8286ab84747d5e1bae1420832a94f9523d6ecc272a57",
+      "bytes": 18534592
+    },
+    {
+      "id": "wm051",
+      "tier": "battle",
+      "file": "runtime/godot/static047/wm051-battle.glb",
+      "sha256": "15560df1468f70c956059a8e0d8c9893b3d51798434da0d94b3f74420965255a",
+      "bytes": 4989684
+    },
+    {
+      "id": "wm052",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/wm052-inspector.glb",
+      "sha256": "2d878af476f2e110123493935663afc3a171dbd23ea888fc798d5f8300002150",
+      "bytes": 18638396
+    },
+    {
+      "id": "wm052",
+      "tier": "battle",
+      "file": "runtime/godot/static047/wm052-battle.glb",
+      "sha256": "b09b80fdd33ca0615d2a8b5f113b94fc33d000558daaec9c034f0d24052a0dd9",
+      "bytes": 4993040
+    },
+    {
+      "id": "wm053",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/wm053-inspector.glb",
+      "sha256": "d50a555ce64aeeb56dfd610ba2f7cc790b9c18d97ad71ce1880b329e7894e28b",
+      "bytes": 18616788
+    },
+    {
+      "id": "wm053",
+      "tier": "battle",
+      "file": "runtime/godot/static047/wm053-battle.glb",
+      "sha256": "cb5101f481ff6219519e166b9c73c486cf2e76aa7455c250a821414891a81d7a",
+      "bytes": 4962492
+    },
+    {
+      "id": "wm054",
+      "tier": "inspector",
+      "file": "source/ceramic-production/static048/wm054/wm054-inspector.glb",
+      "sha256": "2fa38a56be49aa1b48a3db9095a65848e2013de58b94890b9b0235fc0765621d",
+      "bytes": 38432812
+    },
+    {
+      "id": "wm054",
+      "tier": "battle",
+      "file": "source/ceramic-production/static048/wm054/wm054-battle.glb",
+      "sha256": "d606da499031475de59fd9f7f105f2fcb245b39698e1b1b0354501e8d255d672",
+      "bytes": 7750440
+    },
+    {
+      "id": "wm055",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/wm055-inspector.glb",
+      "sha256": "acd7267f0acb6d717328a7bcb74f3ed20be67444b00405a7c6564da0ec7c2e41",
+      "bytes": 18107908
+    },
+    {
+      "id": "wm055",
+      "tier": "battle",
+      "file": "runtime/godot/static047/wm055-battle.glb",
+      "sha256": "e433c855eb9737f3b124a1d69f533fec667821a6c800c92c3166ba41f6b68f57",
+      "bytes": 4781684
+    },
+    {
+      "id": "wm056",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/wm056-inspector.glb",
+      "sha256": "3e474241cb5473721f8955728fbf4b2591d97ec91965cf9cdcb4710114fa5529",
+      "bytes": 19338724
+    },
+    {
+      "id": "wm056",
+      "tier": "battle",
+      "file": "runtime/godot/static047/wm056-battle.glb",
+      "sha256": "74ee4cb8dc909b95aa3efb115ac2c3f8b553162f7063aaa9215e1576c6cd004c",
+      "bytes": 5170916
+    },
+    {
+      "id": "wm057",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/wm057-inspector.glb",
+      "sha256": "b5ab319e2c222d85d63ec9de1c0f4c33b479330c08642df25886affe8aa9b051",
+      "bytes": 17762056
+    },
+    {
+      "id": "wm057",
+      "tier": "battle",
+      "file": "runtime/godot/static047/wm057-battle.glb",
+      "sha256": "17b54d601380809619e2312a12eacba394223b749b43fc6d62b50c9be941afb9",
+      "bytes": 4655100
+    },
+    {
+      "id": "wm058",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/wm058-inspector.glb",
+      "sha256": "f5f73fc16211efdf2817a0ecd8bc2f31b165c1da6191d6346eab4ca2c0038d72",
+      "bytes": 18833412
+    },
+    {
+      "id": "wm058",
+      "tier": "battle",
+      "file": "runtime/godot/static047/wm058-battle.glb",
+      "sha256": "638df267c6c76bb7d6a67d6f8e9988ddc51ac75bf111fd288af7bb809842e4b1",
+      "bytes": 5059104
+    },
+    {
+      "id": "wm059",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/wm059-inspector.glb",
+      "sha256": "8302da04f074ba3e7c635afeec874e1afb94dcd75ef7892ceb2de342888c315e",
+      "bytes": 18287976
+    },
+    {
+      "id": "wm059",
+      "tier": "battle",
+      "file": "runtime/godot/static047/wm059-battle.glb",
+      "sha256": "1073bd4266ffc45eef9a7c6ded608879c40816c46b5df61541e9c22e4062a4b3",
+      "bytes": 4852964
+    },
+    {
+      "id": "wm060",
+      "tier": "inspector",
+      "file": "runtime/godot/static047/wm060-inspector.glb",
+      "sha256": "14127af0afadf30212139723e19d1e671c1567c7feadf444341a32b1ac7ec0c9",
+      "bytes": 20047780
+    },
+    {
+      "id": "wm060",
+      "tier": "battle",
+      "file": "runtime/godot/static047/wm060-battle.glb",
+      "sha256": "7c842ea31978871afde3b851405cd1342a7df5292d0cffedea0373b9e238b035",
+      "bytes": 5352652
+    },
+    {
+      "id": "abacus",
+      "tier": "inspector",
+      "file": "runtime/godot/bulk042/abacus-inspector.glb",
+      "sha256": "7142840f5ecbb4cf2ca558821caf16e5b8a9f9da0ec97fc92cc05532cddcede2",
+      "bytes": 12157740
+    },
+    {
+      "id": "abacus",
+      "tier": "battle",
+      "file": "runtime/godot/bulk042/abacus-battle.glb",
+      "sha256": "fb5bfad4f615c8aba92e764641cfe027153a995834ab9a5cb7c43f200fc603fd",
+      "bytes": 2353772
+    },
+    {
+      "id": "bamboo-basket",
+      "tier": "inspector",
+      "file": "runtime/godot/bulk042/bamboo-basket-inspector.glb",
+      "sha256": "acdc7aa0b7f8b399b990823b3f6ade577a7eb8b068d0db839407e836817af43b",
+      "bytes": 11447424
+    },
+    {
+      "id": "bamboo-basket",
+      "tier": "battle",
+      "file": "runtime/godot/bulk042/bamboo-basket-battle.glb",
+      "sha256": "f2a1c5df381737da7e6ae18733a919d16501da772a342f78da0b32e478448a9c",
+      "bytes": 2153004
+    },
+    {
+      "id": "banner",
+      "tier": "inspector",
+      "file": "runtime/godot/bulk042/banner-inspector.glb",
+      "sha256": "4c9c5ec88cb51c2053178ed6b8f131fd8fd9af9ea367f37d6fb4cde629d09c62",
+      "bytes": 11696388
+    },
+    {
+      "id": "banner",
+      "tier": "battle",
+      "file": "runtime/godot/bulk042/banner-battle.glb",
+      "sha256": "939f8c2a013315be0a5eab2ce0a974eac826d3cd06320681afd092885c632749",
+      "bytes": 2058804
+    },
+    {
+      "id": "bow",
+      "tier": "inspector",
+      "file": "runtime/godot/bulk042/bow-inspector.glb",
+      "sha256": "a5317fb18bcf18c024a116fd7fe924ab1c4e4210890eae10bf18af00314943c8",
+      "bytes": 10939724
+    },
+    {
+      "id": "bow",
+      "tier": "battle",
+      "file": "runtime/godot/bulk042/bow-battle.glb",
+      "sha256": "09fe2651759ca0c1b72c6608818fb61cbcac23cf1e0e15a326060c0a610879f0",
+      "bytes": 2261892
+    },
+    {
+      "id": "broad-axe",
+      "tier": "inspector",
+      "file": "runtime/godot/bulk042/broad-axe-inspector.glb",
+      "sha256": "8a3561cd7bfceee1dab46ae38fc513d0c9e627218be2115c259022d54e0162f9",
+      "bytes": 11483888
+    },
+    {
+      "id": "broad-axe",
+      "tier": "battle",
+      "file": "runtime/godot/bulk042/broad-axe-battle.glb",
+      "sha256": "f90b52dac8b011e3481ebe8e62ba8754da42b688039ba2e9c99a9c17803d5ca5",
+      "bytes": 2032664
+    },
+    {
+      "id": "broad-sword",
+      "tier": "inspector",
+      "file": "runtime/godot/bulk042/broad-sword-inspector.glb",
+      "sha256": "9814a339940e2828e042d5b5d1e59fc4eb0b9f47afe70e1e1f2f1d03e348cd89",
+      "bytes": 10830576
+    },
+    {
+      "id": "broad-sword",
+      "tier": "battle",
+      "file": "runtime/godot/bulk042/broad-sword-battle.glb",
+      "sha256": "2122dfeba110330b28113a64509a8998d7bac8f5f0f5427b65182042680c8279",
+      "bytes": 1591840
+    },
+    {
+      "id": "brush",
+      "tier": "inspector",
+      "file": "runtime/godot/bulk042/brush-inspector.glb",
+      "sha256": "86b1e4f8d2531ab668f957b0575a4b5d817c011680563244a136021fcb1656f0",
+      "bytes": 13228756
+    },
+    {
+      "id": "brush",
+      "tier": "battle",
+      "file": "runtime/godot/bulk042/brush-battle.glb",
+      "sha256": "a44ceeaa0a0c9466d1020112c0bd2a5239ebe7772df9a9e16cd1059008a2d8b1",
+      "bytes": 2588024
+    },
+    {
+      "id": "cannon-kit",
+      "tier": "inspector",
+      "file": "runtime/godot/bulk042/cannon-kit-inspector.glb",
+      "sha256": "8f31463027706fbfc360fd02b40b4b9df1297afa1321ea4b8f755560eb416711",
+      "bytes": 12498144
+    },
+    {
+      "id": "cannon-kit",
+      "tier": "battle",
+      "file": "runtime/godot/bulk042/cannon-kit-battle.glb",
+      "sha256": "a5a3e1a6a37e61739c15ef1174413a915a91998549f5820dbfbe0ed3b9397814",
+      "bytes": 2755180
+    },
+    {
+      "id": "carving-tools",
+      "tier": "inspector",
+      "file": "runtime/godot/bulk042/carving-tools-inspector.glb",
+      "sha256": "380de69fcaaf0c2fd1728224d63edca3e160ff89c5eccf1e1dcf4a681305516e",
+      "bytes": 10365000
+    },
+    {
+      "id": "carving-tools",
+      "tier": "battle",
+      "file": "runtime/godot/bulk042/carving-tools-battle.glb",
+      "sha256": "95a476148d2db5b0d18cfc0c63c057d053c18c218191fdb6abfe145ead71d14d",
+      "bytes": 2124260
+    },
+    {
+      "id": "ceremony-tablet",
+      "tier": "inspector",
+      "file": "runtime/godot/bulk042/ceremony-tablet-inspector.glb",
+      "sha256": "ee0a19602f91c23e4ac4972c069236c007d73d5ffce3436ad527c2b288a5c216",
+      "bytes": 9730100
+    },
+    {
+      "id": "ceremony-tablet",
+      "tier": "battle",
+      "file": "runtime/godot/bulk042/ceremony-tablet-battle.glb",
+      "sha256": "af57d2eceaa6091a655bc20f4b4f5a592ee2d2ec6f64959eb316adf156efdb53",
+      "bytes": 1291272
+    },
+    {
+      "id": "cleaver",
+      "tier": "inspector",
+      "file": "runtime/godot/bulk042/cleaver-inspector.glb",
+      "sha256": "333f30ae591cf189c854d13e1325c60911b2088da9902fa946dba8e7382a4317",
+      "bytes": 10578756
+    },
+    {
+      "id": "cleaver",
+      "tier": "battle",
+      "file": "runtime/godot/bulk042/cleaver-battle.glb",
+      "sha256": "f4766a24c4a8b1400272abe129a90ce929ea3891c0d93499c42755c8a4414857",
+      "bytes": 1969292
+    },
+    {
+      "id": "crescent-blade",
+      "tier": "inspector",
+      "file": "runtime/godot/bulk042/crescent-blade-inspector.glb",
+      "sha256": "35853cc4cebad901084cd7020e0973071ceaa5a69e5eb9c972af949685ec7d8a",
+      "bytes": 11748188
+    },
+    {
+      "id": "crescent-blade",
+      "tier": "battle",
+      "file": "runtime/godot/bulk042/crescent-blade-battle.glb",
+      "sha256": "346a1000f8e50e4e811df6ff3a8d917f3d2cb8d25f9e9464df7e92bec9c14072",
+      "bytes": 2227176
+    },
+    {
+      "id": "crossbow",
+      "tier": "inspector",
+      "file": "runtime/godot/bulk042/crossbow-inspector.glb",
+      "sha256": "b5b5809698d52068402d29df68008e7a33c9696c7b6a32cdb7220b42b2f1e61e",
+      "bytes": 11806832
+    },
+    {
+      "id": "crossbow",
+      "tier": "battle",
+      "file": "runtime/godot/bulk042/crossbow-battle.glb",
+      "sha256": "780edb4db7d432db0343c4faf57b2285872a49a2da5efd68c7d0374a3b3e38ef",
+      "bytes": 2186512
+    },
+    {
+      "id": "dao",
+      "tier": "inspector",
+      "file": "runtime/godot/bulk042/dao-inspector.glb",
+      "sha256": "a0b4efdbafe47d07bf4350883ebf29ce4ef7a91c88fe3462a6f28493a552e9c0",
+      "bytes": 11219092
+    },
+    {
+      "id": "dao",
+      "tier": "battle",
+      "file": "runtime/godot/bulk042/dao-battle.glb",
+      "sha256": "7f5a49e8d5bb120e844266c470a2f294c40098ff4a273308e20b6525489a6c5b",
+      "bytes": 1917972
+    },
+    {
+      "id": "execution-sword",
+      "tier": "inspector",
+      "file": "runtime/godot/bulk042/execution-sword-inspector.glb",
+      "sha256": "6bd85a50289966618fc99708aa6c77c88c4f87485ddba7ae04f99e6a60e5ad13",
+      "bytes": 10737552
+    },
+    {
+      "id": "execution-sword",
+      "tier": "battle",
+      "file": "runtime/godot/bulk042/execution-sword-battle.glb",
+      "sha256": "e60cc1ad13e5562aaed285781204672b22e3de5261815b7bfc0741868e5e46ac",
+      "bytes": 2028352
+    },
+    {
+      "id": "fan",
+      "tier": "inspector",
+      "file": "runtime/godot/bulk042/fan-inspector.glb",
+      "sha256": "4d598fed1f4c7266925708ef068bfcced92dae8c80d78217e50d742ee0fa2729",
+      "bytes": 11613380
+    },
+    {
+      "id": "fan",
+      "tier": "battle",
+      "file": "runtime/godot/bulk042/fan-battle.glb",
+      "sha256": "18322e919f235f29db4e0268fafa3549bff6a43c4a42a16f61774214e7751f37",
+      "bytes": 2011980
+    },
+    {
+      "id": "flail",
+      "tier": "inspector",
+      "file": "runtime/godot/bulk042/flail-inspector.glb",
+      "sha256": "81cb56d02a9bab0b9ed573a338a678cd311509964b31b8c5b3f5b992b7db49c8",
+      "bytes": 16090128
+    },
+    {
+      "id": "flail",
+      "tier": "battle",
+      "file": "runtime/godot/bulk042/flail-battle.glb",
+      "sha256": "0623e6a0adacc899e68112551b5a9596561829a182153f8c023f5e7569ea4041",
+      "bytes": 4267520
+    },
+    {
+      "id": "flute",
+      "tier": "inspector",
+      "file": "runtime/godot/bulk042/flute-inspector.glb",
+      "sha256": "f6e30269b46fc68fed39af1986b65fd4c1fa29afc40117932f53f104fa4e9a8f",
+      "bytes": 10473844
+    },
+    {
+      "id": "flute",
+      "tier": "battle",
+      "file": "runtime/godot/bulk042/flute-battle.glb",
+      "sha256": "108ebff1bd81e1b7ade20f6724621f85a3721ffdf614a69267a403511500438e",
+      "bytes": 2388648
+    },
+    {
+      "id": "flying-knives",
+      "tier": "inspector",
+      "file": "runtime/godot/bulk042/flying-knives-inspector.glb",
+      "sha256": "878729123d2655e0387b129bcc97ca911efef30a7e4a603f4d6f07b37efc4d65",
+      "bytes": 10368052
+    },
+    {
+      "id": "flying-knives",
+      "tier": "battle",
+      "file": "runtime/godot/bulk042/flying-knives-battle.glb",
+      "sha256": "84a71e0a5d262d5758a0acee8e1a7e82a79e80c5238d1e73d557583e242aa9b9",
+      "bytes": 1967936
+    },
+    {
+      "id": "flywhisk",
+      "tier": "inspector",
+      "file": "runtime/godot/bulk042/flywhisk-inspector.glb",
+      "sha256": "892c69d3500b84d93b9c5a35d4c6cb98c7615b2cc861a8a937bc9cccc48ebacc",
+      "bytes": 10846200
+    },
+    {
+      "id": "flywhisk",
+      "tier": "battle",
+      "file": "runtime/godot/bulk042/flywhisk-battle.glb",
+      "sha256": "d6a685068c942a8c0d166446444b6ee0ed110e452582096837e8f750da3f9411",
+      "bytes": 1809308
+    },
+    {
+      "id": "forked-blade",
+      "tier": "inspector",
+      "file": "runtime/godot/bulk042/forked-blade-inspector.glb",
+      "sha256": "2f50a11cf1e8a343797965d9ef69cc1c71725105db4d574e2b0f6887f588f42d",
+      "bytes": 11181636
+    },
+    {
+      "id": "forked-blade",
+      "tier": "battle",
+      "file": "runtime/godot/bulk042/forked-blade-battle.glb",
+      "sha256": "78a71d0e76156dd394c6c2223a62237d1edabad8910ed0fc4f0384c84df0c614",
+      "bytes": 1919960
+    },
+    {
+      "id": "halberd",
+      "tier": "inspector",
+      "file": "runtime/godot/bulk042/halberd-inspector.glb",
+      "sha256": "ebdf4885c8da2f656b878791863dde7aaafe41ab60383c87b6b0e7f8b1cd9eb7",
+      "bytes": 11233520
+    },
+    {
+      "id": "halberd",
+      "tier": "battle",
+      "file": "runtime/godot/bulk042/halberd-battle.glb",
+      "sha256": "cf07ef43f38f4b95528126f84787481ca67a6d85983c096c5b6f8ccb62a8a131",
+      "bytes": 1846624
+    },
+    {
+      "id": "hammer",
+      "tier": "inspector",
+      "file": "runtime/godot/bulk042/hammer-inspector.glb",
+      "sha256": "14a0be176b45cbc8153cb2efaf008f6b2c7581ca6d50aedb10177359e91d7594",
+      "bytes": 11298372
+    },
+    {
+      "id": "hammer",
+      "tier": "battle",
+      "file": "runtime/godot/bulk042/hammer-battle.glb",
+      "sha256": "553fdfdcda75aae1b57b456c1c05dc148bcbad0ce1af061ab47b08a2cb52b67e",
+      "bytes": 1882436
+    },
+    {
+      "id": "hook-spear",
+      "tier": "inspector",
+      "file": "runtime/godot/bulk042/hook-spear-inspector.glb",
+      "sha256": "663494c5d8dec3cb35a1ee5d2c587d4dc9b427076c2512c66457a2ca01b8b057",
+      "bytes": 11083744
+    },
+    {
+      "id": "hook-spear",
+      "tier": "battle",
+      "file": "runtime/godot/bulk042/hook-spear-battle.glb",
+      "sha256": "470620b38271fc30746677a6e62a775e715d03bd45f591ebf78abbfce82094ce",
+      "bytes": 1973100
+    },
+    {
+      "id": "horsetack",
+      "tier": "inspector",
+      "file": "runtime/godot/bulk042/horsetack-inspector.glb",
+      "sha256": "6aefb95e4368cf1ad6a782f5ef099a5d963e1a96d1566c0106d46901e803a3ce",
+      "bytes": 11407440
+    },
+    {
+      "id": "horsetack",
+      "tier": "battle",
+      "file": "runtime/godot/bulk042/horsetack-battle.glb",
+      "sha256": "b3fd6d5bd8f1f493b4d48edd9287c5a79027edb17eefcc363dda7b148e514b24",
+      "bytes": 2137384
+    },
+    {
+      "id": "hunting-fork",
+      "tier": "inspector",
+      "file": "runtime/godot/bulk042/hunting-fork-inspector.glb",
+      "sha256": "65b9b950c2fe5636564e22f30259d1dc712debcb7d43a87eb7cc60596c427bf6",
+      "bytes": 11386096
+    },
+    {
+      "id": "hunting-fork",
+      "tier": "battle",
+      "file": "runtime/godot/bulk042/hunting-fork-battle.glb",
+      "sha256": "622ae6be39b4b8bf590eb577bceec028b3c2d2eaca965ea5001108de73d5c81e",
+      "bytes": 1809472
+    },
+    {
+      "id": "javelins",
+      "tier": "inspector",
+      "file": "runtime/godot/bulk042/javelins-inspector.glb",
+      "sha256": "d2f1c4de146b54d1b38abccefcb9412108ec81e3a5b93e642c4ed32b848fde01",
+      "bytes": 10141992
+    },
+    {
+      "id": "javelins",
+      "tier": "battle",
+      "file": "runtime/godot/bulk042/javelins-battle.glb",
+      "sha256": "c5ce7e2932813c97fe74933714a2b2ac047f732f67b0670ded591f590c646ec9",
+      "bytes": 1979040
+    },
+    {
+      "id": "lute",
+      "tier": "inspector",
+      "file": "runtime/godot/bulk042/lute-inspector.glb",
+      "sha256": "34c3463f85c608c9066ccadaf4cb43c98d9c1ba526de2ba827db43a7d28332e6",
+      "bytes": 11737104
+    },
+    {
+      "id": "lute",
+      "tier": "battle",
+      "file": "runtime/godot/bulk042/lute-battle.glb",
+      "sha256": "afaacafc53be04bfa9be6f0096a99a4c359d42c04be760c4c3133a224b57541d",
+      "bytes": 2214776
+    },
+    {
+      "id": "medicine",
+      "tier": "inspector",
+      "file": "runtime/godot/bulk042/medicine-inspector.glb",
+      "sha256": "0973ec67b420b844afe5c40af59d5b902d2ee9d0424e2923263845e6d09c170d",
+      "bytes": 11926440
+    },
+    {
+      "id": "medicine",
+      "tier": "battle",
+      "file": "runtime/godot/bulk042/medicine-battle.glb",
+      "sha256": "fc3a608de7943831ef0fca70530b18c7757ee24e6027db93c67a3b74a18b884a",
+      "bytes": 2303504
+    },
+    {
+      "id": "monk-knives",
+      "tier": "inspector",
+      "file": "runtime/godot/bulk042/monk-knives-inspector.glb",
+      "sha256": "16eb76e7e75f7ca084f88dc5ebe3785436cb1f1da67d79752e5daf601b3c7f47",
+      "bytes": 9918164
+    },
+    {
+      "id": "monk-knives",
+      "tier": "battle",
+      "file": "runtime/godot/bulk042/monk-knives-battle.glb",
+      "sha256": "c946e1cda209265fb860a4222bf70047e747135aefee014bcb11fdafdc126d2a",
+      "bytes": 2071132
+    },
+    {
+      "id": "monk-staff",
+      "tier": "inspector",
+      "file": "runtime/godot/bulk042/monk-staff-inspector.glb",
+      "sha256": "8762fc0c2b4b99ac1c47921a76f7b8eea54aadb56c29971c799ac8a87f588714",
+      "bytes": 12592948
+    },
+    {
+      "id": "monk-staff",
+      "tier": "battle",
+      "file": "runtime/godot/bulk042/monk-staff-battle.glb",
+      "sha256": "af3875c9efb5ea400c0147b8ab2755962f64ceea362e78badd85d754146ed402",
+      "bytes": 2434076
+    },
+    {
+      "id": "oar",
+      "tier": "inspector",
+      "file": "runtime/godot/bulk042/oar-inspector.glb",
+      "sha256": "8a10784f0008b6f51fa3337b581c1e77ff575687776bf188bac70357b6f5c323",
+      "bytes": 11930624
+    },
+    {
+      "id": "oar",
+      "tier": "battle",
+      "file": "runtime/godot/bulk042/oar-battle.glb",
+      "sha256": "092ce8ec8911ff4c8a56aac58ac386bab7e0f10d4dafeedaf3fcf1a909927451",
+      "bytes": 1938596
+    },
+    {
+      "id": "prayer-beads",
+      "tier": "inspector",
+      "file": "runtime/godot/bulk042/prayer-beads-inspector.glb",
+      "sha256": "43e77ac4dc4d6143850117d99da7df4053b86f2794d1ff3dbf38379129444b6b",
+      "bytes": 12432300
+    },
+    {
+      "id": "prayer-beads",
+      "tier": "battle",
+      "file": "runtime/godot/bulk042/prayer-beads-battle.glb",
+      "sha256": "6ed3116705fc256eef44a0d90990a379a39602e5f7f0dd9467eca068b0f471be",
+      "bytes": 2274412
+    },
+    {
+      "id": "rattan-shield",
+      "tier": "inspector",
+      "file": "runtime/godot/bulk042/rattan-shield-inspector.glb",
+      "sha256": "27f99a9c19e9022db33af3dd74c8c0b67ae8dfec159f871953aa845ae10a8d6f",
+      "bytes": 12051084
+    },
+    {
+      "id": "rattan-shield",
+      "tier": "battle",
+      "file": "runtime/godot/bulk042/rattan-shield-battle.glb",
+      "sha256": "caea0378ba563734a7dc1da9285cb71496ec49214c8a6af878ba368deb0b8b4a",
+      "bytes": 1936080
+    },
+    {
+      "id": "river-knife",
+      "tier": "inspector",
+      "file": "runtime/godot/bulk042/river-knife-inspector.glb",
+      "sha256": "a534ccf9758d3d00bb62ac59b0f8e575d36d1add5a4b19fbc8b64c3a0c3b1166",
+      "bytes": 12479108
+    },
+    {
+      "id": "river-knife",
+      "tier": "battle",
+      "file": "runtime/godot/bulk042/river-knife-battle.glb",
+      "sha256": "573fd4a610f7ee93b97629526fa4028f1220164f40746e0fca671445df322bc6",
+      "bytes": 2266712
+    },
+    {
+      "id": "rope",
+      "tier": "inspector",
+      "file": "runtime/godot/bulk042/rope-inspector.glb",
+      "sha256": "ad2a3a3479d34678251a95cba926571c39a5ea9ad902b045e0a8ec42f941e028",
+      "bytes": 13289584
+    },
+    {
+      "id": "rope",
+      "tier": "battle",
+      "file": "runtime/godot/bulk042/rope-battle.glb",
+      "sha256": "b41028c4b2c6dc04467bc186c91e399216d8a1a72521527a56be8a8708f17e4b",
+      "bytes": 2499164
+    },
+    {
+      "id": "sabre",
+      "tier": "inspector",
+      "file": "runtime/godot/bulk042/sabre-inspector.glb",
+      "sha256": "64c8652ff108b2219d2a5e3335ede7d9c1f896d6a9e96398795e8a1edd05cf76",
+      "bytes": 10921872
+    },
+    {
+      "id": "sabre",
+      "tier": "battle",
+      "file": "runtime/godot/bulk042/sabre-battle.glb",
+      "sha256": "0a89fb1c7da884a3941ed117878e145b70ba5cfa41e565562bbf774c1aee9d0d",
+      "bytes": 1943320
+    },
+    {
+      "id": "scroll",
+      "tier": "inspector",
+      "file": "runtime/godot/bulk042/scroll-inspector.glb",
+      "sha256": "26396a6d4668cf4fe40ba8f33f3b15622c48f21d280da45aa940d59a33f7705d",
+      "bytes": 12121600
+    },
+    {
+      "id": "scroll",
+      "tier": "battle",
+      "file": "runtime/godot/bulk042/scroll-battle.glb",
+      "sha256": "214fa19e27ae4c8a768a8593f994cc8bdaa10373eb2c69c91f51bf4705db21f6",
+      "bytes": 2300460
+    },
+    {
+      "id": "sewing",
+      "tier": "inspector",
+      "file": "runtime/godot/bulk042/sewing-inspector.glb",
+      "sha256": "772d27975565caf83917559e758374e14374a22a3f6682f7b07802a878bd679f",
+      "bytes": 10548860
+    },
+    {
+      "id": "sewing",
+      "tier": "battle",
+      "file": "runtime/godot/bulk042/sewing-battle.glb",
+      "sha256": "e98b9070f06f21e687d27a9f2637e69ecb07c882b86ed708eef0065d960838bf",
+      "bytes": 2199984
+    },
+    {
+      "id": "short-staff",
+      "tier": "inspector",
+      "file": "runtime/godot/bulk042/short-staff-inspector.glb",
+      "sha256": "51f48e05568c7e77a6f970f05dd83a67133af4d1e8a9ffbe7144c2cada2a9d37",
+      "bytes": 14125400
+    },
+    {
+      "id": "short-staff",
+      "tier": "battle",
+      "file": "runtime/godot/bulk042/short-staff-battle.glb",
+      "sha256": "577b154d1026d19da1a8ec501632a0171a8dc19672c4af03b8e0f06c2f35d745",
+      "bytes": 2576312
+    },
+    {
+      "id": "shovel",
+      "tier": "inspector",
+      "file": "runtime/godot/bulk042/shovel-inspector.glb",
+      "sha256": "06286c36ea8953af832eab83b13996ff2400a73fe0b4c3e01f0b872e2b328937",
+      "bytes": 11232720
+    },
+    {
+      "id": "shovel",
+      "tier": "battle",
+      "file": "runtime/godot/bulk042/shovel-battle.glb",
+      "sha256": "722c7ec538a43e0066a226ebba3b8a59b06484ae4dd32d86694472f07f4e91c6",
+      "bytes": 1908788
+    },
+    {
+      "id": "sickle",
+      "tier": "inspector",
+      "file": "runtime/godot/bulk042/sickle-inspector.glb",
+      "sha256": "c453a9d497204b34af87f10718bf2be07984f2ab226b85f797a8f01b3aff0ad6",
+      "bytes": 11039396
+    },
+    {
+      "id": "sickle",
+      "tier": "battle",
+      "file": "runtime/godot/bulk042/sickle-battle.glb",
+      "sha256": "ed2a0e42762d50b6d0c8010231ea155e150d02def83b513a389e487a69d9d315",
+      "bytes": 1804964
+    },
+    {
+      "id": "snake-spear",
+      "tier": "inspector",
+      "file": "runtime/godot/bulk042/snake-spear-inspector.glb",
+      "sha256": "fa475eae70220379a919222400e243f228a407580699eadb468e2769f36c7e5d",
+      "bytes": 7669612
+    },
+    {
+      "id": "snake-spear",
+      "tier": "battle",
+      "file": "runtime/godot/bulk042/snake-spear-battle.glb",
+      "sha256": "5a5688a43641f11c64ceae5651dfc272d4d31a17f8b20b1a26c0f3003cfd65b5",
+      "bytes": 2016980
+    },
+    {
+      "id": "spear",
+      "tier": "inspector",
+      "file": "runtime/godot/bulk042/spear-inspector.glb",
+      "sha256": "91e53b5ff671a293180023c2208e7b561f125fdda3b4f39203767499960cf0b9",
+      "bytes": 11422528
+    },
+    {
+      "id": "spear",
+      "tier": "battle",
+      "file": "runtime/godot/bulk042/spear-battle.glb",
+      "sha256": "23475e2babe234878d37e95f6dbeced0a07e3ea068c95470b2ef05766386b2e9",
+      "bytes": 2031420
+    },
+    {
+      "id": "staff",
+      "tier": "inspector",
+      "file": "runtime/godot/bulk042/staff-inspector.glb",
+      "sha256": "7393c09187ecd0e360eca970ba3bc468ccb75a28ef5b5474427ff3e13aed79bd",
+      "bytes": 12935412
+    },
+    {
+      "id": "staff",
+      "tier": "battle",
+      "file": "runtime/godot/bulk042/staff-battle.glb",
+      "sha256": "f80262b9ec531db95694a0311b1e9a6b319d475739f0c135e0b3fe96d4349133",
+      "bytes": 2131652
+    },
+    {
+      "id": "stone-pouch",
+      "tier": "inspector",
+      "file": "runtime/godot/bulk042/stone-pouch-inspector.glb",
+      "sha256": "102fea84719abcf9345cf388a24c7bf375447a7402510810cde16edb304a5f41",
+      "bytes": 11821816
+    },
+    {
+      "id": "stone-pouch",
+      "tier": "battle",
+      "file": "runtime/godot/bulk042/stone-pouch-battle.glb",
+      "sha256": "5654ab8558d3731363d02d3cb7c9a668829fb90909c69fb59bc34a8814a4417b",
+      "bytes": 2118236
+    },
+    {
+      "id": "sword",
+      "tier": "inspector",
+      "file": "runtime/godot/bulk042/sword-inspector.glb",
+      "sha256": "3240cdc455b8c9b4771715414e70def51f49cfed09aaf47d96e9d8a5d19260ac",
+      "bytes": 9838056
+    },
+    {
+      "id": "sword",
+      "tier": "battle",
+      "file": "runtime/godot/bulk042/sword-battle.glb",
+      "sha256": "96ff62d6faf444e5fcf482695ad25c9512daa9a8ca6273ef4f3ec14879538738",
+      "bytes": 1803280
+    },
+    {
+      "id": "twin-axes",
+      "tier": "inspector",
+      "file": "runtime/godot/bulk042/twin-axes-inspector.glb",
+      "sha256": "d02af0ab04fdee522174733937c4fa28a5301f8a5fcdb13514b71c9d813a4280",
+      "bytes": 10722248
+    },
+    {
+      "id": "twin-axes",
+      "tier": "battle",
+      "file": "runtime/godot/bulk042/twin-axes-battle.glb",
+      "sha256": "4f4fee67492c986d0fe79686020d3a50360b450c191a58fe744c8e6f26e98b11",
+      "bytes": 2458088
+    },
+    {
+      "id": "twin-sabres",
+      "tier": "inspector",
+      "file": "runtime/godot/bulk042/twin-sabres-inspector.glb",
+      "sha256": "daf7e6a02b2e8ccd756569582e938148902a2320b1332ae9a5abe36929718778",
+      "bytes": 10733288
+    },
+    {
+      "id": "twin-sabres",
+      "tier": "battle",
+      "file": "runtime/godot/bulk042/twin-sabres-battle.glb",
+      "sha256": "1998bb79eb304f5d9beaa2c646de28490d96289ab429d2b6a1e1dcdbc278a8a2",
+      "bytes": 2380848
+    },
+    {
+      "id": "twin-spears",
+      "tier": "inspector",
+      "file": "runtime/godot/bulk042/twin-spears-inspector.glb",
+      "sha256": "122fea93c8e4bb79d29c9567832e3b9d77b26dcf7f1db0fc15e23b42c6b12d3a",
+      "bytes": 10120928
+    },
+    {
+      "id": "twin-spears",
+      "tier": "battle",
+      "file": "runtime/godot/bulk042/twin-spears-battle.glb",
+      "sha256": "dc9100da86ef07d2410047d46ad0c4a5a4b0db57eb63c194cd370187a1d1963f",
+      "bytes": 1991748
+    },
+    {
+      "id": "twin-whips",
+      "tier": "inspector",
+      "file": "runtime/godot/bulk042/twin-whips-inspector.glb",
+      "sha256": "846a390ce6e752ac76202b9b83f573966418aee9e087e85d9d707b4c5a2b37f6",
+      "bytes": 9733636
+    },
+    {
+      "id": "twin-whips",
+      "tier": "battle",
+      "file": "runtime/godot/bulk042/twin-whips-battle.glb",
+      "sha256": "83107bc0cd41953254caae2501d2cc88906e6c19f3e12ee1933652631c25baae",
+      "bytes": 1929388
+    },
+    {
+      "id": "veterinary",
+      "tier": "inspector",
+      "file": "runtime/godot/bulk042/veterinary-inspector.glb",
+      "sha256": "423f4715de4da926a3d3232c507dff18fabe3befb9b46ce4151d159dbdd20eba",
+      "bytes": 12062728
+    },
+    {
+      "id": "veterinary",
+      "tier": "battle",
+      "file": "runtime/godot/bulk042/veterinary-battle.glb",
+      "sha256": "3dbc48e2c1d3d94bbfa07f13639ebcc9a28a5189409dfb11e54ccca6c6550cb1",
+      "bytes": 2071612
+    },
+    {
+      "id": "wine",
+      "tier": "inspector",
+      "file": "runtime/godot/bulk042/wine-inspector.glb",
+      "sha256": "75d6bd57c8375678332280a59ef66356f89fe883fa405337cb98f7c0fac0f13c",
+      "bytes": 10859028
+    },
+    {
+      "id": "wine",
+      "tier": "battle",
+      "file": "runtime/godot/bulk042/wine-battle.glb",
+      "sha256": "88a9cbc89f1cd94e67f2cdcadfd08276c1a4cc815c8fcffaa59137f7f41151d7",
+      "bytes": 2015480
+    },
+    {
+      "id": "wolf-mace",
+      "tier": "inspector",
+      "file": "runtime/godot/bulk042/wolf-mace-inspector.glb",
+      "sha256": "eb32ba681f425f06beffc448cb941a5a586e49a72b6aff7732e29333bc6b0400",
+      "bytes": 12021956
+    },
+    {
+      "id": "wolf-mace",
+      "tier": "battle",
+      "file": "runtime/godot/bulk042/wolf-mace-battle.glb",
+      "sha256": "c0c67c8ade7548f893caa305415eee4964847d84652ae04d7cf64741c262e909",
+      "bytes": 2273708
+    }
+  ],
+  "notAnExportPackage": true,
+  "baseModelsNotRegeneratedOrResculpted": true
+}

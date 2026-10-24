@@ -1,0 +1,322 @@
+{
+  "schemaVersion": 1,
+  "deliveryId": "S1-codex-view052-v1",
+  "date": "2026-10-24T09:05:34.339723+00:00",
+  "owner": "水浒｜人物兵器模型与图鉴",
+  "receiver": "水浒｜主工程、完整战役与操作界面",
+  "status": "embeddable-source-module-delivered-main-adoption-pending",
+  "counts": {
+    "liangshan": 108,
+    "jianghu": 60,
+    "equipment": 54
+  },
+  "components": [
+    {
+      "file": "source/shuihu/godot/codex-view052/module/codex052/ceramic_codex_view.gd",
+      "sha256": "5b552e6a3852aee339f7247ad6141d021de7e0e18371a137e4a4bae160b02fec",
+      "bytes": 19185,
+      "originalPathAtFreeze": "apps/shuihu/art/pieces/godot/codex052/ceramic_codex_view.gd"
+    },
+    {
+      "file": "source/shuihu/godot/codex-view052/module/codex052/ceramic_codex_view.tscn",
+      "sha256": "5f1dad77dbf3205cc51527a58a77fd88b565d570a08da504cbe5fee07a2348ac",
+      "bytes": 285,
+      "originalPathAtFreeze": "apps/shuihu/art/pieces/godot/codex052/ceramic_codex_view.tscn"
+    },
+    {
+      "file": "source/shuihu/godot/codex-view052/module/codex052/ceramic_collection_state.gd",
+      "sha256": "7d23cacdf707c2b8d6d2fd4721ec543933521364daf5be8c05fbfbb09b4edcf9",
+      "bytes": 3344,
+      "originalPathAtFreeze": "apps/shuihu/art/pieces/godot/codex052/ceramic_collection_state.gd"
+    },
+    {
+      "file": "source/shuihu/godot/codex-view052/module/codex052/codex_inspector.gd",
+      "sha256": "15b675df133582343ab3c7e2e3a93495ad98ffecaa323e757fe6fccec4bb7413",
+      "bytes": 285,
+      "originalPathAtFreeze": "apps/shuihu/art/pieces/godot/codex052/codex_inspector.gd"
+    },
+    {
+      "file": "source/shuihu/godot/codex-view052/module/ceramic_model_inspector.gd",
+      "sha256": "230d2291b6b5292f11d5337ddfd535877f7d4e33beb6cedcbf9f7d2f20fda68c",
+      "bytes": 8433,
+      "originalPathAtFreeze": "apps/shuihu/art/pieces/godot/ceramic_model_inspector.gd"
+    },
+    {
+      "file": "source/shuihu/godot/codex-view052/module/ceramic_piece_loader_v2.gd",
+      "sha256": "6368fed3817311007275cc0503f0df6f96457ab889096fe1b5d038e866cea8a4",
+      "bytes": 3498,
+      "originalPathAtFreeze": "apps/shuihu/art/pieces/godot/ceramic_piece_loader_v2.gd"
+    }
+  ],
+  "catalogue": {
+    "file": "source/shuihu/godot/codex-view052/catalog.json",
+    "sha256": "b05eb9f4517d8b206796f1ade7f6aa6f8a4aff9ec0bf83dd371a9e73bba30777",
+    "bytes": 886634,
+    "originalPathAtFreeze": "apps/shuihu/art/pieces/ceramic/godot-codex052-catalog.json"
+  },
+  "inputSnapshots": {
+    "staticCatalogue": {
+      "file": "source/shuihu/godot/codex-view052/inputs/godot-static-equipped-v5-a52afd8a62fc.json",
+      "sha256": "a52afd8a62fcc8fd77967e467d6e570e9be16d03c482e13438b36592d3f48142",
+      "bytes": 2273597,
+      "originalPathAtFreeze": "apps/shuihu/art/pieces/ceramic/godot-static-equipped-v5.json"
+    },
+    "inspectionRegions": {
+      "file": "source/shuihu/godot/codex-view052/inputs/godot-inspection-collection-v1-cc6bde3086d9.json",
+      "sha256": "cc6bde3086d953f8a95a10ca08af8659dba2c425c6ddb5f5a3b93ef9c881737b",
+      "bytes": 1238077,
+      "originalPathAtFreeze": "apps/shuihu/art/pieces/ceramic/godot-inspection-collection-v1.json"
+    },
+    "portraits": {
+      "file": "source/shuihu/godot/codex-view052/inputs/godot-collection-portraits-v1-d7f5ad45e8cd.json",
+      "sha256": "d7f5ad45e8cd799942a1f68cd6865b77e1875c14ad9e9b6903218188dedb0c43",
+      "bytes": 155986,
+      "originalPathAtFreeze": "apps/shuihu/art/pieces/ceramic/godot-collection-portraits-v1.json"
+    },
+    "bodyBounds": {
+      "file": "source/shuihu/godot/codex-view052/inputs/godot-figure-placement-v3-83136c63587c.json",
+      "sha256": "83136c63587c654ced7e13f1ec53eca064c359e7377405ff27b0770e4afaa3c0",
+      "bytes": 405824,
+      "originalPathAtFreeze": "apps/shuihu/art/pieces/ceramic/godot-figure-placement-v3.json"
+    },
+    "characterIdentities": {
+      "file": "source/shuihu/godot/codex-view052/inputs/roster-134b17341cce.json",
+      "sha256": "134b17341cce22d5bb7c888b863b54ae936129c3456e8cb46385d9920d8514e6",
+      "bytes": 616660,
+      "originalPathAtFreeze": "apps/shuihu/art/pieces/ceramic/roster.json"
+    },
+    "catalogueBuilder": {
+      "file": "source/shuihu/godot/codex-view052/inputs/build_catalog-5a90d9ed1851.py",
+      "sha256": "5a90d9ed1851bee685ae18609ab5e91291b5dd5e751c57f44b4791a5b9ae4a80",
+      "bytes": 4153,
+      "originalPathAtFreeze": ".local/ops/shuihu-collection052/build_catalog.py"
+    },
+    "nativeFunctionalHarness": {
+      "file": "source/shuihu/godot/codex-view052/inputs/check_view-3d5fe6269bb0.gd",
+      "sha256": "3d5fe6269bb027ee33b7d5a5110830e4ca5785521a0dabb7f06e0e331cae1b2f",
+      "bytes": 8605,
+      "originalPathAtFreeze": ".local/qa/shuihu-pieces/ceramic-production/collection052/check_view.gd"
+    },
+    "nativeColdHarness": {
+      "file": "source/shuihu/godot/codex-view052/inputs/check_cold-2326b94e1d39.gd",
+      "sha256": "2326b94e1d3984102d8e12ce11fb841e89bae8f211580572026bd611f61e194d",
+      "bytes": 1837,
+      "originalPathAtFreeze": ".local/qa/shuihu-pieces/ceramic-production/collection052/check_cold.gd"
+    },
+    "fixtureConfig": {
+      "file": "source/shuihu/godot/codex-view052/inputs/config-14fd8f598337.json",
+      "sha256": "14fd8f598337289610c71a3986a48b644cc15d06f7259d8200fe7a537375dd6b",
+      "bytes": 347,
+      "originalPathAtFreeze": ".local/qa/shuihu-pieces/ceramic-production/collection052/config.json"
+    },
+    "previewScene": {
+      "file": "source/shuihu/godot/codex-view052/inputs/preview-56efb7b30364.tscn",
+      "sha256": "56efb7b30364f5fbe365a32a858dcf2a336aec61f19ca18d2a52ee37306a9471",
+      "bytes": 261,
+      "originalPathAtFreeze": ".local/qa/shuihu-pieces/ceramic-production/collection052/preview.tscn"
+    },
+    "previewScript": {
+      "file": "source/shuihu/godot/codex-view052/inputs/preview-4e8159df05cf.gd",
+      "sha256": "4e8159df05cff9871fdacb2df985a58e3abe4f03dec6310e287eca9679cb682a",
+      "bytes": 1921,
+      "originalPathAtFreeze": ".local/qa/shuihu-pieces/ceramic-production/collection052/preview.gd"
+    },
+    "storageReadOnly": {
+      "file": "source/shuihu/godot/codex-view052/inputs/20261024T090115-aebc4b29.json",
+      "sha256": "4c16ff5ee067b1835e350c60a77486ad00523c76e45ba2cefdb165cf1e58ad2f",
+      "bytes": 7249,
+      "originalPathAtFreeze": "H:/codex/storage-guard/20261024T090115-aebc4b29.json"
+    }
+  },
+  "runtimeReferences": {
+    "file": "source/shuihu/godot/codex-view052/runtime-references.json",
+    "sha256": "699f6300ff1bc2b005e69a643a76f2d0e522ed15dd43e16537cd5f875284ffa8",
+    "bytes": 105680
+  },
+  "unchangedSourceHandoffs": [
+    {
+      "file": "source/shuihu/godot/campaign-source050/delivery.json",
+      "sha256": "971348e00dda7862374731dd32b373dab7564c31ecd5b844e42d2596f73d12d5",
+      "bytes": 189578
+    },
+    {
+      "file": "source/shuihu/godot/campaign-source051/delivery.json",
+      "sha256": "50a0ec970cdea8f92e76d5e9fc29226005628c70e111094353a0132b3a440e42",
+      "bytes": 68622
+    }
+  ],
+  "features": [
+    "Paper and ink collection page with few enclosing shapes; original ceramic figures remain the focus.",
+    "Liangshan / extended people / independent equipment, canonical identity search and an explicit undiscovered state.",
+    "Permanent additive discoveries; opening or switching models never discovers them. Campaign life, recruitment and deployment are separate.",
+    "Battle tier by default; inspector tier only on user request, preserving part, zoom, pan and angle for the same identity.",
+    "Whole body, face, hands, feet and equipment framing; equipment source region views; one live model scene.",
+    "Cold persistence to an explicit host-selected path; corrupt or newer snapshots preserve known discoveries; temporary content removal does not erase them.",
+    "Configurable font scale, 1366x820 and 1024x720 representative layouts, 150 percent text sample; unknown model keys pass through to host."
+  ],
+  "proofs": {
+    "native-functional-proof.json": {
+      "file": "source/shuihu/godot/codex-view052/proofs/native-functional-proof.json",
+      "sha256": "fa4d0379367ba9201847d4b43d785dcbaa06da6eb384ad7035e9efa1a1705c45",
+      "bytes": 49838,
+      "originalPathAtFreeze": ".local/qa/shuihu-pieces/ceramic-production/collection052/native-functional-proof.json"
+    },
+    "native-cold-proof.json": {
+      "file": "source/shuihu/godot/codex-view052/proofs/native-cold-proof.json",
+      "sha256": "2a373d15ed5b74376e384d94e34e4ce43c1e0bff18f22524c55db8c25d1a7cd9",
+      "bytes": 822,
+      "originalPathAtFreeze": ".local/qa/shuihu-pieces/ceramic-production/collection052/native-cold-proof.json"
+    },
+    "native-window-probe.png": {
+      "file": "source/shuihu/godot/codex-view052/proofs/native-window-probe.png",
+      "sha256": "dfe60011f9468dd3e7dbb1d644f8eb01573e84c62fa1197c778379ece4a440d7",
+      "bytes": 52319,
+      "originalPathAtFreeze": ".local/qa/shuihu-pieces/ceramic-production/collection052/native-window-probe.png"
+    },
+    "physicalProbe": {
+      "file": "source/shuihu/godot/codex-view052/proofs/physical-probe.json",
+      "sha256": "db6661bbd57be4d2d1f1202caf66a23fb057c5acf808c571b63a648f21896a1b",
+      "bytes": 665,
+      "originalPathAtFreeze": ".local/ops/shuihu-collection052/physical-probe.json"
+    },
+    "permanentFixture": {
+      "file": "source/shuihu/godot/codex-view052/proofs/permanent-collection-fixture.json",
+      "sha256": "01e4024e15960ea7136205383611f24b22ed3cfe5b68cb41d73483e60a82bd36",
+      "bytes": 197,
+      "originalPathAtFreeze": ".local/qa/shuihu-pieces/ceramic-production/collection052/fixtures/permanent-collection.json"
+    },
+    "initialFailedReport": {
+      "file": "source/shuihu/godot/codex-view052/proofs/initial-native-attempt.json",
+      "sha256": "b7cf1598a4763f6e31f68c94292e40612f1c27a57bcec0509c150ec0960a5756",
+      "bytes": 49831,
+      "originalPathAtFreeze": ".local/qa/shuihu-pieces/ceramic-production/collection052/attempts/first-native/native-functional-proof.json"
+    },
+    "visualContact": {
+      "file": "source/shuihu/godot/codex-view052/proofs/interface-review-contact.png",
+      "sha256": "245bea9d4bfd1ffc1419c1c07cdfcb34c3fc4fb0e4e6bc27aeb3098328b62b44",
+      "bytes": 394876,
+      "originalPathAtFreeze": ".local/qa/shuihu-pieces/ceramic-production/collection052/interface-review-contact.png"
+    }
+  },
+  "actualNativeCaptures": [
+    {
+      "file": "source/shuihu/godot/codex-view052/proofs/locked-default.png",
+      "sha256": "864865d06b2275b9654ffc6e0c6eefdc5c7c06d960f7135093d4e98f9e099ef4",
+      "bytes": 93023,
+      "originalPathAtFreeze": ".local/qa/shuihu-pieces/ceramic-production/collection052/locked-default.png"
+    },
+    {
+      "file": "source/shuihu/godot/codex-view052/proofs/linchong-wide.png",
+      "sha256": "d909c2183cec9d0436f8f1de2ba4cbe7c70f459cde20cb414eca172956a42fdf",
+      "bytes": 278243,
+      "originalPathAtFreeze": ".local/qa/shuihu-pieces/ceramic-production/collection052/linchong-wide.png"
+    },
+    {
+      "file": "source/shuihu/godot/codex-view052/proofs/linchong-head-high.png",
+      "sha256": "bf4035a44fa6fa242b3e2bbcbe3cd00fe45d45257b96e0b80640ad2585bb51a5",
+      "bytes": 450856,
+      "originalPathAtFreeze": ".local/qa/shuihu-pieces/ceramic-production/collection052/linchong-head-high.png"
+    },
+    {
+      "file": "source/shuihu/godot/codex-view052/proofs/huarong-search.png",
+      "sha256": "cdc79d3a538cc63f6a987efc4441cac63b1a6725736593d4a96b688a237b8147",
+      "bytes": 216355,
+      "originalPathAtFreeze": ".local/qa/shuihu-pieces/ceramic-production/collection052/huarong-search.png"
+    },
+    {
+      "file": "source/shuihu/godot/codex-view052/proofs/no-search-results.png",
+      "sha256": "a2bb06280f5a8cc7414df0866d55b42953794115f4337c12472f0d080cf07c4b",
+      "bytes": 72725,
+      "originalPathAtFreeze": ".local/qa/shuihu-pieces/ceramic-production/collection052/no-search-results.png"
+    },
+    {
+      "file": "source/shuihu/godot/codex-view052/proofs/bow-equipment.png",
+      "sha256": "bfb334c2b4a8ba6eee5671c1560d55d9d4683dfda1a2cfed8e0a894f71a6c8a7",
+      "bytes": 182306,
+      "originalPathAtFreeze": ".local/qa/shuihu-pieces/ceramic-production/collection052/bow-equipment.png"
+    },
+    {
+      "file": "source/shuihu/godot/codex-view052/proofs/jianghu-locked.png",
+      "sha256": "cac32db9f0e232c31d43bec296826ab251d26dd00c8c6341c7151f6ee9f135c2",
+      "bytes": 84422,
+      "originalPathAtFreeze": ".local/qa/shuihu-pieces/ceramic-production/collection052/jianghu-locked.png"
+    },
+    {
+      "file": "source/shuihu/godot/codex-view052/proofs/songjiang-wide.png",
+      "sha256": "6382bbf936858d477009672193ff4454882f3a6ed0986a4f3a53b3bc680f026d",
+      "bytes": 270908,
+      "originalPathAtFreeze": ".local/qa/shuihu-pieces/ceramic-production/collection052/songjiang-wide.png"
+    },
+    {
+      "file": "source/shuihu/godot/codex-view052/proofs/large-text-150.png",
+      "sha256": "60313240654f8a5b2992372f0489714edfabf50828f70bf92526625906aefa30",
+      "bytes": 288747,
+      "originalPathAtFreeze": ".local/qa/shuihu-pieces/ceramic-production/collection052/large-text-150.png"
+    },
+    {
+      "file": "source/shuihu/godot/codex-view052/proofs/compact-1024.png",
+      "sha256": "5922c35f1e3adc4d296c57cc873fc57324c7af737ea9f58c0beacbe67e5b705f",
+      "bytes": 212219,
+      "originalPathAtFreeze": ".local/qa/shuihu-pieces/ceramic-production/collection052/compact-1024.png"
+    }
+  ],
+  "validation": {
+    "functionalChecks": 263,
+    "functionalFailed": 0,
+    "nativeVisualReview": "Ten source page states plus actual OS window screenshot inspected; current locked style checked separately.",
+    "freshProcessLedgerRestore": true,
+    "temporaryCatalogueAndCorruptStatePreserveDiscoveries": true,
+    "inputMethod": "Godot signals and methods in functional harness; actual OS input attempt did not establish corresponding response.",
+    "physicalPointerAccepted": false,
+    "physicalKeyboardAccepted": false,
+    "initialCompactAttemptPreserved": true,
+    "windowsGamePackageAccepted": false,
+    "all222RerenderedThisBatch": false
+  },
+  "hostContract": {
+    "assetRoot": "Root matching catalogue GLB/thumbnail paths, res:// or explicit filesystem path.",
+    "fullCatalogueRequired": true,
+    "defaultLocked": true,
+    "discoverOnlyFromActualConfirmedCampaignOrCodexEvents": true,
+    "savePathMustBeExplicitAndIndependentOfCurrentCampaignLife": "No automatic user:// or real campaign writes in the component.",
+    "signals": [
+      "close_requested",
+      "selection_changed",
+      "collection_changed",
+      "load_failed"
+    ],
+    "methods": [
+      "configure(catalog, asset_root, permanent_snapshot)",
+      "apply_discoveries(character_ids, equipment_ids)",
+      "select_entry(id)",
+      "set_ui_scale(value)"
+    ],
+    "ledger": [
+      "snapshot()",
+      "load_from(explicit_path)",
+      "save_to(explicit_path)"
+    ]
+  },
+  "limits": [
+    "Main owner still must connect the existing entry, permanent save migration and genuine discovery events.",
+    "Physical OS mouse/keyboard use not accepted; desktop was unlocked and window visible, but attempted inputs did not establish the requested application response.",
+    "Fixture counts 4/108 then 5/108 and its collection file are diagnostic, not actual player progress.",
+    "System CJK fonts used on this Windows machine; Godot Web font delivery and touch input remain future compatibility checks.",
+    "Models remain static first-pass sources. All optional held slots, finger closure and final art acceptance are not claimed."
+  ],
+  "nextPlayableStep": "Main owner embeds the frozen module using the full catalogue, maps actual permanent discoveries without deriving them from current recruitment/death, verifies physical search/zoom/drag/back and cold restore in its same Windows campaign package. M01->M05, ordinary actors and their action integration keep priority; this source page does not replace that flow.",
+  "cleanup": {
+    "file": "source/shuihu/godot/codex-view052/cleanup.json",
+    "sha256": "9d9f914e886592b6f483b39030f238a058545c76d435ca2c500c6bdd03910a3f",
+    "bytes": 763
+  },
+  "newTripoGeneration": false,
+  "newCharges": 0,
+  "bodySculptOrRigEdited": false,
+  "mainGameOrSharedUiEdited": false,
+  "receiverAcknowledged": false,
+  "mainCampaignAdopted": false,
+  "windowsReleaseAccepted": false,
+  "webExportAccepted": false,
+  "wholeGoalCompleted": false
+}

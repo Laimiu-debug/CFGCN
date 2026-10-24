@@ -93,3 +93,27 @@ apps/shuihu/godot/actors/ceramic_motion/raider_sabre_v1/raider_弯刀3d模型_ba
 docs/shuihu-raider-sabre.md -text
 source/shuihu/godot/raider-sabre-v1/delivery.json -text
 source/shuihu/godot/raider-sabre-v1/sha256.json -text
+
+
+# Frozen Shuihu codex052 and ordinary gear054 source bytes (2026-10-24).
+"source/shuihu/godot/codex-view052/module/codex052/ceramic_codex_view.gd" -text
+"source/shuihu/godot/codex-view052/module/codex052/ceramic_codex_view.tscn" -text
+"source/shuihu/godot/codex-view052/module/codex052/ceramic_collection_state.gd" -text
+"source/shuihu/godot/codex-view052/module/codex052/codex_inspector.gd" -text
+"source/shuihu/godot/codex-view052/module/ceramic_model_inspector.gd" -text
+"source/shuihu/godot/codex-view052/module/ceramic_piece_loader_v2.gd" -text
+"source/shuihu/godot/codex-view052/catalog.json" -text
+"source/shuihu/godot/codex-view052/runtime-references.json" -text
+"source/shuihu/godot/codex-view052/inputs/godot-static-equipped-v5-a52afd8a62fc.json" -text
+"source/shuihu/godot/codex-view052/inputs/godot-inspection-collection-v1-cc6bde3086d9.json" -text
+"source/shuihu/godot/codex-view052/inputs/godot-collection-portraits-v1-d7f5ad45e8cd.json" -text
+"source/shuihu/godot/codex-view052/inputs/godot-figure-placement-v3-83136c63587c.json" -text
+"source/shuihu/godot/codex-view052/inputs/roster-134b17341cce.json" -text
+"source/shuihu/godot/codex-view052/inputs/build_catalog-5a90d9ed1851.py" -text
+"source/shuihu/godot/codex-view052/delivery.json" -text
+"source/shuihu/godot/ordinary-gear054/recipes.json" -text
+"source/shuihu/godot/ordinary-gear054/recipes/npc-archer-robe-v1.json" -text
+"source/shuihu/godot/ordinary-gear054/recipes/npc-militia-leather-v1.json" -text
+"source/shuihu/godot/ordinary-gear054/recipes/npc-soldier-lamellar-v1.json" -text
+"source/shuihu/godot/ordinary-gear054/delivery.json" -text
+"docs/manifests/shuihu-codex052-gear054-github.json" -text

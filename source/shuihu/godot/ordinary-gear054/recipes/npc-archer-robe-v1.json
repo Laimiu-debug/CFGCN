@@ -1,0 +1,179 @@
+{
+  "actualS2OriginalPalmSocketOriginUsed": true,
+  "attachments": [
+    {
+      "boneIndexAtCapture": 7,
+      "boneName": "Shield_L",
+      "equipmentId": "bow",
+      "parentHand": "Hand_L",
+      "requiresSourcePartOnly": true,
+      "restGripMatrixInActorColumnMajor": [
+        0.999930441379547,
+        -0.0012108312221244,
+        0.0117321293801069,
+        0,
+        0.0117944460362196,
+        0.102653987705708,
+        -0.994647204875946,
+        0,
+        -2.168404344971e-19,
+        0.99471640586853,
+        0.1026611328125,
+        0,
+        0.0116578713059425,
+        0.0325649082660675,
+        -0.00957455765455961,
+        1
+      ],
+      "side": "L",
+      "socketRestMatrixInActorColumnMajor": [
+        1.0,
+        0.0,
+        0.0,
+        0,
+        0.0,
+        1.0,
+        0.0,
+        0,
+        0.0,
+        0.0,
+        1.0,
+        0,
+        0.0116578713059425,
+        0.0325649082660675,
+        -0.00957455765455961,
+        1
+      ],
+      "sourceBranch": "batch017-equipment-bow-component-01",
+      "sourceFile": "runtime/godot/bulk042/bow-battle.glb",
+      "sourceGeometryUvAndEncodedImagesChanged": false,
+      "sourceGripName": "bow-main-grip",
+      "sourceGripWorldMatrixColumnMajor": [
+        0.999930441379547,
+        -0.0012108312221244,
+        0.0117321293801069,
+        0,
+        0.0117944460362196,
+        0.102653987705708,
+        -0.994647204875946,
+        0,
+        -2.168404344971e-19,
+        0.99471640586853,
+        0.1026611328125,
+        0,
+        -0.00037617635098286,
+        0.0450937412679195,
+        0.000756469496991485,
+        1
+      ],
+      "sourceSha256": "09fe2651759ca0c1b72c6608818fb61cbcac23cf1e0e15a326060c0a610879f0",
+      "sourceStaticGripPositionDeltaMetres": 0.000826092553324997,
+      "sourceToSocketLocalMatrixColumnMajor": [
+        1.0,
+        0.0,
+        0.0,
+        0,
+        -2.1569473764993e-19,
+        1.0,
+        0.0,
+        0,
+        9.31322574615479e-10,
+        7.45058059692383e-09,
+        1.0,
+        0,
+        0.000376176089048386,
+        -0.0450937412679195,
+        -0.000756469555199146,
+        1
+      ]
+    }
+  ],
+  "bodyMotionSource": {
+    "file": "apps/shuihu/art/pieces/source/ceramic-production/ordinary051-rig-v1/npc-archer-robe-v1/body.glb",
+    "sha256": "7daca9282dda20f21577df604f159ac21c20209e83f1680c70977d96c62f9cb0"
+  },
+  "fingerClosureAccepted": false,
+  "fullCombatAccepted": false,
+  "heroId": "",
+  "id": "npc-archer-robe-v1",
+  "mainGameEdited": false,
+  "matrixLayout": "column-major",
+  "matrixSpace": "Socket bone local, derived from the actual S2 rest skeleton in actor space",
+  "newRigOrAuthoredAnimation": false,
+  "prototype": "archer",
+  "s2ActorScene": "res://actors/ceramic_motion/ordinary051_body_v1/npc-archer-robe-v1/body.tscn",
+  "s2MovementDelivery": {
+    "file": "source/shuihu/godot/ordinary051-movement-v1/delivery.json",
+    "sha256": "24bc7ada7c9b109a97f439e5d40e77249325a19e9c5d8637c413446d819dbed8"
+  },
+  "s2SourceFilesEdited": false,
+  "sourceFront": "+X",
+  "sourceStaticSelection": {
+    "file": "apps/shuihu/art/pieces/source/campaign-handoff051/npc-archer-robe-v1/selected-source051.json",
+    "sha256": "4aaf548c9e0620cdf40de083247adcb96bc4fbbe010a3aa75c3745833c6e5677"
+  },
+  "sourceUnarmedBody": {
+    "boundsBlenderMetres": {
+      "max": [
+        0.0121822711080313,
+        0.0158040318638086,
+        0.0700163468718529
+      ],
+      "min": [
+        -0.012145041488111,
+        -0.0158268325030804,
+        -6.38092751614749e-06
+      ]
+    },
+    "boundsGodotMetres": {
+      "max": [
+        0.0121822711080313,
+        0.0700163468718529,
+        0.0158268325030804
+      ],
+      "min": [
+        -0.012145041488111,
+        -6.38092751614749e-06,
+        -0.0158040318638086
+      ]
+    },
+    "bytes": 1098232.0,
+    "editableRuntimeSource": "source/campaign-handoff051/npc-archer-robe-v1/battle.blend",
+    "editableRuntimeSourceSha256": "ddaf9785290dbaf002604e7c69051523464df63ecaf363876a64f242cc44c1ea",
+    "file": "runtime/godot/ordinary051/npc-archer-robe-v1-battle.glb",
+    "glbReimportBoundsErrorMetres": 0.0,
+    "independentNativeReopen": true,
+    "meshGroups": [
+      {
+        "instanceCount": 1.0,
+        "objects": [
+          "npc-archer-robe-v1-body-0"
+        ],
+        "sharedDataRetained": true,
+        "sourceUniqueTriangles": 1882482.0,
+        "tierUniqueTriangles": 30000.0
+      }
+    ],
+    "newRigOrAnimation": false,
+    "runtimeValidation": [
+      {
+        "afterUniqueTriangles": 30000.0,
+        "beforeUniqueTriangles": 30000.0,
+        "duplicateRuntimeTrianglesRemoved": 0.0,
+        "editableHighSavedUnchanged": true,
+        "objects": [
+          "npc-archer-robe-v1-body-0"
+        ],
+        "retainedVertexPositionsAndOrderedUvCornersUnchanged": true,
+        "validationChanged": false
+      }
+    ],
+    "selfContained": true,
+    "sha256": "4396e1774aa71a2ffec4593e3e3e9b1b661167ff48335b36a79d36881bf98346",
+    "static": true,
+    "triangles": 30000.0
+  },
+  "sourceUp": "+Y",
+  "staticSourceGripOrientationPreserved": true,
+  "units": "metres"
+}

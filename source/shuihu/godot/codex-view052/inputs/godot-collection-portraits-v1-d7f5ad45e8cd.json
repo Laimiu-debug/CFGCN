@@ -1,0 +1,4718 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-24",
+  "pathBase": "apps/shuihu/art/pieces",
+  "source": "Actual Godot Forward+ source-model render, original facial shapes and ceramic materials.",
+  "entries": [
+    {
+      "id": "ls001",
+      "name": "宋江",
+      "nickname": "呼保义",
+      "collection": "tiangang",
+      "rank": 1,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls001.png",
+        "sha256": "d4392eb7522cefbe351b807055347cabf7117ca2e195c2cef516b503413ba2a4",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 270635
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls001-128.png",
+        "sha256": "f58bea2bf937ac820038ccf8306c04165366712f1f80e79ae43df943f6402ea2",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 25636
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk042/ls001-inspector.glb",
+      "sourceInspectorGlbSha256": "d453e94397e45d233cbebe59e3f47465973493fe7932fba2bc7fe64aad2ade95",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls002",
+      "name": "卢俊义",
+      "nickname": "玉麒麟",
+      "collection": "tiangang",
+      "rank": 2,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls002.png",
+        "sha256": "e745d24d64a32ac5914833fce31faad8b1f15083d0374fe9c9d55fd5305663a7",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 262951
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls002-128.png",
+        "sha256": "0ec101fe0984dc892a766728bca48210f90fd06c04ee941a2d9a1f62404f70da",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 25807
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk042/ls002-inspector.glb",
+      "sourceInspectorGlbSha256": "b7f721bfbdc816909acd08a723f7dfa07315307a6f984b5d008421b5003b46e1",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls003",
+      "name": "吴用",
+      "nickname": "智多星",
+      "collection": "tiangang",
+      "rank": 3,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls003.png",
+        "sha256": "ed324109610a71384ada1cf37978068f494508ece054275c30bab5b9e0ab050e",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 250067
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls003-128.png",
+        "sha256": "bad4da412715da6918feebf78255e2ace70ad4bdb7ddf5b73ecb80f8edf4f9f8",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 24944
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk042/ls003-inspector.glb",
+      "sourceInspectorGlbSha256": "75c1c1d2de5738fc56d740a38efd1a55d33e0846e396ed266aaa15c7d784eb9f",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls004",
+      "name": "公孙胜",
+      "nickname": "入云龙",
+      "collection": "tiangang",
+      "rank": 4,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls004.png",
+        "sha256": "0a799daac3a2dde8d0e0b877b8701522d17a778ce79518edd9d1336ac274c110",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 288856
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls004-128.png",
+        "sha256": "d4809f3abf07e7012582968e49c4528dbe92bc5df1aaf46207a9af91076da106",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 25664
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk042/ls004-inspector.glb",
+      "sourceInspectorGlbSha256": "0d0ca8ecc081634b62afe9783f58e05a3ee79d17613fdbc80062beb0c87da8ae",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls005",
+      "name": "关胜",
+      "nickname": "大刀",
+      "collection": "tiangang",
+      "rank": 5,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls005.png",
+        "sha256": "18b6aac3f18a7c6d230d5adcb28c404a49e0de86d15d16c954307a0623674777",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 301797
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls005-128.png",
+        "sha256": "d33646e9c9594d720eda50a6ae14bea723fc09885dffcb65200f810aab82d9a1",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 28129
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk042/ls005-inspector.glb",
+      "sourceInspectorGlbSha256": "fd87fd90ca58eb08880f1fcdd875c23123149d93d6f4c08ecddcb74105636ccf",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls006",
+      "name": "林冲",
+      "nickname": "豹子头",
+      "collection": "tiangang",
+      "rank": 6,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls006.png",
+        "sha256": "5772c2e50590d8d8129655c8ee4c391d75c4b9f926253bf65dd40723c7e69534",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 291073
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls006-128.png",
+        "sha256": "d40469d4812bc090d1696e8daa16c6aa19c4a7e661957051beb581113f8a34ae",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 28362
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk042/ls006-inspector.glb",
+      "sourceInspectorGlbSha256": "ea3a003beb32a0ae3f492e7102d8a9013fce993c5098859a9b62f997f88c2666",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls007",
+      "name": "秦明",
+      "nickname": "霹雳火",
+      "collection": "tiangang",
+      "rank": 7,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls007.png",
+        "sha256": "75127976ebd1d086af9604851340a9f6aa635cba3c654be1ecdf29bca9d691e5",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 330586
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls007-128.png",
+        "sha256": "e706acc234a422e2cac3abea0ebb2c4243023e832803c5eb8123f3982ffd1fb5",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 29028
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk042/ls007-inspector.glb",
+      "sourceInspectorGlbSha256": "9f72e7b779705aca59041b0af9482e5b484cc39671987394fa30c047f0801039",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls008",
+      "name": "呼延灼",
+      "nickname": "双鞭",
+      "collection": "tiangang",
+      "rank": 8,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls008.png",
+        "sha256": "0e5ac766b73dcc20af626b1a77bae11e70e209072528f91b8a8b13eda3b8adc2",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 288646
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls008-128.png",
+        "sha256": "d990e4998960fb0faa677df8330d26537c6f9c4f0c709bfa7be8562337790326",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 27974
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk042/ls008-inspector.glb",
+      "sourceInspectorGlbSha256": "203e307a53a4ee376405499b92edf5ac578374cb62f8f6bc6181b8c7c3d0d68c",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls009",
+      "name": "花荣",
+      "nickname": "小李广",
+      "collection": "tiangang",
+      "rank": 9,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls009.png",
+        "sha256": "969a96d1a6c87b4a61c4784dccd3c9a81b450a559fc3f32bcb2153a3003489c7",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 247685
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls009-128.png",
+        "sha256": "512d664fbd9c2e213da1799730a29dbcb87174530d3592d032042203eb47bf6d",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 25491
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk042/ls009-inspector.glb",
+      "sourceInspectorGlbSha256": "ad1b9b660893c4b0a89972b900a2c81aa2cd94555aede0633a4e2175acc4acd3",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls010",
+      "name": "柴进",
+      "nickname": "小旋风",
+      "collection": "tiangang",
+      "rank": 10,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls010.png",
+        "sha256": "3c9ceafb56047a051eaa451eba6710f03dbb070fe3ac43f2a633bbb06e1b4622",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 238301
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls010-128.png",
+        "sha256": "46ebe94fec377525388557367183d18d57fe5d46aa1eea8d786ac9a51d66b4a2",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 24092
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk039/ls010-inspector.glb",
+      "sourceInspectorGlbSha256": "f0ba49c0cdb5473bade4487b65e432d060345e6c0ff5f06d9e720de9d20a6dd3",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls011",
+      "name": "李应",
+      "nickname": "扑天雕",
+      "collection": "tiangang",
+      "rank": 11,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls011.png",
+        "sha256": "ff37a46edf9f6e09cb9b02c2191184f32e7d30ba8ff5324fc9210a6b55334ed6",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 284498
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls011-128.png",
+        "sha256": "d7d896cd8fd100507df4eeb7cc9393328d080ef7530c9d16a0bce5a1f33eef14",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 27505
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk039/ls011-inspector.glb",
+      "sourceInspectorGlbSha256": "665e2faaad12a4637428a657a12074e2be20e4d8cb1082ece714957c51b5d054",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls012",
+      "name": "朱仝",
+      "nickname": "美髯公",
+      "collection": "tiangang",
+      "rank": 12,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls012.png",
+        "sha256": "839befa5f75cb114f4fe153f9bb898d43bf08555eb11c39964dad31de98ff3da",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 240046
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls012-128.png",
+        "sha256": "23fedafd79f919e0fa58a74b3fc258c0438788c71b716d3d8e9f81c6a4f3cc09",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 25129
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk039/ls012-inspector.glb",
+      "sourceInspectorGlbSha256": "a0d90f712b1d0fcd5cace721f21009a547c8e321657f0c1597d686c21b138011",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls013",
+      "name": "鲁智深",
+      "nickname": "花和尚",
+      "collection": "tiangang",
+      "rank": 13,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls013.png",
+        "sha256": "fa0ead794a01faa50276844941c105296cd7972875f6294dd3dcd8ba6fe41c35",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 273049
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls013-128.png",
+        "sha256": "a19be2154b0e106306f0a1cff84f879999cef8117b49ac37a1dc1302b203f4e1",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 27228
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk042/ls013-inspector.glb",
+      "sourceInspectorGlbSha256": "47d48248a8e63730605a7a1b3cc0b6dee3c969bda191b4aced39183ad28c531d",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls014",
+      "name": "武松",
+      "nickname": "行者",
+      "collection": "tiangang",
+      "rank": 14,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls014.png",
+        "sha256": "89a589d16c0cb1124e499157bf583d8efaf11af3522219e64613efaec7325462",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 255154
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls014-128.png",
+        "sha256": "8b47fc280b27eb12fda3b1b829ad9be4733e0e2c28bf68c3b78ffed67ea77dd7",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 26117
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk042/ls014-inspector.glb",
+      "sourceInspectorGlbSha256": "620dc3df1c2aad886cb18bc3d2da0d4609afa9d8f5fd1144c293bd575f634525",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls015",
+      "name": "董平",
+      "nickname": "双枪将",
+      "collection": "tiangang",
+      "rank": 15,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls015.png",
+        "sha256": "45ed4c29a565bfee47d9aecd2680604c2d68e08ea1460d7c3896d3e027e10d0a",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 288406
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls015-128.png",
+        "sha256": "725ca59a79b5aba35788e4b848bd3036d0a85e5012d484e146c3772f1a2b7455",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 27861
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk039/ls015-inspector.glb",
+      "sourceInspectorGlbSha256": "2bb4740915d15e777ec83233234e875aede518809a63ca7580cf6029a5ea3733",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls016",
+      "name": "张清",
+      "nickname": "没羽箭",
+      "collection": "tiangang",
+      "rank": 16,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls016.png",
+        "sha256": "87d101899675fa7d2a0f1151254dde3f3e6a19e5885d85d7d336dfa584188f73",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 242865
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls016-128.png",
+        "sha256": "959ea4d6fc34f8150984134b2abe0caa3d18c201d05792fb4dcb29bd74483e20",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 26079
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk039/ls016-inspector.glb",
+      "sourceInspectorGlbSha256": "52b1196488d38314dc4d874d2e0f800655c2b96b9ed875fe90bc8772d06567b9",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls017",
+      "name": "杨志",
+      "nickname": "青面兽",
+      "collection": "tiangang",
+      "rank": 17,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls017.png",
+        "sha256": "177f781143e42994159db0ce36824f2b17d47a2ca1de348adb7102b904158ab7",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 287327
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls017-128.png",
+        "sha256": "7afcc5d1e01d5edf0f5504dd91caa93cf7d4835d98b81c113673eb925faafce1",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 27758
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk042/ls017-inspector.glb",
+      "sourceInspectorGlbSha256": "f6b71d89442dcc0ce286ecd9c49b645adb66e3301705ca0d8671d3c8ccd353e9",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls018",
+      "name": "徐宁",
+      "nickname": "金枪手",
+      "collection": "tiangang",
+      "rank": 18,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls018.png",
+        "sha256": "2676ab58cb84d032ee76a5b803aa71761804731464bde424e3c4e5de42dbdbbf",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 276485
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls018-128.png",
+        "sha256": "4c8658d3c18d56a439d41daa42f74a528fd711e6a029197630bbe852183e3e20",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 27662
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk039/ls018-inspector.glb",
+      "sourceInspectorGlbSha256": "e40bd8d96390e16ac00804de156d0d8035c5ddeefff3aca2bdff403cc6eda965",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls019",
+      "name": "索超",
+      "nickname": "急先锋",
+      "collection": "tiangang",
+      "rank": 19,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls019.png",
+        "sha256": "a533429022941320dd66fca1e05c5cee6e1bf323399c93d3ba7576da844825a0",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 316973
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls019-128.png",
+        "sha256": "cd42ac1ed24c3108d5e512e0414b897bf3792ea7973db380f000ebc08f415dbb",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 28636
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk039/ls019-inspector.glb",
+      "sourceInspectorGlbSha256": "b4ebe6e48423135f336aadbe46fef16f619b8730fec82a9b84990da264d028a5",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls020",
+      "name": "戴宗",
+      "nickname": "神行太保",
+      "collection": "tiangang",
+      "rank": 20,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls020.png",
+        "sha256": "293df0cde8efd0d3f934baa15b106b817ebee74cc0e0c0160761d2d7ff7f3ef0",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 242181
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls020-128.png",
+        "sha256": "94f7fed6ec82da5d23e5550af05c377e2c0f32beac0ea6593888f6769df50c13",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 25331
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk039/ls020-inspector.glb",
+      "sourceInspectorGlbSha256": "bdb12721c39ec3fc53cf9deefcd530dc44a6c37e5e36da88763027d0265b5370",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls021",
+      "name": "刘唐",
+      "nickname": "赤发鬼",
+      "collection": "tiangang",
+      "rank": 21,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls021.png",
+        "sha256": "285ca5ba696f8cb4a84707948ef82cc5a46c0b5ad8a3ef804899307b79e96a89",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 254888
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls021-128.png",
+        "sha256": "8b7911cb99aa9b1424053534977b1088e7480735d5c3a5f9536823d1ad7c1762",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 25800
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk039/ls021-inspector.glb",
+      "sourceInspectorGlbSha256": "7679c3c3c9c296cf3b268385c71b551b32bab7e61649592773650cb34f070887",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls022",
+      "name": "李逵",
+      "nickname": "黑旋风",
+      "collection": "tiangang",
+      "rank": 22,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls022.png",
+        "sha256": "19d52d3de019142e0e80f0efc1df1acc9ef2455366cdd30099137f6c360eaea6",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 283767
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls022-128.png",
+        "sha256": "9f685212f2ac2aab9f91e705d2253f4acf9f53a9ce866cede8a330d14c6ba02a",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 26712
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk042/ls022-inspector.glb",
+      "sourceInspectorGlbSha256": "2471c4bcfb2948a0b94da5a3b600e651acecc5c40455e0ceae2dd0dc7f298eda",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls023",
+      "name": "史进",
+      "nickname": "九纹龙",
+      "collection": "tiangang",
+      "rank": 23,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls023.png",
+        "sha256": "89c189155f082af2f10f8fcb7d3511fd2d1d9f13d174a91e21a228674539a8a0",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 280531
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls023-128.png",
+        "sha256": "501dd43eb4fece3d4e23e922f8cd408bb78294db8b59ac907a5bcea9099276f8",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 26712
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk039/ls023-inspector.glb",
+      "sourceInspectorGlbSha256": "4045c6ba26970ae0a993ac003a7ed42ab5d5c3a0c183f2c3031aaf14859730e5",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls024",
+      "name": "穆弘",
+      "nickname": "没遮拦",
+      "collection": "tiangang",
+      "rank": 24,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls024.png",
+        "sha256": "918d66867d31d0849ba717fb4293ea36527efb7581337ce6f4355715f0ae5ff2",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 280485
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls024-128.png",
+        "sha256": "5a1c1fe3c656513542e83553bf22ad6872eaf096fb1b0fcbfeacc36e1cf981d3",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 27157
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk039/ls024-inspector.glb",
+      "sourceInspectorGlbSha256": "c6017441e017c23c5989cf4a17af272ad7b829cff827f1a81164d8b2c99b3994",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls025",
+      "name": "雷横",
+      "nickname": "插翅虎",
+      "collection": "tiangang",
+      "rank": 25,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls025.png",
+        "sha256": "4d089627834bab5edf304fc5cc7800f8d88fc90387e1cff1cf5a79b9035e189a",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 283611
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls025-128.png",
+        "sha256": "c337981c1aea4a0784ab8084b2ab1930170445b6ce95dfa7466f76601ec1acab",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 27638
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk039/ls025-inspector.glb",
+      "sourceInspectorGlbSha256": "1aaa49360d432b52a094baba0c109b40830d9daf0cd4ad08cc1ac581c42f343b",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls026",
+      "name": "李俊",
+      "nickname": "混江龙",
+      "collection": "tiangang",
+      "rank": 26,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls026.png",
+        "sha256": "7b12d6cd51de32c2961b8f409a16a761c9a311950f2173716817d09b9e73eb65",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 259909
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls026-128.png",
+        "sha256": "03ee0b6166e4693f34ab00e78c2d27804af8f20c680462df34b063f6b2684e33",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 27082
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk039/ls026-inspector.glb",
+      "sourceInspectorGlbSha256": "68bdb86700966e933943201b4558e98d77d1196ec9a49fb3e9a08a974e8c8f1d",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls027",
+      "name": "阮小二",
+      "nickname": "立地太岁",
+      "collection": "tiangang",
+      "rank": 27,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls027.png",
+        "sha256": "a355d0cbcadad51cb4ef61f1f7108c44f70d17cadacec42e7e2c3c8b0c77379a",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 273905
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls027-128.png",
+        "sha256": "fe5ec1cd7f69663d5e12c30b31128cfe0f7c79c4cd324b321fab221063e9fd66",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 27473
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk039/ls027-inspector.glb",
+      "sourceInspectorGlbSha256": "39b57ecad06017c16dd44483aa8c0f333ed87998bb27b3bf6fa7c139b5891f08",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls028",
+      "name": "张横",
+      "nickname": "船火儿",
+      "collection": "tiangang",
+      "rank": 28,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls028.png",
+        "sha256": "f9b3f93427f0f5d225fe3b8027fa985de92a28d0b924f8013fe2247c43ca6ca1",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 267524
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls028-128.png",
+        "sha256": "c7153de57a7cd7a329b03db9b29558b3256b7e9f3e2415108dc097ae221cb550",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 24987
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk039/ls028-inspector.glb",
+      "sourceInspectorGlbSha256": "1d30d60f9d4ac2b042c76e7203956e2e70e3e72838fa9cf98878ffa1008be3b5",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls029",
+      "name": "阮小五",
+      "nickname": "短命二郎",
+      "collection": "tiangang",
+      "rank": 29,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls029.png",
+        "sha256": "e6b2f4390a5af77b77f82efeea12f93252c19063481b9424b2235d524b36087b",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 266951
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls029-128.png",
+        "sha256": "6cadd50a6d10a35653b26ebb7b86c28509d782f7558643d00b0e2f13e03be521",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 25636
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk039/ls029-inspector.glb",
+      "sourceInspectorGlbSha256": "fea7b1c34501c79428ffed0f53d3cd055d7d265a6fa9e1727f790267f6558f2e",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls030",
+      "name": "张顺",
+      "nickname": "浪里白条",
+      "collection": "tiangang",
+      "rank": 30,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls030.png",
+        "sha256": "7487d3c2effa687dc2d6217fd1aea8d8adff1086892fb7f32ee0fc8ee0a99c70",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 231732
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls030-128.png",
+        "sha256": "1bfc1b99b9f88309a6338884818e8bc39953b85377e7b2cba4d6cd4849b2339e",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 23928
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk039/ls030-inspector.glb",
+      "sourceInspectorGlbSha256": "d6a5c0f4bc05ac65bbbf087da1782baf31ac35d576b5a3270900915ec17cf665",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls031",
+      "name": "阮小七",
+      "nickname": "活阎罗",
+      "collection": "tiangang",
+      "rank": 31,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls031.png",
+        "sha256": "4e996e5456679230fe0b6670e50ceea57deed644ae17178773267133f66c34cc",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 253604
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls031-128.png",
+        "sha256": "147008c441f1032aae9d3cc24dc90bdc0195f5e41244e121578c2a8c60b60a0e",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 25565
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk039/ls031-inspector.glb",
+      "sourceInspectorGlbSha256": "4f4cdf085e9a0cdfcad56a0e91a1adb069ab7bde5c1f8512decc1f9ace322aae",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls032",
+      "name": "杨雄",
+      "nickname": "病关索",
+      "collection": "tiangang",
+      "rank": 32,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls032.png",
+        "sha256": "aa42a392be34cf64e90e3ea61108584b7ce85c67a092f4b987c7b4efa6207182",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 308923
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls032-128.png",
+        "sha256": "0e2a1c2bce13bd6140ea19cc975d6764dc2dd13a7dc055a25175f3af3d04eb50",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 27637
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk039/ls032-inspector.glb",
+      "sourceInspectorGlbSha256": "2ba903f0cbc45c8398dc0eb2a37bb598824e2f44b3c26503b92deb18a73cd2e7",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls033",
+      "name": "石秀",
+      "nickname": "拼命三郎",
+      "collection": "tiangang",
+      "rank": 33,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls033.png",
+        "sha256": "1b06bc259258d2e948d318aaad54b2fda87ca2513050e1fa6eac36cd0ebdc1a3",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 248586
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls033-128.png",
+        "sha256": "9ca7518784acb54a908484549a5c163855a56a9abb4f32f1dc3002bb0f5b4e99",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 24995
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk039/ls033-inspector.glb",
+      "sourceInspectorGlbSha256": "669725b32443bc17030ddd8b305753a0f82d78d6b219819409eee7f1c614b214",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls034",
+      "name": "解珍",
+      "nickname": "两头蛇",
+      "collection": "tiangang",
+      "rank": 34,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls034.png",
+        "sha256": "e1e3439e6ece46181e7c64781082db2f952dfeec4287b7a0c6f593064d48276a",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 294394
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls034-128.png",
+        "sha256": "dca2f572d20e325e307c02b8e40108217716fac6b7674934998440b4e76359eb",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 27421
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk039/ls034-inspector.glb",
+      "sourceInspectorGlbSha256": "9c47e7b5bab4a01fc65a2d009d71524331286b819e3415a22b84209ee4c9a1d1",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls035",
+      "name": "解宝",
+      "nickname": "双尾蝎",
+      "collection": "tiangang",
+      "rank": 35,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls035.png",
+        "sha256": "71c52fb60fb358914c1464b65ec535b6b9e72a4b6c72d932ac2d402600624da7",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 311042
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls035-128.png",
+        "sha256": "5233ba649c1090c23e2aa9dc3db52a51267c1bf08228d20c734f92dfb6ec35b9",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 27321
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk039/ls035-inspector.glb",
+      "sourceInspectorGlbSha256": "93b08c6b65d604e1729d14c17e0efef109016f505590cc38b59300cd69a106ab",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls036",
+      "name": "燕青",
+      "nickname": "浪子",
+      "collection": "tiangang",
+      "rank": 36,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls036.png",
+        "sha256": "c46b63d186d94469edf613aa12ffdebeaa9684b3f06872be244ad34b9f03004c",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 233510
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls036-128.png",
+        "sha256": "56036de415ce09d8013d77f2a0a11229b6bdda5dcff865eb1f15c423fb629169",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 24727
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk039/ls036-inspector.glb",
+      "sourceInspectorGlbSha256": "1000c281231e253e80e0e5d00235a9064574a7e51688b48130bfe876fdf1e3b4",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls037",
+      "name": "朱武",
+      "nickname": "神机军师",
+      "collection": "disha",
+      "rank": 37,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls037.png",
+        "sha256": "273a10cfbbefc7dc7fc5694f320d4aeb6de59bc0346a94bdb048587cf77ae6b3",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 257961
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls037-128.png",
+        "sha256": "e94a3b6208b2961aa02aaf3e00de227ee05ca21d40f5b0513636d4f9ca5df165",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 25311
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk039/ls037-inspector.glb",
+      "sourceInspectorGlbSha256": "443837913208b5873a6b6992263fcdd6a67fc2c8815e7ca6448a98f65062519c",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls038",
+      "name": "黄信",
+      "nickname": "镇三山",
+      "collection": "disha",
+      "rank": 38,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls038.png",
+        "sha256": "8945de0d2f1b2752b7aaff88145b1d12fef5c445b89de346257f81d107642fea",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 313283
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls038-128.png",
+        "sha256": "7471ad13a0bcf12dc2906f938741d89609b0adf8f1182c56b1317770fb40c785",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 27394
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk039/ls038-inspector.glb",
+      "sourceInspectorGlbSha256": "a908dc54421d61732f6138924c71356f54d238100a940b48d3173c041b5305dc",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls039",
+      "name": "孙立",
+      "nickname": "病尉迟",
+      "collection": "disha",
+      "rank": 39,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls039.png",
+        "sha256": "15c212c7ef6bebfdbb0994749dc562f3a1ca5d1c02341f7663d4196fcdd378f5",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 313605
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls039-128.png",
+        "sha256": "34232f7700a1bb5cea19dd0fb18be9c57221ef78f394084a4b168eae0aa07761",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 27914
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk039/ls039-inspector.glb",
+      "sourceInspectorGlbSha256": "a9964fd60a84e987d3a50b8ff898984639cfe83aa969244c08d92b8e4cb91cf4",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls040",
+      "name": "宣赞",
+      "nickname": "丑郡马",
+      "collection": "disha",
+      "rank": 40,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls040.png",
+        "sha256": "5c486f830665b1fa0b24a32fc97d9c6630dcbe93f97281f37ff8e69a33f2feea",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 264958
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls040-128.png",
+        "sha256": "d1212ece49091063372a533eb263a561cbd8ffd01840b9e7b98cb6c364665ef1",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 25204
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk039/ls040-inspector.glb",
+      "sourceInspectorGlbSha256": "b976d923fec6c43f2a606cd289979d8ed2aa259def3b7129f9e5b1144a2d05c3",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls041",
+      "name": "郝思文",
+      "nickname": "井木犴",
+      "collection": "disha",
+      "rank": 41,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls041.png",
+        "sha256": "0970b824bd15ff576a1ce9932902d1b96725ae869431df1056783aa6a2450eeb",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 252079
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls041-128.png",
+        "sha256": "af6fecab7a25f0e191fa952308a276f476e6f1ad1a874f5756cee2cab478e91b",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 24754
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk039/ls041-inspector.glb",
+      "sourceInspectorGlbSha256": "1f84df3ee5b12d0ceca0bef3795a05bda43f2a6ce0ff49db3fc1d12334a31da5",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls042",
+      "name": "韩滔",
+      "nickname": "百胜将",
+      "collection": "disha",
+      "rank": 42,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls042.png",
+        "sha256": "dbb0876917cf04565b7e2aa4eee4c39a630da932ac4703a5892f131f19d338ef",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 287685
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls042-128.png",
+        "sha256": "abda8026431610b4c1a74a03847b7a4ca61742dad76cd57d8b60c186f86c0b24",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 25260
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk039/ls042-inspector.glb",
+      "sourceInspectorGlbSha256": "6c8b06f1256806c35f8ace89afdf2df5640eb6ba2473175bfc6dfaea25f26278",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls043",
+      "name": "彭玘",
+      "nickname": "天目将",
+      "collection": "disha",
+      "rank": 43,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls043.png",
+        "sha256": "89b136409eb5f999492ab6d9b41138566e562ac17709a848bdbe144c5520c959",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 260435
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls043-128.png",
+        "sha256": "e0336495380d751d92549539133a8f0167ceb182cfa118dea9a2afd6ced8673a",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 24937
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk039/ls043-inspector.glb",
+      "sourceInspectorGlbSha256": "8e92e2e40f89c03e1a66063b23587d2b6ede6d9c5eb7aad79b1d479afdfd1cfa",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls044",
+      "name": "单廷珪",
+      "nickname": "圣水将",
+      "collection": "disha",
+      "rank": 44,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls044.png",
+        "sha256": "20f70b8d243bb1237d9c2a4763ab32a7a79f03fca1cb7105d7c9e8a4a2256da9",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 248034
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls044-128.png",
+        "sha256": "d29b2003cf7986e75aeac1a0e94e2829b8ab4537ee7d658229ab082d616d4ebc",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 23795
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk039/ls044-inspector.glb",
+      "sourceInspectorGlbSha256": "8494a16feabfaa22e1fa0fc2361e56802698e6e0689acfabe4e068da311703c3",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls045",
+      "name": "魏定国",
+      "nickname": "神火将",
+      "collection": "disha",
+      "rank": 45,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls045.png",
+        "sha256": "9b5dca084b3b56f13b557574ef6cb2e47d9197e600c1418b086f164b2218d61b",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 262657
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls045-128.png",
+        "sha256": "6dece841c4fe514028883040b46b11f679a600f11b6f83c91a3ca0dcb354687e",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 25002
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk039/ls045-inspector.glb",
+      "sourceInspectorGlbSha256": "50ea5d0cd428f7ffe66d0477cdda658000520e6409ef1754007adf6e4da3d8c7",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls046",
+      "name": "萧让",
+      "nickname": "圣手书生",
+      "collection": "disha",
+      "rank": 46,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls046.png",
+        "sha256": "5960e56ad93e127bb245c2721f7b66db8283e640e53e0bd2c937947cdf2f4a26",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 247315
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls046-128.png",
+        "sha256": "329cc81a9ccb79faec5006bdbecc2589c037587bf6795bf1127bbb7438f6d4f9",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 24629
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk040/ls046-inspector.glb",
+      "sourceInspectorGlbSha256": "4d95d6d2f0ddf5b64e33e5c75eef1159f669607985e0f854864cfcffa0e949bf",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls047",
+      "name": "裴宣",
+      "nickname": "铁面孔目",
+      "collection": "disha",
+      "rank": 47,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls047.png",
+        "sha256": "8e45e3a47fdada5800c8a268f72b56bcffdae55e4f2bf40314aeebf64af058db",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 257802
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls047-128.png",
+        "sha256": "943ef2ee0d6ffeaf0887dfde5852c955d3198fa72df6ccdb070fa82e11440d55",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 25723
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk040/ls047-inspector.glb",
+      "sourceInspectorGlbSha256": "cc91d33e2e7fe19247a4a6acd08fd963ae3f96cee76bd53e55ef130da8d7eb04",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls048",
+      "name": "欧鹏",
+      "nickname": "摩云金翅",
+      "collection": "disha",
+      "rank": 48,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls048.png",
+        "sha256": "e9d68330c2e983205fa170e260304d375dc11e2322aa9c1cf35a07ce291a9416",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 275345
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls048-128.png",
+        "sha256": "6f741ac6bd9179ebb2c6b5c60d0d0161c11bcdc9bed4dd7729426642824fdf5b",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 26549
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk040/ls048-inspector.glb",
+      "sourceInspectorGlbSha256": "4f032fe209e1bd52e380ad0b89e46c20b6728e19071df2899b9a4f6c76d07440",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls049",
+      "name": "邓飞",
+      "nickname": "火眼狻猊",
+      "collection": "disha",
+      "rank": 49,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls049.png",
+        "sha256": "1745527b5156200b3f3b701a8a0ee3506e646e399060a8de2b4e84703784e697",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 277361
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls049-128.png",
+        "sha256": "35637b120d634133ab69c320f5a6bdab6b2f453e2468046e3d10ec420480f562",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 25620
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk040/ls049-inspector.glb",
+      "sourceInspectorGlbSha256": "e0fd23da08fb6b9545175ea62e837421b9ef4da577547981a06e4a89af9e2870",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls050",
+      "name": "燕顺",
+      "nickname": "锦毛虎",
+      "collection": "disha",
+      "rank": 50,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls050.png",
+        "sha256": "6b098c554020d1b435ce4ff4b1e13ece8dc065ad23405a3a94791fae41da83d7",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 303792
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls050-128.png",
+        "sha256": "f4d7c6baa6a36efb93737d664cf9a52019e23ca776292db144313d573eabbfec",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 26581
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk040/ls050-inspector.glb",
+      "sourceInspectorGlbSha256": "33c01274fbd50767f53a6871ccfea0cf8eef8891ea3b7ed660ca56b4be60f5ae",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls051",
+      "name": "杨林",
+      "nickname": "锦豹子",
+      "collection": "disha",
+      "rank": 51,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls051.png",
+        "sha256": "47f364a424decd3a3a1bd03aeb2bd7b95875c99ac5e4453577d22e4c346ea845",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 249311
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls051-128.png",
+        "sha256": "333543598b895670a5a4cb7e6a065f7241a6603e8d3f0dbfed6db026e68a9050",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 24760
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk040/ls051-inspector.glb",
+      "sourceInspectorGlbSha256": "223ec9e866b92bc21174242905b536584b71a042b1307425fc703f985ce985f2",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls052",
+      "name": "凌振",
+      "nickname": "轰天雷",
+      "collection": "disha",
+      "rank": 52,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls052.png",
+        "sha256": "2bd8858d09b584ba3b5ecfe3f3b158e25fb71e1b8da8f2d2f8144799cadc58d8",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 261252
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls052-128.png",
+        "sha256": "3de901865a023e058e12dff83f034bd441b0391171c650653562b756e2c2578e",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 24653
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk040/ls052-inspector.glb",
+      "sourceInspectorGlbSha256": "a6870f56eb123296c55640f384bfa3a96ec96b781f7231b10f4f66dff546789d",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls053",
+      "name": "蒋敬",
+      "nickname": "神算子",
+      "collection": "disha",
+      "rank": 53,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls053.png",
+        "sha256": "93b2b00c1678b5b90b53d776deefb6d73b585300cc7f17c2ff88e0352474ec0d",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 264978
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls053-128.png",
+        "sha256": "bf934cdac9c54fde3f32b19e89bbedaff8782d3c8c51150652f924bd8c26c91c",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 25516
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk040/ls053-inspector.glb",
+      "sourceInspectorGlbSha256": "d5328ce13278b8387eb3f32f88745c89c4afe99029e498d12ddc390d87be8393",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls054",
+      "name": "吕方",
+      "nickname": "小温侯",
+      "collection": "disha",
+      "rank": 54,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls054.png",
+        "sha256": "8372a10874e528af991a256f7745e405f79b87b578c691138845c0659d57a6d6",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 277965
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls054-128.png",
+        "sha256": "419668225e58daba4bb7ddee867dc1b36e559da76af7f2d19431b0d93dd21f13",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 25336
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk040/ls054-inspector.glb",
+      "sourceInspectorGlbSha256": "c6413c87ac5c86f00523b85f4ed73b78f82944afb4d760646487ded1ff906376",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls055",
+      "name": "郭盛",
+      "nickname": "赛仁贵",
+      "collection": "disha",
+      "rank": 55,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls055.png",
+        "sha256": "5fe4887aa3b26296f967404d5f55af3d04b174829560e9c6332e786579d79bc7",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 237162
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls055-128.png",
+        "sha256": "cdd18d8b8c57d678d55dd6dae24982f2858a0e843350c7d2a0a54f143c1d5131",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 24394
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk040/ls055-inspector.glb",
+      "sourceInspectorGlbSha256": "a4d5e61dc8892722f1f71130761974e941c160189e2dbd9075eb52a2df570e7c",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls056",
+      "name": "安道全",
+      "nickname": "神医",
+      "collection": "disha",
+      "rank": 56,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls056.png",
+        "sha256": "93d1a3423a0a8a198ec21e2ed66071b3e3b7691d1a309a88d9410c8285bf8795",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 244265
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls056-128.png",
+        "sha256": "570d018de73100436bff2d33ec7d99822af4ed4d0264982e6e20c8a024e4930e",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 24420
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk040/ls056-inspector.glb",
+      "sourceInspectorGlbSha256": "3bd8d6620653102afef5aa28fb522755f1f475764d6ebff7360c9249ad07f865",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls057",
+      "name": "皇甫端",
+      "nickname": "紫髯伯",
+      "collection": "disha",
+      "rank": 57,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls057.png",
+        "sha256": "80ea66471858e09dae8d35cece997ad50eedcb29eafd811984f463bcb9d30082",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 257610
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls057-128.png",
+        "sha256": "a52d564412cc7311fc82ec07fe8e3c05e32a0a0f2a105cacf612feaf725d8b3c",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 24049
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk040/ls057-inspector.glb",
+      "sourceInspectorGlbSha256": "669e9a42b62b47bf39673a8ca39863479d7d51ab009b4e164fc39f2ef5d56346",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls058",
+      "name": "王英",
+      "nickname": "矮脚虎",
+      "collection": "disha",
+      "rank": 58,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls058.png",
+        "sha256": "a4b8670d0f34b6dfd62bbf517900501f0440fdc5aeee01dfd7fd567898e32af8",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 301124
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls058-128.png",
+        "sha256": "434dcbd3698138038b232ee1145bef51e2b99cd33660cbadfd8922c977f3d60b",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 27347
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk040/ls058-inspector.glb",
+      "sourceInspectorGlbSha256": "2fbe158153a41ca1126925bdb520c9a30208755119fdc6b53d035be7ad7d3ed0",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls059",
+      "name": "扈三娘",
+      "nickname": "一丈青",
+      "collection": "disha",
+      "rank": 59,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls059.png",
+        "sha256": "a632d8fe1e040cef787054d22c8e1ab4c4a9af02dbce4675b9664b79a9877dc0",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 276617
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls059-128.png",
+        "sha256": "d0eb779bd5d43bbc9a0cdbc6e561c1dc21a16c8e79417b73d705e9e45e0cf07f",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 27565
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk042/ls059-inspector.glb",
+      "sourceInspectorGlbSha256": "7337a59964f1d0ba9bf34553ab75d8d78c722dc57412a47e034efac0c4e43ee9",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls060",
+      "name": "鲍旭",
+      "nickname": "丧门神",
+      "collection": "disha",
+      "rank": 60,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls060.png",
+        "sha256": "5f1a87f380d47713d8ea10ded8cfbd2cc898e0ec83a2b194834d23acb558654e",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 247339
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls060-128.png",
+        "sha256": "f77e41fb1f822526454805bd7c70f30f0ad069a3ef423f1f6bfcf1b4db5cbc08",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 22579
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk040/ls060-inspector.glb",
+      "sourceInspectorGlbSha256": "6bc89e887167cc13f5841734858ae9ecab1487513cd3d1d91247cb36850c3e4c",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls061",
+      "name": "樊瑞",
+      "nickname": "混世魔王",
+      "collection": "disha",
+      "rank": 61,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls061.png",
+        "sha256": "7d54887a6e2f5bcc822fc211b44bb03fc84a34ab585176ae5dba26d27540ddf6",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 281793
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls061-128.png",
+        "sha256": "c4ad58b7e5d8851f17508c2eaf76e2a59adcdf0d07148ad878055d5cb615d288",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 26023
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk040/ls061-inspector.glb",
+      "sourceInspectorGlbSha256": "b73c0327049cd0b45d50915572d765fc3348e8bfb694fc6cd0b46ad9bf503960",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls062",
+      "name": "孔明",
+      "nickname": "毛头星",
+      "collection": "disha",
+      "rank": 62,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls062.png",
+        "sha256": "89641693677a388bed09255f4bd7faacf26d7a86a1acae393daea23130ff3d38",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 230404
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls062-128.png",
+        "sha256": "8eae15bdf1cda3a121fc1c7ff74898781e1efb48a1666feffa788ab94bcc9d1d",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 23005
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk040/ls062-inspector.glb",
+      "sourceInspectorGlbSha256": "fcbba5c6bff3bcf48ceba52904e7412c0e68dca5098a30aa61de401ccb3b01b7",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls063",
+      "name": "孔亮",
+      "nickname": "独火星",
+      "collection": "disha",
+      "rank": 63,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls063.png",
+        "sha256": "fa6b3957a71cde25a88abcfa404e75af4622ce9e86a00a5ab3d414ffcebfe810",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 247289
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls063-128.png",
+        "sha256": "ed0c0723937d33e7a77e5cd07d8e4a222827ae882802879a7e8785ae7f0771f5",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 24303
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk040/ls063-inspector.glb",
+      "sourceInspectorGlbSha256": "682a68628d8a68df7370575602f9159d3336c65bcc5fd4358297f4abeda6d5b1",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls064",
+      "name": "项充",
+      "nickname": "八臂哪吒",
+      "collection": "disha",
+      "rank": 64,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls064.png",
+        "sha256": "8e76cdc4865e38da4854126d32a2cdacf918a38a737557e63e94a1bfecef7853",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 246250
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls064-128.png",
+        "sha256": "2dfc174caaac61ed3d1cff2ce9717f81d6d40aad148d09d0c67c6d7c4ac3aea9",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 23342
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk040/ls064-inspector.glb",
+      "sourceInspectorGlbSha256": "26a5f884b9b44c191b64f93c5accdd8773300b0ed95761d4443d13c6289ed245",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls065",
+      "name": "李衮",
+      "nickname": "飞天大圣",
+      "collection": "disha",
+      "rank": 65,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls065.png",
+        "sha256": "ae9d8e2d31ce9f8c445260ab8685e55e77b722b8c1507d138d61ab85471bae91",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 250573
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls065-128.png",
+        "sha256": "1b4774304f707966796049c203fd26ecaf4b52f8c388fa217258cd4bed1c0df7",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 24704
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk040/ls065-inspector.glb",
+      "sourceInspectorGlbSha256": "82d7f93cd021cd8af166d18f3f66cfc4c9f82fff7f2b7735d208f2d5b496da2d",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls066",
+      "name": "金大坚",
+      "nickname": "玉臂匠",
+      "collection": "disha",
+      "rank": 66,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls066.png",
+        "sha256": "1b98881f6175e08ed9ed53aa9186005c5bfd36f71f14f26d0a5aeffefbce36c2",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 229790
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls066-128.png",
+        "sha256": "54f0599a60de7f094b457b13977c2386942d3f99536ea8b54a3f764638e0dbef",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 22486
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk040/ls066-inspector.glb",
+      "sourceInspectorGlbSha256": "25d0ccacec07b755d17842c0f330df84d64769d817770b1d138a27913baffa42",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls067",
+      "name": "马麟",
+      "nickname": "铁笛仙",
+      "collection": "disha",
+      "rank": 67,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls067.png",
+        "sha256": "2a47f641fce6673f98330cbf462c18ebaf87c673031ad3cfc8dc74a63454e8cb",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 266237
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls067-128.png",
+        "sha256": "e19c68a391ce9d9c9ec2a0e1803130a935fd4233be026689b72352be3a85f9ca",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 24987
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk040/ls067-inspector.glb",
+      "sourceInspectorGlbSha256": "76b61d2238505727efdfe5d8195f7cd6c276b29857b772d1d5190e730428a354",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls068",
+      "name": "童威",
+      "nickname": "出洞蛟",
+      "collection": "disha",
+      "rank": 68,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls068.png",
+        "sha256": "9a0e0b0b29a90d133dd676d1b6aed2efce2629ac6f53944e24965afdcbb60bd8",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 217877
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls068-128.png",
+        "sha256": "c7ca6b0e5a886d5d4b5d022dc433fd403f048fe599be8ef8a6690f90af950191",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 21615
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk040/ls068-inspector.glb",
+      "sourceInspectorGlbSha256": "d688fa85194def51af2850a5ac3a988a342c38960fec5573b0c25d9d615a5c12",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls069",
+      "name": "童猛",
+      "nickname": "翻江蜃",
+      "collection": "disha",
+      "rank": 69,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls069.png",
+        "sha256": "72305fd5c670377d09da433dd6bc7cf786b7e7370bba49e0eafe0be7d47b7ae9",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 247027
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls069-128.png",
+        "sha256": "27c476f7302d0309769a91735daad3d3db0bfe8c18bcc66c90f23956078c764d",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 24501
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk040/ls069-inspector.glb",
+      "sourceInspectorGlbSha256": "458a32cabe0a7d4fca1a8e3b43adb4d2c3e18f27b1da942064fd9fa873223c6a",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls070",
+      "name": "孟康",
+      "nickname": "玉幡竿",
+      "collection": "disha",
+      "rank": 70,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls070.png",
+        "sha256": "32727bfacaadb29befb65c23d84abaaf6f1f320ff50ed2ba897e199e9a274fb8",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 232751
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls070-128.png",
+        "sha256": "46a52baa7413ad3593a62f5a5a543bc18a17a01201905aaf2c9505555b72c8e4",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 23893
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk040/ls070-inspector.glb",
+      "sourceInspectorGlbSha256": "12ebf860164c68e4ad9d03789e179f496f4dc30fc663a91de3558fc5623196ce",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls071",
+      "name": "侯健",
+      "nickname": "通臂猿",
+      "collection": "disha",
+      "rank": 71,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls071.png",
+        "sha256": "4a92a026c0a2ccf1537df0b7f8529b98e281739862f931e8f2c3564e04efc363",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 213647
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls071-128.png",
+        "sha256": "a3b26e0432ff1b3de6a22b89c12bd34ff8fba00eb04189d876558eaaaa62e67a",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 20257
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk040/ls071-inspector.glb",
+      "sourceInspectorGlbSha256": "19933aac2c9f0b8529d04e853d63f185e0479f6ef7b478f98cdf1b80acabd22a",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls072",
+      "name": "陈达",
+      "nickname": "跳涧虎",
+      "collection": "disha",
+      "rank": 72,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls072.png",
+        "sha256": "15caf4643a3086baee1c3666656a79d0cde414cf1debab9bf8da362965b93986",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 260437
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls072-128.png",
+        "sha256": "4b9211431361222363c0961ff09ae57f7e62c8521603493ee512f106d9c88db1",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 25589
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk040/ls072-inspector.glb",
+      "sourceInspectorGlbSha256": "bbd65a79c9c57c67567b06ca5d94b983eef7868a7d404cc35d559e5a2de5f51e",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls073",
+      "name": "杨春",
+      "nickname": "白花蛇",
+      "collection": "disha",
+      "rank": 73,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls073.png",
+        "sha256": "0a86eacdd96ab9cbefbb90d879a7c131b7e23c026a4ede463c16ece10a8cc4f5",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 245078
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls073-128.png",
+        "sha256": "1f34e5b8b36f705e92f43b4b5c56bdb28d63318368c1e0706621cbe9208c15d1",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 23820
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk040/ls073-inspector.glb",
+      "sourceInspectorGlbSha256": "6ad1513ffd7e4e761a3e77c4bc9d59a899fd1b5dea3a69a3b57b85c55476c4fa",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls074",
+      "name": "郑天寿",
+      "nickname": "白面郎君",
+      "collection": "disha",
+      "rank": 74,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls074.png",
+        "sha256": "f647e16e4e66a26645e35decab83d0261a26cdc88fc077aca66660d80054a76a",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 281680
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls074-128.png",
+        "sha256": "056ed33073a8ea20adbb794a78ae05cab1d0f620ab892e1233efc02815a99ba8",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 26199
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk040/ls074-inspector.glb",
+      "sourceInspectorGlbSha256": "12df3a86930021758406d72f1f9d2fe54a4753a0d4a8679752f3d6c9fbe74f92",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls075",
+      "name": "陶宗旺",
+      "nickname": "九尾龟",
+      "collection": "disha",
+      "rank": 75,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls075.png",
+        "sha256": "51720dca978edc3fe28d27ed9b4f3759e5fb5d6e663e09361ee59e273069120a",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 262514
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls075-128.png",
+        "sha256": "2800a5faeaaee6d18bf585c06e7c0900b1186b5d6f0682f3bbaef895cd86729d",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 24600
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk040/ls075-inspector.glb",
+      "sourceInspectorGlbSha256": "2d01623167470dcd66d43e3bc9b3de370562e595bc797ff5f58180205da3e0cf",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls076",
+      "name": "宋清",
+      "nickname": "铁扇子",
+      "collection": "disha",
+      "rank": 76,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls076.png",
+        "sha256": "edb5731028e3e72dfb38d482fd02448bf19a0d09cf8bb494801a910e002affb0",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 230806
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls076-128.png",
+        "sha256": "19e7d8ff51857f9ba04e059554fce88adb217b1b071bf4e0365a3f3ea114107d",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 23746
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk040/ls076-inspector.glb",
+      "sourceInspectorGlbSha256": "2c41002f19a1b3d84cbaeaf09ed7839b9d20b2fe40dce473cb90b447af8a1efa",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls077",
+      "name": "乐和",
+      "nickname": "铁叫子",
+      "collection": "disha",
+      "rank": 77,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls077.png",
+        "sha256": "4ac7194f38f96a5b59e0f5640b888cbbfc66cc9e54bfe394ebad5ddbaf6ddbb4",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 217950
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls077-128.png",
+        "sha256": "cc475c88c7ca6e517ed1aec94cec1278f2cce0e2bbcff3142dd00d824df8e3cf",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 22493
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk040/ls077-inspector.glb",
+      "sourceInspectorGlbSha256": "9b1941954ae2aebe890361d03e349451f81bf31b36d370ff2ceb1569a056d941",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls078",
+      "name": "龚旺",
+      "nickname": "花项虎",
+      "collection": "disha",
+      "rank": 78,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls078.png",
+        "sha256": "7125924d6030bdea0f33bd913eae5ff8c20909d4d5ab75a233841b364535a775",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 236865
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls078-128.png",
+        "sha256": "9d794858a3858f08da1c38e666177d63dabbaabaca19311a32b820076fb9927c",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 22342
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk040/ls078-inspector.glb",
+      "sourceInspectorGlbSha256": "804fb7de9c093ea832ccad8c40911d63346b6146ea41a5a24873e3d7052c8114",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls079",
+      "name": "丁得孙",
+      "nickname": "中箭虎",
+      "collection": "disha",
+      "rank": 79,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls079.png",
+        "sha256": "ab15bb4d39a1ecc7c1ea4c095b2a2d1926937443c861ba16bf1d58203e645950",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 270401
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls079-128.png",
+        "sha256": "f623abdc8f6a52a98faf2f6ea2af5065b7e0815fd309f18ba462732136caee38",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 25212
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk040/ls079-inspector.glb",
+      "sourceInspectorGlbSha256": "6aa78231aa95b90117fd9120f8283f528370b7c84519e007b2d91fd82ea47c9d",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls080",
+      "name": "穆春",
+      "nickname": "小遮拦",
+      "collection": "disha",
+      "rank": 80,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls080.png",
+        "sha256": "bcd367560eaca8178b9d44a858e841fd88d41e314e1dfaea13434b004595eb5b",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 267291
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls080-128.png",
+        "sha256": "4f2089338df12c171559501f42346af805b27715c4b757ec585b7ba6bf958d90",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 25861
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk040/ls080-inspector.glb",
+      "sourceInspectorGlbSha256": "b1558d4944ea590a53a5961533941953ddea0930dab9e6789296cc0629c8d4cb",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls081",
+      "name": "曹正",
+      "nickname": "操刀鬼",
+      "collection": "disha",
+      "rank": 81,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls081.png",
+        "sha256": "313468930f05e64c6444893bf265cbc8b97058f4f4467949070802d3d099bb33",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 258064
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls081-128.png",
+        "sha256": "61f6262783c3f3c6334c9e4d4205329118a702da7b7ab43ca74e0f92c2d67a8b",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 24396
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk040/ls081-inspector.glb",
+      "sourceInspectorGlbSha256": "44b6db86ac350a282edee54902500c726de88860c62bfb51537b80d8d3ec725a",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls082",
+      "name": "宋万",
+      "nickname": "云里金刚",
+      "collection": "disha",
+      "rank": 82,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls082.png",
+        "sha256": "d5e3bdbc57baa54c0b66e78d0773d11dc00daad16aca5876cfaa0c6fe0c8488e",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 247199
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls082-128.png",
+        "sha256": "0590441a1efbee41b2050c437f260fea8fa1bbf9a7030cd5ba130a33abaecf8f",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 23524
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk040/ls082-inspector.glb",
+      "sourceInspectorGlbSha256": "87c71b8b64f7e17b8f8c433c4ca08a0cbd854e2b35a9805c3719b8875d0fb263",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls083",
+      "name": "杜迁",
+      "nickname": "摸着天",
+      "collection": "disha",
+      "rank": 83,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls083.png",
+        "sha256": "6ea4f148c26ce28f73405258800b7bf2acc0e8dc89400034910824c622b754a1",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 256110
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls083-128.png",
+        "sha256": "5fc35f6aae75d5783f8fd082c9ce3465e9ab0135f0c4ed7ea2437f06b5a77835",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 25136
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk040/ls083-inspector.glb",
+      "sourceInspectorGlbSha256": "4c21e83fb28380748dc610a0bddafa3cdca3d045260853a25a13a9a2a3bb2959",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls084",
+      "name": "薛永",
+      "nickname": "病大虫",
+      "collection": "disha",
+      "rank": 84,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls084.png",
+        "sha256": "b34aff12b2410b694e5b5be6d7d74472b49e7412e2760746fd0e61cdf839837d",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 276068
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls084-128.png",
+        "sha256": "7fec5b1aee98a2c5825e6c5aeed483dcc8823fb26486c3fb45e75e87cbf2b9de",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 25441
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk040/ls084-inspector.glb",
+      "sourceInspectorGlbSha256": "82558747174e4cbf26bb0f4681174d593853930b301a85aefe68f56f832de95d",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls085",
+      "name": "施恩",
+      "nickname": "金眼彪",
+      "collection": "disha",
+      "rank": 85,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls085.png",
+        "sha256": "a4e8b77556b94b1993875c92e709daa3888749e246b6e9eb85b46bfc45886efd",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 242088
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls085-128.png",
+        "sha256": "b94a99448c9449bb62cb4b6b0c9a3c77fec78a686e3da1d8e1e95e35e7d90f43",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 23465
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk040/ls085-inspector.glb",
+      "sourceInspectorGlbSha256": "7e06e2a4ceab9ebce24d2fbdeaa8fa0702b42af2ec1aa43412c48f84236cec9c",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls086",
+      "name": "李忠",
+      "nickname": "打虎将",
+      "collection": "disha",
+      "rank": 86,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls086.png",
+        "sha256": "f1aa39ec6ab0a3892becf330625deb73e304a9c161a3792975ffc728bec7aa67",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 249439
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls086-128.png",
+        "sha256": "a2325423c2b17f13a4e298b7201a626ba10a1efc4db14fab37bc3261b548a97f",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 23045
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk040/ls086-inspector.glb",
+      "sourceInspectorGlbSha256": "234beec987076ac8cd37c3d9f12b684a1dac865f52675469102f17170f542f65",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls087",
+      "name": "周通",
+      "nickname": "小霸王",
+      "collection": "disha",
+      "rank": 87,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls087.png",
+        "sha256": "2b46e42375d4d826c4a43fc23be831582ae02f7e15e983348e427001bcb85c13",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 278838
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls087-128.png",
+        "sha256": "2d981b41eb40f716ae4886316c216b4b938de56cf27f4cffcc2f85b7c739b5bf",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 25608
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk040/ls087-inspector.glb",
+      "sourceInspectorGlbSha256": "7ad6a8e151d138b1d5bd1a7f27844b71a9d26c8c44f2c24e48eae4aa079333b5",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls088",
+      "name": "汤隆",
+      "nickname": "金钱豹子",
+      "collection": "disha",
+      "rank": 88,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls088.png",
+        "sha256": "39353c3daaf540f60e0cfb828dc0fc76170b242756011d8b871fd22a958da621",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 272546
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls088-128.png",
+        "sha256": "687a024d3699aa61f9a1c5363a0d7944fee88d909204c9ef38d38d48164186d9",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 25019
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk040/ls088-inspector.glb",
+      "sourceInspectorGlbSha256": "6d2501e07a6000e0d3d3bba86ab66761402437f494089f83c8722c9086bb85c6",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls089",
+      "name": "杜兴",
+      "nickname": "鬼脸儿",
+      "collection": "disha",
+      "rank": 89,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls089.png",
+        "sha256": "1c494af0a5d123fa7a403c052a6bc23d57e233d16aa9560bab30abe7b50a7289",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 256477
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls089-128.png",
+        "sha256": "5e72c3efd416f1b3f96a33fca4665e2e0463f71457c21ca3ca29f44ec955e3cf",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 24154
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk040/ls089-inspector.glb",
+      "sourceInspectorGlbSha256": "748f5570a87ff18196101d827add10d02413b1a86a6b0db525badba94cee3032",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls090",
+      "name": "邹渊",
+      "nickname": "出林龙",
+      "collection": "disha",
+      "rank": 90,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls090.png",
+        "sha256": "edb1b431cf19dc350380014439127a89edc380c09c2c2f690ced447c7c68a3ce",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 279237
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls090-128.png",
+        "sha256": "7e05ab269ba06ce039e276b7116403f83a7ff63c8dfcf22a9e23e9e716e5a7c0",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 26099
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk040/ls090-inspector.glb",
+      "sourceInspectorGlbSha256": "5c271062bf2418dc5ab04221a60c0bafc273bee9a770193f5da88ad7cb488879",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls091",
+      "name": "邹润",
+      "nickname": "独角龙",
+      "collection": "disha",
+      "rank": 91,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls091.png",
+        "sha256": "34a4a4decadcb305a4c0b0c1b52dfdb4d6782b70fbc7f4e29ca2635a892e4168",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 259341
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls091-128.png",
+        "sha256": "7f9e6cd391b4eb20636b116e5abd34bed5e680632a9b08ba08a673cecfe97d4e",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 25584
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk040/ls091-inspector.glb",
+      "sourceInspectorGlbSha256": "fb448e982f89c8f55779f561201e024ffa47f15169a3ae1780670a3ccc74ca71",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls092",
+      "name": "朱贵",
+      "nickname": "旱地忽律",
+      "collection": "disha",
+      "rank": 92,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls092.png",
+        "sha256": "e15e9df63a4846730a411660751cdbec54743ba140f607d88b63482862f577ec",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 299564
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls092-128.png",
+        "sha256": "64f176aaae56dcc128d9791e913a3998b67b5dd0bbe180849aac701e62943041",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 26463
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk040/ls092-inspector.glb",
+      "sourceInspectorGlbSha256": "d68ddf574cb5bda279841127630d821e404e8df15b30947632fd6f0efca9f1ed",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls093",
+      "name": "朱富",
+      "nickname": "笑面虎",
+      "collection": "disha",
+      "rank": 93,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls093.png",
+        "sha256": "881ee95b6aedf96690c544b16af07239bcb4e29a8e4b85fcfcdcf092b1582f90",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 232203
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls093-128.png",
+        "sha256": "0868338ef34a0b4a5c240c757832995a4e3f4084819fd3b80d07be5030d0a90b",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 21674
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk040/ls093-inspector.glb",
+      "sourceInspectorGlbSha256": "aac5ff805fdb94973da2e8130501132c1ebc1b7eae620d28240e861cce241c87",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls094",
+      "name": "蔡福",
+      "nickname": "铁臂膊",
+      "collection": "disha",
+      "rank": 94,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls094.png",
+        "sha256": "d79c35eae8364549c2f626c9159ea74c5c6a2cd342066df4f56e3e5579587017",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 260559
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls094-128.png",
+        "sha256": "d2bf06301b4c84dc45bd69ca85c28054a73de133f4cfcf9f1c363cb45c324da9",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 24130
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk040/ls094-inspector.glb",
+      "sourceInspectorGlbSha256": "44c88ee139732231c203a532225711918e92e73c273232cae0281e98e73d7847",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls095",
+      "name": "蔡庆",
+      "nickname": "一枝花",
+      "collection": "disha",
+      "rank": 95,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls095.png",
+        "sha256": "60cc17c0542ed746cadde0776b75b70f3536cd291c17c45fe1da78cd37ae3047",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 248930
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls095-128.png",
+        "sha256": "6f932f2a5d61f7fe8dc3d288429822526d14b36126c9bbd9174194020f8327c3",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 23335
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/ls095-inspector.glb",
+      "sourceInspectorGlbSha256": "cf691a37afad0e0de96330f51b425aacca1eed2a1f58720a8d5f6fa15561d101",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls096",
+      "name": "李立",
+      "nickname": "催命判官",
+      "collection": "disha",
+      "rank": 96,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls096.png",
+        "sha256": "4751f828d98badd233454ac2e581e8c84a476ec305412a2f9409f5fb0853a8dd",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 268880
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls096-128.png",
+        "sha256": "0b3991baa1fc33a10b17c0615cd4186a38fd4f9ac0e2cc474c3c780c008d8ffc",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 25521
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/ls096-inspector.glb",
+      "sourceInspectorGlbSha256": "3ff0c095bcbc7f0070495aa5e99e26343ef6fe16c94d5b01ffcb8c337eb31fd5",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls097",
+      "name": "李云",
+      "nickname": "青眼虎",
+      "collection": "disha",
+      "rank": 97,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls097.png",
+        "sha256": "dd6fc25a0d3bd85ac0ff62ec42a7351f112d498f2e9a3522d4b8bd21b88909fb",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 250102
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls097-128.png",
+        "sha256": "0f79d417637d719cd6034bd62b13acc5b7a28abfde0bc4b7c1a44b7c258f2144",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 24711
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/ls097-inspector.glb",
+      "sourceInspectorGlbSha256": "dc7bdc68a6ce49fc646dfb321acf4626cc4aca36bf8a05538e4e54d6a216665c",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls098",
+      "name": "焦挺",
+      "nickname": "没面目",
+      "collection": "disha",
+      "rank": 98,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls098.png",
+        "sha256": "13bc98e5603bca8da8aa56c4ba9af98b0cb0ae4f7883727f4666c10df52202ea",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 224413
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls098-128.png",
+        "sha256": "1051443df85ccd21b4f4a3fbe4defd7b5f3b9f3752b9d1a075da5e52f462b69a",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 22215
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/ls098-inspector.glb",
+      "sourceInspectorGlbSha256": "e74ffe333be6b11d7b2a869220d2e498476ceadb59c211ff66f23743a4bbd90c",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls099",
+      "name": "石勇",
+      "nickname": "石将军",
+      "collection": "disha",
+      "rank": 99,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls099.png",
+        "sha256": "5dd28b925744601e486622936ce2d7e73de174aefc06b1f897104894232bd88e",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 273558
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls099-128.png",
+        "sha256": "7ef58b1587a5e919796cc0532c2b318332ba633547928e1e8b7215ff665ec31b",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 25430
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/ls099-inspector.glb",
+      "sourceInspectorGlbSha256": "839da56930eac4e098be2ee147c473aa53676758c8018c5db1646f74e552a929",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls100",
+      "name": "孙新",
+      "nickname": "小尉迟",
+      "collection": "disha",
+      "rank": 100,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls100.png",
+        "sha256": "82926dc6ca1a8e034193a98fff2e257733a46fd57fd0bdfe0aceabfec8635ce1",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 209044
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls100-128.png",
+        "sha256": "2f5244bf936e18d832df213ad1985c7a152e9149c4df34b8ffe56eecf91c0f23",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 21275
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/ls100-inspector.glb",
+      "sourceInspectorGlbSha256": "8f7ebfff7d5a36ceba615af663cff7313a42570d5004d613628342c695290365",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls101",
+      "name": "顾大嫂",
+      "nickname": "母大虫",
+      "collection": "disha",
+      "rank": 101,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls101.png",
+        "sha256": "8e689ea47a848d771697fa180739789cfd18695037a30b5b7f527a3ccf89bfae",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 277105
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls101-128.png",
+        "sha256": "d7a7e5cc59382d22f4f35d2d3a0208800b15043e710547392754a27ec159931d",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 26052
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/ls101-inspector.glb",
+      "sourceInspectorGlbSha256": "464ce34a6f1ccfb4bd3f10f28ab7c0ed06836035f255a9a82a6da14d1bcbf27b",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls102",
+      "name": "张青",
+      "nickname": "菜园子",
+      "collection": "disha",
+      "rank": 102,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls102.png",
+        "sha256": "703bd67ff705d7431bf45c8f9d694d39fb0db3ffb7fabb7835947c2fabe8ca07",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 221302
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls102-128.png",
+        "sha256": "acf65a8866171bd13d0553d32d4bf27f6e6032b86fd657ab0e7406c45854e52b",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 22980
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/ls102-inspector.glb",
+      "sourceInspectorGlbSha256": "49e14b61d14520c2dbc5f433a4131347f22182690f6dd3fbe2c958bad81ceffd",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls103",
+      "name": "孙二娘",
+      "nickname": "母夜叉",
+      "collection": "disha",
+      "rank": 103,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls103.png",
+        "sha256": "478d2101d92ad6f03857c085af15ef1f06432884675020476e0741347f8ed275",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 254005
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls103-128.png",
+        "sha256": "b1ec4284318fc6447fdeb029b1909dbf27b15ba092211366264a485a78548f65",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 25557
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/ls103-inspector.glb",
+      "sourceInspectorGlbSha256": "469366bd556047bc5b079c7e4202f4792b6c3e5a88d9ce65f17d83cd31243510",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls104",
+      "name": "王定六",
+      "nickname": "活闪婆",
+      "collection": "disha",
+      "rank": 104,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls104.png",
+        "sha256": "3f88e923f7a33fb41b79a456f36a69c82fea74be63838287dd17a2be7bd10da0",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 235444
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls104-128.png",
+        "sha256": "5d0302d9b125e13710e48c1a8ed680ecf925a7f919a1930e89511e215badf245",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 23614
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/ls104-inspector.glb",
+      "sourceInspectorGlbSha256": "d7365db22e479d5f5cce8b3d80ac56e9b6156cbee641501e4b33dba0865f1bca",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls105",
+      "name": "郁保四",
+      "nickname": "险道神",
+      "collection": "disha",
+      "rank": 105,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls105.png",
+        "sha256": "b9917d364b301a632e5645f946df4e9b1b3b5cc75c236a55e0dcffeb19d2328e",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 260780
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls105-128.png",
+        "sha256": "3b34ef6331c04fd0fdd72c905fdee5b726b74bca77076afa8208132f7cd647b5",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 24934
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/ls105-inspector.glb",
+      "sourceInspectorGlbSha256": "c2b0facbe3ae8f0f1e4605a38be1d833121cb6317aca0faa7dac0aff838cc0da",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls106",
+      "name": "白胜",
+      "nickname": "白日鼠",
+      "collection": "disha",
+      "rank": 106,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls106.png",
+        "sha256": "501aaaa6b4d2283db8e22fea0a5d6d7be7dcb8b280da91c244016a15eceac160",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 258932
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls106-128.png",
+        "sha256": "8fc636b577dedd4a057d6afa3eac4f087749ae8eee4f3eb586bf634e6d2ebf4a",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 25476
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/ls106-inspector.glb",
+      "sourceInspectorGlbSha256": "b789e4da75bb6cd68cb591c446cec75476af60df04891441bfecf835126ca0b8",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls107",
+      "name": "时迁",
+      "nickname": "鼓上蚤",
+      "collection": "disha",
+      "rank": 107,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls107.png",
+        "sha256": "3dc73d196e9b5ae1341a4cd71ea4292914eda3665fce1c30029beb1ef2f59920",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 245113
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls107-128.png",
+        "sha256": "9ad10d1358504816b26a6d937153ca45ebd8ac886688ed05bd5b98c6ee387153",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 24201
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/ls107-inspector.glb",
+      "sourceInspectorGlbSha256": "a90d55966208d65181e4e40c1e21ee8e08675e7e44e90478d795b1f90114f6cd",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "ls108",
+      "name": "段景住",
+      "nickname": "金毛犬",
+      "collection": "disha",
+      "rank": 108,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/ls108.png",
+        "sha256": "88f6825496310bcec354d5e0227d383c140eff75435c3071e5774907260a0ca4",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 266512
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/ls108-128.png",
+        "sha256": "f5fd201636538e8003c54c8859f0a4e36fdc34eabf95371cf264806e9c24cb3e",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 23705
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/ls108-inspector.glb",
+      "sourceInspectorGlbSha256": "2652c59ea1af56e05f43cbb7796dc1fc07ddf6cd901b2b5141fab7de8cef7354",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm001",
+      "name": "晁盖",
+      "nickname": "托塔天王",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm001.png",
+        "sha256": "18118f240d6a394e0e3a4582d93bf43ab6c8d48fec083317ed8ecd2a159f435d",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 265424
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm001-128.png",
+        "sha256": "1b08ec88651eabc3d97ed36b63a1f8401d86de52ba591e8c18fadc85d7e5f48e",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 25714
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/wm001-inspector.glb",
+      "sourceInspectorGlbSha256": "e02ff1f865d133843bf810d9e2a9823db30aae6efd11ec6f757e0a0fc9069baf",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm002",
+      "name": "王伦",
+      "nickname": "白衣秀士",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm002.png",
+        "sha256": "41de0684635b715e3b6af49eee92a0700bde39c659e15a6daf13d9fbd47cab97",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 235295
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm002-128.png",
+        "sha256": "66f318200523e7e9968884d6629312c411ded8cf3c6db8a38b3121621a3de4f4",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 23835
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/wm002-inspector.glb",
+      "sourceInspectorGlbSha256": "95d6effed8d1327e76ed81e291294b8bc1a4f14c3a655021446f5f0b190fb2ea",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm003",
+      "name": "王进",
+      "nickname": "教头",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm003.png",
+        "sha256": "17e14cc91f476abbc4cc7e2213de074732e9a41bce4a253953e7ad964cb192d4",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 237182
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm003-128.png",
+        "sha256": "98f36d66480ed067ab40eb3a03727dd36d0a18c7918af41b8028b092d86897c1",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 22760
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/wm003-inspector.glb",
+      "sourceInspectorGlbSha256": "b7a586d28994fa54b0e6d9e1d5101140d4765f64e2ad2b20c3243d9b4804e7c1",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm004",
+      "name": "高俅",
+      "nickname": "太尉",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm004.png",
+        "sha256": "c540f9c657d300d17afb595f9503c74cecaad01bce1845ad462be46c8ce0d644",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 300827
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm004-128.png",
+        "sha256": "917ba62cb7656898dcf4d7ce06391a7e1e1ecd3d217e91939e157b836d617c51",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 28349
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/wm004-inspector.glb",
+      "sourceInspectorGlbSha256": "82051a360137b825dd454a1872bbb52065d22285f62651310542e4d425cce04f",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm005",
+      "name": "高衙内",
+      "nickname": "高太尉义子",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm005.png",
+        "sha256": "c2447b7d1b6dde8d2ad431525e69b10fb1b27f63f353aff31c42f32e99201a2c",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 269704
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm005-128.png",
+        "sha256": "76b41af247f5bc9bbcae21e95760d1433dbb22afb0fa64bb4b98a53afe48d317",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 25549
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/wm005-inspector.glb",
+      "sourceInspectorGlbSha256": "0577b5e3897e7ec549a71aa05f26d4c04595df4a47dc9b95b090d5ed29afea05",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm006",
+      "name": "蔡京",
+      "nickname": "太师",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm006.png",
+        "sha256": "1a68e24adf11ca4dad2bae275d71dcf1ce53dc76d5fc5d28ba24099f2f8104c7",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 296477
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm006-128.png",
+        "sha256": "9100ad604d3d55438c37366525f45a83cdc533079fdab097706b8dac9c330f4d",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 27741
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/wm006-inspector.glb",
+      "sourceInspectorGlbSha256": "20d3afed44f4325def34e4dd9c652965d5e98dbacd9f2a69985166a436ed79ff",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm007",
+      "name": "童贯",
+      "nickname": "枢密使",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm007.png",
+        "sha256": "e4dadf169fc38f42bd0ffb036b93293a1d1facfe8fe7f08ec6d260932a85d4e8",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 289106
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm007-128.png",
+        "sha256": "70f6143cc42b7a643ed15a232cf218b90be5e978e7600eafeb2b2b129e4d5335",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 26376
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/wm007-inspector.glb",
+      "sourceInspectorGlbSha256": "a90ec8af8f88ae9b8d464ba0e812689dfeea3cad795a0538713022b01832a1b9",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm008",
+      "name": "杨戬",
+      "nickname": "太尉",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm008.png",
+        "sha256": "f59f3221a2bc661f16c6951ae6193e576a7457b34529109c3d20477bbc26852b",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 272285
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm008-128.png",
+        "sha256": "c2034c1f8bb382dbd950dfcb7a0c1445ca6007e20b2cc883090414b0bd27856f",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 26452
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/wm008-inspector.glb",
+      "sourceInspectorGlbSha256": "b5719c4d8ae5b864d809e39fdda10b1e14fa4c789bfefdaac52578a380973bf9",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm009",
+      "name": "宋徽宗",
+      "nickname": "赵佶",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm009.png",
+        "sha256": "e1bf326ae501eea6d9c232f4c3e95d520c63ee9851ad697dde9f83c43709573d",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 247619
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm009-128.png",
+        "sha256": "e672c8572a9124f341d5dc3d820e557f1510d2b6834a94f830d23c46d71ff5c7",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 24169
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/wm009-inspector.glb",
+      "sourceInspectorGlbSha256": "91988d7d4b714bca5ba2d8cdd777db42121ed4234ce968dd49415acfe55bc04c",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm010",
+      "name": "宿元景",
+      "nickname": "太尉",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm010.png",
+        "sha256": "661feb8ea51213ba9217d62cfe2045660b17a09fda67fa7d5b7d7267d11f9831",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 261983
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm010-128.png",
+        "sha256": "d17db6555f9a55a9b45ff1365359c6c9252e9a28f2e7a242f6486f9123e2aa9f",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 25754
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk042/wm010-inspector.glb",
+      "sourceInspectorGlbSha256": "081e1d4603ae948aa6ca9cf40c8e292b40b38868c8a85e50ff62f553d93b9fb4",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm011",
+      "name": "罗真人",
+      "nickname": "罗澄",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm011.png",
+        "sha256": "b861e3434a68e0bb9c0315704bbd29abd596a7ceb5385e51a0be5a5e010719f6",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 242101
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm011-128.png",
+        "sha256": "f57edf7a37cebc422a5e6d780744edb4d345b7e27e3796044e341ea3797dd962",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 24079
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/wm011-inspector.glb",
+      "sourceInspectorGlbSha256": "2e647bfe703de3327f86068fe86889cf784287a7b7fdd354c44bd326f26223fd",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm012",
+      "name": "智真长老",
+      "nickname": "五台山长老",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm012.png",
+        "sha256": "fab468aebfa5ad7accb99c270d37759983be58e7c480590b251316c62e721fac",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 288368
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm012-128.png",
+        "sha256": "b069025ef970497dc8499b58eb360d7a920c4ee9585005051b04f70277250ee1",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 26536
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/wm012-inspector.glb",
+      "sourceInspectorGlbSha256": "b2932e5d508fcc1b88fd48f73cc7c81289f05435691775a4e4da7393a943ef4d",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm013",
+      "name": "金翠莲",
+      "nickname": "金氏",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm013.png",
+        "sha256": "f5b8ba8a23aa29775ced853875b5374d7c01e024194f546449800f8b7dcb3091",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 230252
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm013-128.png",
+        "sha256": "97328f4af4b37059305cf945a1cc67a3b2d6cc21b720ec25a76ba0ddcee6e529",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 23442
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/wm013-inspector.glb",
+      "sourceInspectorGlbSha256": "eb772536163727fc39aea63d75393e156966fa96995738aa4a63b5a0d0e6fbf3",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm014",
+      "name": "郑屠",
+      "nickname": "镇关西",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm014.png",
+        "sha256": "83aaa1c2da15b20462ec260100a18c4a0f29f3fd4664040200a2ce9826c461c8",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 264388
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm014-128.png",
+        "sha256": "3ddc49af0762358aa349030bae6f381402ebf35f988a3b5a959969e4b3f30f60",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 25835
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/wm014-inspector.glb",
+      "sourceInspectorGlbSha256": "b59d258d16108567a545d50eeab0a95a2b708cc5667f5e4088c34ee5f4021c28",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm015",
+      "name": "林娘子",
+      "nickname": "林冲之妻",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm015.png",
+        "sha256": "a4767ec570205c4fba4f213c0e71aa0c596e0aae78f5ed4a4df2750d95d98ca1",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 289402
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm015-128.png",
+        "sha256": "6fef83af673abca825377376694dc33c78fd4dd691120fc08681814ec9113373",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 26850
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/wm015-inspector.glb",
+      "sourceInspectorGlbSha256": "ff8c2763b7111ba46f74c576a1aa741668022f6a1c56f4e020bc2466d36af958",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm016",
+      "name": "张教头",
+      "nickname": "林娘子之父",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm016.png",
+        "sha256": "1bde7db0d45aae312f772aa68d924b3fa6d863eb99cdc22e48b130fbcfd2b48f",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 255448
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm016-128.png",
+        "sha256": "26351d85e3e81c424e4d2e803b0d62dd0f459c1a03883d1173646e8a8427fc5b",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 25162
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/wm016-inspector.glb",
+      "sourceInspectorGlbSha256": "81198b8dc6c2f958ca007f428ec63fee1bb63540d08ddc54fd45f7f02bbd2619",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm017",
+      "name": "陆谦",
+      "nickname": "陆虞候",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm017.png",
+        "sha256": "28144a1bd988802bec9c11accffd8ae73a8633b74bc1486fa5c22300b359fdeb",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 247440
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm017-128.png",
+        "sha256": "87916a27168c92be8dda38b052520e10f6653416542793625ad21e2b788f7ab7",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 24211
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/wm017-inspector.glb",
+      "sourceInspectorGlbSha256": "53000e10b41aa907edacdc454b77c825d117ba4efe669995d039e8ef303d3a7f",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm018",
+      "name": "富安",
+      "nickname": "帮闲",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm018.png",
+        "sha256": "bc64c29d1e198e1893ad0b8f3cea0d4e9c25b2fa868b3764bbc6d6af46a7eba2",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 249301
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm018-128.png",
+        "sha256": "00158d08152c33646b95cd1796c033084713503cae56864f7df293fbe74e0bec",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 24548
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/wm018-inspector.glb",
+      "sourceInspectorGlbSha256": "01f00040ba82184c0be4fbcb51f03ad427321ee74e3d54a718410fb737a34501",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm019",
+      "name": "武大郎",
+      "nickname": "炊饼贩",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm019.png",
+        "sha256": "4373a2b8ef41b4b163c4bf9e066fe2453e522292fa915aad7c9c935c07160a46",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 242682
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm019-128.png",
+        "sha256": "285e467c8121bd9bc3fce80881ff64501147d07fb63e4805c9051be5061a2a35",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 22770
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/wm019-inspector.glb",
+      "sourceInspectorGlbSha256": "0653b5a95a1011f4799b9da0a0ddab498cf112f7a96815821a9b5c1b889b5470",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm020",
+      "name": "潘金莲",
+      "nickname": "潘氏",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm020.png",
+        "sha256": "feaceb0a081761b3bf50221320381d001e2d7a12b8348ada4886553728daaa7c",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 248297
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm020-128.png",
+        "sha256": "d6bde1b08df304022a4f5ab9e59ee572665ca1ecc5f87b95524c198503d2ffec",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 25555
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/wm020-inspector.glb",
+      "sourceInspectorGlbSha256": "7f43cba2a31ed95c7a6fed67cf6759f4f85d6f93f77af8e12561976f99ae7973",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm021",
+      "name": "西门庆",
+      "nickname": "西门大官人",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm021.png",
+        "sha256": "fd3ff43c64064500dbad180dcd348583f7dfa94ea9849354f159b81898c54409",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 289159
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm021-128.png",
+        "sha256": "789353e5eba03fe5b145291ba3fb20df5e9fe508df7faade45a7635ac7e5cdb3",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 25463
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/wm021-inspector.glb",
+      "sourceInspectorGlbSha256": "58d78e7293d5fddc9a139d67e6d205f31a81b352a01f0a2982b92f7d18a39ec8",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm022",
+      "name": "王婆",
+      "nickname": "茶坊主人",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm022.png",
+        "sha256": "3d7ac43b3b7ad5654d74a768107f865b14fc8eafa0b24e4ea437a526f0ae09e8",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 264882
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm022-128.png",
+        "sha256": "c17765b382d7e3880d225f599e2d216d0a322b528d4458523f6ea684ddbeff19",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 25076
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/wm022-inspector.glb",
+      "sourceInspectorGlbSha256": "8ba6b7b23ff47dd1c676f63ea45df0701b49b5c513db39681bfc24cd708d42f0",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm023",
+      "name": "郓哥",
+      "nickname": "乔郓哥",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm023.png",
+        "sha256": "cec2fbf2d029156583b6311afe44ded8d4ce8a7ba500fe4402a3009199026df3",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 210595
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm023-128.png",
+        "sha256": "572c21796a175d322de6dc79b6e26155fe0b61a728b7f4453a959e2d6016d484",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 22020
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/wm023-inspector.glb",
+      "sourceInspectorGlbSha256": "202da566220ad8d9cc7fc15b5aa9c61eef76b14af21934e9b47652ee9053111e",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm024",
+      "name": "何九叔",
+      "nickname": "何九",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm024.png",
+        "sha256": "c4f48c22ddf37fb5bd8754a098b6f9df947df9443d48e174e8ce81ab5f537b39",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 271132
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm024-128.png",
+        "sha256": "e9c03d4fb23d43060c24a54690b0c6d7a5deff5ee95a89d0806341b3d7c98fd0",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 26520
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/wm024-inspector.glb",
+      "sourceInspectorGlbSha256": "7c624ee918fc4fa4682fc50dca07d99ada9be85ca1771c60ae1a4af6f94c9000",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm025",
+      "name": "蒋门神",
+      "nickname": "蒋忠",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm025.png",
+        "sha256": "81303a516b736055ce7981a22202135ac72ea6bb1ba6b0ac81ab335d2441dbda",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 273557
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm025-128.png",
+        "sha256": "421444f8e80323e5c8bcc81f25bfd27f3376400a0838fc8e29ab9c0c46e5d578",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 25500
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/wm025-inspector.glb",
+      "sourceInspectorGlbSha256": "f73a5a32dc390ca406813505e065ea2d4a33873a99b2b9a43fc0336efb3893c0",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm026",
+      "name": "张都监",
+      "nickname": "孟州都监",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm026.png",
+        "sha256": "7ef9dede2799925427090e37ed2c6a664fe13484d0516e2cfab19c83a97ab9a3",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 271944
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm026-128.png",
+        "sha256": "43b31252a129ead3b9b763fdad7bb8917cdfb1ef1bb0aa7377fb06557ff89f42",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 26197
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/wm026-inspector.glb",
+      "sourceInspectorGlbSha256": "a4bd1f9542b251b40d1c03dfa39c684fcaf2a27b5734e9aadf0daf58d6295dc7",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm027",
+      "name": "张团练",
+      "nickname": "孟州团练",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm027.png",
+        "sha256": "ff5438ddc2f01e0c1b176b4ee73bc1a7cfb1982e6d72e971fcc986f7ea4cb117",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 250506
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm027-128.png",
+        "sha256": "ecc9934f55afd60c413789a2fa90dab1bbc6ce2f9716a744c7b8d8d3a985507a",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 23920
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/wm027-inspector.glb",
+      "sourceInspectorGlbSha256": "b395849300742e129b971f22392952caddd681f1c5f9099447c31fb3f0120db4",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm028",
+      "name": "黄文炳",
+      "nickname": "黄蜂刺",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm028.png",
+        "sha256": "b880dfa6a99aa554a5bc27f6a577eda85a0cecdb35010a2b2ad4013466233b6a",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 251084
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm028-128.png",
+        "sha256": "387975bc6f376429df3f8868358ad5acb17f1a551e7e99d4c3b034b1b7f049d8",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 24016
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/wm028-inspector.glb",
+      "sourceInspectorGlbSha256": "2764cdd6ab46fc0c9c185ce1ca6de1bea988bab85aa0139604562a7501598c0b",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm029",
+      "name": "蔡九知府",
+      "nickname": "蔡得章",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm029.png",
+        "sha256": "ed0652b77c3ad1d24ade342be70fd81073d1e1605b73a81445d89f85eb83f3cb",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 281786
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm029-128.png",
+        "sha256": "05379208ed6de4ccce8c5631ee8ea847e7dbe610c2f7b5a1ebf24d7171051bf2",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 26782
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/wm029-inspector.glb",
+      "sourceInspectorGlbSha256": "4885cf31eebb7fa7b5d4762946dcf6bdb0aed28332d973ab86369feebb6d0420",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm030",
+      "name": "梁中书",
+      "nickname": "梁世杰",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm030.png",
+        "sha256": "c417ea8850cca655021446a24d44a64c656a64e47e4c465680a2cb5f63bc6482",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 240291
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm030-128.png",
+        "sha256": "b5e2aa7385df813385b786d455ead6b3a9a63feeca3585030628702e0d83e613",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 24634
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk042/wm030-inspector.glb",
+      "sourceInspectorGlbSha256": "27f5ff2473ac3690dedc051494013c7a7ecc0a4ee8fe2933c4ce600aa0c53fe6",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm031",
+      "name": "李师师",
+      "nickname": "东京艺人",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm031.png",
+        "sha256": "f021421f2e8126efad5aebd3679e01590aba7c6a98dc69ff4240d81aefe02e47",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 265737
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm031-128.png",
+        "sha256": "b936aa7392d9620bb0d7783f3507812d3cebdcb3691967e72546899330592694",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 25882
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/wm031-inspector.glb",
+      "sourceInspectorGlbSha256": "373d145188bbcca2b9f9ca3a198de5b4b5c503aa25f2df06f25630ffd3a8e610",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm032",
+      "name": "李固",
+      "nickname": "卢府管家",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm032.png",
+        "sha256": "c4ff007f4e8918f7e9e233111bcf981da1c14d29877b242bede6a0f97c016d50",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 241596
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm032-128.png",
+        "sha256": "be7f72363886bbef24c4f2cb4b7dcc3b15e1cd125ffce9cc82b6575da3dd6f59",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 23807
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/wm032-inspector.glb",
+      "sourceInspectorGlbSha256": "6519bfbcf670bab58f9d571872c8396af95899648bc2fd4a792677aa03d70e32",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm033",
+      "name": "贾氏",
+      "nickname": "卢俊义之妻",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm033.png",
+        "sha256": "ff59a9550b508d1fb933ef0af66c1878a21dc73170a6af873adf132940e0f3d6",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 298498
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm033-128.png",
+        "sha256": "f3acb18f19d08c51c8a1de542eb90ccaedb3483bd4420d62466354235c4ff21e",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 27053
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/wm033-inspector.glb",
+      "sourceInspectorGlbSha256": "a97e4a5818ccdd7f8c8c690ba4234b1f0fb9fb144b56646d2a57e08874f2955d",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm034",
+      "name": "史文恭",
+      "nickname": "曾头市教头",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm034.png",
+        "sha256": "b1f1cbc67e76e9e9021c02d8e7b4f2834c2d0214476b6f4eb5fce63bff403754",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 270827
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm034-128.png",
+        "sha256": "fab18b88d6be49b74548cb87295740a2edf26fc6d089723eb9b7c8159da15d56",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 24929
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/wm034-inspector.glb",
+      "sourceInspectorGlbSha256": "9a8d00b308c2453ccbed0cd8ab5622f916847c2d0490f1b81317f8653fc96a50",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm035",
+      "name": "琼英",
+      "nickname": "郡主",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm035.png",
+        "sha256": "fd4a001cedde4c3654f7f3ed0fc9d5e6d54b36b20f09b13b56c9492737fe5c66",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 204899
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm035-128.png",
+        "sha256": "0139e462a9160f5fe2c5805c4d49e9b816002cb8a56235cfc82e8a99c9ab0f4e",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 21196
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/wm035-inspector.glb",
+      "sourceInspectorGlbSha256": "9d5e9dcb21cfeacb2447a9a7b071ba35bd5897240c11983422aad94f5b6a3451",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm036",
+      "name": "祝朝奉",
+      "nickname": "祝家庄主",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm036.png",
+        "sha256": "9308ffc1d2e1326c026223874f206538260c27b4fcbf30f14930ad3cfc761808",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 262542
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm036-128.png",
+        "sha256": "38a177076681fed7e3fbfac6300eab644d53b5ed262a8dfb2908706ebddc6ab1",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 24561
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/wm036-inspector.glb",
+      "sourceInspectorGlbSha256": "0a019aeb9b469461045ac5ad68424f4bda9fbbb8454c50c6f18c2bc7bf5379d2",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm037",
+      "name": "祝龙",
+      "nickname": "祝家长子",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm037.png",
+        "sha256": "00baa1546e3e6ea5f291bf1379778f5c9d0c36cfdb570dcdfa617d2967518cc0",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 247762
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm037-128.png",
+        "sha256": "d76b1f8951749d66426ef209312c4fca2c75b74ce12876c4b5ff7806230eb5db",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 23977
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk042/wm037-inspector.glb",
+      "sourceInspectorGlbSha256": "639284a6fdb4271bc52be3dc6c93c23e87d44ff7c9027ecc62b5c81ab91d70a6",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm038",
+      "name": "祝虎",
+      "nickname": "祝家次子",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm038.png",
+        "sha256": "6be0b2228584594ec9592c36ee1195bc3b2a9129e85a694d7a019a1a5ad33fc7",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 251652
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm038-128.png",
+        "sha256": "f8d71621c79f6946fb779e6bc9d8b410b6449d74dc93e12577d2e7011863ea14",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 23120
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/wm038-inspector.glb",
+      "sourceInspectorGlbSha256": "3063ac9669aeab00ed54ae531bac138c92e6b75008b180c84edefa32902250aa",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm039",
+      "name": "祝彪",
+      "nickname": "祝家三子",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm039.png",
+        "sha256": "124407f655364a26994a6de73af2dffa1b41e526dbfe90b03440ecb1ef7f28c6",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 232633
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm039-128.png",
+        "sha256": "fa9afd82f6361734f91592942bc4095a6a7c323cfb76ec63259bc4fbe1578c17",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 22993
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/wm039-inspector.glb",
+      "sourceInspectorGlbSha256": "8a33f6f179e8aa9606abc2f0ec2f27e37da4cec546b921234b419234f05ff81e",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm040",
+      "name": "栾廷玉",
+      "nickname": "铁棒",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm040.png",
+        "sha256": "cc009f35fe6ec6eda6793d100197853a4fe731b0367154a6d2ae15f3cc21740a",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 252062
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm040-128.png",
+        "sha256": "d327b082ce206d3aaa0c67393cde10af0e1515cdfed75ef9b71870969db8cc73",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 24504
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk042/wm040-inspector.glb",
+      "sourceInspectorGlbSha256": "d05f4ec07a441917650f47633ce06a965ba4fb1caf10b122bb4cdaaac0b75812",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm041",
+      "name": "扈成",
+      "nickname": "飞天虎",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm041.png",
+        "sha256": "5a314edb780bf8a8bc223afb531b276e570bafb420f647770bda3a53d9f274c1",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 243229
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm041-128.png",
+        "sha256": "74cf8f7ba5b2f6ec505014240205805a19a317955ed774886269b0774890219c",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 23849
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/wm041-inspector.glb",
+      "sourceInspectorGlbSha256": "e6af1520e51272cd5740206202440fd5542e45548d6fe55ec23a7ef97a707400",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm042",
+      "name": "曾长者",
+      "nickname": "曾头市主",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm042.png",
+        "sha256": "81354415de8e892113c31afba58c4252b94b94c78e311f9c1b0652f95d1acfeb",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 294550
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm042-128.png",
+        "sha256": "fbdfcfa99d91d67870c5787bb7b175437b437209d6fa9fa7c8af34424d7fac38",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 26617
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/wm042-inspector.glb",
+      "sourceInspectorGlbSha256": "fe8c906fe6e6393fd1d3f6d2c2fab0a2c97e40d040de4a73a5c787e4b0a60f35",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm043",
+      "name": "曾涂",
+      "nickname": "曾家长子",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm043.png",
+        "sha256": "416d001130f18947bb80f5d74a246cc147b8ad4a72284c9c239e4f448c03c8d6",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 275281
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm043-128.png",
+        "sha256": "fed3f96aeb1a2f54b01c235a6c3c43b8f8759f3a2f3ab76176b50bedcd6c43bc",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 24893
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/wm043-inspector.glb",
+      "sourceInspectorGlbSha256": "74390d406b6ea927f6571d8f2601cd64531d414aa13dde749c71f2df10b26e20",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm044",
+      "name": "阎婆惜",
+      "nickname": "阎氏",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm044.png",
+        "sha256": "4764da1885e8440a59aee1a34854c26b602ef50cfa2949a093a5468b0d22858b",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 242805
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm044-128.png",
+        "sha256": "0512f264f70ea46497f084e979ae5108c7bff2276f80cf96713df43beea32fcb",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 22629
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/wm044-inspector.glb",
+      "sourceInspectorGlbSha256": "a4e69dcf58e07466f9bb2ea4cf0908ab098d04137480123295f96e22ae3a5a6c",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm045",
+      "name": "张文远",
+      "nickname": "张三",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm045.png",
+        "sha256": "bab967c9f9d271e62d2fa8621f973f534788c4104f52c47f8fb9ab696298bafa",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 233674
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm045-128.png",
+        "sha256": "39dd50871061f0ed84d72e4f58ff23565b0415eff395775b61a503a0ae551b8a",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 21768
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk042/wm045-inspector.glb",
+      "sourceInspectorGlbSha256": "d6af649745f0a1512e8ebabf0c5760476c7fea0ec278dc7e303d02c5bfc2144b",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm046",
+      "name": "潘巧云",
+      "nickname": "潘氏",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm046.png",
+        "sha256": "0f93390e81d0a008c4a67e4355e6c148aed011716f2664606202313bd36776d7",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 248995
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm046-128.png",
+        "sha256": "308bcce5202d42672fd8f25d83e3529d0f947cf350918bc8fd13ca3cbb81e3d0",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 25583
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/wm046-inspector.glb",
+      "sourceInspectorGlbSha256": "a4b73124517a9be2f365ab7eeb84d2224ee2ad3f154867ae57983befe8cbfe20",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm047",
+      "name": "裴如海",
+      "nickname": "报恩寺僧",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm047.png",
+        "sha256": "f556981798161b36856b7c85489f2737c77d7d2f2fde0d2b715a2d4bfc56b935",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 275955
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm047-128.png",
+        "sha256": "f3017d095a1a9848feefd0a288e6ac22071d1345921ec823f06ff4eb097acadd",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 26219
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/wm047-inspector.glb",
+      "sourceInspectorGlbSha256": "2e1e08eef68d9162b6dde4e5c32ee171cf7559505792f12a0d687783bae3a4c9",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm048",
+      "name": "白秀英",
+      "nickname": "说唱艺人",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm048.png",
+        "sha256": "3d3d9cae78284a14f3e7ca71e30df1f032fbb381afa6f11d48c6721430ab520e",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 193296
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm048-128.png",
+        "sha256": "58716ce90d3ca5f2e8ff1c213dcbf3cea7f2bf8de6221a17e99dffe502420396",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 19882
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/wm048-inspector.glb",
+      "sourceInspectorGlbSha256": "4faa9456ebae6acd01ec5b702beafa0c7989f419411545d41f5fca3fb25908d4",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm049",
+      "name": "宋太公",
+      "nickname": "宋江之父",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm049.png",
+        "sha256": "65c37ea9abf7fa563b4d07aa7bf6410cfcaa7c3cbe25d1a5224ef040f06a4a67",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 220997
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm049-128.png",
+        "sha256": "2703f66ef76f3b2fec6990b4b9aeb48e0961e786b2a0aa5d10c6ab9e287b440b",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 22532
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/wm049-inspector.glb",
+      "sourceInspectorGlbSha256": "3118b7bce9dce9c52abf672b9b1cf011182ef4032283a51ae44005f7c5ae906d",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm050",
+      "name": "庞万春",
+      "nickname": "小养由基",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm050.png",
+        "sha256": "ec18a54816249733c294f07725bab16ebf78a60878f7ddcc3dc2fe594758a670",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 257265
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm050-128.png",
+        "sha256": "477313bea9b61a15582f34339cefef93b1757a0d9fa387f3f91b9b9e734137db",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 24949
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/wm050-inspector.glb",
+      "sourceInspectorGlbSha256": "775d00167dd87c9e492b2b7fad12914688ad0a616e4af03812184542d5d676e3",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm051",
+      "name": "方腊",
+      "nickname": "江南首领",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm051.png",
+        "sha256": "17d53ede2cdefbd5ffebc3662752177d4eeacda47f80b0ba719dc3936a34e121",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 218660
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm051-128.png",
+        "sha256": "cd3a2052c130b47050a46824e1ebdd40b8fb4cb1549a21061c321b640f02394e",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 21180
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/wm051-inspector.glb",
+      "sourceInspectorGlbSha256": "1900ba7c43ba5dcfbc48858c273219df7dfedff1d0f0021dd4cde9ed7c4f7379",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm052",
+      "name": "方貌",
+      "nickname": "苏州守将",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm052.png",
+        "sha256": "b579cd701e4d4f64b5110e59f5c3774775a5bb88229a77465be64ab2ba0008ab",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 240296
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm052-128.png",
+        "sha256": "e721a008c5afdccf9ae4c4b804022c98f7fce80acdb988ebe8aa62235f9016d4",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 22365
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/wm052-inspector.glb",
+      "sourceInspectorGlbSha256": "6f58284a7a89774241cac102019ceeff1cd4f40a3f0863b5c2f1ec396558e472",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm053",
+      "name": "方天定",
+      "nickname": "杭州守将",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm053.png",
+        "sha256": "f3d476a2bd41bd0ea9139c65f383f3d6d1bf149d4fd8a679c1b0829650fa493c",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 221329
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm053-128.png",
+        "sha256": "33682f198307885b6dac792831d4909268e1a418735bfc4c29ed164d8266cc08",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 22493
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/wm053-inspector.glb",
+      "sourceInspectorGlbSha256": "8e804c67cb567ae201b2700317972f9b1e76e5c8504a89e3c16a0834005c19e9",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm054",
+      "name": "邓元觉",
+      "nickname": "宝光国师",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm054.png",
+        "sha256": "1985edb8e4d97c590ce25c27049197f8606132e8a99d161cb2decfee4def72eb",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 237808
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm054-128.png",
+        "sha256": "883c5445bae201a59237473192a0fd86edcd60281685a8b8f607d9bd234f8811",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 22407
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/wm054-inspector.glb",
+      "sourceInspectorGlbSha256": "bf53b5aa1923972058650a083bc3f7effa356a07847fb5b69be13dfe8f552e05",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm055",
+      "name": "石宝",
+      "nickname": "南离大将军",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm055.png",
+        "sha256": "e225a2a81489f236eaf9f940234e9261c2c567b675fa8d157383a5a951636067",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 276113
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm055-128.png",
+        "sha256": "656bdf5ae4638fa5adf1bed1ef703afbd6c1d47a8317bf30c3e4790a55143385",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 25643
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/wm055-inspector.glb",
+      "sourceInspectorGlbSha256": "fd8c8a0fc71dfb987ee36b3f2a1f67e07fc5d46ec9fb52e1dd89e1225d04f2d8",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm056",
+      "name": "王寅",
+      "nickname": "尚书",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm056.png",
+        "sha256": "cea8db27113b37baeb3ff169d8418ce33ed32ebc211b106533d939339f25ad6c",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 301103
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm056-128.png",
+        "sha256": "b3bebac38417f2bd64f0b2fd55dc9e1b2e4c11b2831cbbc114c3ff47c36707c8",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 26762
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/wm056-inspector.glb",
+      "sourceInspectorGlbSha256": "44af8769a9a15b374097a064ace618dcb81c0c814f6339332b052861a1454f2d",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm057",
+      "name": "包道乙",
+      "nickname": "灵应天师",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm057.png",
+        "sha256": "784c023fc9309eb92e802da549274d2180f8ffccc7a2c5b5b6ead347a850f514",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 248761
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm057-128.png",
+        "sha256": "a305d100b17b4ae84301240ccd22de697edd66be706bb0d1fd1db13647b89998",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 24086
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/wm057-inspector.glb",
+      "sourceInspectorGlbSha256": "65198012996328bcedf5ac7c7e4bd4322c9ea86a132daa1395cfbf2a6735535e",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm058",
+      "name": "田虎",
+      "nickname": "河北首领",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm058.png",
+        "sha256": "6c715e92be5d1c65cee207005be3ff0d843908dcabfac747a84e2976e4f6780c",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 263368
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm058-128.png",
+        "sha256": "02ed39a83a87c987ce57495085b6da2b414385c21fcac0b336f4b8b7216db93e",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 24132
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/wm058-inspector.glb",
+      "sourceInspectorGlbSha256": "865dd5b862f6b9ae2960386328126631f12bde9942554d5e6f1622cbb14a44b2",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm059",
+      "name": "王庆",
+      "nickname": "淮西首领",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm059.png",
+        "sha256": "e42b374162e67389d8816971612491cfb9743f77a18097b2a098e1f89544fd53",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 258627
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm059-128.png",
+        "sha256": "671e31d9d59fdd322620ba15d17c60c137d7b5ecdb21c9e9412a0de114796966",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 25550
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/wm059-inspector.glb",
+      "sourceInspectorGlbSha256": "dd42cadae543782a98428dd21f48cddedcdd14c91d4ffaf92600692daa77035b",
+      "originalModelTransformUnmodified": true
+    },
+    {
+      "id": "wm060",
+      "name": "兀颜光",
+      "nickname": "辽国统军",
+      "collection": "expanded",
+      "rank": null,
+      "portrait": {
+        "file": "runtime/godot/collection044/portraits/wm060.png",
+        "sha256": "304eb94163eaf2fe1e5165060b77ea49aa48d41da3dca111c4e2691ab019cb24",
+        "pixels": [
+          512,
+          640
+        ],
+        "bytes": 301488
+      },
+      "thumbnail": {
+        "file": "runtime/godot/collection044/portraits/wm060-128.png",
+        "sha256": "b921d24b5984e4c5fa0f533bd7e7721004cf09a6e0c585aee230123e8bea6808",
+        "pixels": [
+          128,
+          160
+        ],
+        "bytes": 25801
+      },
+      "sourceInspectorGlb": "runtime/godot/bulk041/wm060-inspector.glb",
+      "sourceInspectorGlbSha256": "782665a81367bf7a42c19830543e885097d1202da7d2c7a8530f9dd6b34d1d2b",
+      "originalModelTransformUnmodified": true
+    }
+  ],
+  "portraits": 168,
+  "files": 336,
+  "sourceGeometryChanged": false,
+  "newRigOrAnimation": false,
+  "mainProjectEdited": false,
+  "finalCharacterArtAcceptanceClaimed": false
+}

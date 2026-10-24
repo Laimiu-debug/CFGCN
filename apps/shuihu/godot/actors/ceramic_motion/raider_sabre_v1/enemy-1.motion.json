@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "id": "enemy-1",
+  "source_character_id": "npc-cloth-common-v1",
+  "hero_id": "",
+  "prototype": "raider",
+  "name": "散匪2",
+  "revision": "m01-raider-sabre-v1",
+  "family": "single_blade",
+  "formal_admission": false,
+  "source": {
+    "runtime": "apps/shuihu/art/pieces/source/ceramic-production/raider-sabre-v1/raider.glb",
+    "sha256": "d1a745beb23c37564ddd4f15356b65f4c43dd136eb4f9e40ec74f2e44af721d0",
+    "record": "apps/shuihu/art/pieces/source/ceramic-production/raider-sabre-v1/raider.json",
+    "record_sha256": "aa9b2d7fc449fd7477f88e059d861526e4cac40a26ef289c1fe5598ec592906b",
+    "editable": "apps/shuihu/art/pieces/source/ceramic-production/raider-sabre-v1/raider.blend",
+    "editable_sha256": "d6e013013c70fa448d89e04f891ae5b53bd512d25a583098deee4e6912918928",
+    "native_report": ".local/qa/shuihu-raider-sabre-v1/native-audit.json",
+    "native_report_sha256": "41426312dc42da50aa698f6cc91bf75fac54c5f00f85ab6bca261dffa8374a36",
+    "source_codec_audit": ".local/qa/shuihu-raider-sabre-v1/source-codec-audit.json",
+    "preservation_scope": "Exact original selected body, face, original palms, corner UV and effective texture pixels; new continuous skin, fitted independent original sabre handle/pommel."
+  },
+  "units": {
+    "unit": "metre",
+    "up": "+Y",
+    "source_forward": "+X",
+    "wrapper_forward": "-Z",
+    "visual_y_rotation_degrees": 90,
+    "root_motion": "Host owns grid translation and facing. Board lift is not natural leg gait."
+  },
+  "skeleton": {
+    "bone_count": 10,
+    "bones": [
+      "Root",
+      "Torso",
+      "Head",
+      "UpperArm_L",
+      "Forearm_L",
+      "Hand_L",
+      "UpperArm_R",
+      "Forearm_R",
+      "Hand_R",
+      "Weapon"
+    ],
+    "hands": {
+      "left": "Hand_L",
+      "right": "Hand_R"
+    },
+    "weapon_bones": [
+      "Weapon"
+    ]
+  },
+  "animations": {
+    "idle": {
+      "clip": "idle",
+      "duration": 0.800000011920929,
+      "loop": true,
+      "events": [],
+      "origin_kind": "Local shared neutral-wrist six-action kernel; source elbow arc and actual original C aperture. No new Tripo animation claim."
+    },
+    "attack": {
+      "clip": "attack",
+      "duration": 1.2000000476837158,
+      "loop": false,
+      "events": [
+        {
+          "id": "sabre-contact",
+          "kind": "melee_contact",
+          "seconds": 0.48
+        }
+      ],
+      "origin_kind": "Local shared neutral-wrist six-action kernel; source elbow arc and actual original C aperture. No new Tripo animation claim."
+    },
+    "guard": {
+      "clip": "guard",
+      "duration": 1.0,
+      "loop": false,
+      "events": [],
+      "origin_kind": "Local shared neutral-wrist six-action kernel; source elbow arc and actual original C aperture. No new Tripo animation claim.",
+      "raise_seconds": 0.35
+    },
+    "hit": {
+      "clip": "hit",
+      "duration": 0.800000011920929,
+      "loop": false,
+      "events": [],
+      "origin_kind": "Local shared neutral-wrist six-action kernel; source elbow arc and actual original C aperture. No new Tripo animation claim."
+    },
+    "board_move": {
+      "clip": "board_move",
+      "duration": 0.699999988079071,
+      "loop": false,
+      "events": [],
+      "origin_kind": "Local shared neutral-wrist six-action kernel; source elbow arc and actual original C aperture. No new Tripo animation claim."
+    },
+    "defeat": {
+      "clip": "defeat",
+      "duration": 1.100000023841858,
+      "loop": false,
+      "events": [],
+      "origin_kind": "Local shared neutral-wrist six-action kernel; source elbow arc and actual original C aperture. No new Tripo animation claim."
+    }
+  },
+  "review": {
+    "native_reimport": true,
+    "source_geometry_and_pixels": true,
+    "godot_component": true,
+    "godot_actual_battle": true,
+    "final_art": false,
+    "godot_cold_restore": true,
+    "ceasefire_neutral_and_evacuated": true
+  },
+  "remaining": [
+    "Main-owner permanent installation, exact SHA receipt and actual Windows package",
+    "Same-package continuous original-sound real play",
+    "Full high-source and final art review",
+    "Natural legs, natural fall/drop, fine original finger closure and garment seams",
+    "Guard in actual enemy AI when rules call it; no guard AI invented in this encounter",
+    "M03-M05 ordinary source051 and all remaining named character actions"
+  ]
+}

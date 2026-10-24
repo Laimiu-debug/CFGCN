@@ -1,0 +1,263 @@
+{
+  "schemaVersion": 1,
+  "batch": "shuihu-m01-raider-20261024T1000",
+  "sourceOwner": "水浒｜人物精修、骨骼与战斗动作",
+  "receiver": "水浒｜主工程、完整战役与操作界面",
+  "delivery": {
+    "path": "source/shuihu/godot/raider-sabre-v1/delivery.json",
+    "sha256": "f285507f328cf982c88dc40463473cd8ff7ea174716069295309800f6447ef6d"
+  },
+  "scope": "Frozen independent anonymous M01 raider appearance for enemy-0 and enemy-1, own skeleton/playback, legal AI contact and ceasefire/neutral role lifecycle. No named hero substituted, no rule damage/HP/AP/RNG change.",
+  "files": [
+    {
+      "path": "apps/shuihu/art/pieces/source/ceramic-production/raider-sabre-v1/raider.json",
+      "bytes": 3534,
+      "sha256": "aa9b2d7fc449fd7477f88e059d861526e4cac40a26ef289c1fe5598ec592906b"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/battle_pose_clock.gd",
+      "bytes": 2928,
+      "sha256": "8ce611b3f43350438db9d68d8a527ea711d694558a0fe9d54b29e0dfd4c7ece1"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/battle_presenter.gd",
+      "bytes": 12423,
+      "sha256": "d5ec049fae4742345b2953184b80623ab90638ab6634907dc01a12ca438ef4bc"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/campaign_presenter.gd",
+      "bytes": 5706,
+      "sha256": "8ee4dbcc2f8c1af5859e2df72e97161e0501d170b89da50ff7eb7355db809c97"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/ceramic_actor.gd",
+      "bytes": 7482,
+      "sha256": "f50b61d2f32979b478b863848029bff4eb7ac2d04ade92cc40186cad3baad8cc"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/m01_raider_presenter.gd",
+      "bytes": 1790,
+      "sha256": "d3b5f69d82a0c2e7e8c954f523bbed74e08f4faf600f50f81c2645ae33ee657f"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/preserve_existing_clips.gd",
+      "bytes": 3050,
+      "sha256": "c4a7bee3b316ee8460a7d92a8a2b4994fd3bf76436a3d2bfdd8efa8789e53b5b"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/raider_sabre_v1/delivery.json",
+      "bytes": 8758,
+      "sha256": "f285507f328cf982c88dc40463473cd8ff7ea174716069295309800f6447ef6d"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/raider_sabre_v1/enemy-0.motion.json",
+      "bytes": 4480,
+      "sha256": "b7a3219f2ae034cda4f7edbcb826fff6aee46b1500efb505795dc3fc4f8e1f8d"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/raider_sabre_v1/enemy-0.tscn",
+      "bytes": 524,
+      "sha256": "ad8dbd91b37cfd09def76084a72de2b4f547c36760d5d9a3cf199115d22d37aa"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/raider_sabre_v1/enemy-1.motion.json",
+      "bytes": 4480,
+      "sha256": "0c439b3ff5ba8f73209c61e701a75bb10f5ef30e064daa9ab22c3575253677a3"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/raider_sabre_v1/enemy-1.tscn",
+      "bytes": 524,
+      "sha256": "aa65bc286b3d8081fbc749ca52bc2c05e829b55df94cc6d9f004a4fa8ea30fca"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/raider_sabre_v1/raider.curves.json",
+      "bytes": 194597,
+      "sha256": "e71fa04e70dc3e3a5a3c8958d9c382e6f80f8c906a2c177684e58881c2e7a546"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/raider_sabre_v1/raider.glb.import",
+      "bytes": 1227,
+      "sha256": "4d70d763bf22811ce288616357411a7a0d172538d3f6008c786123d3340e075b"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/raider_sabre_v1/raider_batch017-equipment-sabre-component-00-0-coat.png",
+      "bytes": 259,
+      "sha256": "c9666c78437278e2fe510142318fa0fc2b7b6dcbd77836a498686d057e3715fc"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/raider_sabre_v1/raider_batch017-equipment-sabre-component-00-0-coat.png.import",
+      "bytes": 1161,
+      "sha256": "3b5e9825212aee650f874987d4c4a5d975f22a43508c022891e6caad27b1ab9f"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/raider_sabre_v1/raider_batch017-equipment-sabre-component-00-0-roughness.png",
+      "bytes": 259,
+      "sha256": "b291af3ae3e3b6a8d70e11fa556c87788785e1cb8af84800ee67756b5b147530"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/raider_sabre_v1/raider_batch017-equipment-sabre-component-00-0-roughness.png.import",
+      "bytes": 1176,
+      "sha256": "7b150ccdfd33c431d270e400ef86b24e67eba623687a2d6975164a2d4e839ba3"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/raider_sabre_v1/raider_shuihu-npc-cloth-common-v1_basecolor.jpg",
+      "bytes": 155168,
+      "sha256": "bc62dde491a6e7261ac7b787a91e863a793c7d41c5c783f4b12a05c2095c6df2"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/raider_sabre_v1/raider_shuihu-npc-cloth-common-v1_basecolor.jpg.import",
+      "bytes": 1137,
+      "sha256": "0193573dba7b7ce1dfdf9ac531035933789f81eb74b106ac3d4b0eff4bfe2da1"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/raider_sabre_v1/raider_弯刀3d模型_basecolor.png.import",
+      "bytes": 1100,
+      "sha256": "96b4a09ec96afe2d1e61059b4fd4ac6f9632feafac594e9c289a512f6c031cb7"
+    },
+    {
+      "path": "docs/shuihu-raider-sabre.md",
+      "bytes": 5638,
+      "sha256": "aa0973a0dfef3729542f8e3baa5d1cea5afb4d717f6b1dd6b359e79133a4d819"
+    },
+    {
+      "path": "source/shuihu/godot/raider-sabre-v1/delivery.json",
+      "bytes": 8758,
+      "sha256": "f285507f328cf982c88dc40463473cd8ff7ea174716069295309800f6447ef6d"
+    },
+    {
+      "path": "source/shuihu/godot/raider-sabre-v1/sha256.json",
+      "bytes": 5948,
+      "sha256": "0ea4aad2465153506f456f572d0bebb05cb2f46f6f2456570b0d0103b6f5c508"
+    }
+  ],
+  "excludedAssets": [
+    {
+      "path": "apps/shuihu/art/pieces/source/ceramic-production/raider-sabre-v1/raider.blend",
+      "bytes": 3862432,
+      "sha256": "d6e013013c70fa448d89e04f891ae5b53bd512d25a583098deee4e6912918928"
+    },
+    {
+      "path": "apps/shuihu/art/pieces/source/ceramic-production/raider-sabre-v1/raider.glb",
+      "bytes": 3488908,
+      "sha256": "d1a745beb23c37564ddd4f15356b65f4c43dd136eb4f9e40ec74f2e44af721d0"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/raider_sabre_v1/raider.glb",
+      "bytes": 3488908,
+      "sha256": "d1a745beb23c37564ddd4f15356b65f4c43dd136eb4f9e40ec74f2e44af721d0"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/raider_sabre_v1/raider_弯刀3d模型_basecolor.png",
+      "bytes": 1511809,
+      "sha256": "5fb99ec2ca5c28daa8f917a1f45da1aa571db8800476a0e048684f72ba3ea898"
+    }
+  ],
+  "validation": {
+    "sourceComponentAndCombatColdAgreementBranches": {
+      "componentChecks": 44,
+      "actualCombatChecks": 67,
+      "combatColdChecks": 34,
+      "actualAgreementChecks": 60,
+      "agreementColdChecks": 26,
+      "nativeFiles": 2,
+      "nativePoseSamples": 108,
+      "minimumWholeHeadBladeGapDisplayMm": 6.1168497468612975,
+      "sourcePreflightSamples": 150,
+      "sourceAttackEdgeLeadingMinimumCosine": 0.7028419929556549,
+      "actualAIContacts": {
+        "enemy-0": {
+          "events": [
+            "impact"
+          ],
+          "round": 2,
+          "source_seconds": 0.48,
+          "targets": [
+            "ls082"
+          ]
+        },
+        "enemy-1": {
+          "events": [
+            "impact"
+          ],
+          "round": 2,
+          "source_seconds": 0.48,
+          "targets": [
+            "ls083"
+          ]
+        }
+      },
+      "actualCombatResult": "Round 8; four friendly/task evacuations; day 3: silver219 grain59 medicine9 arrows20; injuries retained",
+      "actualAgreementStages": {
+        "carried": true,
+        "carry_move": true,
+        "evacuated": true,
+        "put_down": true,
+        "rescued": true,
+        "self_move": true
+      },
+      "inputScope": "Scripted legal public commands, no HP/AP/position/RNG/roster rewrite or forced victory",
+      "alreadyMainInstalledAlliesAndTask": true,
+      "zeroVisualRuleOrAudioRequests": true,
+      "audioListeningAccepted": false,
+      "performanceAccepted": false,
+      "defaultWindowsAcceptance": false,
+      "originalSoundVideoAcceptance": false,
+      "reports": [
+        {
+          "file": ".local/qa/shuihu-raider-sabre-v1/native-audit.json",
+          "sha256": "41426312dc42da50aa698f6cc91bf75fac54c5f00f85ab6bca261dffa8374a36"
+        },
+        {
+          "file": ".local/qa/shuihu-raider-sabre-v1/source-codec-audit.json",
+          "sha256": "602b8a6fa9eb9a2edf4308690987791c7c8be18613ae037328403c9bdaea29a5"
+        },
+        {
+          "file": ".local/qa/shuihu-raider-sabre-v1/component-result.json",
+          "sha256": "4a55bae9109cdaee55023bf1e30dd5c54f4f8a627fef9a3d4dd9743c8187cea9"
+        },
+        {
+          "file": ".local/qa/shuihu-raider-sabre-v1/main-result.json",
+          "sha256": "36ac49f07e6e2db3603277ab31a0d8cf580ac63248955559242cdb7a038d69f6"
+        },
+        {
+          "file": ".local/qa/shuihu-raider-sabre-v1/main-cold-result.json",
+          "sha256": "3756c27ae18930b6901a8cbd66721036ea44a885265d09142c6af2f404a53c99"
+        },
+        {
+          "file": ".local/qa/shuihu-raider-sabre-v1/agreement/main-result.json",
+          "sha256": "c514adb425b27a1911559b2653cbbde1f5cd2e6ec0013eaa2f9d967040a4886b"
+        },
+        {
+          "file": ".local/qa/shuihu-raider-sabre-v1/agreement/main-cold-result.json",
+          "sha256": "d67fd315a1c8a205dfd269ebf5637cedddbdbc38e07ef53f43b17a93d9a823ba"
+        },
+        {
+          "file": ".local/qa/shuihu-raider-sabre-v1/preflight-review.json",
+          "sha256": "543a697bb525e51de9d2532bbffda499c0d2aa7ab72fdd8f66c8d52d37b82e14"
+        },
+        {
+          "file": ".local/qa/shuihu-raider-sabre-v1/game-review.json",
+          "sha256": "b491717e31caddf007f3633d8c824ff20dd7e75f4710042945e7488254b6ffe0"
+        }
+      ]
+    },
+    "receiverSourceHashVerified": true,
+    "runtimeFilesMatchWindows015V1FrozenInputs": true,
+    "windowsMainWorldAndOrdersRngExact": true,
+    "overallWindows015V1Accepted": false,
+    "overallRejection": "Actual UI015 v1 movie showed duplicate estimated costs/negative AP display after payment; real ledger remains exact. Main owner revising UI. This presentation source checkpoint does not clear it.",
+    "physicalMouseKeyboardAccepted": false,
+    "fullFirstVolumeAccepted": false,
+    "pressureRetestedForGit": false
+  },
+  "dependencies": [
+    "Original complete Godot main project and the excluded GLB/texture/Blender sources at the recorded SHA.",
+    "Shared presentation scripts are versioned here at this new delivery. Older friendly/task delivery SHA tables preserve their original common-script versions; use their earlier Git commit/frozen project when reproducing those historic byte identities.",
+    "Windows package, source/player QA payloads, original-sound movie, imported cache and credentials are excluded."
+  ],
+  "publication": {
+    "cleanClonePlayable": false,
+    "wholeFirstVolume": false,
+    "websiteDeployed": false
+  }
+}

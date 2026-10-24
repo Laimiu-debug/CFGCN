@@ -67,3 +67,29 @@ source/xiyou/godot/main-compat-v89/integration/minion_crowd-from-v13.patch -text
 source/xiyou/godot/main-compat-v89/integration/projectile_layer-from-v13.patch -text
 source/xiyou/godot/pilgrim-support-v90/handoff.json -text
 source/xiyou/godot/pilgrim-support-v90/integration/support-layer-from-v13.patch -text
+
+# Preserve raw bytes for the fixed M01 raider source delivery.
+apps/shuihu/art/pieces/source/ceramic-production/raider-sabre-v1/raider.json -text
+apps/shuihu/godot/actors/ceramic_motion/battle_pose_clock.gd -text
+apps/shuihu/godot/actors/ceramic_motion/battle_presenter.gd -text
+apps/shuihu/godot/actors/ceramic_motion/campaign_presenter.gd -text
+apps/shuihu/godot/actors/ceramic_motion/ceramic_actor.gd -text
+apps/shuihu/godot/actors/ceramic_motion/m01_raider_presenter.gd -text
+apps/shuihu/godot/actors/ceramic_motion/preserve_existing_clips.gd -text
+apps/shuihu/godot/actors/ceramic_motion/raider_sabre_v1/delivery.json -text
+apps/shuihu/godot/actors/ceramic_motion/raider_sabre_v1/enemy-0.motion.json -text
+apps/shuihu/godot/actors/ceramic_motion/raider_sabre_v1/enemy-0.tscn -text
+apps/shuihu/godot/actors/ceramic_motion/raider_sabre_v1/enemy-1.motion.json -text
+apps/shuihu/godot/actors/ceramic_motion/raider_sabre_v1/enemy-1.tscn -text
+apps/shuihu/godot/actors/ceramic_motion/raider_sabre_v1/raider.curves.json -text
+apps/shuihu/godot/actors/ceramic_motion/raider_sabre_v1/raider.glb.import -text
+apps/shuihu/godot/actors/ceramic_motion/raider_sabre_v1/raider_batch017-equipment-sabre-component-00-0-coat.png -text
+apps/shuihu/godot/actors/ceramic_motion/raider_sabre_v1/raider_batch017-equipment-sabre-component-00-0-coat.png.import -text
+apps/shuihu/godot/actors/ceramic_motion/raider_sabre_v1/raider_batch017-equipment-sabre-component-00-0-roughness.png -text
+apps/shuihu/godot/actors/ceramic_motion/raider_sabre_v1/raider_batch017-equipment-sabre-component-00-0-roughness.png.import -text
+apps/shuihu/godot/actors/ceramic_motion/raider_sabre_v1/raider_shuihu-npc-cloth-common-v1_basecolor.jpg -text
+apps/shuihu/godot/actors/ceramic_motion/raider_sabre_v1/raider_shuihu-npc-cloth-common-v1_basecolor.jpg.import -text
+apps/shuihu/godot/actors/ceramic_motion/raider_sabre_v1/raider_弯刀3d模型_basecolor.png.import -text
+docs/shuihu-raider-sabre.md -text
+source/shuihu/godot/raider-sabre-v1/delivery.json -text
+source/shuihu/godot/raider-sabre-v1/sha256.json -text

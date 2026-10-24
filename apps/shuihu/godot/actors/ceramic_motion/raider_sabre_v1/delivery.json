@@ -1,0 +1,237 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-24",
+  "id": "S2-M01-raider-sabre-v1",
+  "status": "source-and-both-actual-M01-branches-verified-awaiting-main-owner-adoption",
+  "receiving_owner": "水浒｜主工程、完整战役与操作界面",
+  "presenter": "res://actors/ceramic_motion/m01_raider_presenter.gd",
+  "entries": [
+    {
+      "id": "enemy-0",
+      "hero_id": "",
+      "expected_weapon": "sabre",
+      "expected_side": "enemy",
+      "prototype": "raider",
+      "source_character_id": "npc-cloth-common-v1",
+      "scene": "res://actors/ceramic_motion/raider_sabre_v1/enemy-0.tscn",
+      "descriptor": "res://actors/ceramic_motion/raider_sabre_v1/enemy-0.motion.json",
+      "source": "apps/shuihu/art/pieces/source/ceramic-production/raider-sabre-v1/raider.glb",
+      "source_sha256": "d1a745beb23c37564ddd4f15356b65f4c43dd136eb4f9e40ec74f2e44af721d0",
+      "formal_admission": false,
+      "allowed_sides": [
+        "enemy",
+        "neutral"
+      ],
+      "expected_side_scope": "Initial encounter; neutral permitted only by authoritative M01 ceasefire"
+    },
+    {
+      "id": "enemy-1",
+      "hero_id": "",
+      "expected_weapon": "sabre",
+      "expected_side": "enemy",
+      "prototype": "raider",
+      "source_character_id": "npc-cloth-common-v1",
+      "scene": "res://actors/ceramic_motion/raider_sabre_v1/enemy-1.tscn",
+      "descriptor": "res://actors/ceramic_motion/raider_sabre_v1/enemy-1.motion.json",
+      "source": "apps/shuihu/art/pieces/source/ceramic-production/raider-sabre-v1/raider.glb",
+      "source_sha256": "d1a745beb23c37564ddd4f15356b65f4c43dd136eb4f9e40ec74f2e44af721d0",
+      "formal_admission": false,
+      "allowed_sides": [
+        "enemy",
+        "neutral"
+      ],
+      "expected_side_scope": "Initial encounter; neutral permitted only by authoritative M01 ceasefire"
+    }
+  ],
+  "sourceModels": 1,
+  "logicalInstances": 2,
+  "independentSkeletonAndPlaybackPerInstance": true,
+  "mainContractSha256": "4dbac3404ee1f98ad2f417836bbfc891d6e9db5e3e8256123e38bdf5e8c562cc",
+  "upstreamSourceDeliverySha256": "971348e00dda7862374731dd32b373dab7564c31ecd5b844e42d2596f73d12d5",
+  "rulesChanged": false,
+  "normalAdmission": false,
+  "permanentMainIntegration": false,
+  "windowsAcceptance": false,
+  "fullGoalComplete": false,
+  "runtime_manifest": "res://actors/ceramic_motion/raider_sabre_v1/delivery.json",
+  "handoff": "docs/shuihu-raider-sabre.md",
+  "sha256_table": "source/shuihu/godot/raider-sabre-v1/sha256.json",
+  "mission": "M01",
+  "bodyTriangles": 30000,
+  "weaponTriangles": 9068,
+  "bones": 10,
+  "clips": {
+    "idle": 0.8,
+    "attack": 1.2,
+    "guard": 1.0,
+    "hit": 0.8,
+    "board_move": 0.7,
+    "defeat": 1.1
+  },
+  "sourceBytes": 3488908,
+  "editable": "apps/shuihu/art/pieces/source/ceramic-production/raider-sabre-v1/raider.blend",
+  "editableSha256": "d6e013013c70fa448d89e04f891ae5b53bd512d25a583098deee4e6912918928",
+  "actualModelExports": 1,
+  "newTripoConsumption": 0,
+  "namedRosterCountUnchanged": 168,
+  "receiverReceived": false,
+  "mainPackageReceiptReceived": false,
+  "roleLifecycle": {
+    "initialSide": "enemy",
+    "allowedSides": [
+      "enemy",
+      "neutral"
+    ],
+    "neutralRequires": "M01 and authoritative core.state.ceasefire == true",
+    "identity": "Actual enemy-0/enemy-1, empty hero_id, task=false, weapon=sabre",
+    "visibility": "Existing authoritative evacuated flag hides the same instance",
+    "coldInstall": "Do not filter out neutral ceased-fire instances",
+    "combatRightsChanged": false
+  },
+  "preservation": {
+    "originalBodyTrianglesPositionsCornerUVExact": true,
+    "wholeOriginalHeadAndPalmsRetained": true,
+    "effectiveTexturePixelsExact": true,
+    "continuousGarmentWeights": true,
+    "leftArm": "Source rest follows torso",
+    "rightArm": "Shared neutral wrist kernel driven by actual source elbow arc",
+    "weapon": {
+      "originalGrip": [
+        0.007852297276258469,
+        -0.010101763531565666,
+        0.037400003522634506
+      ],
+      "actualOriginalPalmGrip": [
+        0.007596977055072784,
+        -0.010279957205057144,
+        0.038258761167526245
+      ],
+      "actualOriginalPalmAxis": [
+        0.9694721102714539,
+        -0.05455321446061134,
+        0.23905594646930695
+      ],
+      "rigidRollDegrees": 44.921080288270524,
+      "handleAndPommelOnlyRadialScaleRange": [
+        0.182155484474132,
+        0.4081849629914018
+      ],
+      "bladeAndGuardGeometryPreservedOutsideHandleTransition": true,
+      "skinContactArcDegrees": 211.4555388016722
+    },
+    "fullHighSourceValidation": false
+  },
+  "validation": {
+    "componentChecks": 44,
+    "actualCombatChecks": 67,
+    "combatColdChecks": 34,
+    "actualAgreementChecks": 60,
+    "agreementColdChecks": 26,
+    "nativeFiles": 2,
+    "nativePoseSamples": 108,
+    "minimumWholeHeadBladeGapDisplayMm": 6.1168497468612975,
+    "sourcePreflightSamples": 150,
+    "sourceAttackEdgeLeadingMinimumCosine": 0.7028419929556549,
+    "actualAIContacts": {
+      "enemy-0": {
+        "events": [
+          "impact"
+        ],
+        "round": 2,
+        "source_seconds": 0.48,
+        "targets": [
+          "ls082"
+        ]
+      },
+      "enemy-1": {
+        "events": [
+          "impact"
+        ],
+        "round": 2,
+        "source_seconds": 0.48,
+        "targets": [
+          "ls083"
+        ]
+      }
+    },
+    "actualCombatResult": "Round 8; four friendly/task evacuations; day 3: silver219 grain59 medicine9 arrows20; injuries retained",
+    "actualAgreementStages": {
+      "carried": true,
+      "carry_move": true,
+      "evacuated": true,
+      "put_down": true,
+      "rescued": true,
+      "self_move": true
+    },
+    "inputScope": "Scripted legal public commands, no HP/AP/position/RNG/roster rewrite or forced victory",
+    "alreadyMainInstalledAlliesAndTask": true,
+    "zeroVisualRuleOrAudioRequests": true,
+    "audioListeningAccepted": false,
+    "performanceAccepted": false,
+    "defaultWindowsAcceptance": false,
+    "originalSoundVideoAcceptance": false,
+    "reports": [
+      {
+        "file": ".local/qa/shuihu-raider-sabre-v1/native-audit.json",
+        "sha256": "41426312dc42da50aa698f6cc91bf75fac54c5f00f85ab6bca261dffa8374a36"
+      },
+      {
+        "file": ".local/qa/shuihu-raider-sabre-v1/source-codec-audit.json",
+        "sha256": "602b8a6fa9eb9a2edf4308690987791c7c8be18613ae037328403c9bdaea29a5"
+      },
+      {
+        "file": ".local/qa/shuihu-raider-sabre-v1/component-result.json",
+        "sha256": "4a55bae9109cdaee55023bf1e30dd5c54f4f8a627fef9a3d4dd9743c8187cea9"
+      },
+      {
+        "file": ".local/qa/shuihu-raider-sabre-v1/main-result.json",
+        "sha256": "36ac49f07e6e2db3603277ab31a0d8cf580ac63248955559242cdb7a038d69f6"
+      },
+      {
+        "file": ".local/qa/shuihu-raider-sabre-v1/main-cold-result.json",
+        "sha256": "3756c27ae18930b6901a8cbd66721036ea44a885265d09142c6af2f404a53c99"
+      },
+      {
+        "file": ".local/qa/shuihu-raider-sabre-v1/agreement/main-result.json",
+        "sha256": "c514adb425b27a1911559b2653cbbde1f5cd2e6ec0013eaa2f9d967040a4886b"
+      },
+      {
+        "file": ".local/qa/shuihu-raider-sabre-v1/agreement/main-cold-result.json",
+        "sha256": "d67fd315a1c8a205dfd269ebf5637cedddbdbc38e07ef53f43b17a93d9a823ba"
+      },
+      {
+        "file": ".local/qa/shuihu-raider-sabre-v1/preflight-review.json",
+        "sha256": "543a697bb525e51de9d2532bbffda499c0d2aa7ab72fdd8f66c8d52d37b82e14"
+      },
+      {
+        "file": ".local/qa/shuihu-raider-sabre-v1/game-review.json",
+        "sha256": "b491717e31caddf007f3633d8c824ff20dd7e75f4710042945e7488254b6ffe0"
+      }
+    ]
+  },
+  "packageRequirements": {
+    "runtime": [
+      "delivery.json",
+      "enemy-0.motion.json",
+      "enemy-1.motion.json",
+      "enemy-0.tscn",
+      "enemy-1.tscn",
+      "raider.glb imported resource",
+      "shared presenter/controllers"
+    ],
+    "buildSources": [
+      "raider.curves.json",
+      "raider.glb.import",
+      "preserve_existing_clips.gd"
+    ],
+    "jsonMustBeExplicitlyIncludedInPck": true
+  },
+  "remaining": [
+    "Main-owner permanent installation, exact SHA receipt and actual Windows package",
+    "Same-package continuous original-sound real play",
+    "Full high-source and final art review",
+    "Natural legs, natural fall/drop, fine original finger closure and garment seams",
+    "Guard in actual enemy AI when rules call it; no guard AI invented in this encounter",
+    "M03-M05 ordinary source051 and all remaining named character actions"
+  ]
+}

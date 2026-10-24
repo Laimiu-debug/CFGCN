@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3]
+[ext_resource type="Script" path="res://actors/ceramic_motion/ceramic_actor.gd" id="1"]
+[ext_resource type="PackedScene" path="res://actors/ceramic_motion/raider_sabre_v1/raider.glb" id="2"]
+[node name="OrdinaryRaider0" type="Node3D"]
+script=ExtResource("1")
+character_id=&"enemy-0"
+model_scene=ExtResource("2")
+descriptor_path="res://actors/ceramic_motion/raider_sabre_v1/enemy-0.motion.json"
+[node name="Visual" type="Node3D" parent="."]
+rotation=Vector3(0,1.5707963267948966,0)

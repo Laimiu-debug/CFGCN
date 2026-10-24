@@ -1,0 +1,103 @@
+{
+  "id": "npc-cloth-common-v1",
+  "prototype": "raider",
+  "heroId": "",
+  "instances": [
+    "enemy-0",
+    "enemy-1"
+  ],
+  "source": "apps/shuihu/art/pieces/source/campaign-handoff050/npc-cloth-common-v1/npc-cloth-common-v1-sabre-battle-v2.glb",
+  "sourceSha256": "2ede4ddae002a68b3c70228936df47d9af0690cd819dfdc4b9012aedfc6fc23e",
+  "runtime": "apps/shuihu/art/pieces/source/ceramic-production/raider-sabre-v1/raider.glb",
+  "sha256": "d1a745beb23c37564ddd4f15356b65f4c43dd136eb4f9e40ec74f2e44af721d0",
+  "editable": "apps/shuihu/art/pieces/source/ceramic-production/raider-sabre-v1/raider.blend",
+  "editableSha256": "d6e013013c70fa448d89e04f891ae5b53bd512d25a583098deee4e6912918928",
+  "bodyTriangles": 30000,
+  "weaponTriangles": 9068,
+  "bones": 10,
+  "clips": {
+    "idle": 0.8,
+    "attack": 1.2,
+    "guard": 1.0,
+    "hit": 0.8,
+    "board_move": 0.7,
+    "defeat": 1.1
+  },
+  "sourceModelExports": 1,
+  "originalBodyCoordinatesUvMaterialPreserved": true,
+  "weaponPlacement": {
+    "originalGrip": [
+      0.007852297276258469,
+      -0.010101763531565666,
+      0.037400003522634506
+    ],
+    "actualOriginalPalmGrip": [
+      0.007596977055072784,
+      -0.010279957205057144,
+      0.038258761167526245
+    ],
+    "actualOriginalPalmAxis": [
+      0.9694721102714539,
+      -0.05455321446061134,
+      0.23905594646930695
+    ],
+    "rigidRollDegrees": 44.921080288270524,
+    "handleAndPommelOnlyRadialScaleRange": [
+      0.182155484474132,
+      0.4081849629914018
+    ],
+    "bladeAndGuardGeometryPreservedOutsideHandleTransition": true,
+    "skinContactArcDegrees": 211.4555388016722
+  },
+  "motionProfile": {
+    "implementation": "shared-one-hand-kernel",
+    "weaponHands": [
+      "R"
+    ],
+    "freeHandPose": "source-rest-follow-torso",
+    "anticipationDirection": [
+      0.9694721102714539,
+      -0.05455321446061134,
+      0.23905594646930695
+    ],
+    "impactDirection": [
+      0.97,
+      -0.06,
+      -0.23
+    ],
+    "guardDirection": [
+      0.72,
+      -0.48,
+      0.5
+    ],
+    "trajectoryMode": "source-elbow-arc-neutral-grip",
+    "planarPreparationDegrees": 6.0,
+    "planarStrikeDegrees": 42.0,
+    "planarGuardDegrees": 6.0,
+    "planarHitDegrees": 4.0,
+    "variants": {
+      "source_calibrated_cleaver": {
+        "implementation": "source-calibrated-cleaver-v1",
+        "binder": "ceramic_bind_source_blade.py",
+        "profile": "ceramic/source-cleaver-flow-v1.json",
+        "firstOwners": [
+          "ls081",
+          "wm014"
+        ],
+        "currentSourceSemanticEdgeOnly": true,
+        "oldFullResolutionGuessStillWithdrawn": true,
+        "status": "first-native-and-godot-candidates-real-main-and-final-quality-pending"
+      }
+    }
+  },
+  "kinematics": "Shared neutral_one_hand solver guided by the actual source elbow arc, fixed arm lengths and complete original palms",
+  "garmentWeightsSha256": "f6cb2a1fe31d9294ec91e2edc364e1b2c3920985e43e815651b0a35579ad12f7",
+  "sourcePalmFitSha256": "5a08cff1e718abc6c18277df62e2b82f12a98cccb83b806bd5e497dd073e6296",
+  "palmSkinWitnessSha256": "b309b03fb3527ff7d025a73a75cbc805cc438589bdcdb795f02b78ad5ab197fe",
+  "sourcePosePreflight": ".local/qa/shuihu-raider-sabre-v1/source-pose-preflight.json",
+  "sourcePosePreflightSha256": "28f973a364d3267cd0ec8ab6232284f381c21091f9e60ad5b36298bc4f628f11",
+  "nativeReimportPending": true,
+  "normalAdmission": false,
+  "naturalLegGait": false,
+  "fullGoalComplete": false
+}

@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "batch": "audio-b22-20261024T1200",
+  "date": "2026-10-24",
+  "ownerWhitelist": {
+    "path": "docs/manifests/godot-audio-b22-github.json",
+    "sha256": "b120e1836f6a17b46bf3121bbf86f37fafb764cfafd33d9ef7565fc1d85d497e",
+    "all143ReferencedFilesVerified": true
+  },
+  "selection": "Owner explicit whitelist plus itself,except the local verbatim listening-decision record;this supplementary scope is also committed. Actual changed paths are a subset because previously committed dependencies are reused.",
+  "excludedLocalAcceptanceRecord": [
+    {
+      "path": "source/audio/godot-b-v2-r2/listening-decision.json",
+      "sha256": "b9425dbd2f982dc836b654c462beaaac4369b93816df31a093c7faf96915bde6",
+      "reason": "Verbatim private listening replies retained locally;not needed by runtime/adopter."
+    }
+  ],
+  "largeAssetsExcluded": [
+    {
+      "path": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/music-xiyou.res",
+      "bytes": 30039055,
+      "sha256": "f72d5e13d166e669de25513da3630ccb2f696c3102486c48575fe9ccfcdef11d",
+      "id": "music-xiyou"
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/runtime-package/shuihu/game_audio_b/assets/music-shuihu.res",
+      "bytes": 27713451,
+      "sha256": "0a96f622fbea894b2e0540612c6f15e15cfa32b16c0599fdff04fa0904e5a62b",
+      "id": "music-shuihu"
+    }
+  ],
+  "sourceRevision": "B2.2 /e19d37927c49dd716e1cea819520b69f5c1b169f4a6b7b12785de7558ba11684",
+  "validation": {
+    "allSelectedSourceBytesMatchOwnerSha": true,
+    "jsonParsed": true,
+    "pythonAstParsedWithoutExecutingBuildOrAdoption": true,
+    "candidateMixerCodeEqualsRuntimeAfterVersionLabelNormalization": true,
+    "sourceNativeAndPairedOriginalAudioEvidenceReused": true,
+    "newUnrelatedTestsOrStressMatrixRun": false
+  },
+  "dependencies": {
+    "runtime": [
+      "Godot 4.7.2",
+      "Both actual main projects, their rule bridge/core and the shared desktop shell",
+      "Complete external music/input bank named by delivery SHA; two large native music resources intentionally not in this whitelist"
+    ],
+    "python": [
+      "Python 3.13.15 used locally",
+      "NumPy",
+      "imageio-ffmpeg / FFmpeg",
+      "Workstation Godot path and local tool path in existing scripts must be configured elsewhere"
+    ],
+    "reviewFrontend": [
+      "Existing workspace React and ReactDOM",
+      "Vite 8.3.4, @vitejs/plugin-react 6.1.2",
+      "@cfgcn/ui, Noto Serif SC and Noto Sans SC",
+      "Node >=22.12.0 according to current root package.json"
+    ],
+    "notCleanCloneCiReady": [
+      "sync.py reads excluded .local/qa before.json and existing source bank",
+      "Historical source checks refer to excluded local QA fixtures; do not commit player save payloads to satisfy them",
+      "Large assets, native DLL and full main project dependencies require their owners separate distribution/build handoff"
+    ]
+  },
+  "adoptionDependencies": "Existing B2.1 sound bank and a main-owner Godot project are required. The two native music resources remain excluded from Git. The new guarded B2.2 adopter does not require a private before.json or player save.",
+  "receivingWindowsEvidence": {
+    "candidate": "Xiyou v17 /0.1.16.0",
+    "zipSha256": "d54485ed667a3477915a4ce63b417da0e2c2de60c785dd1da8c582574ce3ce03",
+    "scope": "Verified actual candidate bytes and main-owner B2.2 resource routing,real six-skill battle/mute/pause,four volumes,cold and portable native proof hashes. Not complete chapter replay/movie,final art,OS-human input,specialist signoff or promotion.",
+    "stablePlayerRemainsV14": true
+  },
+  "notIncluded": [
+    "Private listening replies,process/QA/player saves,settings,logs,.local,cache or signed URLs.",
+    "Generated apps/*/game_audio_b copies and unrelated live gameplay/UI/model changes.",
+    "The two music resources,Windows/EXE/PCK/DLL/ZIP,movies or other large original assets."
+  ],
+  "publication": {
+    "publicClientReleasedByThisCommit": false,
+    "wholeGameAccepted": false,
+    "websiteDeployed": false
+  }
+}

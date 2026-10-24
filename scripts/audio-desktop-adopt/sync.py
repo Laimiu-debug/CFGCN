@@ -1,11 +1,14 @@
 """Sync only audio-owned runtime files and autoload keys into both main projects."""
 from pathlib import Path
-import argparse,hashlib,json,os,shutil
+import argparse,hashlib,json,os,shutil,subprocess,sys
 ROOT=Path(__file__).resolve().parents[2];PACKAGE=ROOT/'packages/godot-game-audio'
 active=json.loads((PACKAGE/'current.json').read_text(encoding='utf-8')) if (PACKAGE/'current.json').exists() else {}
 parser=argparse.ArgumentParser();parser.add_argument('--source',default=active.get('source','source/audio/godot-b-v1'));parser.add_argument('--qa',default=active.get('qa','.local/qa/godot-audio-b-v1'));args=parser.parse_args()
 SOURCE=(ROOT/args.source).resolve();QA=(ROOT/args.qa).resolve()
 assert SOURCE.is_relative_to((ROOT/'source/audio').resolve()) and QA.is_relative_to((ROOT/'.local/qa').resolve())
+if SOURCE==ROOT/'source/audio/godot-b-v2-r2':
+    subprocess.run([sys.executable,str(ROOT/'scripts/audio-desktop-contact/adopt.py'),'--source',args.source,'--qa',args.qa],check=True)
+    raise SystemExit(0)
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def read(p):return json.loads(p.read_text(encoding='utf-8-sig'))
 inputs=read(SOURCE/'inputs.json');prepared=read(SOURCE/'prepared.json');before=read(QA/'before.json')

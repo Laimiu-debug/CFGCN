@@ -1,0 +1,152 @@
+{
+  "version": "B2.2-contact-candidate",
+  "state": "B2.2 source accepted and live audio adopted; new main-owner Windows receiver acceptance pending",
+  "baselineDelivery": "source/audio/godot-b-v2-r1/delivery.json",
+  "baselineDeliverySha256": "f222e4c49b931648b871f7016a9a20478693b350eea42479de9804b1583c00af",
+  "inputPackages": {
+    "xiyou": {
+      "version": "0.1.13.0",
+      "handoff": {
+        "path": "source\\xiyou\\godot\\fusion-native-v14\\desktop-release-handoff.json",
+        "bytes": 39992,
+        "sha256": "db73a645d9c18534d479415d64236746c197f5f767cdfafdda755273471fbfda"
+      },
+      "packageFiles": [
+        {
+          "path": ".local\\builds\\xiyou-godot-v14\\Xiyou.exe",
+          "bytes": 109127680,
+          "sha256": "878aeacdbb33a7e9f6312707e1d8b49f58151e262142260c49ad58eb21a9bd64",
+          "matches": true
+        },
+        {
+          "path": ".local\\builds\\xiyou-godot-v14\\Xiyou.pck",
+          "bytes": 630920980,
+          "sha256": "095438742bb428eb653510a98bd1b5fc118a3f263ba0787fe9db5c3f2e955e4e",
+          "matches": true
+        },
+        {
+          "path": ".local\\builds\\xiyou-godot-v14\\cfgcn_xiyou_godot.dll",
+          "bytes": 11253248,
+          "sha256": "c28606a2fbca755a4e576e57b70d8ffd2352e0f35d452bb5eeae17211d9628b0",
+          "matches": true
+        }
+      ],
+      "zip": {
+        "path": ".local\\builds\\xiyou-godot-v14\\Xiyou-Windows-Preview.zip",
+        "bytes": 611976851,
+        "sha256": "b6b799f1a395bd589e7f260783b6765921a9b8189bba3ec50f1f106579f47880",
+        "matches": true
+      },
+      "mainOwnerPlayableAccepted": true,
+      "mainOwnerSamePackageEvidence": [
+        {
+          "path": ".local\\qa\\xiyou-godot-v14\\export-cases\\final_art_minions\\ui-art.json",
+          "bytes": 40916,
+          "sha256": "2f20e7eb8eda7bb7d6194ddca585dc3530e9454769c57db19d8a7d9017b4859e",
+          "matches": true,
+          "checks": 148,
+          "mainOwnerPassed": true,
+          "role": "Main owner evidence, not newly rerun by audio owner"
+        },
+        {
+          "path": ".local\\qa\\xiyou-godot-v14\\portable-cold-bg1\\portable-cold.json",
+          "bytes": 2060,
+          "sha256": "74ee05986f44b7a4838bad0d47d508a01eef2eb35edc53d2752152da322f71b4",
+          "matches": true,
+          "checks": 11,
+          "mainOwnerPassed": true,
+          "role": "Main owner evidence, not newly rerun by audio owner"
+        },
+        {
+          "path": ".local\\qa\\xiyou-godot-v14\\movie-chapter-bg1\\chapter-movie.json",
+          "bytes": 220591,
+          "sha256": "f8ad0f45f468580ad794976be677f06ed300e0d53f798574c0ae000d1d7acdfe",
+          "matches": true,
+          "checks": 20,
+          "mainOwnerPassed": true,
+          "role": "Main owner evidence, not newly rerun by audio owner"
+        },
+        {
+          "path": ".local\\qa\\xiyou-godot-v14\\export-cases\\post_spider_current_r2\\post-spider.json",
+          "bytes": 22325,
+          "sha256": "da6fa5e0d18cc7f0279ac2979e05bc21b32920fb74d13d3af5f9af4dcf8694d1",
+          "matches": true,
+          "checks": 0,
+          "mainOwnerPassed": true,
+          "role": "Main owner evidence, not newly rerun by audio owner"
+        }
+      ]
+    },
+    "shuihu": {
+      "version": "0.0.13-preview.2",
+      "handoff": {
+        "path": ".local\\qa\\shuihu-godot\\first-volume-013\\windows-v2\\handoff.json",
+        "bytes": 3643,
+        "sha256": "48e9722776f20ff0c388dbdfba58ccf9d854e53f25e10dcd48f84c49fee880e7"
+      },
+      "packageFiles": [
+        {
+          "path": ".local\\builds\\shuihu-godot-preview-013-v2\\Shuihu.exe",
+          "bytes": 109268480,
+          "sha256": "d34d36f3be1a6c49c56525ae86469b92e4f417ddf0b43cf00dd80c385c4b0562",
+          "matches": true
+        },
+        {
+          "path": ".local\\builds\\shuihu-godot-preview-013-v2\\Shuihu.pck",
+          "bytes": 2534252409,
+          "sha256": "4f9f7f21e5d53d19177bdfecbd5b22b5d6f5ada406eee7cc074f2628d3d08967",
+          "matches": true
+        }
+      ],
+      "newHudAndOrdinaryModelsStillAwaitFinalFrozenPackage": true,
+      "scope": "Initial event-interface baseline, superseded for current paired review by shuihuLatest"
+    },
+    "shuihuLatest": {
+      "version": "0.0.15-preview.2",
+      "handoff": {
+        "path": ".local/qa/shuihu-godot/ui-015/windows-v2/handoff.json",
+        "sha256": "e7ef17d6c5e2cca840a790fe01f0317f82803a5b38de29e0c2c527f0d932e5a2"
+      },
+      "packageFiles": {
+        "Shuihu.exe": {
+          "bytes": 109268480,
+          "sha256": "d34d36f3be1a6c49c56525ae86469b92e4f417ddf0b43cf00dd80c385c4b0562"
+        },
+        "Shuihu.pck": {
+          "bytes": 2541808840,
+          "sha256": "6f6314def874a371e7290ea3c9bd6bb7c33063b79fe264ffc18c7f919d78109e"
+        }
+      },
+      "zip": "824508d4d6bff559ecb96750c82d5d0dc3e9ffb1d2f2eac75125bc404dd435d3",
+      "source050AndHudPresent": true,
+      "source051M03M05Pending": true
+    }
+  },
+  "receiverPaths": [
+    "packages/godot-game-audio/ (promote only after representative review)",
+    "apps/xiyou/godot/game_audio_b/ via audio-only handoff to main owner",
+    "apps/shuihu/godot/game_audio_b/ via audio-only handoff to main owner"
+  ],
+  "work": [
+    "Separate semantic Boss-warning priority from normal high-frequency hit/skill priority",
+    "Keep hit/miss/shield and light/heavy contact cues tied to real resolved events, not animation marker guesses",
+    "Review Xiyou ordinary melee/stone/talisman and qingmao actual motion-warning-release contacts",
+    "Review Shuihu sabre/bow/spear-shield against accepted action markers; mark unimplemented or absent real encounters honestly",
+    "Same actual fixed EXE/PCK and same real rules instance for representative paired audio; candidate overlay explicitly labeled until main owner packages it"
+  ],
+  "limits": [
+    "No rule, HP, hit result, RNG, save, main scene or shared-UI edits",
+    "No new music/voice generation or new paid calls",
+    "B2.1 immutable delivery f222... and historical Git whitelist 3894... remain unchanged; B2.2 source current pointer is separately promoted after human listening acceptance.",
+    "No independent main project or duplicate package export",
+    "Audio cue budget remains bounded; preserve Master/Music/Effects/Voice and pause/cold restore"
+  ],
+  "ordinaryShieldEncounterBoundary": "M01 has bow/spear/sabre but does not establish shield troop coverage. Source051 arrival is not proof of actual M03-M05 rigged encounters.",
+  "credits": 0,
+  "humanMixDirectionAccepted": true,
+  "decision": "source/audio/godot-b-v2-r2/listening-decision.json",
+  "currentDelivery": {
+    "path": "source/audio/godot-b-v2-r2/delivery.json",
+    "sha256": "e19d37927c49dd716e1cea819520b69f5c1b169f4a6b7b12785de7558ba11684"
+  }
+}

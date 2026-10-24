@@ -1,6 +1,8 @@
 # Godot B audio ownership and shared UI interface
 
-2026-10-24，用户已采用B；B1主工程接入与历史验证见 `docs/godot-b-audio.md`。当前可冻结音频批为B2.1，指针 `current.json`，不可变交接 `source/audio/godot-b-v2-r1/delivery.json`（SHA `f222e4c49b931648b871f7016a9a20478693b350eea42479de9804b1583c00af`），说明 `docs/godot-audio-windows-b2.md`。B2保留B音乐，优化战斗密度、主控／同伴／危险层次、短句间隔及语音让位，并按原生技能索引校正绑定。只重做悟空一条易误听台词，两稿累计2积分；最终B2.1“吃俺老孙一棒！”已由用户确认“俺”清楚、该句可以，补充记录 `.local/qa/godot-audio-b-v2/callout-user-acceptance.json`，不改冻结时的历史delivery，也不把一句认可扩展成所有台词终审。
+2026-10-24，用户已采用B。当前源版本为B2.2，指针 `current.json`，不可变交接 `source/audio/godot-b-v2-r2/delivery.json`（SHA `e19d37927c49dd716e1cea819520b69f5c1b169f4a6b7b12785de7558ba11684`）。用户对四组实机对照确认“更清楚，按这个方向继续”：独立保护真实Boss预警、限制普通敌群并发，命中轻重取真实结算；不将动画marker或落空猜成命中／格挡。两作各只更新mixer和library两个音频代码文件，主工程新Windows包验收仍单独进行。事件约定与未覆盖项见 `source/audio/godot-b-v2-r2/event-contract.json`；接收固定主工程快照可用 `python scripts/audio-desktop-contact/adopt.py --game xiyou --project <project-directory>`，不传project则仅同步两作live音频。该脚本逐SHA验证已有B2.1或B2.2，遇并发改动即保留原文件，不依赖玩家／QA旧档。
+
+B1接入历史见 `docs/godot-b-audio.md`；B2.1原交接 `source/audio/godot-b-v2-r1/delivery.json`（SHA `f222e4c49b931648b871f7016a9a20478693b350eea42479de9804b1583c00af`）及 `docs/godot-audio-windows-b2.md` 保留。B2.2没有新生成素材，全部配乐、音效、声音资源与循环元数据保持B2.1；本批Runway新增调用／积分均0，B2两稿悟空台词累计仍2积分。“吃俺老孙一棒！”保留用户已确认“俺”清楚、该句可以的原声，未将一句认可扩展为所有台词终审。
 
 Canonical source: this directory. Sync both main projects with `python scripts/audio-desktop-adopt/sync.py`; the default reads current.json. For a release use the immutable runtime files/SHA listed in the delivery, not a changing live directory. Do not edit generated `game_audio_b/` copies or shared desktop UI files here. Source checks do not replace the next Windows package and website acceptance gates.
 

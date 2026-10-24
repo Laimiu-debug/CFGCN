@@ -1,7 +1,9 @@
 {
-  "version": "B2.1",
-  "source": "source/audio/godot-b-v2-r1",
-  "qa": ".local/qa/godot-audio-b-v2",
-  "delivery": "source/audio/godot-b-v2-r1/delivery.json",
-  "deliverySha256": "f222e4c49b931648b871f7016a9a20478693b350eea42479de9804b1583c00af"
+  "version": "B2.2",
+  "source": "source/audio/godot-b-v2-r2",
+  "qa": ".local/qa/godot-audio-contact-v1",
+  "delivery": "source/audio/godot-b-v2-r2/delivery.json",
+  "deliverySha256": "e19d37927c49dd716e1cea819520b69f5c1b169f4a6b7b12785de7558ba11684",
+  "syncScript": "scripts/audio-desktop-contact/adopt.py",
+  "newReceiverWindowsAcceptance": false
 }

@@ -1,0 +1,31 @@
+{
+  "version": "B2.2",
+  "authority": "Main game owns every action, hit, damage, block, random result and save. Audio only consumes immutable presentation events.",
+  "pool": {"music": 2, "effects": 8, "voice": 1, "reservedWarningEffects": 1, "ordinaryReleaseMaximum": 2, "ordinaryGlobalGapSeconds": 0.16},
+  "priority": {"warning": "actual-boss-warning or explicit main-project warning", "motionMarker": "skill, never damage confirmation", "normalHpLoss": "contact, never critical merely because its numeric priority was high", "critical": "real ultimate, downed, defeat or battle result", "ui": "audible during menu pause subject to saved Master/Effects"},
+  "warningMix": {"durationSeconds": 0.8, "ordinaryGain": 0.22, "skillGain": 0.30, "contactGain": 0.42, "voiceGain": 0.42, "musicGain": 0.28, "musicAttackSeconds": 0.025, "musicReleaseSeconds": 0.22},
+  "shuihu": {
+    "release": "action_release / reaction_release at the main-owned real action impact tick; use actual weapon identifier for air or bow cue.",
+    "contact": "attack_contact requires hp_loss>0 or armor_loss>0; light/heavy gain uses hp_loss + 0.4 * armor_loss, clamped; material follows actual armour identifier.",
+    "miss": "attack_miss has release only; no invented flesh, metal or shield impact.",
+    "shieldContact": "shield_contact with shield_loss>0 is real shield durability damage, not proof of a passive guarded miss.",
+    "observed": "M01 real sabre, long_spear, staff and bow; bow includes an actual miss and an actual 14 HP / 33 armour contact. 0.0.15-preview.2 contains source050 raiders and new HUD.",
+    "remaining": "Main-owned causal block result and actual M03-M05 shield-troop encounters; source051 body delivery alone is not that integration. Do not block current M01 delivery waiting for nonexistent coverage."
+  },
+  "xiyou": {
+    "ordinaryRelease": "Actual main-owned sockets for melee, stone and talisman releases, bounded to nearby sources; sourceKind10 uses an existing dry wood accent, sourceKind13 retains ink-spell. These accents explicitly have damageConfirmed=false.",
+    "outgoingContact": "Existing real HP-before/after contact strokes; retain actor/skill/stroke identity and shape only gain.",
+    "incomingContact": "Real hero HP delta or protection loss; exact stone/talisman attacker and contact-point attribution is still incomplete.",
+    "qingmao": "Actual Wuji qingmao six native casts. Windup is protected warning; motion markers stay skill; counters, phases and HP contacts keep actual semantics.",
+    "remaining": "More precise main-owned incoming contact IDs/positions and other actual Boss encounters. Existing two external Jin/Yin warning players are unchanged; do not claim their first-source cue route has been rewritten."
+  },
+  "receiverSteps": [
+    "Validate immutable delivery e19d37927c49dd716e1cea819520b69f5c1b169f4a6b7b12785de7558ba11684 and adopt only the two changed audio files per game.",
+    "Freeze and export through the sole main-project owner. Never replace an already frozen PCK/ZIP or relabel an old B2.1 demo as B2.2.",
+    "Bind new EXE/PCK/ZIP SHA, verify affected actual release/contact/warning, scene switch, pause, four volumes, mute and independent cold recovery.",
+    "Reuse old complete loop evidence under its original identity where source and loop metadata are unchanged; report targeted repeat continuity on the new receiver honestly.",
+    "Hand the accepted version, same-package continuous original-sound demo and download identity to the sole website owner; public verification is separate."
+  ],
+  "unchanged": ["All music PCM and native loop metadata", "All voice and effect resources", "Wukong approved line", "Rules, HP/AP, RNG and save semantics", "Main scenes and shared desktop UI"],
+  "newRunwayCredits": 0
+}

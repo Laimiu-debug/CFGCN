@@ -1,0 +1,18 @@
+{
+  "incrementalCredits": 1,
+  "b2FamilyCredits": 2,
+  "base": "source/audio/godot-b-v2/mastering.json",
+  "processed": [
+    {
+      "id": "wukong-skill-01",
+      "sourceSha256": "66d7a0e1d0fe64985d1c7d60c4bdac11711a8bc188f42f3fd0c713215f778ff7",
+      "filters": "highpass=f=95,lowpass=f=10500,equalizer=f=2800:t=q:w=1.2:g=1.5",
+      "gainDb": -3.098175844019893,
+      "afterActiveRms": 0.1125670944976873,
+      "afterPeak": 0.5034985964304091,
+      "seconds": 1.52,
+      "pitchOrTimeEdit": false
+    }
+  ],
+  "scope": "Only the requested Wukong diction revision. Other B2 assets and all music/mixer/director code remain identical. Synthesis speed is recorded, not a post-production time stretch."
+}

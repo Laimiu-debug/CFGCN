@@ -1,0 +1,906 @@
+{
+  "version": 2,
+  "runtimeVersion": "B2.1",
+  "accepted": "B music accepted; user requested combat clarity/mix optimization and conditional Windows/site publication on 2026-10-24",
+  "incrementalCredits": 1,
+  "priorBatchCredits": 27,
+  "resources": [
+    {
+      "id": "music-xiyou",
+      "kind": "music",
+      "source": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v1\\resources\\music-xiyou.res",
+      "sourceSha256": "f72d5e13d166e669de25513da3630ccb2f696c3102486c48575fe9ccfcdef11d",
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\music-xiyou.res",
+      "method": "exact-native-resource",
+      "originalInput": {
+        "id": "music-xiyou",
+        "kind": "music",
+        "source": "G:\\CODE\\CFGCN\\source\\audio\\desktop-ab-v1\\runtime\\music-xiyou.wav",
+        "sourceSha256": "0119a0192c45239770c0e6f9c833c8f7d9484ed52c4315931874f177bff2659d",
+        "pcmSha256": "f56752dd2f052a579f49af787af926f22979f6122db171a050fadd83b3451b46",
+        "frames": 8324160,
+        "loopBegin": 115200,
+        "loopEnd": 8324160,
+        "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v1\\resources\\music-xiyou.res",
+        "method": "wav-native-resource"
+      }
+    },
+    {
+      "id": "music-shuihu",
+      "kind": "music",
+      "source": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v1\\resources\\music-shuihu.res",
+      "sourceSha256": "0a96f622fbea894b2e0540612c6f15e15cfa32b16c0599fdff04fa0904e5a62b",
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\music-shuihu.res",
+      "method": "exact-native-resource",
+      "originalInput": {
+        "id": "music-shuihu",
+        "kind": "music",
+        "source": "G:\\CODE\\CFGCN\\source\\audio\\desktop-ab-v1\\runtime\\music-shuihu.wav",
+        "sourceSha256": "5483acce196fb002e53a5b54d262311fbadbe3154c4361f01772ae848558f8b8",
+        "pcmSha256": "3ac90859fa611e6449de73deba08c71687a930a19934f4766512ac874f735108",
+        "frames": 7654560,
+        "loopBegin": 115200,
+        "loopEnd": 7654560,
+        "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v1\\resources\\music-shuihu.res",
+        "method": "wav-native-resource"
+      }
+    },
+    {
+      "id": "staff-air",
+      "kind": "effect",
+      "source": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v1\\resources\\staff-air.res",
+      "sourceSha256": "fadeb8fa82e3d48260410e38d86a189b6fc2c23d17583e0475322ced3d946403",
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\staff-air.res",
+      "method": "exact-native-resource",
+      "originalInput": {
+        "id": "staff-air",
+        "kind": "effect",
+        "source": "G:\\CODE\\CFGCN\\source\\audio\\desktop-ab-v1\\runtime\\staff-air.wav",
+        "sourceSha256": "1dc28106c50751f2ce6ad34312e4aeb8caa871f5607579fcb5c0b6076e40b51a",
+        "pcmSha256": "6b9463b2472f681bb3f9ceae58c6c512c64208c990a60686a83a869f467ded2d",
+        "frames": 48000,
+        "loopBegin": 0,
+        "loopEnd": 48000,
+        "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v1\\resources\\staff-air.res",
+        "method": "wav-native-resource"
+      }
+    },
+    {
+      "id": "staff-body",
+      "kind": "effect",
+      "source": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v1\\resources\\staff-body.res",
+      "sourceSha256": "4fa61a4cbb013b6a33439476a01acfe5f69ca7b01d2dd479402d9cb3d0b0ae0e",
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\staff-body.res",
+      "method": "exact-native-resource",
+      "originalInput": {
+        "id": "staff-body",
+        "kind": "effect",
+        "source": "G:\\CODE\\CFGCN\\source\\audio\\desktop-ab-v1\\runtime\\staff-body.wav",
+        "sourceSha256": "3655e1999204414e9b57f61f4dba5c8047d1e694c588d97a73315e7e54f3b7b8",
+        "pcmSha256": "2db6073f45141ccde073011b9f41556743eb7f9c272fb0aeb6e509e278222c4b",
+        "frames": 48000,
+        "loopBegin": 0,
+        "loopEnd": 48000,
+        "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v1\\resources\\staff-body.res",
+        "method": "wav-native-resource"
+      }
+    },
+    {
+      "id": "blade-armor",
+      "kind": "effect",
+      "source": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v1\\resources\\blade-armor.res",
+      "sourceSha256": "7e04493246ea3df39ee6540fc48efa77aeb72accbe2e00f67d74cf203bb74727",
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\blade-armor.res",
+      "method": "exact-native-resource",
+      "originalInput": {
+        "id": "blade-armor",
+        "kind": "effect",
+        "source": "G:\\CODE\\CFGCN\\source\\audio\\desktop-ab-v1\\runtime\\blade-armor.wav",
+        "sourceSha256": "37688c0bacc63085c401281e5c52e03c075fbaed5c7e92043fed5994a1bd73e7",
+        "pcmSha256": "ab4402123600a747295c1b0765ea141939555742ebc11c79f16a8dbad1b024bf",
+        "frames": 57600,
+        "loopBegin": 0,
+        "loopEnd": 57600,
+        "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v1\\resources\\blade-armor.res",
+        "method": "wav-native-resource"
+      }
+    },
+    {
+      "id": "shield-block",
+      "kind": "effect",
+      "source": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v1\\resources\\shield-block.res",
+      "sourceSha256": "ca3563169283faba14587ac5511a82049cef81d9bb221ee5885ac371bf961921",
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\shield-block.res",
+      "method": "exact-native-resource",
+      "originalInput": {
+        "id": "shield-block",
+        "kind": "effect",
+        "source": "G:\\CODE\\CFGCN\\source\\audio\\desktop-ab-v1\\runtime\\shield-block.wav",
+        "sourceSha256": "b79b0a20d8613aedddfd9e405b5005f0217062bc8404e3b6341157f8be07d5c7",
+        "pcmSha256": "16400b2f9b65fab34666ce3bfd5e5d0f197329012860305e77ffc8df63ce7f8d",
+        "frames": 57600,
+        "loopBegin": 0,
+        "loopEnd": 57600,
+        "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v1\\resources\\shield-block.res",
+        "method": "wav-native-resource"
+      }
+    },
+    {
+      "id": "water-jian",
+      "kind": "effect",
+      "source": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v1\\resources\\water-jian.res",
+      "sourceSha256": "1baf5479fcc4aa74704d413aebf80532e31509c6d326a5cba17cce5af8295bce",
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\water-jian.res",
+      "method": "exact-native-resource",
+      "originalInput": {
+        "id": "water-jian",
+        "kind": "effect",
+        "source": "G:\\CODE\\CFGCN\\source\\audio\\desktop-ab-v1\\runtime\\water-jian.wav",
+        "sourceSha256": "b76bfeee060458e2060e5901a26ae3b6e69427403d8aa8adcca357450bceaf85",
+        "pcmSha256": "621c5010d64af65f6b624b0f21ff4de462a96b33979782f2048a487fab774a12",
+        "frames": 71040,
+        "loopBegin": 0,
+        "loopEnd": 71040,
+        "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v1\\resources\\water-jian.res",
+        "method": "wav-native-resource"
+      }
+    },
+    {
+      "id": "bow-release",
+      "kind": "effect",
+      "source": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v1\\resources\\bow-release.res",
+      "sourceSha256": "1dd5451a5234837a08d09484ee719d545f53db6495a61afd921cdd326e6cf78a",
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\bow-release.res",
+      "method": "exact-native-resource",
+      "originalInput": {
+        "id": "bow-release",
+        "kind": "effect",
+        "source": "G:\\CODE\\CFGCN\\source\\audio\\desktop-ab-v1\\runtime\\bow-release.wav",
+        "sourceSha256": "17213bb3617cc34d3750807c7b2821b6606743b79f0f0a6d7209ed90c76ac6e6",
+        "pcmSha256": "d829ecefeb046b637431a3677e0c29a1bb9e6fd2a86a97b371fb5721e9f5bce9",
+        "frames": 48000,
+        "loopBegin": 0,
+        "loopEnd": 48000,
+        "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v1\\resources\\bow-release.res",
+        "method": "wav-native-resource"
+      }
+    },
+    {
+      "id": "danger-wood",
+      "kind": "effect",
+      "source": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v1\\resources\\danger-wood.res",
+      "sourceSha256": "219c0df169c17d7ca8108dddf27ba85d94afcf81bca3b06ec3fc7b7102312846",
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\danger-wood.res",
+      "method": "exact-native-resource",
+      "originalInput": {
+        "id": "danger-wood",
+        "kind": "effect",
+        "source": "G:\\CODE\\CFGCN\\source\\audio\\desktop-ab-v1\\runtime\\danger-wood.wav",
+        "sourceSha256": "f15e8cfbff20ad3178bd3eadc1499b7095f3ff74621f18d19595e50ad9450898",
+        "pcmSha256": "6fe608763af7510c49c26507665d20367877347612c72d805e255ba4252ac82b",
+        "frames": 48000,
+        "loopBegin": 0,
+        "loopEnd": 48000,
+        "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v1\\resources\\danger-wood.res",
+        "method": "wav-native-resource"
+      }
+    },
+    {
+      "id": "wound-cloth",
+      "kind": "effect",
+      "source": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v1\\resources\\wound-cloth.res",
+      "sourceSha256": "63f8810b4fbc08e4f1e7172d4a22f627030008b4e34d931ec2be4d2168c3f073",
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\wound-cloth.res",
+      "method": "exact-native-resource",
+      "originalInput": {
+        "id": "wound-cloth",
+        "kind": "effect",
+        "source": "G:\\CODE\\CFGCN\\source\\audio\\desktop-ab-v1\\runtime\\wound-cloth.wav",
+        "sourceSha256": "df503075fb75ae0992bdd7b6b28c67ad3e4a8cb260b2e265974660f601c3516d",
+        "pcmSha256": "4bdb24337c7aa087e60854cb00f69a170874662ae92101c7a93d755b4d61f60f",
+        "frames": 48000,
+        "loopBegin": 0,
+        "loopEnd": 48000,
+        "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v1\\resources\\wound-cloth.res",
+        "method": "wav-native-resource"
+      }
+    },
+    {
+      "id": "defeat",
+      "kind": "effect",
+      "source": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v1\\resources\\defeat.res",
+      "sourceSha256": "ad6eef1897890a3e68762ce7691af01d009047a92503e7366b1040e03a751ade",
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\defeat.res",
+      "method": "exact-native-resource",
+      "originalInput": {
+        "id": "defeat",
+        "kind": "effect",
+        "source": "G:\\CODE\\CFGCN\\apps\\xiyou\\godot\\audio\\native-v4\\effect-defeat.res",
+        "sourceSha256": "ad6eef1897890a3e68762ce7691af01d009047a92503e7366b1040e03a751ade",
+        "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v1\\resources\\defeat.res",
+        "method": "exact-native-resource"
+      }
+    },
+    {
+      "id": "footstep-earth",
+      "kind": "effect",
+      "source": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v1\\resources\\footstep-earth.res",
+      "sourceSha256": "149839903e578c441f81d9ca183b02ac62692b557d111605841c15d86cd2c0e1",
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\footstep-earth.res",
+      "method": "exact-native-resource",
+      "originalInput": {
+        "id": "footstep-earth",
+        "kind": "effect",
+        "source": "G:\\CODE\\CFGCN\\apps\\xiyou\\godot\\audio\\native-v4\\effect-footstep-earth.res",
+        "sourceSha256": "149839903e578c441f81d9ca183b02ac62692b557d111605841c15d86cd2c0e1",
+        "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v1\\resources\\footstep-earth.res",
+        "method": "exact-native-resource"
+      }
+    },
+    {
+      "id": "footstep-stone",
+      "kind": "effect",
+      "source": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v1\\resources\\footstep-stone.res",
+      "sourceSha256": "ee405ec8dab6db58fae7d67a6632b13cd7d947a7b2f81dacffeb339afc04250d",
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\footstep-stone.res",
+      "method": "exact-native-resource",
+      "originalInput": {
+        "id": "footstep-stone",
+        "kind": "effect",
+        "source": "G:\\CODE\\CFGCN\\apps\\xiyou\\godot\\audio\\native-v4\\effect-footstep-stone.res",
+        "sourceSha256": "ee405ec8dab6db58fae7d67a6632b13cd7d947a7b2f81dacffeb339afc04250d",
+        "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v1\\resources\\footstep-stone.res",
+        "method": "exact-native-resource"
+      }
+    },
+    {
+      "id": "ink-spell",
+      "kind": "effect",
+      "source": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v1\\resources\\ink-spell.res",
+      "sourceSha256": "094fd29e9d8e045c94f223c95e6b278baeb25685c75461f02cabfeb3984819da",
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\ink-spell.res",
+      "method": "exact-native-resource",
+      "originalInput": {
+        "id": "ink-spell",
+        "kind": "effect",
+        "source": "G:\\CODE\\CFGCN\\apps\\xiyou\\godot\\audio\\native-v4\\effect-ink-spell.res",
+        "sourceSha256": "094fd29e9d8e045c94f223c95e6b278baeb25685c75461f02cabfeb3984819da",
+        "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v1\\resources\\ink-spell.res",
+        "method": "exact-native-resource"
+      }
+    },
+    {
+      "id": "metal-impact",
+      "kind": "effect",
+      "source": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v1\\resources\\metal-impact.res",
+      "sourceSha256": "6f70fd4ac863049b517c885abc548aa95c5dcec433f58ee37f003a0c333d4265",
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\metal-impact.res",
+      "method": "exact-native-resource",
+      "originalInput": {
+        "id": "metal-impact",
+        "kind": "effect",
+        "source": "G:\\CODE\\CFGCN\\apps\\xiyou\\godot\\audio\\native-v4\\effect-metal-impact.res",
+        "sourceSha256": "6f70fd4ac863049b517c885abc548aa95c5dcec433f58ee37f003a0c333d4265",
+        "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v1\\resources\\metal-impact.res",
+        "method": "exact-native-resource"
+      }
+    },
+    {
+      "id": "pickup",
+      "kind": "effect",
+      "source": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v1\\resources\\pickup.res",
+      "sourceSha256": "ceedad46422fde379291f71a0de99e8bca167e7ada6ad9d4b62f6d0d87421c7f",
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\pickup.res",
+      "method": "exact-native-resource",
+      "originalInput": {
+        "id": "pickup",
+        "kind": "effect",
+        "source": "G:\\CODE\\CFGCN\\apps\\xiyou\\godot\\audio\\native-v4\\effect-pickup.res",
+        "sourceSha256": "ceedad46422fde379291f71a0de99e8bca167e7ada6ad9d4b62f6d0d87421c7f",
+        "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v1\\resources\\pickup.res",
+        "method": "exact-native-resource"
+      }
+    },
+    {
+      "id": "piece-place",
+      "kind": "effect",
+      "source": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v1\\resources\\piece-place.res",
+      "sourceSha256": "8b33bc3cc7bc8eb5a47e108817df988923bc47be1efd5b6940d6e7a8af09fc1a",
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\piece-place.res",
+      "method": "exact-native-resource",
+      "originalInput": {
+        "id": "piece-place",
+        "kind": "effect",
+        "source": "G:\\CODE\\CFGCN\\apps\\xiyou\\godot\\audio\\native-v4\\effect-piece-place.res",
+        "sourceSha256": "8b33bc3cc7bc8eb5a47e108817df988923bc47be1efd5b6940d6e7a8af09fc1a",
+        "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v1\\resources\\piece-place.res",
+        "method": "exact-native-resource"
+      }
+    },
+    {
+      "id": "victory",
+      "kind": "effect",
+      "source": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v1\\resources\\victory.res",
+      "sourceSha256": "dfc01881dcd42eebfb7086523624ed7caab3c9d431c6623c99aecf0fbd81a2d4",
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\victory.res",
+      "method": "exact-native-resource",
+      "originalInput": {
+        "id": "victory",
+        "kind": "effect",
+        "source": "G:\\CODE\\CFGCN\\apps\\xiyou\\godot\\audio\\native-v4\\effect-victory.res",
+        "sourceSha256": "dfc01881dcd42eebfb7086523624ed7caab3c9d431c6623c99aecf0fbd81a2d4",
+        "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v1\\resources\\victory.res",
+        "method": "exact-native-resource"
+      }
+    },
+    {
+      "id": "warning",
+      "kind": "effect",
+      "source": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v1\\resources\\warning.res",
+      "sourceSha256": "6e48640884ae96fe16a15ad83870cda61528374267981de75a68c979b15ad7df",
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\warning.res",
+      "method": "exact-native-resource",
+      "originalInput": {
+        "id": "warning",
+        "kind": "effect",
+        "source": "G:\\CODE\\CFGCN\\apps\\xiyou\\godot\\audio\\native-v4\\effect-warning.res",
+        "sourceSha256": "6e48640884ae96fe16a15ad83870cda61528374267981de75a68c979b15ad7df",
+        "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v1\\resources\\warning.res",
+        "method": "exact-native-resource"
+      }
+    },
+    {
+      "id": "water-spell",
+      "kind": "effect",
+      "source": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v1\\resources\\water-spell.res",
+      "sourceSha256": "0e0c53f83002b8a5caca32cbd3b9e810b0541fa545a740223cac1029bd047be7",
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\water-spell.res",
+      "method": "exact-native-resource",
+      "originalInput": {
+        "id": "water-spell",
+        "kind": "effect",
+        "source": "G:\\CODE\\CFGCN\\apps\\xiyou\\godot\\audio\\native-v4\\effect-water-spell.res",
+        "sourceSha256": "0e0c53f83002b8a5caca32cbd3b9e810b0541fa545a740223cac1029bd047be7",
+        "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v1\\resources\\water-spell.res",
+        "method": "exact-native-resource"
+      }
+    },
+    {
+      "id": "weapon-whoosh",
+      "kind": "effect",
+      "source": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v1\\resources\\weapon-whoosh.res",
+      "sourceSha256": "ad6c3895d0438334381be2ff9fd1139ffe29cdbfa81e6170a7c8367988dd7e0d",
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\weapon-whoosh.res",
+      "method": "exact-native-resource",
+      "originalInput": {
+        "id": "weapon-whoosh",
+        "kind": "effect",
+        "source": "G:\\CODE\\CFGCN\\apps\\xiyou\\godot\\audio\\native-v4\\effect-weapon-whoosh.res",
+        "sourceSha256": "ad6c3895d0438334381be2ff9fd1139ffe29cdbfa81e6170a7c8367988dd7e0d",
+        "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v1\\resources\\weapon-whoosh.res",
+        "method": "exact-native-resource"
+      }
+    },
+    {
+      "id": "wood-impact",
+      "kind": "effect",
+      "source": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v1\\resources\\wood-impact.res",
+      "sourceSha256": "d8afcef68210860ca5b096f27c79c098bc3c5ade0a785d70b1e3f28a81c39159",
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\wood-impact.res",
+      "method": "exact-native-resource",
+      "originalInput": {
+        "id": "wood-impact",
+        "kind": "effect",
+        "source": "G:\\CODE\\CFGCN\\apps\\xiyou\\godot\\audio\\native-v4\\effect-wood-impact.res",
+        "sourceSha256": "d8afcef68210860ca5b096f27c79c098bc3c5ade0a785d70b1e3f28a81c39159",
+        "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v1\\resources\\wood-impact.res",
+        "method": "exact-native-resource"
+      }
+    },
+    {
+      "id": "wukong-skill-01",
+      "kind": "voice",
+      "source": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2-r1\\runtime\\wukong-skill-01-callout.wav",
+      "sourceSha256": "b46ba18486070aa6776cd1a92be5075c8929e6fd84065aeb44f78a84f1cb736e",
+      "pcmSha256": "d1baaf2d8e68c966b4f7e50c981534bc44cfecee672ba580cfdd2535cfc12499",
+      "frames": 72960,
+      "loopBegin": 0,
+      "loopEnd": 72960,
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2-r1\\resources\\wukong-skill-01.res",
+      "method": "wav-native-resource",
+      "originalSource": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2-r1\\callout\\wukong-source.mp3",
+      "originalSha256": "66d7a0e1d0fe64985d1c7d60c4bdac11711a8bc188f42f3fd0c713215f778ff7"
+    },
+    {
+      "id": "tangseng-skill-01",
+      "kind": "voice",
+      "source": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\runtime\\tangseng-skill-01.wav",
+      "sourceSha256": "945e90717e7d5e72a534aaf525d0528caacaa7752eb552cc53ac6e5245cb35ff",
+      "pcmSha256": "a7d5c2890e058ede1113f6a42acd4ad506997176ca766487680b03e728a4d605",
+      "frames": 86400,
+      "loopBegin": 0,
+      "loopEnd": 86400,
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\tangseng-skill-01.res",
+      "method": "wav-native-resource",
+      "originalSource": "G:\\CODE\\CFGCN\\apps\\website\\public\\audio\\shadow-voice-v47\\tangseng-skill-01.mp3",
+      "originalSha256": "073dd66607051b512ec792fb63292dd881dffc69211991f98977d766e647aae6"
+    },
+    {
+      "id": "bajie-skill-01",
+      "kind": "voice",
+      "source": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\runtime\\bajie-skill-01.wav",
+      "sourceSha256": "a1c9a97413f2dae31ac462e54c0c1e3868fea7bfdc32851939f7320dc5922058",
+      "pcmSha256": "7641282af5557419cb3d995f78f74dfce64aa67836f74173014090c04f394c95",
+      "frames": 114000,
+      "loopBegin": 0,
+      "loopEnd": 114000,
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\bajie-skill-01.res",
+      "method": "wav-native-resource",
+      "originalSource": "G:\\CODE\\CFGCN\\apps\\website\\public\\audio\\shadow-voice-v47\\bajie-skill-01.mp3",
+      "originalSha256": "6aa43ae9037540a8ec2490e29754050d59241d7ffaf86a43dc5c1919083594a0"
+    },
+    {
+      "id": "shaseng-skill-01",
+      "kind": "voice",
+      "source": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\runtime\\shaseng-skill-01.wav",
+      "sourceSha256": "966219f7d2c83e9c13176feadd166f9fec4e7d93540367661b10e48600830e4f",
+      "pcmSha256": "d074dda94d135fb712ecb1f762b077f1bc267b74066aa15be4b6ef1f5c14fab4",
+      "frames": 35520,
+      "loopBegin": 0,
+      "loopEnd": 35520,
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\shaseng-skill-01.res",
+      "method": "wav-native-resource",
+      "originalSource": "G:\\CODE\\CFGCN\\apps\\website\\public\\audio\\shadow-voice-v47\\shaseng-skill-01.mp3",
+      "originalSha256": "40c1d03daae424a24b088aa33df1aeacad619f98aa071dc9b91e36853d5fdd42"
+    },
+    {
+      "id": "xiaobailong-skill-01",
+      "kind": "voice",
+      "source": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\runtime\\xiaobailong-skill-01.wav",
+      "sourceSha256": "808db5b41483c2de5a648e7e5af7f3ef8d85ccf2c11c16522e2ba34786a89b53",
+      "pcmSha256": "3a1c1d5b2bdaabbcb1591aa1808972358a28ffa3ea5f83dd450fa59cdd40c54b",
+      "frames": 53520,
+      "loopBegin": 0,
+      "loopEnd": 53520,
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\xiaobailong-skill-01.res",
+      "method": "wav-native-resource",
+      "originalSource": "G:\\CODE\\CFGCN\\apps\\website\\public\\audio\\shadow-voice-v47\\xiaobailong-skill-01.mp3",
+      "originalSha256": "de3868c6807f2490b2f78ab40b79d0956c8c3635564b73504a01201586b3c980"
+    },
+    {
+      "id": "tangseng-ultimate-01",
+      "kind": "voice",
+      "source": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\runtime\\tangseng-ultimate-01.wav",
+      "sourceSha256": "649dc6f1bb0d13081741f67dbd6c5ba1c69b8b8df55162d5c4a04132a1d12b39",
+      "pcmSha256": "c8dc7449b12903eb408a0daaf034590672fb7d48015916a78662bce685905fbd",
+      "frames": 111360,
+      "loopBegin": 0,
+      "loopEnd": 111360,
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\tangseng-ultimate-01.res",
+      "method": "wav-native-resource",
+      "originalSource": "G:\\CODE\\CFGCN\\apps\\website\\public\\audio\\shadow-voice-v47\\tangseng-ultimate-01.mp3",
+      "originalSha256": "c562ae3c63aa658e6464f42cd9023329364e6b4038efa4f1cedb04e7b8b557ff"
+    },
+    {
+      "id": "wukong-ultimate-01",
+      "kind": "voice",
+      "source": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\runtime\\wukong-ultimate-01.wav",
+      "sourceSha256": "3e4c7a7d32ecedcea79865ebe94949ff8801551cb67c80bc6592046a111f279a",
+      "pcmSha256": "c38f03d682050f1abd5517ad881f2de67025a0877a66c0d3e74e6a19d996771e",
+      "frames": 28800,
+      "loopBegin": 0,
+      "loopEnd": 28800,
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\wukong-ultimate-01.res",
+      "method": "wav-native-resource",
+      "originalSource": "G:\\CODE\\CFGCN\\apps\\website\\public\\audio\\shadow-voice-v47\\wukong-ultimate-01.mp3",
+      "originalSha256": "6af7242420ab3112d68c08fc9a50b96adb255f86be709eeac16bd4f2ab97394f"
+    },
+    {
+      "id": "bajie-ultimate-01",
+      "kind": "voice",
+      "source": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\runtime\\bajie-ultimate-01.wav",
+      "sourceSha256": "1c6179dc3b90fbcc3bee126c63e0cbe58d81f31260bcb9c3a1dc609b5071c463",
+      "pcmSha256": "f5bfa35552551f1b3e5633fbe764fc49f62757e09d179531612fb47a8bf77a33",
+      "frames": 102961,
+      "loopBegin": 0,
+      "loopEnd": 102961,
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\bajie-ultimate-01.res",
+      "method": "wav-native-resource",
+      "originalSource": "G:\\CODE\\CFGCN\\apps\\website\\public\\audio\\shadow-voice-v47\\bajie-ultimate-01.mp3",
+      "originalSha256": "195daf092f55f184d98f925dfc2a9c8749771e0cf2514e14ad425c45ae432f66"
+    },
+    {
+      "id": "shaseng-ultimate-01",
+      "kind": "voice",
+      "source": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\runtime\\shaseng-ultimate-01.wav",
+      "sourceSha256": "3654aa46ce86756ac8dcbd6111eedec7c2d7fc1f9d3d1d1d74c350a494aa92af",
+      "pcmSha256": "25b71541bcc440fcebaa3726ea6fffee98bba797e313c4d71c63f15529cfd2b3",
+      "frames": 107520,
+      "loopBegin": 0,
+      "loopEnd": 107520,
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\shaseng-ultimate-01.res",
+      "method": "wav-native-resource",
+      "originalSource": "G:\\CODE\\CFGCN\\apps\\website\\public\\audio\\shadow-voice-v47\\shaseng-ultimate-01.mp3",
+      "originalSha256": "8720ca90890801340126a9bd262277c3f9c051abeab7f5da4c9dbd8b05522cec"
+    },
+    {
+      "id": "xiaobailong-ultimate-01",
+      "kind": "voice",
+      "source": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\runtime\\xiaobailong-ultimate-01.wav",
+      "sourceSha256": "bc265ce8fedab94442e2daa8195e5dababcf85a4d46efd690a679344ad9cfde4",
+      "pcmSha256": "efeffd2d07bebb88e324fdafa9b46d0c1808a6e8ae55209496d4c59aeb3a625f",
+      "frames": 65280,
+      "loopBegin": 0,
+      "loopEnd": 65280,
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\xiaobailong-ultimate-01.res",
+      "method": "wav-native-resource",
+      "originalSource": "G:\\CODE\\CFGCN\\apps\\website\\public\\audio\\shadow-voice-v47\\xiaobailong-ultimate-01.mp3",
+      "originalSha256": "e8ec4fc50fcb6c5e0329471e7ebc2dfc8d95344b650aeef4d48f6e380ccbb84b"
+    },
+    {
+      "id": "monk-chime",
+      "kind": "skill-effect",
+      "source": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\runtime\\monk-chime.wav",
+      "sourceSha256": "8522361fa4281def09f8522198b829809e2e7301df7999d29604c39fc2679779",
+      "pcmSha256": "4c035c549695be010ae0018f895d063e7d086851b46019606b197e756dc385e6",
+      "frames": 35281,
+      "loopBegin": 0,
+      "loopEnd": 35281,
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\monk-chime.res",
+      "method": "wav-native-resource",
+      "originalSource": "G:\\CODE\\CFGCN\\apps\\website\\public\\audio\\shadow-voice-v47\\monk-chime.mp3",
+      "originalSha256": "b2ffee0396943be3b555a187fabd98eea0a7671681a0d3142d8cf180e8904193"
+    },
+    {
+      "id": "staff-sweep",
+      "kind": "skill-effect",
+      "source": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v1\\resources\\staff-sweep.res",
+      "sourceSha256": "8c31facdd7021c7d87863b774eec5015e7fb1589cd753c8c42dc1d0c4447dbbd",
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\staff-sweep.res",
+      "method": "exact-native-resource",
+      "originalInput": {
+        "id": "staff-sweep",
+        "kind": "skill-effect",
+        "source": "G:\\CODE\\CFGCN\\apps\\xiyou\\godot\\audio\\native-v4\\skill-effect-staff-sweep.res",
+        "sourceSha256": "8c31facdd7021c7d87863b774eec5015e7fb1589cd753c8c42dc1d0c4447dbbd",
+        "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v1\\resources\\staff-sweep.res",
+        "method": "exact-native-resource"
+      }
+    },
+    {
+      "id": "rake-drag",
+      "kind": "skill-effect",
+      "source": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\runtime\\rake-drag.wav",
+      "sourceSha256": "539fe42369f772f969844a2c8ba30c812d38208f6e4649176ddf2da2fdade771",
+      "pcmSha256": "1cfa1b2708d64ac1d1327697003d140853a7716e700ca6494f391929e96f3017",
+      "frames": 44881,
+      "loopBegin": 0,
+      "loopEnd": 44881,
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\rake-drag.res",
+      "method": "wav-native-resource",
+      "originalSource": "G:\\CODE\\CFGCN\\apps\\website\\public\\audio\\shadow-voice-v47\\rake-drag.mp3",
+      "originalSha256": "f913a6e94a7b03deee5c6acba43d0deeb7fbbd2a9eb75e181b8add846615996a"
+    },
+    {
+      "id": "sand-spade",
+      "kind": "skill-effect",
+      "source": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\runtime\\sand-spade.wav",
+      "sourceSha256": "8d511c8208191ab379194f18cae08550c6535d717df770ebe901057c4e0d7d95",
+      "pcmSha256": "231da4074fd2b6bd2c855357e9f12ff26553492bfff7871e57c7f6b1db15e314",
+      "frames": 68881,
+      "loopBegin": 0,
+      "loopEnd": 68881,
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\sand-spade.res",
+      "method": "wav-native-resource",
+      "originalSource": "G:\\CODE\\CFGCN\\apps\\website\\public\\audio\\shadow-voice-v47\\sand-spade.mp3",
+      "originalSha256": "2f8e9a7ecfbaabe7f2d19a6b024ca17c37db56cbf648600f718d0cd7443587d3"
+    },
+    {
+      "id": "ui-confirm",
+      "kind": "effect",
+      "source": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v1\\resources\\ui-confirm.res",
+      "sourceSha256": "731343ecf884b59d928387e72d1d25b256ce6a986459cc920001d76fcf2b3f6a",
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\ui-confirm.res",
+      "method": "exact-native-resource",
+      "originalInput": {
+        "id": "ui-confirm",
+        "kind": "effect",
+        "source": "G:\\CODE\\CFGCN\\apps\\website\\public\\audio\\ink-v1\\ui-confirm-a5200a9b881c.mp3",
+        "sourceSha256": "a5200a9b881cd45fc3d11b8f598a925716a94577a951f22caf58b96c1cb3069e",
+        "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v1\\resources\\ui-confirm.res",
+        "method": "exact-mp3-data"
+      }
+    },
+    {
+      "id": "ui-cancel",
+      "kind": "effect",
+      "source": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v1\\resources\\ui-cancel.res",
+      "sourceSha256": "08238691cc45c2a00c5becbc0c9c0aad64235511b32091eed5853cbd9cb36a0f",
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\ui-cancel.res",
+      "method": "exact-native-resource",
+      "originalInput": {
+        "id": "ui-cancel",
+        "kind": "effect",
+        "source": "G:\\CODE\\CFGCN\\apps\\website\\public\\audio\\ink-v1\\ui-cancel-4827de53d699.mp3",
+        "sourceSha256": "4827de53d699ad384404f78f5d212627cd19cd681b526e8b66fda35a67fe6693",
+        "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v1\\resources\\ui-cancel.res",
+        "method": "exact-mp3-data"
+      }
+    }
+  ],
+  "actorAssets": [
+    {
+      "id": "wukong-skill-01",
+      "kind": "voice",
+      "actor": 1.0,
+      "skills": [
+        0,
+        3,
+        4,
+        9
+      ],
+      "ultimate": false,
+      "text": "吃俺老孙一棒！",
+      "calloutSource": "source/audio/godot-b-v2-r1/callout/wukong-source.mp3"
+    },
+    {
+      "id": "tangseng-skill-01",
+      "kind": "voice",
+      "actor": 0.0,
+      "skills": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "ultimate": false,
+      "text": "定心，护持。"
+    },
+    {
+      "id": "bajie-skill-01",
+      "kind": "voice",
+      "actor": 2.0,
+      "skills": [
+        0,
+        1,
+        3,
+        4,
+        9
+      ],
+      "ultimate": false,
+      "text": "吃俺一耙！"
+    },
+    {
+      "id": "shaseng-skill-01",
+      "kind": "voice",
+      "actor": 3.0,
+      "skills": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11
+      ],
+      "ultimate": false,
+      "text": "镇！"
+    },
+    {
+      "id": "xiaobailong-skill-01",
+      "kind": "voice",
+      "actor": 4.0,
+      "skills": [
+        0,
+        1,
+        3,
+        4,
+        6,
+        8
+      ],
+      "ultimate": false,
+      "text": "破浪！"
+    },
+    {
+      "id": "tangseng-ultimate-01",
+      "kind": "voice",
+      "actor": 0.0,
+      "skills": [
+        11
+      ],
+      "ultimate": true,
+      "text": "护佑众生！"
+    },
+    {
+      "id": "wukong-ultimate-01",
+      "kind": "voice",
+      "actor": 1.0,
+      "skills": [
+        5
+      ],
+      "ultimate": true,
+      "text": "镇！"
+    },
+    {
+      "id": "bajie-ultimate-01",
+      "kind": "voice",
+      "actor": 2.0,
+      "skills": [
+        11
+      ],
+      "ultimate": true,
+      "text": "天蓬，破阵！"
+    },
+    {
+      "id": "shaseng-ultimate-01",
+      "kind": "voice",
+      "actor": 3.0,
+      "skills": [
+        8
+      ],
+      "ultimate": true,
+      "text": "流沙，覆海！"
+    },
+    {
+      "id": "xiaobailong-ultimate-01",
+      "kind": "voice",
+      "actor": 4.0,
+      "skills": [
+        11
+      ],
+      "ultimate": true,
+      "text": "白龙，破浪！"
+    },
+    {
+      "id": "monk-chime",
+      "kind": "skill-effect",
+      "actor": 0.0,
+      "skills": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0
+      ],
+      "ultimate": false
+    },
+    {
+      "id": "staff-sweep",
+      "kind": "skill-effect",
+      "actor": 1.0,
+      "skills": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0
+      ],
+      "ultimate": false
+    },
+    {
+      "id": "rake-drag",
+      "kind": "skill-effect",
+      "actor": 2.0,
+      "skills": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0
+      ],
+      "ultimate": false
+    },
+    {
+      "id": "sand-spade",
+      "kind": "skill-effect",
+      "actor": 3.0,
+      "skills": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0
+      ],
+      "ultimate": false
+    },
+    {
+      "id": "water-jian",
+      "kind": "skill-effect",
+      "actor": 4.0,
+      "skills": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0
+      ],
+      "ultimate": false
+    }
+  ],
+  "speechPolicy": {
+    "actor_gap_seconds": 10.0,
+    "global_gap_seconds": 6.0,
+    "max_new_cast_age_seconds": 0.24,
+    "maximum_simultaneous_speakers": 1.0,
+    "repeat_clip_gap_seconds": 20.0
+  },
+  "before": [
+    {
+      "path": "apps/xiyou/godot/project.godot",
+      "sha256": "065dc37176faffd30ba22b1aeeb99aab8de553f40dd5b3c0bd5619b29ebd0830",
+      "bytes": 893
+    },
+    {
+      "path": "apps/xiyou/godot/scripts/game_audio.gd",
+      "sha256": "9a1a21cab347bab0f397bae4d02fc94092eea98f5c42073d995e97698caf97ea",
+      "bytes": 1884
+    },
+    {
+      "path": "apps/shuihu/godot/project.godot",
+      "sha256": "337a0e467b8451bb6dc37b982cd599cea3e7096a53259fb61ebbff2d5b3541d2",
+      "bytes": 849
+    }
+  ],
+  "mixPolicy": {
+    "version": "B2.1",
+    "voice_gain": 0.9,
+    "skill_voice_duck": 0.56,
+    "contact_voice_duck": 0.72,
+    "critical_voice_duck": 0.48,
+    "skill_global_gap": 0.12,
+    "contact_global_gap": 0.075,
+    "release_once_per_token": true
+  },
+  "calloutRevision": "wukong-俺-not-我-20261024",
+  "baseDelivery": {
+    "path": "source/audio/godot-b-v2/delivery.json",
+    "sha256": "db0df9c93af440a0a08d3ed52ccf3d2da03c64a95b155b7279fdf7badd215673"
+  },
+  "b2FamilyCredits": 2
+}

@@ -1,0 +1,15 @@
+{
+  "exactWords": "吃俺老孙一棒！",
+  "requiredPronoun": "俺",
+  "avoidMishearing": "我",
+  "actorSelfReference": "Wukong uses 俺 / 俺老孙; do not mechanically rewrite other characters’ pronouns.",
+  "baseEligibilityReview": "source/audio/godot-b-v2/callout-review.json",
+  "skillIndices": [
+    0,
+    3,
+    4,
+    9
+  ],
+  "humanListeningApproval": false,
+  "scope": "One diction candidate replaces the earlier easily misheard delivery; no UI skill renaming or gameplay change."
+}

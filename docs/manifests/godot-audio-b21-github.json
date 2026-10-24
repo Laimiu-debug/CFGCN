@@ -1,0 +1,1301 @@
+{
+  "schemaVersion": 1,
+  "version": "audio-b21-github-scope-20261024",
+  "asOf": "2026-10-24T14:10:53.195324+08:00",
+  "requestedTargetBranch": "feat/xiyou-rust-prototype",
+  "sourceDelivery": {
+    "path": "source/audio/godot-b-v2-r1/delivery.json",
+    "sha256": "f222e4c49b931648b871f7016a9a20478693b350eea42479de9804b1583c00af"
+  },
+  "hashBasis": "SHA256 of raw working-tree bytes, not Git object IDs. Recheck exact listed files immediately before staging.",
+  "includeThisManifest": true,
+  "thisManifestPath": "docs/manifests/godot-audio-b21-github.json",
+  "fileCountExcludingSelf": 117,
+  "bytesExcludingSelf": 4460522,
+  "categoryCounts": {
+    "audio-documentation": 3,
+    "canonical-audio-source": 7,
+    "ab-review-source-or-test": 14,
+    "generator-or-audio-test": 31,
+    "source-provenance-config": 5,
+    "frozen-audio-code": 16,
+    "small-native-sound": 36,
+    "byte-preservation-git-config": 5
+  },
+  "files": [
+    {
+      "path": "docs/.gitattributes",
+      "category": "byte-preservation-git-config",
+      "sha256": "86fb280423b5b9991e7754409683faf3eb4e350ca3b498d7f8b541c583a9c2b1",
+      "bytes": 205
+    },
+    {
+      "path": "docs/godot-audio-events-first-route.md",
+      "category": "audio-documentation",
+      "bytes": 3469,
+      "sha256": "6fee685314d2946a4631057dcbc5015bc5f14256ab97eda78e6e162f3f9f2561"
+    },
+    {
+      "path": "docs/godot-audio-windows-b2.md",
+      "category": "audio-documentation",
+      "bytes": 20062,
+      "sha256": "d8bffe58faebecfbcc26c43eb0d3c7ad5b37641c22bf1d451ebdb7e11a81295c"
+    },
+    {
+      "path": "docs/godot-b-audio.md",
+      "category": "audio-documentation",
+      "bytes": 10818,
+      "sha256": "e3620872317f07546a357e1773c98cdfe5379a9dc0e3e230447bbe48fcb20dfe"
+    },
+    {
+      "path": "packages/godot-game-audio/.gitattributes",
+      "category": "byte-preservation-git-config",
+      "sha256": "d9b38d558e233efb6240f9a6079827ef188656a4010998e00f9d22506ee07cba",
+      "bytes": 83
+    },
+    {
+      "path": "packages/godot-game-audio/README.md",
+      "category": "canonical-audio-source",
+      "bytes": 3580,
+      "sha256": "106a9e2283a806c4b4a5d5c738aec81634d67a86badcfd71bf350e841b89a1dd"
+    },
+    {
+      "path": "packages/godot-game-audio/current.json",
+      "category": "canonical-audio-source",
+      "bytes": 255,
+      "sha256": "8db8aa08f326f6d796ae1cfe0532918e196333d2293dd0fa4654e774f92a7790"
+    },
+    {
+      "path": "packages/godot-game-audio/host.gd",
+      "category": "canonical-audio-source",
+      "bytes": 6534,
+      "sha256": "259af7865780ad28d46f59b031f6712fe589f27e5c7b4d0c18c4f1270227b4a2"
+    },
+    {
+      "path": "packages/godot-game-audio/mixer.gd",
+      "category": "canonical-audio-source",
+      "bytes": 9643,
+      "sha256": "5af0eb900c4ad5b489a8df2d692a4660538b0aa96762f49e4498f2ecde8b5f3d"
+    },
+    {
+      "path": "packages/godot-game-audio/shuihu_director.gd",
+      "category": "canonical-audio-source",
+      "bytes": 4179,
+      "sha256": "c23d720fa249d05c74e9ad223ec7137e343dfc781f462ecac69931f702640bc2"
+    },
+    {
+      "path": "packages/godot-game-audio/xiyou_bridge.gd",
+      "category": "canonical-audio-source",
+      "bytes": 1884,
+      "sha256": "9a1a21cab347bab0f397bae4d02fc94092eea98f5c42073d995e97698caf97ea"
+    },
+    {
+      "path": "packages/godot-game-audio/xiyou_director.gd",
+      "category": "canonical-audio-source",
+      "bytes": 7636,
+      "sha256": "af83934935b564a1194ff463220bce3958d3775c7f6c7743a43e259c2bfc6a74"
+    },
+    {
+      "path": "scripts/audio-desktop-ab/.gitattributes",
+      "category": "byte-preservation-git-config",
+      "sha256": "408d73a3def826aff3e8fce071a2d143df700b047042b16423ea148d9695ae69",
+      "bytes": 82
+    },
+    {
+      "path": "scripts/audio-desktop-ab/capture.gd",
+      "category": "ab-review-source-or-test",
+      "bytes": 9018,
+      "sha256": "8a7afb756a0277149f59d826c265da447e45c676ed8b7ae9d103f482138e5189"
+    },
+    {
+      "path": "scripts/audio-desktop-ab/export.py",
+      "category": "ab-review-source-or-test",
+      "bytes": 6827,
+      "sha256": "7cb57c69084e8b8805c32a959c545e5f7082f9ccaae316a4863b18c2cc71cd18"
+    },
+    {
+      "path": "scripts/audio-desktop-ab/loop-check.gd",
+      "category": "ab-review-source-or-test",
+      "bytes": 2567,
+      "sha256": "75e031c0205e82b475f7dcb949b75eb5eab1aa38440e4c110ce7db779089a830"
+    },
+    {
+      "path": "scripts/audio-desktop-ab/mixer.gd",
+      "category": "ab-review-source-or-test",
+      "bytes": 13879,
+      "sha256": "69a00aa970c7988070f37c4b0066fbe3e99dcf7f87f80e976a48f783a62f2f91"
+    },
+    {
+      "path": "scripts/audio-desktop-ab/prepare.py",
+      "category": "ab-review-source-or-test",
+      "bytes": 5389,
+      "sha256": "97c936756f2d855abd8d2e2b298b81441fd78c2fa6333254cad1a53143412ca6"
+    },
+    {
+      "path": "scripts/audio-desktop-ab/probe.gd",
+      "category": "ab-review-source-or-test",
+      "bytes": 881,
+      "sha256": "d9c72e0012065198df461fb2d730911a407f20ed6157cd34776037fe8827a214"
+    },
+    {
+      "path": "scripts/audio-desktop-ab/review/index.html",
+      "category": "ab-review-source-or-test",
+      "bytes": 276,
+      "sha256": "5d41bc2f2682f3d487668c73a8060c966a61e83111c0fe7e4c0cfbcc066ef03d"
+    },
+    {
+      "path": "scripts/audio-desktop-ab/review/main.tsx",
+      "category": "ab-review-source-or-test",
+      "bytes": 12951,
+      "sha256": "396fc22ca6e5e41776e257bea3e1f377069dffd77957c9974ce3e78390ad21f2"
+    },
+    {
+      "path": "scripts/audio-desktop-ab/review/style.css",
+      "category": "ab-review-source-or-test",
+      "bytes": 6203,
+      "sha256": "d04638e08db4bfa0ed41f8bde6d1d5b3c753f9db6f9db48ddfd6b93973365b05"
+    },
+    {
+      "path": "scripts/audio-desktop-ab/review/vite.config.ts",
+      "category": "ab-review-source-or-test",
+      "bytes": 403,
+      "sha256": "d263c773afc8c6e8b6fbfbf5955c0ad2ddc5494def911c2ad94475707f5aa49b"
+    },
+    {
+      "path": "scripts/audio-desktop-ab/run.py",
+      "category": "ab-review-source-or-test",
+      "bytes": 2322,
+      "sha256": "b3f4dbd49f1803c51213284d28d749ea915d6b56fe07d036908e6120c2205b10"
+    },
+    {
+      "path": "scripts/audio-desktop-ab/serve.py",
+      "category": "ab-review-source-or-test",
+      "bytes": 2720,
+      "sha256": "828e80e8bb14edd9ac1c1ce9bc98fb6d0384b68698333cc0a6c3eb33ffea92b4"
+    },
+    {
+      "path": "scripts/audio-desktop-ab/snapshot.py",
+      "category": "ab-review-source-or-test",
+      "bytes": 2396,
+      "sha256": "a82e36e55e74320761bef3ff54549bc29c740a5f1b80cf7627316de654162d19"
+    },
+    {
+      "path": "scripts/audio-desktop-ab/verify.py",
+      "category": "ab-review-source-or-test",
+      "bytes": 3202,
+      "sha256": "192d0354d82d1b32f5ecb4fd0f2332dca2cae17ea8d32cd0769c221512d28dff"
+    },
+    {
+      "path": "scripts/audio-desktop-adopt/.gitattributes",
+      "category": "byte-preservation-git-config",
+      "sha256": "2e3a69d9879994cf30f3ffe3740e2db5b6a365ca3236dbdc571495f0b026986a",
+      "bytes": 85
+    },
+    {
+      "path": "scripts/audio-desktop-adopt/accept_package_audio.py",
+      "category": "generator-or-audio-test",
+      "bytes": 5346,
+      "sha256": "52fd8e695a1fee066b576a18af19894aa4799d437583b391d05ad92a76a97019"
+    },
+    {
+      "path": "scripts/audio-desktop-adopt/archive_package_loop.py",
+      "category": "generator-or-audio-test",
+      "bytes": 4239,
+      "sha256": "50a0a7d460455f23218b272fec800662c1e5f92766b22e2912e62fb41def88f9"
+    },
+    {
+      "path": "scripts/audio-desktop-adopt/assetprobe.gd",
+      "category": "generator-or-audio-test",
+      "bytes": 1229,
+      "sha256": "1522a60143a5c245d6de8fb40544d62033a46480fbdb435bbc48357cedd3bc80"
+    },
+    {
+      "path": "scripts/audio-desktop-adopt/audit_voice_b2.py",
+      "category": "generator-or-audio-test",
+      "bytes": 2948,
+      "sha256": "5ae9a809c7ce9d8bb9b51f770829968709cd5428e33601f412b740852e93d831"
+    },
+    {
+      "path": "scripts/audio-desktop-adopt/callout.gd",
+      "category": "generator-or-audio-test",
+      "bytes": 3151,
+      "sha256": "582d220e95294ee1d422ad8522e1525140b20548efbf3d0fd6df106e8b893f4b"
+    },
+    {
+      "path": "scripts/audio-desktop-adopt/callout_b2.py",
+      "category": "generator-or-audio-test",
+      "bytes": 5272,
+      "sha256": "426fc547fa97bf4599ea233b7731560b4bed4dc5e827315b14acfec8c20f1900"
+    },
+    {
+      "path": "scripts/audio-desktop-adopt/campnav.gd",
+      "category": "generator-or-audio-test",
+      "bytes": 1367,
+      "sha256": "22adc99c670199190a9e2834d2cd6a270f021f8eb8c7d6b5b67745f6cceb1a1e"
+    },
+    {
+      "path": "scripts/audio-desktop-adopt/clarity.gd",
+      "category": "generator-or-audio-test",
+      "bytes": 5527,
+      "sha256": "18488c7a3f32bd8f4fba634d2e241503bb3e67d047a3ed70976c14bad66ff11e"
+    },
+    {
+      "path": "scripts/audio-desktop-adopt/cold.gd",
+      "category": "generator-or-audio-test",
+      "bytes": 2379,
+      "sha256": "056a9c80c467fa5f726bfcda8ebc911240938ba3023c49231673a9aad02ae50e"
+    },
+    {
+      "path": "scripts/audio-desktop-adopt/exit.py",
+      "category": "generator-or-audio-test",
+      "bytes": 3057,
+      "sha256": "b4224d25c572f35b242a606dbf6fbca667c9464cfec695767b11b9db02cb133e"
+    },
+    {
+      "path": "scripts/audio-desktop-adopt/export.py",
+      "category": "generator-or-audio-test",
+      "bytes": 5324,
+      "sha256": "b8e8acc3775c4d16cde5c2c2908e68bb053a159c4a5e3bcecf1c68ccb4b8a58d"
+    },
+    {
+      "path": "scripts/audio-desktop-adopt/export_package_movie.py",
+      "category": "generator-or-audio-test",
+      "bytes": 3019,
+      "sha256": "901d1ee914f023d5ebc07e0656dfaa42ba21738e442ac4a6296db59b60919cae"
+    },
+    {
+      "path": "scripts/audio-desktop-adopt/export_pair_b2.py",
+      "category": "generator-or-audio-test",
+      "bytes": 3656,
+      "sha256": "3a3861e0a9dfe943499378429f9f0dfc4c3f1edb2fdbe0074864a7587ede7902"
+    },
+    {
+      "path": "scripts/audio-desktop-adopt/freeze_b2.py",
+      "category": "generator-or-audio-test",
+      "bytes": 7899,
+      "sha256": "4854775e84c8cd036f2448cdd3201e497ded2d191c087555223fc577717aa7df"
+    },
+    {
+      "path": "scripts/audio-desktop-adopt/integration.gd",
+      "category": "generator-or-audio-test",
+      "bytes": 11577,
+      "sha256": "352eb21b4aa8bdafd2204e883676433c987295cb4b348ce4b39faaef166671ff"
+    },
+    {
+      "path": "scripts/audio-desktop-adopt/loop.gd",
+      "category": "generator-or-audio-test",
+      "bytes": 3285,
+      "sha256": "20bd938a32005316e480cb2f0755ada5882d228f4849eb39cb193301d90afc77"
+    },
+    {
+      "path": "scripts/audio-desktop-adopt/package_entry.gd",
+      "category": "generator-or-audio-test",
+      "bytes": 2123,
+      "sha256": "86e26cef45054af0b12a12718590913643dee9ace4c5581ba51bb10b090a6ebb"
+    },
+    {
+      "path": "scripts/audio-desktop-adopt/package_probe.gd",
+      "category": "generator-or-audio-test",
+      "bytes": 516,
+      "sha256": "8fe7413eac5c66159435f9a1664fde8b7ed5a7d925ad552b6a14d06a733a6f34"
+    },
+    {
+      "path": "scripts/audio-desktop-adopt/package_run.py",
+      "category": "generator-or-audio-test",
+      "bytes": 5222,
+      "sha256": "20f0c6dda06016a6b9cf870bc44f4a85ab2b65de59ab7ea30c801bcfe9a80652"
+    },
+    {
+      "path": "scripts/audio-desktop-adopt/play.py",
+      "category": "generator-or-audio-test",
+      "bytes": 1695,
+      "sha256": "4f048199ad915e00fa369080482ea8f8aa449759c53bef9a80fe2f59bc0bc0ea"
+    },
+    {
+      "path": "scripts/audio-desktop-adopt/prepare.gd",
+      "category": "generator-or-audio-test",
+      "bytes": 2101,
+      "sha256": "463868c9d7c4857a7586b3458f4b640ee4b55107080c3a56bc1bdb15ec68e477"
+    },
+    {
+      "path": "scripts/audio-desktop-adopt/prepare.py",
+      "category": "generator-or-audio-test",
+      "bytes": 2869,
+      "sha256": "f67e732c410bdc1941fdf5c7c20e520e88b82d3153d6f1a4e45cb8acaec1f0e2"
+    },
+    {
+      "path": "scripts/audio-desktop-adopt/prepare_b2.py",
+      "category": "generator-or-audio-test",
+      "bytes": 5126,
+      "sha256": "af5cbabb0ea674e6cae10d923e67e85b1ccd793801d1fc226444b1ae46d03f22"
+    },
+    {
+      "path": "scripts/audio-desktop-adopt/reference_b1.gd",
+      "category": "generator-or-audio-test",
+      "bytes": 7404,
+      "sha256": "fbadca46b777b12ac49a7bb7b7c2da8b896e786172d91f8e7718c3ffe151178d"
+    },
+    {
+      "path": "scripts/audio-desktop-adopt/revise_callout_b2.py",
+      "category": "generator-or-audio-test",
+      "bytes": 4523,
+      "sha256": "946bb9861680382dd8db895497c44c81d3c75a5cd2d0a320deb6bbf6db9247df"
+    },
+    {
+      "path": "scripts/audio-desktop-adopt/run.py",
+      "category": "generator-or-audio-test",
+      "bytes": 3041,
+      "sha256": "75307cbef0da89574e36ce4aa019cd646404c8a82bc18104eab87261899b5b50"
+    },
+    {
+      "path": "scripts/audio-desktop-adopt/skill_dump.gd",
+      "category": "generator-or-audio-test",
+      "bytes": 262,
+      "sha256": "2f258be72dcaad56a51dfaa120ecf5f772811c9530531a0c4d3b753627ffe643"
+    },
+    {
+      "path": "scripts/audio-desktop-adopt/smoke.gd",
+      "category": "generator-or-audio-test",
+      "bytes": 1806,
+      "sha256": "c997ca32cdf23512f8fb47d2426ec45dd7bb759be703eb57118a4f131a9c6d12"
+    },
+    {
+      "path": "scripts/audio-desktop-adopt/sync.py",
+      "category": "generator-or-audio-test",
+      "bytes": 4530,
+      "sha256": "6cda7aed1845abccc6486dd0dd98e3600ee54c155bc91aaddcf06119b2475f17"
+    },
+    {
+      "path": "scripts/audio-desktop-adopt/ui.gd",
+      "category": "generator-or-audio-test",
+      "bytes": 3042,
+      "sha256": "cd790eea8d95b950498d7afaa8e393166440df04b47eda31cee4e1d9b02189a0"
+    },
+    {
+      "path": "scripts/audio-desktop-adopt/verify.py",
+      "category": "generator-or-audio-test",
+      "bytes": 5796,
+      "sha256": "5ba7d58410056a302c79270d3c0549f03d6c09a27eeaf452f8b106274ac62496"
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/.gitattributes",
+      "category": "byte-preservation-git-config",
+      "sha256": "9e50dde55b9c4cdef3ce412c56f5115da3948ab499b61a352da051477450747c",
+      "bytes": 86
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/callout-review.json",
+      "category": "source-provenance-config",
+      "bytes": 512,
+      "sha256": "1a7fe5da606dc1c45743fd8bb823e45d58247ef3004a734f275b5b51bf657827"
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/delivery.json",
+      "category": "source-provenance-config",
+      "bytes": 31760,
+      "sha256": "f222e4c49b931648b871f7016a9a20478693b350eea42479de9804b1583c00af"
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/inputs.json",
+      "category": "source-provenance-config",
+      "bytes": 37066,
+      "sha256": "7d49feeb4040ad707e7a3d4b8ce37116570084e72765d92386116a816c8d3648"
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/mastering.json",
+      "category": "source-provenance-config",
+      "bytes": 724,
+      "sha256": "736b9aa61c45bccab0b557860fbd1d04aeb5561057cd9b79a5817d6d04199425"
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/prepared.json",
+      "category": "source-provenance-config",
+      "bytes": 10441,
+      "sha256": "a27e5e0046a9e20c98817bb53a5c0c428523b6d673ca901788fca40297c6ffc0"
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/runtime-package/common/host.gd",
+      "category": "frozen-audio-code",
+      "bytes": 6534,
+      "sha256": "259af7865780ad28d46f59b031f6712fe589f27e5c7b4d0c18c4f1270227b4a2"
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/runtime-package/common/mixer.gd",
+      "category": "frozen-audio-code",
+      "bytes": 9643,
+      "sha256": "5af0eb900c4ad5b489a8df2d692a4660538b0aa96762f49e4498f2ecde8b5f3d"
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/runtime-package/common/shuihu_director.gd",
+      "category": "frozen-audio-code",
+      "bytes": 4179,
+      "sha256": "c23d720fa249d05c74e9ad223ec7137e343dfc781f462ecac69931f702640bc2"
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/runtime-package/common/xiyou_bridge.gd",
+      "category": "frozen-audio-code",
+      "bytes": 1884,
+      "sha256": "9a1a21cab347bab0f397bae4d02fc94092eea98f5c42073d995e97698caf97ea"
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/runtime-package/common/xiyou_director.gd",
+      "category": "frozen-audio-code",
+      "bytes": 7636,
+      "sha256": "af83934935b564a1194ff463220bce3958d3775c7f6c7743a43e259c2bfc6a74"
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/runtime-package/shuihu/game_audio_b/host.gd",
+      "category": "frozen-audio-code",
+      "bytes": 6534,
+      "sha256": "259af7865780ad28d46f59b031f6712fe589f27e5c7b4d0c18c4f1270227b4a2"
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/runtime-package/shuihu/game_audio_b/library.gd",
+      "category": "frozen-audio-code",
+      "bytes": 7223,
+      "sha256": "6c81496274120b5f32cfe77825f13313fc0b2df017ebff9b8cff3d6e5f78b961"
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/runtime-package/shuihu/game_audio_b/mixer.gd",
+      "category": "frozen-audio-code",
+      "bytes": 9643,
+      "sha256": "5af0eb900c4ad5b489a8df2d692a4660538b0aa96762f49e4498f2ecde8b5f3d"
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/runtime-package/shuihu/game_audio_b/shuihu_director.gd",
+      "category": "frozen-audio-code",
+      "bytes": 4179,
+      "sha256": "c23d720fa249d05c74e9ad223ec7137e343dfc781f462ecac69931f702640bc2"
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/runtime-package/shuihu/game_audio_b/xiyou_director.gd",
+      "category": "frozen-audio-code",
+      "bytes": 7636,
+      "sha256": "af83934935b564a1194ff463220bce3958d3775c7f6c7743a43e259c2bfc6a74"
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/bajie-skill-01-9463a99400f2.res",
+      "category": "small-native-sound",
+      "bytes": 304243,
+      "sha256": "9463a99400f26bb59e7f8c1296f640e5b15a8006c01ecc1522ba56c05f494d61"
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/bajie-ultimate-01-a19aea9be8d5.res",
+      "category": "small-native-sound",
+      "bytes": 314024,
+      "sha256": "a19aea9be8d56ca33148195c7c23d5fd2527ea145ec9bc0afd1c909962776c78"
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/blade-armor.res",
+      "category": "small-native-sound",
+      "bytes": 176416,
+      "sha256": "7e04493246ea3df39ee6540fc48efa77aeb72accbe2e00f67d74cf203bb74727"
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/bow-release.res",
+      "category": "small-native-sound",
+      "bytes": 97867,
+      "sha256": "1dd5451a5234837a08d09484ee719d545f53db6495a61afd921cdd326e6cf78a"
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/danger-wood.res",
+      "category": "small-native-sound",
+      "bytes": 120451,
+      "sha256": "219c0df169c17d7ca8108dddf27ba85d94afcf81bca3b06ec3fc7b7102312846"
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/defeat.res",
+      "category": "small-native-sound",
+      "bytes": 69946,
+      "sha256": "ad6eef1897890a3e68762ce7691af01d009047a92503e7366b1040e03a751ade"
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/footstep-earth.res",
+      "category": "small-native-sound",
+      "bytes": 10772,
+      "sha256": "149839903e578c441f81d9ca183b02ac62692b557d111605841c15d86cd2c0e1"
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/footstep-stone.res",
+      "category": "small-native-sound",
+      "bytes": 9820,
+      "sha256": "ee405ec8dab6db58fae7d67a6632b13cd7d947a7b2f81dacffeb339afc04250d"
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/ink-spell.res",
+      "category": "small-native-sound",
+      "bytes": 34502,
+      "sha256": "094fd29e9d8e045c94f223c95e6b278baeb25685c75461f02cabfeb3984819da"
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/metal-impact.res",
+      "category": "small-native-sound",
+      "bytes": 27203,
+      "sha256": "6f70fd4ac863049b517c885abc548aa95c5dcec433f58ee37f003a0c333d4265"
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/monk-chime-494f91bf7ff7.res",
+      "category": "small-native-sound",
+      "bytes": 120070,
+      "sha256": "494f91bf7ff7bc0beb6c05cfb8f4ef328d94f5c00ec04fd6642b2218277155b6"
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/pickup.res",
+      "category": "small-native-sound",
+      "bytes": 27927,
+      "sha256": "ceedad46422fde379291f71a0de99e8bca167e7ada6ad9d4b62f6d0d87421c7f"
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/piece-place.res",
+      "category": "small-native-sound",
+      "bytes": 11569,
+      "sha256": "8b33bc3cc7bc8eb5a47e108817df988923bc47be1efd5b6940d6e7a8af09fc1a"
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/rake-drag-190ce34fcc42.res",
+      "category": "small-native-sound",
+      "bytes": 110199,
+      "sha256": "190ce34fcc4298414b8d9f8533995c9524cbbe85745082e2bd164c211875d7a2"
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/sand-spade-33dedef6b2bd.res",
+      "category": "small-native-sound",
+      "bytes": 213544,
+      "sha256": "33dedef6b2bd17a19615458d145ee527b09e81d8e458d992f73e881745c6ca5b"
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/shaseng-skill-01-2be452ee14fe.res",
+      "category": "small-native-sound",
+      "bytes": 108817,
+      "sha256": "2be452ee14fea79df469d8cc6f6b3323ae7878f8ffc4bb55fe442754a25ebfe5"
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/shaseng-ultimate-01-ab789edb4e27.res",
+      "category": "small-native-sound",
+      "bytes": 359488,
+      "sha256": "ab789edb4e27b3caec79f93e2c2d8312f6780d6a8d30acf06e446d859412e065"
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/shield-block.res",
+      "category": "small-native-sound",
+      "bytes": 189769,
+      "sha256": "ca3563169283faba14587ac5511a82049cef81d9bb221ee5885ac371bf961921"
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/staff-air.res",
+      "category": "small-native-sound",
+      "bytes": 75212,
+      "sha256": "fadeb8fa82e3d48260410e38d86a189b6fc2c23d17583e0475322ced3d946403"
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/staff-body.res",
+      "category": "small-native-sound",
+      "bytes": 98931,
+      "sha256": "4fa61a4cbb013b6a33439476a01acfe5f69ca7b01d2dd479402d9cb3d0b0ae0e"
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/staff-sweep.res",
+      "category": "small-native-sound",
+      "bytes": 6757,
+      "sha256": "8c31facdd7021c7d87863b774eec5015e7fb1589cd753c8c42dc1d0c4447dbbd"
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/tangseng-skill-01-512447219594.res",
+      "category": "small-native-sound",
+      "bytes": 234335,
+      "sha256": "512447219594f1dbce17c1ccb3657732fa00847516b881923d85733211fb8c24"
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/tangseng-ultimate-01-b9035ace4d07.res",
+      "category": "small-native-sound",
+      "bytes": 164217,
+      "sha256": "b9035ace4d074943185e153480c07787355e410592cf7e41178d847a3c7c81c3"
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/ui-cancel.res",
+      "category": "small-native-sound",
+      "bytes": 9580,
+      "sha256": "08238691cc45c2a00c5becbc0c9c0aad64235511b32091eed5853cbd9cb36a0f"
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/ui-confirm.res",
+      "category": "small-native-sound",
+      "bytes": 15215,
+      "sha256": "731343ecf884b59d928387e72d1d25b256ce6a986459cc920001d76fcf2b3f6a"
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/victory.res",
+      "category": "small-native-sound",
+      "bytes": 68314,
+      "sha256": "dfc01881dcd42eebfb7086523624ed7caab3c9d431c6623c99aecf0fbd81a2d4"
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/warning.res",
+      "category": "small-native-sound",
+      "bytes": 27437,
+      "sha256": "6e48640884ae96fe16a15ad83870cda61528374267981de75a68c979b15ad7df"
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/water-jian.res",
+      "category": "small-native-sound",
+      "bytes": 177305,
+      "sha256": "1baf5479fcc4aa74704d413aebf80532e31509c6d326a5cba17cce5af8295bce"
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/water-spell.res",
+      "category": "small-native-sound",
+      "bytes": 32530,
+      "sha256": "0e0c53f83002b8a5caca32cbd3b9e810b0541fa545a740223cac1029bd047be7"
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/weapon-whoosh.res",
+      "category": "small-native-sound",
+      "bytes": 15795,
+      "sha256": "ad6c3895d0438334381be2ff9fd1139ffe29cdbfa81e6170a7c8367988dd7e0d"
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/wood-impact.res",
+      "category": "small-native-sound",
+      "bytes": 17719,
+      "sha256": "d8afcef68210860ca5b096f27c79c098bc3c5ade0a785d70b1e3f28a81c39159"
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/wound-cloth.res",
+      "category": "small-native-sound",
+      "bytes": 81637,
+      "sha256": "63f8810b4fbc08e4f1e7172d4a22f627030008b4e34d931ec2be4d2168c3f073"
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/wukong-skill-01-1b3d1daa7c19.res",
+      "category": "small-native-sound",
+      "bytes": 271923,
+      "sha256": "1b3d1daa7c19f6d85bd56010077359a1603c8e2ed3f4c53f9a5c598bc1e9cc67"
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/wukong-ultimate-01-d4ef055e4f4a.res",
+      "category": "small-native-sound",
+      "bytes": 83665,
+      "sha256": "d4ef055e4f4af97b8ab75190ae01bd2f922045c184a122b07fd017427aab6548"
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/xiaobailong-skill-01-14c2a6c0d124.res",
+      "category": "small-native-sound",
+      "bytes": 124871,
+      "sha256": "14c2a6c0d124ceb497dd845aa69533104c141f382a2220eb2864e38505603824"
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/xiaobailong-ultimate-01-7f4572643f1e.res",
+      "category": "small-native-sound",
+      "bytes": 200943,
+      "sha256": "7f4572643f1e96757e290c2d2247ba6a950bbcff0164539fadffe8f7c9df6c9c"
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/host.gd",
+      "category": "frozen-audio-code",
+      "bytes": 6534,
+      "sha256": "259af7865780ad28d46f59b031f6712fe589f27e5c7b4d0c18c4f1270227b4a2"
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/library.gd",
+      "category": "frozen-audio-code",
+      "bytes": 15073,
+      "sha256": "28f118e6258a11835a4cd6b2ecd4dce12cb076dfbaf21eb7bc5cb731fcfb1357"
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/mixer.gd",
+      "category": "frozen-audio-code",
+      "bytes": 9643,
+      "sha256": "5af0eb900c4ad5b489a8df2d692a4660538b0aa96762f49e4498f2ecde8b5f3d"
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/shuihu_director.gd",
+      "category": "frozen-audio-code",
+      "bytes": 4179,
+      "sha256": "c23d720fa249d05c74e9ad223ec7137e343dfc781f462ecac69931f702640bc2"
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/xiyou_director.gd",
+      "category": "frozen-audio-code",
+      "bytes": 7636,
+      "sha256": "af83934935b564a1194ff463220bce3958d3775c7f6c7743a43e259c2bfc6a74"
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/runtime-package/xiyou/scripts/game_audio.gd",
+      "category": "frozen-audio-code",
+      "bytes": 1884,
+      "sha256": "9a1a21cab347bab0f397bae4d02fc94092eea98f5c42073d995e97698caf97ea"
+    }
+  ],
+  "liveFrozenAudit": {
+    "common": [
+      {
+        "path": "packages/godot-game-audio/mixer.gd",
+        "expectedSha256": "5af0eb900c4ad5b489a8df2d692a4660538b0aa96762f49e4498f2ecde8b5f3d",
+        "liveMatches": true,
+        "frozenMatches": true
+      },
+      {
+        "path": "packages/godot-game-audio/host.gd",
+        "expectedSha256": "259af7865780ad28d46f59b031f6712fe589f27e5c7b4d0c18c4f1270227b4a2",
+        "liveMatches": true,
+        "frozenMatches": true
+      },
+      {
+        "path": "packages/godot-game-audio/xiyou_director.gd",
+        "expectedSha256": "af83934935b564a1194ff463220bce3958d3775c7f6c7743a43e259c2bfc6a74",
+        "liveMatches": true,
+        "frozenMatches": true
+      },
+      {
+        "path": "packages/godot-game-audio/shuihu_director.gd",
+        "expectedSha256": "c23d720fa249d05c74e9ad223ec7137e343dfc781f462ecac69931f702640bc2",
+        "liveMatches": true,
+        "frozenMatches": true
+      },
+      {
+        "path": "packages/godot-game-audio/xiyou_bridge.gd",
+        "expectedSha256": "9a1a21cab347bab0f397bae4d02fc94092eea98f5c42073d995e97698caf97ea",
+        "liveMatches": true,
+        "frozenMatches": true
+      }
+    ],
+    "games": [
+      {
+        "game": "xiyou",
+        "verifiedRuntimeFiles": 43,
+        "allMatch": true,
+        "files": [
+          {
+            "path": "apps/xiyou/godot/game_audio_b/assets/music-xiyou.res",
+            "expectedSha256": "f72d5e13d166e669de25513da3630ccb2f696c3102486c48575fe9ccfcdef11d",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/xiyou/godot/game_audio_b/assets/staff-air.res",
+            "expectedSha256": "fadeb8fa82e3d48260410e38d86a189b6fc2c23d17583e0475322ced3d946403",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/xiyou/godot/game_audio_b/assets/staff-body.res",
+            "expectedSha256": "4fa61a4cbb013b6a33439476a01acfe5f69ca7b01d2dd479402d9cb3d0b0ae0e",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/xiyou/godot/game_audio_b/assets/blade-armor.res",
+            "expectedSha256": "7e04493246ea3df39ee6540fc48efa77aeb72accbe2e00f67d74cf203bb74727",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/xiyou/godot/game_audio_b/assets/shield-block.res",
+            "expectedSha256": "ca3563169283faba14587ac5511a82049cef81d9bb221ee5885ac371bf961921",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/xiyou/godot/game_audio_b/assets/water-jian.res",
+            "expectedSha256": "1baf5479fcc4aa74704d413aebf80532e31509c6d326a5cba17cce5af8295bce",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/xiyou/godot/game_audio_b/assets/bow-release.res",
+            "expectedSha256": "1dd5451a5234837a08d09484ee719d545f53db6495a61afd921cdd326e6cf78a",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/xiyou/godot/game_audio_b/assets/danger-wood.res",
+            "expectedSha256": "219c0df169c17d7ca8108dddf27ba85d94afcf81bca3b06ec3fc7b7102312846",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/xiyou/godot/game_audio_b/assets/wound-cloth.res",
+            "expectedSha256": "63f8810b4fbc08e4f1e7172d4a22f627030008b4e34d931ec2be4d2168c3f073",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/xiyou/godot/game_audio_b/assets/defeat.res",
+            "expectedSha256": "ad6eef1897890a3e68762ce7691af01d009047a92503e7366b1040e03a751ade",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/xiyou/godot/game_audio_b/assets/footstep-earth.res",
+            "expectedSha256": "149839903e578c441f81d9ca183b02ac62692b557d111605841c15d86cd2c0e1",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/xiyou/godot/game_audio_b/assets/footstep-stone.res",
+            "expectedSha256": "ee405ec8dab6db58fae7d67a6632b13cd7d947a7b2f81dacffeb339afc04250d",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/xiyou/godot/game_audio_b/assets/ink-spell.res",
+            "expectedSha256": "094fd29e9d8e045c94f223c95e6b278baeb25685c75461f02cabfeb3984819da",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/xiyou/godot/game_audio_b/assets/metal-impact.res",
+            "expectedSha256": "6f70fd4ac863049b517c885abc548aa95c5dcec433f58ee37f003a0c333d4265",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/xiyou/godot/game_audio_b/assets/pickup.res",
+            "expectedSha256": "ceedad46422fde379291f71a0de99e8bca167e7ada6ad9d4b62f6d0d87421c7f",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/xiyou/godot/game_audio_b/assets/piece-place.res",
+            "expectedSha256": "8b33bc3cc7bc8eb5a47e108817df988923bc47be1efd5b6940d6e7a8af09fc1a",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/xiyou/godot/game_audio_b/assets/victory.res",
+            "expectedSha256": "dfc01881dcd42eebfb7086523624ed7caab3c9d431c6623c99aecf0fbd81a2d4",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/xiyou/godot/game_audio_b/assets/warning.res",
+            "expectedSha256": "6e48640884ae96fe16a15ad83870cda61528374267981de75a68c979b15ad7df",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/xiyou/godot/game_audio_b/assets/water-spell.res",
+            "expectedSha256": "0e0c53f83002b8a5caca32cbd3b9e810b0541fa545a740223cac1029bd047be7",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/xiyou/godot/game_audio_b/assets/weapon-whoosh.res",
+            "expectedSha256": "ad6c3895d0438334381be2ff9fd1139ffe29cdbfa81e6170a7c8367988dd7e0d",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/xiyou/godot/game_audio_b/assets/wood-impact.res",
+            "expectedSha256": "d8afcef68210860ca5b096f27c79c098bc3c5ade0a785d70b1e3f28a81c39159",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/xiyou/godot/game_audio_b/assets/wukong-skill-01-1b3d1daa7c19.res",
+            "expectedSha256": "1b3d1daa7c19f6d85bd56010077359a1603c8e2ed3f4c53f9a5c598bc1e9cc67",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/xiyou/godot/game_audio_b/assets/tangseng-skill-01-512447219594.res",
+            "expectedSha256": "512447219594f1dbce17c1ccb3657732fa00847516b881923d85733211fb8c24",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/xiyou/godot/game_audio_b/assets/bajie-skill-01-9463a99400f2.res",
+            "expectedSha256": "9463a99400f26bb59e7f8c1296f640e5b15a8006c01ecc1522ba56c05f494d61",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/xiyou/godot/game_audio_b/assets/shaseng-skill-01-2be452ee14fe.res",
+            "expectedSha256": "2be452ee14fea79df469d8cc6f6b3323ae7878f8ffc4bb55fe442754a25ebfe5",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/xiyou/godot/game_audio_b/assets/xiaobailong-skill-01-14c2a6c0d124.res",
+            "expectedSha256": "14c2a6c0d124ceb497dd845aa69533104c141f382a2220eb2864e38505603824",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/xiyou/godot/game_audio_b/assets/tangseng-ultimate-01-b9035ace4d07.res",
+            "expectedSha256": "b9035ace4d074943185e153480c07787355e410592cf7e41178d847a3c7c81c3",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/xiyou/godot/game_audio_b/assets/wukong-ultimate-01-d4ef055e4f4a.res",
+            "expectedSha256": "d4ef055e4f4af97b8ab75190ae01bd2f922045c184a122b07fd017427aab6548",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/xiyou/godot/game_audio_b/assets/bajie-ultimate-01-a19aea9be8d5.res",
+            "expectedSha256": "a19aea9be8d56ca33148195c7c23d5fd2527ea145ec9bc0afd1c909962776c78",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/xiyou/godot/game_audio_b/assets/shaseng-ultimate-01-ab789edb4e27.res",
+            "expectedSha256": "ab789edb4e27b3caec79f93e2c2d8312f6780d6a8d30acf06e446d859412e065",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/xiyou/godot/game_audio_b/assets/xiaobailong-ultimate-01-7f4572643f1e.res",
+            "expectedSha256": "7f4572643f1e96757e290c2d2247ba6a950bbcff0164539fadffe8f7c9df6c9c",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/xiyou/godot/game_audio_b/assets/monk-chime-494f91bf7ff7.res",
+            "expectedSha256": "494f91bf7ff7bc0beb6c05cfb8f4ef328d94f5c00ec04fd6642b2218277155b6",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/xiyou/godot/game_audio_b/assets/staff-sweep.res",
+            "expectedSha256": "8c31facdd7021c7d87863b774eec5015e7fb1589cd753c8c42dc1d0c4447dbbd",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/xiyou/godot/game_audio_b/assets/rake-drag-190ce34fcc42.res",
+            "expectedSha256": "190ce34fcc4298414b8d9f8533995c9524cbbe85745082e2bd164c211875d7a2",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/xiyou/godot/game_audio_b/assets/sand-spade-33dedef6b2bd.res",
+            "expectedSha256": "33dedef6b2bd17a19615458d145ee527b09e81d8e458d992f73e881745c6ca5b",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/xiyou/godot/game_audio_b/assets/ui-confirm.res",
+            "expectedSha256": "731343ecf884b59d928387e72d1d25b256ce6a986459cc920001d76fcf2b3f6a",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/xiyou/godot/game_audio_b/assets/ui-cancel.res",
+            "expectedSha256": "08238691cc45c2a00c5becbc0c9c0aad64235511b32091eed5853cbd9cb36a0f",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/xiyou/godot/game_audio_b/host.gd",
+            "expectedSha256": "259af7865780ad28d46f59b031f6712fe589f27e5c7b4d0c18c4f1270227b4a2",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/xiyou/godot/game_audio_b/library.gd",
+            "expectedSha256": "28f118e6258a11835a4cd6b2ecd4dce12cb076dfbaf21eb7bc5cb731fcfb1357",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/xiyou/godot/game_audio_b/mixer.gd",
+            "expectedSha256": "5af0eb900c4ad5b489a8df2d692a4660538b0aa96762f49e4498f2ecde8b5f3d",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/xiyou/godot/game_audio_b/shuihu_director.gd",
+            "expectedSha256": "c23d720fa249d05c74e9ad223ec7137e343dfc781f462ecac69931f702640bc2",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/xiyou/godot/game_audio_b/xiyou_director.gd",
+            "expectedSha256": "af83934935b564a1194ff463220bce3958d3775c7f6c7743a43e259c2bfc6a74",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/xiyou/godot/scripts/game_audio.gd",
+            "expectedSha256": "9a1a21cab347bab0f397bae4d02fc94092eea98f5c42073d995e97698caf97ea",
+            "liveMatches": true,
+            "frozenMatches": true
+          }
+        ]
+      },
+      {
+        "game": "shuihu",
+        "verifiedRuntimeFiles": 28,
+        "allMatch": true,
+        "files": [
+          {
+            "path": "apps/shuihu/godot/game_audio_b/assets/music-shuihu.res",
+            "expectedSha256": "0a96f622fbea894b2e0540612c6f15e15cfa32b16c0599fdff04fa0904e5a62b",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/shuihu/godot/game_audio_b/assets/staff-air.res",
+            "expectedSha256": "fadeb8fa82e3d48260410e38d86a189b6fc2c23d17583e0475322ced3d946403",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/shuihu/godot/game_audio_b/assets/staff-body.res",
+            "expectedSha256": "4fa61a4cbb013b6a33439476a01acfe5f69ca7b01d2dd479402d9cb3d0b0ae0e",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/shuihu/godot/game_audio_b/assets/blade-armor.res",
+            "expectedSha256": "7e04493246ea3df39ee6540fc48efa77aeb72accbe2e00f67d74cf203bb74727",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/shuihu/godot/game_audio_b/assets/shield-block.res",
+            "expectedSha256": "ca3563169283faba14587ac5511a82049cef81d9bb221ee5885ac371bf961921",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/shuihu/godot/game_audio_b/assets/water-jian.res",
+            "expectedSha256": "1baf5479fcc4aa74704d413aebf80532e31509c6d326a5cba17cce5af8295bce",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/shuihu/godot/game_audio_b/assets/bow-release.res",
+            "expectedSha256": "1dd5451a5234837a08d09484ee719d545f53db6495a61afd921cdd326e6cf78a",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/shuihu/godot/game_audio_b/assets/danger-wood.res",
+            "expectedSha256": "219c0df169c17d7ca8108dddf27ba85d94afcf81bca3b06ec3fc7b7102312846",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/shuihu/godot/game_audio_b/assets/wound-cloth.res",
+            "expectedSha256": "63f8810b4fbc08e4f1e7172d4a22f627030008b4e34d931ec2be4d2168c3f073",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/shuihu/godot/game_audio_b/assets/defeat.res",
+            "expectedSha256": "ad6eef1897890a3e68762ce7691af01d009047a92503e7366b1040e03a751ade",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/shuihu/godot/game_audio_b/assets/footstep-earth.res",
+            "expectedSha256": "149839903e578c441f81d9ca183b02ac62692b557d111605841c15d86cd2c0e1",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/shuihu/godot/game_audio_b/assets/footstep-stone.res",
+            "expectedSha256": "ee405ec8dab6db58fae7d67a6632b13cd7d947a7b2f81dacffeb339afc04250d",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/shuihu/godot/game_audio_b/assets/ink-spell.res",
+            "expectedSha256": "094fd29e9d8e045c94f223c95e6b278baeb25685c75461f02cabfeb3984819da",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/shuihu/godot/game_audio_b/assets/metal-impact.res",
+            "expectedSha256": "6f70fd4ac863049b517c885abc548aa95c5dcec433f58ee37f003a0c333d4265",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/shuihu/godot/game_audio_b/assets/pickup.res",
+            "expectedSha256": "ceedad46422fde379291f71a0de99e8bca167e7ada6ad9d4b62f6d0d87421c7f",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/shuihu/godot/game_audio_b/assets/piece-place.res",
+            "expectedSha256": "8b33bc3cc7bc8eb5a47e108817df988923bc47be1efd5b6940d6e7a8af09fc1a",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/shuihu/godot/game_audio_b/assets/victory.res",
+            "expectedSha256": "dfc01881dcd42eebfb7086523624ed7caab3c9d431c6623c99aecf0fbd81a2d4",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/shuihu/godot/game_audio_b/assets/warning.res",
+            "expectedSha256": "6e48640884ae96fe16a15ad83870cda61528374267981de75a68c979b15ad7df",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/shuihu/godot/game_audio_b/assets/water-spell.res",
+            "expectedSha256": "0e0c53f83002b8a5caca32cbd3b9e810b0541fa545a740223cac1029bd047be7",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/shuihu/godot/game_audio_b/assets/weapon-whoosh.res",
+            "expectedSha256": "ad6c3895d0438334381be2ff9fd1139ffe29cdbfa81e6170a7c8367988dd7e0d",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/shuihu/godot/game_audio_b/assets/wood-impact.res",
+            "expectedSha256": "d8afcef68210860ca5b096f27c79c098bc3c5ade0a785d70b1e3f28a81c39159",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/shuihu/godot/game_audio_b/assets/ui-confirm.res",
+            "expectedSha256": "731343ecf884b59d928387e72d1d25b256ce6a986459cc920001d76fcf2b3f6a",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/shuihu/godot/game_audio_b/assets/ui-cancel.res",
+            "expectedSha256": "08238691cc45c2a00c5becbc0c9c0aad64235511b32091eed5853cbd9cb36a0f",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/shuihu/godot/game_audio_b/host.gd",
+            "expectedSha256": "259af7865780ad28d46f59b031f6712fe589f27e5c7b4d0c18c4f1270227b4a2",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/shuihu/godot/game_audio_b/library.gd",
+            "expectedSha256": "6c81496274120b5f32cfe77825f13313fc0b2df017ebff9b8cff3d6e5f78b961",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/shuihu/godot/game_audio_b/mixer.gd",
+            "expectedSha256": "5af0eb900c4ad5b489a8df2d692a4660538b0aa96762f49e4498f2ecde8b5f3d",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/shuihu/godot/game_audio_b/shuihu_director.gd",
+            "expectedSha256": "c23d720fa249d05c74e9ad223ec7137e343dfc781f462ecac69931f702640bc2",
+            "liveMatches": true,
+            "frozenMatches": true
+          },
+          {
+            "path": "apps/shuihu/godot/game_audio_b/xiyou_director.gd",
+            "expectedSha256": "af83934935b564a1194ff463220bce3958d3775c7f6c7743a43e259c2bfc6a74",
+            "liveMatches": true,
+            "frozenMatches": true
+          }
+        ]
+      }
+    ],
+    "matchesFrozenRuntime": true,
+    "unlistedLiveFilesApproved": false,
+    "note": "Only named runtime files were compared. Live Xiyou also contains 15 old unused sound files and 5 generated UID sidecars; Shuihu has 5 UID sidecars. Do not stage generated app audio directories wholesale."
+  },
+  "largeAssetsExcluded": [
+    {
+      "path": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/music-xiyou.res",
+      "bytes": 30039055,
+      "sha256": "f72d5e13d166e669de25513da3630ccb2f696c3102486c48575fe9ccfcdef11d",
+      "id": "music-xiyou"
+    },
+    {
+      "path": "source/audio/godot-b-v2-r1/runtime-package/shuihu/game_audio_b/assets/music-shuihu.res",
+      "bytes": 27713451,
+      "sha256": "0a96f622fbea894b2e0540612c6f15e15cfa32b16c0599fdff04fa0904e5a62b",
+      "id": "music-shuihu"
+    }
+  ],
+  "excluded": [
+    ".local/**",
+    "Windows EXE/PCK/DLL/ZIP, recordings, screenshots, cache, player or QA save payloads, credentials, signed URLs and raw private process receipts",
+    "source/audio/godot-b-v2-r1/callout/**, runtime/** and resources/** duplicate/process inputs",
+    "generated apps/xiyou/godot/game_audio_b/** and apps/shuihu/godot/game_audio_b/**; main owners stage their project integration separately",
+    "scripts/audio-desktop-adopt/initialprobe.gd (ad hoc revised exit path not rerun)",
+    "scripts/audio-desktop-adopt/cleanup.py, archive_cleanup_b2.py, archive_cleanup_packages.py and scripts/audio-desktop-ab/cleanup.py (workstation cleanup operations)",
+    "unreviewed new Boss audio events and future candidate packages; no source change is requested for this handoff"
+  ],
+  "dependencies": {
+    "runtime": [
+      "Godot 4.7.2",
+      "Both actual main projects, their rule bridge/core and the shared desktop shell",
+      "Complete external music/input bank named by delivery SHA; two large native music resources intentionally not in this whitelist"
+    ],
+    "python": [
+      "Python 3.13.15 used locally",
+      "NumPy",
+      "imageio-ffmpeg / FFmpeg",
+      "Workstation Godot path and local tool path in existing scripts must be configured elsewhere"
+    ],
+    "reviewFrontend": [
+      "Existing workspace React and ReactDOM",
+      "Vite 8.3.4, @vitejs/plugin-react 6.1.2",
+      "@cfgcn/ui, Noto Serif SC and Noto Sans SC",
+      "Node >=22.12.0 according to current root package.json"
+    ],
+    "notCleanCloneCiReady": [
+      "sync.py reads excluded .local/qa before.json and existing source bank",
+      "Historical source checks refer to excluded local QA fixtures; do not commit player save payloads to satisfy them",
+      "Large assets, native DLL and full main project dependencies require their owners separate distribution/build handoff"
+    ]
+  },
+  "existingValidation": [
+    {
+      "game": "xiyou",
+      "version": "0.1.11.0",
+      "checks": 28,
+      "processes": 4,
+      "localReport": ".local/qa/godot-audio-b-v2/packages/xiyou/v12-b21-ui21-r2/audio-acceptance.json",
+      "reportSha256": "492f2639ed19a9a462eb6aa43464e103cd5a057f7921ad6eaaaeb54cfa3b6cb0",
+      "scope": "Audio only; referenced report and media stay outside Git. Not complete game or website acceptance."
+    },
+    {
+      "game": "shuihu",
+      "version": "0.0.12-preview.3",
+      "checks": 25,
+      "processes": 4,
+      "localReport": ".local/qa/godot-audio-b-v2/packages/shuihu/preview012-b21-r3/audio-acceptance.json",
+      "reportSha256": "94626b05a197cb972b2c25d35a159849f62025dcd7d77027efa7413e2bd8b369",
+      "scope": "Audio only; referenced report and media stay outside Git. Not complete game or website acceptance."
+    }
+  ],
+  "auditPerformedNow": [
+    "Read-only SHA comparison against immutable runtime delivery",
+    "Static scan of selected text for embedded private-key/JWT/signed URL/assigned secret literals; zero matching literals",
+    "No game QA rerun, model/audio generation, package export or paid call",
+    "Git clean-filter comparison for every listed file and manifest, after adding scoped -text rules; no root Git policy or runtime code changed."
+  ],
+  "publicationStatus": "Prepared whitelist only; not committed, pushed or deployed by the audio owner.",
+  "gitNormalization": {
+    "rootAttributesUnchanged": true,
+    "initialTextFilterDifferences": 20,
+    "requiredScopedAttributes": [
+      "packages/godot-game-audio/.gitattributes",
+      "scripts/audio-desktop-adopt/.gitattributes",
+      "scripts/audio-desktop-ab/.gitattributes",
+      "source/audio/godot-b-v2-r1/.gitattributes",
+      "docs/.gitattributes"
+    ],
+    "purpose": "Preserve immutable delivery JSON/GDScript and current raw-byte snapshot hashes across staging and checkout; include these exact five scoped configs in the same commit.",
+    "finalAllListedFilesPreserved": true
+  },
+  "gitIndexRefsOrRemoteModifiedByAudioOwner": false,
+  "workingTreeEditsForThisHandoff": [
+    "Five scoped .gitattributes files",
+    "Audio documentation",
+    "This explicit whitelist"
+  ]
+}

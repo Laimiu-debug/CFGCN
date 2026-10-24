@@ -1,0 +1,661 @@
+{
+  "version": "B2.1",
+  "passed": true,
+  "date": "2026-10-24T04:17:32.758478+00:00",
+  "acceptanceScope": "Audio source handoff only; not independent Windows EXE/ZIP acceptance or public website publication.",
+  "windowsPackageAcceptance": false,
+  "websitePublication": false,
+  "incrementalRunwayCalls": 1,
+  "incrementalRunwayCredits": 1,
+  "b2FamilyCredits": 2,
+  "baseDelivery": {
+    "path": "source/audio/godot-b-v2/delivery.json",
+    "sha256": "db0df9c93af440a0a08d3ed52ccf3d2da03c64a95b155b7279fdf7badd215673"
+  },
+  "priorMaterialBatchCredits": 27,
+  "sourcePackage": "packages/godot-game-audio",
+  "common": [
+    {
+      "path": "packages/godot-game-audio/mixer.gd",
+      "frozen": "source/audio/godot-b-v2-r1/runtime-package/common/mixer.gd",
+      "sha256": "5af0eb900c4ad5b489a8df2d692a4660538b0aa96762f49e4498f2ecde8b5f3d",
+      "bytes": 9643
+    },
+    {
+      "path": "packages/godot-game-audio/host.gd",
+      "frozen": "source/audio/godot-b-v2-r1/runtime-package/common/host.gd",
+      "sha256": "259af7865780ad28d46f59b031f6712fe589f27e5c7b4d0c18c4f1270227b4a2",
+      "bytes": 6534
+    },
+    {
+      "path": "packages/godot-game-audio/xiyou_director.gd",
+      "frozen": "source/audio/godot-b-v2-r1/runtime-package/common/xiyou_director.gd",
+      "sha256": "af83934935b564a1194ff463220bce3958d3775c7f6c7743a43e259c2bfc6a74",
+      "bytes": 7636
+    },
+    {
+      "path": "packages/godot-game-audio/shuihu_director.gd",
+      "frozen": "source/audio/godot-b-v2-r1/runtime-package/common/shuihu_director.gd",
+      "sha256": "c23d720fa249d05c74e9ad223ec7137e343dfc781f462ecac69931f702640bc2",
+      "bytes": 4179
+    },
+    {
+      "path": "packages/godot-game-audio/xiyou_bridge.gd",
+      "frozen": "source/audio/godot-b-v2-r1/runtime-package/common/xiyou_bridge.gd",
+      "sha256": "9a1a21cab347bab0f397bae4d02fc94092eea98f5c42073d995e97698caf97ea",
+      "bytes": 1884
+    }
+  ],
+  "preparedResources": 38,
+  "games": [
+    {
+      "game": "xiyou",
+      "resources": 37,
+      "resourceBytes": 34052068,
+      "autoload": "CFGCNAudio=\"*res://game_audio_b/host.gd\"",
+      "runtimeFiles": [
+        {
+          "runtimePath": "res://game_audio_b/assets/music-xiyou.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/music-xiyou.res",
+          "sha256": "f72d5e13d166e669de25513da3630ccb2f696c3102486c48575fe9ccfcdef11d",
+          "bytes": 30039055,
+          "id": "music-xiyou"
+        },
+        {
+          "runtimePath": "res://game_audio_b/assets/staff-air.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/staff-air.res",
+          "sha256": "fadeb8fa82e3d48260410e38d86a189b6fc2c23d17583e0475322ced3d946403",
+          "bytes": 75212,
+          "id": "staff-air"
+        },
+        {
+          "runtimePath": "res://game_audio_b/assets/staff-body.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/staff-body.res",
+          "sha256": "4fa61a4cbb013b6a33439476a01acfe5f69ca7b01d2dd479402d9cb3d0b0ae0e",
+          "bytes": 98931,
+          "id": "staff-body"
+        },
+        {
+          "runtimePath": "res://game_audio_b/assets/blade-armor.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/blade-armor.res",
+          "sha256": "7e04493246ea3df39ee6540fc48efa77aeb72accbe2e00f67d74cf203bb74727",
+          "bytes": 176416,
+          "id": "blade-armor"
+        },
+        {
+          "runtimePath": "res://game_audio_b/assets/shield-block.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/shield-block.res",
+          "sha256": "ca3563169283faba14587ac5511a82049cef81d9bb221ee5885ac371bf961921",
+          "bytes": 189769,
+          "id": "shield-block"
+        },
+        {
+          "runtimePath": "res://game_audio_b/assets/water-jian.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/water-jian.res",
+          "sha256": "1baf5479fcc4aa74704d413aebf80532e31509c6d326a5cba17cce5af8295bce",
+          "bytes": 177305,
+          "id": "water-jian"
+        },
+        {
+          "runtimePath": "res://game_audio_b/assets/bow-release.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/bow-release.res",
+          "sha256": "1dd5451a5234837a08d09484ee719d545f53db6495a61afd921cdd326e6cf78a",
+          "bytes": 97867,
+          "id": "bow-release"
+        },
+        {
+          "runtimePath": "res://game_audio_b/assets/danger-wood.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/danger-wood.res",
+          "sha256": "219c0df169c17d7ca8108dddf27ba85d94afcf81bca3b06ec3fc7b7102312846",
+          "bytes": 120451,
+          "id": "danger-wood"
+        },
+        {
+          "runtimePath": "res://game_audio_b/assets/wound-cloth.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/wound-cloth.res",
+          "sha256": "63f8810b4fbc08e4f1e7172d4a22f627030008b4e34d931ec2be4d2168c3f073",
+          "bytes": 81637,
+          "id": "wound-cloth"
+        },
+        {
+          "runtimePath": "res://game_audio_b/assets/defeat.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/defeat.res",
+          "sha256": "ad6eef1897890a3e68762ce7691af01d009047a92503e7366b1040e03a751ade",
+          "bytes": 69946,
+          "id": "defeat"
+        },
+        {
+          "runtimePath": "res://game_audio_b/assets/footstep-earth.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/footstep-earth.res",
+          "sha256": "149839903e578c441f81d9ca183b02ac62692b557d111605841c15d86cd2c0e1",
+          "bytes": 10772,
+          "id": "footstep-earth"
+        },
+        {
+          "runtimePath": "res://game_audio_b/assets/footstep-stone.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/footstep-stone.res",
+          "sha256": "ee405ec8dab6db58fae7d67a6632b13cd7d947a7b2f81dacffeb339afc04250d",
+          "bytes": 9820,
+          "id": "footstep-stone"
+        },
+        {
+          "runtimePath": "res://game_audio_b/assets/ink-spell.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/ink-spell.res",
+          "sha256": "094fd29e9d8e045c94f223c95e6b278baeb25685c75461f02cabfeb3984819da",
+          "bytes": 34502,
+          "id": "ink-spell"
+        },
+        {
+          "runtimePath": "res://game_audio_b/assets/metal-impact.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/metal-impact.res",
+          "sha256": "6f70fd4ac863049b517c885abc548aa95c5dcec433f58ee37f003a0c333d4265",
+          "bytes": 27203,
+          "id": "metal-impact"
+        },
+        {
+          "runtimePath": "res://game_audio_b/assets/pickup.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/pickup.res",
+          "sha256": "ceedad46422fde379291f71a0de99e8bca167e7ada6ad9d4b62f6d0d87421c7f",
+          "bytes": 27927,
+          "id": "pickup"
+        },
+        {
+          "runtimePath": "res://game_audio_b/assets/piece-place.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/piece-place.res",
+          "sha256": "8b33bc3cc7bc8eb5a47e108817df988923bc47be1efd5b6940d6e7a8af09fc1a",
+          "bytes": 11569,
+          "id": "piece-place"
+        },
+        {
+          "runtimePath": "res://game_audio_b/assets/victory.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/victory.res",
+          "sha256": "dfc01881dcd42eebfb7086523624ed7caab3c9d431c6623c99aecf0fbd81a2d4",
+          "bytes": 68314,
+          "id": "victory"
+        },
+        {
+          "runtimePath": "res://game_audio_b/assets/warning.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/warning.res",
+          "sha256": "6e48640884ae96fe16a15ad83870cda61528374267981de75a68c979b15ad7df",
+          "bytes": 27437,
+          "id": "warning"
+        },
+        {
+          "runtimePath": "res://game_audio_b/assets/water-spell.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/water-spell.res",
+          "sha256": "0e0c53f83002b8a5caca32cbd3b9e810b0541fa545a740223cac1029bd047be7",
+          "bytes": 32530,
+          "id": "water-spell"
+        },
+        {
+          "runtimePath": "res://game_audio_b/assets/weapon-whoosh.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/weapon-whoosh.res",
+          "sha256": "ad6c3895d0438334381be2ff9fd1139ffe29cdbfa81e6170a7c8367988dd7e0d",
+          "bytes": 15795,
+          "id": "weapon-whoosh"
+        },
+        {
+          "runtimePath": "res://game_audio_b/assets/wood-impact.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/wood-impact.res",
+          "sha256": "d8afcef68210860ca5b096f27c79c098bc3c5ade0a785d70b1e3f28a81c39159",
+          "bytes": 17719,
+          "id": "wood-impact"
+        },
+        {
+          "runtimePath": "res://game_audio_b/assets/wukong-skill-01-1b3d1daa7c19.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/wukong-skill-01-1b3d1daa7c19.res",
+          "sha256": "1b3d1daa7c19f6d85bd56010077359a1603c8e2ed3f4c53f9a5c598bc1e9cc67",
+          "bytes": 271923,
+          "id": "wukong-skill-01"
+        },
+        {
+          "runtimePath": "res://game_audio_b/assets/tangseng-skill-01-512447219594.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/tangseng-skill-01-512447219594.res",
+          "sha256": "512447219594f1dbce17c1ccb3657732fa00847516b881923d85733211fb8c24",
+          "bytes": 234335,
+          "id": "tangseng-skill-01"
+        },
+        {
+          "runtimePath": "res://game_audio_b/assets/bajie-skill-01-9463a99400f2.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/bajie-skill-01-9463a99400f2.res",
+          "sha256": "9463a99400f26bb59e7f8c1296f640e5b15a8006c01ecc1522ba56c05f494d61",
+          "bytes": 304243,
+          "id": "bajie-skill-01"
+        },
+        {
+          "runtimePath": "res://game_audio_b/assets/shaseng-skill-01-2be452ee14fe.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/shaseng-skill-01-2be452ee14fe.res",
+          "sha256": "2be452ee14fea79df469d8cc6f6b3323ae7878f8ffc4bb55fe442754a25ebfe5",
+          "bytes": 108817,
+          "id": "shaseng-skill-01"
+        },
+        {
+          "runtimePath": "res://game_audio_b/assets/xiaobailong-skill-01-14c2a6c0d124.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/xiaobailong-skill-01-14c2a6c0d124.res",
+          "sha256": "14c2a6c0d124ceb497dd845aa69533104c141f382a2220eb2864e38505603824",
+          "bytes": 124871,
+          "id": "xiaobailong-skill-01"
+        },
+        {
+          "runtimePath": "res://game_audio_b/assets/tangseng-ultimate-01-b9035ace4d07.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/tangseng-ultimate-01-b9035ace4d07.res",
+          "sha256": "b9035ace4d074943185e153480c07787355e410592cf7e41178d847a3c7c81c3",
+          "bytes": 164217,
+          "id": "tangseng-ultimate-01"
+        },
+        {
+          "runtimePath": "res://game_audio_b/assets/wukong-ultimate-01-d4ef055e4f4a.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/wukong-ultimate-01-d4ef055e4f4a.res",
+          "sha256": "d4ef055e4f4af97b8ab75190ae01bd2f922045c184a122b07fd017427aab6548",
+          "bytes": 83665,
+          "id": "wukong-ultimate-01"
+        },
+        {
+          "runtimePath": "res://game_audio_b/assets/bajie-ultimate-01-a19aea9be8d5.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/bajie-ultimate-01-a19aea9be8d5.res",
+          "sha256": "a19aea9be8d56ca33148195c7c23d5fd2527ea145ec9bc0afd1c909962776c78",
+          "bytes": 314024,
+          "id": "bajie-ultimate-01"
+        },
+        {
+          "runtimePath": "res://game_audio_b/assets/shaseng-ultimate-01-ab789edb4e27.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/shaseng-ultimate-01-ab789edb4e27.res",
+          "sha256": "ab789edb4e27b3caec79f93e2c2d8312f6780d6a8d30acf06e446d859412e065",
+          "bytes": 359488,
+          "id": "shaseng-ultimate-01"
+        },
+        {
+          "runtimePath": "res://game_audio_b/assets/xiaobailong-ultimate-01-7f4572643f1e.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/xiaobailong-ultimate-01-7f4572643f1e.res",
+          "sha256": "7f4572643f1e96757e290c2d2247ba6a950bbcff0164539fadffe8f7c9df6c9c",
+          "bytes": 200943,
+          "id": "xiaobailong-ultimate-01"
+        },
+        {
+          "runtimePath": "res://game_audio_b/assets/monk-chime-494f91bf7ff7.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/monk-chime-494f91bf7ff7.res",
+          "sha256": "494f91bf7ff7bc0beb6c05cfb8f4ef328d94f5c00ec04fd6642b2218277155b6",
+          "bytes": 120070,
+          "id": "monk-chime"
+        },
+        {
+          "runtimePath": "res://game_audio_b/assets/staff-sweep.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/staff-sweep.res",
+          "sha256": "8c31facdd7021c7d87863b774eec5015e7fb1589cd753c8c42dc1d0c4447dbbd",
+          "bytes": 6757,
+          "id": "staff-sweep"
+        },
+        {
+          "runtimePath": "res://game_audio_b/assets/rake-drag-190ce34fcc42.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/rake-drag-190ce34fcc42.res",
+          "sha256": "190ce34fcc4298414b8d9f8533995c9524cbbe85745082e2bd164c211875d7a2",
+          "bytes": 110199,
+          "id": "rake-drag"
+        },
+        {
+          "runtimePath": "res://game_audio_b/assets/sand-spade-33dedef6b2bd.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/sand-spade-33dedef6b2bd.res",
+          "sha256": "33dedef6b2bd17a19615458d145ee527b09e81d8e458d992f73e881745c6ca5b",
+          "bytes": 213544,
+          "id": "sand-spade"
+        },
+        {
+          "runtimePath": "res://game_audio_b/assets/ui-confirm.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/ui-confirm.res",
+          "sha256": "731343ecf884b59d928387e72d1d25b256ce6a986459cc920001d76fcf2b3f6a",
+          "bytes": 15215,
+          "id": "ui-confirm"
+        },
+        {
+          "runtimePath": "res://game_audio_b/assets/ui-cancel.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/assets/ui-cancel.res",
+          "sha256": "08238691cc45c2a00c5becbc0c9c0aad64235511b32091eed5853cbd9cb36a0f",
+          "bytes": 9580,
+          "id": "ui-cancel"
+        },
+        {
+          "runtimePath": "res://game_audio_b/host.gd",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/host.gd",
+          "sha256": "259af7865780ad28d46f59b031f6712fe589f27e5c7b4d0c18c4f1270227b4a2",
+          "bytes": 6534,
+          "id": null
+        },
+        {
+          "runtimePath": "res://game_audio_b/library.gd",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/library.gd",
+          "sha256": "28f118e6258a11835a4cd6b2ecd4dce12cb076dfbaf21eb7bc5cb731fcfb1357",
+          "bytes": 15073,
+          "id": null
+        },
+        {
+          "runtimePath": "res://game_audio_b/mixer.gd",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/mixer.gd",
+          "sha256": "5af0eb900c4ad5b489a8df2d692a4660538b0aa96762f49e4498f2ecde8b5f3d",
+          "bytes": 9643,
+          "id": null
+        },
+        {
+          "runtimePath": "res://game_audio_b/shuihu_director.gd",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/shuihu_director.gd",
+          "sha256": "c23d720fa249d05c74e9ad223ec7137e343dfc781f462ecac69931f702640bc2",
+          "bytes": 4179,
+          "id": null
+        },
+        {
+          "runtimePath": "res://game_audio_b/xiyou_director.gd",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/xiyou/game_audio_b/xiyou_director.gd",
+          "sha256": "af83934935b564a1194ff463220bce3958d3775c7f6c7743a43e259c2bfc6a74",
+          "bytes": 7636,
+          "id": null
+        },
+        {
+          "runtimePath": "res://scripts/game_audio.gd",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/xiyou/scripts/game_audio.gd",
+          "sha256": "9a1a21cab347bab0f397bae4d02fc94092eea98f5c42073d995e97698caf97ea",
+          "bytes": 1884,
+          "id": null
+        }
+      ],
+      "nativeSourceChecks": {
+        "integration": {
+          "path": ".local/qa/godot-audio-b-v2/xiyou/integration/integration.json",
+          "sha256": "4ce5bd609dbda9b14ec1803f7da1ff755ef56a8960e0447b23f65675a4eacb55",
+          "checks": 20
+        },
+        "loop": {
+          "path": ".local/qa/godot-audio-b-v2/xiyou/loop/loop.json",
+          "sha256": "bd6f4f38b344fcd1e6c4b1ce0f7fa39c770e26d09629de7a7f5bffde05b33192",
+          "checks": 0
+        },
+        "cold-normal": {
+          "path": ".local/qa/godot-audio-b-v2/xiyou/cold-normal/cold.json",
+          "sha256": "31f4f82e6510e11071fc27c51a453776c384e35803ec71b2e6db4400edc8a95f",
+          "checks": 3
+        },
+        "cold-muted": {
+          "path": ".local/qa/godot-audio-b-v2/xiyou/cold-muted/cold.json",
+          "sha256": "ecf3041569a62dbce9bb12d2bc12cc4367b61e69857c638169828a406404b98d",
+          "checks": 5
+        },
+        "ui-pause-final": {
+          "path": ".local/qa/godot-audio-b-v2/xiyou/ui-pause-final/ui.json",
+          "sha256": "62e30ff3378a3c85d914c158a4c9424a769fdfca987ef7414452d3510030dc2a",
+          "checks": 10
+        }
+      }
+    },
+    {
+      "game": "shuihu",
+      "resources": 23,
+      "resourceBytes": 29109368,
+      "autoload": "CFGCNAudio=\"*res://game_audio_b/host.gd\"",
+      "runtimeFiles": [
+        {
+          "runtimePath": "res://game_audio_b/assets/music-shuihu.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/shuihu/game_audio_b/assets/music-shuihu.res",
+          "sha256": "0a96f622fbea894b2e0540612c6f15e15cfa32b16c0599fdff04fa0904e5a62b",
+          "bytes": 27713451,
+          "id": "music-shuihu"
+        },
+        {
+          "runtimePath": "res://game_audio_b/assets/staff-air.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/shuihu/game_audio_b/assets/staff-air.res",
+          "sha256": "fadeb8fa82e3d48260410e38d86a189b6fc2c23d17583e0475322ced3d946403",
+          "bytes": 75212,
+          "id": "staff-air"
+        },
+        {
+          "runtimePath": "res://game_audio_b/assets/staff-body.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/shuihu/game_audio_b/assets/staff-body.res",
+          "sha256": "4fa61a4cbb013b6a33439476a01acfe5f69ca7b01d2dd479402d9cb3d0b0ae0e",
+          "bytes": 98931,
+          "id": "staff-body"
+        },
+        {
+          "runtimePath": "res://game_audio_b/assets/blade-armor.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/shuihu/game_audio_b/assets/blade-armor.res",
+          "sha256": "7e04493246ea3df39ee6540fc48efa77aeb72accbe2e00f67d74cf203bb74727",
+          "bytes": 176416,
+          "id": "blade-armor"
+        },
+        {
+          "runtimePath": "res://game_audio_b/assets/shield-block.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/shuihu/game_audio_b/assets/shield-block.res",
+          "sha256": "ca3563169283faba14587ac5511a82049cef81d9bb221ee5885ac371bf961921",
+          "bytes": 189769,
+          "id": "shield-block"
+        },
+        {
+          "runtimePath": "res://game_audio_b/assets/water-jian.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/shuihu/game_audio_b/assets/water-jian.res",
+          "sha256": "1baf5479fcc4aa74704d413aebf80532e31509c6d326a5cba17cce5af8295bce",
+          "bytes": 177305,
+          "id": "water-jian"
+        },
+        {
+          "runtimePath": "res://game_audio_b/assets/bow-release.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/shuihu/game_audio_b/assets/bow-release.res",
+          "sha256": "1dd5451a5234837a08d09484ee719d545f53db6495a61afd921cdd326e6cf78a",
+          "bytes": 97867,
+          "id": "bow-release"
+        },
+        {
+          "runtimePath": "res://game_audio_b/assets/danger-wood.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/shuihu/game_audio_b/assets/danger-wood.res",
+          "sha256": "219c0df169c17d7ca8108dddf27ba85d94afcf81bca3b06ec3fc7b7102312846",
+          "bytes": 120451,
+          "id": "danger-wood"
+        },
+        {
+          "runtimePath": "res://game_audio_b/assets/wound-cloth.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/shuihu/game_audio_b/assets/wound-cloth.res",
+          "sha256": "63f8810b4fbc08e4f1e7172d4a22f627030008b4e34d931ec2be4d2168c3f073",
+          "bytes": 81637,
+          "id": "wound-cloth"
+        },
+        {
+          "runtimePath": "res://game_audio_b/assets/defeat.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/shuihu/game_audio_b/assets/defeat.res",
+          "sha256": "ad6eef1897890a3e68762ce7691af01d009047a92503e7366b1040e03a751ade",
+          "bytes": 69946,
+          "id": "defeat"
+        },
+        {
+          "runtimePath": "res://game_audio_b/assets/footstep-earth.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/shuihu/game_audio_b/assets/footstep-earth.res",
+          "sha256": "149839903e578c441f81d9ca183b02ac62692b557d111605841c15d86cd2c0e1",
+          "bytes": 10772,
+          "id": "footstep-earth"
+        },
+        {
+          "runtimePath": "res://game_audio_b/assets/footstep-stone.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/shuihu/game_audio_b/assets/footstep-stone.res",
+          "sha256": "ee405ec8dab6db58fae7d67a6632b13cd7d947a7b2f81dacffeb339afc04250d",
+          "bytes": 9820,
+          "id": "footstep-stone"
+        },
+        {
+          "runtimePath": "res://game_audio_b/assets/ink-spell.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/shuihu/game_audio_b/assets/ink-spell.res",
+          "sha256": "094fd29e9d8e045c94f223c95e6b278baeb25685c75461f02cabfeb3984819da",
+          "bytes": 34502,
+          "id": "ink-spell"
+        },
+        {
+          "runtimePath": "res://game_audio_b/assets/metal-impact.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/shuihu/game_audio_b/assets/metal-impact.res",
+          "sha256": "6f70fd4ac863049b517c885abc548aa95c5dcec433f58ee37f003a0c333d4265",
+          "bytes": 27203,
+          "id": "metal-impact"
+        },
+        {
+          "runtimePath": "res://game_audio_b/assets/pickup.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/shuihu/game_audio_b/assets/pickup.res",
+          "sha256": "ceedad46422fde379291f71a0de99e8bca167e7ada6ad9d4b62f6d0d87421c7f",
+          "bytes": 27927,
+          "id": "pickup"
+        },
+        {
+          "runtimePath": "res://game_audio_b/assets/piece-place.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/shuihu/game_audio_b/assets/piece-place.res",
+          "sha256": "8b33bc3cc7bc8eb5a47e108817df988923bc47be1efd5b6940d6e7a8af09fc1a",
+          "bytes": 11569,
+          "id": "piece-place"
+        },
+        {
+          "runtimePath": "res://game_audio_b/assets/victory.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/shuihu/game_audio_b/assets/victory.res",
+          "sha256": "dfc01881dcd42eebfb7086523624ed7caab3c9d431c6623c99aecf0fbd81a2d4",
+          "bytes": 68314,
+          "id": "victory"
+        },
+        {
+          "runtimePath": "res://game_audio_b/assets/warning.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/shuihu/game_audio_b/assets/warning.res",
+          "sha256": "6e48640884ae96fe16a15ad83870cda61528374267981de75a68c979b15ad7df",
+          "bytes": 27437,
+          "id": "warning"
+        },
+        {
+          "runtimePath": "res://game_audio_b/assets/water-spell.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/shuihu/game_audio_b/assets/water-spell.res",
+          "sha256": "0e0c53f83002b8a5caca32cbd3b9e810b0541fa545a740223cac1029bd047be7",
+          "bytes": 32530,
+          "id": "water-spell"
+        },
+        {
+          "runtimePath": "res://game_audio_b/assets/weapon-whoosh.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/shuihu/game_audio_b/assets/weapon-whoosh.res",
+          "sha256": "ad6c3895d0438334381be2ff9fd1139ffe29cdbfa81e6170a7c8367988dd7e0d",
+          "bytes": 15795,
+          "id": "weapon-whoosh"
+        },
+        {
+          "runtimePath": "res://game_audio_b/assets/wood-impact.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/shuihu/game_audio_b/assets/wood-impact.res",
+          "sha256": "d8afcef68210860ca5b096f27c79c098bc3c5ade0a785d70b1e3f28a81c39159",
+          "bytes": 17719,
+          "id": "wood-impact"
+        },
+        {
+          "runtimePath": "res://game_audio_b/assets/ui-confirm.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/shuihu/game_audio_b/assets/ui-confirm.res",
+          "sha256": "731343ecf884b59d928387e72d1d25b256ce6a986459cc920001d76fcf2b3f6a",
+          "bytes": 15215,
+          "id": "ui-confirm"
+        },
+        {
+          "runtimePath": "res://game_audio_b/assets/ui-cancel.res",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/shuihu/game_audio_b/assets/ui-cancel.res",
+          "sha256": "08238691cc45c2a00c5becbc0c9c0aad64235511b32091eed5853cbd9cb36a0f",
+          "bytes": 9580,
+          "id": "ui-cancel"
+        },
+        {
+          "runtimePath": "res://game_audio_b/host.gd",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/shuihu/game_audio_b/host.gd",
+          "sha256": "259af7865780ad28d46f59b031f6712fe589f27e5c7b4d0c18c4f1270227b4a2",
+          "bytes": 6534,
+          "id": null
+        },
+        {
+          "runtimePath": "res://game_audio_b/library.gd",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/shuihu/game_audio_b/library.gd",
+          "sha256": "6c81496274120b5f32cfe77825f13313fc0b2df017ebff9b8cff3d6e5f78b961",
+          "bytes": 7223,
+          "id": null
+        },
+        {
+          "runtimePath": "res://game_audio_b/mixer.gd",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/shuihu/game_audio_b/mixer.gd",
+          "sha256": "5af0eb900c4ad5b489a8df2d692a4660538b0aa96762f49e4498f2ecde8b5f3d",
+          "bytes": 9643,
+          "id": null
+        },
+        {
+          "runtimePath": "res://game_audio_b/shuihu_director.gd",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/shuihu/game_audio_b/shuihu_director.gd",
+          "sha256": "c23d720fa249d05c74e9ad223ec7137e343dfc781f462ecac69931f702640bc2",
+          "bytes": 4179,
+          "id": null
+        },
+        {
+          "runtimePath": "res://game_audio_b/xiyou_director.gd",
+          "frozen": "source/audio/godot-b-v2-r1/runtime-package/shuihu/game_audio_b/xiyou_director.gd",
+          "sha256": "af83934935b564a1194ff463220bce3958d3775c7f6c7743a43e259c2bfc6a74",
+          "bytes": 7636,
+          "id": null
+        }
+      ],
+      "nativeSourceChecks": {
+        "integration": {
+          "path": ".local/qa/godot-audio-b-v2/shuihu/integration/integration.json",
+          "sha256": "c326a19ff2e5e480df75b720b3eba9a6a32d72576d85e40b2b95864cea305f3d",
+          "checks": 17
+        },
+        "loop": {
+          "path": ".local/qa/godot-audio-b-v2/shuihu/loop/loop.json",
+          "sha256": "02b6e0476d9801de4699e66ef6604ac607a82e176d5e4a178e349896b304a145",
+          "checks": 0
+        },
+        "cold-normal": {
+          "path": ".local/qa/godot-audio-b-v2/shuihu/cold-normal/cold.json",
+          "sha256": "2dc46d41b97818d3563a1fa19b38f0e352eda68d6bf2f5010c9c197cb2764c4d",
+          "checks": 3
+        },
+        "cold-muted": {
+          "path": ".local/qa/godot-audio-b-v2/shuihu/cold-muted/cold.json",
+          "sha256": "37f7ae2810db19948ea15d2fd90a05268c93d728edbda43736c353ac9cfbad60",
+          "checks": 5
+        },
+        "ui-pause-final": {
+          "path": ".local/qa/godot-audio-b-v2/shuihu/ui-pause-final/ui.json",
+          "sha256": "d4301556367ca29db200a756db2597dc0bfe18c6a4e610d37a37617f0129de3a",
+          "checks": 10
+        }
+      }
+    }
+  ],
+  "music": [
+    {
+      "id": "music-xiyou",
+      "sha256": "f72d5e13d166e669de25513da3630ccb2f696c3102486c48575fe9ccfcdef11d",
+      "identicalToAcceptedB1": true
+    },
+    {
+      "id": "music-shuihu",
+      "sha256": "0a96f622fbea894b2e0540612c6f15e15cfa32b16c0599fdff04fa0904e5a62b",
+      "identicalToAcceptedB1": true
+    }
+  ],
+  "mastering": "source/audio/godot-b-v2-r1/mastering.json",
+  "calloutReview": "source/audio/godot-b-v2-r1/callout-review.json",
+  "calloutChecks": 5,
+  "calloutNativeEvidence": ".local/qa/godot-audio-b-v2/xiyou/callout-pronunciation-r1/callout.json",
+  "calloutInRealStaffAttack": [
+    0
+  ],
+  "calloutHumanListeningApproval": false,
+  "pairedComparison": {
+    "path": ".local/qa/godot-audio-b-v2/paired-export.json",
+    "sha256": "edb3aa007801f2cd48b82190bdb5a870906f84897b53c92c079af85758bd4804",
+    "b1RealReleases": 22,
+    "b2RealReleases": 15,
+    "readonlyRulesChecks": 15
+  },
+  "legacyLv38Checks": 8,
+  "exitRuns": 6,
+  "exitSettingsChecks": 40,
+  "coverageNote": "Integration/loop/cold/UI captures precede the one-line/voice-eligibility revision. The final library is covered by native skill-order validation, a fresh paired real five-person run, and actual manual staff casts with nonzero Voice PCM. Mixer/host/director code is identical across these checks.",
+  "mainGameplayWrittenByAudioBatch": false,
+  "sharedDesktopUiWrittenByAudioBatch": false,
+  "limitations": [
+    "No Shuihu character dialogue added.",
+    "No claim of final subjective voice approval or all skills/materials/bosses covered.",
+    "Movie Maker fixed-FPS samples are not real-time performance benchmarks.",
+    "Package loops, actual transitions, four-volume cold recovery, normal launcher/save flow and same-build website materials remain required."
+  ],
+  "packageQaEntry": "scripts/audio-desktop-adopt/package_entry.gd",
+  "packageQaDocumentation": "docs/godot-audio-windows-b2.md",
+  "storageGuard": "H:/codex/storage-guard/latest.json"
+}

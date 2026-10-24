@@ -1,0 +1,272 @@
+{
+  "exactPcm": true,
+  "incrementalCredits": 1,
+  "resources": [
+    {
+      "id": "music-xiyou",
+      "loop": true,
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\music-xiyou.res",
+      "seconds": 173.42,
+      "sha256": "f72d5e13d166e669de25513da3630ccb2f696c3102486c48575fe9ccfcdef11d"
+    },
+    {
+      "id": "music-shuihu",
+      "loop": true,
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\music-shuihu.res",
+      "seconds": 159.47,
+      "sha256": "0a96f622fbea894b2e0540612c6f15e15cfa32b16c0599fdff04fa0904e5a62b"
+    },
+    {
+      "id": "staff-air",
+      "loop": false,
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\staff-air.res",
+      "seconds": 1.0,
+      "sha256": "fadeb8fa82e3d48260410e38d86a189b6fc2c23d17583e0475322ced3d946403"
+    },
+    {
+      "id": "staff-body",
+      "loop": false,
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\staff-body.res",
+      "seconds": 1.0,
+      "sha256": "4fa61a4cbb013b6a33439476a01acfe5f69ca7b01d2dd479402d9cb3d0b0ae0e"
+    },
+    {
+      "id": "blade-armor",
+      "loop": false,
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\blade-armor.res",
+      "seconds": 1.2,
+      "sha256": "7e04493246ea3df39ee6540fc48efa77aeb72accbe2e00f67d74cf203bb74727"
+    },
+    {
+      "id": "shield-block",
+      "loop": false,
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\shield-block.res",
+      "seconds": 1.2,
+      "sha256": "ca3563169283faba14587ac5511a82049cef81d9bb221ee5885ac371bf961921"
+    },
+    {
+      "id": "water-jian",
+      "loop": false,
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\water-jian.res",
+      "seconds": 1.48,
+      "sha256": "1baf5479fcc4aa74704d413aebf80532e31509c6d326a5cba17cce5af8295bce"
+    },
+    {
+      "id": "bow-release",
+      "loop": false,
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\bow-release.res",
+      "seconds": 1.0,
+      "sha256": "1dd5451a5234837a08d09484ee719d545f53db6495a61afd921cdd326e6cf78a"
+    },
+    {
+      "id": "danger-wood",
+      "loop": false,
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\danger-wood.res",
+      "seconds": 1.0,
+      "sha256": "219c0df169c17d7ca8108dddf27ba85d94afcf81bca3b06ec3fc7b7102312846"
+    },
+    {
+      "id": "wound-cloth",
+      "loop": false,
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\wound-cloth.res",
+      "seconds": 1.0,
+      "sha256": "63f8810b4fbc08e4f1e7172d4a22f627030008b4e34d931ec2be4d2168c3f073"
+    },
+    {
+      "id": "defeat",
+      "loop": false,
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\defeat.res",
+      "seconds": 2.90000009536743,
+      "sha256": "ad6eef1897890a3e68762ce7691af01d009047a92503e7366b1040e03a751ade"
+    },
+    {
+      "id": "footstep-earth",
+      "loop": false,
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\footstep-earth.res",
+      "seconds": 0.419999986886978,
+      "sha256": "149839903e578c441f81d9ca183b02ac62692b557d111605841c15d86cd2c0e1"
+    },
+    {
+      "id": "footstep-stone",
+      "loop": false,
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\footstep-stone.res",
+      "seconds": 0.379999995231628,
+      "sha256": "ee405ec8dab6db58fae7d67a6632b13cd7d947a7b2f81dacffeb339afc04250d"
+    },
+    {
+      "id": "ink-spell",
+      "loop": false,
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\ink-spell.res",
+      "seconds": 1.39999997615814,
+      "sha256": "094fd29e9d8e045c94f223c95e6b278baeb25685c75461f02cabfeb3984819da"
+    },
+    {
+      "id": "metal-impact",
+      "loop": false,
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\metal-impact.res",
+      "seconds": 1.10000002384186,
+      "sha256": "6f70fd4ac863049b517c885abc548aa95c5dcec433f58ee37f003a0c333d4265"
+    },
+    {
+      "id": "pickup",
+      "loop": false,
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\pickup.res",
+      "seconds": 1.14997911453247,
+      "sha256": "ceedad46422fde379291f71a0de99e8bca167e7ada6ad9d4b62f6d0d87421c7f"
+    },
+    {
+      "id": "piece-place",
+      "loop": false,
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\piece-place.res",
+      "seconds": 0.449999988079071,
+      "sha256": "8b33bc3cc7bc8eb5a47e108817df988923bc47be1efd5b6940d6e7a8af09fc1a"
+    },
+    {
+      "id": "victory",
+      "loop": false,
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\victory.res",
+      "seconds": 2.79999995231628,
+      "sha256": "dfc01881dcd42eebfb7086523624ed7caab3c9d431c6623c99aecf0fbd81a2d4"
+    },
+    {
+      "id": "warning",
+      "loop": false,
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\warning.res",
+      "seconds": 1.10000002384186,
+      "sha256": "6e48640884ae96fe16a15ad83870cda61528374267981de75a68c979b15ad7df"
+    },
+    {
+      "id": "water-spell",
+      "loop": false,
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\water-spell.res",
+      "seconds": 1.29999995231628,
+      "sha256": "0e0c53f83002b8a5caca32cbd3b9e810b0541fa545a740223cac1029bd047be7"
+    },
+    {
+      "id": "weapon-whoosh",
+      "loop": false,
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\weapon-whoosh.res",
+      "seconds": 0.620000004768372,
+      "sha256": "ad6c3895d0438334381be2ff9fd1139ffe29cdbfa81e6170a7c8367988dd7e0d"
+    },
+    {
+      "id": "wood-impact",
+      "loop": false,
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\wood-impact.res",
+      "seconds": 0.699999988079071,
+      "sha256": "d8afcef68210860ca5b096f27c79c098bc3c5ade0a785d70b1e3f28a81c39159"
+    },
+    {
+      "id": "wukong-skill-01",
+      "loop": false,
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2-r1\\resources\\wukong-skill-01.res",
+      "seconds": 1.52,
+      "sha256": "1b3d1daa7c19f6d85bd56010077359a1603c8e2ed3f4c53f9a5c598bc1e9cc67"
+    },
+    {
+      "id": "tangseng-skill-01",
+      "loop": false,
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\tangseng-skill-01.res",
+      "seconds": 1.8,
+      "sha256": "512447219594f1dbce17c1ccb3657732fa00847516b881923d85733211fb8c24"
+    },
+    {
+      "id": "bajie-skill-01",
+      "loop": false,
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\bajie-skill-01.res",
+      "seconds": 2.375,
+      "sha256": "9463a99400f26bb59e7f8c1296f640e5b15a8006c01ecc1522ba56c05f494d61"
+    },
+    {
+      "id": "shaseng-skill-01",
+      "loop": false,
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\shaseng-skill-01.res",
+      "seconds": 0.74,
+      "sha256": "2be452ee14fea79df469d8cc6f6b3323ae7878f8ffc4bb55fe442754a25ebfe5"
+    },
+    {
+      "id": "xiaobailong-skill-01",
+      "loop": false,
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\xiaobailong-skill-01.res",
+      "seconds": 1.115,
+      "sha256": "14c2a6c0d124ceb497dd845aa69533104c141f382a2220eb2864e38505603824"
+    },
+    {
+      "id": "tangseng-ultimate-01",
+      "loop": false,
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\tangseng-ultimate-01.res",
+      "seconds": 2.32,
+      "sha256": "b9035ace4d074943185e153480c07787355e410592cf7e41178d847a3c7c81c3"
+    },
+    {
+      "id": "wukong-ultimate-01",
+      "loop": false,
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\wukong-ultimate-01.res",
+      "seconds": 0.6,
+      "sha256": "d4ef055e4f4af97b8ab75190ae01bd2f922045c184a122b07fd017427aab6548"
+    },
+    {
+      "id": "bajie-ultimate-01",
+      "loop": false,
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\bajie-ultimate-01.res",
+      "seconds": 2.14502083333333,
+      "sha256": "a19aea9be8d56ca33148195c7c23d5fd2527ea145ec9bc0afd1c909962776c78"
+    },
+    {
+      "id": "shaseng-ultimate-01",
+      "loop": false,
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\shaseng-ultimate-01.res",
+      "seconds": 2.24,
+      "sha256": "ab789edb4e27b3caec79f93e2c2d8312f6780d6a8d30acf06e446d859412e065"
+    },
+    {
+      "id": "xiaobailong-ultimate-01",
+      "loop": false,
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\xiaobailong-ultimate-01.res",
+      "seconds": 1.36,
+      "sha256": "7f4572643f1e96757e290c2d2247ba6a950bbcff0164539fadffe8f7c9df6c9c"
+    },
+    {
+      "id": "monk-chime",
+      "loop": false,
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\monk-chime.res",
+      "seconds": 0.735020833333333,
+      "sha256": "494f91bf7ff7bc0beb6c05cfb8f4ef328d94f5c00ec04fd6642b2218277155b6"
+    },
+    {
+      "id": "staff-sweep",
+      "loop": false,
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\staff-sweep.res",
+      "seconds": 0.310000002384186,
+      "sha256": "8c31facdd7021c7d87863b774eec5015e7fb1589cd753c8c42dc1d0c4447dbbd"
+    },
+    {
+      "id": "rake-drag",
+      "loop": false,
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\rake-drag.res",
+      "seconds": 0.935020833333333,
+      "sha256": "190ce34fcc4298414b8d9f8533995c9524cbbe85745082e2bd164c211875d7a2"
+    },
+    {
+      "id": "sand-spade",
+      "loop": false,
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\sand-spade.res",
+      "seconds": 1.43502083333333,
+      "sha256": "33dedef6b2bd17a19615458d145ee527b09e81d8e458d992f73e881745c6ca5b"
+    },
+    {
+      "id": "ui-confirm",
+      "loop": false,
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\ui-confirm.res",
+      "seconds": 0.600000023841858,
+      "sha256": "731343ecf884b59d928387e72d1d25b256ce6a986459cc920001d76fcf2b3f6a"
+    },
+    {
+      "id": "ui-cancel",
+      "loop": false,
+      "output": "G:\\CODE\\CFGCN\\source\\audio\\godot-b-v2\\resources\\ui-cancel.res",
+      "seconds": 0.360000014305115,
+      "sha256": "08238691cc45c2a00c5becbc0c9c0aad64235511b32091eed5853cbd9cb36a0f"
+    }
+  ]
+}

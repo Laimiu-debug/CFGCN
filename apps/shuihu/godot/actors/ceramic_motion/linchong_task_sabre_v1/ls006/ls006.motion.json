@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "id": "ls006",
+  "name": "林冲·受救任务态",
+  "revision": "m01-task-sabre-v1",
+  "family": "task_sabre",
+  "formal_admission": false,
+  "task_only": true,
+  "source": {
+    "runtime": "apps/shuihu/art/pieces/source/ceramic-production/linchong-task-sabre-v1/ls006-task.glb",
+    "sha256": "ea4e0590a394eccc3d44a93bc2690e9aa5b50f4b11ce530ee8faed0884bed6eb",
+    "record": "apps/shuihu/art/pieces/source/ceramic-production/linchong-task-sabre-v1/ls006-task.json",
+    "record_sha256": "33d9ee0b1b6063e791be8c8344293d4afba659ea7acc26aefd29cdc4e50d9c8f",
+    "editable": "apps/shuihu/art/pieces/source/ceramic-production/linchong-task-sabre-v1/ls006-task.blend",
+    "editable_sha256": "7a47fa9dee6375f214a8177f4a93240f9b8f1a495f28ec053eec6813c9f61c1a",
+    "native_report": ".local/qa/shuihu-linchong-task-sabre-v1/native-audit.json",
+    "native_report_sha256": "87172bba00744cc817258f5d1c0b791540bcb842f04aedc682323d3bb9bc83b6",
+    "source_codec_audit": ".local/qa/shuihu-linchong-task-sabre-v1/source-codec-audit.json",
+    "original_geometry_skin_materials_images_unchanged": false,
+    "preservation_scope": "Same frozen 35000-face body after 69/70 scale; corner positions/UV and effective texture pixels verified. New continuous skin, original authored arm rest and independent source sabre with handle-only fit."
+  },
+  "units": {
+    "unit": "metre",
+    "up": "+Y",
+    "source_forward": "+X",
+    "wrapper_forward": "-Z",
+    "visual_y_rotation_degrees": 90,
+    "root_motion": "Host owns grid translation and facing. Board lift is not natural leg gait."
+  },
+  "skeleton": {
+    "bone_count": 10,
+    "bones": [
+      "Root",
+      "Torso",
+      "Head",
+      "UpperArm_L",
+      "Forearm_L",
+      "Hand_L",
+      "UpperArm_R",
+      "Forearm_R",
+      "Hand_R",
+      "Weapon"
+    ],
+    "hands": {
+      "left": "Hand_L",
+      "right": "Hand_R"
+    },
+    "weapon_bones": [
+      "Weapon"
+    ]
+  },
+  "animations": {
+    "idle": {
+      "clip": "idle",
+      "duration": 0.800000011920929,
+      "loop": true,
+      "events": [],
+      "origin_kind": "Retained owner root/torso/head task curves; current authored arm rests retained. No spear/combat/AI curves."
+    },
+    "board_move": {
+      "clip": "board_move",
+      "duration": 0.699999988079071,
+      "loop": false,
+      "events": [],
+      "origin_kind": "Retained owner root/torso/head task curves; current authored arm rests retained. No spear/combat/AI curves."
+    },
+    "hit": {
+      "clip": "hit",
+      "duration": 0.800000011920929,
+      "loop": false,
+      "events": [],
+      "origin_kind": "Retained owner root/torso/head task curves; current authored arm rests retained. No spear/combat/AI curves."
+    },
+    "defeat": {
+      "clip": "defeat",
+      "duration": 1.100000023841858,
+      "loop": false,
+      "events": [],
+      "origin_kind": "Retained owner root/torso/head task curves; current authored arm rests retained. No spear/combat/AI curves."
+    }
+  },
+  "review": {
+    "native_reimport": true,
+    "source_geometry_and_pixels": true,
+    "godot_component": true,
+    "godot_actual_battle": true,
+    "formal_task_quality_accepted": false,
+    "actual_scope": "M01 neutral task rescued, carried, put down, own move and evacuated; no new combat or final art acceptance",
+    "cold_moving_and_carried": true
+  },
+  "remaining": [
+    "Default main-owner task installation and Windows package/playback receipt",
+    "Natural leg gait, final grasp, carrier-body contact and art review",
+    "This encounter does not call attack/guard/AI; full owner combat goal and source variants remain in scope"
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "id": "ls083",
+  "name": "杜迁",
+  "revision": "existing-source-campaign-m01-v1",
+  "family": "staff",
+  "formal_admission": false,
+  "prior_web_normal_admission": false,
+  "source": {
+    "runtime": "apps/shuihu/art/pieces/source/ceramic-production/joint-continuity-v1/ls083/ls083-joint-continuity.glb",
+    "sha256": "d07403f3ec8bc2af856e30c116dd05021f5ce844e5d248a0b219afe09cf09d75",
+    "record": "apps/shuihu/art/pieces/source/ceramic-production/combat-rig-v2/ls083.json",
+    "record_sha256": "681a6d99dc616c2c59b74b8159c64daba5482be4af9bd4493a69749250207c43",
+    "editable": "apps/shuihu/art/pieces/source/ceramic-production/joint-continuity-v1/ls083/repaired-clips.blend",
+    "editable_sha256": "56b323bad1ee9315ba6891a5319ae0e4b412363b353f9a4a56e71540ca8c0981",
+    "native_report": ".local/qa/shuihu-godot-joint-continuity-v1/native-audit-160.json",
+    "native_report_sha256": "f769cf74b8dd93c6a2e705a0b4657a1bb4a4370bc7edccdddfd83e5974151072",
+    "original_geometry_skin_materials_images_unchanged": true,
+    "derivation": "Existing corrected board_move child translations; staged without model edits"
+  },
+  "units": {
+    "unit": "metre",
+    "up": "+Y",
+    "source_forward": "+X",
+    "wrapper_forward": "-Z",
+    "visual_y_rotation_degrees": 90,
+    "root_motion": "Host owns route translation; existing board lift retained"
+  },
+  "skeleton": {
+    "bone_count": 10,
+    "bones": [
+      "Root",
+      "Torso",
+      "Head",
+      "UpperArm_L",
+      "Forearm_L",
+      "Hand_L",
+      "UpperArm_R",
+      "Forearm_R",
+      "Hand_R",
+      "Weapon"
+    ],
+    "hands": {
+      "left": "Hand_L",
+      "right": "Hand_R"
+    },
+    "weapon_bones": [
+      "Weapon"
+    ]
+  },
+  "animations": {
+    "idle": {
+      "clip": "idle",
+      "duration": 0.800000011920929,
+      "loop": true,
+      "events": [],
+      "origin_kind": "Retained source curves; no new rig, model or Tripo preset"
+    },
+    "attack": {
+      "clip": "attack",
+      "duration": 1.2000000476837158,
+      "loop": false,
+      "events": [
+        {
+          "id": "contact-0",
+          "kind": "melee_contact",
+          "seconds": 0.48
+        }
+      ],
+      "origin_kind": "Retained source curves; no new rig, model or Tripo preset"
+    },
+    "guard": {
+      "clip": "guard",
+      "duration": 2.05,
+      "loop": false,
+      "events": [
+        {
+          "id": "guard-open",
+          "kind": "guard_window_open",
+          "seconds": 0.2
+        },
+        {
+          "id": "guard-close",
+          "kind": "guard_window_close",
+          "seconds": 1.75
+        }
+      ],
+      "origin_kind": "Retained source curves; no new rig, model or Tripo preset",
+      "time_map": "guard_raise_hold_recover",
+      "raise_seconds": 0.2,
+      "recover_start_seconds": 1.75
+    },
+    "hit": {
+      "clip": "hit",
+      "duration": 0.800000011920929,
+      "loop": false,
+      "events": [],
+      "origin_kind": "Retained source curves; no new rig, model or Tripo preset"
+    },
+    "board_move": {
+      "clip": "board_move",
+      "duration": 0.699999988079071,
+      "loop": false,
+      "events": [],
+      "origin_kind": "Retained source curves; no new rig, model or Tripo preset"
+    },
+    "defeat": {
+      "clip": "defeat",
+      "duration": 1.100000023841858,
+      "loop": false,
+      "events": [],
+      "origin_kind": "Retained source curves; no new rig, model or Tripo preset"
+    }
+  },
+  "review": {
+    "native_reimport": true,
+    "godot_component": false,
+    "godot_actual_battle": false
+  },
+  "remaining": [
+    "Legacy rigid garment binding; source art and grasp not upgraded by staging",
+    "Board lift is not natural leg gait",
+    "Actual campaign and source pose import require review"
+  ]
+}

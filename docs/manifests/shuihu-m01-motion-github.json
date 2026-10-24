@@ -1,0 +1,351 @@
+{
+  "schemaVersion": 1,
+  "batch": "shuihu-m01-motion-20261024T0700",
+  "date": "2026-10-24",
+  "repository": "Laimiu-debug/CFGCN",
+  "sourceOwner": "水浒｜人物精修、骨骼与战斗动作",
+  "receiver": "水浒｜主工程、完整战役与操作界面",
+  "scope": "Frozen M01 three-friendly skeletal presentation plus task-only Lin Chong sabre; source, timing curves, descriptors, import settings and immutable delivery records.",
+  "characterIds": [
+    "ls092",
+    "ls082",
+    "ls083",
+    "ls006"
+  ],
+  "weapons": [
+    "bow",
+    "long_spear",
+    "staff",
+    "task-only sabre"
+  ],
+  "sourceManifests": [
+    {
+      "path": "source/shuihu/godot/campaign-motion-v1/sha256.json",
+      "sha256": "305145992d4919d71fcd297cb521c40cbde393b05bade0701a96bc83dc30257d"
+    },
+    {
+      "path": "source/shuihu/godot/linchong-task-sabre-v1/sha256.json",
+      "sha256": "6c1334707427df1112a236f7530a8193cd297dfa77fd11a8f633f106e358d814"
+    }
+  ],
+  "files": [
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/archery_actor.gd",
+      "bytes": 3711,
+      "sha256": "1d0a684b8ac37b9d48652621f97f5b0a99c074db184216ba11174f533c903451"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/archery_v1/ls092/ls092.curves.json",
+      "bytes": 975076,
+      "sha256": "30b514d8fe7b53f86395eecea556f61e6a01bbab29d4c73978df458f410ac1e4"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/archery_v1/ls092/ls092.glb.import",
+      "bytes": 1225,
+      "sha256": "08ecfe29d06e5195ee1f24d0fb1911a132aba2f8a327d7590451fc592e3f0d9b"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/archery_v1/ls092/ls092.motion.json",
+      "bytes": 5614,
+      "sha256": "80d0580596dbb8d4f44ee8142c97f695de2218ac7924e60e385e7b69c17878da"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/archery_v1/ls092/ls092.tscn",
+      "bytes": 526,
+      "sha256": "b14c33f95acd88179d88c0f24180f48ab2c2d424c4f75cab10aba531ca7c65ac"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/battle_pose_clock.gd",
+      "bytes": 2928,
+      "sha256": "8ce611b3f43350438db9d68d8a527ea711d694558a0fe9d54b29e0dfd4c7ece1"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/battle_presenter.gd",
+      "bytes": 12423,
+      "sha256": "d5ec049fae4742345b2953184b80623ab90638ab6634907dc01a12ca438ef4bc"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/campaign_m01_v1/delivery.json",
+      "bytes": 5642,
+      "sha256": "79d5f8f500c4acfbaf6dc0116d8ac2a8785cf72c87962816a0f4034d4374020a"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/campaign_m01_v1/ls082/ls082.curves.json",
+      "bytes": 198108,
+      "sha256": "ce3b74efebe4ebfca60fe8c46e4a7ae6835ff3a841d247ad603a8547a39613a0"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/campaign_m01_v1/ls082/ls082.glb.import",
+      "bytes": 1230,
+      "sha256": "f0f376eb6be88d93bc60ee62b6ae2ecfcc702f39927c2da957892b8bd683a5bb"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/campaign_m01_v1/ls082/ls082.motion.json",
+      "bytes": 3752,
+      "sha256": "b728bb2bb0ecd349123769b40c0c8dd36b705b10a6d30e4dbc86d5a08337e30d"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/campaign_m01_v1/ls082/ls082.tscn",
+      "bytes": 536,
+      "sha256": "c2c16a78a36926f9c5773ab4c07653c6f09d46aed5fdd8df3b0f9a3d76e9166f"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/campaign_m01_v1/ls083/ls083.curves.json",
+      "bytes": 197392,
+      "sha256": "657b56611ba697e68a483a978ad086e5a9537da9f23ec8ed6c5420ecc7a25e2f"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/campaign_m01_v1/ls083/ls083.glb.import",
+      "bytes": 1230,
+      "sha256": "a6d8cda75abf3588ef7fcc278663fe6bf9960e17f5c3902efad3014bd8349ee1"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/campaign_m01_v1/ls083/ls083.motion.json",
+      "bytes": 3752,
+      "sha256": "764f08c107ee47abd79be8166b29e18267867af40f37a80b9f1ca7d75920a8bc"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/campaign_m01_v1/ls083/ls083.tscn",
+      "bytes": 536,
+      "sha256": "dd2683445e74a8da30798368068ea5b2dc7f51d1328593aa7da5533d0e7af09e"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/campaign_presenter.gd",
+      "bytes": 5706,
+      "sha256": "8ee4dbcc2f8c1af5859e2df72e97161e0501d170b89da50ff7eb7355db809c97"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/ceramic_actor.gd",
+      "bytes": 7482,
+      "sha256": "f50b61d2f32979b478b863848029bff4eb7ac2d04ade92cc40186cad3baad8cc"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/linchong_task_sabre_v1/delivery.json",
+      "bytes": 3296,
+      "sha256": "c6282fc005cdd1136ea366da68328eb2d26251185068e2877380fc25e6d28694"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/linchong_task_sabre_v1/ls006/ls006.curves.json",
+      "bytes": 1076211,
+      "sha256": "02c339a63805dbe2535f698aec42ef2060ccdeaf457257f007d29197893a2c09"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/linchong_task_sabre_v1/ls006/ls006.glb.import",
+      "bytes": 1237,
+      "sha256": "51cedbfa6048a3be969dac7eb5a63461299aaace9c70f791132ebd81c1704243"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/linchong_task_sabre_v1/ls006/ls006.motion.json",
+      "bytes": 3735,
+      "sha256": "f5d2177e47105bb7ef64dd0b7d1b35bac629930e40c7e2f1434b967d2e5c16bb"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/linchong_task_sabre_v1/ls006/ls006.tscn",
+      "bytes": 548,
+      "sha256": "ffe866cda73c3f2c7904dad64092274827a5e1e63c6bc2d95063b08b54a77557"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/m01_task_presenter.gd",
+      "bytes": 1137,
+      "sha256": "00c36078a4ae202d06506109d886b26cc58543b8bd56e7978a272d9bfa5fb851"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/preserve_existing_clips.gd",
+      "bytes": 3050,
+      "sha256": "c4a7bee3b316ee8460a7d92a8a2b4994fd3bf76436a3d2bfdd8efa8789e53b5b"
+    },
+    {
+      "path": "docs/shuihu-linchong-task-sabre.md",
+      "bytes": 4950,
+      "sha256": "08fe54dc2fd4f455d7942dc76f85c753086c3a12b78a14d0a6c49e6e6dea0179"
+    },
+    {
+      "path": "source/shuihu/godot/campaign-motion-v1/delivery.json",
+      "bytes": 5642,
+      "sha256": "79d5f8f500c4acfbaf6dc0116d8ac2a8785cf72c87962816a0f4034d4374020a"
+    },
+    {
+      "path": "source/shuihu/godot/campaign-motion-v1/sha256.json",
+      "bytes": 7837,
+      "sha256": "305145992d4919d71fcd297cb521c40cbde393b05bade0701a96bc83dc30257d"
+    },
+    {
+      "path": "source/shuihu/godot/linchong-task-sabre-v1/delivery.json",
+      "bytes": 3296,
+      "sha256": "c6282fc005cdd1136ea366da68328eb2d26251185068e2877380fc25e6d28694"
+    },
+    {
+      "path": "source/shuihu/godot/linchong-task-sabre-v1/sha256.json",
+      "bytes": 4207,
+      "sha256": "6c1334707427df1112a236f7530a8193cd297dfa77fd11a8f633f106e358d814"
+    }
+  ],
+  "excludedAssets": [
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/archery_v1/ls092/ls092.glb",
+      "bytes": 24684280,
+      "sha256": "8a7358c0a7be7502b12a2492b762a834dedc33a37ca003a018ff74c28892f170"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/archery_v1/ls092/ls092_batch017-equipment-bow-component-01-0-coat.png",
+      "bytes": 259,
+      "sha256": "c9666c78437278e2fe510142318fa0fc2b7b6dcbd77836a498686d057e3715fc"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/archery_v1/ls092/ls092_batch017-equipment-bow-component-01-0-roughness.png",
+      "bytes": 259,
+      "sha256": "b291af3ae3e3b6a8d70e11fa556c87788785e1cb8af84800ee67756b5b147530"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/archery_v1/ls092/ls092_batch017-equipment-bow-component-02-0-coat.png",
+      "bytes": 259,
+      "sha256": "c9666c78437278e2fe510142318fa0fc2b7b6dcbd77836a498686d057e3715fc"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/archery_v1/ls092/ls092_batch017-equipment-bow-component-02-0-roughness.png",
+      "bytes": 259,
+      "sha256": "b291af3ae3e3b6a8d70e11fa556c87788785e1cb8af84800ee67756b5b147530"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/archery_v1/ls092/ls092_ls092_0_roughness.png",
+      "bytes": 754192,
+      "sha256": "ba29ba88af61a40d22e087144eaa240b7738db876ba6deac47b4543f829fa213"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/archery_v1/ls092/ls092_ls092_1_coat.png",
+      "bytes": 200085,
+      "sha256": "ba1a268465aa3e1d9ecf8aa3f92b851ec903e236e6d18e76bc5d5165ce2e0b34"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/archery_v1/ls092/ls092_中国风人物3d模型_basecolor.png",
+      "bytes": 6090506,
+      "sha256": "3130dcc05edf8b4bdc2bbbdf123436a06a163ae400ba0e8730bce3ccd71a19f6"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/archery_v1/ls092/ls092_弓箭道具3d模型_basecolor.png",
+      "bytes": 5703470,
+      "sha256": "b75ad5ea96f23f5ec6694ef3f6a216ccc9b6c09bf094a9b4ebf74a5e572bef1d"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/campaign_m01_v1/ls082/ls082.glb",
+      "bytes": 12937452,
+      "sha256": "ab0dca88e935b65c011aa46f279dfa57667297e26168d0275c5695882e2e79d5"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/campaign_m01_v1/ls082/ls082_ls082_0_roughness.jpg",
+      "bytes": 260310,
+      "sha256": "189e8af4d35cd81b3e52f94026512f03a217044e1a0205e2fd25041d9ef87d23"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/campaign_m01_v1/ls082/ls082_ls082_1_coat.jpg",
+      "bytes": 43086,
+      "sha256": "768114974fdb00b39053e27b9b5ea1efcb2147b3813e0d419af7cc485fa8272a"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/campaign_m01_v1/ls082/ls082_武术人物3d模型_basecolor.jpg",
+      "bytes": 439089,
+      "sha256": "7e387e2a07af96f8c32f38dabb9767675dcc77aeaf792dc755299fbfa40781b3"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/campaign_m01_v1/ls082/ls082_矛道具3d模型_basecolor.jpg",
+      "bytes": 2600030,
+      "sha256": "ed3d2822aeb4eb9b7947d21053a93616a52ae891c2a625f93f4954721488ff3b"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/campaign_m01_v1/ls083/ls083.glb",
+      "bytes": 12922324,
+      "sha256": "d07403f3ec8bc2af856e30c116dd05021f5ce844e5d248a0b219afe09cf09d75"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/campaign_m01_v1/ls083/ls083_ls083_0_roughness.jpg",
+      "bytes": 243872,
+      "sha256": "2a99d40e819e6f54a33b91f13535c0edaa620aafccfdeb9683f7a79fd82a71d1"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/campaign_m01_v1/ls083/ls083_ls083_1_coat.jpg",
+      "bytes": 42531,
+      "sha256": "fccb3a78edd1468ecbd77d35557b27b01fb114003a9170afa405d3002085a6f2"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/campaign_m01_v1/ls083/ls083_中国武将+3d模型_basecolor.jpg",
+      "bytes": 423814,
+      "sha256": "e7a4ff6e049471548c2bbae1e4f306312cc500d595af5f9bdfcd19d21fb2e79e"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/campaign_m01_v1/ls083/ls083_木制木棒3d模型_basecolor.jpg",
+      "bytes": 2652049,
+      "sha256": "4caa2dc2209023ca1cac05754c21cc19af3102a113611401ef116952f54fe945"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/linchong_task_sabre_v1/ls006/ls006.glb",
+      "bytes": 5114820,
+      "sha256": "ea4e0590a394eccc3d44a93bc2690e9aa5b50f4b11ce530ee8faed0884bed6eb"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/linchong_task_sabre_v1/ls006/ls006_batch017-equipment-sabre-component-00-0-coat.png",
+      "bytes": 259,
+      "sha256": "c9666c78437278e2fe510142318fa0fc2b7b6dcbd77836a498686d057e3715fc"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/linchong_task_sabre_v1/ls006/ls006_batch017-equipment-sabre-component-00-0-roughness.png",
+      "bytes": 259,
+      "sha256": "b291af3ae3e3b6a8d70e11fa556c87788785e1cb8af84800ee67756b5b147530"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/linchong_task_sabre_v1/ls006/ls006_ls006-coat.png",
+      "bytes": 99797,
+      "sha256": "2a05bd452cb5df570a9ae0d6d2d9fe11a22f341e4cac1b2f22074cd2790e805a"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/linchong_task_sabre_v1/ls006/ls006_ls006-colour.png",
+      "bytes": 1499381,
+      "sha256": "d1b73981de55bf23e77af4aae9071d82fb463401268d9e5bacd39c3b7547e3ee"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/linchong_task_sabre_v1/ls006/ls006_ls006-roughness.png",
+      "bytes": 164397,
+      "sha256": "2260aa546ecf36b25f735adb973899e5f1374c8f69b68650d273e047f35ca5b5"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/linchong_task_sabre_v1/ls006/ls006_弯刀3d模型_basecolor.png",
+      "bytes": 1511809,
+      "sha256": "5fb99ec2ca5c28daa8f917a1f45da1aa571db8800476a0e048684f72ba3ea898"
+    }
+  ],
+  "validation": {
+    "sourceManifestsAllCurrentFilesMatch": true,
+    "fixedRuntimeFilesMatchWindowsStage": true,
+    "windowsVersion": "0.0.13-preview.2",
+    "exe": {
+      "bytes": 109268480,
+      "sha256": "d34d36f3be1a6c49c56525ae86469b92e4f417ddf0b43cf00dd80c385c4b0562"
+    },
+    "pck": {
+      "bytes": 2534252409,
+      "sha256": "4f9f7f21e5d53d19177bdfecbd5b22b5d6f5ada406eee7cc074f2628d3d08967"
+    },
+    "wholeActualM01WorldAnd34LegalOrdersRngEqual": true,
+    "mainMotionReceiptSha256": "7b4a8a7d36440e27302cf99e07088c028a0db4332fe43d401de5b09ac6e56c75",
+    "sourceNativeComparisonSha256": "ce12f25eee6291e602b2547c7159a14dd4aa96f99503535692ab719da67419b7",
+    "legalScriptedInputOnly": true,
+    "noHpApPositionRngRewrite": true,
+    "externalHumanPlaytest": false,
+    "audioQualityAcceptedByThisBatch": false,
+    "performanceRetestedForGit": false
+  },
+  "dependencies": [
+    "Godot 4.7.2 and the existing Shuihu main project/rules interface.",
+    "Excluded GLB bodies and source textures must be restored at the exact paths and SHA256 listed here.",
+    "Generated .godot imported caches, Windows binaries, local QA and player-save fixtures are intentionally excluded."
+  ],
+  "limitations": [
+    "Frozen source delivery flags preserve their original handoff-time status. The independent main-owner receipt now confirms 0.0.13-preview.2 playback; the original manifests are not rewritten.",
+    "Ordinary enemy models remain placeholders in this package. M01-M05 continuous first-volume delivery, same-package original-sound showcase, final art, public release and Web are not accepted.",
+    "This is a source checkpoint, not a clean-clone playable game or complete asset backup."
+  ],
+  "publication": {
+    "fullFirstVolumeAccepted": false,
+    "windowsZipPublished": false,
+    "websiteDeployed": false
+  }
+}

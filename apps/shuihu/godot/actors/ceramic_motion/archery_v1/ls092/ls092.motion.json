@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "id": "ls092",
+  "name": "朱贵",
+  "revision": "shared-bow-first-v1",
+  "family": "bow_crossbow",
+  "action_scope": "First local bow-specific six-clip candidate; whole head clearance native verified; exact palm contact and actual battle remain pending",
+  "formal_admission": false,
+  "prior_web_normal_admission": false,
+  "source": {
+    "runtime": "apps/website/public/games/shuihu/combat/ls092-8a7358c0a7be.glb",
+    "sha256": "8a7358c0a7be7502b12a2492b762a834dedc33a37ca003a018ff74c28892f170",
+    "record": "apps/shuihu/art/pieces/source/ceramic-production/combat-rig-v1/ls092.json",
+    "record_sha256": "cad0f3cc3fb577be60030d19d941a611e9aad9a5713c2682ab425d7a9dd184a7",
+    "editable": "apps/shuihu/art/pieces/source/ceramic-production/archery-actors-v1/ls092-reimported.blend",
+    "editable_sha256": "3f5f50d64cc901491d73690616de5718a47c16864854b79738dd2cc727173fa7",
+    "native_report": ".local/qa/shuihu-archery-motion-v1/joint-native-reimport.json",
+    "native_report_sha256": "3fd4078dd6608e252e032d7e6a581ab998b9826e87409b0a59a8a8d3819db11d",
+    "original_geometry_skin_materials_images_unchanged": false,
+    "preservation_scope": "Complete selected body, original head/palms, original bow/string and one original arrow corners/UV retained after normalization. New continuous skin and shared archery curves; packed images retained visually, encoding not yet certified.",
+    "legacy_rigid_garment_binding": false,
+    "skinning_mode": "continuous-garment-v1"
+  },
+  "units": {
+    "unit": "metre",
+    "up": "+Y",
+    "source_forward": "+X",
+    "wrapper_forward": "-Z",
+    "instance_scale": 1,
+    "visual_y_rotation_degrees": 90,
+    "root_motion": "Source vertical motion retained; host controls grid movement"
+  },
+  "skeleton": {
+    "bone_count": 12,
+    "bones": [
+      "Root",
+      "Projectile",
+      "Torso",
+      "Head",
+      "UpperArm_L",
+      "Forearm_L",
+      "Hand_L",
+      "Weapon",
+      "WeaponString",
+      "UpperArm_R",
+      "Forearm_R",
+      "Hand_R"
+    ],
+    "hands": {
+      "left": "Hand_L",
+      "right": "Hand_R"
+    },
+    "weapon_bones": [
+      "Weapon",
+      "WeaponString"
+    ]
+  },
+  "animations": {
+    "idle": {
+      "clip": "idle",
+      "duration": 0.8,
+      "loop": true,
+      "events": [],
+      "origin_kind": "New common bow draw, original string release and forward arrow flight using retained refined source; no new Tripo preset"
+    },
+    "attack": {
+      "clip": "attack",
+      "duration": 1.2,
+      "loop": false,
+      "events": [
+        {
+          "id": "contact-0",
+          "kind": "ranged_contact",
+          "seconds": 0.48
+        }
+      ],
+      "origin_kind": "New common bow draw, original string release and forward arrow flight using retained refined source; no new Tripo preset",
+      "gameplay_kinds": [
+        "attack"
+      ]
+    },
+    "guard": {
+      "clip": "guard",
+      "duration": 2.05,
+      "loop": false,
+      "events": [
+        {
+          "id": "guard-open",
+          "kind": "guard_window_open",
+          "seconds": 0.2
+        },
+        {
+          "id": "guard-close",
+          "kind": "guard_window_close",
+          "seconds": 1.75
+        }
+      ],
+      "origin_kind": "New common bow draw, original string release and forward arrow flight using retained refined source; no new Tripo preset",
+      "time_map": "guard_raise_hold_recover",
+      "raise_seconds": 0.2,
+      "recover_start_seconds": 1.75
+    },
+    "hit": {
+      "clip": "hit",
+      "duration": 0.8,
+      "loop": false,
+      "events": [],
+      "origin_kind": "New common bow draw, original string release and forward arrow flight using retained refined source; no new Tripo preset"
+    },
+    "board_move": {
+      "clip": "board_move",
+      "duration": 0.7,
+      "loop": false,
+      "events": [],
+      "origin_kind": "New common bow draw, original string release and forward arrow flight using retained refined source; no new Tripo preset"
+    },
+    "defeat": {
+      "clip": "defeat",
+      "duration": 1.1,
+      "loop": false,
+      "events": [
+        {
+          "id": "weapon-release",
+          "kind": "weapon_release_visual",
+          "seconds": 0.18333333333333332
+        }
+      ],
+      "origin_kind": "New common bow draw, original string release and forward arrow flight using retained refined source; no new Tripo preset"
+    }
+  },
+  "review": {
+    "native_reimport": true,
+    "godot_component": true,
+    "source_pose": true,
+    "godot_actual_battle": false,
+    "final_art": false,
+    "archery_target_clock": true,
+    "native_joint_samples": 9,
+    "native_rigid_mesh_samples": 3,
+    "actual_gpu_images_viewed": 10
+  },
+  "remaining": [
+    "Source open finger pose and right arm/chest occlusion require final review",
+    "Shoulder/neck garment creasing and natural dropped-arrow rest orientation remain deferred",
+    "Quiver/reserve loadout, battle LOD and formal native battle admission remain required"
+  ],
+  "projectile_presentation": {
+    "release_seconds": 0.32,
+    "contact_seconds": 0.48,
+    "tip_forward_source": "+X",
+    "source_baked_target_plane_x": 0.09,
+    "tip_bind_gltf": [
+      0.024304557591676712,
+      0.001195257529616356,
+      1.3049691915512085e-05
+    ],
+    "nock_bind_gltf": [
+      -0.008815448731184006,
+      0.001192245865240693,
+      -0.0
+    ],
+    "source_tip_witness": ".local/qa/shuihu-archery-motion-v1/actual-tip-witness.json"
+  }
+}

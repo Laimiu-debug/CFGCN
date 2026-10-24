@@ -18,3 +18,18 @@
 packages/godot-desktop-ui/desktop_view.gd -text
 apps/xiyou/godot/shared_desktop_ui/desktop_view.gd -text
 apps/shuihu/godot/shared_desktop_ui/desktop_view.gd -text
+
+# Preserve original bytes for the frozen M01 motion source checkpoint.
+apps/shuihu/godot/actors/ceramic_motion/archery_v1/ls092/ls092.curves.json -text
+apps/shuihu/godot/actors/ceramic_motion/archery_v1/ls092/ls092.motion.json -text
+apps/shuihu/godot/actors/ceramic_motion/archery_v1/ls092/ls092.tscn -text
+apps/shuihu/godot/actors/ceramic_motion/campaign_m01_v1/delivery.json -text
+apps/shuihu/godot/actors/ceramic_motion/campaign_m01_v1/ls082/ls082.tscn -text
+apps/shuihu/godot/actors/ceramic_motion/campaign_m01_v1/ls083/ls083.tscn -text
+apps/shuihu/godot/actors/ceramic_motion/linchong_task_sabre_v1/delivery.json -text
+apps/shuihu/godot/actors/ceramic_motion/linchong_task_sabre_v1/ls006/ls006.motion.json -text
+apps/shuihu/godot/actors/ceramic_motion/linchong_task_sabre_v1/ls006/ls006.tscn -text
+source/shuihu/godot/campaign-motion-v1/delivery.json -text
+source/shuihu/godot/campaign-motion-v1/sha256.json -text
+source/shuihu/godot/linchong-task-sabre-v1/delivery.json -text
+source/shuihu/godot/linchong-task-sabre-v1/sha256.json -text

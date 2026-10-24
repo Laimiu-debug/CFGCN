@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-24",
+  "delivery_id": "S2-M01-motion-v1",
+  "status": "three-friendly-candidates-actual-M01-QA-passed-awaiting-main-owner-receipt",
+  "mission": "M01",
+  "route": "receive",
+  "mission_selection_status": "proposed-from-current-main-source; receiver confirmation pending",
+  "presenter": "res://actors/ceramic_motion/campaign_presenter.gd",
+  "entries": [
+    {
+      "id": "ls092",
+      "name": "朱贵",
+      "family": "bow_crossbow",
+      "bones": 12,
+      "source": "apps/website/public/games/shuihu/combat/ls092-8a7358c0a7be.glb",
+      "source_sha256": "8a7358c0a7be7502b12a2492b762a834dedc33a37ca003a018ff74c28892f170",
+      "record": "apps/shuihu/art/pieces/source/ceramic-production/combat-rig-v1/ls092.json",
+      "scene": "res://actors/ceramic_motion/archery_v1/ls092/ls092.tscn",
+      "descriptor": "res://actors/ceramic_motion/archery_v1/ls092/ls092.motion.json",
+      "formal_admission": false,
+      "godot_component_verified": true,
+      "source_pose_verified": true,
+      "variant": "first-local-shared-bow-six-clips",
+      "native_tripo_preset": false,
+      "godot_actual_battle_tested": false,
+      "archery_target_clock_verified": true,
+      "expected_weapon": "bow",
+      "natural_gait": false,
+      "known_review_gap": "Original shared bow chest clearance fix not propagated; QA only"
+    },
+    {
+      "id": "ls082",
+      "name": "宋万",
+      "source": "apps/shuihu/art/pieces/source/ceramic-production/joint-continuity-v1/ls082/ls082-joint-continuity.glb",
+      "source_sha256": "ab0dca88e935b65c011aa46f279dfa57667297e26168d0275c5695882e2e79d5",
+      "scene": "res://actors/ceramic_motion/campaign_m01_v1/ls082/ls082.tscn",
+      "descriptor": "res://actors/ceramic_motion/campaign_m01_v1/ls082/ls082.motion.json",
+      "expected_weapon": "long_spear",
+      "formal_admission": false,
+      "model_rebaked": false,
+      "natural_gait": false
+    },
+    {
+      "id": "ls083",
+      "name": "杜迁",
+      "source": "apps/shuihu/art/pieces/source/ceramic-production/joint-continuity-v1/ls083/ls083-joint-continuity.glb",
+      "source_sha256": "d07403f3ec8bc2af856e30c116dd05021f5ce844e5d248a0b219afe09cf09d75",
+      "scene": "res://actors/ceramic_motion/campaign_m01_v1/ls083/ls083.tscn",
+      "descriptor": "res://actors/ceramic_motion/campaign_m01_v1/ls083/ls083.motion.json",
+      "expected_weapon": "staff",
+      "formal_admission": false,
+      "model_rebaked": false,
+      "natural_gait": false
+    }
+  ],
+  "missing": [
+    {
+      "id": "ls006",
+      "reason": "Rescue task rules equip sabre; retained Lin Chong source carries long spear. No substitution."
+    },
+    {
+      "prototype": "raider",
+      "instances": [
+        "enemy-0",
+        "enemy-1"
+      ],
+      "reason": "Dedicated ordinary source inventory pending from model owner; no named hero reused."
+    }
+  ],
+  "events": {
+    "movement": "Each authoritative 0.48-second path segment; board lift, not natural gait",
+    "facing": "host.actor_facing saved microradians; no competing aim clock",
+    "contact": "pending.impact -> descriptor contact 0.48; silent sampling consumes visual events",
+    "guard": "Hold until owning rules expire guard/effect",
+    "hit": "Actual HP/armor/shield loss only",
+    "defeat": "Live zero HP; cold existing zero HP seeks final pose silently",
+    "exit": "Authoritative evacuated visibility",
+    "pause": "No rule, facing or skeleton time advances",
+    "cold_load": "Reinstall after host restores battle and facing; derive pending pose without damage/cost/audio requests"
+  },
+  "ownership": {
+    "rules_damage_costs_ledger_saves_HUD_windows": "Shuihu main owner",
+    "resources_motion_presenter_QA": "Shuihu motion owner"
+  },
+  "normal_admission": false,
+  "receiver_received": false,
+  "permanent_main_integration": false,
+  "campaign_complete": false,
+  "windows_acceptance": false,
+  "web_acceptance": false,
+  "runtime_manifest": "res://actors/ceramic_motion/campaign_m01_v1/delivery.json",
+  "validation": {
+    "actual_main_scene": true,
+    "isolated_public_new_game_and_departure": true,
+    "player_input": "Scripted legal public requests plus actual guard/pause input; not external human",
+    "main_actor_hp_ap_positions_roster_rewritten": false,
+    "actual_enemy_AI": true,
+    "warm_checks": 73,
+    "second_process_cold_checks": 28,
+    "actual_result": "M01 won in round 9; four actors individually evacuated; same camp settled",
+    "actual_source_contact_seconds": 0.48,
+    "live_friendly_defeat_exercised": false,
+    "visual_gameplay_requests_emitted": 0,
+    "main_owner_files_SHA_unchanged": true,
+    "warm_report": ".local/qa/shuihu-campaign-motion-v1/result.json",
+    "warm_report_sha256": "68a9ecffd1036cb8e698f1c98fe7b8eef28bacd98777f411761e4b2ef09f076d",
+    "cold_report": ".local/qa/shuihu-campaign-motion-v1/cold-result.json",
+    "cold_report_sha256": "1648d6d7ea653f4de890d5572819b6c1b1f7f9d174da2efd16b47a4116905f7a",
+    "original_fixed_camera_action_visibility_gap": "Retained two rejected out-of-frame action images. Final action images use QA-only refocus of the original tactical camera.",
+    "audio_listening_acceptance": false,
+    "performance_acceptance": false
+  },
+  "handoff": "docs/shuihu-campaign-motion-handoff.md",
+  "sha256_table": "source/shuihu/godot/campaign-motion-v1/sha256.json",
+  "next": "Match rescued Lin Chong sabre state and dedicated ordinary raider sources, then read permanent main owner playback receipt before expanding M02-M05."
+}

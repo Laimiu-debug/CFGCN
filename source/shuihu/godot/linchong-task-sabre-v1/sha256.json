@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "files": [
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/battle_pose_clock.gd",
+      "bytes": 2928,
+      "sha256": "8ce611b3f43350438db9d68d8a527ea711d694558a0fe9d54b29e0dfd4c7ece1"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/battle_presenter.gd",
+      "bytes": 12423,
+      "sha256": "d5ec049fae4742345b2953184b80623ab90638ab6634907dc01a12ca438ef4bc"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/campaign_presenter.gd",
+      "bytes": 5706,
+      "sha256": "8ee4dbcc2f8c1af5859e2df72e97161e0501d170b89da50ff7eb7355db809c97"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/ceramic_actor.gd",
+      "bytes": 7482,
+      "sha256": "f50b61d2f32979b478b863848029bff4eb7ac2d04ade92cc40186cad3baad8cc"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/linchong_task_sabre_v1/delivery.json",
+      "bytes": 3296,
+      "sha256": "c6282fc005cdd1136ea366da68328eb2d26251185068e2877380fc25e6d28694"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/linchong_task_sabre_v1/ls006/ls006.curves.json",
+      "bytes": 1076211,
+      "sha256": "02c339a63805dbe2535f698aec42ef2060ccdeaf457257f007d29197893a2c09"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/linchong_task_sabre_v1/ls006/ls006.glb",
+      "bytes": 5114820,
+      "sha256": "ea4e0590a394eccc3d44a93bc2690e9aa5b50f4b11ce530ee8faed0884bed6eb"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/linchong_task_sabre_v1/ls006/ls006.motion.json",
+      "bytes": 3735,
+      "sha256": "f5d2177e47105bb7ef64dd0b7d1b35bac629930e40c7e2f1434b967d2e5c16bb"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/linchong_task_sabre_v1/ls006/ls006.tscn",
+      "bytes": 548,
+      "sha256": "ffe866cda73c3f2c7904dad64092274827a5e1e63c6bc2d95063b08b54a77557"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/linchong_task_sabre_v1/ls006/ls006_batch017-equipment-sabre-component-00-0-coat.png",
+      "bytes": 259,
+      "sha256": "c9666c78437278e2fe510142318fa0fc2b7b6dcbd77836a498686d057e3715fc"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/linchong_task_sabre_v1/ls006/ls006_batch017-equipment-sabre-component-00-0-roughness.png",
+      "bytes": 259,
+      "sha256": "b291af3ae3e3b6a8d70e11fa556c87788785e1cb8af84800ee67756b5b147530"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/linchong_task_sabre_v1/ls006/ls006_ls006-coat.png",
+      "bytes": 99797,
+      "sha256": "2a05bd452cb5df570a9ae0d6d2d9fe11a22f341e4cac1b2f22074cd2790e805a"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/linchong_task_sabre_v1/ls006/ls006_ls006-colour.png",
+      "bytes": 1499381,
+      "sha256": "d1b73981de55bf23e77af4aae9071d82fb463401268d9e5bacd39c3b7547e3ee"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/linchong_task_sabre_v1/ls006/ls006_ls006-roughness.png",
+      "bytes": 164397,
+      "sha256": "2260aa546ecf36b25f735adb973899e5f1374c8f69b68650d273e047f35ca5b5"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/linchong_task_sabre_v1/ls006/ls006_弯刀3d模型_basecolor.png",
+      "bytes": 1511809,
+      "sha256": "5fb99ec2ca5c28daa8f917a1f45da1aa571db8800476a0e048684f72ba3ea898"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/m01_task_presenter.gd",
+      "bytes": 1137,
+      "sha256": "00c36078a4ae202d06506109d886b26cc58543b8bd56e7978a272d9bfa5fb851"
+    },
+    {
+      "path": "apps/shuihu/godot/actors/ceramic_motion/preserve_existing_clips.gd",
+      "bytes": 3050,
+      "sha256": "c4a7bee3b316ee8460a7d92a8a2b4994fd3bf76436a3d2bfdd8efa8789e53b5b"
+    },
+    {
+      "path": "docs/shuihu-linchong-task-sabre.md",
+      "bytes": 4950,
+      "sha256": "08fe54dc2fd4f455d7942dc76f85c753086c3a12b78a14d0a6c49e6e6dea0179"
+    },
+    {
+      "path": "source/shuihu/godot/linchong-task-sabre-v1/delivery.json",
+      "bytes": 3296,
+      "sha256": "c6282fc005cdd1136ea366da68328eb2d26251185068e2877380fc25e6d28694"
+    }
+  ]
+}

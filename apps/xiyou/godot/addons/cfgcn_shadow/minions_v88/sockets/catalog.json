@@ -1,0 +1,791 @@
+{
+	"models": [
+		{
+			"bindings": [
+				{
+					"bone": "weapon",
+					"name": "weapon.center",
+					"point": [
+						-0.00006198,
+						0.28811489,
+						-0.00750001
+					]
+				},
+				{
+					"bone": "body_2",
+					"name": "chest",
+					"point": [
+						-0.14538204,
+						0.25385908,
+						-0.0149835
+					]
+				},
+				{
+					"bone": "head",
+					"name": "head",
+					"point": [
+						-0.03456471,
+						0.27914417,
+						0.00040051
+					]
+				},
+				{
+					"bone": "forearm.back",
+					"name": "hand.back",
+					"point": [
+						0.00304829,
+						0.3345538,
+						-0.02900644
+					]
+				},
+				{
+					"bone": "weapon",
+					"name": "weapon",
+					"point": [
+						-0.00000001,
+						0.00000004,
+						-0.00750001
+					]
+				},
+				{
+					"bone": "weapon",
+					"name": "weapon.tip",
+					"point": [
+						0.0717982,
+						0.68580582,
+						-0.00750003
+					]
+				},
+				{
+					"bone": "pelvis",
+					"name": "actor",
+					"point": [
+						0.0,
+						0.0,
+						0.0
+					]
+				},
+				{
+					"bone": "foot.front",
+					"name": "foot.front",
+					"point": [
+						0.0,
+						0.0,
+						0.0
+					]
+				},
+				{
+					"bone": "forearm.front",
+					"name": "hand.front",
+					"point": [
+						-0.00000003,
+						0.33477574,
+						-0.01900001
+					]
+				}
+			],
+			"bones": 16,
+			"clips": {
+				"HitRecoil": {
+					"frames": 1058.0,
+					"length": 0.550000011920929,
+					"row": 6820
+				},
+				"Idle": {
+					"frames": 3457.0,
+					"length": 1.79999995231628,
+					"row": 0
+				},
+				"SaberSlash": {
+					"frames": 1506.0,
+					"length": 0.783333361148834,
+					"row": 3457
+				},
+				"Walk": {
+					"frames": 1857.0,
+					"length": 0.966666638851166,
+					"row": 4963
+				}
+			},
+			"comparisons": 1260,
+			"id": "wolf",
+			"maximumSampleErrorM": 0.0000680784287396818,
+			"poses": "res://addons/cfgcn_shadow/minions_v88/sockets/sockets-5.res",
+			"profile": 5,
+			"rate": 1920.0,
+			"rows": 7878,
+			"savedPixelsExact": true,
+			"sha256": "9f5d763fd6e9d31ed0b2ad03c58171b2bfa23ef40584302edad05e3dd20596fc",
+			"sockets": [
+				"weapon.center",
+				"chest",
+				"head",
+				"hand.back",
+				"weapon",
+				"weapon.tip",
+				"actor",
+				"foot.front",
+				"hand.front"
+			],
+			"sourceModel": "res://art/runtime/shadow/wolf.glb",
+			"sourceSHA256": "a05ed44582c8782a2b0213cfbfd4290901f3084e95fd27f410c5afd51f2e727f",
+			"width": 9
+		},
+		{
+			"bindings": [
+				{
+					"bone": "weapon",
+					"name": "weapon.center",
+					"point": [
+						-0.01632472,
+						0.5414445,
+						-0.0075
+					]
+				},
+				{
+					"bone": "body_2",
+					"name": "chest",
+					"point": [
+						-0.30445566,
+						0.37319126,
+						-0.03307326
+					]
+				},
+				{
+					"bone": "head",
+					"name": "head",
+					"point": [
+						-0.03586376,
+						0.32954453,
+						0.00033609
+					]
+				},
+				{
+					"bone": "forearm.back",
+					"name": "hand.back",
+					"point": [
+						-0.00845611,
+						0.35392458,
+						-0.02904212
+					]
+				},
+				{
+					"bone": "weapon",
+					"name": "weapon",
+					"point": [
+						0.00000005,
+						-0.00000002,
+						-0.0075
+					]
+				},
+				{
+					"bone": "weapon",
+					"name": "weapon.tip",
+					"point": [
+						0.0522975,
+						1.25079579,
+						-0.00750001
+					]
+				},
+				{
+					"bone": "pelvis",
+					"name": "actor",
+					"point": [
+						0.0,
+						0.0,
+						0.0
+					]
+				},
+				{
+					"bone": "foot.front",
+					"name": "foot.front",
+					"point": [
+						0.0,
+						0.0,
+						0.0
+					]
+				},
+				{
+					"bone": "forearm.front",
+					"name": "hand.front",
+					"point": [
+						-0.00000002,
+						0.35422571,
+						-0.019
+					]
+				}
+			],
+			"bones": 16,
+			"clips": {
+				"AxeCleave": {
+					"frames": 2306.0,
+					"length": 1.20000004768372,
+					"row": 0
+				},
+				"HitRecoil": {
+					"frames": 1058.0,
+					"length": 0.550000011920929,
+					"row": 8036
+				},
+				"Idle": {
+					"frames": 3457.0,
+					"length": 1.79999995231628,
+					"row": 2306
+				},
+				"Walk": {
+					"frames": 2273.0,
+					"length": 1.18333327770233,
+					"row": 5763
+				}
+			},
+			"comparisons": 1260,
+			"id": "tiger",
+			"maximumSampleErrorM": 0.000104613878647797,
+			"poses": "res://addons/cfgcn_shadow/minions_v88/sockets/sockets-6.res",
+			"profile": 6,
+			"rate": 1920.0,
+			"rows": 9094,
+			"savedPixelsExact": true,
+			"sha256": "41d85d660948edb916567df4f017252aa54515d749d5015bced2150c9504ad83",
+			"sockets": [
+				"weapon.center",
+				"chest",
+				"head",
+				"hand.back",
+				"weapon",
+				"weapon.tip",
+				"actor",
+				"foot.front",
+				"hand.front"
+			],
+			"sourceModel": "res://art/runtime/shadow/tiger.glb",
+			"sourceSHA256": "cc5c854de5981802f123228ec429b97813bd547c038afe3bf26a639d77763911",
+			"width": 9
+		},
+		{
+			"bindings": [
+				{
+					"bone": "weapon",
+					"name": "weapon.center",
+					"point": [
+						-0.00000004,
+						0.29472697,
+						0.0
+					]
+				},
+				{
+					"bone": "body",
+					"name": "chest",
+					"point": [
+						-0.16873467,
+						0.20269252,
+						-0.00000002
+					]
+				},
+				{
+					"bone": "head",
+					"name": "head",
+					"point": [
+						-0.02221457,
+						0.19256917,
+						0.0
+					]
+				},
+				{
+					"bone": "forearm.front",
+					"name": "hand.front",
+					"point": [
+						0.00000004,
+						0.30574026,
+						0.0
+					]
+				},
+				{
+					"bone": "forearm.back",
+					"name": "hand.back",
+					"point": [
+						0.00007796,
+						0.30574017,
+						0.0
+					]
+				},
+				{
+					"bone": "weapon",
+					"name": "weapon",
+					"point": [
+						-0.00000004,
+						-0.00000009,
+						0.0
+					]
+				},
+				{
+					"bone": "weapon",
+					"name": "weapon.tip",
+					"point": [
+						-0.01038879,
+						0.68742155,
+						0.0
+					]
+				},
+				{
+					"bone": "pelvis",
+					"name": "actor",
+					"point": [
+						0.06638056,
+						0.01316639,
+						-0.00000001
+					]
+				},
+				{
+					"bone": "foot.front",
+					"name": "foot.front",
+					"point": [
+						-0.00000001,
+						-0.00000003,
+						0.0
+					]
+				}
+			],
+			"bones": 16,
+			"clips": {
+				"HitRecoil": {
+					"frames": 1058.0,
+					"length": 0.550000011920929,
+					"row": 7492
+				},
+				"Idle": {
+					"frames": 3457.0,
+					"length": 1.79999995231628,
+					"row": 0
+				},
+				"StoneThrow": {
+					"frames": 2306.0,
+					"length": 1.20000004768372,
+					"row": 3457
+				},
+				"Walk": {
+					"frames": 1729.0,
+					"length": 0.899999976158142,
+					"row": 5763
+				}
+			},
+			"comparisons": 1260,
+			"id": "shanxiao",
+			"maximumSampleErrorM": 0.000157214453793131,
+			"poses": "res://addons/cfgcn_shadow/minions_v88/sockets/sockets-37.res",
+			"profile": 37,
+			"rate": 1920.0,
+			"rows": 8550,
+			"savedPixelsExact": true,
+			"sha256": "7e6eebec2079f8cb52f7e943aab19b2f3394fa31e6542fd43be6c194faa9d9c2",
+			"sockets": [
+				"weapon.center",
+				"chest",
+				"head",
+				"hand.front",
+				"hand.back",
+				"weapon",
+				"weapon.tip",
+				"actor",
+				"foot.front"
+			],
+			"sourceModel": "res://art/runtime/shadow/shanxiao-minor-v48.glb",
+			"sourceSHA256": "6c92c69deb0dd77bff3b7495e7a51f7fa00f8a12ee20698c801a2e93af6d3db8",
+			"width": 9
+		},
+		{
+			"bindings": [
+				{
+					"bone": "weapon",
+					"name": "weapon.center",
+					"point": [
+						0.0,
+						0.737906,
+						0.0
+					]
+				},
+				{
+					"bone": "body",
+					"name": "chest",
+					"point": [
+						0.142674,
+						0.28472247,
+						0.0
+					]
+				},
+				{
+					"bone": "head",
+					"name": "head",
+					"point": [
+						-0.02027337,
+						0.1999637,
+						0.0
+					]
+				},
+				{
+					"bone": "forearm.front",
+					"name": "hand.front",
+					"point": [
+						0.00000003,
+						0.31665988,
+						0.0
+					]
+				},
+				{
+					"bone": "forearm.back",
+					"name": "hand.back",
+					"point": [
+						0.00148077,
+						0.31665644,
+						0.0
+					]
+				},
+				{
+					"bone": "weapon",
+					"name": "weapon",
+					"point": [
+						-0.00000002,
+						-0.00000006,
+						0.0
+					]
+				},
+				{
+					"bone": "weapon",
+					"name": "weapon.tip",
+					"point": [
+						0.05929152,
+						1.71819458,
+						0.0
+					]
+				},
+				{
+					"bone": "pelvis",
+					"name": "actor",
+					"point": [
+						-0.0783378,
+						0.0434079,
+						0.0
+					]
+				},
+				{
+					"bone": "foot.front",
+					"name": "foot.front",
+					"point": [
+						0.00000006,
+						-0.00000003,
+						0.0
+					]
+				}
+			],
+			"bones": 16,
+			"clips": {
+				"HitRecoil": {
+					"frames": 1058.0,
+					"length": 0.550000011920929,
+					"row": 7428
+				},
+				"Idle": {
+					"frames": 3457.0,
+					"length": 1.79999995231628,
+					"row": 0
+				},
+				"SpearThrust": {
+					"frames": 2114.0,
+					"length": 1.10000002384186,
+					"row": 3457
+				},
+				"Walk": {
+					"frames": 1857.0,
+					"length": 0.966666638851166,
+					"row": 5571
+				}
+			},
+			"comparisons": 1260,
+			"id": "snakeguard",
+			"maximumSampleErrorM": 0.000165564590133727,
+			"poses": "res://addons/cfgcn_shadow/minions_v88/sockets/sockets-38.res",
+			"profile": 38,
+			"rate": 1920.0,
+			"rows": 8486,
+			"savedPixelsExact": true,
+			"sha256": "dc622ffd6bc1eff74c5f8d5e58b069bb7410848a499ee2d0c103a25fc84afcb4",
+			"sockets": [
+				"weapon.center",
+				"chest",
+				"head",
+				"hand.front",
+				"hand.back",
+				"weapon",
+				"weapon.tip",
+				"actor",
+				"foot.front"
+			],
+			"sourceModel": "res://art/runtime/shadow/snakeguard-minor-v48.glb",
+			"sourceSHA256": "9e7c152c9405a3a3c6270dda36f6a67b21f9d73579fc1ebb666dbbe3fb832c72",
+			"width": 9
+		},
+		{
+			"bindings": [
+				{
+					"bone": "weapon",
+					"name": "weapon.center",
+					"point": [
+						0.00000013,
+						0.46668208,
+						0.0
+					]
+				},
+				{
+					"bone": "body",
+					"name": "chest",
+					"point": [
+						-0.18221632,
+						0.30532136,
+						-0.00000002
+					]
+				},
+				{
+					"bone": "head",
+					"name": "head",
+					"point": [
+						-0.02786526,
+						0.21590501,
+						0.0
+					]
+				},
+				{
+					"bone": "forearm.front",
+					"name": "hand.front",
+					"point": [
+						-0.00000014,
+						0.29101,
+						0.0
+					]
+				},
+				{
+					"bone": "forearm.back",
+					"name": "hand.back",
+					"point": [
+						-0.00526116,
+						0.29096243,
+						0.0
+					]
+				},
+				{
+					"bone": "weapon",
+					"name": "weapon",
+					"point": [
+						0.00000013,
+						-0.00000002,
+						0.0
+					]
+				},
+				{
+					"bone": "weapon",
+					"name": "weapon.tip",
+					"point": [
+						-0.01422675,
+						1.08859944,
+						-0.00000001
+					]
+				},
+				{
+					"bone": "pelvis",
+					"name": "actor",
+					"point": [
+						-0.07600096,
+						0.02487308,
+						-0.00000001
+					]
+				},
+				{
+					"bone": "foot.front",
+					"name": "foot.front",
+					"point": [
+						0.00000001,
+						0.0,
+						0.0
+					]
+				}
+			],
+			"bones": 16,
+			"clips": {
+				"HitRecoil": {
+					"frames": 1058.0,
+					"length": 0.550000011920929,
+					"row": 8996
+				},
+				"Idle": {
+					"frames": 3457.0,
+					"length": 1.79999995231628,
+					"row": 0
+				},
+				"RootSlam": {
+					"frames": 3266.0,
+					"length": 1.70000004768372,
+					"row": 3457
+				},
+				"Walk": {
+					"frames": 2273.0,
+					"length": 1.18333327770233,
+					"row": 6723
+				}
+			},
+			"comparisons": 1260,
+			"id": "vineguard",
+			"maximumSampleErrorM": 0.00015113664267119,
+			"poses": "res://addons/cfgcn_shadow/minions_v88/sockets/sockets-39.res",
+			"profile": 39,
+			"rate": 1920.0,
+			"rows": 10054,
+			"savedPixelsExact": true,
+			"sha256": "e20af9238dde03f269a65e7822ea6ba31ed2935f741e69ba00fb01148b50ab82",
+			"sockets": [
+				"weapon.center",
+				"chest",
+				"head",
+				"hand.front",
+				"hand.back",
+				"weapon",
+				"weapon.tip",
+				"actor",
+				"foot.front"
+			],
+			"sourceModel": "res://art/runtime/shadow/vineguard-minor-v48.glb",
+			"sourceSHA256": "6a72a2da463a768881f8b5bb87b719e22048a556416a1da6dbb09ed6d06a005c",
+			"width": 9
+		},
+		{
+			"bindings": [
+				{
+					"bone": "weapon",
+					"name": "weapon.center",
+					"point": [
+						0.00000003,
+						0.33002528,
+						0.0
+					]
+				},
+				{
+					"bone": "body",
+					"name": "chest",
+					"point": [
+						0.00000001,
+						0.28474797,
+						0.0
+					]
+				},
+				{
+					"bone": "head",
+					"name": "head",
+					"point": [
+						-0.02008646,
+						0.19909823,
+						0.0
+					]
+				},
+				{
+					"bone": "forearm.front",
+					"name": "hand.front",
+					"point": [
+						-0.00000003,
+						0.26964763,
+						0.0
+					]
+				},
+				{
+					"bone": "forearm.back",
+					"name": "hand.back",
+					"point": [
+						-0.00239237,
+						0.26963704,
+						0.0
+					]
+				},
+				{
+					"bone": "weapon",
+					"name": "weapon",
+					"point": [
+						0.00000003,
+						0.00000008,
+						0.0
+					]
+				},
+				{
+					"bone": "weapon",
+					"name": "weapon.tip",
+					"point": [
+						-0.01191624,
+						0.76973594,
+						0.0
+					]
+				},
+				{
+					"bone": "pelvis",
+					"name": "actor",
+					"point": [
+						-0.06700455,
+						0.02494546,
+						0.00000001
+					]
+				},
+				{
+					"bone": "foot.front",
+					"name": "foot.front",
+					"point": [
+						0.00000001,
+						0.00000002,
+						0.0
+					]
+				}
+			],
+			"bones": 16,
+			"clips": {
+				"HitRecoil": {
+					"frames": 1058.0,
+					"length": 0.550000011920929,
+					"row": 8259
+				},
+				"Idle": {
+					"frames": 3457.0,
+					"length": 1.79999995231628,
+					"row": 0
+				},
+				"TalismanCast": {
+					"frames": 2881.0,
+					"length": 1.5,
+					"row": 3457
+				},
+				"Walk": {
+					"frames": 1921.0,
+					"length": 1.0,
+					"row": 6338
+				}
+			},
+			"comparisons": 1260,
+			"id": "foxtalisman",
+			"maximumSampleErrorM": 0.0000648402201477438,
+			"poses": "res://addons/cfgcn_shadow/minions_v88/sockets/sockets-40.res",
+			"profile": 40,
+			"rate": 1920.0,
+			"rows": 9317,
+			"savedPixelsExact": true,
+			"sha256": "141c8e866b2181e08a2e1acc45ec210bcc25b70b9e9c8f7fe5c883250eb2ac10",
+			"sockets": [
+				"weapon.center",
+				"chest",
+				"head",
+				"hand.front",
+				"hand.back",
+				"weapon",
+				"weapon.tip",
+				"actor",
+				"foot.front"
+			],
+			"sourceModel": "res://art/runtime/shadow/foxtalisman-minor-v48.glb",
+			"sourceSHA256": "f283931b1d2e9cad5f7b2e5badfdd9599d85a38627c131b24d432046724f6177",
+			"width": 9
+		}
+	],
+	"scope": "CPU image derivative of original source bones, nine declared original sockets and the same source clip sample times as the accepted VAT. Existing base mesh/UV/atlas/three-clip textures and v87 HitRecoil assets unchanged. Readonly presentation; no new model/animation/Native rules."
+}

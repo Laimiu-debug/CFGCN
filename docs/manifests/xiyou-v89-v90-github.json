@@ -1,0 +1,263 @@
+{
+  "schemaVersion": 1,
+  "batch": "xiyou-v89-v90-20261024T0900",
+  "date": "2026-10-24",
+  "sourceOwner": "西游｜五人动作、技能特效与小怪",
+  "receiver": "西游｜主工程、玩法融合与完整流程",
+  "scope": "Frozen v87/v88 reactions/sockets/ordinary projectile assets plus v89 WhiteWaveStep and v90 HealingVow/TangSeng guard drawing modules; retain four versioned integration patches, do not apply or overwrite live main files.",
+  "files": [
+    {
+      "path": "apps/xiyou/godot/addons/cfgcn_shadow/flights_v89/forms.gd",
+      "bytes": 1034,
+      "sha256": "a816da71a71ff951945df2fff4fcd4be49e6d5999fa363478b27a11766ea5cbb"
+    },
+    {
+      "path": "apps/xiyou/godot/addons/cfgcn_shadow/flights_v89/shapes.gd",
+      "bytes": 507,
+      "sha256": "abd4917859fe9d3726456e9cb99c91732f7ad9c11620ac46e041485125e17d9e"
+    },
+    {
+      "path": "apps/xiyou/godot/addons/cfgcn_shadow/flights_v89/wave-geometry.json",
+      "bytes": 39946,
+      "sha256": "4b506b4a529e83d8b20abf074cda2fa1bff21ccb485ccf70e25285e96d198e8f"
+    },
+    {
+      "path": "apps/xiyou/godot/addons/cfgcn_shadow/minions_v87/hit/catalog.json",
+      "bytes": 4515,
+      "sha256": "c6fa4926fd4b9a6a46871053beb5d53ae98c71c4daebbf40723b33f8b54e701e"
+    },
+    {
+      "path": "apps/xiyou/godot/addons/cfgcn_shadow/minions_v87/hit/hit-37.res",
+      "bytes": 557984,
+      "sha256": "a19e30584628d5b54d309b10a92d7244134a0fce9c8eb0625d4a6a67330f8fae"
+    },
+    {
+      "path": "apps/xiyou/godot/addons/cfgcn_shadow/minions_v87/hit/hit-38.res",
+      "bytes": 563024,
+      "sha256": "a5d2691e7159a6fd9029c9309153af62d0d17bd295358cef1f238e677a03db8d"
+    },
+    {
+      "path": "apps/xiyou/godot/addons/cfgcn_shadow/minions_v87/hit/hit-39.res",
+      "bytes": 561034,
+      "sha256": "11eb4ebb14ca79959b60793095b71bfff0d0e5359f64634e66d335c39c2178a5"
+    },
+    {
+      "path": "apps/xiyou/godot/addons/cfgcn_shadow/minions_v87/hit/hit-40.res",
+      "bytes": 552000,
+      "sha256": "2c45b8cc17789f6a263548529a3acbc55dc926bfae017d2f61034ab78ae933df"
+    },
+    {
+      "path": "apps/xiyou/godot/addons/cfgcn_shadow/minions_v87/hit/hit-5.res",
+      "bytes": 627057,
+      "sha256": "c0c84a2be1bdea4e26bea2bd824de72b7cc85fddc2e6f4cc28402352e9ac41a1"
+    },
+    {
+      "path": "apps/xiyou/godot/addons/cfgcn_shadow/minions_v87/hit/hit-6.res",
+      "bytes": 634589,
+      "sha256": "28be5110c1bc1c0c447bb900999b52b0e1a5fa1dd7a2cfb411b5e0beb144d026"
+    },
+    {
+      "path": "apps/xiyou/godot/addons/cfgcn_shadow/minions_v87/reaction_vat.gdshader",
+      "bytes": 1601,
+      "sha256": "c4f699f88ee83bd37c6398339ed4a5ab4f1b782d93d6b6f60815f4c321225791"
+    },
+    {
+      "path": "apps/xiyou/godot/addons/cfgcn_shadow/minions_v87/reactions.gd",
+      "bytes": 2006,
+      "sha256": "6b5c3b8e5705948b7c1867afe88554c292b472ef45113ebbbfa8fc6dfe27f0a6"
+    },
+    {
+      "path": "apps/xiyou/godot/addons/cfgcn_shadow/minions_v88/ink.gdshader",
+      "bytes": 184,
+      "sha256": "395c8bb81775b621086bb976cd1aaefd185b209b3d3da322abadfbc10f0d4d37"
+    },
+    {
+      "path": "apps/xiyou/godot/addons/cfgcn_shadow/minions_v88/ink_forms.gd",
+      "bytes": 2086,
+      "sha256": "340ab5da82c8393ae7731db231d42400e90c8b073ecee3c815dac2ca52e922c9"
+    },
+    {
+      "path": "apps/xiyou/godot/addons/cfgcn_shadow/minions_v88/ordinary_layer.gd",
+      "bytes": 10274,
+      "sha256": "8e91c33406098f75512ba3c8f8d24c8841c226689638289e4b8a38599f1de02e"
+    },
+    {
+      "path": "apps/xiyou/godot/addons/cfgcn_shadow/minions_v88/sockets/catalog.json",
+      "bytes": 14177,
+      "sha256": "e4ff33a73f886432044fb24a7f0096fd1dcc9e23b28d2ca0c726614625671d93"
+    },
+    {
+      "path": "apps/xiyou/godot/addons/cfgcn_shadow/minions_v88/sockets/sockets-37.res",
+      "bytes": 417209,
+      "sha256": "7e6eebec2079f8cb52f7e943aab19b2f3394fa31e6542fd43be6c194faa9d9c2"
+    },
+    {
+      "path": "apps/xiyou/godot/addons/cfgcn_shadow/minions_v88/sockets/sockets-38.res",
+      "bytes": 412399,
+      "sha256": "dc622ffd6bc1eff74c5f8d5e58b069bb7410848a499ee2d0c103a25fc84afcb4"
+    },
+    {
+      "path": "apps/xiyou/godot/addons/cfgcn_shadow/minions_v88/sockets/sockets-39.res",
+      "bytes": 512820,
+      "sha256": "e20af9238dde03f269a65e7822ea6ba31ed2935f741e69ba00fb01148b50ab82"
+    },
+    {
+      "path": "apps/xiyou/godot/addons/cfgcn_shadow/minions_v88/sockets/sockets-40.res",
+      "bytes": 459919,
+      "sha256": "141c8e866b2181e08a2e1acc45ec210bcc25b70b9e9c8f7fe5c883250eb2ac10"
+    },
+    {
+      "path": "apps/xiyou/godot/addons/cfgcn_shadow/minions_v88/sockets/sockets-5.res",
+      "bytes": 415721,
+      "sha256": "9f5d763fd6e9d31ed0b2ad03c58171b2bfa23ef40584302edad05e3dd20596fc"
+    },
+    {
+      "path": "apps/xiyou/godot/addons/cfgcn_shadow/minions_v88/sockets/sockets-6.res",
+      "bytes": 505201,
+      "sha256": "41d85d660948edb916567df4f017252aa54515d749d5015bced2150c9504ad83"
+    },
+    {
+      "path": "apps/xiyou/godot/addons/cfgcn_shadow/minions_v88/source_sockets.gd",
+      "bytes": 3632,
+      "sha256": "cde1fe847b016305fb9146eaf91266f604ab5579bc83db07e00f71d6b173439d"
+    },
+    {
+      "path": "apps/xiyou/godot/addons/cfgcn_shadow/pilgrim_support_v90/forms.gd",
+      "bytes": 2485,
+      "sha256": "482261947f6976a6c59594d0d2cc1f60ebc136f5739d21032b44ea75bb20dbfc"
+    },
+    {
+      "path": "apps/xiyou/godot/addons/cfgcn_shadow/pilgrim_support_v90/geometry.json",
+      "bytes": 83022,
+      "sha256": "d2825c2bdf36ab48a74ed57ad17e1626353a50d1c18de8635fc3994f33ea5287"
+    },
+    {
+      "path": "apps/xiyou/godot/addons/cfgcn_shadow/pilgrim_support_v90/shapes.gd",
+      "bytes": 428,
+      "sha256": "efa85cad4263e8787c39d6f5a66cfed7801374c513d526413923ca8d2673d212"
+    },
+    {
+      "path": "source/xiyou/godot/main-compat-v89/handoff.json",
+      "bytes": 15457,
+      "sha256": "5393534b76552cc8097c6fe515acc55072b9f91e9b517361d79d77ff76fefb6c"
+    },
+    {
+      "path": "source/xiyou/godot/main-compat-v89/integration/ink_world-from-v13.patch",
+      "bytes": 2993,
+      "sha256": "9eb1ed21b277671e37b6951178cf316849d78386595d68a27a7622ee4205fec1"
+    },
+    {
+      "path": "source/xiyou/godot/main-compat-v89/integration/minion_crowd-from-v13.patch",
+      "bytes": 4480,
+      "sha256": "019e448f1c5d42ad712be3f23f6f75a19d164e2b9f7d8abee00b89e8204c205f"
+    },
+    {
+      "path": "source/xiyou/godot/main-compat-v89/integration/projectile_layer-from-v13.patch",
+      "bytes": 599,
+      "sha256": "8a1d53e485a7b955e2024dda7f99382e04b5c32e3e5c53bc2d4d4ab70f4580a7"
+    },
+    {
+      "path": "source/xiyou/godot/pilgrim-support-v90/handoff.json",
+      "bytes": 8403,
+      "sha256": "1912d9bca8b4f2b94b628415df93959804f08f13ceadf0da3696225981f0de6a"
+    },
+    {
+      "path": "source/xiyou/godot/pilgrim-support-v90/integration/support-layer-from-v13.patch",
+      "bytes": 564,
+      "sha256": "afd01bb8fc6ce07b3183287e212fadb03774c93bd83969240a08c43ec30e1595"
+    }
+  ],
+  "sourceProofs": [
+    {
+      "handoff": "source/xiyou/godot/main-compat-v89/handoff.json",
+      "sha256": "5393534b76552cc8097c6fe515acc55072b9f91e9b517361d79d77ff76fefb6c",
+      "sourceProofSummary": {
+        "actualInputFrames": 3600,
+        "completeRenderMismatches": 0,
+        "saveCheckpoints": 60,
+        "saveMismatches": 0,
+        "finalFullSaveExact": true,
+        "checks": 45,
+        "sourceKinds": 6,
+        "maximumSourcePointErrorM": 0.000488519610371441,
+        "actualWaveProjectiles": 10,
+        "actualGPUImages": 9,
+        "maxOrdinaryVertices": 234,
+        "fixedOrdinaryCapacity": 8184,
+        "maxFlightMeshes": 5,
+        "fixedFlightCapacity": 96.0,
+        "actualMissing": 0,
+        "actualOverflow": 0
+      },
+      "scopeLimits": "Actual prefix only, not new full chapter completion, human OS input/feel, FPS/long-term/multiple hardware, current default exported package or all60 final-art approval."
+    },
+    {
+      "handoff": "source/xiyou/godot/pilgrim-support-v90/handoff.json",
+      "sha256": "1912d9bca8b4f2b94b628415df93959804f08f13ceadf0da3696225981f0de6a",
+      "sourceProofSummary": {
+        "originalAutomaticInputs": 3600,
+        "completeRenderMismatches": 0,
+        "completeSaveCheckpoints": 60,
+        "automaticHealEvents": 0,
+        "automaticGuardFrames": 3277,
+        "originalChecks": 13,
+        "originalChecksPassed": 11,
+        "originalUnmetOpportunityChecks": [
+          {
+            "name": "actual native healing cues have real source/recipient sockets",
+            "pass": false
+          },
+          {
+            "name": "actual guard and healing phases GPU-reviewed candidates captured",
+            "pass": false
+          }
+        ],
+        "supplementCaseInputs": 1800,
+        "sameOriginalPrefix": 1343,
+        "actualSupplementFrame": 1344,
+        "finalChecks": 32,
+        "allPairedRenderMismatches": 0,
+        "pairedSaveMismatches": 0,
+        "automaticPreserved": true,
+        "actualHealing": [
+          {
+            "frame": 1391,
+            "recipient": 4,
+            "hpBefore": 89.0,
+            "hpAfter": 100.0
+          }
+        ],
+        "actualImages": 11,
+        "peakSupportMeshes": 40,
+        "missing": 0,
+        "overflow": 0,
+        "healingComposeOnlyP95Ms": 0.026
+      },
+      "scopeLimits": "Overlapping original and supplement cases are not summed as independent full chapter inputs. Final32checks (see report) cover this support change, not all60, full game, OS control, default exported build or sound."
+    }
+  ],
+  "validation": {
+    "allFrozenFilesMatch": true,
+    "all26RuntimeModulesMatchMainV15FrozenSource": true,
+    "smallGodotResourceCount": 12,
+    "sourceChecksReusedAtExactSha": true,
+    "newPressureTestsRunForGit": false,
+    "mainV15CompleteChapterAcceptedAtCheckpoint": false
+  },
+  "dependencies": [
+    "Godot4.7.2 and the existing main game with normal c28606a2fbca755a4e576e57b70d8ffd2352e0f35d452bb5eeae17211d9628b0 rules DLL.",
+    "Original addons/xiyou_integrated/skill_fx_v77 flight/support forms and current main minion/projectile call sites are external base dependencies.",
+    "Patch files target recorded v13 base SHA; main owner already merges relevant hooks into newer candidates. Never overwrite a newer whole main/world with a source QA candidate."
+  ],
+  "excluded": [
+    "Active main scene/scripts, v91 motion work, RedBoy/well work, original GLB/Blender/high-resolution art, sound/music banks, Windows ZIP/EXE/PCK, video and DLL.",
+    "All .local QA, baseline/player saves, JSONL inputs, logs, generated imported caches, credentials and private feedback."
+  ],
+  "publication": {
+    "stablePlayableRemainsV14": true,
+    "mainV15FullAcceptance": false,
+    "cleanClonePlayable": false,
+    "websiteDeployed": false,
+    "wholeGameComplete": false
+  }
+}

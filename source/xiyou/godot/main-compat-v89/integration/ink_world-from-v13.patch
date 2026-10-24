@@ -1,0 +1,59 @@
+--- a/scripts/ink_world.gd
++++ b/scripts/ink_world.gd
+@@ -22,6 +22,7 @@
+ var skill_catalog: Array = []
+ var motion_catalog: Dictionary = {}
+ var native_art: Dictionary = {}
++var ordinary_ink
+ var minion_crowd
+ var crowd_batch_enabled = true
+ var skill_ink
+@@ -58,6 +59,8 @@
+ 	minion_crowd = MinionCrowd.new()
+ 	add_child(minion_crowd)
+ 	minion_crowd.configure()
++	ordinary_ink=preload("res://addons/cfgcn_shadow/minions_v88/ordinary_layer.gd").new();add_child(ordinary_ink)
++	if ordinary_ink.configure(minion_crowd.source_sockets)!=OK:effect_error="普通敌种笔墨资源载入未通过"
+ 	skill_ink = SkillEffects.new()
+ 	add_child(skill_ink)
+ 	var effect_result = skill_ink.configure(EFFECT_BASE,profiles,location,actual_socket,hero_visual)
+@@ -71,6 +74,8 @@
+ 	if jinyin_ink.configure()!=OK:effect_error="金银法宝呈现载入未通过"
+ 
+ func reset_boss_presentation() -> void:
++	if is_instance_valid(ordinary_ink):ordinary_ink.reset()
++	if is_instance_valid(minion_crowd):minion_crowd.reset_hit_history()
+ 	if is_instance_valid(jinyin_ink):jinyin_ink.update_state({},camera,location,actual_enemy_socket,reduced_motion)
+ 
+ func hero_visual(actor: int):
+@@ -85,6 +90,9 @@
+ 	return visual.socket_world(socket)
+ 
+ func actual_enemy_socket(id: int, socket: String):
++	if crowd_batch_enabled and is_instance_valid(minion_crowd):
++		var point=minion_crowd.actual_socket(id,socket)
++		if point is Vector3:return point
+ 	var root=population.get("enemy-"+str(id))
+ 	if not is_instance_valid(root):return null
+ 	var points: Dictionary=root.get_meta("native_sockets",{})
+@@ -310,6 +318,7 @@
+ 			root.rotation = camera.rotation
+ 			root.scale = Vector3(-1.0 if enemy.facing.x > 0 else 1.0,1,1)*float(enemy.size)
+ 			animate(root,enemy.visual.clip,enemy.visual.seconds)
++	minion_crowd.set_reduced_hit_motion(reduced_motion)
+ 	minion_crowd.set_enabled(crowd_batch_enabled)
+ 	if crowd_batch_enabled:minion_crowd.update_state(state,camera,location)
+ 	# Source sockets must observe this draw's terrain/camera and skeleton poses.
+@@ -319,10 +328,11 @@
+ 	if spider_ink.overflow:migration_notice="七蛛预警显示超出已验证容量，行旅已暂停"
+ 	jinyin_ink.update_state(state,camera,location,actual_enemy_socket,reduced_motion)
+ 	if jinyin_ink.overflow:migration_notice="金银法宝预警超过已验证绘制容量，行旅已暂停"
++	ordinary_ink.update_state(state,camera,location,actual_enemy_socket,reduced_motion)
+ 	for i in range(state.growth.drops.size()):
+ 		light_dot("light-"+str(i),state.growth.drops[i].pos,Color(0.83,0.64,0.19),0.12)
+ 	for bolt in state.bolts:
+-		if skill_ink.consumes_bolt(int(bolt.id)) or jinyin_ink.consumes_bolt(int(bolt.id)):
++		if ordinary_ink.consumes_bolt(int(bolt.id)) or skill_ink.consumes_bolt(int(bolt.id)) or jinyin_ink.consumes_bolt(int(bolt.id)):
+ 			continue
+ 		light_dot("bolt-"+str(bolt.id),bolt.pos,Color(0.42,0.67,0.70),maxf(0.08,bolt.radius*0.3))
+ 	for key in population.keys():

@@ -1,0 +1,12 @@
+--- a/addons/xiyou_integrated/skill_fx_v77/support_layer.gd
++++ b/addons/xiyou_integrated/skill_fx_v77/support_layer.gd
+@@ -1,7 +1,7 @@
+ extends Node3D
+ ## Fixed pool of friendly current-state ornaments and actual persistent fields.
+-const Forms=preload("support_forms.gd")
+-const Shapes=preload("shapes.gd")
++const Forms=preload("res://addons/cfgcn_shadow/pilgrim_support_v90/forms.gd")
++const Shapes=preload("res://addons/cfgcn_shadow/pilgrim_support_v90/shapes.gd")
+ const Ink=preload("ink.gdshader")
+ var forms=Forms.new()
+ var shapes=Shapes.new()

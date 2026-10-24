@@ -1,0 +1,13 @@
+--- a/addons/xiyou_integrated/skill_fx_v77/projectile_layer.gd
++++ b/addons/xiyou_integrated/skill_fx_v77/projectile_layer.gd
+@@ -1,8 +1,8 @@
+ extends Node3D
+ ## Pooled, read-only native hero projectile presentation. No gameplay simulation.
+-const Forms=preload("flight_forms.gd")
++const Forms=preload("res://addons/cfgcn_shadow/flights_v89/forms.gd")
+ const Sources=preload("flight_sources.gd")
+-const Shapes=preload("shapes.gd")
++const Shapes=preload("res://addons/cfgcn_shadow/flights_v89/shapes.gd")
+ const Ink=preload("ink.gdshader")
+ const Painting=preload("painting.gdshader")
+ 

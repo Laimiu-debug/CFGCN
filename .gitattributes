@@ -33,3 +33,37 @@ source/shuihu/godot/campaign-motion-v1/delivery.json -text
 source/shuihu/godot/campaign-motion-v1/sha256.json -text
 source/shuihu/godot/linchong-task-sabre-v1/delivery.json -text
 source/shuihu/godot/linchong-task-sabre-v1/sha256.json -text
+
+# Retain raw SHA identities of the frozen Xiyou v89/v90 source checkpoint.
+apps/xiyou/godot/addons/cfgcn_shadow/flights_v89/forms.gd -text
+apps/xiyou/godot/addons/cfgcn_shadow/flights_v89/shapes.gd -text
+apps/xiyou/godot/addons/cfgcn_shadow/flights_v89/wave-geometry.json -text
+apps/xiyou/godot/addons/cfgcn_shadow/minions_v87/hit/catalog.json -text
+apps/xiyou/godot/addons/cfgcn_shadow/minions_v87/hit/hit-37.res -text
+apps/xiyou/godot/addons/cfgcn_shadow/minions_v87/hit/hit-38.res -text
+apps/xiyou/godot/addons/cfgcn_shadow/minions_v87/hit/hit-39.res -text
+apps/xiyou/godot/addons/cfgcn_shadow/minions_v87/hit/hit-40.res -text
+apps/xiyou/godot/addons/cfgcn_shadow/minions_v87/hit/hit-5.res -text
+apps/xiyou/godot/addons/cfgcn_shadow/minions_v87/hit/hit-6.res -text
+apps/xiyou/godot/addons/cfgcn_shadow/minions_v87/reaction_vat.gdshader -text
+apps/xiyou/godot/addons/cfgcn_shadow/minions_v87/reactions.gd -text
+apps/xiyou/godot/addons/cfgcn_shadow/minions_v88/ink.gdshader -text
+apps/xiyou/godot/addons/cfgcn_shadow/minions_v88/ink_forms.gd -text
+apps/xiyou/godot/addons/cfgcn_shadow/minions_v88/ordinary_layer.gd -text
+apps/xiyou/godot/addons/cfgcn_shadow/minions_v88/sockets/catalog.json -text
+apps/xiyou/godot/addons/cfgcn_shadow/minions_v88/sockets/sockets-37.res -text
+apps/xiyou/godot/addons/cfgcn_shadow/minions_v88/sockets/sockets-38.res -text
+apps/xiyou/godot/addons/cfgcn_shadow/minions_v88/sockets/sockets-39.res -text
+apps/xiyou/godot/addons/cfgcn_shadow/minions_v88/sockets/sockets-40.res -text
+apps/xiyou/godot/addons/cfgcn_shadow/minions_v88/sockets/sockets-5.res -text
+apps/xiyou/godot/addons/cfgcn_shadow/minions_v88/sockets/sockets-6.res -text
+apps/xiyou/godot/addons/cfgcn_shadow/minions_v88/source_sockets.gd -text
+apps/xiyou/godot/addons/cfgcn_shadow/pilgrim_support_v90/forms.gd -text
+apps/xiyou/godot/addons/cfgcn_shadow/pilgrim_support_v90/geometry.json -text
+apps/xiyou/godot/addons/cfgcn_shadow/pilgrim_support_v90/shapes.gd -text
+source/xiyou/godot/main-compat-v89/handoff.json -text
+source/xiyou/godot/main-compat-v89/integration/ink_world-from-v13.patch -text
+source/xiyou/godot/main-compat-v89/integration/minion_crowd-from-v13.patch -text
+source/xiyou/godot/main-compat-v89/integration/projectile_layer-from-v13.patch -text
+source/xiyou/godot/pilgrim-support-v90/handoff.json -text
+source/xiyou/godot/pilgrim-support-v90/integration/support-layer-from-v13.patch -text

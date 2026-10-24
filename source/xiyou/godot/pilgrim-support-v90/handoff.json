@@ -1,0 +1,181 @@
+{
+  "at": "2026-10-24T07:59:39.243742+00:00",
+  "version": "v90",
+  "goal": "active",
+  "status": "Frozen readonly support source, main adoption/package receipt pending",
+  "owner": "西游｜五人动作、技能特效与小怪",
+  "receiver": "西游主工程／玩法融合唯一负责人",
+  "primary": "Actual Wuji map chapter→restoration→Haoshan; demos diagnostic only",
+  "scope": "TangSeng real HealingVow bud/travel/open/fade and real TangSeng shield/guard torso-clear accents. Other guard actors/fields/links/veil inherit unchanged. No native/core/AI/HP/cast/target/model/motion/input/camera/spawn/story/save/HUD/audio/sharedUI changes.",
+  "base": {
+    "formalVersion": "v13 / 0.1.12.0",
+    "qaPresentationBase": "Frozen v89 private current-v13-compatible module candidate",
+    "priorHandoff": {
+      "path": "G:/CODE/CFGCN/source/xiyou/godot/main-compat-v89/handoff.json",
+      "sha256": "5393534b76552cc8097c6fe515acc55072b9f91e9b517361d79d77ff76fefb6c"
+    },
+    "v89AdoptionRequiredForV90Patch": false,
+    "normalDLLSha256": "c28606a2fbca755a4e576e57b70d8ffd2352e0f35d452bb5eeae17211d9628b0",
+    "newDLLRequired": false,
+    "unchangedInputs": 1334,
+    "privateChangedInputs": [
+      "addons/xiyou_integrated/skill_fx_v77/support_layer.gd"
+    ]
+  },
+  "moduleFiles": [
+    {
+      "path": "G:/CODE/CFGCN/apps/xiyou/godot/addons/cfgcn_shadow/pilgrim_support_v90/forms.gd",
+      "bytes": 2485,
+      "sha256": "482261947f6976a6c59594d0d2cc1f60ebc136f5739d21032b44ea75bb20dbfc",
+      "relative": "addons/cfgcn_shadow/pilgrim_support_v90/forms.gd"
+    },
+    {
+      "path": "G:/CODE/CFGCN/apps/xiyou/godot/addons/cfgcn_shadow/pilgrim_support_v90/geometry.json",
+      "bytes": 83022,
+      "sha256": "d2825c2bdf36ab48a74ed57ad17e1626353a50d1c18de8635fc3994f33ea5287",
+      "relative": "addons/cfgcn_shadow/pilgrim_support_v90/geometry.json"
+    },
+    {
+      "path": "G:/CODE/CFGCN/apps/xiyou/godot/addons/cfgcn_shadow/pilgrim_support_v90/shapes.gd",
+      "bytes": 428,
+      "sha256": "efa85cad4263e8787c39d6f5a66cfed7801374c513d526413923ca8d2673d212",
+      "relative": "addons/cfgcn_shadow/pilgrim_support_v90/shapes.gd"
+    }
+  ],
+  "moduleBytes": 85935,
+  "staticGeometry": {
+    "shapes": 6,
+    "vertices": 1414,
+    "perFrameMeshPool": 64,
+    "reducedMeshPool": 40
+  },
+  "patch": {
+    "path": "G:/CODE/CFGCN/source/xiyou/godot/pilgrim-support-v90/integration/support-layer-from-v13.patch",
+    "bytes": 564,
+    "sha256": "afd01bb8fc6ce07b3183287e212fadb03774c93bd83969240a08c43ec30e1595"
+  },
+  "layer": {
+    "relative": "addons/xiyou_integrated/skill_fx_v77/support_layer.gd",
+    "base": {
+      "path": "G:/CODE/CFGCN/source/xiyou/godot/pilgrim-support-v90/reference/support_layer.gd",
+      "bytes": 5414,
+      "sha256": "07221100010539fd09669bc200f74d55c3546760dab670f7bf2e5550ea7c08cd"
+    },
+    "candidate": {
+      "path": "G:/CODE/CFGCN/source/xiyou/godot/pilgrim-support-v90/integration/support_layer.gd",
+      "bytes": 5498,
+      "sha256": "04cc835518d2e15ce7fcabb04c2671d5b3d7d322922ddf0cf66a63cb42bdb968"
+    }
+  },
+  "proof": {
+    "automaticActual": {
+      "path": "G:/CODE/CFGCN/.local/qa/xiyou-godot-pilgrim-support-v90/actual.json",
+      "bytes": 2381,
+      "sha256": "0a386eff992704735deb5131cd5babab37f3962a0983879ce662bc3371396daf"
+    },
+    "manualFinal": {
+      "path": "G:/CODE/CFGCN/.local/qa/xiyou-godot-pilgrim-support-v90/final/manual.json",
+      "bytes": 11570,
+      "sha256": "def5ab3d3d4a5db19ed363bc09ed1a1c8ab6751ab47f0641595530be34683a03"
+    },
+    "manualControls": {
+      "path": "G:/CODE/CFGCN/.local/qa/xiyou-godot-pilgrim-support-v90/final/manual-inputs.jsonl",
+      "bytes": 248460,
+      "sha256": "7d1c95a4d7de5ba2fec0c99abd3b539e824ee5c919f2a52e09fb7d8aa3723374"
+    },
+    "realInjuryCheckpoint": {
+      "path": "G:/CODE/CFGCN/.local/qa/xiyou-godot-pilgrim-support-v90/final/actual-injury-before-supplement.json",
+      "bytes": 4449,
+      "sha256": "045b7e351cf46f082d45e8029ce4776d4a60616db9e8cd7e00d8a71db330acda"
+    },
+    "finalSave": {
+      "path": "G:/CODE/CFGCN/.local/qa/xiyou-godot-pilgrim-support-v90/final/manual-final-save.json",
+      "bytes": 4486,
+      "sha256": "dfca7659a6aeae4b1a07290204258d2f1f78b7bca11176542e8cf483bea127b7"
+    },
+    "visualReview": {
+      "path": "G:/CODE/CFGCN/.local/qa/xiyou-godot-pilgrim-support-v90/visual-review.json",
+      "bytes": 2259,
+      "sha256": "dd36a410db6f45c2d7b9e41d0491a9619575c5c6f21693e974d680761b6de68a"
+    },
+    "finalNormalHost": {
+      "path": "G:/CODE/CFGCN/.local/qa/xiyou-godot-pilgrim-support-v90/manual-final-pilgrim-v90-host-result.json",
+      "bytes": 122,
+      "sha256": "2e9dab0c4fa414c70057067d7c83476579d077943d9255e4172939cd8828f6d7"
+    },
+    "summary": {
+      "originalAutomaticInputs": 3600,
+      "completeRenderMismatches": 0,
+      "completeSaveCheckpoints": 60,
+      "automaticHealEvents": 0,
+      "automaticGuardFrames": 3277,
+      "originalChecks": 13,
+      "originalChecksPassed": 11,
+      "originalUnmetOpportunityChecks": [
+        {
+          "name": "actual native healing cues have real source/recipient sockets",
+          "pass": false
+        },
+        {
+          "name": "actual guard and healing phases GPU-reviewed candidates captured",
+          "pass": false
+        }
+      ],
+      "supplementCaseInputs": 1800,
+      "sameOriginalPrefix": 1343,
+      "actualSupplementFrame": 1344,
+      "finalChecks": 32,
+      "allPairedRenderMismatches": 0,
+      "pairedSaveMismatches": 0,
+      "automaticPreserved": true,
+      "actualHealing": [
+        {
+          "frame": 1391,
+          "recipient": 4,
+          "hpBefore": 89.0,
+          "hpAfter": 100.0
+        }
+      ],
+      "actualImages": 11,
+      "peakSupportMeshes": 40,
+      "missing": 0,
+      "overflow": 0,
+      "healingComposeOnlyP95Ms": 0.026
+    },
+    "limits": "Overlapping original and supplement cases are not summed as independent full chapter inputs. Final32checks (see report) cover this support change, not all60, full game, OS control, default exported build or sound."
+  },
+  "integration": [
+    "Copy three exact addon files at listed canonical res:// paths and include them in explicit export inventory. No v89-specific runtime dependency is added.",
+    "Merge only two preload replacements in existing support_layer.gd after matching base SHA; preserve any newer owner context. Candidate full layer is reference only, not an instruction to overwrite newer source.",
+    "Keep existing support layer actual source cache, target_actor resolution, dead-recipient filter, unchanged native fields, pause/reduced settings and64/40 fixed pools.",
+    "Main owner accepts actual chapter/autofour plus optional supplement, normal occlusion and cold save in the adopted Windows package. Audio owner retains B2.1 and existing cue gating; this batch was muted and adds no playback.",
+    "Record receivedSHA/adoptedversion/package/same-package original-sound continuous flow and actual operation evidence. Prior v89 acceptance remains independently pending."
+  ],
+  "history": [
+    "Initial QA script scope parse error before gameplay; source/log retained.",
+    "Original automatic3600 case includes11passed/13checks, two unmet heal opportunities and no heal: retained honestly.",
+    "Initial manual pair failed because reference core stayed paused after restore; no product fix, final observer follows normal desktop resume."
+  ],
+  "receiverReceipt": {
+    "receivedSHA256": null,
+    "adoptedVersion": null,
+    "windowsPackage": null,
+    "continuousOriginalSound": null,
+    "actualOperation": null
+  },
+  "boundaries": {
+    "formalSourceChangedByThisTask": false,
+    "newWindowsExport": false,
+    "sourceModelOrMotionChanged": false,
+    "audioAudition": false,
+    "commit": false,
+    "push": false,
+    "publicDeploy": false,
+    "fullGameComplete": false
+  },
+  "remaining": [
+    "Main source/package adoption and same-package flow/audio/control receipt.",
+    "Other five-actor actions/full60 quality, ordinary regional/AI/audio and remaining actual chapters remain under current owners.",
+    "Original performance/hardware acceptance scope remains; no unrelated routine density matrix repeated."
+  ]
+}

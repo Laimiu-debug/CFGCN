@@ -1,0 +1,87 @@
+--- a/scripts/minion_crowd.gd
++++ b/scripts/minion_crowd.gd
+@@ -1,6 +1,9 @@
+ extends Node3D
+ ## Read-only renderer for the exact six ordinary silhouettes and source poses.
+-const ShaderSource = preload("res://shaders/minion_vat.gdshader")
++const ShaderSource = preload("res://addons/cfgcn_shadow/minions_v87/reaction_vat.gdshader")
++var reactions=preload("res://addons/cfgcn_shadow/minions_v87/reactions.gd").new()
++var reduced_hit_motion=false
++var source_sockets=preload("res://addons/cfgcn_shadow/minions_v88/source_sockets.gd").new()
+ var batches: Dictionary = {}
+ var assets_ready = false
+ var active_count = 0
+@@ -11,15 +14,24 @@
+ 	if not FileAccess.file_exists("res://art/crowd/catalog.json"):
+ 		return ERR_CANT_OPEN
+ 	var catalog: Dictionary = JSON.parse_string(FileAccess.get_file_as_string("res://art/crowd/catalog.json"))
++	var hit_catalog: Dictionary = JSON.parse_string(FileAccess.get_file_as_string("res://addons/cfgcn_shadow/minions_v87/hit/catalog.json"))
+ 	for profile in catalog.models:
+ 		var mesh = load(profile.mesh)
+ 		var atlas = load(profile.atlas)
+ 		var poses = load(profile.poses)
++		var hit_rows=hit_catalog.models.filter(func(row):return int(row.profile)==int(profile.profile))
++		if hit_rows.size()!=1:return ERR_INVALID_DATA
++		var hit: Dictionary=hit_rows[0]
++		if str(hit.sourceSHA256)!=str(profile.modelSha256) or int(hit.vertices)!=int(profile.vertices):return ERR_INVALID_DATA
++		var hit_poses=load(hit.poses)
++		if hit_poses==null or hit_poses.get_width()!=int(profile.vertices) or hit_poses.get_height()!=int(hit.frames):return ERR_FILE_CORRUPT
+ 		if mesh == null or atlas == null or poses == null:return ERR_FILE_CORRUPT
+ 		var material = ShaderMaterial.new()
+ 		material.shader = ShaderSource
+ 		material.set_shader_parameter("atlas",atlas)
+ 		material.set_shader_parameter("poses",poses)
++		material.set_shader_parameter("hit_poses",hit_poses)
++		material.set_shader_parameter("hit_frame_span",float(hit.frames)-1.0)
+ 		material.set_shader_parameter("tint",Color(profile.albedoColor[0],profile.albedoColor[1],profile.albedoColor[2],profile.albedoColor[3]))
+ 		material.set_shader_parameter("alpha_cutoff",profile.alphaCutoff)
+ 		var multimesh = MultiMesh.new()
+@@ -32,7 +44,8 @@
+ 		node.cast_shadow = GeometryInstance3D.SHADOW_CASTING_SETTING_OFF
+ 		add_child(node)
+ 		batches[int(profile.profile)] = {"profile":profile,"multimesh":multimesh,"node":node,"capacity":0,"data":PackedFloat32Array()}
+-	assets_ready = batches.size()==6
++	var socket_status=source_sockets.configure(self,catalog)
++	assets_ready = batches.size()==6 and socket_status==OK
+ 	return OK if assets_ready else ERR_INVALID_DATA
+ 
+ func supports(enemy: Dictionary) -> bool:
+@@ -40,10 +53,13 @@
+ 
+ func set_enabled(value: bool) -> void:
+ 	visible = value
+-	if not value:active_count=0
++	if not value:
++		active_count=0
++		source_sockets.reset()
+ 
+ func update_state(state: Dictionary,camera: Camera3D,location: Callable) -> void:
+ 	var start = Time.get_ticks_usec() if measure_render else 0
++	reactions.observe(state,camera)
+ 	var heights = 0
+ 	var groups = {}
+ 	active_count = 0
+@@ -87,9 +103,22 @@
+ 			data[offset]=right.x;data[offset+1]=up.x;data[offset+2]=back.x;data[offset+3]=at.x
+ 			data[offset+4]=right.y;data[offset+5]=up.y;data[offset+6]=back.y;data[offset+7]=at.y
+ 			data[offset+8]=right.z;data[offset+9]=up.z;data[offset+10]=back.z;data[offset+11]=at.z
+-			data[offset+12]=float(row%256);data[offset+13]=float(floori(float(row)/256.0));data[offset+14]=frame-floorf(frame);data[offset+15]=1.0
++			data[offset+12]=float(row%256);data[offset+13]=float(floori(float(row)/256.0));data[offset+14]=frame-floorf(frame);data[offset+15]=reactions.pulse(enemy)
+ 		multi.custom_aabb=AABB(minimum,maximum-minimum).grow(5.0)
+ 		multi.buffer=data
+ 		batch.data=data
++	source_sockets.update_state(state,camera,location,reactions,reduced_hit_motion)
+ 	if measure_render:render_measurements={"crowd":Time.get_ticks_usec()-start,"heights":heights}
+ 
++
++func set_reduced_hit_motion(value: bool) -> void:
++	if reduced_hit_motion==value:return
++	reduced_hit_motion=value
++	for batch in batches.values():batch.node.material_override.set_shader_parameter("reduce_hit_motion",value)
++
++func reset_hit_history() -> void:
++	reactions.reset()
++	source_sockets.reset()
++
++func actual_socket(id: int,name: String):
++	return source_sockets.actual_socket(id,name) if visible and assets_ready else null

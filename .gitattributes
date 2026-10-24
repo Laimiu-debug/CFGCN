@@ -13,3 +13,8 @@
 *.mp4 binary
 *.zip binary
 *.pdf binary
+
+# Frozen UI source/runtime SHA records include the original line-ending bytes.
+packages/godot-desktop-ui/desktop_view.gd -text
+apps/xiyou/godot/shared_desktop_ui/desktop_view.gd -text
+apps/shuihu/godot/shared_desktop_ui/desktop_view.gd -text

@@ -1,0 +1,12 @@
+{
+  "id": "xiyou",
+  "series": "01 / JOURNEY TO THE WEST",
+  "title": "西游记",
+  "title_i18n": {"zh-CN":"西游记","zh-TW":"西遊記","en":"Journey to the West"},
+  "tagline_i18n": {"zh-CN":"一念起，万水千山。","zh-TW":"一念起，萬水千山。","en":"Every journey begins with a single step."},
+  "background": "res://shared_desktop_ui/assets/xiyou-background.webp",
+  "figure": "res://shared_desktop_ui/assets/xiyou-figure.png",
+  "gameplay_scene": "res://scenes/main.tscn",
+  "probe_script": "res://scripts/main.gd",
+  "actions": ["cfg_move_up","cfg_move_down","cfg_move_left","cfg_move_right","cfg_interact","cfg_dodge","cfg_party_next","cfg_skill_1","cfg_skill_2","cfg_skill_3","cfg_skill_4","cfg_quick_save","cfg_quick_load"]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "shuihu",
+  "series": "02 / WATER MARGIN",
+  "title": "聚义梁山",
+  "title_i18n": {"zh-CN":"聚义梁山","zh-TW":"聚義梁山","en":"Water Margin"},
+  "tagline_i18n": {"zh-CN":"江湖路远，幸有同袍。","zh-TW":"江湖路遠，幸有同袍。","en":"A wide world. A company of companions."},
+  "background": "res://shared_desktop_ui/assets/shuihu-background.webp",
+  "figure": "res://shared_desktop_ui/assets/shuihu-figure.webp",
+  "gameplay_scene": "res://shared_desktop_ui/gameplay.tscn",
+  "gameplay_scene_source": "shuihu-gameplay.tscn",
+  "probe_script": "res://scripts/battle_app.gd",
+  "start_modes": {"new": "new_game"},
+  "preload_resources": ["res://assets/river.glb"],
+  "actions": ["cfg_move_up","cfg_move_down","cfg_move_left","cfg_move_right","cfg_end_turn","cfg_quick_save","cfg_quick_load"]
+}

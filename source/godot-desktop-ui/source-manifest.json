@@ -1,0 +1,566 @@
+{
+  "version": 1,
+  "revision": "desktop-ui-v2.1",
+  "date": "2026-10-24",
+  "source": "packages/godot-desktop-ui",
+  "paletteSource": "packages/ui/src/tokens.css",
+  "paletteSha256": "d1d8155545d4f224b207b54d40f271048b434d53200c9124dc178258d7cd9cb0",
+  "scope": "Shared menu, real loading, pause and preferences; gameplay and campaign saves remain game-owned.",
+  "provenance": [
+    {
+      "source": "apps/website/public/art/entrances/ink-v1/xiyou-poster.webp",
+      "destination": "assets/xiyou-background.webp",
+      "sha256": "138415992a76537bb7317d13509faadbdc7079a3092a256b56baaeb8d945376c",
+      "bytes": 228280
+    },
+    {
+      "source": "apps/website/public/games/xiyou/assets/shadow/wukong/standee.png",
+      "destination": "assets/xiyou-figure.png",
+      "sha256": "de246ef45dffa2069aa59c31ec1e7a7f14134ed598bd39de7294bb5a89d24f1a",
+      "bytes": 240295
+    },
+    {
+      "source": "apps/website/public/art/entrances/ink-v1/shuihu-poster.webp",
+      "destination": "assets/shuihu-background.webp",
+      "sha256": "9aa3604e6bed766558af87d1d765da345bda9a8158f5ea6ec4e4911fde4edad7",
+      "bytes": 211004
+    },
+    {
+      "source": "apps/shuihu/ui-study/assets/ls001.webp",
+      "destination": "assets/shuihu-figure.webp",
+      "sha256": "645d3d4ea5fcd51e081a475a28ad382d0fd9978040b73c327b2ec0f701e26687",
+      "bytes": 20010
+    },
+    {
+      "source": "node_modules/@fontsource/ma-shan-zheng/LICENSE",
+      "destination": "assets/fonts/OFL.txt",
+      "sha256": "37784825d863bab31cdff1f4bfabae5b8d8e9913b91db2064a6b803b2edc92db",
+      "bytes": 4394
+    },
+    {
+      "source": "node_modules/@fontsource/ma-shan-zheng/files/ma-shan-zheng-26-400-normal.woff2",
+      "destination": "assets/fonts/ma-shan-zheng-26-400-normal.woff2",
+      "sha256": "71a49385236fd1aedc4c4b88d79e9718f8b0fba6a8bbc773a6e082459dbe5b43",
+      "bytes": 27504
+    },
+    {
+      "source": "node_modules/@fontsource/ma-shan-zheng/files/ma-shan-zheng-32-400-normal.woff2",
+      "destination": "assets/fonts/ma-shan-zheng-32-400-normal.woff2",
+      "sha256": "c732ae833edbab1dfc4e761d4f0e9fb88b08ce2d100d6f147449c52dffd3ac15",
+      "bytes": 42824
+    },
+    {
+      "source": "node_modules/@fontsource/ma-shan-zheng/files/ma-shan-zheng-34-400-normal.woff2",
+      "destination": "assets/fonts/ma-shan-zheng-34-400-normal.woff2",
+      "sha256": "6954786a8a61c0bd8069b06d3123ccd6c09a902eba20c57202faa9799015fc28",
+      "bytes": 41412
+    },
+    {
+      "source": "node_modules/@fontsource/ma-shan-zheng/files/ma-shan-zheng-36-400-normal.woff2",
+      "destination": "assets/fonts/ma-shan-zheng-36-400-normal.woff2",
+      "sha256": "95063dcabd0a70b63aa46fcf91e254c060a6f70796120d0c50deab99761945f2",
+      "bytes": 4896
+    },
+    {
+      "source": "node_modules/@fontsource/ma-shan-zheng/files/ma-shan-zheng-37-400-normal.woff2",
+      "destination": "assets/fonts/ma-shan-zheng-37-400-normal.woff2",
+      "sha256": "b4b2308a8b89e350c92dd282ec35c6c4d3e1573672b05e016c0b02b1227f9481",
+      "bytes": 37408
+    },
+    {
+      "source": "node_modules/@fontsource/ma-shan-zheng/files/ma-shan-zheng-44-400-normal.woff2",
+      "destination": "assets/fonts/ma-shan-zheng-44-400-normal.woff2",
+      "sha256": "145064d9f9f3c4677730b2abc2bcb24e34e1d974381e6a481beee198a5f17334",
+      "bytes": 50604
+    },
+    {
+      "source": "node_modules/@fontsource/ma-shan-zheng/files/ma-shan-zheng-46-400-normal.woff2",
+      "destination": "assets/fonts/ma-shan-zheng-46-400-normal.woff2",
+      "sha256": "d2bf030946842c4ff48bde50c379528b9f44991f7924691a1484d8ddbe2291ab",
+      "bytes": 4852
+    },
+    {
+      "source": "node_modules/@fontsource/ma-shan-zheng/files/ma-shan-zheng-62-400-normal.woff2",
+      "destination": "assets/fonts/ma-shan-zheng-62-400-normal.woff2",
+      "sha256": "be693e7eccdd993f5a2d40747c6de228f2e0740a01dbb9ca23ea4d44a2afe8bc",
+      "bytes": 20692
+    },
+    {
+      "source": "node_modules/@fontsource/ma-shan-zheng/files/ma-shan-zheng-67-400-normal.woff2",
+      "destination": "assets/fonts/ma-shan-zheng-67-400-normal.woff2",
+      "sha256": "f342d7249134c7c00b8075a7688693e20b1ea6678961c8e0949eb5272a564a16",
+      "bytes": 36668
+    },
+    {
+      "source": "node_modules/@fontsource/ma-shan-zheng/files/ma-shan-zheng-68-400-normal.woff2",
+      "destination": "assets/fonts/ma-shan-zheng-68-400-normal.woff2",
+      "sha256": "6e9e7a3e1b92ba4ab97ea7e66f81bd00299070fcf8b4915e23a813c914854a23",
+      "bytes": 31916
+    },
+    {
+      "source": "node_modules/@fontsource/ma-shan-zheng/files/ma-shan-zheng-73-400-normal.woff2",
+      "destination": "assets/fonts/ma-shan-zheng-73-400-normal.woff2",
+      "sha256": "79e5001ad0b8f03b6a33961ba03ef4f273ea29ddbc8334eca05f2f126e940275",
+      "bytes": 23412
+    },
+    {
+      "source": "node_modules/@fontsource/ma-shan-zheng/files/ma-shan-zheng-79-400-normal.woff2",
+      "destination": "assets/fonts/ma-shan-zheng-79-400-normal.woff2",
+      "sha256": "fafd60b2f91810b1994dec99333956a969b598c1da5b99634ff91b4c778761b5",
+      "bytes": 37004
+    },
+    {
+      "source": "node_modules/@fontsource/ma-shan-zheng/files/ma-shan-zheng-102-400-normal.woff2",
+      "destination": "assets/fonts/ma-shan-zheng-102-400-normal.woff2",
+      "sha256": "21e2b68c6309cdac670449b453c199c38b2c6c0e19cb95475a24be2ec2ef5797",
+      "bytes": 80408
+    },
+    {
+      "source": "node_modules/@fontsource/ma-shan-zheng/files/ma-shan-zheng-105-400-normal.woff2",
+      "destination": "assets/fonts/ma-shan-zheng-105-400-normal.woff2",
+      "sha256": "718c8f192ee8cb8f3d6790ad724577e74e23f346321d15a66924e83d77195189",
+      "bytes": 90024
+    },
+    {
+      "source": "node_modules/@fontsource/ma-shan-zheng/files/ma-shan-zheng-111-400-normal.woff2",
+      "destination": "assets/fonts/ma-shan-zheng-111-400-normal.woff2",
+      "sha256": "a6c71ec8f3218498576f0ab51283ed7f2bf48bc866d8b4b5e7842794438211c0",
+      "bytes": 92212
+    },
+    {
+      "source": "node_modules/@fontsource/ma-shan-zheng/files/ma-shan-zheng-112-400-normal.woff2",
+      "destination": "assets/fonts/ma-shan-zheng-112-400-normal.woff2",
+      "sha256": "3f26c4a9235b2ff620352a68ee9f11337b06ef819474c985e9c5f3aac8f563be",
+      "bytes": 88392
+    },
+    {
+      "source": "node_modules/@fontsource/ma-shan-zheng/files/ma-shan-zheng-113-400-normal.woff2",
+      "destination": "assets/fonts/ma-shan-zheng-113-400-normal.woff2",
+      "sha256": "7c8419c661b6f6fc9ee0dfb68f64aa2676e3ea742d68f57a4440754200a5db5d",
+      "bytes": 86872
+    },
+    {
+      "source": "node_modules/@fontsource/ma-shan-zheng/files/ma-shan-zheng-114-400-normal.woff2",
+      "destination": "assets/fonts/ma-shan-zheng-114-400-normal.woff2",
+      "sha256": "f48ff32a0228e90da54b3cc6478f945ae5b39b1adcb561b16441841b07a0b464",
+      "bytes": 84532
+    },
+    {
+      "source": "node_modules/@fontsource/ma-shan-zheng/files/ma-shan-zheng-115-400-normal.woff2",
+      "destination": "assets/fonts/ma-shan-zheng-115-400-normal.woff2",
+      "sha256": "d7a6b36978f798a83d30e10af99b6d4dcea6f634ce30bb1db9b16fe48d6555ce",
+      "bytes": 82232
+    },
+    {
+      "source": "node_modules/@fontsource/ma-shan-zheng/files/ma-shan-zheng-116-400-normal.woff2",
+      "destination": "assets/fonts/ma-shan-zheng-116-400-normal.woff2",
+      "sha256": "38a4241d2a1250af6848ecad11da7ce639c28dd666b586ada23bced9570082f2",
+      "bytes": 78748
+    },
+    {
+      "source": "node_modules/@fontsource/ma-shan-zheng/files/ma-shan-zheng-117-400-normal.woff2",
+      "destination": "assets/fonts/ma-shan-zheng-117-400-normal.woff2",
+      "sha256": "dba4ba6b98df8deb81d9b3fb16fb48a4b4a0d8ad3d92934267216a064eba776f",
+      "bytes": 77396
+    },
+    {
+      "source": "node_modules/@fontsource/ma-shan-zheng/files/ma-shan-zheng-118-400-normal.woff2",
+      "destination": "assets/fonts/ma-shan-zheng-118-400-normal.woff2",
+      "sha256": "0f82546911062a7358c5e5be5e180fe6c324dfdc0043322e458bc9be16c9cd46",
+      "bytes": 69868
+    },
+    {
+      "source": "node_modules/@fontsource/ma-shan-zheng/files/ma-shan-zheng-119-400-normal.woff2",
+      "destination": "assets/fonts/ma-shan-zheng-119-400-normal.woff2",
+      "sha256": "701407edf05f2daae7898eef5163029edd0873982305a9df602678e16b3f1b95",
+      "bytes": 13388
+    }
+  ],
+  "outputs": [
+    {
+      "game": "xiyou",
+      "path": "apps/xiyou/godot/shared_desktop_ui/art_button.gd",
+      "sha256": "b00c0f8a237b7d23509906c48f8347be4d5bf547feb5241fedd45e246f2a9129"
+    },
+    {
+      "game": "xiyou",
+      "path": "apps/xiyou/godot/shared_desktop_ui/assets/brush.svg",
+      "sha256": "32b49d56a427c4bab8952fd76945aa434e0ce505739fd03a65e69f51b934e8ee"
+    },
+    {
+      "game": "xiyou",
+      "path": "apps/xiyou/godot/shared_desktop_ui/assets/fonts/ma-shan-zheng-102-400-normal.woff2",
+      "sha256": "21e2b68c6309cdac670449b453c199c38b2c6c0e19cb95475a24be2ec2ef5797"
+    },
+    {
+      "game": "xiyou",
+      "path": "apps/xiyou/godot/shared_desktop_ui/assets/fonts/ma-shan-zheng-105-400-normal.woff2",
+      "sha256": "718c8f192ee8cb8f3d6790ad724577e74e23f346321d15a66924e83d77195189"
+    },
+    {
+      "game": "xiyou",
+      "path": "apps/xiyou/godot/shared_desktop_ui/assets/fonts/ma-shan-zheng-111-400-normal.woff2",
+      "sha256": "a6c71ec8f3218498576f0ab51283ed7f2bf48bc866d8b4b5e7842794438211c0"
+    },
+    {
+      "game": "xiyou",
+      "path": "apps/xiyou/godot/shared_desktop_ui/assets/fonts/ma-shan-zheng-112-400-normal.woff2",
+      "sha256": "3f26c4a9235b2ff620352a68ee9f11337b06ef819474c985e9c5f3aac8f563be"
+    },
+    {
+      "game": "xiyou",
+      "path": "apps/xiyou/godot/shared_desktop_ui/assets/fonts/ma-shan-zheng-113-400-normal.woff2",
+      "sha256": "7c8419c661b6f6fc9ee0dfb68f64aa2676e3ea742d68f57a4440754200a5db5d"
+    },
+    {
+      "game": "xiyou",
+      "path": "apps/xiyou/godot/shared_desktop_ui/assets/fonts/ma-shan-zheng-114-400-normal.woff2",
+      "sha256": "f48ff32a0228e90da54b3cc6478f945ae5b39b1adcb561b16441841b07a0b464"
+    },
+    {
+      "game": "xiyou",
+      "path": "apps/xiyou/godot/shared_desktop_ui/assets/fonts/ma-shan-zheng-115-400-normal.woff2",
+      "sha256": "d7a6b36978f798a83d30e10af99b6d4dcea6f634ce30bb1db9b16fe48d6555ce"
+    },
+    {
+      "game": "xiyou",
+      "path": "apps/xiyou/godot/shared_desktop_ui/assets/fonts/ma-shan-zheng-116-400-normal.woff2",
+      "sha256": "38a4241d2a1250af6848ecad11da7ce639c28dd666b586ada23bced9570082f2"
+    },
+    {
+      "game": "xiyou",
+      "path": "apps/xiyou/godot/shared_desktop_ui/assets/fonts/ma-shan-zheng-117-400-normal.woff2",
+      "sha256": "dba4ba6b98df8deb81d9b3fb16fb48a4b4a0d8ad3d92934267216a064eba776f"
+    },
+    {
+      "game": "xiyou",
+      "path": "apps/xiyou/godot/shared_desktop_ui/assets/fonts/ma-shan-zheng-118-400-normal.woff2",
+      "sha256": "0f82546911062a7358c5e5be5e180fe6c324dfdc0043322e458bc9be16c9cd46"
+    },
+    {
+      "game": "xiyou",
+      "path": "apps/xiyou/godot/shared_desktop_ui/assets/fonts/ma-shan-zheng-119-400-normal.woff2",
+      "sha256": "701407edf05f2daae7898eef5163029edd0873982305a9df602678e16b3f1b95"
+    },
+    {
+      "game": "xiyou",
+      "path": "apps/xiyou/godot/shared_desktop_ui/assets/fonts/ma-shan-zheng-26-400-normal.woff2",
+      "sha256": "71a49385236fd1aedc4c4b88d79e9718f8b0fba6a8bbc773a6e082459dbe5b43"
+    },
+    {
+      "game": "xiyou",
+      "path": "apps/xiyou/godot/shared_desktop_ui/assets/fonts/ma-shan-zheng-32-400-normal.woff2",
+      "sha256": "c732ae833edbab1dfc4e761d4f0e9fb88b08ce2d100d6f147449c52dffd3ac15"
+    },
+    {
+      "game": "xiyou",
+      "path": "apps/xiyou/godot/shared_desktop_ui/assets/fonts/ma-shan-zheng-34-400-normal.woff2",
+      "sha256": "6954786a8a61c0bd8069b06d3123ccd6c09a902eba20c57202faa9799015fc28"
+    },
+    {
+      "game": "xiyou",
+      "path": "apps/xiyou/godot/shared_desktop_ui/assets/fonts/ma-shan-zheng-36-400-normal.woff2",
+      "sha256": "95063dcabd0a70b63aa46fcf91e254c060a6f70796120d0c50deab99761945f2"
+    },
+    {
+      "game": "xiyou",
+      "path": "apps/xiyou/godot/shared_desktop_ui/assets/fonts/ma-shan-zheng-37-400-normal.woff2",
+      "sha256": "b4b2308a8b89e350c92dd282ec35c6c4d3e1573672b05e016c0b02b1227f9481"
+    },
+    {
+      "game": "xiyou",
+      "path": "apps/xiyou/godot/shared_desktop_ui/assets/fonts/ma-shan-zheng-44-400-normal.woff2",
+      "sha256": "145064d9f9f3c4677730b2abc2bcb24e34e1d974381e6a481beee198a5f17334"
+    },
+    {
+      "game": "xiyou",
+      "path": "apps/xiyou/godot/shared_desktop_ui/assets/fonts/ma-shan-zheng-46-400-normal.woff2",
+      "sha256": "d2bf030946842c4ff48bde50c379528b9f44991f7924691a1484d8ddbe2291ab"
+    },
+    {
+      "game": "xiyou",
+      "path": "apps/xiyou/godot/shared_desktop_ui/assets/fonts/ma-shan-zheng-62-400-normal.woff2",
+      "sha256": "be693e7eccdd993f5a2d40747c6de228f2e0740a01dbb9ca23ea4d44a2afe8bc"
+    },
+    {
+      "game": "xiyou",
+      "path": "apps/xiyou/godot/shared_desktop_ui/assets/fonts/ma-shan-zheng-67-400-normal.woff2",
+      "sha256": "f342d7249134c7c00b8075a7688693e20b1ea6678961c8e0949eb5272a564a16"
+    },
+    {
+      "game": "xiyou",
+      "path": "apps/xiyou/godot/shared_desktop_ui/assets/fonts/ma-shan-zheng-68-400-normal.woff2",
+      "sha256": "6e9e7a3e1b92ba4ab97ea7e66f81bd00299070fcf8b4915e23a813c914854a23"
+    },
+    {
+      "game": "xiyou",
+      "path": "apps/xiyou/godot/shared_desktop_ui/assets/fonts/ma-shan-zheng-73-400-normal.woff2",
+      "sha256": "79e5001ad0b8f03b6a33961ba03ef4f273ea29ddbc8334eca05f2f126e940275"
+    },
+    {
+      "game": "xiyou",
+      "path": "apps/xiyou/godot/shared_desktop_ui/assets/fonts/ma-shan-zheng-79-400-normal.woff2",
+      "sha256": "fafd60b2f91810b1994dec99333956a969b598c1da5b99634ff91b4c778761b5"
+    },
+    {
+      "game": "xiyou",
+      "path": "apps/xiyou/godot/shared_desktop_ui/assets/fonts/OFL.txt",
+      "sha256": "37784825d863bab31cdff1f4bfabae5b8d8e9913b91db2064a6b803b2edc92db"
+    },
+    {
+      "game": "xiyou",
+      "path": "apps/xiyou/godot/shared_desktop_ui/assets/xiyou-background.webp",
+      "sha256": "138415992a76537bb7317d13509faadbdc7079a3092a256b56baaeb8d945376c"
+    },
+    {
+      "game": "xiyou",
+      "path": "apps/xiyou/godot/shared_desktop_ui/assets/xiyou-figure.png",
+      "sha256": "de246ef45dffa2069aa59c31ec1e7a7f14134ed598bd39de7294bb5a89d24f1a"
+    },
+    {
+      "game": "xiyou",
+      "path": "apps/xiyou/godot/shared_desktop_ui/boot.gd",
+      "sha256": "1e84ef21b24e9c8dcffc66590266f591d82e1611125927d50df98dec44335636"
+    },
+    {
+      "game": "xiyou",
+      "path": "apps/xiyou/godot/shared_desktop_ui/copy.gd",
+      "sha256": "e2e7217f461f4a63dc48dad0008a23ac548fecb19840666195c09ecd4bae385e"
+    },
+    {
+      "game": "xiyou",
+      "path": "apps/xiyou/godot/shared_desktop_ui/desktop_boot.tscn",
+      "sha256": "419f6ca1494c9c1bec3dc6c8fc6f98390277e9b407a17e0688c1806282a41d92"
+    },
+    {
+      "game": "xiyou",
+      "path": "apps/xiyou/godot/shared_desktop_ui/desktop_view.gd",
+      "sha256": "0a3f0314684ed037375420456ff764c2cbff78bf437c527dee6b1ae930d854d3"
+    },
+    {
+      "game": "xiyou",
+      "path": "apps/xiyou/godot/shared_desktop_ui/fonts.json",
+      "sha256": "fb57d66e78bb4baa737d7c84d6768d249ba446534fffe1a87a724196e7f38966"
+    },
+    {
+      "game": "xiyou",
+      "path": "apps/xiyou/godot/shared_desktop_ui/palette.json",
+      "sha256": "2a1b4407e3093d2aa4929a723ed597a049f3b1fc3e9ba7e98bdc7ac65b5853d5"
+    },
+    {
+      "game": "xiyou",
+      "path": "apps/xiyou/godot/shared_desktop_ui/settings_store.gd",
+      "sha256": "9bfe046d34ece1bf5d7bcca6a71d1e8d4918a1e002eac263e52f0481bcee7b69"
+    },
+    {
+      "game": "xiyou",
+      "path": "apps/xiyou/godot/shared_desktop_ui/theme.gd",
+      "sha256": "a85fb2deaee27d94d16ffeeb990ac1c049b9f9bb1578db73de90e36be33106fe"
+    },
+    {
+      "game": "xiyou",
+      "path": "apps/xiyou/godot/shared_desktop_ui/game.json",
+      "sha256": "6e4218cf077fdaff6535f418d3571d97d7612e2b3a50d7f20acf197d71cda4ad"
+    },
+    {
+      "game": "xiyou",
+      "path": "apps/xiyou/godot/shared_desktop_ui/game_data.gd",
+      "sha256": "ee9fc46894ef8fdd481a9483c5853ee043a78d92e0fec529c9b6fb6219bd8a47"
+    },
+    {
+      "game": "shuihu",
+      "path": "apps/shuihu/godot/shared_desktop_ui/art_button.gd",
+      "sha256": "b00c0f8a237b7d23509906c48f8347be4d5bf547feb5241fedd45e246f2a9129"
+    },
+    {
+      "game": "shuihu",
+      "path": "apps/shuihu/godot/shared_desktop_ui/assets/brush.svg",
+      "sha256": "32b49d56a427c4bab8952fd76945aa434e0ce505739fd03a65e69f51b934e8ee"
+    },
+    {
+      "game": "shuihu",
+      "path": "apps/shuihu/godot/shared_desktop_ui/assets/fonts/ma-shan-zheng-102-400-normal.woff2",
+      "sha256": "21e2b68c6309cdac670449b453c199c38b2c6c0e19cb95475a24be2ec2ef5797"
+    },
+    {
+      "game": "shuihu",
+      "path": "apps/shuihu/godot/shared_desktop_ui/assets/fonts/ma-shan-zheng-105-400-normal.woff2",
+      "sha256": "718c8f192ee8cb8f3d6790ad724577e74e23f346321d15a66924e83d77195189"
+    },
+    {
+      "game": "shuihu",
+      "path": "apps/shuihu/godot/shared_desktop_ui/assets/fonts/ma-shan-zheng-111-400-normal.woff2",
+      "sha256": "a6c71ec8f3218498576f0ab51283ed7f2bf48bc866d8b4b5e7842794438211c0"
+    },
+    {
+      "game": "shuihu",
+      "path": "apps/shuihu/godot/shared_desktop_ui/assets/fonts/ma-shan-zheng-112-400-normal.woff2",
+      "sha256": "3f26c4a9235b2ff620352a68ee9f11337b06ef819474c985e9c5f3aac8f563be"
+    },
+    {
+      "game": "shuihu",
+      "path": "apps/shuihu/godot/shared_desktop_ui/assets/fonts/ma-shan-zheng-113-400-normal.woff2",
+      "sha256": "7c8419c661b6f6fc9ee0dfb68f64aa2676e3ea742d68f57a4440754200a5db5d"
+    },
+    {
+      "game": "shuihu",
+      "path": "apps/shuihu/godot/shared_desktop_ui/assets/fonts/ma-shan-zheng-114-400-normal.woff2",
+      "sha256": "f48ff32a0228e90da54b3cc6478f945ae5b39b1adcb561b16441841b07a0b464"
+    },
+    {
+      "game": "shuihu",
+      "path": "apps/shuihu/godot/shared_desktop_ui/assets/fonts/ma-shan-zheng-115-400-normal.woff2",
+      "sha256": "d7a6b36978f798a83d30e10af99b6d4dcea6f634ce30bb1db9b16fe48d6555ce"
+    },
+    {
+      "game": "shuihu",
+      "path": "apps/shuihu/godot/shared_desktop_ui/assets/fonts/ma-shan-zheng-116-400-normal.woff2",
+      "sha256": "38a4241d2a1250af6848ecad11da7ce639c28dd666b586ada23bced9570082f2"
+    },
+    {
+      "game": "shuihu",
+      "path": "apps/shuihu/godot/shared_desktop_ui/assets/fonts/ma-shan-zheng-117-400-normal.woff2",
+      "sha256": "dba4ba6b98df8deb81d9b3fb16fb48a4b4a0d8ad3d92934267216a064eba776f"
+    },
+    {
+      "game": "shuihu",
+      "path": "apps/shuihu/godot/shared_desktop_ui/assets/fonts/ma-shan-zheng-118-400-normal.woff2",
+      "sha256": "0f82546911062a7358c5e5be5e180fe6c324dfdc0043322e458bc9be16c9cd46"
+    },
+    {
+      "game": "shuihu",
+      "path": "apps/shuihu/godot/shared_desktop_ui/assets/fonts/ma-shan-zheng-119-400-normal.woff2",
+      "sha256": "701407edf05f2daae7898eef5163029edd0873982305a9df602678e16b3f1b95"
+    },
+    {
+      "game": "shuihu",
+      "path": "apps/shuihu/godot/shared_desktop_ui/assets/fonts/ma-shan-zheng-26-400-normal.woff2",
+      "sha256": "71a49385236fd1aedc4c4b88d79e9718f8b0fba6a8bbc773a6e082459dbe5b43"
+    },
+    {
+      "game": "shuihu",
+      "path": "apps/shuihu/godot/shared_desktop_ui/assets/fonts/ma-shan-zheng-32-400-normal.woff2",
+      "sha256": "c732ae833edbab1dfc4e761d4f0e9fb88b08ce2d100d6f147449c52dffd3ac15"
+    },
+    {
+      "game": "shuihu",
+      "path": "apps/shuihu/godot/shared_desktop_ui/assets/fonts/ma-shan-zheng-34-400-normal.woff2",
+      "sha256": "6954786a8a61c0bd8069b06d3123ccd6c09a902eba20c57202faa9799015fc28"
+    },
+    {
+      "game": "shuihu",
+      "path": "apps/shuihu/godot/shared_desktop_ui/assets/fonts/ma-shan-zheng-36-400-normal.woff2",
+      "sha256": "95063dcabd0a70b63aa46fcf91e254c060a6f70796120d0c50deab99761945f2"
+    },
+    {
+      "game": "shuihu",
+      "path": "apps/shuihu/godot/shared_desktop_ui/assets/fonts/ma-shan-zheng-37-400-normal.woff2",
+      "sha256": "b4b2308a8b89e350c92dd282ec35c6c4d3e1573672b05e016c0b02b1227f9481"
+    },
+    {
+      "game": "shuihu",
+      "path": "apps/shuihu/godot/shared_desktop_ui/assets/fonts/ma-shan-zheng-44-400-normal.woff2",
+      "sha256": "145064d9f9f3c4677730b2abc2bcb24e34e1d974381e6a481beee198a5f17334"
+    },
+    {
+      "game": "shuihu",
+      "path": "apps/shuihu/godot/shared_desktop_ui/assets/fonts/ma-shan-zheng-46-400-normal.woff2",
+      "sha256": "d2bf030946842c4ff48bde50c379528b9f44991f7924691a1484d8ddbe2291ab"
+    },
+    {
+      "game": "shuihu",
+      "path": "apps/shuihu/godot/shared_desktop_ui/assets/fonts/ma-shan-zheng-62-400-normal.woff2",
+      "sha256": "be693e7eccdd993f5a2d40747c6de228f2e0740a01dbb9ca23ea4d44a2afe8bc"
+    },
+    {
+      "game": "shuihu",
+      "path": "apps/shuihu/godot/shared_desktop_ui/assets/fonts/ma-shan-zheng-67-400-normal.woff2",
+      "sha256": "f342d7249134c7c00b8075a7688693e20b1ea6678961c8e0949eb5272a564a16"
+    },
+    {
+      "game": "shuihu",
+      "path": "apps/shuihu/godot/shared_desktop_ui/assets/fonts/ma-shan-zheng-68-400-normal.woff2",
+      "sha256": "6e9e7a3e1b92ba4ab97ea7e66f81bd00299070fcf8b4915e23a813c914854a23"
+    },
+    {
+      "game": "shuihu",
+      "path": "apps/shuihu/godot/shared_desktop_ui/assets/fonts/ma-shan-zheng-73-400-normal.woff2",
+      "sha256": "79e5001ad0b8f03b6a33961ba03ef4f273ea29ddbc8334eca05f2f126e940275"
+    },
+    {
+      "game": "shuihu",
+      "path": "apps/shuihu/godot/shared_desktop_ui/assets/fonts/ma-shan-zheng-79-400-normal.woff2",
+      "sha256": "fafd60b2f91810b1994dec99333956a969b598c1da5b99634ff91b4c778761b5"
+    },
+    {
+      "game": "shuihu",
+      "path": "apps/shuihu/godot/shared_desktop_ui/assets/fonts/OFL.txt",
+      "sha256": "37784825d863bab31cdff1f4bfabae5b8d8e9913b91db2064a6b803b2edc92db"
+    },
+    {
+      "game": "shuihu",
+      "path": "apps/shuihu/godot/shared_desktop_ui/assets/shuihu-background.webp",
+      "sha256": "9aa3604e6bed766558af87d1d765da345bda9a8158f5ea6ec4e4911fde4edad7"
+    },
+    {
+      "game": "shuihu",
+      "path": "apps/shuihu/godot/shared_desktop_ui/assets/shuihu-figure.webp",
+      "sha256": "645d3d4ea5fcd51e081a475a28ad382d0fd9978040b73c327b2ec0f701e26687"
+    },
+    {
+      "game": "shuihu",
+      "path": "apps/shuihu/godot/shared_desktop_ui/boot.gd",
+      "sha256": "1e84ef21b24e9c8dcffc66590266f591d82e1611125927d50df98dec44335636"
+    },
+    {
+      "game": "shuihu",
+      "path": "apps/shuihu/godot/shared_desktop_ui/copy.gd",
+      "sha256": "e2e7217f461f4a63dc48dad0008a23ac548fecb19840666195c09ecd4bae385e"
+    },
+    {
+      "game": "shuihu",
+      "path": "apps/shuihu/godot/shared_desktop_ui/desktop_boot.tscn",
+      "sha256": "419f6ca1494c9c1bec3dc6c8fc6f98390277e9b407a17e0688c1806282a41d92"
+    },
+    {
+      "game": "shuihu",
+      "path": "apps/shuihu/godot/shared_desktop_ui/desktop_view.gd",
+      "sha256": "0a3f0314684ed037375420456ff764c2cbff78bf437c527dee6b1ae930d854d3"
+    },
+    {
+      "game": "shuihu",
+      "path": "apps/shuihu/godot/shared_desktop_ui/fonts.json",
+      "sha256": "fb57d66e78bb4baa737d7c84d6768d249ba446534fffe1a87a724196e7f38966"
+    },
+    {
+      "game": "shuihu",
+      "path": "apps/shuihu/godot/shared_desktop_ui/palette.json",
+      "sha256": "2a1b4407e3093d2aa4929a723ed597a049f3b1fc3e9ba7e98bdc7ac65b5853d5"
+    },
+    {
+      "game": "shuihu",
+      "path": "apps/shuihu/godot/shared_desktop_ui/settings_store.gd",
+      "sha256": "9bfe046d34ece1bf5d7bcca6a71d1e8d4918a1e002eac263e52f0481bcee7b69"
+    },
+    {
+      "game": "shuihu",
+      "path": "apps/shuihu/godot/shared_desktop_ui/theme.gd",
+      "sha256": "a85fb2deaee27d94d16ffeeb990ac1c049b9f9bb1578db73de90e36be33106fe"
+    },
+    {
+      "game": "shuihu",
+      "path": "apps/shuihu/godot/shared_desktop_ui/game.json",
+      "sha256": "2d38a9806b39a55a29719625bb6d3be7e64ebd0f547cebda9cc833bee715c9ef"
+    },
+    {
+      "game": "shuihu",
+      "path": "apps/shuihu/godot/shared_desktop_ui/game_data.gd",
+      "sha256": "2913f51a9315d64b5b442e23a0740143261c73a7c1b0df4fe9415bf1cb3961b5"
+    },
+    {
+      "game": "shuihu",
+      "path": "apps/shuihu/godot/shared_desktop_ui/gameplay.tscn",
+      "sha256": "64e76cd473b15c3c4a112b8bbc75db70fac783c13ba72c3400e902f6f8d351ac"
+    }
+  ]
+}
